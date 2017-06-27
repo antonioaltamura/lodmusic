@@ -1,0 +1,28 @@
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #000 !important;
+    background: #000 !important;
+    color: #fff;
+}
+
+.ui-widget.ui-widget-content {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-family: Dosis, arial, sans-serif !important;
+}
+
+.work-full-detail {
+    font-size: 14px;
+}
+
+.work-full-detail .row {
+    padding: 4px 0;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
