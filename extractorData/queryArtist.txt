@@ -1,0 +1,20 @@
+CONSTRUCT
+{
+?artist a umbel-rc:MusicalPerformer;
+      foaf:name ?name;
+      dbo:abstract ?abstract;
+            dbo:thumbnail ?image;
+      dbo:birthDate ?bDate.
+
+}
+WHERE{
+  ?artist a umbel-rc:MusicalPerformer;
+      foaf:name ?name;
+      dbo:abstract ?abstract;
+      dbo:birthDate ?bDate.
+
+OPTIONAL{?artist dbo:thumbnail ?image} .
+FILTER(lang(?abstract) = "en").
+}
+LIMIT 10000
+OFFSET 

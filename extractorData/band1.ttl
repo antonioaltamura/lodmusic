@@ -3872,8 +3872,8 @@ dbr:Pikkardiyska_Tertsiya	rdf:type	dbo:Band ;
 	dbo:genre	dbr:A_cappella ;
 	foaf:name	"Pikkardiyska Tertsiya"@en ,
 		"\u041F\u0456\u043A\u043A\u0430\u0440\u0434\u0456\u0439\u0441\u044C\u043A\u0430 \u0422\u0435\u0440\u0446\u0456\u044F"@en ;
-	dbp:currentMembers	dbr:Andriy_Kapral’ ,
-		dbr:Volodymyr_Yakyments’ ,
+	dbp:currentMembers	dbr:Andriy_Kapral ,
+		dbr:Volodymyr_Yakyments ,
 		dbr:Yaroslav_Nudyk ,
 		dbr:Roman_Turianyn ,
 		dbr:Andriy_Shavala ,
@@ -4683,7 +4683,7 @@ dbr:Ocha_la_Rocha	rdf:type	dbo:Band ;
 	foaf:name	"Ocha la Rocha"@en ;
 	dbp:currentMembers	dbr:Johnny_la_Rocha ;
 	dbp:website	ns6:ochalarocha .
-dbr:Larbanois_–_Carrero	rdf:type	dbo:Band ;
+dbr:Larbanois_-_Carrero	rdf:type	dbo:Band ;
 	dbo:abstract	"Larbanois \u2013 Carrero is a duo of Uruguayan folk music integrated by Eduardo Larbanois and Mario Carrero. Created at the end of 1977 and with a history that stretches to the present, is concerning artistic several generations of Uruguayan musicians ."@en ;
 	dbo:genre	dbr:Popular_music ,
 		dbr:Folk_music ;
@@ -9215,10 +9215,10 @@ dbr:Papercranes	rdf:type	dbo:Band ;
 		dbr:Garage_rock ,
 		dbr:Pop_music ;
 	foaf:name	"Sex Museum"@en ;
-	dbp:currentMembers	dbr:Javier_„Vacas“ ,
+	dbp:currentMembers	dbr:Javier_Vacas ,
 		dbr:Marta_Ruiz ,
 		dbr:Miguel_Pardo ,
-		dbr:Roberto_Lozano_„Loza“ ,
+		dbr:Roberto_Lozano_Loza ,
 		dbr:Fernando_Pardo ;
 	dbp:website	<http://www.sexmuseumrock.com/> ;
 	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Sex_Museum_(band).jpg?width=300> .
