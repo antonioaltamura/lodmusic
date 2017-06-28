@@ -39,20 +39,10 @@
 
     <!-- Navigation panel -->
     <nav class="main-nav js-stick">
-        <div class="full-wrapper relative clearfix">
-            <!-- Logo ( * your text or image into link tag *) -->
-            <div class="nav-logo-wrap local-scroll">
-                <a href="mp-index.html" class="logo">
-                    <img src="images/logo-dark.png" alt=""/>
-                </a>
-            </div>
-            <div class="mobile-nav">
-                <i class="fa fa-bars"></i>
-            </div>
 
-            <%- include blocks/menu %>
+        <%- include('blocks/menu.ejs', {theme:"dark"}) %>
 
-        </div>
+
     </nav>
     <!-- End Navigation panel -->
 
@@ -126,6 +116,7 @@
                                             dbr:Elektra_Records
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                         <!-- End Project Detail -->
@@ -140,11 +131,81 @@
 
     <!-- Work Navigation -->
     <div class="work-navigation clearfix">
-        <a href="portfolio-single-5.html" class="work-prev"><span><i class="fa fa-chevron-left"></i>&nbsp;Previous album - <b>Ride the Lightning</b></span></a>
-        <a href="#" class="work-all"><span><i class="fa fa-times"></i>&nbsp;All albums</span></a>
-        <a href="portfolio-single-2.html" class="work-next"><span>Next album&nbsp; - <b>...And Justice for All</b> <i class="fa fa-chevron-right"></i></span></a>
+        <a href="portfolio-single-5.html" class="work-prev"><span><i class="fa fa-chevron-left"></i>&nbsp;Previous album</span></a>
+        <a href="#" class="work-all"><span><i class="fa fa-times"></i>&nbsp;All works</span></a>
+        <a href="portfolio-single-2.html" class="work-next"><span>Next album&nbsp;<i class="fa fa-chevron-right"></i></span></a>
     </div>
     <!-- End Work Navigation -->
+
+
+    <!-- Blog Section -->
+    <section class="page-section" id="news">
+        <div class="container relative">
+
+            <h2 class="section-title font-alt align-left mb-70 mb-sm-40">
+                Related artists
+            </h2>
+
+            <div class="row multi-columns-row">
+
+                <!-- Post Item -->
+                <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.1s" data-wow-duration="2s">
+
+                    <div class="post-prev-img">
+                        <a href="blog-single-sidebar-right.html"><img src="http://commons.wikimedia.org/wiki/Special:FilePath/Gerry_Mulligan_by_Erling_Mandelmann.jpg?width=300" alt="" /></a>
+                    </div>
+
+                    <div class="post-prev-title font-alt">
+                        <a href="">Gerry Mulligan</a>
+                    </div>
+                    <div class="post-prev-text">
+                        Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor
+                        consectetur fermentum nibh volutpat, accumsan purus.
+                    </div>
+                </div>
+                <!-- End Post Item -->
+
+                <!-- Post Item -->
+                <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="2s">
+
+                    <div class="post-prev-img">
+                        <a href="blog-single-sidebar-right.html"><img src="http://commons.wikimedia.org/wiki/Special:FilePath/Art_Pepper.jpg?width=300" alt="" /></a>
+                    </div>
+
+                    <div class="post-prev-title font-alt">
+                        <a href="">Art Pepper</a>
+                    </div>
+                    <div class="post-prev-text">
+                        Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor
+                        consectetur fermentum nibh volutpat, accumsan purus.
+                    </div>
+
+                </div>
+                <!-- End Post Item -->
+
+                <!-- Post Item -->
+                <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.3s" data-wow-duration="2s">
+
+                    <div class="post-prev-img">
+                        <a href="blog-single-sidebar-right.html"><img src="http://commons.wikimedia.org/wiki/Special:FilePath/Dizzy_Gillespie01.JPG?width=300" alt="" /></a>
+                    </div>
+
+                    <div class="post-prev-title font-alt">
+                        <a href="">Dizzy Gillespie</a>
+                    </div>
+                    <div class="post-prev-text">
+                        Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor
+                        consectetur fermentum nibh volutpat, accumsan purus.
+                    </div>
+                </div>
+                <!-- End Post Item -->
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End Blog Section -->
+
     <!-- Divider -->
     <hr class="mt-0 mb-0 "/>
     <!-- End Divider -->
