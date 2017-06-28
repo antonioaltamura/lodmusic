@@ -1,7 +1,7 @@
 let router = require('express').Router();
 
 router.get('/', function(req, res, next) {
-	res.render('detail');
+	res.render('detailAlbum');
 });
 
 module.exports = router;

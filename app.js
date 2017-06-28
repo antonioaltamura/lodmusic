@@ -10,7 +10,8 @@ let express = require('express'),
   bodyParser = require('body-parser');
 
 let index = require('./routes/index'),
-	detail = require('./routes/detail');
+	detailAlbum = require('./routes/detailAlbum'),
+	detailArtist = require('./routes/detailArtist');
 
 let app = express();
 app.set('views', path.join(__dirname, 'views'));
@@ -24,7 +25,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/detail', detail);
+app.use('/detailAlbum', detailAlbum);
+app.use('/detailArtist', detailArtist);
 
 app.use(function(req, res, next) {
   let err = new Error('Not Found');
