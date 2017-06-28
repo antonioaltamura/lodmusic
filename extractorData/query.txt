@@ -1,0 +1,22 @@
+CONSTRUCT {
+	$album a dbo:Album;
+			foaf:name ?name;
+			dbo:abstract ?abstract;
+			dbo:recordLabel ?recordLabel;
+			dbo:releaseDate ?date;
+			dbo:artist ?band.
+
+}WHERE
+{
+	
+	{?album a schema:MusicAlbum} UNION {?album a dbo:Album}.
+	?album foaf:name ?name;
+			dbo:abstract ?abstract;
+			dbo:recordLabel ?recordLabel;
+			dbo:releaseDate ?date;
+			dbo:artist ?band.
+			FILTER(lang(?abstract) = "en").
+			OPTIONAL{?album dbo:genre []?genre}.
+}
+LIMIT 10000
+OFFSET 

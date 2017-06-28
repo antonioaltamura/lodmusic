@@ -1,0 +1,22 @@
+CONSTRUCT {
+  ?band a dbo:Band ;
+       foaf:name ?name;
+        dbp:website ?website ; 
+      dbo:abstract ?abstract ;
+      dbo:genre ?genre;
+      dbo:image ?image;
+      dbp:currentMembers ?member .
+}
+WHERE 
+{
+  ?band a umbel-rc:Band_MusicGroup;
+      foaf:name ?name;
+      dbo:bandMember ?member;
+          foaf:homepage ?website;
+          dbo:abstract ?abstract.
+FILTER(lang(?abstract) = "en").
+OPTIONAL{?band dbo:genre ?genre} .
+OPTIONAL {?band dbo:thumbnail ?image}.
+}
+LIMIT 10000
+OFFSET 

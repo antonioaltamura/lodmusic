@@ -1,0 +1,26 @@
+CONSTRUCT{
+	?track a dbo:MusicalWork;
+	     	foaf:name ?name;
+			dbo:abstract ?abstract;
+			dbo:album ?album;
+			dbo:recordLabel ?recordLabel;
+			dbo:releaseDate ?date;
+			dbo:musicalArtist ?artist.
+
+}
+WHERE
+{
+	
+	{?track a umbel-rc:MusicSingle} UNION {?track a dbo:MusicalWork}.
+
+	?track	foaf:name ?name;
+			dbo:abstract ?abstract;
+			dbo:releaseDate ?date;
+			dbo:musicalArtist ?artist.
+			FILTER(lang(?abstract) = "en").
+			OPTIONAL{?track dbo:album ?album}.
+			OPTIONAL{?track dbo:recordLabel ?recordLabel}.
+
+}
+LIMIT 10000
+OFFSET 

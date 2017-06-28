@@ -1,0 +1,362 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbr:All_Day_and_All_of_the_Night	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"All Day and All of the Night\" is a song by the British band The Kinks from 1964. It reached No. 2 on the UK Singles Chart and No. 7 on Billboard's United States chart in 1965. The song was released on the American studio album Kinks-Size."@en ;
+	dbo:album	dbr:Kinks-Size ;
+	dbo:musicalArtist	dbr:The_Kinks .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:All_Day_and_All_of_the_Night	dbo:releaseDate	"1964-10-23"^^xsd:date .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+dbr:All_Day_and_All_of_the_Night	foaf:name	"All Day and All of the Night"@en .
+dbr:Flavour_of_the_Old_School	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"'\"Flavour of the Old School\"' is a song by British R&B recording artist Beverley Knight, released as her debut single from her debut The B-Funk (1995). The track, which peaked at number fifty on the UK Singles Chart when it was released in March 1995, was accompanied by a low budget music video that saw Knight in the recording studio singing directly into the camera. It was re-released however in October 1995, supported by a new video and strong support from urban radio. The song went on to become Knight's first top 40 single, peaking at number thirty-three in the official UK Singles Chart. The song later reappeared on the b-side of Knight's 1999 single \"Made it Back\". The video is frequently shown in rotation on MTV Base."@en ;
+	dbo:album	dbr:The_B-Funk ;
+	dbo:musicalArtist	dbr:Beverley_Knight ;
+	dbo:releaseDate	"1995-03-09"^^xsd:date ;
+	foaf:name	"Flavour of the Old School"@en .
+<http://dbpedia.org/resource/I\u0027m_\u0027n_Luv_(wit_a_Stripper)>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"I'm 'n Luv (Wit a Stripper)\" (censored as \"I'm 'n Luv (Wit a Dancer)\") is a single performed by American R&B artist T-Pain featuring rapper Mike Jones. Released in late 2005 (though the music video was not released until the week of January 16, 2006), it peaked at #5 on the Billboard Hot 100 chart, making it T-Pain's second top 10 single, and Mike Jones' first. This is T-Pain's third most successful single to date, tying with his other \"Bartender\", but Mike Jones's most successful single to date. The official remix is with Twista, Akon, R. Kelly, Too Short and more."@en ;
+	dbo:album	dbr:Rappa_Ternt_Sanga ;
+	dbo:musicalArtist	dbr:T-Pain ;
+	dbo:releaseDate	"2005-12-13"^^xsd:date ;
+	foaf:name	"I'm 'n Luv (Wit a Stripper)"@en .
+<http://dbpedia.org/resource/Lunchbox_(song)>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Lunchbox\" is the second single from Marilyn Manson's debut album, Portrait of an American Family."@en ;
+	dbo:album	dbr:Portrait_of_an_American_Family ;
+	dbo:musicalArtist	<http://dbpedia.org/resource/Marilyn_Manson_(band)> ;
+	dbo:releaseDate	"1995-02-06"^^xsd:date ;
+	foaf:name	"Lunchbox"@en .
+dbr:Sex_and_Candy	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Sex and Candy\" is a song released by American alternative rock group Marcy Playground. It was released in November 1997 as the lead single from their self-titled debut album. It was the band's breakthrough single. The song was written by John Wozniak, executive produced by Jeff J. White, produced by Jared Kotler and engineered by Kenny Gioia and Bill Seasack. Both the drums and bass were performed by Jared Kotler. Guitar and vocals were performed by Wozniak."@en ;
+	dbo:album	<http://dbpedia.org/resource/Marcy_Playground_(album)> ;
+	dbo:musicalArtist	dbr:Marcy_Playground ;
+	dbo:releaseDate	"1997-11-04"^^xsd:date ;
+	foaf:name	"Sex and Candy"@en .
+dbr:You_Can_Call_Me_Al	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"You Can Call Me Al\" is a song by the American singer-songwriter Paul Simon. It was the lead single from his seventh studio album, Graceland (1986), released on Warner Bros. Records. Written by Simon, its lyrics follow an individual seemingly experiencing a midlife crisis. Its lyrics were partially inspired by Simon's trip to South Africa and inexperience with its culture. Released in September 1986, \"You Can Call Me Al\" became Simon's biggest solo hit, reaching the top five in seven countries."@en ;
+	dbo:album	<http://dbpedia.org/resource/Graceland_(album)> ;
+	dbo:musicalArtist	dbr:Paul_Simon ;
+	dbo:releaseDate	"1986-09-05"^^xsd:date ;
+	foaf:name	"You Can Call Me Al"@en .
+dbr:Das_letzte_Streichholz	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Das letzte Streichholz\" (German for The Last Match) is the second single from German industrial metal group Oomph! from GlaubeLiebeTod. The standard version of the single included the album versions of \"Das letzte Streichholz\" and \"Mein Schatz\". The limited edition single includes the two songs from the standard version, as well as two unreleased tracks (\"Der Pr\u00E4sident ist tot\" and \"Die H\u00F6lle kann warten\") and a remix of the title song."@en ;
+	dbo:album	dbr:GlaubeLiebeTod ;
+	dbo:musicalArtist	<http://dbpedia.org/resource/Oomph!> ;
+	dbo:releaseDate	"2006-05-12"^^xsd:date ;
+	foaf:name	"Das letzte Streichholz"@en .
+dbr:En_qué_estrella_estará	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"En qu\u00E9 estrella estar\u00E1\" is the second official single from Nena Daconte from their debut Album He perdido los zapatos. This song is the official track from the Vuelta Ciclista a Espa\u00F1a 2006."@en ;
+	dbo:album	dbr:He_Perdido_los_Zapatos ;
+	dbo:musicalArtist	dbr:Nena_Daconte ;
+	dbo:releaseDate	"2006-07-23"^^xsd:date ;
+	foaf:name	"En qu\u00E9 estrella estar\u00E1"@en .
+dbr:Free_the_World	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Free the World\" is a single by American singer La Toya Jackson. Jackson spent six years in seclusion after divorcing her abusive late ex-husband and manager, Jack Gordon, in 1997. After her years in exile, the September 11th attacks inspired Jackson to write \"Free the World\". She recorded and performed it for friends, who immediately fell in love with it. This led to the revival of Jackson's 25-year-old music career. This song led Jackson to begin work on her Startin' Over album, which included the 2004 Billboard chart hit \"Just Wanna Dance\" as the lead single. \"Free the World\" was released as a follow-up and charted in March 2005. The single peaked at #24 on the Billboard Hot Dance Club Play charts. The song is an appeal to free the world from segregation, discrimination and years of war. VH1 described the ballad as the \"most appropriate song for the world.\" About.com dubbed Jason Randolph's remix a \"trippily hypnotic treat\" with a \"churning rhythm track and mesmerizing synth.\""@en ;
+	dbo:album	<http://dbpedia.org/resource/Starting_Over_(La_Toya_Jackson_EP)> ;
+	dbo:musicalArtist	dbr:La_Toya_Jackson ;
+	dbo:releaseDate	"2004-11-23"^^xsd:date ;
+	foaf:name	"Free the World"@en .
+dbr:Grand_Unification_Part_1	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Grand Unification Part 1\" is the second single from the Fightstar album Grand Unification. There are two videos to this song. One of the videos is a mixture of Fightstar playing in a, what would seem to be some sort of cave or room, as well as scenes from Dragonball Z. The second video is the band playing in the same sort of cave/room but without the Dragonball Z scenes. It has since been revealed that the location used was the same as that used by The Prodigy in the controversial video for their song Firestarter, and this has been interpreted as a tribute on the part of Fightstar to The Prodigy. Much like Paint Your Target, there are 2 recorded versions of Grand Unification Part 1. One, recorded by Chris Sheldon, was released as a single and appeared on the Dragonball Z version of the video. The other version, which appears on Grand Unification, was recorded by Colin Richardson and appeared on the video without the Dragonball Z scenes."@en ;
+	dbo:album	<http://dbpedia.org/resource/Grand_Unification_(album)> ;
+	dbo:musicalArtist	dbr:Fightstar ;
+	dbo:releaseDate	"2005-10-31"^^xsd:date ;
+	foaf:name	"Grand Unification Part 1"@en .
+@prefix ns5:	<http://dbpedia.org/resource/In_Love_with_the_DJ/> .
+ns5:Sunset_Girl	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"In Love with the DJ/Sunset Girl\" is a single released by ATB from his album Addicted to Music."@en ;
+	dbo:album	dbr:Addicted_to_Music ;
+	dbo:musicalArtist	dbr:ATB ;
+	dbo:releaseDate	"2004-03-30"^^xsd:date ;
+	foaf:name	"The DJ - In Love with the DJ/Sunset Girl"@en .
+dbr:King_of_the_Rodeo	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"King of the Rodeo\" is the third single taken from Kings of Leon's second album, Aha Shake Heartbreak. It was released in 2005 and charted at number 41 in the UK Singles Chart. The song was used in the season premiere of the second season of Entourage in the episode titled \"The Boys Are Back in Town\"."@en ;
+	dbo:album	dbr:Aha_Shake_Heartbreak ;
+	dbo:musicalArtist	dbr:Kings_of_Leon ;
+	dbo:releaseDate	"2005-04-11"^^xsd:date ;
+	foaf:name	"King of the Rodeo"@en .
+dbr:Rien_ne_me_changera	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Rien ne me changera\" is the second single from the winner of A La Recherche De La Nouvelle Star - Jonatan Cerrada. In English \"Rien ne me Changera\" means \"Nothing Will Change Me\". This song features on Jonatan's debut album Siempre 23."@en ;
+	dbo:album	dbr:Siempre_23 ;
+	dbo:musicalArtist	dbr:Jonatan_Cerrada ;
+	dbo:releaseDate	"2003-11-03"^^xsd:date ;
+	foaf:name	"Rien ne me changera"@en .
+dbr:Tears_of_Pearls	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Tears of Pearls\" is a song by Savage Garden, released as the seventh and final single taken from their eponymous self-titled debut album. The song was later included on the remix disc of The Future of Earthly Delites as the Tears on the Dancefloor Mix. There are two distinct versions of this mix; the original, and a version included on later pressings of the album, containing more reverb on the vocals."@en ;
+	dbo:album	<http://dbpedia.org/resource/Savage_Garden_(album)> ;
+	dbo:musicalArtist	dbr:Savage_Garden ;
+	dbo:releaseDate	"1999-05-11"^^xsd:date ;
+	foaf:name	"Tears of Pearls"@en .
+<http://dbpedia.org/resource/(It\u0027s_Just)_The_Way_That_You_Love_Me>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"The Way That You Love Me\" is a 1988 Pop single by American singer Paula Abdul taken from her debut album Forever Your Girl. It was written by Oliver Leiber."@en ;
+	dbo:album	dbr:Forever_Your_Girl ;
+	dbo:musicalArtist	dbr:Paula_Abdul ;
+	dbo:releaseDate	"1988-08-02"^^xsd:date ,
+		"1989-09-15"^^xsd:date ;
+	foaf:name	"(It's Just) The Way That You Love Me"@en .
+dbr:Milk_and_Toast_and_Honey	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Milk and Toast and Honey\" is the third single released from Swedish pop duo Roxette's 2001 album Room Service. The single was only released commercially in Europe and Australia and although it did not become a massive hit, Per Gessle had the melody stuck in his head for a year before he wrote anything down. The song also became a major radio hit in South America and many European countries."@en ;
+	dbo:album	<http://dbpedia.org/resource/Room_Service_(Roxette_album)> ;
+	dbo:musicalArtist	dbr:Roxette ;
+	dbo:releaseDate	"2001-09-03"^^xsd:date ;
+	foaf:name	"Milk and Toast and Honey"@en .
+dbr:Something_He_Can_Feel	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Something He Can Feel\" is a song composed by Curtis Mayfield for the 1976 motion picture Sparkle. The song, a love ballad in a Chicago-/Philly-soul style, became a number-one hit on the Billboard's R&B singles chart in the United States twice with two separate recordings: a 1976 version by Aretha Franklin from the film's soundtrack (see 1976 in music), and a 1992 cover by girl group En Vogue (see 1992 in music)."@en ;
+	dbo:album	dbr:Funky_Divas ,
+		<http://dbpedia.org/resource/Sparkle_(Aretha_Franklin_album)> ,
+		<http://dbpedia.org/resource/The_Light_(Afrika_Bambaataa_album)> ;
+	dbo:musicalArtist	dbr:En_Vogue ,
+		dbr:Afrika_Bambattaa_and_Family ,
+		dbr:Aretha_Franklin ;
+	dbo:recordLabel	dbr:East_West_Records ,
+		dbr:Elektra_Records ,
+		dbr:Atlantic_Records ,
+		dbr:Parlophone ;
+	dbo:releaseDate	"1976-05-05"^^xsd:date ,
+		"1992-06-11"^^xsd:date ;
+	foaf:name	"Giving Him Something He Can Feel"@en ,
+		"Something He Can Feel"@en .
+dbr:Step_in_the_Name_of_Love	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Step in the Name of Love (Remix)\" is the title of a hit song by R&B singer R. Kelly. Taken from the 2003 album Chocolate Factory, the song became the tenth single from Kelly (and the final one to date) to reach #1 on the R&B chart, particularly on the strength of the song's remix. It also peaked at number nine on the pop charts on December 2, 2003. The original \"Step in the Name of Love\", which is on the unreleased 2002 album \"Loveland\" as well as the Chocolate Factory album, described a dance style initially created in Chicago called \"stepping\". That dance, and the music associated with it, was heavily featured on disc one of his 2004 double album, \"Happy People/U Saved Me\". The song became an impromptu \"anthem\" for steppers and the dance. In the UK, the song was a double A-side with \"Thoia Thoing\"."@en ;
+	dbo:album	dbr:Chocolate_Factory ;
+	dbo:musicalArtist	<http://dbpedia.org/resource/R._Kelly> ;
+	dbo:recordLabel	dbr:Jive_Records ;
+	dbo:releaseDate	"2003-10-16"^^xsd:date ;
+	foaf:name	"Step in the Name of Love (Remix)"@en .
+dbr:Still_on_It	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Still on It\" was the first and only single from her remix album Collectables by Ashanti. The single was released in late November 2005. The single generated less interest than previous Ashanti singles, just reaching #115 on the US Hot 100. In Europe, the album and the single were not promoted by Murder Inc., so the album failed on European charts. In China and Japan, the single wasn't released. The remix of the single was released in the U.S. later on in the 2006 year, which featured T.I. The track samples \"Knowledge Me\" by Original Concepts and \"Born to Roll\" by Masta Ace."@en ;
+	dbo:album	dbr:Collectables_by_Ashanti ;
+	dbo:musicalArtist	<http://dbpedia.org/resource/Ashanti_(singer)> ;
+	dbo:recordLabel	dbr:Murder_Inc_Records ;
+	dbo:releaseDate	"2005-11-07"^^xsd:date ;
+	foaf:name	"Still on It"@en .
+<http://dbpedia.org/resource/Stuntin\u0027_Like_My_Daddy>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Stuntin' Like My Daddy\" is the first single from Birdman and Lil Wayne's album, Like Father, Like Son. It reached a number twenty-one on the U.S. Billboard Hot 100 in the United States, won the 2007 BET Viewer's Choice Award, and was named the 94th best song of 2006 by Rolling Stone magazine."@en ;
+	dbo:album	<http://dbpedia.org/resource/Like_Father,_Like_Son_(Birdman_and_Lil_Wayne_album)> ;
+	dbo:musicalArtist	dbr:Lil_Wayne ,
+		<http://dbpedia.org/resource/Birdman_(rapper)> ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Universal_Records_(defunct_record_label)> ,
+		dbr:Cash_Money_Records ;
+	dbo:releaseDate	"2006-07-18"^^xsd:date ;
+	foaf:name	"Stuntin' Like My Daddy"@en .
+<http://dbpedia.org/resource/Superman\u0027s_Dead>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Superman's Dead\" is a song by Our Lady Peace, released as the first single from their second album Clumsy. This has become one of Our Lady Peace's most popular songs in both Canada and the U.S., as well as many other parts of the world. The song has become the definitive example of Our Lady Peace's staple sound, highlighted by vocalist Raine Maida's unusual yet powerful falsetto. This song, in contrast to many others on the album, is very heavy, especially in comparison to tracks like \"Automatic Flowers\" and \"Clumsy\"."@en ;
+	dbo:album	<http://dbpedia.org/resource/Clumsy_(Our_Lady_Peace_album)> ;
+	dbo:musicalArtist	dbr:Our_Lady_Peace ;
+	dbo:recordLabel	dbr:Columbia_Records ;
+	dbo:releaseDate	"1996-12-16"^^xsd:date ;
+	foaf:name	"Superman's Dead"@en .
+dbr:Swanky_Street	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Swanky Street\" is a maxi single by the Japanese rock band The Pillows. The song was included on their 1997 release Please Mr. Lostman. \"Swanky Street\" was featured ending music on an Asahi TV music program. The single also includes a cover of the Prince song \"When You Were Mine\"."@en ;
+	dbo:album	<http://dbpedia.org/resource/Please_Mr._Lostman> ;
+	dbo:musicalArtist	dbr:The_Pillows ;
+	dbo:recordLabel	<http://dbpedia.org/resource/King_Records_(Japan)> ;
+	dbo:releaseDate	"1996-08-21"^^xsd:date ;
+	foaf:name	"Swanky Street"@en .
+<http://dbpedia.org/resource/That\u0027s_What_Love_Is_For>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"That's What Love Is For\" is a 1991 Billboard Hot 100 top ten single by Christian music singer Amy Grant. It was released as the fourth single from the Heart In Motion album. The single was the only one from the album to be released both to secular and Christian radio; \"That's What Love Is For\" was the album's second Christian radio single and its third pop radio single. In the United States, \"That's What Love Is For\" became Amy Grant's second Adult Contemporary chart-topper and third Top Ten Hot 100 single, peaking at #7, while in the United Kingdom the single reached #60."@en ;
+	dbo:album	dbr:Heart_in_Motion ;
+	dbo:musicalArtist	dbr:Amy_Grant ;
+	dbo:recordLabel	<http://dbpedia.org/resource/A&M_Records> ;
+	dbo:releaseDate	"1991-09-12"^^xsd:date ;
+	foaf:name	"That's What Love Is For"@en .
+dbr:The_Last_to_Know	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"The Last to Know\" is a song recorded by Sheena Easton for her 1987 album, No Sound But a Heart. It was written by Brock Walsh and Phil Galdston and produced by Nick Martinelli. In 1990, it was covered by Celine Dion."@en ;
+	dbo:album	<http://dbpedia.org/resource/Unison_(Celine_Dion_album)> ;
+	dbo:musicalArtist	dbr:Celine_Dion ;
+	dbo:recordLabel	dbr:Epic_Records ,
+		dbr:Columbia_Records ;
+	dbo:releaseDate	"1991-03-11"^^xsd:date ;
+	foaf:name	"The Last to Know"@en .
+dbr:The_World_Is_Stone	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"The World Is Stone\" is a single by American singer, Cyndi Lauper. This is the English version of the French song \"Le Monde est stone\" (1978), which was part of the Starmania musical and has been most notably associated with Fabienne Thibeault, Marie Carmen and C\u00E9line Dion. The song was composed by Michel Berger. The original French lyrics were written by Luc Plamondon, and the song was adapted to English by Tim Rice. It is a ballad from the Tycoon soundtrack. On the single the B-side was a song entitled, \"You Have to Learn to Live Alone\", which was also featured on this soundtrack. Although this single was not released in U.S., it was a hit in several countries (number 15 in UK) but especially in France where it climbed to number two, stayed for three months in the top five and totaled 31 weeks in the top 50."@en ;
+	dbo:album	<http://dbpedia.org/resource/Starmania_(musical)> ;
+	dbo:musicalArtist	dbr:Cyndi_Lauper ;
+	dbo:recordLabel	dbr:Epic_Records ;
+	dbo:releaseDate	"1992-06-18"^^xsd:date ;
+	foaf:name	"The World Is Stone"@en .
+dbr:Ticket_to_the_Moon	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Ticket to the Moon\" is a popular song written by Jeff Lynne and performed by Electric Light Orchestra (ELO). It was track four on the album Time (1981) and was released as a Double A along with \"Here Is the News\" in January 1982, reaching number 24 in the UK charts. The song is somewhat reminiscent of their earlier output, featuring grand piano and more strings than their past few singles. Rainer Pietsch conducted the strings on the song. The promo video featured Mik Kaminski on violin. The single was also released as a limited edition 12\" picture disc showing the ELO spaceship, The same image was later used as the sleeve design for the UK follow up single \"The Way Life's Meant to Be\". The name was used for a compilation album in 2007, \"Ticket to the Moon: The Very Best of Electric Light Orchestra Volume 2\"."@en ;
+	dbo:album	<http://dbpedia.org/resource/Time_(Electric_Light_Orchestra_album)> ;
+	dbo:musicalArtist	dbr:Electric_Light_Orchestra ;
+	dbo:recordLabel	dbr:Jet_Records ;
+	dbo:releaseDate	"1981-12-11"^^xsd:date ,
+		"1982-01-09"^^xsd:date ;
+	foaf:name	"Ticket to the Moon"@en .
+<http://dbpedia.org/resource/Too_Much,_Too_Little,_Too_Late>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Too Much, Too Little, Too Late\" is a song performed by singers Johnny Mathis and Deniece Williams. Lyrics and music are arranged by Nat Kipner and John Vallins. The single was a comeback of sorts for Mathis, as it was his first chart-topping hit in the US since 1957's \"Chances Are\". Released as a single in 1978, it reached number 1 on the U.S. Billboard Hot 100 pop chart, Adult Contemporary chart, and R&B chart. Outside the U.S., the song peaked at number nine on the Canadian Singles Chart and number three on the UK Singles Chart. \"Too Much, Too Little, Too Late\" was certified gold and silver in the US and in the UK by the RIAA and the British Phonographic Industry respectively. Later in 1978 the duo released a follow-up single, \"You're All I Need to Get By\" (which peaked at number 47 on the Hot 100), and a full album of duets, That's What Friends Are For. The success of the duets with Williams prompted Mathis to record duets with a variety of partners including Jane Olivor, Dionne Warwick, Natalie Cole, Gladys Knight, and Nana Mouskouri. A compilation album, also called Too Much, Too Little, Too Late and released by Sony Music in 1995, featured the title track among other songs by the Mathis/Williams duo."@en ;
+	dbo:album	<http://dbpedia.org/resource/You_Light_Up_My_Life_(Johnny_Mathis_album)> ;
+	dbo:musicalArtist	dbr:Deniece_Williams ,
+		dbr:Johnny_Mathis ;
+	dbo:recordLabel	dbr:Columbia_Records ;
+	dbo:releaseDate	"1978-02-21"^^xsd:date ;
+	foaf:name	"Too Much, Too Little, Too Late"@en .
+dbr:You_Remind_Me_of_Something	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"You Remind Me of Something\" is the title of a number-one R&B single by singer R. Kelly. As the lead single from his self-titled album, the hit song was the fourth song from Kelly to reach number-one on the US R&B chart where it stayed for a week, and peaked at number four on the Billboard Hot 100 chart. The song's spoken opening line, \"You remind me of something...I just can't think of what it is\" would be sampled in 2003 for the original version of Kelly's hit Ignition. Prior to that, the line is referenced in \"We Ride\" on 1998's R. Wale and Jeremih's song, \"The Body\", samples this song. The song \"No Scratches\" by rapper Lupe Fiasco contains a sample of this song."@en ;
+	dbo:album	<http://dbpedia.org/resource/R._Kelly_(album)> ;
+	dbo:musicalArtist	<http://dbpedia.org/resource/R._Kelly> ;
+	dbo:recordLabel	dbr:Jive_Records ;
+	dbo:releaseDate	"1995-10-30"^^xsd:date ;
+	foaf:name	"You Remind Me of Something"@en .
+dbr:Around_the_Way_Girl	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Around the Way Girl\" is a hit single by LL Cool J from his 1990 album Mama Said Knock You Out. The song is about LL searching for a girl who is streetwise. The single samples Mary Jane Girls' \"All Night Long\", Keni Burke's \"Risin' To the Top\", and The Honey Drippers' \"Impeach the President\", which is used as the main instrumental element of the song. It is also noted that this song is an early example of the high pitched sample rap. Around the Way Girl later appeared on LL Cool J's 1996 greatest hits album, All World: Greatest Hits. \"Around the Way Girl\" peaked at #9 on the Billboard Hot 100, becoming his first top 10 single. It also was a hit on the R&B and dance music charts, where it peaked at #5 and #7 respectively. The RIAA certified \"Around the Way Girl\" Gold on January 15, 1991 for sales of over 500,000 copies."@en ;
+	dbo:album	dbr:Mama_Said_Knock_You_Out ;
+	dbo:musicalArtist	dbr:LL_Cool_J ;
+	dbo:recordLabel	dbr:Def_Jam_Recordings ;
+	dbo:releaseDate	"1990-11-20"^^xsd:date ;
+	foaf:name	"Around The Way Girl"@en .
+dbr:Girl_from_Mars	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Girl from Mars\" is a single by Northern Irish band Ash, the second to be released from the album 1977. It was released on 31 July 1995 on CD, a 7\" vinyl, and as a cassette. \"Girl from Mars\" was Ash's first Top 40 single, reaching number 11 on the UK Singles Chart, number 16 on the Irish Singles Chart, and the first single to bring the band to mainstream prominence.The song was written by Tim Wheeler when he was sixteen, and was played by the band on their first Top of the Pops appearance two weeks after their A-level exams. The song is also found on the greatest hits collection \"Intergalactic Sonic 7\u2033s\", the soundtrack to the television program Gilmore Girls \"Our Little Corner of the World\", and live versions can be found on their \"Live at the Wireless\" album, \"Tokyo Blitz\" DVD and \"Numbskull\" EP. The track has been used by NASA as the hold music on their telephone lines."@en ;
+	dbo:album	<http://dbpedia.org/resource/1977_(Ash_album)> ;
+	dbo:musicalArtist	<http://dbpedia.org/resource/Ash_(band)> ;
+	dbo:recordLabel	dbr:Infectious_Records ;
+	dbo:releaseDate	"1995-07-31"^^xsd:date ;
+	foaf:name	"Girl from Mars"@en .
+dbr:Greatest_Time_of_Year	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Greatest Time of Year\" is the only single from Aly & AJ's Christmas album Acoustic Hearts of Winter. The single was used for The Santa Clause 3, similar to the way Hilary Duff's song \"Santa Clause Lane\" was used for The Santa Clause 2, and the music video also had scenes from the film. The video first aired on October 16, 2006 on the Disney Channel. The single debuted at number 96 on the U.S. Billboard Hot 100 chart."@en ;
+	dbo:album	dbr:Acoustic_Hearts_of_Winter ;
+	dbo:musicalArtist	<http://dbpedia.org/resource/Aly_&_AJ> ;
+	dbo:recordLabel	dbr:Hollywood_Records ;
+	dbo:releaseDate	"2006-11-21"^^xsd:date ;
+	foaf:name	"Greatest Time of Year"@en .
+dbr:Happy_as_Annie	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Happy as Annie\" was originally released in 2005 as the limited edition second single by Larrikin Love on London indie label Transgressive Records (TRANS 010). Re-recorded and re-mixed by Ian Gore for the band's 2006 debut album The Freedom Spark, a new version of the song was released on 11 September 2006 through Warner. A live favourite, the song is notable for contrasting some of the band's most catchy and light-hearted bluegrass music with disturbing lyrics, apparently concerning a country stroll that ends in the discovery of a child rape victim."@en ;
+	dbo:album	dbr:The_Freedom_Spark ;
+	dbo:musicalArtist	dbr:Larrikin_Love ;
+	dbo:recordLabel	dbr:Warner_Music_Group ,
+		dbr:Transgressive_Records ;
+	dbo:releaseDate	"2006-09-11"^^xsd:date ;
+	foaf:name	"Happy as Annie"@en .
+dbr:Here_Without_You	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Here Without You\" is a song recorded by American rock band 3 Doors Down. It was released in August 2003 as the third single from the album Away from the Sun. It peaked at number five on the Billboard Hot 100 for the week ending November 8, 2003. Only their songs \"Kryptonite\" and \"When I'm Gone\" reached higher positions on the chart, peaking at #3 and #4 respectively. It has since been certified 2x Platinum in the United States and Platinum in Australia. While the Mainstream Rock and Modern Rock were the main formats for 3 Doors Down, it wasn't expected to be a big success, the song was a moderate success hitting #14 on the Mainstream Rock Tracks and #22 on the Modern Rock Tracks, it failed to top or reach #1 on both charts due to its soft rock ballads in the song compared to its original post-grunge sounds from their other songs including their 4 previous rock and alternative hits Kryptonite, Loser, Duck and Run, and When I'm Gone, but it still became a big hit making it their 3rd #1 Top 40 Mainstream hit and their 1st #1 Adult Top 40 hit for 13 consecutive weeks. After that, the song was played only on pop and adult contemporary stations, this song was not played on rock radio unlike their previous hits. The song grew in popularity following the start of the Iraq War, and became an anthem for deployed troops and their families and friends at home."@en ;
+	dbo:album	dbr:Away_from_the_Sun ;
+	dbo:musicalArtist	<http://dbpedia.org/resource/3_Doors_Down> ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Universal_Records_(defunct_record_label)> ;
+	dbo:releaseDate	"2003-08-11"^^xsd:date ;
+	foaf:name	"Here Without You"@en .
+<http://dbpedia.org/resource/Knockin\u0027_Da_Boots>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Knockin' da Boots\" is the debut single from R&B group H-Town, taken from their debut album Fever for da Flavor. \"Knockin' da Boots\" became one of the biggest R&B singles of 1993 according to the Billboard charts, where it peaked at number three for seven weeks, and also topped the R&B chart for four weeks, and it helped win the band a Soul Train Music Award for Best R&B/Soul or Rap New Artist. Knockin the Boots, was originally titled, \"Knockin the Tennis Shoes\" and was co written by Eric Coutryer in 1992 before it debuted in 1994. The song was certified platinum by the Recording Industry Association of America and sold over 1.1 million copies. The song contains a sample of \"Be Alright\" by Zapp. In a profile of distinguished lawyer Kristine Huskey, Marie Claire magazine reported that Huskey had appeared as a dancer in the song's music video while working her way through law school."@en ;
+	dbo:album	dbr:Fever_for_da_Flavor ;
+	dbo:musicalArtist	<http://dbpedia.org/resource/H-Town_(band)> ;
+	dbo:recordLabel	dbr:Luke_Records ;
+	dbo:releaseDate	"1993-03-11"^^xsd:date ;
+	foaf:name	"Knockin' da Boots"@en .
+dbr:Last_Train_to_London	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Last Train to London\" is the fifth track from the Electric Light Orchestra (ELO) album Discovery. The song was released in 1979 in the UK as a double A-side single with \"Confusion\". It peaked at number 8 in the UK Singles Chart. However, in the US the two songs charted separately, with \"Confusion\" in late 1979 followed by \"Last Train to London\" in early 1980. It peaked at number 39 on the Billboard Hot 100. In Spain the single was released with the Spanish title \"Ultimo tren a Londres\"."@en ;
+	dbo:album	<http://dbpedia.org/resource/Discovery_(Electric_Light_Orchestra_album)> ;
+	dbo:musicalArtist	dbr:Electric_Light_Orchestra ;
+	dbo:recordLabel	dbr:Jet_Records ;
+	dbo:releaseDate	"1979-11-09"^^xsd:date ;
+	foaf:name	"Last Train to London"@en .
+<http://dbpedia.org/resource/Lily\u0027s_E.P.>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"Lily's E.P. is the eighth maxi single by Dragon Ash; released in 2000. It is stated on the CD packaging that both Amploud and \u9759\u304B\u306A\u65E5\u3005\u306E\u968E\u6BB5\u3092 (Shizuka na Hibi no Kaidan o) are lead tracks, as opposed to the general trend in the record industry to dedicate singles to one lead or title track."@en ;
+	dbo:album	dbr:Lily_of_da_Valley ;
+	dbo:musicalArtist	dbr:Dragon_Ash ;
+	dbo:recordLabel	dbr:Victor_Entertainment ;
+	dbo:releaseDate	"2000-11-29"^^xsd:date ;
+	foaf:name	"Lily's E.P."@en .
+<http://dbpedia.org/resource/Love_the_One_You\u0027re_With>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Love the One You're With\" is a 1970 single by folk rocker Stephen Stills. The first release from his solo debut Stephen Stills, it peaked at No. 14 in the Billboard Hot 100. A live version by Crosby, Stills, Nash and Young appears on their album 4 Way Street. A solo version by Stills appears on the Crosby, Stills and Nash CD Demos. Stills wrote the song after being inspired by the tag line -- \"If you can't be with the one you love, love the one you're with\" which was a frequent remark by musician Billy Preston. Stills asked him for permission to use the line in a song and Preston agreed immediately.[citation needed] Of course Preston, himself, may have taken the idea from Harburg and Lane\u2019s \u201CWhen I\u2019m Not Near the Girl I Love, I Love the Girl I\u2019m Near\u201D, from the 1947 Broadway show Finian\u2019s Rainbow; it was sung by Tommy Steele in the 1968 film version."@en ;
+	dbo:album	<http://dbpedia.org/resource/Writing_on_the_Wall_(Bucks_Fizz_album)> ,
+		<http://dbpedia.org/resource/Songs_(Luther_Vandross_album)> ,
+		<http://dbpedia.org/resource/Givin\u0027_It_Back> ,
+		<http://dbpedia.org/resource/Stephen_Stills_(album)> ;
+	dbo:musicalArtist	dbr:Stephen_Stills ,
+		dbr:Bucks_Fizz ,
+		dbr:The_Isley_Brothers ,
+		dbr:Luther_Vandross ;
+	dbo:recordLabel	dbr:T-Neck_Records ,
+		dbr:Polydor_Records ,
+		dbr:Atlantic_Records ,
+		dbr:Buddah_Records ,
+		dbr:Epic_Records ;
+	dbo:releaseDate	"1995-09-27"^^xsd:date ,
+		"1986-08-20"^^xsd:date ;
+	foaf:name	"Love the One You're With"@en .
+dbr:My_Friends_Over_You	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"My Friends over You\" is a song by American pop punk band New Found Glory. It was released in July 2002 as the lead single from their third studio album, Sticks and Stones (2002). In the US, the song charted at number 85 on the Billboard Hot 100 and number 5 on the Modern Rock Tracks chart. In the UK, it reached number 30."@en ;
+	dbo:album	<http://dbpedia.org/resource/Sticks_and_Stones_(New_Found_Glory_album)> ;
+	dbo:musicalArtist	dbr:New_Found_Glory ;
+	dbo:recordLabel	dbr:Drive-Thru_Records ,
+		dbr:MCA_Records ;
+	dbo:releaseDate	"2002-07-22"^^xsd:date ;
+	foaf:name	"My Friends over You"@en .
+dbr:Nothing_in_This_World	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Nothing in This World\" was released on August 28, 2006 and is the second official single taken from Paris Hilton's debut album Paris, and features vocals from then-unknown pop singer Kesha. The song loosely concerns an unrequited love.[citation needed]"@en ;
+	dbo:album	<http://dbpedia.org/resource/Paris_(Paris_Hilton_album)> ;
+	dbo:musicalArtist	dbr:Paris_Hilton ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Warner_Bros._Records> ;
+	dbo:releaseDate	"2006-08-28"^^xsd:date ;
+	foaf:name	"Nothing in This World"@en .
+<http://dbpedia.org/resource/Rockaria!>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Rockaria!\" is a song by Electric Light Orchestra (ELO), written by Jeff Lynne. It was the third track on the band's successful 1976 album, A New World Record and was the second single from the album. On some CD pressings of A New World Record, it appears without the exclamation point."@en ;
+	dbo:album	dbr:A_New_World_Record ;
+	dbo:musicalArtist	dbr:Electric_Light_Orchestra ;
+	dbo:recordLabel	dbr:Jet_Records ;
+	dbo:releaseDate	"1977-02-19"^^xsd:date ;
+	foaf:name	"Rockaria!"@en .
+<http://dbpedia.org/resource/The_Party\u0027s_Just_Begun>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"The Party's Just Begun\" is the lead single from the The Cheetah Girls 2 soundtrack."@en ;
+	dbo:album	<http://dbpedia.org/resource/The_Cheetah_Girls_2_(soundtrack)> ;
+	dbo:musicalArtist	<http://dbpedia.org/resource/The_Cheetah_Girls_(group)> ;
+	dbo:recordLabel	dbr:Walt_Disney_Records ;
+	dbo:releaseDate	"2006-06-05"^^xsd:date ;
+	foaf:name	"The Party's Just Begun"@en .
+<http://dbpedia.org/resource/There\u0027s_the_Girl>	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"There's the Girl\" is a song recorded by the American rock band, Heart. It was composed by Holly Knight and Heart band member Nancy Wilson. \"There's The Girl\" was released in a remixed version as the third single from Heart's ninth studio album, Bad Animals. Knight is known as a very successful songwriter who was responsible for penning many hit singles during the 1980s. Like Heart's 1986 #1 single \"These Dreams\", the lead vocals on \"There's the Girl\" were performed by Nancy Wilson, rather than Ann Wilson (though most fans did not realize this until the video was released or they saw the song performed live), the usual lead singer for the group. The single climbed to #12 on the U.S. Billboard Hot 100 and was also a Top-40 single on the UK Singles Chart, where it peaked at #34."@en ;
+	dbo:album	dbr:Bad_Animals ;
+	dbo:musicalArtist	<http://dbpedia.org/resource/Heart_(band)> ;
+	dbo:recordLabel	dbr:Capitol_Records ;
+	dbo:releaseDate	"1987-11-07"^^xsd:date ;
+	foaf:name	"There's the Girl"@en .
+dbr:Head_Like_a_Hole	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Head Like a Hole\" is a song by the American industrial rock band Nine Inch Nails. A song influenced by industrial metal group Ministry, it was released as the second single from the group's debut album Pretty Hate Machine. The song received an almost overwhelmingly positive response from critics, and has been noted as one of the most popular tracks from the album. \"Head Like a Hole\" nearly charted on the Billboard Hot 100, peaking at 9th on the Bubbling Under chart while faring better on Billboard's Alternative Songs chart peaking at 28th. It enjoyed heavy rotation on the radio at the time. It has also been covered by new wave band Devo, Christian rock band Showbread, indie rock band Honest Bob and the Factory-to-Dealer Incentives, punk rock band AFI and nu metal band Korn."@en ;
+	dbo:album	dbr:Pretty_Hate_Machine ;
+	dbo:musicalArtist	dbr:Nine_Inch_Nails ;
+	dbo:recordLabel	dbr:TVT_Records ;
+	dbo:releaseDate	"1990-03-22"^^xsd:date ;
+	foaf:name	"Head Like a Hole"@en .
+dbr:Last_Christmas	rdf:type	dbo:MusicalWork ;
+	dbo:abstract	"\"Last Christmas\" is a song by English pop duo Wham!, released on Epic Records in 1984, on a double A-side with \"Everything She Wants\". Originally written and produced by George Michael, it has been covered by many artists since its original release."@en ;
+	dbo:album	<http://dbpedia.org/resource/Whigfield_(album)> ,
+		dbr:Music_from_the_Edge_of_Heaven ,
+		<http://dbpedia.org/resource/Classic_Christmas_(Joe_McElderry_album)> ,
+		dbr:Crazy_Frog_Presents_More_Crazy_Hits ,
+		dbr:Whigfield_II ,
+		<http://dbpedia.org/resource/Christmas_Kisses_(EP)> ,
+		dbr:Disco_Defenders ,
+		dbr:Cascada_discography ;
+	dbo:musicalArtist	dbr:Crazy_Frog ,
+		dbr:Billie_Piper ,
+		dbr:Whigfield ,
+		dbr:Jimmy_Eat_World ,
+		<http://dbpedia.org/resource/Wham!> ,
+		<http://dbpedia.org/resource/Alcazar_(band)> ,
+		dbr:Ariana_Grande ,
+		dbr:Ashley_Tisdale ,
+		dbr:Cascada ,
+		dbr:Carly_Rae_Jepsen ,
+		dbr:Joe_McElderry ;
+	dbo:recordLabel	dbr:Interscope_Records ,
+		dbr:Ministry_of_Sound ,
+		dbr:Columbia_Records ,
+		dbr:Better_Looking_Records ,
+		dbr:Republic_Records ,
+		dbr:Decca_Records ,
+		dbr:Innocent_Records ,
+		dbr:School_Boy_Records ,
+		<http://dbpedia.org/resource/Warner_Bros._Records> ,
+		dbr:Epic_Records ,
+		<http://dbpedia.org/resource/604_Records> ;
+	dbo:releaseDate	"1984-12-10"^^xsd:date ,
+		"2015-11-20"^^xsd:date ,
+		"1995-12-03"^^xsd:date ,
+		"2007-11-21"^^xsd:date ,
+		"2009-11-20"^^xsd:date ,
+		"2006-11-11"^^xsd:date ,
+		"2006-11-21"^^xsd:date ,
+		"2011-11-04"^^xsd:date ,
+		"2013-11-19"^^xsd:date ,
+		"2001-12-10"^^xsd:date ;
+	foaf:name	"Last Christmas"@en .
