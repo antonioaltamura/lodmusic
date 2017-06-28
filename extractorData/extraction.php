@@ -2,7 +2,7 @@
 <?php
 # HTTP URL is constructed accordingly with JSON query results format in mind.
 
-function sparqlQuery($query, $baseURL, $format="application/json")
+function sparqlQuery($query, $baseURL, $format="application/rdf")
 
   {
 	$params=array(
@@ -24,10 +24,21 @@ function sparqlQuery($query, $baseURL, $format="application/json")
 	
 	$sparqlURL=$baseURL . $querypart;
 	
-	return json_decode(file_get_contents($sparqlURL));
+	return file_get_contents($sparqlURL);
 };
 
+function saveFile($file, $output){
 
+$fp = fopen($file, 'a');
+fwrite($fp, $output);
+fclose($fp);
+};
+
+function readQuery($fileQuery){
+$fp = fopen($fileQuery, 'r');
+$query = fread($fp,filesize($fileQuery));
+return $query;
+};
 
 
 $dsn="http://dbpedia.org/resource/DBpedia";
@@ -39,35 +50,25 @@ $chunk = 0;
 $stop = false;
 
 //to modify
-$nullPoint = "{\"head\":{\"link\":[],\"vars\":[\"band\"]},\"results\":{\"distinct\":false,\"ordered\":true,\"bindings\":[]}}";
+$nullPoint = "# Empty TURTLE
+";
 
+$toExec = readQuery("query.txt");
 while(!$stop){
 	$chunk++;
-	$value = 10000*$chunk;
-
-	//to modify
-$query="SELECT ?band
-WHERE 
-{
-	?band a umbel-rc:Band_MusicGroup;
-		  foaf:name ?name;
-		  dbo:bandMember ?member;
-          foaf:homepage ?website;
-          dbo:abstract ?abstract.
-FILTER(lang(?abstract) = \"en\").
-OPTIONAL{?band dbo:genre ?genre} .
-OPTIONAL{?band dbo:thumbnail ?image}.
-}
-LIMIT 10000.
-OFFSET ".$value;
-
+	$value = 10000 * $chunk;
+$query = $toExec.$value;
 $data=sparqlQuery($query, "http://dbpedia.org/sparql");
-
-if((strcmp(json_encode($data),$nullPoint))==0) $stop = true;
-
-// add file save
-print "Retrieved data:\n" . json_encode($data);
+if((strcmp($data,$nullPoint))==0){ 
+	$stop = true; 
+	break;
+	}
+	//insert name table
+	$file = "band".$chunk.".ttl";
+	echo "Nr iteration: ".$chunk."\n";
+saveFile($file, $data);
 
 }
+print "Finish";
 
 ?>
