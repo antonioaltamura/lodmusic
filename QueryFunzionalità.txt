@@ -1,0 +1,83 @@
+############## Dato il nome di un artista ($param) ottieni tutte le info ##############
+
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT ?artist ?name ?bDate ?abstract ?image
+WHERE
+{
+	?artist a umbelrc:MusicalPerformer;
+    foaf:name $param;
+	dbo:abstract ?abstract;
+	dbo:birthDate ?bDate.
+ OPTIONAL{?artist dbo:thumbnail ?image}.
+}
+
+
+############## Dato il nome di un artista ($param) ottieni le sue info + sua band (JOIN)##############
+
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+SELECT DISTINCT ?artist ?name ?bDate ?abstract ?image ?band
+WHERE
+{
+	?artist a umbelrc:MusicalPerformer;
+    foaf:name $param;
+	dbo:abstract ?abstract;
+	dbo:birthDate ?bDate.
+  ?band dbp:currentMembers ?artist.
+ OPTIONAL{?artist dbo:thumbnail ?image}.
+}
+
+
+############## Band di un artista ##############
+
+
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbp: <http://dbpedia.org/property/>
+SELECT ?band
+WHERE{
+?band a dbo:Band;
+             dbp:currentMembers $param.
+}
+
+############## Dato il nome di una band ($param) ottieni tutte le info ##############
+
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+SELECT ?band ?name ?website ?abstract ?genre ?image ?member
+WHERE{
+ ?band a dbo:Band ;
+       foaf:name $param;
+      dbo:abstract ?abstract ;
+      dbp:currentMembers ?member .
+  OPTIONAL{?band dbo:genre ?genre } .
+  OPTIONAL{?band dbp:website ?website} .
+  OPTIONAL{?band dbo:image ?image} .
+}
+
+############## Dato il nome di un album ($param) ottieni tutte le info ##############
+
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX schema: <http://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT DISTINCT ?album ?abstract ?recordLabel ?releaseDate ?genre ?artist
+WHERE{
+?album a schema:MusicAlbum;
+			foaf:name $param;
+			dbo:abstract ?abstract;
+			dbo:recordLabel ?recordLabel;
+			dbo:releaseDate ?date;
+  			dbo:artist ?band.
+  OPTIONAL{?album dbo:genre ?genre}.
+			
+}
