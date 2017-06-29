@@ -65,7 +65,7 @@ if((strcmp($data,$nullPoint))==0){
 	break;
 	}
 	//insert name table
-	$file = "album".$chunk.".ttl";
+	$file = "band".$chunk.".ttl";
 	echo "Nr iteration: ".$chunk."\n";
 saveFile($file, $data);
 

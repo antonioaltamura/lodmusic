@@ -11,11 +11,11 @@ WHERE
 {
   ?band a umbel-rc:Band_MusicGroup;
       foaf:name ?name;
-      dbo:bandMember ?member;
-          foaf:homepage ?website;
-          dbo:abstract ?abstract.
+      dbo:abstract ?abstract.
+      {?band dbo:bandMember ?member} UNION {?band dbo:formerBandMember ?member}.
 FILTER(lang(?abstract) = "en").
 OPTIONAL{?band dbo:genre ?genre} .
+OPTIONAL{?band foaf:homepage ?website} .
 OPTIONAL {?band dbo:thumbnail ?image}.
 }
 LIMIT 10000
