@@ -4187,7 +4187,7 @@ dbr:Average_White_Band	rdf:type	dbo:Band ;
 	dbp:currentMembers	dbr:Alan_Gorrie ;
 	dbp:website	<http://www.averagewhiteband.com> ;
 	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Average_White_Band_2013.jpg?width=300> .
-dbr:Bachman–Turner_Overdrive	rdf:type	dbo:Band ;
+dbr:Bachman-Turner_Overdrive	rdf:type	dbo:Band ;
 	dbo:abstract	"Bachman\u2013Turner Overdrive is a Canadian rock group from Winnipeg, Manitoba, that had a series of hit albums and singles in the 1970s, selling over 7 million albums in that decade alone. Their 1970s catalogue included five Top 40 albums and six U.S. Top 40 singles (ten in Canada). The band has sold nearly 30 million albums worldwide, and has fans affectionately known as \"gearheads\" (derived from the band's gear-shaped logo). Many of their songs, including \"Let It Ride\", \"You Ain't Seen Nothing Yet\", \"Takin' Care of Business\", \"Hey You\" and \"Roll On Down the Highway\", still receive play on classic-rock stations. After the band went into a hiatus in 2005, Randy Bachman and Fred Turner reunited in 2009 to tour and collaborate on a new album. In 2010, they played the halftime show at the Grey Cup in Edmonton, AB and continue to tour as of summer 2014. On March 29, 2014, the classic Not Fragile lineup reunited for the first time since 1991 to mark Bachman\u2013Turner Overdrive's induction into the Canadian Music Hall of Fame, and participated in performing in a tribute version of \"Takin' Care of Business.\""@en ;
 	dbo:genre	dbr:Rock_music ,
 		dbr:Hard_rock ,
@@ -8483,7 +8483,7 @@ dbr:Yello	rdf:type	dbo:Band ;
 		dbr:Dieter_Meier ;
 	dbp:website	<http://www.yello.com/> ;
 	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Dieter_Meier_on_October_15,_2011.jpg?width=300> .
-dbr:Buselli–Wallarab_Jazz_Orchestra	rdf:type	dbo:Band ;
+dbr:Buselli-Wallarab_Jazz_Orchestra	rdf:type	dbo:Band ;
 	dbo:abstract	"The Buselli\u2013Wallarab Jazz Orchestra is a jazz orchestra consisting of 17 pieces. The late jazz musician J.J. Johnson called the BWJO, \"A marvelous new band with exceptional soloists and some of the most creative and satisfying writing I've heard in a long time.\" BWJO co-founders Mark Buselli and Brent Wallarab are music educators, as well as musicians and composers. Their common commitment to America's jazz heritage brought the BWJO to life and helped define the mission of the organization. They regularly hold concerts and clinics at public schools in Indianapolis"@en ;
 	foaf:name	"Buselli-Wallarab Jazz Orchestra"@en ;
 	dbp:currentMembers	dbr:Rob_Dixon ,
