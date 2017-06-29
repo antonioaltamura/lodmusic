@@ -19,5 +19,5 @@ CONSTRUCT {
 			FILTER(lang(?abstract) = "en").
 			OPTIONAL{?album dbo:genre ?genre}.
 }
-LIMIT 40000
+LIMIT 10000
 OFFSET 

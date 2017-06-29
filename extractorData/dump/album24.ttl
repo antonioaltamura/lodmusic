@@ -1,0 +1,60 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+@prefix schema:	<http://schema.org/> .
+dbr:Music_of_the_Mana_series	rdf:type	schema:MusicAlbum .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbr:Music_of_the_Mana_series	dbo:abstract	"The Mana series, known in Japan as Seiken Densetsu (\u8056\u5263\u4F1D\u8AAC, lit. \"Holy Sword Legend\"), is a role-playing video game series from Square Enix, created by Koichi Ishii. The series began as a handheld side story to Square's flagship franchise Final Fantasy, although most Final Fantasy-inspired elements were subsequently dropped, starting with the second installment, Secret of Mana. It has since grown to include games of various genres within the fictional world of Mana. The music of the Mana series includes soundtracks and arranged albums of music from the series, which is currently composed of Final Fantasy Adventure and its remake Sword of Mana, Secret of Mana, Seiken Densetsu 3, Legend of Mana, Dawn of Mana, Children of Mana, Friends of Mana, Heroes of Mana, Circle of Mana, and Rise of Mana. Each game except for Friends and Circle has produced a soundtrack album, while Adventure has sparked an arranged album as well as a combined soundtrack and arranged album, Legend of Mana has an additional promotional EP, and music from Secret and Seiken Densetsu 3 were combined together into an arranged album. For the series' 20th anniversary, a 20-disc box set of previously-released albums was produced, as well as an album of arrangements by Kenji Ito, composer for several games in the series. The music of Final Fantasy Adventure was composed by Kenji Ito, while Hiroki Kikuta composed Secret of Mana and Seiken Densetsu 3 and Yoko Shimomura wrote the score to Legend of Mana. The music of the World of Mana subseries, composed of Children, Dawn, Friends, and Heroes of Mana, was composed by many different composers, with Ito, Kikuta, Shimomura, Tsuyoshi Sekito, Masayoshi Soken, and Ryuichi Sakamoto composing Dawn, Ito, Masaharu Iwata, and Takayuki Aihara writing Children, and Shimomura composing the music of Friends and Heroes. Rise of Mana was composed by an ensemble group including Ito, Kikuta, Shimomura, Sekito, Yasuhiro Yamanaka, and Kokia. Music from the series has been performed in live concerts such as the Orchestral Game Concerts and the Symphonic Game Music Concerts, and made up one fourth of the Symphonic Fantasies concert in Cologne, Germany. Music from the Mana series has also been arranged for the piano and published as sheet music books."@en ;
+	dbo:artist	dbr:Kenji_Ito ,
+		dbr:Hiroki_Kikuta ,
+		dbr:Masayoshi_Soken ,
+		dbr:Tsuyoshi_Sekito ,
+		dbr:Takayuki_Hattori ;
+	dbo:genre	dbr:Pop_music ,
+		dbr:Video_game_music ,
+		dbr:Classical_music ,
+		dbr:Electronic_music ,
+		dbr:Big_beat ,
+		dbr:Rock_music ,
+		dbr:Ambient_music ,
+		dbr:Chiptune ,
+		dbr:Folk_music ,
+		dbr:Symphonic_rock ,
+		dbr:Breakbeat ;
+	dbo:recordLabel	dbr:DigiCube ,
+		dbr:NTT_Publishing ,
+		dbr:Square_Enix ,
+		<http://dbpedia.org/resource/Square_(company)> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:Music_of_the_Mana_series	dbo:releaseDate	"1993-10-29"^^xsd:date ,
+		"2003-08-27"^^xsd:date ,
+		"2007-04-18"^^xsd:date ,
+		"1993-08-06"^^xsd:date ,
+		"2004-10-01"^^xsd:date ,
+		"1991-09-30"^^xsd:date ,
+		"2014-04-23"^^xsd:date ,
+		"1995-08-25"^^xsd:date ,
+		"2006-12-21"^^xsd:date ,
+		"2006-05-09"^^xsd:date ,
+		"2000-06-01"^^xsd:date ,
+		"1999-07-23"^^xsd:date ,
+		"2011-10-19"^^xsd:date ,
+		"1991-07-15"^^xsd:date ,
+		"2007-01-24"^^xsd:date ,
+		"2004-10-20"^^xsd:date ,
+		"1995-10-25"^^xsd:date .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+dbr:Music_of_the_Mana_series	foaf:name	"Secret of Mana Original Soundtrack"@en ,
+		"Seiken Densetsu 3 Original Sound Version"@en ,
+		"Legend of Mana Music Selection"@en ,
+		"Seiken Densetsu / Legend of Mana Original Soundtrack"@en ,
+		"Seiken Densetsu: Heroes of Mana Original Soundtrack"@en ,
+		"Seiken Densetsu: Rise of Mana Original Soundtrack"@en ,
+		"Secret of Mana+"@en ,
+		"Seiken Densetsu DS: Children of Mana Original Soundtrack"@en ,
+		"Breath of Mana"@en ,
+		"Final Fantasy Gaiden: Seiken Densetsu Sound Collections"@en ,
+		"Re:Birth/Seiken Densetsu Kenji Ito Arrange Album"@en ,
+		"Seiken Densetsu 4 Original Soundtrack -Sanctuary-"@en ,
+		"Seiken Densetsu Original Sound Version"@en ,
+		"Sword of Mana Premium Soundtrack"@en ,
+		"Seiken Densetsu: Let Thoughts Ride on Knowledge"@en .

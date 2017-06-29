@@ -1,0 +1,2105 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+@prefix schema:	<http://schema.org/> .
+dbr:The_Moths_Are_Real	rdf:type	schema:MusicAlbum .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbr:The_Moths_Are_Real	dbo:abstract	"The Moths Are Real is the third studio album by the singer-songwriter Serafina Steer. It was released in January 2013 by Stolen Recordings."@en ;
+	dbo:artist	dbr:Serafina_Steer ;
+	dbo:recordLabel	dbr:Stolen_Recordings .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:The_Moths_Are_Real	dbo:releaseDate	"2013-01-14"^^xsd:date .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+dbr:The_Moths_Are_Real	foaf:name	"The Moths Are Real"@en .
+<http://dbpedia.org/resource/World\u0027s_on_Fire_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"World's on Fire is the first live album and second DVD by English electronic dance music band The Prodigy, released on 11 May 2011."@en ;
+	dbo:artist	dbr:The_Prodigy ;
+	dbo:recordLabel	dbr:Take_Me_to_the_Hospital ;
+	dbo:releaseDate	"2011-05-23"^^xsd:date ;
+	foaf:name	"World's on Fire"@en .
+dbr:Govor_tela	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Govor tela (English: Body Language) is the debut studio album by Serbian dance-pop recording artist Milica Pavlovi\u0107. It was released 28 June 2014 through Grand Production."@en ;
+	dbo:artist	dbr:Milica_Pavlović ;
+	dbo:recordLabel	dbr:Grand_Production ;
+	dbo:releaseDate	"2014-06-28"^^xsd:date ;
+	foaf:name	"Govor tela"@en ,
+		"(Body Language)"@en .
+<http://dbpedia.org/resource/I_(soundtrack)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"I is the soundtrack album to the 2015 Indian romantic thriller film of the same name written and directed by S. Shankar. A. R. Rahman had composed the original songs and background score for the film. The album consists of seven tracks, which include a remix and a reprise. Recording of the songs began in 2012 and was completed by 2014. Songs in the film vary in genre like EDM, bhangra, opera, urban. The original and Hindi version of the soundtrack has youth oriented voices. The original version of the album was released on 9 September 2014. The audio was launched at a grand function with Arnold Schwarzenegger as the Chief Guest. The Hindi version of the album was released at a promotional event held in PVR, Mumbai on 29 December 2014. The Telugu version of the album was released digitally a day later. The soundtrack as well as the score received a very positive critical reception and it was declared one of the top twenty best selling albums of 2014 by iTunes India."@en ;
+	dbo:artist	<http://dbpedia.org/resource/A._R._Rahman> ;
+	dbo:recordLabel	dbr:Sony_Music_India ,
+		dbr:T-Series ;
+	dbo:releaseDate	"2014-09-15"^^xsd:date ,
+		"2014-12-29"^^xsd:date ,
+		"2014-12-30"^^xsd:date ;
+	foaf:name	"I: Original Motion Picture Soundtrack"@en .
+dbr:London_with_the_Lights_On	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"London with the Lights On is the debut studio album by English girl group Stooshe. It was originally set for release on 25 June 2012 under the name of Swings and Roundabouts, but was held back twice; under the new self-titled name and was name changed and released on 27 May 2013. \"Love Me\" was released on 4 March 2012 as the album's lead single, peaking at number 5 on the UK Singles Chart. \"Black Heart\" was released as the second single on 15 June 2012 and became the group's highest charting single to date, peaking at number 3. The third single from the album was initially intended to be \"Waterfalls\", a cover of the TLC song, which was released on 11 November 2012; however, Stooshe later revealed that it would not make the cut for the final tracklist and that they were disowning it. \"Slip\" was released as the album's third single on 12 May 2013, peaking at number 12."@en ;
+	dbo:artist	dbr:Stooshe ;
+	dbo:recordLabel	dbr:List_of_Warner_Music_Group_labels ;
+	dbo:releaseDate	"2013-05-27"^^xsd:date ;
+	foaf:name	"London with the Lights On"@en .
+<http://dbpedia.org/resource/Scars_&_Stories>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Scars & Stories is the third studio album by American alternative rock band The Fray. It was released on February 7, 2012."@en ;
+	dbo:artist	dbr:The_Fray ;
+	dbo:recordLabel	dbr:Epic_Records ;
+	dbo:releaseDate	"2012-02-07"^^xsd:date ;
+	foaf:name	"Scars & Stories"@en .
+<http://dbpedia.org/resource/Seefeel_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Seefeel is the fourth studio album by the British band of the same name, released January 31, 2011 on Warp Records. The album received generally favorable reviews."@en ;
+	dbo:artist	dbr:Seefeel ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Warp_(record_label)> ;
+	dbo:releaseDate	"2011-01-31"^^xsd:date ;
+	foaf:name	"Seefeel"@en .
+dbr:Tattooed_Beat_Messiah	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Tattooed Beat Messiah is the 1988 debut full-length studio release by Zodiac Mindwarp and The Love Reaction. Engineered by Femi Jiya and Mark Freegard. Mixed by Nigel Green. The album reached #132 on the US Billboard 200 and #20 on the UK album charts in March 1988 supported by music videos for the \"Prime Mover\" (single, April 1987), \"Backseat Education\" (single, October 1987, UK #49), and \"Planet Girl\" (single, March 1988, UK #63). Tracks included on the album that had been released in 1987 were remixed for inclusion on the album. \"Prime Mover\" would be the band's most successful single reaching #18 on the UK singles charts in May 1987, well in advance of the eventual album release. The single also charted in New Zealand hitting #12. The album was reissued in January 1998 as \"The Best of Zodiac Mindwarp\" including the \"Born To Be Wild\" track. Rock Candy Records issued a 24-bit remastered version of the album in August 2007 including the 9 tracks that had originally been used as singles B-sides."@en ;
+	dbo:artist	dbr:Zodiac_Mindwarp_and_the_Love_Reaction ;
+	dbo:recordLabel	dbr:Vertigo_Records ;
+	dbo:releaseDate	"1988-02-16"^^xsd:date ;
+	foaf:name	"Tattooed Beat Messiah"@en .
+dbr:The_Lights_from_the_Chemical_Plant	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Lights from the Chemical Plant is the third studio album by Nashville-based singer-songwriter Robert Ellis. It was released in February 2014 under New West Records. Ellis recorded the album in Eric Masse's East Nasvhille studio the Casino under the direction of producer Jacquire King. Ellis has said The Lights from the Chemical Plant, inspired by his hometown Lake Jackson, Texas, is more \"stylistically ambiguous\" than his previous albums incorporating elements of R&B, bossa nova, fusion and free jazz. On June 30, 2014 NPR Music listed the track \"Chemical Plant\" as one of the 50 Favorite Songs Of 2014 (So Far) ."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Robert_Ellis_(guitarist)> ;
+	dbo:recordLabel	dbr:New_West_Records ;
+	dbo:releaseDate	"2014-02-11"^^xsd:date ;
+	foaf:name	"The Lights from the Chemical Plant"@en .
+dbr:Total_Strife_Forever	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Total Strife Forever is the debut album by the electronic musician East India Youth. It was released on January 13, 2014 by Stolen Recordings. The album was nominated for the 2014 Mercury Prize. The cover of Total Strife Forever was designed by Kohhei Matsuda (of Bo Ningen) and features a portrait of William Doyle by artist Tida Bradshaw."@en ;
+	dbo:artist	dbr:East_India_Youth ;
+	dbo:recordLabel	dbr:Stolen_Recordings ;
+	dbo:releaseDate	"2014-01-13"^^xsd:date ;
+	foaf:name	"Total Strife Forever"@en .
+dbr:Joyas_Prestadas	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Joyas Prestadas: Pop and Joyas Prestadas: Banda (English: Borrowed Jewels) are the twelfth and final studio albums released by American recording artist Jenni Rivera on November 21, 2011 by Fonovisa Records. Joyas Prestadas consists of eleven cover versions, with the first album being recorded in Latin pop, while the second was recorded in banda. Both albums were produced by Enrique Martinez. According to Rivera, the songs she chose to cover were those she was enamored with while working as a cashier in a record store. It was her first production to include ballad recordings. Joyas Prestadas: Pop reached number one on the Mexican Albums Chart and number one on the Billboard Top Latin Albums chart in the United States while Joyas Prestadas: Banda peaked at number three on the Mexican Albums Chart and number two on the Billboard Top Latin Albums chart. Three singles were released from the album: \"\u00A1Basta Ya!\", \"A Cambio de Qu\u00E9\", and \"Detr\u00E1s de Mi Ventana\". David Jeffries of Allmusic gave both albums a positive review and called the productions \"polished\". Joyas Prestadas: Pop received a Lo Nuestro award for Pop Album of the Year and Billboard Latin Music Award nomination for Latin Pop Album of the Year and a nomination for Pop Album of the Year by a Female Artist at the 2013 Oye! Awards. Joyas Prestadas: Banda was awarded two Oye! awards for Banda Albums of the Year and Popular Album of the Year and a Billboard Latin Music Award nomination for Regional Mexican Album of the Year."@en ;
+	dbo:artist	dbr:Jenni_Rivera ;
+	dbo:recordLabel	dbr:Fonovisa_Records ;
+	dbo:releaseDate	"2011-11-21"^^xsd:date ;
+	foaf:name	"Joyas Prestadas"@en .
+dbr:We_Met_At_Sea	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"We Met At Sea is the fourth studio album by English band The Pigeon Detectives. It was released in April 2013."@en ;
+	dbo:artist	dbr:The_Pigeon_Detectives ;
+	dbo:recordLabel	dbr:Cooking_Vinyl ;
+	dbo:releaseDate	"2013-04-29"^^xsd:date ;
+	foaf:name	"We Met At Sea"@en .
+<http://dbpedia.org/resource/100_stepeni>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"100 stepeni (English: 100 Degrees) is the second studio album by Montenegrin dance-pop recording artist Dado Polumenta. It was released 6 January 2005 through Grand Production."@en ;
+	dbo:artist	dbr:Dado_Polumenta ;
+	dbo:recordLabel	dbr:Grand_Production ;
+	dbo:releaseDate	"2005-01-06"^^xsd:date ;
+	foaf:name	"100 stepeni"@en ,
+		"(100 Degrees)"@en .
+<http://dbpedia.org/resource/Sittin\u0027_at_a_Bar>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Sittin' at a Bar is an album by the American band Rehab. It features their single of the same name. It is a repackaging of their Epic Records album Southern Discomfort, with a shuffled track listing. Epic Records put it out to capitalize on the success of the song \"Sittin' at a Bar\" which had been re-recorded and released as a single by the band's new label, Universal."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Rehab_(band)> ;
+	dbo:recordLabel	dbr:Epic_Records ;
+	dbo:releaseDate	"2008-05-27"^^xsd:date ;
+	foaf:name	"Sittin' at a Bar"@en .
+dbr:Astrological_Straits	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Astrological Straits is the debut full-length studio album by American recording artist Zach Hill. It was released on August 12, 2008 by Anticon and Ipecac Records."@en ;
+	dbo:artist	dbr:Zach_Hill ;
+	dbo:recordLabel	dbr:Ipecac_Recordings ,
+		dbr:Anticon ;
+	dbo:releaseDate	"2008-08-12"^^xsd:date ;
+	foaf:name	"Astrological Straits"@en .
+<http://dbpedia.org/resource/3_Balloons>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"3 Balloons is an album by comedian/musician Stephen Lynch. According to his official website, it will be his first studio album since 2000's A Little Bit Special. As of 5 March 2009, it is available for purchase in MP3 format directly from WhatAreRecords.com. It was made available from other on-line stores starting the following week of March 2009. CDs were made available for sale at shows and on-line shortly after that, and it was released in stores starting 24 March. On his official site, Lynch says: Most professional news sources did not review the album, with the notable exception of Allmusic's positive review, stating: \"Love him or hate him \u2014 and that really does seem all there is to choose from \u2014 3 Balloons finds novelty songster Stephen Lynch on a roll, keeping the quality high even when the formula is the same it has been for the past decade.\" The album cover is a visual parody of the artwork design for the T. Rex album Electric Warrior."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Stephen_Lynch_(musician)> ;
+	dbo:recordLabel	<http://dbpedia.org/resource/W.A.R.%3F_-_What_Are_Records%3F> ;
+	dbo:releaseDate	"2009-03-24"^^xsd:date ;
+	foaf:name	"3 Balloons"@en .
+dbr:List_of_Iron_Maiden_tribute_albums	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"This is a list of albums recorded in tribute to the British heavy metal band Iron Maiden."@en ;
+	dbo:artist	dbr:Scott_Lavender ;
+	dbo:genre	dbr:Instrumental ,
+		dbr:Alternative_rock ,
+		dbr:Disco ,
+		dbr:Heavy_metal_music ,
+		dbr:Piano ,
+		dbr:Country_music ,
+		dbr:Death_metal ,
+		dbr:Black_metal ,
+		dbr:Punk_rock ,
+		dbr:Jazz ,
+		dbr:Power_metal ,
+		dbr:Doom_metal ,
+		dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Locomotive_Music ,
+		dbr:MeteorCity ,
+		dbr:Book_of_Hours_Antitainment ,
+		dbr:Nuclear_Blast ,
+		dbr:Rykodisc ;
+	dbo:releaseDate	"2008-07-16"^^xsd:date ,
+		"1999-01-26"^^xsd:date ,
+		"1999-11-16"^^xsd:date ,
+		"2000-03-07"^^xsd:date ,
+		"2005-08-02"^^xsd:date ,
+		"2005-10-11"^^xsd:date ;
+	foaf:name	"A Tribute to the Beast"@en ,
+		"A Call to Irons"@en ,
+		"A Call to Irons Vol. 2: A Tribute to Iron Maiden"@en ,
+		"The Piano Tribute to Iron Maiden"@en ,
+		"Maiden Heaven"@en ,
+		"The Golden Beast: A Tribute from Colombia to Iron Maiden"@en ,
+		"Made in Tribute: A Tribute to the Best Band in a Whole Goddamn World!"@en ,
+		"A Tribute to the Beast Vol.2"@en ,
+		"Numbers from the Beast"@en ,
+		"Food for Thought: Now That's What I Call 'Kin' Music"@en ,
+		"Slave to the Power: The Iron Maiden Tribute"@en ,
+		"Transilvania 666'"@en .
+@prefix ns6:	<http://dbpedia.org/resource/London_Conversations:> .
+ns6:_The_Best_of_Saint_Etienne	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"London Conversations: The Best of Saint Etienne is a compilation album by Saint Etienne. It was released as a deluxe 2CD/DVD set (packaged in a hardback book), standard 2-CD set and on double 12\" vinyl. It features the 2008 Xenomania Mix of \"Burnt Out Car\", the Richard X mix of \"This Is Tomorrow\" and \"Method of Modern Love\". The compilation features a selection of their regular A-sides on the first disc, while disc two includes various further A-sides, B-sides, non-singles and album tracks. Originally due for release in November 2008 following the re-release of \"Burnt Out Car,\" the set was delayed several times as a result of manufacturing issues as well as the introductory single's low chart position. In addition, a planned single-disc edition (featuring solely the first disc of the set) was cancelled. The set ultimately came out in February 2009 following the release of the newly recorded Richard X collaboration \"Method of Modern Love.\" Some early-run copies of the 2CD edition are available, though, omitting \"Method of Modern Love.\" The single-disc edition was eventually issued alongside remastered single-disc editions the rest of the band's catalogue in 2011, following the release of deluxe editions of most of their albums. In its week of release the compilation charted at #79 in the UK, missing out on the Top 75 in part due to a surge in older albums following the Brit Awards."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Saint_Etienne_(band)> ;
+	dbo:genre	dbr:House_music ,
+		dbr:Ambient_house ,
+		dbr:Electronica ,
+		dbr:Indie_pop ,
+		dbr:Synthpop ;
+	dbo:recordLabel	dbr:Heavenly_Recordings ;
+	dbo:releaseDate	"2009-02-16"^^xsd:date ;
+	foaf:name	"London Conversations: The Best of Saint Etienne"@en .
+dbr:Lost_Channels	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Lost Channels is the fourth studio album by Canadian folk rock band Great Lake Swimmers, released on March 31, 2009. It was recorded in the Thousand Islands area near the New York\u2013Ontario border and features several guest appearances by other artists, including Serena Ryder, Bob Egan (of Blue Rodeo), Erin Aurich (of A Northern Chorus) and Paul Aucoin (of The Hylozoists)."@en ;
+	dbo:artist	dbr:Great_Lake_Swimmers ;
+	dbo:genre	dbr:Folk_rock ;
+	dbo:recordLabel	dbr:Nettwerk ;
+	dbo:releaseDate	"2009-03-31"^^xsd:date ;
+	foaf:name	"Lost Channels"@en .
+dbr:Love_and_Poison	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Love and Poison (released 1993) is a live concert video of Suede's show at the Brixton Academy venue on 16 May 1993, notable mainly for its collection of early songs from their debut album Suede. Along with the nine songs from the album were four B-sides. Love and Poison seen a DVD release on the deluxe re-issue of Suede's self-titled debut album. Dean Carlson of Allmusic rated the video 4 stars, praising guitarist Bernard Butler's performance, however criticised director W.I.Z.'s camera techniques."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Suede_(band)> ;
+	dbo:recordLabel	dbr:Sony ;
+	dbo:releaseDate	"1993-11-15"^^xsd:date ;
+	foaf:name	"Love and Poison"@en .
+dbr:Magic_City_Part_2	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Magic City Part 2 is the fourth solo album by MC Magic."@en ;
+	dbo:artist	dbr:MC_Magic ;
+	dbo:genre	dbr:Rhythm_and_blues ,
+		dbr:Hip_hop_music ,
+		dbr:Latin_pop ;
+	dbo:recordLabel	dbr:Thump_Records ;
+	dbo:releaseDate	"2008-05-06"^^xsd:date ;
+	foaf:name	"Magic City Part 2"@en .
+dbr:More_than_Alot	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"More Than Alot is the debut album by British drum and bass duo Chase & Status. The album was released on 13 October 2008, and peaked at number 49 on the UK Albums Chart. The album was re-released on 4 June 2010 with bonus tracks as the \"New Edition\"."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Chase_&_Status> ;
+	dbo:genre	dbr:Breakbeat ,
+		dbr:Hip_hop_music ,
+		dbr:Dubstep ,
+		dbr:Drum_and_bass ;
+	dbo:recordLabel	dbr:RAM_Records ;
+	dbo:releaseDate	"2008-10-13"^^xsd:date ;
+	foaf:name	"More Than Alot"@en .
+<http://dbpedia.org/resource/Motion_Picture_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Motion Picture is the tenth studio album by Swiss electronic duo Yello. The record was released on 25 October 1999 via Mercury Records."@en ;
+	dbo:artist	dbr:Yello ;
+	dbo:genre	dbr:Electronica ;
+	dbo:recordLabel	dbr:Mercury_Records ;
+	dbo:releaseDate	"1999-12-14"^^xsd:date ;
+	foaf:name	"Motion Picture"@en .
+<http://dbpedia.org/resource/Movie_Music,_Vol._2>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Movie Music, Vol. 2 is an album released by Braid in 2000 on Polyvinyl."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Braid_(band)> ;
+	dbo:genre	dbr:Emo ,
+		dbr:Post-hardcore ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Polyvinyl_Record_Co.> ;
+	dbo:releaseDate	"2000-03-28"^^xsd:date ;
+	foaf:name	"Movie Music, Vol. 2"@en .
+dbr:Musik_war_ihr_Hobby	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Musik war ihr Hobby (Music was their hobby; in a reference to the German title of Murder, she wrote [Mord ist ihr Hobby - Murder is her hobby]), subtitled Die fr\u00FChen Singles (The early singles) is a single box by the German punk band Die Toten Hosen. It contains the early singles from 1982-1984."@en ;
+	dbo:artist	dbr:Die_Toten_Hosen ;
+	dbo:genre	dbr:Punk_rock ;
+	dbo:recordLabel	dbr:Virgin_Records ;
+	dbo:releaseDate	"1995-07-21"^^xsd:date ;
+	foaf:name	"Musik war ihr Hobby"@en .
+dbr:Not_Without_Love	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Not Without Love is the second studio album from CCM musician Jimmy Needham. It was released on August 19, 2008 through Inpop Records in the United States. The album's lead single \"A Breath or Two\" was released prior to the album, and reached No. 11 on Christian contemporary hit radio."@en ;
+	dbo:artist	dbr:Jimmy_Needham ;
+	dbo:genre	dbr:Christian_rock ,
+		dbr:Contemporary_Christian_music ,
+		dbr:Blues ,
+		dbr:Pop_music ;
+	dbo:recordLabel	dbr:Inpop_Records ;
+	dbo:releaseDate	"2008-08-19"^^xsd:date ;
+	foaf:name	"Not Without Love"@en .
+dbr:Now_We_Can_See	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Now We Can See is the fourth album from the Portland-based indie rock band The Thermals. The album was released on April 7, 2009 on Kill Rock Stars, which is their first album since switching labels from Sub Pop Records. Lead singer Hutch Harris claimed the album hinges on a leitmotif of \"songs from when we were alive\". The first single from the album was the title track, \"Now We Can See\". It premiered at Pitchfork Media on February 10, 2009. \"Now We Can See\" was featured in the April 27th second season finale of the NBC dramedy Chuck."@en ;
+	dbo:artist	dbr:The_Thermals ;
+	dbo:genre	dbr:Indie_rock ,
+		dbr:Punk_rock ;
+	dbo:recordLabel	dbr:Kill_Rock_Stars ;
+	dbo:releaseDate	"2009-04-07"^^xsd:date ;
+	foaf:name	"Now We Can See"@en .
+<http://dbpedia.org/resource/Off_the_Deep_End_(The_Friday_Night_Boys_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Off the Deep End is the debut full-length album by pop punk band The Friday Night Boys. It was released on June 9, 2009 and peaked at number 198 on the Billboard 200 on June 27, 2009.The track \"Stuttering\" is the album's lead single, and \"Stupid Love Letter\" is the follow-up. Videos have been released for \"Stuttering\", and \"Stupid Love Letter\". It was produced by Emanuel Kiriakou and mixed by Serban Ghenea."@en ;
+	dbo:artist	dbr:The_Friday_Night_Boys ;
+	dbo:genre	dbr:Pop_punk ,
+		dbr:Power_pop ,
+		dbr:Electronica ;
+	dbo:recordLabel	dbr:Fueled_By_Ramen ;
+	dbo:releaseDate	"2009-06-09"^^xsd:date ;
+	foaf:name	"Off the Deep End"@en .
+<http://dbpedia.org/resource/Oh_No,_It\u0027s_Love>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Oh No, It's Love is the second album by Canadian pop band The Bicycles. It is the first album to feature The Bicycles as a quartet, following Randy Lee's departure. Produced by Jos\u00E9 Miguel Contreras of By Divine Right, the album also features appearances by friends and fellow musicians including Laura Barrett, Basia Bulat, and members of The Meligrove Band, The Old Soul, Woodhands, The Adorables, and The Sketchersons. All songs were written collectively by Beckett, Scott, Smith, and Snell with the exception of \"What A Fool\" which was also written by Niall Fynes and the skit \"Prove It\" which was written by Inessa Frantowski and Holly Prazoff. A music video has been shot for the song \"Oh No, It's Love\"."@en ;
+	dbo:artist	dbr:The_Bicycles ;
+	dbo:genre	dbr:Indie_pop ;
+	dbo:recordLabel	dbr:Fuzzy_Logic_Recordings ;
+	dbo:releaseDate	"2008-11-04"^^xsd:date ;
+	foaf:name	"Oh No, It's Love"@en .
+<http://dbpedia.org/resource/Oi_Oi_Oi_(Remixed)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Oi Oi Oi Remixed is a remix album from German electro-tech producer and DJ Boys Noize. It was released April 13, 2008 on Boysnoize Records. It features remixes from producers like Surkin, A-Trak, and Feadz."@en ;
+	dbo:artist	dbr:Boys_Noize ;
+	dbo:genre	dbr:Techno ,
+		dbr:Electronic_music ,
+		dbr:Electro_house ;
+	dbo:recordLabel	dbr:Boysnoize_Records ,
+		dbr:Last_Gang_Records ;
+	dbo:releaseDate	"2008-03-25"^^xsd:date ;
+	foaf:name	"Oi Oi Oi Remixed"@en .
+dbr:One_Down	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"One Down is a 1982 album by the New York based no wave music group Material, recorded by indie producer/engineer Martin Bisi in Brooklyn and musician/engineer Robert Musso in Manhattan. The album sees the band reduced to a duo of Michael Beinhorn and Bill Laswell, collaborating with different musicians and singers on each track."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Material_(band)> ;
+	dbo:genre	dbr:Dance-rock ,
+		dbr:No_wave ;
+	dbo:recordLabel	dbr:Celluloid_Records ,
+		dbr:Elektra_Records ;
+	dbo:releaseDate	"1982-05-19"^^xsd:date ;
+	foaf:name	"One Down"@en .
+dbr:One_Eye_to_Morocco	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"One Eye To Morocco is a solo album by Deep Purple vocalist Ian Gillan. The album material was written during the gap of Deep Purple's 2008 world tour, in the US. It was released on 6 March 2009 on Edel Records as CD, Limited Edition CD and Vinyl."@en ;
+	dbo:artist	dbr:Ian_Gillan ;
+	dbo:genre	dbr:Blues_rock ;
+	dbo:recordLabel	dbr:Edel_AG ;
+	dbo:releaseDate	"2009-03-06"^^xsd:date ;
+	foaf:name	"One Eye to Morocco"@en .
+<http://dbpedia.org/resource/Paper_Roses_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Paper Roses is the debut studio album by American country music singer, Marie Osmond. It was released in 1973 on MGM Records. It was the first of four MGM albums Osmond would record as solo artist. The album's name came from its title track, \"Paper Roses,\" a cover of an Anita Bryant Top 10 hit from 1961. Osmond's version reached #1 on the Billboard Country Chart and #5 on the Billboard Hot 100 in 1973. Osmond became the first female country singer to have a #1 hit with her debut single since Connie Smith with \"Once a Day\" in 1964. The album includes cover versions of hits by Sonny James (\"You're the Only World I Know\") and Brenda Lee (\"Fool No. 1\"). Paper Roses peaked at #1 on the Billboard Top Country Albums chart, #59 on the Billboard 200 and #38 on the Canadian Albums Chart. The album was reviewed by Allmusic and was given 2 out of 5 stars."@en ;
+	dbo:artist	dbr:Marie_Osmond ;
+	dbo:genre	dbr:Country_pop ;
+	dbo:recordLabel	dbr:MGM_Records ;
+	dbo:releaseDate	"1973-09-22"^^xsd:date ;
+	foaf:name	"Paper Roses"@en .
+dbr:Put_On_a_Happy_Face	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Put On a Happy Face is a 1962 live album by the Oscar Peterson Trio, recorded at the London House jazz club in Chicago. Three other albums were recorded by Peterson and his trio at the London House, The Trio, The Sound of the Trio, and Something Warm. The complete music recorded by the trio at these sessions was released in 1997."@en ;
+	dbo:artist	dbr:Oscar_Peterson ;
+	dbo:genre	dbr:Jazz ;
+	dbo:recordLabel	dbr:Verve_Records ;
+	dbo:releaseDate	"1962-09-27"^^xsd:date ;
+	foaf:name	"Put On a Happy Face"@en .
+<http://dbpedia.org/resource/Rainbow_Connection_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Rainbow Connection is a 2001 album by country singer Willie Nelson nominated for the 2001 Country Album of the Year Grammy Award. It was recorded in December 2000 and January 2001 at Willie's ranch near Spicewood, TX."@en ;
+	dbo:artist	dbr:Willie_Nelson ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:Island_Records ;
+	dbo:releaseDate	"2001-06-12"^^xsd:date ;
+	foaf:name	"Rainbow Connection"@en .
+dbr:Rainism	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"RAINISM is the sixth studio album from South Korean R&B and pop singer Rain, and the first album since his departure from JYP Entertainment. RAINISM was released on the 16th of October in South Korea. The first single taken from the album, Love Story, became another hit for the singer. RAINISM was eventually released in four formats throughout Asia."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Rain_(entertainer)> ;
+	dbo:genre	<http://dbpedia.org/resource/Contemporary_R&B> ,
+		dbr:K-pop ;
+	dbo:recordLabel	<http://dbpedia.org/resource/CJ_E&M_Music_Performance_Division> ,
+		<http://dbpedia.org/resource/J._Tune_Entertainment> ,
+		dbr:Pony_Canyon ,
+		dbr:Warner_Music_Group ;
+	dbo:releaseDate	"2008-10-16"^^xsd:date ;
+	foaf:name	"RAINISM"@en .
+dbr:Ray_Guns_Are_Not_Just_the_Future	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Ray Guns Are Not Just the Future is the second studio album by American indie pop duo The Bird and the Bee, released on January 27, 2009 by Blue Note Records. The album contains the two lead-off tracks from the duo's last two studio EPs: \"Polite Dance Song\", from Please Clap Your Hands, and \"Birthday\", from One Too Many Hearts."@en ;
+	dbo:artist	dbr:The_Bird_and_the_Bee ;
+	dbo:genre	dbr:Indie_pop ,
+		dbr:Electronic_music ;
+	dbo:recordLabel	dbr:Blue_Note_Records ;
+	dbo:releaseDate	"2009-01-27"^^xsd:date ;
+	foaf:name	"Ray Guns Are Not Just the Future"@en .
+<http://dbpedia.org/resource/Red,_White_and_Brown>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Red, White and Brown is the second stand-up comedy album by Canadian comedian Russell Peters, recorded at the WAMU Theatre at Madison Square Garden in New York City, on February 2, 2008. It originally aired on Showtime and later on Comedy Central. The CD/DVD was released in Canada on September 30, 2008, and in the U.S. on January 27, 2009, debuting at #3 on the Canadian Albums Chart. The hip hop theme music was produced by Marco Polo, and legendary MC Melle Mel introduced Peters to the stage."@en ;
+	dbo:artist	dbr:Russell_Peters ;
+	dbo:genre	dbr:Comedy ;
+	dbo:recordLabel	dbr:Warner_Music_Group ;
+	dbo:releaseDate	"2008-09-30"^^xsd:date ;
+	foaf:name	"Red, White and Brown"@en .
+dbr:Revelations_of_the_Black_Flame	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Revelations of the Black Flame is the fourth studio album by Norwegian black metal band 1349. The studio sessions took place during December 2008 in a woodland studio in B\u00F8verbru (a village in the Toten region of Norway). 1349 mixed the album in January 2009. The album was co-mixed by Tom Gabriel Fischer. This marked the first and as yet, only experimental album by the band, as they almost completely abandoned their earlier old school black metal style, primarily shifting to a more Dark ambient sound, although all other releases have stuck with their original style."@en ;
+	dbo:artist	<http://dbpedia.org/resource/1349_(band)> ;
+	dbo:genre	dbr:Black_metal ,
+		dbr:Dark_ambient ;
+	dbo:recordLabel	dbr:Candlelight_Records ;
+	dbo:releaseDate	"2009-05-25"^^xsd:date ;
+	foaf:name	"Revelations of the Black Flame"@en .
+<http://dbpedia.org/resource/Revolutions_of_Time...The_Journey_1975/1993>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Revolutions of Time...The Journey 1975/1993 is a three-disc box set by country singer Willie Nelson, released on November 14, 1995. It features recordings made for his 1975 album \"Red Headed Stranger\" through his 1993 album \"Across the Borderline\"."@en ;
+	dbo:artist	dbr:Willie_Nelson ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:Columbia_Records ,
+		dbr:Legacy_Recordings ;
+	dbo:releaseDate	"1995-11-14"^^xsd:date ;
+	foaf:name	"Revolutions of Time...The Journey 1975/1993"@en .
+dbr:She_Who_Weeps	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"She Who Weeps is the fifth studio album by American jazz singer Cassandra Wilson. It was released June 25, 1991."@en ;
+	dbo:artist	dbr:Cassandra_Wilson ;
+	dbo:genre	dbr:Jazz ;
+	dbo:recordLabel	dbr:JMT_Records ;
+	dbo:releaseDate	"1991-06-25"^^xsd:date ;
+	foaf:name	"She Who Weeps"@en .
+<http://dbpedia.org/resource/Shin-shiro_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Shin-shiro (Japanese: \u30B7\u30F3\u30B7\u30ED Hepburn: Shinshiro, \"New White\") is the third studio album by Japanese band Sakanaction. It was released on January 21, 2009 through Victor Entertainment. The release was the band's first album after relocating to Tokyo and moving to Victor Entertainment's main roster. Led by the singles \"Sen to Rei\" and \"Native Dancer\", the album became the group's first release to chart in the top 10 albums on Oricon's weekly album chart. Shin-shiro featured a different production approach to the band's previous albums. Band vocalist Ichiro Yamaguchi collaborated with a different member of the band in a two-person demo session for each songs, instead of their previous approach involving all five members working together. This approach was difficult for pianist Emi Okazaki, who had no experience with song production previously, and for drummer Keiichi Ejima, who learnt the guitar specifically to record demos for this album. The first finished demo, created by Yamaguchi and bassist Ami Kusakari's for the song \"Sen to Rei\" strongly influenced the album's production. The album was well-received critically, with critics noting the band's growth; praising the band's electronic and pop sound, as well as Ichiro Yamaguchi's songwriting and vocals. The album led Sakanaction to be chosen one of the ten iTunes Japan Sound of 2009 artists, as well as nominated at the Life Music Award 2009. In 2009, the album was made available globally as a digital download, alongside the band's debut and second albums Go to the Future (2007) and Night Fishing (2008). In 2015, the album was reissued on CD, LP record and lossless digital formats."@en ;
+	dbo:artist	dbr:Sakanaction ;
+	dbo:genre	dbr:New_wave_music ,
+		dbr:Electronica ,
+		dbr:Rock_music ,
+		dbr:Techno ,
+		dbr:Intelligent_dance_music ,
+		dbr:Dance_music ;
+	dbo:recordLabel	dbr:Victor_Entertainment ;
+	dbo:releaseDate	"2009-01-21"^^xsd:date ;
+	foaf:name	"Shin-shiro"@en .
+dbr:Story_of_a_Life	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Story of a Life is the third posthumous compilation album released featuring Harry Chapin, released in 1999 (see 1999 in music). It was released as a box set containing 3 CDs and a 76-page booklet."@en ;
+	dbo:artist	dbr:Harry_Chapin ;
+	dbo:genre	dbr:Folk_rock ;
+	dbo:recordLabel	dbr:Elektra_Records ;
+	dbo:releaseDate	"1999-10-19"^^xsd:date ;
+	foaf:name	"Story of a Life"@en .
+<http://dbpedia.org/resource/Sugar_High_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Sugar High is the third studio album by Japanese singer-songwriter Chihiro Onitsuka, released in December 2002. The album came out only 9 months after its predecessor This Armor, and it comprises 9 tracks that were previously unreleased as the singles.The album title was quoted from the lyrics of a song sung on the American motion picture Empire Records. The first press of the album features bonus 8cm compact disc including another version of \"Castle\uFF65Imitation\" and its backing track. Since Onitsuka cancelled the release of fourth studio album and left both the management office and record label in 2004, Sugar High became the final non-compilation album she released under the Virgin Tokyo label distributed by Toshiba EMI."@en ;
+	dbo:artist	dbr:Chihiro_Onitsuka ;
+	dbo:genre	dbr:Baroque_pop ,
+		dbr:Symphonic_rock ;
+	dbo:recordLabel	dbr:EMI_Music_Japan ;
+	dbo:releaseDate	"2002-12-11"^^xsd:date ;
+	foaf:name	"Sugar High"@en .
+dbr:Sugarless_Girl	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Sugarless Girl is the eighth album by the Japanese electro duo Capsule, released on February 21, 2007. The tracks \"Sugarless GiRL\" and \"Starry sky\" (now stylized as \"Starry Sky\") are shortened versions of the songs on the single \"Starry sky\" (previously released on December 13, 2006). \"Reality\" (now stylized as \"REALiTy\") is a remix from the single version."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Capsule_(band)> ;
+	dbo:genre	dbr:Alternative_dance ,
+		dbr:Electropop ;
+	dbo:recordLabel	dbr:Contemode ;
+	dbo:releaseDate	"2007-02-21"^^xsd:date ;
+	foaf:name	"Sugarless Girl"@en .
+dbr:Tamaki_Nami_Reproduct_Best	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Tamaki Nami Reproduct Best is a remix album released by Japanese Pop singer Nami Tamaki on March 25, 2009. The album is a compilation of Tamaki's singles, all remixed. The album has some entirely new remixes as well as some old ones."@en ;
+	dbo:artist	dbr:Nami_Tamaki ;
+	dbo:genre	dbr:Dance-pop ,
+		dbr:J-pop ,
+		dbr:Pop_music ;
+	dbo:recordLabel	dbr:Sony_Music_Entertainment_Japan ;
+	dbo:releaseDate	"2009-03-25"^^xsd:date ;
+	foaf:name	"Tamaki Nami Reproduct Best"@en .
+dbr:The_Art_of_the_Song	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Art of the Song is an album by American jazz bassist Charlie Haden and his Quartet West, released in 1999. It reached number ten on the Billboard Top Jazz Albums chart. Quartet West was formed in 1986. Their repertoire consisted mainly of music from the 1930s and 1940s, often music associated with films of that period. Guest vocalists Bill Henderson and Shirley Horn each perform four songs."@en ;
+	dbo:artist	dbr:Charlie_Haden ;
+	dbo:genre	dbr:Vocal_jazz ,
+		dbr:Jazz ;
+	dbo:recordLabel	dbr:PolyGram ;
+	dbo:releaseDate	"1999-07-27"^^xsd:date ;
+	foaf:name	"The Art of the Song"@en .
+<http://dbpedia.org/resource/The_Best_of_The_Kentucky_Headhunters:_Still_Pickin\u0027>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Best of The Kentucky Headhunters: Still Pickin' is a greatest hits album released by American southern rock/country rock band The Kentucky Headhunters. It was the first album collection of hits from the band's career up to that point. The album includes tracks from their first three studio albums, as well as \"Let's Work Together\" (from the soundtrack to Harley Davidson and the Marlboro Man) and a cover of \"You've Got to Hide Your Love Away.\""@en ;
+	dbo:artist	dbr:The_Kentucky_Headhunters ;
+	dbo:genre	dbr:Southern_rock ,
+		dbr:Country_rock ;
+	dbo:recordLabel	dbr:Mercury_Records ;
+	dbo:releaseDate	"1994-09-20"^^xsd:date ;
+	foaf:name	"The Best of The Kentucky Headhunters: Still Pickin'"@en .
+dbr:The_Bottom_Line_Encore_Collection	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Bottom Line Encore Collection is the fourth live album by Harry Chapin, released in 1998 (see 1998 in music) as a two-CD compilation. It was recorded at the Village in New York, and was Harry's two-thousandth concert. The setlist was composed of songs throughout Harry's music career (1972\u20131981)."@en ;
+	dbo:artist	dbr:Harry_Chapin ;
+	dbo:genre	dbr:Folk_rock ;
+	dbo:recordLabel	dbr:The_Bottom_Line_Record_Company ;
+	dbo:releaseDate	"1998-03-10"^^xsd:date ;
+	foaf:name	"The Bottom Line Encore Collection"@en .
+dbr:The_Rebirth_of_Venus	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Rebirth of Venus is the seventh studio album by Australian indie pop musician Ben Lee, released on 10 February 2009 by New West Records. A portion of the proceedings attained from the record are to be donated to FINCA International's village banking program. A press release said FINCA \"offers financial services, not charity, to the world's lowest-income women entrepreneurs. This creates jobs, builds assets and generally improves the standard of living in these destitute communities.\" Critical response to the album has been largely negative, with particular mention of the song 'I'm a Woman, Too' (which Andrew P Street of Time Out Sydney described as reaching \"a conclusion so baffling that it defies any criticism that isn't expressed via a crowbar to the jaw\"). The album features Missy Higgins, Nic Johns, Cary Brothers, Patience Hodgson, John Alagia (Ripe producer) and Lara Meyerratken."@en ;
+	dbo:artist	dbr:Ben_Lee ;
+	dbo:genre	dbr:Indie_pop ;
+	dbo:recordLabel	dbr:New_West_Records ,
+		<http://dbpedia.org/resource/Universal_Records_(defunct_record_label)> ;
+	dbo:releaseDate	"2009-02-06"^^xsd:date ;
+	foaf:name	"The Rebirth of Venus"@en .
+dbr:The_Wonderful_World_of_Cease_A_Leo	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Wonderful World of Cease A Leo is the only solo album by rapper and Junior M.A.F.I.A. member Lil' Cease. It was released on July 13, 1999 through Atlantic Records and was mainly produced by members of The Hitmen. The album proved successful and made it to #26 on the Billboard 200 and #3 on the Top R&B/Hip-Hop Albums, and also featured the single \"Play Around\", which made it to #52 on the Hot R&B/Hip-Hop Singles & Tracks and #9 on the Hot Rap Singles."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Lil\u0027_Cease> ;
+	dbo:genre	dbr:Hip_hop_music ;
+	dbo:recordLabel	dbr:Atlantic_Records ,
+		dbr:International_Rock_Star_Records ;
+	dbo:releaseDate	"1999-07-13"^^xsd:date ;
+	foaf:name	"The Wonderful World of Cease A Leo"@en .
+dbr:The_World_as_We_Know_It	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The World as We Know It is the second studio album by The Morning Of, released on January 29, 2008."@en ;
+	dbo:artist	dbr:The_Morning_Of ;
+	dbo:genre	dbr:Emo ,
+		dbr:Indie_rock ;
+	dbo:recordLabel	dbr:Tragic_Hero_Records ;
+	dbo:releaseDate	"2008-01-29"^^xsd:date ;
+	foaf:name	"The World as We Know It"@en .
+<http://dbpedia.org/resource/There\u0027s_Me_and_There\u0027s_You>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"There's Me and There's You is the second studio album by The Matthew Herbert Big Band. It was released on Accidental Records and Studio !K7 in 2008."@en ;
+	dbo:artist	dbr:Matthew_Herbert ;
+	dbo:genre	dbr:Electronic_music ,
+		dbr:Jazz ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Studio_!K7> ;
+	dbo:releaseDate	"2008-11-17"^^xsd:date ;
+	foaf:name	"There's Me and There's You"@en .
+dbr:This_Armor	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"This Armor is the second studio album recorded by Japanese singer-songwriter Chihiro Onitsuka, released in March 2002. It features two lead singles \"infection\", \"Ry\u016Bseigun\", and remake versions of \"Arrow of Pain\" (B-Side of a single \"Gekko\" in 2000) and \"Little Beat Rifle\" (double A-Side to \"infection\"). Onitsuka described the album as \"a sequel to Insomnia\", her chart-topping debut which came out in 2001. Like its predecessor, the title of the album was named by the artist, simply because she liked the sound of the phrase. Cover art was taken by photographer Mika Ninagawa in Miyako-jima, Okinawa prefecture. This Armor debuted and peaked at the number-three on the Japanese Oricon albums chart and remained the top-300 for 25 weeks, with estimated sales of over half a million copies. The album was certified Platinum by the Recording Industry Association of Japan upon its release, for shipments of over 400,000 units."@en ;
+	dbo:artist	dbr:Chihiro_Onitsuka ;
+	dbo:recordLabel	dbr:EMI_Music_Japan ,
+		dbr:Universal_Music_Group ;
+	dbo:releaseDate	"2002-03-06"^^xsd:date ;
+	foaf:name	"This Armor"@en .
+<http://dbpedia.org/resource/Ultimate_Collection_(DeBarge_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Ultimate Collection is the eighth album released on Motown Records by the group DeBarge. The album is the second compilation of their greatest hits. In addition to the group numbers, it also includes solo singles from El DeBarge and Bunny DeBarge. It also includes a track from Chico DeBarge, who was never part of the family group. Also Motown was able to get the rights to the song \"Dance All Night\" from their Striped Horse Records album Bad Boys for this collection."@en ;
+	dbo:artist	dbr:DeBarge ;
+	dbo:genre	dbr:Rhythm_and_blues ;
+	dbo:recordLabel	dbr:Motown ;
+	dbo:releaseDate	"1997-05-27"^^xsd:date ;
+	foaf:name	"The Ultimate Collection"@en .
+dbr:Ungod	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Ungod is the debut album released in 1994 on Columbia Records by the American industrial rock band Stabbing Westward. The album was recorded in six weeks of 1993 in Chiswick, England, and released in February 1994. With adequate album sales and touring with the likes of Depeche Mode a second album was warranted, Wither Blister Burn & Peel. The guitar line in the chorus of the song \"Ungod\" was later used in Filter's song \"Hey Man, Nice Shot.\" Stuart Zechman, who was also playing guitar for Filter at the time, took the riff and showed it to Stabbing Westward who ended up using it as well. The song \"Nothing\" appeared in the Bad Boys movie starring Will Smith, Martin Lawrence and T\u00E9a Leoni, but was not featured on the official soundtrack album. The song also accompanied the credits of the film Johnny Mnemonic and was included on the film's soundtrack, along with the song \"Lost\". \"Lost\", \"Lies\" and \"Can't Happen Here\" were used in the film Mortal Kombat, but Stabbing Westward refused to include it in the official soundtrack. The \"Thread Mix\" of \"Violent Mood Swings\" was included in the Clerks soundtrack."@en ;
+	dbo:artist	dbr:Stabbing_Westward ;
+	dbo:genre	dbr:Industrial_metal ,
+		dbr:Industrial_rock ,
+		dbr:Alternative_metal ;
+	dbo:recordLabel	dbr:Columbia_Records ;
+	dbo:releaseDate	"1994-02-15"^^xsd:date ;
+	foaf:name	"Ungod"@en .
+dbr:Voice_of_Earth	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Voice of Earth is Chinese singer Alan's debut Japanese-language album released by Avex Trax. The album contains the eight singles alan has released from 2007 to 2009. The album was released on March 4, 2009 in Japan."@en ;
+	dbo:artist	dbr:Alan_Dawa_Dolma ;
+	dbo:genre	dbr:Pop_music ,
+		dbr:Alternative_rock ;
+	dbo:recordLabel	dbr:Avex_Trax ;
+	dbo:releaseDate	"2009-03-04"^^xsd:date ;
+	foaf:name	"Voice of Earth"@en .
+<http://dbpedia.org/resource/What_I\u0027m_For>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"What I'm For is the eighth studio album by American country music artist Pat Green. It was released on January 27, 2009 (see 2009 in country music) on BNA Records, and produced by Dann Huff. The album is his second for BNA, and his eighth overall. Lead-off single \"Let Me\" has charted in the Top 20 on the Hot Country Songs chart, peaking at No. 12."@en ;
+	dbo:artist	dbr:Pat_Green ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:BNA_Records ;
+	dbo:releaseDate	"2009-01-27"^^xsd:date ;
+	foaf:name	"What I'm For"@en .
+<http://dbpedia.org/resource/Workin\u0027_It_Back>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Workin' It Back is the ninth studio album by American R&B recording artist Teddy Pendergrass. It was his second record for Asylum Records, once a longtime artist on Philadelphia International Records. The album didn't do nearly as well on the Billboard 200 as his last record, only peaking at #96, although it did reach US R&B #6, only two spots lower than his previous album. The album spawned two singles, \"Love 4/2\" (#6 R&B) and \"Let Me Be Closer\" (#67 R&B), though none made the Billboard Hot 100."@en ;
+	dbo:artist	dbr:Teddy_Pendergrass ;
+	dbo:genre	dbr:Rhythm_and_blues ,
+		dbr:Soul_music ,
+		dbr:Quiet_storm ;
+	dbo:recordLabel	dbr:Asylum_Records ;
+	dbo:releaseDate	"1985-12-04"^^xsd:date ;
+	foaf:name	"Workin' It Back"@en .
+dbr:You_Been_Played	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"You Been Played is the second album by Smooth, who had previously released her debut album under the name MC Smooth. It was released on August 24, 1993 through Jive Records and was produced by Juanita Stokes and her brother Chris Stokes. The album reached No. 77 on the Top R&B/Hip-Hop Albums chart."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Smooth_(singer)> ;
+	dbo:genre	dbr:Hip_hop_music ;
+	dbo:recordLabel	dbr:Jive_Records ;
+	dbo:releaseDate	"1993-08-24"^^xsd:date ;
+	foaf:name	"You Been Played"@en .
+dbr:You_Must_Be_Certain_of_the_Devil	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"You Must Be Certain of the Devil is the fifth album by avant-garde performer Diamanda Gal\u00E1s, and the third installment of her \"Masque of the Red Death Trilogy\" about the AIDS epidemic. The selections from this installment are rooted in American gospel music."@en ;
+	dbo:artist	dbr:Diamanda_Galás ;
+	dbo:genre	dbr:Experimental_music ;
+	dbo:recordLabel	dbr:Mute_Records ;
+	dbo:releaseDate	"1988-05-23"^^xsd:date ;
+	foaf:name	"You Must Be Certain of the Devil"@en .
+@prefix ns7:	<http://dbpedia.org/resource/Mis-Teeq:> .
+ns7:_Greatest_Hits	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Mis-Teeq: Greatest Hits is a greatest hits compilation album released by Mis-Teeq. The album was released months after their disbandment in February 2005. The compilation included fourteen songs previously seen on their first two albums, Lickin' on Both Sides and Eye Candy, and one new track, a cover of The Andrews Sisters song \"Shoo Shoo Baby\", which was released as the official song of the 2005 Disney film Valiant."@en ;
+	dbo:artist	dbr:Mis-Teeq ;
+	dbo:genre	dbr:Electronica ,
+		dbr:UK_garage ,
+		dbr:Hip_hop_music ,
+		<http://dbpedia.org/resource/Contemporary_R&B> ,
+		dbr:Reggae ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Universal_Records_(defunct_record_label)> ;
+	dbo:releaseDate	"2005-04-25"^^xsd:date ;
+	foaf:name	"Mis-Teeq: Greatest Hits"@en .
+<http://dbpedia.org/resource/Circus_(Chiaki_Kuriyama_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Circus (stylised as CIRCUS) is the album by Japanese musician and actress Chiaki Kuriyama, which was released on March 16, 2011. Kuriyama collaborated with famous Japanese and overseas rock musicians to create the album. In January 2012, the album was re-released as a deluxe edition, featuring the single \"Tsukiyo no Sh\u014Dz\u014D\" and its B-side \"Seishun no Matataki\"\""@en ;
+	dbo:artist	dbr:Chiaki_Kuriyama ;
+	dbo:genre	dbr:Rock_music ,
+		dbr:Pop_music ;
+	dbo:recordLabel	dbr:Defstar_Records ;
+	dbo:releaseDate	"2011-03-16"^^xsd:date ;
+	foaf:name	"Circus"@en .
+<http://dbpedia.org/resource/Oddfellows_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Oddfellows is the fourth studio album by musical supergroup Tomahawk. The album is the first to feature new bass player Trevor Dunn, who has replaced previous member Kevin Rutmanis. Oddfellows was recorded live in the Easy Eye Sound Studio in Nashville, Tennessee, after a brief period of rehearsal. Guitarist Duane Denison favored the location as its cheaper studio costs allowed for longer periods of song-writing. The album was released on January 29, 2013 through the record label Ipecac Recordings. The release of Oddfellows was preceded by a single, \"Stone Letter\", first released on November 23, 2012 as part of Record Store Day's \"Black Friday\" event. Reviews for Oddfellows have been positive, and Dunn's presence has been seen by critics as a positive addition. The album reached chart positions in several countries, including the United Kingdom, Australia, Belgium and the United States."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Tomahawk_(band)> ;
+	dbo:genre	dbr:Alternative_rock ,
+		dbr:Hard_rock ;
+	dbo:recordLabel	dbr:Ipecac_Recordings ;
+	dbo:releaseDate	"2013-01-29"^^xsd:date ;
+	foaf:name	"Oddfellows"@en .
+dbr:Modern_Artillery	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Modern Artillery (typeset as MODERN ARTillery) is the third album by the Australian Punk rock band the Living End. It was released twice for 28 October 2003 as an international release date and 2 March 2004 for a United States release date. It was the first album with Andy Strachan as drummer, since Travis Demsey had left after Roll On. Who's Gonna Save Us? has been released as a single, and End of the World appears on the soundtrack to Tony Hawk's Underground 2. \"Who's Gonna Save Us?\" appeared in commercials for Michael Moore's Fahrenheit 9/11. This album has been released with the Copy Control protection system in some regions. ARIA publicised that Modern ARTillery had officially achieved Platinum status in Australia in November 2007. All of their other album releases were simultaneously awarded a higher accreditation. Allmusic gave the album a 2.5 (link), and Rolling Stone rated it a 3 (link)."@en ;
+	dbo:artist	dbr:The_Living_End ;
+	dbo:genre	dbr:Alternative_rock ,
+		dbr:Punk_rock ,
+		dbr:Pop_punk ;
+	dbo:recordLabel	dbr:Reprise_Records ,
+		dbr:EMI ;
+	dbo:releaseDate	"2004-03-02"^^xsd:date ,
+		"2003-10-28"^^xsd:date ;
+	foaf:name	"Modern Artillery"@en .
+<http://dbpedia.org/resource/90_Bisodol_(Crimond)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"90 Bisodol (Crimond) is the twelfth album by UK rock band Half Man Half Biscuit, released in September 2011. The inner sleeve includes a modified version of the painting Christ's Entry into Jerusalem by William Gale (1823\u20131909), in which one onlooker holds a sign with the words \"Dirk Hofman Motorhomes\". This is a reference to a man who holds such a sign at the finish of European cycling races.[citation needed]"@en ;
+	dbo:artist	dbr:Half_Man_Half_Biscuit ;
+	dbo:genre	dbr:Post-punk ;
+	dbo:recordLabel	dbr:Probe_Plus ;
+	dbo:releaseDate	"2011-09-25"^^xsd:date ;
+	foaf:name	"90 Bisodol (Crimond)"@en .
+dbr:A_Farmhouse_Christmas	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"A Farmhouse Christmas is the first Christmas album by American country music duo Joey + Rory. It was released on October 11, 2011 via Vanguard Records and Sugar Hill Records. The album contains twelve tracks, ten of which are either new or not traditionally associated with Christmas. It includes the standards \"Away in a Manger\" and \"Blue Christmas,\" as well as a cover of Merle Haggard's \"If We Make It Through December\" featuring background vocals from Haggard."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Joey_+_Rory> ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:Sugar_Hill_Records ,
+		dbr:Vanguard_Records ;
+	dbo:releaseDate	"2011-10-11"^^xsd:date ;
+	foaf:name	"A Farmhouse Christmas"@en .
+<http://dbpedia.org/resource/Ashes_&_Fire>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Ashes & Fire is the 13th studio album by Ryan Adams, released on October 11, 2011, on PAX AM and Capitol. Recorded with producer Glyn Johns, Ashes & Fire marks Adams' return to recording following the disbandment of his band the Cardinals in 2009. Regarding the album, Adams noted, \"The record is obsessed with time. I believe that there is a kinder view of the self. I'm passing through my own life as a ghost, and looking at these pieces and places in my life. I'm looking at California, and the idea of being lost and found at the same time.\" On October 16, 2011, the album entered the UK Albums Chart at number 9, making his best position in the UK. In the US, it debuted at number 7, making Ashes & Fire his second top 10 album since Easy Tiger. The album was preceded by the single \"Lucky Now\", Adams' first release with Capitol Records."@en ;
+	dbo:artist	dbr:Ryan_Adams ;
+	dbo:genre	dbr:Alternative_country ;
+	dbo:recordLabel	dbr:PAX_AM ,
+		dbr:Capitol_Records ;
+	dbo:releaseDate	"2011-10-10"^^xsd:date ;
+	foaf:name	"Ashes & Fire"@en .
+dbr:Con_Amor_Se_Gana	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Con Amor Se Gana is the title of the debut album by American salsa singer Frankie Negr\u00F3n released on May 20, 1997."@en ;
+	dbo:artist	dbr:Frankie_Negrón ;
+	dbo:genre	dbr:Salsa_music ;
+	dbo:recordLabel	dbr:Warner_Music_Latina ;
+	dbo:releaseDate	"1997-05-20"^^xsd:date ;
+	foaf:name	"Con Amor Se Gana"@en .
+dbr:Covered_in_Dust	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Covered In Dust is the first album by the American new wave band Kindest Lines, released in 2011 on Wierd Records."@en ;
+	dbo:artist	dbr:Kindest_Lines ;
+	dbo:genre	<http://dbpedia.org/resource/Cold_wave_(music)> ,
+		dbr:New_wave_music ;
+	dbo:recordLabel	dbr:Wierd_Records ;
+	dbo:releaseDate	"2011-06-20"^^xsd:date ;
+	foaf:name	"Covered In Dust"@en .
+<http://dbpedia.org/resource/Cu\u00E9ntame_(Rosario_Flores_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Cu\u00E9ntame is the ninth studio album released by Spanish singer Rosario and the soundtrack of the television series Cu\u00E9ntame c\u00F3mo pas\u00F3. The album was nominated for a Latin Grammy for Best Pop Vocal Album, Female."@en ;
+	dbo:artist	dbr:Rosario_Flores ;
+	dbo:genre	dbr:Latin_pop ;
+	dbo:recordLabel	dbr:Universal_Music_Latin_Entertainment ;
+	dbo:releaseDate	"2009-11-17"^^xsd:date ;
+	foaf:name	"Cu\u00E9ntame"@en .
+<http://dbpedia.org/resource/Father,_Son,_Holy_Ghost_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Father, Son, Holy Ghost is the second and final studio album by San Francisco rock band Girls, released September 13, 2011 on True Panther Sounds in the United States, September 12, 2011 on Fantasytrashcan/Turnstile in Europe, September 7, 2011 in Japan on Fantasytrashcan/Turnstile and September 14 in Mexico on Arts & Crafts M\u00E9xico. Three singles were released from the album; \"Vomit\", \"Honey Bunny\" and \"My Ma\", the latter of which was released exclusively on vinyl with a limited 1000 copies in print. The album peaked at #37 on the Billboard 200 and received critical acclaim upon its release. A significant departure from the band's previous work, Father, Son, Holy Ghost elaborated with lavish production, gospel choirs and a more varied instrumentation that resulted in a sound that spanned various genres such as surf rock, folk, soul, hard rock, and even progressive rock. Unlike the group's debut Album, it was not exclusively produced by the band themselves but was a collaboration with veteran engineer Doug Boehm. The album's sound and composition style was noted to be part of a trend of modern indie revivalism artists who reach back decades into the past for inspiration, with songs such as \"Honey Bunny\", \"Love Like a River\" and lead single \"Vomit\" in particular being heavily influenced by music from the 1960s and 1970s. Of the album's 'old' style of production and the evolution of the band's sound, one critic noted \"(Father, Son, Holy Ghost) eschews Album's ramshackle scrappiness for the classic-rock-radio sophistication of Billy Preston-era Beatles and early-70s Pink Floyd.\" The album was recognized as one of The 100 Best Albums of the Decade So Far by Pitchfork Media in August 2014."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Girls_(band)> ;
+	dbo:genre	dbr:Garage_rock ,
+		dbr:Gospel_music ,
+		dbr:Indie_pop ,
+		dbr:Indie_rock ;
+	dbo:recordLabel	dbr:True_Panther_Sounds ;
+	dbo:releaseDate	"2011-09-07"^^xsd:date ;
+	foaf:name	"Father, Son, Holy Ghost"@en .
+dbr:Guaranteed_to_Disagree	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Guaranteed to Disagree is the first studio EP by American rock band We Are the In Crowd, released on June 8, 2010. The lead single, \"For The Win\", was released November 10, 2009. The second single, \"Never Be What You Want\", was released December 8, 2009. The third single, \"Lights Out\", was released April 13, 2010.[citation needed] The fourth single, \"Both Sides Of The Story\", was released May 11, 2010."@en ;
+	dbo:artist	dbr:We_Are_the_In_Crowd ;
+	dbo:genre	dbr:Pop_rock ,
+		dbr:Pop_punk ;
+	dbo:recordLabel	dbr:Hopeless_Records ;
+	dbo:releaseDate	"2010-06-08"^^xsd:date ;
+	foaf:name	"Guaranteed to Disagree"@en .
+dbr:Hear_My_Heart	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Hear My Heart is the 2nd album of the Filipino singer, actress, host, model and Myx VJ Nikki Gil."@en ;
+	dbo:artist	dbr:Nikki_Gil ;
+	dbo:genre	dbr:Rhythm_and_blues ,
+		dbr:Pop_music ,
+		dbr:Soul_music ;
+	dbo:recordLabel	dbr:EMI ;
+	dbo:releaseDate	"2008-05-16"^^xsd:date ;
+	foaf:name	"Hear My Heart"@en .
+<http://dbpedia.org/resource/Hello_Tomorrow_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Hello Tomorrow is the ninth studio album by saxophone player Dave Koz. It was his first album released by Concord Records on October 19, 2010. Koz himself provided vocal on \"This Guy's in Love with You\". The album peaked at number 1 on Billboard Jazz Albums chart. on November 30, 2011, the album received a Nomination in 54th Grammy Awards for Best Pop Instrumental Album."@en ;
+	dbo:artist	dbr:Dave_Koz ;
+	dbo:genre	dbr:Smooth_jazz ;
+	dbo:recordLabel	dbr:Concord_Records ;
+	dbo:releaseDate	"2010-10-19"^^xsd:date ;
+	foaf:name	"Hello Tomorrow"@en .
+@prefix ns8:	<http://dbpedia.org/resource/History:> .
+ns8:_Alisa_Mizuki_Complete_Single_Collection	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"History: Alisa Mizuki Complete Single Collection is the fourth compilation album by Japanese recording artist Alisa Mizuki, released through Avex Tune on March 10, 2004. The dual-disc set comprises all of Mizuki's singles, from 1991 to 2004, as well as the two singles released under different alliases. The album included one new track, \"Sky,\" produced by Incognito's Jean-Paul 'Bluey' Maunick. The lyrics to \"Sky\" were written by Mizuki herself, making it the first song she wrote by herself entirely. History: Alisa Mizuki Complete Single Collection yielded six original singles, \"Break All Day!,\" \"Megami no Mai,\" \"Hitomi no Chikara,\" \"Vacation,\" \"Love Potion\" and \"Shout It Out,\" released in a span of four years. Disc one includes all the singles released through Nippon Columbia, while disc two contains all of Mizuki's singles released through Avex Tune. \"Oh Darling\" and \"Vacation\" were included on disc two as bonus tracks. An A6-size reprint of the first issue of Mizuki's fanclub bulletin, Lovers Magazine, as well as linear notes were included with the release. The first pressing of the compilation included an entry form to win tickets to a premium Alisa Mizuki concert. History: Alisa Mizuki Complete Single Collection debuted at number 25 on the Oricon Weekly Albums chart with 8,527 copies in its first week, making it Mizuki's first album in over seven years to enter the top thirty, since Arisa's Favorite: T.K. Songs, as well as being her last to do so. History: Alisa Mizuki Complete Single Collection is Mizuki's first and only album to be issued in CCCD format."@en ;
+	dbo:artist	dbr:Alisa_Mizuki ;
+	dbo:genre	dbr:Dance_music ,
+		dbr:Pop_music ;
+	dbo:recordLabel	dbr:Avex_Group ;
+	dbo:releaseDate	"2004-03-10"^^xsd:date ;
+	foaf:name	"History: Alisa Mizuki Complete Single Collection"@en .
+<http://dbpedia.org/resource/Hunter_Hayes_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Hunter Hayes is the debut major-label studio album by American country artist Hunter Hayes. It was released on October 11, 2011, via Atlantic Records. Hayes wrote or co-wrote every track on the album and plays every instrument and sings every vocal track with the exception of the Encore tracks. At the 55th Grammy Awards, Hunter Hayes was nominated for Best Country Album and \"Wanted\" was nominated for Best Country Solo Performance while Hayes was nominated for Best New Artist. The album was certified Platinum by the (RIAA) on August 8, 2013."@en ;
+	dbo:artist	dbr:Hunter_Hayes ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:Atlantic_Records ;
+	dbo:releaseDate	"2011-10-11"^^xsd:date ;
+	foaf:name	"Hunter Hayes"@en .
+dbr:I_Have_the_Room_Above_Her	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"I Have the Room Above Her is an album by jazz drummer Paul Motian recorded in 2004 released on the ECM label and featuring performances by Motian with Bill Frisell and Joe Lovano. The album was the first release by the trio since At the Village Vanguard (1995)."@en ;
+	dbo:artist	dbr:Paul_Motian ;
+	dbo:genre	dbr:Jazz ;
+	dbo:recordLabel	dbr:ECM_Records ;
+	dbo:releaseDate	"2005-01-24"^^xsd:date ;
+	foaf:name	"I Have the Room Above Her"@en .
+dbr:In_Abstraction	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"In Abstraction is the 4th studio album by the American band A Hope for Home. It was released on December 6, 2011, through Facedown Records."@en ;
+	dbo:artist	dbr:A_Hope_for_Home ;
+	dbo:genre	dbr:Post-rock ,
+		dbr:Sludge_metal ,
+		dbr:Post-metal ,
+		dbr:Experimental_rock ;
+	dbo:recordLabel	dbr:Facedown_Records ;
+	dbo:releaseDate	"2011-12-06"^^xsd:date ;
+	foaf:name	"In Abstraction"@en .
+dbr:Just_Across_the_River	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Just Across the River is the twelfth album by American singer-songwriter Jimmy Webb, released in June 2010 by Koch Records. The album features thirteen classic Jimmy Webb tunes performed by Webb with guest appearances by friends, collaborators, admirers, and fellow recording artists Linda Ronstadt, Jackson Browne, Billy Joel, Willie Nelson, Glen Campbell, Michael McDonald, Mark Knopfler, J.D. Souther, Vince Gill, and Lucinda Williams."@en ;
+	dbo:artist	dbr:Jimmy_Webb ;
+	dbo:recordLabel	dbr:Entertainment_One_Music ;
+	dbo:releaseDate	"2010-06-29"^^xsd:date ;
+	foaf:name	"Just Across the River"@en .
+<http://dbpedia.org/resource/Kailangan_Ko\u0027y_Ikaw_(soundtrack)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Kailangan Ko'y Ikaw is the soundtrack to the 2000 Viva Films comedy and romance film of the same name starring Regine Velasquez and Robin Padilla. The soundtrack was released by Viva Records on 2000 in CD and cassette format. With the film\u2019s immense success, the single \"Kailangan Ko'y Ikaw\" shot to the top of the charts and the soundtrack sold more than 240,000+ copies in the Philippines."@en ;
+	dbo:artist	dbr:Regine_Velasquez ;
+	dbo:genre	dbr:Pop_music ,
+		dbr:Adult_contemporary_music ,
+		dbr:Music_of_the_Philippines ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Viva_Records_(Philippines)> ;
+	dbo:releaseDate	"2000-07-28"^^xsd:date ;
+	foaf:name	"Kailangan Ko'y Ikaw"@en .
+dbr:Kelly_Key_-_Ao_Vivo	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Kelly Key \u2013 Ao Vivo is the first live album by Brazilian pop singer Kelly Key, released on January 20, 2004."@en ;
+	dbo:artist	dbr:Kelly_Key ;
+	dbo:genre	dbr:Rhythm_and_blues ,
+		dbr:Pop_music ,
+		dbr:Dance-pop ;
+	dbo:recordLabel	dbr:Warner_Music_Group ;
+	dbo:releaseDate	"2004-01-20"^^xsd:date ;
+	foaf:name	"Kelly Key - Ao Vivo"@en .
+<http://dbpedia.org/resource/Like_Previn!>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Like Previn! is a jazz album by pianist Andr\u00E9 Previn and his trio."@en ;
+	dbo:artist	dbr:André_Previn ;
+	dbo:genre	dbr:Jazz ;
+	dbo:recordLabel	dbr:Contemporary_Records ;
+	dbo:releaseDate	"1994-10-21"^^xsd:date ;
+	foaf:name	"Like Previn!"@en .
+dbr:Little_Robbers	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Little Robbers is the RIAA Gold-certified fourth studio album by new wave band The Motels. It was recorded between February and August 1983, and released in September 1983. It features the hit song, \"Suddenly Last Summer\", which hit No. 1 on Billboard's Album Rock Tracks chart, and became the band's second Top 10 Pop hit in the US, reaching No. 9 on the Billboard Hot 100."@en ;
+	dbo:artist	dbr:The_Motels ;
+	dbo:genre	dbr:New_wave_music ,
+		dbr:Pop_rock ;
+	dbo:recordLabel	dbr:Capitol_Records ;
+	dbo:releaseDate	"1983-09-16"^^xsd:date ;
+	foaf:name	"Little Robbers"@en .
+dbr:Mockingbird_Time	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Mockingbird Time is the eighth studio album by the alt country band The Jayhawks, released on September 20, 2011. The album marked the returns of the original front man Mark Olson, who had left the group in 1995 after the release of Tomorrow the Green Grass, and long-time keyboard player Karen Grotberg. Mockingbird Time was the first new studio album by The Jayhawks since 2003's Rainy Day Music. The album entered the Billboard 200 album chart at #38, becoming the highest-charting release of their career to date. It also charted at #2 on Billboard's Folk Albums chart, #6 on the Tastemaker Albums chart, and #11 on the Rock Albums chart."@en ;
+	dbo:artist	dbr:The_Jayhawks ;
+	dbo:genre	dbr:Rock_music ;
+	dbo:recordLabel	dbr:Rounder_Records ,
+		dbr:Universal_Music_Group ;
+	dbo:releaseDate	"2011-09-20"^^xsd:date ;
+	foaf:name	"Mockingbird Time"@en .
+dbr:My_Weakness_Is_Strong	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"My Weakness is Strong is the third comedy album by Patton Oswalt, following the 2007 release Werewolves and Lollipops."@en ;
+	dbo:artist	dbr:Patton_Oswalt ;
+	dbo:genre	dbr:Comedy ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Warner_Bros._Records> ;
+	dbo:releaseDate	"2009-08-25"^^xsd:date ;
+	foaf:name	"My Weakness Is Strong"@en .
+dbr:Norrøn	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Norr\u00F8n (Norse) is the fifth full-length album by the Norwegian Viking metal band Einherjer and the first after the band reunited. It was released on September 9, 2011 through Indie Recordings."@en ;
+	dbo:artist	dbr:Einherjer ;
+	dbo:genre	dbr:Viking_metal ;
+	dbo:recordLabel	dbr:Indie_Recordings ;
+	dbo:releaseDate	"2011-09-09"^^xsd:date ;
+	foaf:name	"Norr\u00F8n"@en .
+dbr:On_and_On_and_Beyond	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"On and On and Beyond is the debut extended play by American rapper Mac Miller. It was released digitally on March 29, 2011. The tracks \"Another Night\", and \"Live Free\" were previously released on Mac Miller's 2009 mixtape The High Life, while \"Life Ain't Easy\", and \"In the Air\" are taken from 2011's Best Day Ever. The EP entered the US Billboard 200 on April 16 2011 at number 55 on the chart."@en ;
+	dbo:artist	dbr:Mac_Miller ;
+	dbo:genre	dbr:Hip_hop_music ;
+	dbo:recordLabel	dbr:Rostrum_Records ;
+	dbo:releaseDate	"2011-03-29"^^xsd:date ;
+	foaf:name	"On and On and Beyond"@en .
+dbr:Only_Sparrows	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Only Sparrows is the third full length studio album by Australian singer/songwriter, poet and musician, Josh Pyke. It was released on the 19th of August 2011 by Ivy League Records."@en ;
+	dbo:artist	dbr:Josh_Pyke ;
+	dbo:recordLabel	dbr:Ivy_League_Records ;
+	dbo:releaseDate	"2011-08-19"^^xsd:date ;
+	foaf:name	"Only Sparrows"@en .
+<http://dbpedia.org/resource/Part_Lies,_Part_Heart,_Part_Truth,_Part_Garbage_1982\u20132011>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Part Lies, Part Heart, Part Truth, Part Garbage 1982\u20132011 is a 2011 greatest hits album from alternative rock band R.E.M. Intended as a coda on their career, this is the first compilation album that features their early work on independent record label I.R.S. Records in addition to their 10 studio releases through Warner Bros. Records. The double-disc retrospective was released through Warner Bros. on November 11, 2011, and was compiled by the band members. The existence of the compilation was revealed simultaneously with the group's announcement that they were disbanding on September 21, 2011."@en ;
+	dbo:artist	<http://dbpedia.org/resource/R.E.M.> ;
+	dbo:genre	dbr:College_rock ,
+		dbr:Alternative_rock ,
+		dbr:Jangle_pop ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Warner_Bros._Records> ;
+	dbo:releaseDate	"2011-11-11"^^xsd:date ;
+	foaf:name	"Part Lies, Part Heart, Part Truth, Part Garbage 1982\u20132011"@en .
+<http://dbpedia.org/resource/Peanut_Butter_Blues_&_Melancholy_Jam>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Peanut Butter Blues & Melancholy Jam is the debut album of British singer and electronic producer Ghostpoet. It was released worldwide on 4 February 2011 on Gilles Peterson's label Brownswood Recordings. The album was shortlisted for the 2011 Mercury Prize, but lost to Let England Shake by PJ Harvey. The Instrumental from \"Finished I Ain't\" was used on the advert for 2011 Channel 4 drama Top Boy, which following residents of a housing estate in London and their turn to drug dealing and gang culture."@en ;
+	dbo:artist	dbr:Ghostpoet ;
+	dbo:genre	dbr:Grime_music ,
+		dbr:Dubstep ,
+		dbr:Electronica ,
+		dbr:Trip_hop ,
+		dbr:Alternative_hip_hop ;
+	dbo:recordLabel	dbr:Brownswood_Recordings ;
+	dbo:releaseDate	"2011-02-04"^^xsd:date ;
+	foaf:name	"Peanut Butter Blues & Melancholy Jam"@en .
+dbr:Quarterpast	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Quarterpast is the debut album by Dutch metal supergroup MaYaN. It was released on May 20, 2011 in Europe. The title Quarterpast was suggested by a fan as part of a competition to decide the band's name, but was eventually used as the album title when the band decided to name themselves MaYaN."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Mayan_(band)> ;
+	dbo:genre	dbr:Symphonic_metal ,
+		dbr:Melodic_death_metal ;
+	dbo:recordLabel	dbr:Nuclear_Blast ;
+	dbo:releaseDate	"2011-05-20"^^xsd:date ;
+	foaf:name	"Quarterpast"@en .
+<http://dbpedia.org/resource/Re-creation_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Re:creation (sometimes stylized as re:creation or re\u00B7creation) is the seventeenth album by the contemporary Christian singer Steven Curtis Chapman. Released on August 9, 2011, the album has eight new mixes of some of Chapman's songs, as well as five new songs and a Christmas hymn. Re:creation received general critical acclaim upon release, and entered the Christian Albums chart at No. 2."@en ;
+	dbo:artist	dbr:Steven_Curtis_Chapman ;
+	dbo:genre	dbr:Acoustic_music ,
+		dbr:Contemporary_Christian_music ,
+		dbr:Pop_rock ;
+	dbo:recordLabel	dbr:Sparrow_Records ;
+	dbo:releaseDate	"2011-08-09"^^xsd:date ;
+	foaf:name	"Re:creation"@en .
+<http://dbpedia.org/resource/Ser\u00E1_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Ser\u00E1 is the 12th studio album recorded by Spanish band Presuntos Implicados released on September 16, 2008. The album was the first since the departure of Sole Gim\u00E9nez in 2006 and marked the debut of new singer Lydia."@en ;
+	dbo:artist	dbr:Presuntos_Implicados ;
+	dbo:genre	dbr:Latin_pop ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Warner_Bros._Records> ;
+	dbo:releaseDate	"2008-09-16"^^xsd:date ;
+	foaf:name	"Ser\u00E1"@en .
+dbr:Skanless	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Skanless is the debut album from rapper Hi-C released on December 10, 1991."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Hi-C_(rapper)> ;
+	dbo:genre	dbr:West_Coast_hip_hop ;
+	dbo:recordLabel	dbr:Hollywood_Records ;
+	dbo:releaseDate	"1991-12-10"^^xsd:date ;
+	foaf:name	"Skanless"@en .
+dbr:Strange_Mercy	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Strange Mercy is the third studio album by musician St. Vincent, released by 4AD on September 12, 2011, in the United Kingdom and a day later in the United States. The album's cover art was designed by St. Vincent, and was photographed by Tina Tyrell. The album peaked at #19 on the Billboard 200, making it St. Vincent's highest charting album yet, only to be surpassed by her next solo album, St. Vincent. In addition, Strange Mercy also received significant critical acclaim. The album was recognized as one of The 100 Best Albums of the Decade So Far by Pitchfork Media in August 2014."@en ;
+	dbo:artist	<http://dbpedia.org/resource/St._Vincent_(musician)> ;
+	dbo:genre	dbr:Art_pop ,
+		dbr:Baroque_pop ,
+		dbr:Art_rock ,
+		dbr:Post-punk ,
+		dbr:Noise_rock ,
+		dbr:Progressive_pop ,
+		dbr:Dream_pop ,
+		dbr:Experiment ;
+	dbo:recordLabel	<http://dbpedia.org/resource/4AD> ;
+	dbo:releaseDate	"2011-09-12"^^xsd:date ;
+	foaf:name	"Strange Mercy"@en .
+dbr:Take_a_Back_Road	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Take a Back Road is the fourth studio album by American country music artist Rodney Atkins. It was released on October 4, 2011 via Curb Records. The album's first single, \"Take a Back Road,\" is the fastest-rising and sixth number one single of Atkins' career. The second single, \"He's Mine,\" was previously recorded by Billy Ray Cyrus on his 2009 album Back to Tennessee. \"Just Wanna Rock N' Roll\" was released as the album's third single in June 2012."@en ;
+	dbo:artist	dbr:Rodney_Atkins ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:Curb_Records ;
+	dbo:releaseDate	"2011-10-04"^^xsd:date ;
+	foaf:name	"Take a Back Road"@en .
+@prefix ns9:	<http://dbpedia.org/resource/The_Final_Countdown:> .
+ns9:_The_Best_of_Europe	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Final Countdown: The Best of Europe is a compilation album by Europe, released in 2009 by Sony Music and Camden Deluxe. This album contains some songs from their debut album and albums through 1999. This album contains 36 songs with 18 on each CD."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Europe_(band)> ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Hard_rock ;
+	dbo:recordLabel	dbr:Camden_Deluxe ,
+		dbr:Sony_Music_Entertainment ;
+	dbo:releaseDate	"2009-07-01"^^xsd:date ;
+	foaf:name	"The Final Countdown: The Best of Europe"@en .
+dbr:The_Magic_Place	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Magic Place is the debut album by ambient artist, Julianna Barwick. The album released on February 21, 2011 by Asthmatic Kitty Records."@en ;
+	dbo:artist	dbr:Julianna_Barwick ;
+	dbo:genre	dbr:Ambient_music ,
+		dbr:New-age_music ;
+	dbo:recordLabel	dbr:Asthmatic_Kitty ;
+	dbo:releaseDate	"2011-02-21"^^xsd:date ;
+	foaf:name	"The Magic Place"@en .
+<http://dbpedia.org/resource/The_Mix_Tape,_Vol._1>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Mix Tape, Vol. 1 is the first installment of Funkmaster Flex's Mix Tape series, released on November 21, 1995. The album is a compilation of freestyles and previously released songs, all mixed with Funkmaster Flex's production. The Mix Tape, Vol. 1 was mildly successful on the Billboard charts, peaking at 108 on the Billboard 200 and 15 on the Top R&B/Hip-Hop Albums. It was followed up by three successful sequels, all of which were certified gold by the RIAA."@en ;
+	dbo:artist	dbr:Funkmaster_Flex ;
+	dbo:genre	dbr:Freestyle_rap ,
+		dbr:East_Coast_hip_hop ,
+		dbr:Golden_age_hip_hop ,
+		dbr:Hardcore_hip_hop ;
+	dbo:recordLabel	dbr:Loud_Records ;
+	dbo:releaseDate	"1995-11-21"^^xsd:date ;
+	foaf:name	"The Mix Tape, Vol. 1"@en .
+<http://dbpedia.org/resource/T\u00F6rst_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"T\u00F6rst is the second album by the Swedish rock artist Ulf Lundell. It was released in June 1976 on Harvest and EMI Svenska . It was recorded in EMI Studio, Stockholm and produced by Bj\u00F6rn Bostr\u00F6m. T\u00F6rst has sold gold."@en ;
+	dbo:artist	dbr:Ulf_Lundell ;
+	dbo:genre	dbr:Rock_music ;
+	dbo:recordLabel	dbr:EMI_Svenska ,
+		dbr:Harvest ;
+	dbo:releaseDate	"1976-06-06"^^xsd:date ;
+	foaf:name	"T\u00F6rst"@en .
+<http://dbpedia.org/resource/U\u0111i_slobodno...>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"U\u0111i slobodno... (English: Enter Freely...) is the fifteenth studio album by pop-folk singer Lepa Brena. It was released 28 June 2008 through the record label Grand Production, after an eight-year hiatus."@en ;
+	dbo:artist	dbr:Lepa_Brena ;
+	dbo:recordLabel	dbr:Grand_Production ;
+	dbo:releaseDate	"2008-06-28"^^xsd:date ;
+	foaf:name	"(Enter Freely...)"@en ,
+		"U\u0111i slobodno..."@en .
+<http://dbpedia.org/resource/Wax_Museum_(Jay_and_the_Americans_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Wax Museum is the eighth studio album by Jay and the Americans released on February 28, 1970. The album went to #105 on The Billboard 200. It reached #68 on the Cashbox charts. The album was the group's last charting album. Be sure to listen for the unexpected imitation of a raven: \"Caw! Caw! Caw!, which happens a few seconds after the last track on side two. The group's remake of The Ronettes song \"Walkin' in the Rain\" hit #19 on The Billboard Hot 100 in 1970."@en ;
+	dbo:artist	dbr:Jay_and_the_Americans ;
+	dbo:genre	dbr:Pop_music ;
+	dbo:recordLabel	dbr:United_Artists_Records ;
+	dbo:releaseDate	"1970-02-28"^^xsd:date ;
+	foaf:name	"Wax Museum"@en .
+dbr:When_Will_We_Surrender	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"When Will We Surrender is the first release by American melodic hardcore band Hundredth. It was released on March 30, 2010 through Mediaskare Records. Desolate was the first single from the record, and has a music video that was released on YouTube on March 18, 2010."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Hundredth_(band)> ;
+	dbo:genre	dbr:Melodic_hardcore ,
+		dbr:Christian_hardcore ;
+	dbo:recordLabel	dbr:Mediaskare_Records ;
+	dbo:releaseDate	"2010-03-30"^^xsd:date ;
+	foaf:name	"When Will We Surrender"@en .
+dbr:Wound_of_a_Little_Horse	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Wound of a Little Horse is the debut EP by the Australian alternative rock and post-punk band Witch Hats, released through In-Fidelity Recordings on 13 November 2006. The album was produced by Ben Ling and Phill Calvert of The Birthday Party. The artwork pays a loose homage to the banned \"Butcher\" cover by The Beatles, and was photographed in an abandoned orphanage in St Kilda."@en ;
+	dbo:artist	dbr:Witch_Hats ;
+	dbo:genre	dbr:Post-punk ;
+	dbo:recordLabel	dbr:In-Fidelity_Recordings ;
+	dbo:releaseDate	"2006-11-13"^^xsd:date ;
+	foaf:name	"Wound of a Little Horse"@en .
+dbr:Wrong_Side_of_the_Daylight	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Wrong Side of the Daylight is the debut studio album from Danish singer Thomas Ring Petersen, it was released on March 4, 2011 in Denmark. It has peaked to number 2 on the Danish Albums Chart"@en ;
+	dbo:artist	dbr:Thomas_Ring ;
+	dbo:genre	dbr:Rock_music ;
+	dbo:recordLabel	dbr:Sony_Music_Entertainment ;
+	dbo:releaseDate	"2011-03-04"^^xsd:date ;
+	foaf:name	"Wrong Side of the Daylight"@en .
+<http://dbpedia.org/resource/20_Comedy_Hits>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"20 Comedy Hits is a collection of previously recorded songs by Ray Stevens, released in 1995. The first, third, fourth and fifth tracks were included through the courtesy of Barnaby Records, for whom Stevens recorded during the early seventies. The selection of \"Shriner's Convention\" is a live version that was taken from the album Ray Stevens Live! \"Gitarzan\" is the album version that begins with audience noises, and \"Ahab the Arab\" is a re-recording of his 1962 hit for his album Gitarzan (released in 1969). The remaining tracks are selections that were recorded for Curb Records; of these selections, only two were released as singles (\"Super Cop\" and \"The Motel Song\") and the rest served as album cuts. The sixth to ninth tracks were taken from the album Classic Ray Stevens, the tenth to thirteenth tracks from #1 With a Bullet, and the last seven from Lend Me Your Ears. Overall, it is not completely accurate to include the word \"hits\" in the title of this compilation, as it contains only seven songs that were previously released as singles and five of the seven made true impact on the charts. Inside the album cover is an essay by Barry Alfonso that covers Stevens' life and career from his year of birth to the time of the release of this collection."@en ;
+	dbo:artist	dbr:Ray_Stevens ;
+	dbo:genre	dbr:Comedy_music ,
+		dbr:Country_music ,
+		dbr:Novelty_song ;
+	dbo:recordLabel	dbr:Curb_Records ;
+	dbo:releaseDate	"1995-11-07"^^xsd:date ;
+	foaf:name	"20 Comedy Hits"@en .
+<http://dbpedia.org/resource/Anarchy,_My_Dear>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Anarchy, My Dear is the fifth studio album by American alternative rock band Say Anything. It was released on March 13, 2012 through Equal Vision Records. It is their last album with drummer Coby Linder, who left the band in December 2012."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Say_Anything_(band)> ;
+	dbo:genre	dbr:Pop_punk ,
+		dbr:Alternative_rock ;
+	dbo:recordLabel	dbr:Equal_Vision_Records ;
+	dbo:releaseDate	"2012-03-13"^^xsd:date ;
+	foaf:name	"Anarchy, My Dear"@en .
+dbr:Breathing_and_Not_Breathing	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Breathing and Not Breathing is a compilation album by experimental indie rock group Supreme Dicks, released October 18, 2011. The album comprises the band's previous albums in chronological order, as well as five previously unreleased songs, listed as the last five songs on disc 4."@en ;
+	dbo:artist	dbr:Supreme_Dicks ;
+	dbo:recordLabel	dbr:Jagjaguwar ;
+	dbo:releaseDate	"2011-10-18"^^xsd:date ;
+	foaf:name	"Breathing and Not Breathing"@en .
+dbr:Del_Rancho_Para_el_Mundo	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Del Rancho Para el Mundo is the Latin Grammy Award nominated third studio album by Mexican recording artist Espinoza Paz. It was released on 10 August 2010 by Disa Records."@en ;
+	dbo:artist	dbr:Espinoza_Paz ;
+	dbo:genre	dbr:Latin_pop ,
+		<http://dbpedia.org/resource/Banda_(music)> ,
+		<http://dbpedia.org/resource/Norte\u00F1o_(music)> ;
+	dbo:recordLabel	dbr:Disa_Records ;
+	dbo:releaseDate	"2010-08-10"^^xsd:date ;
+	foaf:name	"Del Rancho Para el Mundo"@en .
+dbr:Himekanvas	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Himekanvas is the first full length original album released by Himeka under her new label Sony Music Japan International under the mononym HIMEKA on November 2, 2011. The album has 2 versions: A CD-only version and a limited CD+DVD version. The CD+DVD version contains a DVD of all her PVs and on the CD it has 2 cover songs: One song she sang in her final at the Animax Anison Grand Prix and the other is a piano version of her own song \"Asu e no Kizuna\"."@en ;
+	dbo:artist	dbr:Himeka ;
+	dbo:genre	dbr:Pop_music ;
+	dbo:recordLabel	dbr:Sony_Music_Entertainment_Japan ;
+	dbo:releaseDate	"2011-11-30"^^xsd:date ;
+	foaf:name	"Himekanvas"@en .
+<http://dbpedia.org/resource/I\u0027m_Back!_Family_&_Friends>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"I'm Back! Family & Friends is the second solo album by singer/songwriter/multi-instrumentalist Sly Stone, released by Cleopatra Records in 2011. It contains remixes and covers of his old material, along with three new tracks."@en ;
+	dbo:artist	dbr:Sly_Stone ;
+	dbo:genre	dbr:Funk ;
+	dbo:recordLabel	dbr:Cleopatra_Records ;
+	dbo:releaseDate	"2011-08-16"^^xsd:date ;
+	foaf:name	"I'm Back! Family & Friends"@en .
+dbr:Kun_valaistun	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Kun valaistun (English: When I Become Enlightened) is the third studio album by Finnish pop singer-songwriter Chisu. It was released by Warner Music in Finland on 5 October 2011 and it debuted at number one on the Finnish Albums Chart."@en ;
+	dbo:artist	dbr:Chisu ;
+	dbo:genre	dbr:Pop_music ;
+	dbo:recordLabel	dbr:Warner_Music_Group ;
+	dbo:releaseDate	"2011-10-05"^^xsd:date ,
+		"2012-06-06"^^xsd:date ;
+	foaf:name	"Kun valaistun 2.0"@en ,
+		"Kun valaistun"@en .
+dbr:Mostly_Coltrane	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Mostly Coltrane is an album by American jazz pianist and composer Steve Kuhn recorded in 2008 and released on the ECM label."@en ;
+	dbo:artist	dbr:Steve_Kuhn ;
+	dbo:genre	dbr:Jazz ;
+	dbo:recordLabel	dbr:ECM_Records ;
+	dbo:releaseDate	"2009-06-19"^^xsd:date ;
+	foaf:name	"Mostly Coltrane"@en .
+<http://dbpedia.org/resource/Now,_Always,_Never>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Now, Always, Never is the debut studio album by Bosnian alternative rock band Sikter. It was released on 21 November 2000 by Fis club Bock in Bosnia and Herzegovina and The Orchard in the Europe and United States. Album was recorded during the summer 1998 in Pavarotti Music Centre, Mostar. Producers of album were frontman of the band Enes Zlatar, Austrian engineer Dietz Tinhof and English musician Brian Eno. Album is a fusion of a few genres: alternative rock, funk, alternative metal and soul."@en ;
+	dbo:artist	dbr:Sikter ;
+	dbo:genre	dbr:Funk ,
+		dbr:Alternative_rock ;
+	dbo:recordLabel	<http://dbpedia.org/resource/The_Orchard_(company)> ;
+	dbo:releaseDate	"2000-11-21"^^xsd:date ;
+	foaf:name	"Now, Always, Never"@en .
+dbr:Pag_collection_-_Tonnes_de_flashs	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Pag Collection is a boxed set of CDs released by Michel Pagliaro in December 2011. The collection includes all of his previous albums, previously unavailable on CD, as well as a compilation of songs that were formerly only available on 45\" singles"@en ;
+	dbo:artist	dbr:Michel_Pagliaro ;
+	dbo:genre	dbr:Rock_music ;
+	dbo:recordLabel	dbr:Disques_Musicor ;
+	dbo:releaseDate	"2011-12-06"^^xsd:date ;
+	foaf:name	"Pag collection (13CD)"@en .
+@prefix ns10:	<http://dbpedia.org/resource/Passion:> .
+ns10:_Here_for_You	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Passion: Here for You is an album recorded live at Passion 2011. It features Chris Tomlin, Matt Redman, Christy Nockels, David Crowder Band and Kristian Stanfill. The songs \"Shadows\" and \"Our God\" feature Lecrae."@en ;
+	dbo:artist	dbr:Passion_Conferences ;
+	dbo:genre	dbr:Contemporary_worship_music ,
+		dbr:Contemporary_Christian_music ;
+	dbo:recordLabel	dbr:Sixstepsrecords ;
+	dbo:releaseDate	"2011-03-08"^^xsd:date ;
+	foaf:name	"Passion: Here for You"@en .
+@prefix ns11:	<http://dbpedia.org/resource/Paul\u0027s_Tomb:> .
+ns11:_A_Triumph	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Paul's Tomb: A Triumph is a 2010 album by Canadian indie rock band Frog Eyes. It was a longlisted nominee for the 2010 Polaris Music Prize."@en ;
+	dbo:artist	dbr:Frog_Eyes ;
+	dbo:recordLabel	dbr:Dead_Oceans ;
+	dbo:releaseDate	"2010-04-27"^^xsd:date ;
+	foaf:name	"Paul's Tomb: A Triumph"@en .
+dbr:Purple_Naked_Ladies	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Purple Naked Ladies is the debut studio album by hip hop soul band The Internet, a duo consisting of Syd tha Kyd and Matt Martians of Odd Future. The digital version of the album was released on December 20, 2011, with a physical copy, with bonus tracks released on January 31, 2012. The album is the first physically released album on Odd Future's own record label Odd Future Records."@en ;
+	dbo:artist	<http://dbpedia.org/resource/The_Internet_(band)> ;
+	dbo:genre	dbr:Trip_hop ,
+		<http://dbpedia.org/resource/Alternative_R&B> ,
+		dbr:Hip_hop_soul ,
+		dbr:Electronica ,
+		dbr:Funk ;
+	dbo:recordLabel	dbr:Odd_Future_Records ;
+	dbo:releaseDate	"2012-01-31"^^xsd:date ,
+		"2011-12-19"^^xsd:date ;
+	foaf:name	"Purple Naked Ladies"@en .
+@prefix ns12:	<http://dbpedia.org/resource/Ray_Stevens_Christmas:> .
+ns12:_Through_a_Different_Window	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Ray Stevens Christmas: Through a Different Window was the thirty-first studio album of Ray Stevens, released in 1997, as well as his first album of Christmas music. The title of the album perfectly fits the descriptions of all the songs, which satirize various subjects, including political correctness (\"Guilt for Christmas\" and \"Nightmare Before Christmas\"), holiday stereotypes (\"Home for the Holidays\"), Christmas parties thrown by corporate offices (\"The Annual Office Christmas Party\"), letters sent by families that discuss accomplishments that they made during the past year (\"Xerox Xmas Letter\") and children who claim to have behaved well while speaking to Santa Claus (\"Bad Little Boy\"). Two of the selections satirize classic Christmas songs: \"I Won't Be Home for Christmas\" and \"The Little Drummer Boy-Next Door.\" The final track, \"Santa Claus Is Watching You,\" is a re-recording of Stevens' 1962 hit of the same name; this marks the third time that Stevens recorded this song, as he recorded it for a second time for his album I Have Returned. The front of the album cover shows Stevens with a Santa hat on his head and peaking through a window. A Christmas tree stands on the inside of the window. This album was re-released by Stevens' own label of Clyde Records in 2004."@en ;
+	dbo:artist	dbr:Ray_Stevens ;
+	dbo:genre	dbr:Christmas_music ,
+		dbr:Comedy_music ,
+		dbr:Novelty_song ,
+		dbr:Country_music ;
+	dbo:recordLabel	dbr:MCA_Records ;
+	dbo:releaseDate	"1997-09-23"^^xsd:date ;
+	foaf:name	"Ray Stevens Christmas: Through a Different Window"@en .
+<http://dbpedia.org/resource/Redneck_Fiddlin\u0027_Man>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Redneck Fiddlin' Man is an album by bluegrass and country rock artist Charlie Daniels. It was released on July 23, 2002 and peaked at number 40 on the Top Country Albums chart."@en ;
+	dbo:artist	dbr:Charlie_Daniels ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:Entertainment_One_Music ;
+	dbo:releaseDate	"2002-07-23"^^xsd:date ;
+	foaf:name	"Redneck Fiddlin' Man"@en .
+@prefix ns13:	<http://dbpedia.org/resource/Smash_It_Up:> .
+ns13:_The_Anthology_1976-1987	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Smash It Up: The Anthology 1976\u20131987 is a compilation album by the English punk and gothic rock band The Damned, released on 22 October 2002. It collects tracks spanning the first eleven years of the band's career, beginning with their debut single \"New Rose\" (1976) and continuing through their first seven studio albums\u2014Damned Damned Damned (1977), Music for Pleasure (1977), Machine Gun Etiquette (1979), The Black Album (1980), Strawberries (1982), Phantasmagoria (1985), and Anything (1986)\u2014along with the non-album singles \"Stretcher Case Baby\" (1977), \"Lovely Money\" (1982), and \"Eloise\" (1986)."@en ;
+	dbo:artist	<http://dbpedia.org/resource/The_Damned_(band)> ;
+	dbo:genre	dbr:Gothic_rock ,
+		dbr:Punk_rock ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Essential_Records_(London)> ,
+		dbr:Sanctuary_Records_Group ,
+		dbr:Castle_Communications ;
+	dbo:releaseDate	"2002-10-22"^^xsd:date ;
+	foaf:name	"Smash It Up: The Anthology 1976\u20131987"@en .
+<http://dbpedia.org/resource/The_Belle_Brigade_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Belle Brigade is the debut album by American band The Belle Brigade. It was co-produced by them and Matthew Wilder. The album was released on April 19, 2011. It has been chosen as one of the best albums released in 2011."@en ;
+	dbo:artist	dbr:The_Belle_Brigade ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:Reprise_Records ;
+	dbo:releaseDate	"2011-04-19"^^xsd:date ;
+	foaf:name	"The Belle Brigade"@en .
+dbr:The_DiV	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The DiV is the official debut studio album by American hip hop group Pac Div that was released on November 8, 2011."@en ;
+	dbo:artist	dbr:Pac_Div ;
+	dbo:genre	dbr:Hip_hop_music ;
+	dbo:recordLabel	dbr:RBC_Records ;
+	dbo:releaseDate	"2011-11-08"^^xsd:date ;
+	foaf:name	"The DiV"@en .
+dbr:The_Guilty_Office	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Guilty Office is the seventh studio album by New Zealand indie band, The Bats, released in New Zealand on 1 December 2008, and in the United States on 23 June 2009."@en ;
+	dbo:artist	<http://dbpedia.org/resource/The_Bats_(New_Zealand_band)> ;
+	dbo:genre	dbr:Alternative_rock ,
+		dbr:Indie_rock ,
+		dbr:Indie_pop ;
+	dbo:recordLabel	dbr:Parasol_Records ,
+		dbr:Arch_Hill_Recordings ;
+	dbo:releaseDate	"2009-06-23"^^xsd:date ,
+		"2008-12-01"^^xsd:date ;
+	foaf:name	"The Guilty Office"@en .
+<http://dbpedia.org/resource/The_Life_&_Death_of_A_Plea_for_Purging>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Life & Death of A Plea for Purging is the fourth and final album by American metalcore band A Plea for Purging. It was released on November 8, 2011 through Facedown Records. The sound the band has cultivated over the years is present on this follow-up to the critically acclaimed The Marriage of Heaven and Hell."@en ;
+	dbo:artist	dbr:A_Plea_for_Purging ;
+	dbo:genre	dbr:Metalcore ;
+	dbo:recordLabel	dbr:Facedown_Records ;
+	dbo:releaseDate	"2011-11-08"^^xsd:date ;
+	foaf:name	"The Life & Death of A Plea for Purging"@en .
+dbr:The_Second_Three_Years	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Second Three Years is a compilation album by singer-songwriter Frank Turner, released 18 November 2011 through Xtra Mile Recordings and 16 January 2012 through Epitaph Records. The album compiles material recorded after the release of Turner's first compilation, The First Three Years, that does not appear on either of Turner's two successive studio albums, including tracks from EPs, singles, covers and unreleased material."@en ;
+	dbo:artist	dbr:Frank_Turner ;
+	dbo:genre	dbr:Folk_rock ;
+	dbo:recordLabel	dbr:Xtra_Mile_Recordings ,
+		dbr:Epitaph_Records ;
+	dbo:releaseDate	"2011-11-18"^^xsd:date ;
+	foaf:name	"The Second Three Years"@en .
+@prefix ns14:	<http://dbpedia.org/resource/Tour_2011_Passenger:> .
+ns14:_We_Are_Passionate_Messenger	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Tour 2011 Passenger: We Are Passionate Messenger is a live concert DVD by the Japanese rock band Nico Touches the Walls released on January, 11 2012. The DVD contains all their songs from the album \"Passenger\" and some of their previous successes."@en ;
+	dbo:artist	dbr:Nico_Touches_the_Walls ;
+	dbo:genre	dbr:Rock_music .
+@prefix ns15:	<http://dbpedia.org/resource/Ki/> .
+ns14:_We_Are_Passionate_Messenger	dbo:recordLabel	ns15:oon_Music ;
+	dbo:releaseDate	"2012-01-11"^^xsd:date ;
+	foaf:name	"Tour 2011 Passenger: We Are Passionate Messenger"@en .
+<http://dbpedia.org/resource/Trouble_Maker_(EP)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Trouble Maker (Korean: \uD2B8\uB7EC\uBE14\uBA54\uC774\uCEE4) is the debut album of South Korean co-ed subunit Trouble Maker consisting of 4minute's HyunA and Beast's Hyunseung (a.k.a. JS). Released on December 1, 2011, the album marks the first collaboration between the two away from their groups. The duo promoted the album extensively, including numerous performances. The song \"Trouble Maker\" was used to promote the EP. It was also performed at 2012 MAMA awards. The song won the Best Collaboration in the 14th Mnet Asian Music Awards."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Trouble_Maker_(duo)> ;
+	dbo:genre	dbr:Pop_music ,
+		dbr:Dance_music ;
+	dbo:recordLabel	dbr:Universal_Music_Group ,
+		dbr:Cube_Entertainment ;
+	dbo:releaseDate	"2011-12-01"^^xsd:date ;
+	foaf:name	"Trouble Maker"@en .
+dbr:Wishing_You_a_Rave_Christmas	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Wishing You A Rave Christmas is the fourth EP by The Raveonettes, and was released November 25, 2008. It is the third release in a three-part release of digital download EPs over three months. For reasons unknown, the previously released single The Christmas Song is not included in this collection."@en ;
+	dbo:artist	dbr:The_Raveonettes ;
+	dbo:genre	dbr:Shoegazing ,
+		dbr:Indie_rock ,
+		dbr:Noise_pop ,
+		dbr:Post-punk_revival ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Vice_(magazine)> ;
+	dbo:releaseDate	"2008-11-25"^^xsd:date ;
+	foaf:name	"Wishing You a Rave Christmas"@en .
+@prefix ns16:	<http://dbpedia.org/resource/Funk_Power_1970:> .
+ns16:_A_Brand_New_Thang	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Funk Power 1970: A Brand New Thang is the third of several James Brown era overviews released by Polydor Records in the mid-1990s. It covers 1970."@en ;
+	dbo:artist	dbr:James_Brown ;
+	dbo:genre	dbr:Soul_music ;
+	dbo:recordLabel	dbr:Polydor_Records ;
+	dbo:releaseDate	"1996-06-04"^^xsd:date ;
+	foaf:name	"Funk Power 1970: A Brand New Thang"@en .
+@prefix ns17:	<http://dbpedia.org/resource/Half_a_Boy/> .
+ns17:Half_a_Man	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Half a Boy/Half a Man is a studio album by George Thorogood and the Destroyers. It was released on April 13, 1999 on the CMC International label. The album peaked at #24 on the Billboard Mainstream Rock chart."@en ;
+	dbo:artist	dbr:George_Thorogood ;
+	dbo:genre	dbr:Boogie_rock ,
+		dbr:Blues_rock ;
+	dbo:recordLabel	dbr:CMC_International ;
+	dbo:releaseDate	"1999-04-13"^^xsd:date ;
+	foaf:name	"Half a Boy/Half a Man"@en .
+<http://dbpedia.org/resource/Khelein_Hum_Jee_Jaan_Sey_(soundtrack)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Khelein Hum Jee Jaan Sey is the soundtrack album to the 2010 period piece film of the same name, composed by Sohail Sen. The lyrics are penned by Javed Akhtar. The film is based on the book Do And Die by Manini Chatterjee, which is based on the Chittagong Uprising of 1930, directed by Ashutosh Gowariker. The album consists of twelve tracks; including five songs and seven background score cues. It was released on 27 October 2010, by T-Series."@en ;
+	dbo:artist	dbr:Sohail_Sen ;
+	dbo:genre	dbr:Rabindra_Sangeet ,
+		dbr:World_music ,
+		dbr:Classical_music ,
+		dbr:Soundtrack ,
+		dbr:Music_of_Bengal ;
+	dbo:recordLabel	dbr:T-Series ;
+	dbo:releaseDate	"2010-10-27"^^xsd:date ;
+	foaf:name	"Khelein Hum Jee Jaan Sey"@en .
+dbr:Returnal	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Returnal is the fourth album by American experimental electronic artist Daniel Lopatin, alias Oneohtrix Point Never. it was released on June 22, 2010 on Editions Mego."@en ;
+	dbo:artist	dbr:Oneohtrix_Point_Never ;
+	dbo:genre	dbr:Electronic_music ,
+		dbr:Drone_music ,
+		dbr:Ambient_music ,
+		dbr:Krautrock ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Mego_(label)> ;
+	dbo:releaseDate	"2010-06-22"^^xsd:date ;
+	foaf:name	"Returnal"@en .
+dbr:They_All_Fall_Down	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"They All Fall Down is the third full-length album by Burlington, Ontario's The Creepshow released by Stomp Records. The album was released on August 5, 2010 in Compact Disc format and January 4, 2011 as LP."@en ;
+	dbo:artist	dbr:The_Creepshow ;
+	dbo:genre	dbr:Psychobilly ;
+	dbo:recordLabel	dbr:Union_Label_Group ,
+		<http://dbpedia.org/resource/%22I_Used_to_Fuck_People_Like_You_in_Prison%22_Records> ;
+	dbo:releaseDate	"2010-10-05"^^xsd:date ;
+	foaf:name	"They All Fall Down"@en .
+dbr:Thousand_Mile_Stare	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Thousand Mile Stare is the fifth studio album by British electronic dance music artist Chicane. An exclusive 'Collectors Edition Box Set' version of the album was released on 12 December 2011 before any regular CD or digital version was announced. The boxed set was made available to preorder by 18 November 2011. Those who purchased the boxed set had their name included on the back panel of the booklet. The regular version of the album, containing three previously unreleased tracks, was released on 16 April 2012. The album's cover artwork pays homage to Jean Michel Jarre's Magnetic Fields (1981)."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Chicane_(musician)> ;
+	dbo:genre	dbr:Trance_music ,
+		dbr:Ambient_music ,
+		dbr:House_music ,
+		dbr:Electronica ;
+	dbo:recordLabel	dbr:Armada_Music ;
+	dbo:releaseDate	"2012-04-16"^^xsd:date ;
+	foaf:name	"Thousand Mile Stare"@en .
+<http://dbpedia.org/resource/Black_Thunder_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Black Thunder is the debut studio album by the American rock band Doomriders. The album was released on August 9, 2005 through Deathwish Inc. Geoff Summers of Noisecreep noted that the album had a \"strong party vibe.\" The cover art for Black Thunder was painted by Doomriders' bassist Jebb Riley."@en ;
+	dbo:artist	dbr:Doomriders ;
+	dbo:genre	dbr:Stoner_rock ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Deathwish_Inc.> ;
+	dbo:releaseDate	"2005-08-09"^^xsd:date ;
+	foaf:name	"Black Thunder"@en .
+dbr:Christmas_All_Over_the_World	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Christmas All Over the World is the fourth studio album released by American R&B group New Edition released in December 1985 by MCA. It serves as the group's first Christmas album and the final album to feature vocals from original member Bobby Brown who shortly departed for a solo career after the release of this album where the group reluctantly forced him out due to managerial concern of the group's image being tattered by Brown's outbursts until he returned for their seventh album Home Again (1996). The album was a moderate chart success, only peaking at number forty-five on the Billboard R&B Albums chart, and received mediocre reviews from most music critics."@en ;
+	dbo:artist	dbr:New_Edition ;
+	dbo:genre	dbr:Christmas_music ,
+		dbr:Rhythm_and_blues ,
+		dbr:Soul_music ;
+	dbo:recordLabel	dbr:MCA_Records ;
+	dbo:releaseDate	"1985-12-12"^^xsd:date ;
+	foaf:name	"Christmas All Over the World"@en .
+<http://dbpedia.org/resource/Everyone\u0027s_a_Dreamer>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Everyone's a Dreamer is the debut studio album by Canadian country music artist Clayton Bellamy. It was released on March 6, 2012 by MDM Recordings. The album received three stars out of five from Bruce Leperre of the Winnipeg Free Press."@en ;
+	dbo:artist	dbr:Clayton_Bellamy ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	<http://dbpedia.org/resource/MDM_Recordings_Inc.> ;
+	dbo:releaseDate	"2012-03-06"^^xsd:date ;
+	foaf:name	"Everyone's a Dreamer"@en .
+dbr:Le_droit_de_rêver	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Le droit de r\u00EAver is the debut album by French singer-songwriter Tal released by Warner Music France. The album debuted at #7 in the SNEP official French Albums Chart before eventually peaking at #5 and reached #24 in the Belgian French Wallonia Album Charts. Three singles were released from the album, first \"On avance\" that reached #29 in France and #44 in Belgium, followed by \"Waya Waya\" featuring Sean Paul, and the biggest hit \"Le sens de la vie\" that reached #4 in France and #3 in the French Belgian charts. Besides the Sean Paul cooperation, there is a second version of \"Le sens de la vie\" featuring French-Algerian urban artist L'Alg\u00E9rino."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Tal_(singer)> ;
+	dbo:genre	dbr:Pop_music ;
+	dbo:recordLabel	dbr:Warner_Music_Group ;
+	dbo:releaseDate	"2012-03-19"^^xsd:date ;
+	foaf:name	"Le droit de r\u00EAver"@en .
+dbr:Pop_Tune	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Pop Tune is the 18th studio album by pop-punk trio Shonen Knife. It was released in Japan on June 6, 2012, and in early June in the U.S., U.K., and Europe. Along with lead guitar and main vocalist Naoko, the group's bassist, Ritsuko, provides the lead vocals for the song \"Sunshine\" and drummer Emi is the lead vocalist for the song \"Psychedelic Life\". \"Osaka Rock City\" was used as the theme song for the 2013 Japanese film Soul Flower Train."@en ;
+	dbo:artist	dbr:Shonen_Knife ;
+	dbo:genre	dbr:Pop_punk ;
+	dbo:recordLabel	dbr:P-Vine_Records ,
+		dbr:Good_Charamel_Records ,
+		dbr:Damnably ;
+	dbo:releaseDate	"2012-06-06"^^xsd:date ;
+	foaf:name	"Pop Tune"@en .
+dbr:The_Black_Chord	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Black Chord is an album by American progressive rock band Astra. It is their second album, released in the United States on March 27, 2012 on Metal Blade Records, and on April 16 in the United Kingdom on the independent label Rise Above Records."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Astra_(band)> ;
+	dbo:genre	dbr:Progressive_rock ,
+		dbr:Psychedelic_rock ,
+		dbr:Space_rock ;
+	dbo:recordLabel	dbr:Metal_Blade_Records ,
+		dbr:Rise_Above_Records ;
+	dbo:releaseDate	"2012-03-27"^^xsd:date ;
+	foaf:name	"The Black Chord"@en .
+dbr:We_Still_Love_Our_Country	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"We Still Love Our Country is the first EP released by Carrie Rodriguez and Ben Kyle of Romantica. The album was produced by Lee Townsend and released by Ninth Street Opus. The collection consists of original songs and cover by artists such as Townes Van Zandt, Boudleaux Bryant and John Prine"@en ;
+	dbo:artist	dbr:Carrie_Rodriguez ;
+	dbo:genre	dbr:Country_music ,
+		<http://dbpedia.org/resource/Americana_(music)> ;
+	dbo:recordLabel	dbr:Ninth_Street_Opus ;
+	dbo:releaseDate	"2011-02-01"^^xsd:date ;
+	foaf:name	"We Still Love Our Country"@en .
+dbr:All_Your_Heroes_Become_Villains	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"All Your Heroes Become Villains is the fourth album released by the musical collective Ed Hale and The Transcendence. It is a concept album and features a varitety of musical styles including brit pop, progressive rock, blues based rock as well as experimental and chamber pop moments. It was released November 15, 2011 on Dying Van Gogh Records. It was the follow up to their 2004 album, Nothing Is Cohesive and was in fact started in 2006 and took several years to complete."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Transcendence_(band)> ;
+	dbo:genre	dbr:Alternative_rock ;
+	dbo:recordLabel	dbr:Dying_Van_Gogh_Records ;
+	dbo:releaseDate	"2011-11-15"^^xsd:date ;
+	foaf:name	"All Your Heroes Become Villains"@en .
+dbr:Amarte_Bien	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Amarte Bien is a studio album released by Venezuelan singer-songwriter Carlos Baute. The album was released by Warner Music on November 20, 2010. It was recorded in Mexico City and produced by Juan Carlos Noguel, Armando \u00C1vila and Baute. Carlos Baute commented that he wanted that \"when people listen to my album, they feel happy. They're very fresh songs, that go directly through the heart.\" Website 7d\u00EDas stated that the singer, with Amarte Bien, \"returns to his origins recovering that folklore rhythm from his land, which shot him to fame back in 1994.\" Mariano Prunes from Allmusic stated that \"Amarte Bien is brimming with the light pop and positive messages characteristic of the artist.\" The album contained the hit singles \"Qui\u00E9n Te Quiere Como Yo\", \"Amarte Bien\" and \"Tu Cuerpo Bailando en Mi Cuerpo\". \"Qui\u00E9n Te Quiere Como Yo\" reached No.26 on the Billboard Latin Songs chart and No.6 Latin Pop Songs chart, while the second, \"Amarte Bien\", also reached No.28 on that list. \"Quien Te Quiere Como Yo\" also reached No.2 on the Spanish Singles Chart, and \"Amarte Bien\" reached No.18 on that chart. Amarte Bien became another commercial success for Carlos Baute. In Spain, the album reached No.3, almost reaching the peak position of its predecessor, De Mi Pu\u00F1o y Letra, which reached No.2. Although, it was a moderate hit in Mexico, only reaching No.39 on the Mexican Albums Chart."@en ;
+	dbo:artist	dbr:Carlos_Baute ;
+	dbo:genre	dbr:Latin_pop ;
+	dbo:recordLabel	dbr:Warner_Music_Group ;
+	dbo:releaseDate	"2010-11-20"^^xsd:date ;
+	foaf:name	"Amarte Bien"@en .
+<http://dbpedia.org/resource/Ariettes_oubli\u00E9es...>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Ariettes oubli\u00E9es... (English: Forgotten Arias...) is the second full-length album by les Discrets, released in 2012 by Prophecy Productions. \"Ariettes oubli\u00E9es... I: Je Devine \u00E0 travers un murmure...\" was released as a music video directed by Audrey Hadorn."@en ;
+	dbo:artist	dbr:Les_Discrets ;
+	dbo:genre	dbr:Shoegazing ,
+		dbr:Post-rock ;
+	dbo:recordLabel	dbr:Prophecy_Productions ;
+	dbo:releaseDate	"2012-02-10"^^xsd:date ;
+	foaf:name	"Ariettes oubli\u00E9es..."@en .
+dbr:At_Heart	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"At Heart is the third studio album by the American metalcore band Miss May I. The album was scheduled for release on May 29, 2012, but delayed to June 12, 2012. At Heart generally received positive reviews, noting the \"mature\" shift in sound with the band. The first single released from it was \"Hey Mister\" along with its accompanying music video. The album entered the Billboard 200 at number 32, selling over 12,000 copies in its first week."@en ;
+	dbo:artist	dbr:Miss_May_I ;
+	dbo:genre	dbr:Metalcore ;
+	dbo:recordLabel	dbr:Rise_Records ;
+	dbo:releaseDate	"2012-06-12"^^xsd:date ;
+	foaf:name	"At Heart"@en .
+dbr:AwE_NaturalE	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"awE naturalE is the debut album by the Washington based band, THEESatisfaction. It was released by Sub Pop in the United States on March 27, 2012."@en ;
+	dbo:artist	dbr:THEESatisfaction ;
+	dbo:genre	dbr:Alternative_hip_hop ;
+	dbo:recordLabel	dbr:Sub_Pop ;
+	dbo:releaseDate	"2012-03-27"^^xsd:date ;
+	foaf:name	"awE naturalE"@en .
+dbr:Down_the_Wire	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Down the Wire is the thirty-first album by Spyro Gyra, released on April 28, 2009.\"It was nominated for Best Pop Instrumental Album at the 52nd Annual Grammy Awards (held on January 31 2010)."@en ;
+	dbo:artist	dbr:Spyro_Gyra ;
+	dbo:genre	dbr:Smooth_jazz ;
+	dbo:recordLabel	dbr:Heads_Up_International ;
+	dbo:releaseDate	"2009-04-28"^^xsd:date ;
+	foaf:name	"Down the Wire"@en .
+<http://dbpedia.org/resource/Edens_Edge_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Edens Edge is the self-titled debut album of the American country music group Edens Edge. It was released on June 12, 2012 via Big Machine Records. Its first single, \"Amen,\" was released in March 2011. It includes four of the five songs from their debut EP. The second single, \"Too Good to Be True,\" was released April 2012. This is the only album to feature Hannah Blaylock. Mark Bright produced \"Amen\", \"Swingin' Door\", \"Last Supper\", and \"Feels So Real\", while Dann Huff produced the rest of the album. In June 2012, the album was re-released as a deluxe edition exclusive to Cracker Barrel Old Country Store, featuring three bonus tracks. \"Swingin' Door\" was going to be the third single but was cancelled due to Hannah Blaylock's departure."@en ;
+	dbo:artist	dbr:Edens_Edge ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:Big_Machine_Records ;
+	dbo:releaseDate	"2012-06-12"^^xsd:date ;
+	foaf:name	"Edens Edge"@en .
+dbr:In_Somniphobia	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"In Somniphobia is the ninth studio album released by Japanese extreme metal band Sigh. It was released on 13 March 2012 under the independent record label Candlelight Records."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Sigh_(band)> ;
+	dbo:genre	dbr:Avant-garde_metal ,
+		dbr:Black_metal ,
+		dbr:Symphonic_metal ,
+		dbr:Progressive_metal ;
+	dbo:recordLabel	dbr:Candlelight_Records ;
+	dbo:releaseDate	"2012-03-13"^^xsd:date ;
+	foaf:name	"In Somniphobia"@en .
+dbr:Inoxydable	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Inoxydable is the first studio album by French Canadian singer Marie-Mai, released on 28 September 2004. The album was then released in France on April 10 2006. The album received platinum certification for selling more than 120,000 copies."@en ;
+	dbo:artist	dbr:Marie-Mai ;
+	dbo:genre	dbr:Rock_music ,
+		dbr:Pop_music ;
+	dbo:recordLabel	dbr:Distribution_Select ;
+	dbo:releaseDate	"2004-09-28"^^xsd:date ;
+	foaf:name	"Inoxydable"@en .
+dbr:Inside_My_Heart	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Inside My Heart is the first solo debut album of singer/actress/model and Are You the Next Big Star? female winner Frencheska Farr. This 10-track album was produced and released by GMA Records in December 8, 2010."@en ;
+	dbo:artist	dbr:Frencheska_Farr ;
+	dbo:genre	dbr:Music_of_the_Philippines ,
+		dbr:Pop_music ,
+		dbr:Adult_contemporary_music ;
+	dbo:recordLabel	dbr:GMA_Records ;
+	dbo:releaseDate	"2010-12-08"^^xsd:date ;
+	foaf:name	"Inside My Heart"@en .
+<http://dbpedia.org/resource/June_2009_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"June 2009 is a compilation album by American recording artist Toro y Moi, released on April 24, 2012 by Carpark Records. Originally sold as a tour-only CD-R, it consists of previously unreleased material produced and recorded by Bundick in June 2009, before his debut studio album, Causers of This (2010), was recorded. Aside from standard CD and digital versions, the album was also released as a limited edition box set containing five 7\" vinyl singles, each with their own cover art, as well as a free digital download, postcard, and stickers."@en ;
+	dbo:artist	dbr:Toro_y_Moi ;
+	dbo:genre	dbr:Pop_music ,
+		dbr:Indie_pop ,
+		dbr:Indie_rock ,
+		dbr:Electronic_music ;
+	dbo:recordLabel	dbr:Carpark_Records ;
+	dbo:releaseDate	"2012-04-24"^^xsd:date ;
+	foaf:name	"June 2009"@en .
+dbr:Kis-My-1st	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Kis-My-1st is an album by Japanese boy group Kis-My-Ft2. The album has spawned three singles."@en ;
+	dbo:artist	dbr:Kis-My-Ft2 ;
+	dbo:genre	dbr:J-pop ;
+	dbo:recordLabel	dbr:Avex_Trax ;
+	dbo:releaseDate	"2012-03-28"^^xsd:date ;
+	foaf:name	"Kis-My-1st"@en .
+<http://dbpedia.org/resource/Lynch_Mob_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Lynch Mob is the second album by American hard rock band Lynch Mob, and the first album to feature vocalist Robert Mason following the departure of Oni Logan. Logan was fired shortly after touring in support of the band's first album due to his life style that negatively impacted his ability to perform. There were also rumors that he had quit the band while touring in support of Queensr\u00FFche, because he felt intimidated opening up for singer Geoff Tate. In a 1992 interview with Headbangers Ball, Lynch talked highly of Mason and stating, \"Mason tracked us down, saying he had to be the singer for the band. He knew he was right for the group. He flew himself out. He was very much the opposite of the last singer. He's very dedicated, has a lot of confidence in his abilities and can definitely take control of an audience\". Due to the rise of the grunge movement and changing musical trends, the album resulted in poorer sales figures than the previous album. However, it has received some positive critical reviews. The album also includes a cover of \"Tie Your Mother Down\", a song originally released by the British rock band Queen in 1976."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Lynch_Mob_(band)> ;
+	dbo:genre	dbr:Blues_rock ,
+		dbr:Heavy_metal_music ,
+		dbr:Hard_rock ;
+	dbo:recordLabel	dbr:Elektra_Records ;
+	dbo:releaseDate	"1992-04-28"^^xsd:date ;
+	foaf:name	"Lynch Mob"@en .
+<http://dbpedia.org/resource/MMXII_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"MMXII is the fourteenth studio album by English rock band Killing Joke, released on 2 April 2012 by record label Spinefarm and distributed worldwide by Universal Music Group."@en ;
+	dbo:artist	dbr:Killing_Joke ;
+	dbo:genre	dbr:Post-punk ,
+		dbr:Industrial_metal ,
+		dbr:Industrial_rock ;
+	dbo:recordLabel	dbr:Spinefarm_Records ,
+		dbr:Universal_Music_Group ;
+	dbo:releaseDate	"2012-04-02"^^xsd:date ;
+	foaf:name	"MMXII"@en .
+<http://dbpedia.org/resource/Monoculture_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Monoculture is the debut studio album by American indie rock band Sainthood Reps. It was produced by Mike Sapone and released on August 9, 2011, by Tooth & Nail Records."@en ;
+	dbo:artist	dbr:Sainthood_Reps ;
+	dbo:genre	dbr:Indie_rock ,
+		dbr:Post-hardcore ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Tooth_&_Nail_Records> ;
+	dbo:releaseDate	"2011-08-09"^^xsd:date ;
+	foaf:name	"Monoculture"@en .
+dbr:Night_of_1000_Stars	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Night of 1000 Stars is the fourth album released by Blame Sally."@en ;
+	dbo:artist	dbr:Blame_Sally ;
+	dbo:genre	dbr:Folk_rock ,
+		dbr:Blues_rock ;
+	dbo:recordLabel	dbr:Ninth_Street_Opus ;
+	dbo:releaseDate	"2009-05-05"^^xsd:date ;
+	foaf:name	"Night of 1000 Stars"@en .
+dbr:Ptahil	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Ptahil is the fourth album by Swedish Dark ambient project Atrium Carceri. It was released on February 2, 2007 through Cold Meat Industry."@en ;
+	dbo:artist	dbr:Atrium_Carceri ;
+	dbo:genre	dbr:Experimental_music ,
+		dbr:Dark_ambient ;
+	dbo:recordLabel	dbr:Cold_Meat_Industry ;
+	dbo:releaseDate	"2007-02-02"^^xsd:date ;
+	foaf:name	"Ptahil"@en .
+<http://dbpedia.org/resource/Serve_&_Collect>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Serve & Collect is the second album by the Boss Hogg Outlawz, released on February 13, 2007 through Koch Records. The album found minor success on the Billboard charts, peaking at number 63 on the Billboard 200 and number 10 on the Top R&B/Hip-Hop Albums. The album's lead single \"Woodgrain Wheel\" was a minor hit on the R&B/Hip singles chart. The album was followed by two sequels, Back by Blockular Demand: Serve & Collect II in 2008 and Serve & Collect III in 2011."@en ;
+	dbo:artist	dbr:Boss_Hogg_Outlawz ;
+	dbo:genre	dbr:Hip_hop_music ;
+	dbo:recordLabel	dbr:Entertainment_One_Music ;
+	dbo:releaseDate	"2007-02-13"^^xsd:date ;
+	foaf:name	"Serve & Collect"@en .
+dbr:Suzie_Cracks_the_Whip	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Suzie Cracks the Whip is American jam band Blues Traveler's eleventh studio album, released on June 26, 2012. The album debuted at #91 on the Billboard 200, the band's highest position on the chart since 2001."@en ;
+	dbo:artist	dbr:Blues_Traveler ;
+	dbo:genre	dbr:Rock_music ;
+	dbo:recordLabel	<http://dbpedia.org/resource/429_Records> ;
+	dbo:releaseDate	"2012-06-26"^^xsd:date ;
+	foaf:name	"Suzie Cracks the Whip"@en .
+dbr:The_Pigeon_Is_the_Most_Popular_Bird	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Pigeon Is the Most Popular Bird is the debut studio album of the noise rock band Six Finger Satellite, released on August 24, 1993 through Sub Pop."@en ;
+	dbo:artist	dbr:Six_Finger_Satellite ;
+	dbo:genre	dbr:Post-hardcore ,
+		dbr:Noise_rock ;
+	dbo:recordLabel	dbr:Sub_Pop ;
+	dbo:releaseDate	"1993-08-24"^^xsd:date ;
+	foaf:name	"The Pigeon Is the Most Popular Bird"@en .
+<http://dbpedia.org/resource/The_Trace_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Trace is first DVD live concert from South Korean rock band Nell, released in November 28, 2008. Includes the full live recording of Nell's concert \"Stay\" which was held at the Olympics Hall in Seoul on July 19, 2008. Four new tracks was added into mini CD as bonus."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Nell_(band)> ;
+	dbo:genre	dbr:Modern_rock ,
+		dbr:Indie_rock ;
+	dbo:recordLabel	dbr:WOOLIM_Entertaintment ;
+	dbo:releaseDate	"2008-11-28"^^xsd:date ;
+	foaf:name	"The Trace"@en .
+dbr:To_a_Place	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"To a Place is the debut album of independent singer Laura Shay. Released on 27 June 2005, it consists of 12 tracks in pop genre."@en ;
+	dbo:artist	dbr:Laura_Shay ;
+	dbo:genre	dbr:Pop_music ;
+	dbo:recordLabel	dbr:Independent_music ;
+	dbo:releaseDate	"2005-10-27"^^xsd:date ;
+	foaf:name	"To a Place"@en .
+dbr:Summoning_the_Bygones	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Summoning the Bygones is the third full-length studio album by BILOCATE. It was released four years after Sudden Death Syndrome. Quoted is a description of the album written by BILOCATE: \"Summoning The Bygones is BILOCATE's early visions presented in a new outfit, we've always felt that Dysphoria has much value to offer to listeners, however, maybe it got somehow underrated due to the weak sound quality (compared to SDS), so we'd like to share the same spirit and music and ideas with our listeners but with more proper arrangements, production, and sound quality. The album also includes a modified version of \"Days of Joy\" under a new name (which is actually the first name this song had originally when it was created in 2003), in addition to a brand new song and a cover song. As with its predecessor Sudden Death Syndrome, the album was co-produced, mixed and mastered at Fascination Street Studios, Orebro, Sweden by Jens Bogren The artwork of the album Summoning the Bygones won the Metal Riot's June Ultimate Cover Art Showdown."@en ;
+	dbo:artist	dbr:Bilocate ;
+	dbo:genre	dbr:Dark_Oriental_Metal ;
+	dbo:recordLabel	dbr:Code666 ;
+	dbo:releaseDate	"2012-06-11"^^xsd:date ;
+	foaf:name	"Summoning the Bygones"@en .
+dbr:Welcome_to_Daylight	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Welcome to Daylight is the second studio album by the contemporary Christian music band Luminate, and was released by the label Sparrow Records on August 28, 2012. The album has charted on Billboard Christian Albums chart at No. 30 and on the Heatseekers Albums chart at No. 23. The first single from the album is \"Banner of Love\", which has had chart success on its own."@en ;
+	dbo:artist	dbr:Luminate ;
+	dbo:genre	dbr:Contemporary_Christian_music ,
+		dbr:Ambient_music ;
+	dbo:recordLabel	dbr:Sparrow_Records ;
+	dbo:releaseDate	"2012-08-28"^^xsd:date ;
+	foaf:name	"Welcome to Daylight"@en .
+<http://dbpedia.org/resource/7_Spirits>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"7 Spirits (stylized as 7 SPIRITS) is the first DVD released by artist Koda Kumi and was released the same day as her second studio album Grow into One. The DVD contains the PVs that correspond to her singles from albums Affection and Grow into One. Along with the PVs, content also includes off-shots and bonus images. The DVD has sold more than 35,439 copies since its release in March 2003."@en ;
+	dbo:artist	dbr:Kumi_Koda ;
+	dbo:genre	dbr:Pop_music ,
+		dbr:Hip_hop_music ,
+		<http://dbpedia.org/resource/Contemporary_R&B> ;
+	dbo:recordLabel	dbr:Rhythm_Zone ;
+	dbo:releaseDate	"2003-03-19"^^xsd:date ;
+	foaf:name	"7 Spirits"@en .
+<http://dbpedia.org/resource/Authentic_(LL_Cool_J_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Authentic is the thirteenth studio album by American hip hop recording artist LL Cool J. The album was released on April 30, 2013, by S-BRO Music Group, 429 Records. It is his first album since 2008's Exit 13 and his first to not be released on Def Jam. The album features guest appearances from Fitz and The Tantrums, Eddie Van Halen, Snoop Dogg, Fatman Scoop, Seal, Charlie Wilson, Melody Thornton, Earth, Wind & Fire, Bootsy Collins, Travis Barker, Chuck D, Tom Morello, Z-Trip, Mickey Shiloh, Monica and Brad Paisley."@en ;
+	dbo:artist	dbr:LL_Cool_J ;
+	dbo:genre	dbr:Hip_hop_music ;
+	dbo:recordLabel	<http://dbpedia.org/resource/429_Records> ;
+	dbo:releaseDate	"2013-04-30"^^xsd:date ;
+	foaf:name	"Authentic"@en .
+<http://dbpedia.org/resource/Eternity:_Love_&_Songs_at_Billboard_Live>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Eternity: Love & Songs at Billboard Live is the eighth live DVD released by the Japanese singer/songwriter Koda Kumi. The DVD is part of her celebration of ten years as an artist and contains content from her first cover album, Eternity: Love & Songs. There were a total of 16 performances held over four days in Osaka and Tokyo starting on December 6, 2010. The concert was performed with a live band. The DVD charted at number 2 on Oricon Live Charts. Live footage of her documentary for the Billboard Live performance was included with the limited edition DVD. In 2011, total sales of the DVD reached over 27,520."@en ;
+	dbo:artist	dbr:Kumi_Koda ;
+	dbo:genre	dbr:Dance-pop ,
+		dbr:Pop_music ,
+		<http://dbpedia.org/resource/Contemporary_R&B> ,
+		dbr:J-pop ;
+	dbo:recordLabel	dbr:Rhythm_Zone ;
+	dbo:releaseDate	"2011-02-23"^^xsd:date ,
+		"2013-03-20"^^xsd:date ,
+		"2011-05-18"^^xsd:date ;
+	foaf:name	"Eternity: Love & Songs"@en ,
+		"at Billboard Live"@en .
+<http://dbpedia.org/resource/Fingerpainting_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Fingerpainting is the eighth album by the experimental rock band Red Krayola, released on June 8, 1999 through Drag City."@en ;
+	dbo:artist	dbr:Red_Krayola ;
+	dbo:genre	dbr:Experimental_rock ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Drag_City_(record_label)> ;
+	dbo:releaseDate	"1999-06-08"^^xsd:date ;
+	foaf:name	"Fingerpainting"@en .
+dbr:Get_All_You_Deserve	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Get All You Deserve is the first live DVD and second live album by progressive rock musician Steven Wilson, released on September 24, 2012. It was filmed at a sold-out show in Mexico City, Mexico during his Grace for Drowning tour. The deluxe edition of Get All You Deserve consists of two CDs, a DVD and a Blu-ray disc."@en ;
+	dbo:artist	dbr:Steven_Wilson ;
+	dbo:genre	dbr:Progressive_rock ;
+	dbo:recordLabel	dbr:Kscope ;
+	dbo:releaseDate	"2012-09-24"^^xsd:date ;
+	foaf:name	"Get All You Deserve"@en .
+@prefix ns18:	<http://dbpedia.org/resource/Girls:> .
+ns18:_Selfish	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"'Girls: Selfish' (stylized as 'girls ~Selfish~') is the second music video DVD from Japanese star Koda Kumi."@en ;
+	dbo:artist	dbr:Kumi_Koda ;
+	dbo:genre	dbr:J-pop ,
+		dbr:Rhythm_and_blues ;
+	dbo:recordLabel	dbr:Rhythm_Zone ;
+	dbo:releaseDate	"2004-11-25"^^xsd:date ;
+	foaf:name	"Girls: Selfish"@en .
+dbr:Honor_Found_in_Decay	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Honor Found in Decay is the tenth studio album from the Oakland, California band Neurosis, released on October 30, 2012 in North America. The album is notable for incorporating elements of folk music while furthering the heaviness that was emphasized on Neurosis' previous album, Given to the Rising. Honor Found in Decay was lauded by Sputnikmusic for being \"as challenging and engrossing a record as they have ever produced and an incredible celebration of the band's legendary career\". Guitarist and vocalist Steve Von Till cautioned that \"if you're going put our record on, it's not going to be a party\"."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Neurosis_(band)> ;
+	dbo:genre	dbr:Sludge_metal ,
+		dbr:Post-metal ;
+	dbo:recordLabel	dbr:Relapse_Records ,
+		dbr:Neurot_Recordings ;
+	dbo:releaseDate	"2012-10-30"^^xsd:date ;
+	foaf:name	"Honor Found in Decay"@en .
+<http://dbpedia.org/resource/In_Fear_and_Faith_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"In Fear and Faith is the third studio album by American rock band In Fear and Faith. It was released on October 16, 2012, through Rise Records. The first single \"It All Comes Out (On the Way Down)\" off it was released in November 7, 2011. The second single \"A Creeping Dose\" was released on June 29th 2012. This is the band's last studio album to feature lead guitarist Ramin Niroomand and drummer Mehdi Niroomand. Scott Barnes provides both unclean and clean vocals in this album."@en ;
+	dbo:artist	dbr:In_Fear_and_Faith ;
+	dbo:genre	dbr:Symphonic_metal ,
+		dbr:Metalcore ,
+		dbr:Post-hardcore ;
+	dbo:recordLabel	dbr:Rise_Records ;
+	dbo:releaseDate	"2012-10-16"^^xsd:date ;
+	foaf:name	"In Fear and Faith"@en .
+<http://dbpedia.org/resource/Introduction_(Red_Krayola_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Introduction is the ninth album by the experimental rock band Red Krayola, released on April 18, 2006 through Drag City."@en ;
+	dbo:artist	dbr:Red_Krayola ;
+	dbo:genre	dbr:Experimental_rock ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Drag_City_(record_label)> ;
+	dbo:releaseDate	"2006-04-18"^^xsd:date ;
+	foaf:name	"Introduction"@en .
+<http://dbpedia.org/resource/Limits_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Limits (Chinese: \u6975\u9650; pinyin: Ji Xian) is the second Mandarin studio album of Taiwanese Mandopop artist Lala Hsu (Chinese: \u5F90\u4F73\u7469). It was released on 3 September 2010 by Rock Records. The pre-order edition is released on 16 August 2010."@en ;
+	dbo:artist	dbr:Lala_Hsu ;
+	dbo:genre	dbr:Mandopop ;
+	dbo:recordLabel	dbr:Rock_Records ;
+	dbo:releaseDate	"2010-09-03"^^xsd:date ;
+	foaf:name	"Limits"@en .
+@prefix ns19:	<http://dbpedia.org/resource/Live_Tour_2009:> .
+ns19:_Trick	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Live Tour 2009: Trick (stylized as Live Tour 2009: TRICK) is the ninth DVD by Koda Kumi. The limited edition came with a holographic cover and a bonus DVD. The DVD is certified Gold for shipment of 100,000 copies."@en ;
+	dbo:artist	dbr:Kumi_Koda ;
+	dbo:genre	dbr:Pop_music ,
+		dbr:Dance-pop ,
+		dbr:J-pop ,
+		<http://dbpedia.org/resource/Contemporary_R&B> ;
+	dbo:recordLabel	dbr:Rhythm_Zone ;
+	dbo:releaseDate	"2009-10-21"^^xsd:date ,
+		"2011-05-18"^^xsd:date ,
+		"2013-03-20"^^xsd:date ;
+	foaf:name	"Trick"@en ,
+		"Live Tour 2009:"@en .
+@prefix ns20:	<http://dbpedia.org/resource/Living_for_a_Song:> .
+ns20:_A_Tribute_to_Hank_Cochran	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Living for a Song: A Tribute to Hank Cochran is the fourth studio album by American country music singer Jamey Johnson. It was released in October 2012 via Mercury Nashville on both compact disc and LP record. The album is a tribute to songwriter Hank Cochran."@en ;
+	dbo:artist	dbr:Jamey_Johnson ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:Universal_Music_Group_Nashville ;
+	dbo:releaseDate	"2012-10-06"^^xsd:date ;
+	foaf:name	"Living for a Song: A Tribute to Hank Cochran"@en .
+dbr:Old_World_Romance	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Old World Romance is the third full-length album by the indie rock band Sea Wolf, released in 2012 on Dangerbird Records."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Sea_Wolf_(band)> ;
+	dbo:genre	dbr:Rock_music ,
+		dbr:Alternative_rock ,
+		dbr:Indie_rock ,
+		dbr:Pop_music ,
+		dbr:Indie_folk ;
+	dbo:recordLabel	dbr:Dangerbird_Records ;
+	dbo:releaseDate	"2012-09-11"^^xsd:date ;
+	foaf:name	"Old World Romance"@en .
+dbr:Pride_of_Texas	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Pride of Texas is the first studio album from red dirt metal band Texas Hippie Coalition. The album was released on February 12, 2008."@en ;
+	dbo:artist	dbr:Texas_Hippie_Coalition ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		<http://dbpedia.org/resource/Red_Dirt_(music)> ;
+	dbo:recordLabel	dbr:Independent_music ;
+	dbo:releaseDate	"2008-02-12"^^xsd:date ;
+	foaf:name	"Pride of Texas"@en .
+<http://dbpedia.org/resource/Salute_Me_or_Shoot_Me_4_(Banned_from_America)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Salute Me or Shoot Me 4 (Banned from America) is a mixtape by American hip hop recording artist Waka Flocka Flame. It was released on September 13, 2012. The mixtape features guest appearances from Gucci Mane, Wale, Roscoe Dash, Frenchie, Yo Gotti, Dorrough, Shawty Lo, Trae Tha Truth, Wooh Da Kid, and Chief Keef among others."@en ;
+	dbo:artist	dbr:Waka_Flocka_Flame ;
+	dbo:genre	dbr:Southern_hip_hop ;
+	dbo:recordLabel	<http://dbpedia.org/resource/1017_Records> ;
+	dbo:releaseDate	"2012-09-13"^^xsd:date ;
+	foaf:name	"Salute Me or Shoot Me 4 (Banned from America)"@en .
+dbr:Spring_Fools	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Spring Fools EP is the follow-up to Matt Pond PA's eighth studio album The Dark Leaves. It was released on April 26, 2011."@en ;
+	dbo:artist	dbr:Matt_Pond_PA ;
+	dbo:genre	dbr:Indie_rock ;
+	dbo:recordLabel	dbr:Altitude_Records ;
+	dbo:releaseDate	"2011-04-26"^^xsd:date ;
+	foaf:name	"Spring Fools EP"@en .
+<http://dbpedia.org/resource/T-ara\u0027s_Best_of_Best_2009-2012:_Korean_ver.>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"T-ara's Best of Best 2009-2012: Korean ver. (stylized as T-ARA's Best of Best 2009-2012 \uFF5EKOREAN ver.\uFF5E) is the first greatest hits album by South Korean girl group T-ara. It was released on October 10, 2012 by EMI Music Japan to commemorate the one-year anniversary of the group's Japanese debut. The album contains all of T-ara's singles from Absolute First Album (2009) up to Funky Town (2012), including their 2010 FIFA World Cup digital single \"We Are the One\". A limited ultra-deluxe edition of the album, which includes a 72-page photobook and 120-minute documentary of T-ara's \"Free Time in Europe\" trip, was released on October 17, 2012."@en ;
+	dbo:artist	dbr:T-ara ;
+	dbo:genre	dbr:Dance-pop ,
+		dbr:Electropop ;
+	dbo:recordLabel	dbr:EMI_Music_Japan ;
+	dbo:releaseDate	"2012-10-10"^^xsd:date ;
+	foaf:name	"T-ara's Best of Best 2009-2012: Korean ver."@en .
+dbr:The_Bomb_Shelter_Sessions	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Bomb Shelter Sessions is the first studio album by Vintage Trouble, released on 25 July 2011."@en ;
+	dbo:artist	dbr:Vintage_Trouble ;
+	dbo:genre	dbr:Blues ,
+		dbr:Rhythm_and_blues ,
+		dbr:Rock_and_roll ,
+		dbr:Soul_music ;
+	dbo:recordLabel	dbr:Vintage_Trouble ;
+	dbo:releaseDate	"2011-07-25"^^xsd:date ;
+	foaf:name	"The Bomb Shelter Sessions"@en .
+dbr:Translation_Wave	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Translation Wave is the fifth extended play (EP) by El Cantador, released on February 26, 2013."@en ;
+	dbo:artist	dbr:El_Cantador ;
+	dbo:genre	dbr:Dance-rock ,
+		dbr:Indie_rock ,
+		dbr:Indie_pop ,
+		dbr:Experimental_rock ;
+	dbo:recordLabel	dbr:Mod_Mobilian ,
+		dbr:This_Is_American_Music ;
+	dbo:releaseDate	"2013-02-26"^^xsd:date ;
+	foaf:name	"Translation Wave"@en .
+dbr:All_the_People_Said_Amen	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"All the People Said Amen is the first compilation album by contemporary worship music recording artist Matt Maher, released on April 23, 2013. It is his fourth album with Essential Records, which this marks the seventh album for his career. The album was produced by Matt Maher and Paul Moak."@en ;
+	dbo:artist	dbr:Matt_Maher ;
+	dbo:genre	dbr:Contemporary_Christian_music ,
+		dbr:Contemporary_worship_music ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Essential_Records_(Christian)> ;
+	dbo:releaseDate	"2013-04-23"^^xsd:date ;
+	foaf:name	"All the People Said Amen"@en .
+dbr:Aznavour_toujours	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Aznavour toujours (Forever the Aznavour) is the 50th French studio album by the French-Armenian singer Charles Aznavour, released in 2011. Toujours became his seventh album in the 21st century. According to Allmusic, \"this collection of 12 self-penned tracks shows that the 87-year-old is still capable of cutting it alone\". Album cover photograph is taken by Karl Lagerfeld."@en ;
+	dbo:artist	dbr:Charles_Aznavour ;
+	dbo:genre	dbr:Chanson ;
+	dbo:recordLabel	dbr:EMI ;
+	dbo:releaseDate	"2011-08-30"^^xsd:date ;
+	foaf:name	"Toujours"@en .
+dbr:Baka_no_Uta	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Baka no Uta (\u3070\u304B\u306E\u3046\u305F) is the debut studio album by Japanese singer-songwriter Gen Hoshino. It was released on 16 June 2010 as a limited edition vinyl LP on Kakubarhythm, and on 23 June 2010 on CD on Haruomi Hosono's Daisyworld Discs, and Speedstar Records in Japan. Baka no Uta is the first solo release by Hoshino, who also leads Japanese instrumental band Sakerock. The only single from the album, \"Kuse no Uta\", was released as a digital download on 14 July 2010."@en ;
+	dbo:artist	dbr:Gen_Hoshino ;
+	dbo:genre	dbr:Singer-songwriter ,
+		dbr:Folk_music ;
+	dbo:recordLabel	dbr:Victor_Entertainment ;
+	dbo:releaseDate	"2010-06-16"^^xsd:date ,
+		"2010-06-23"^^xsd:date ;
+	foaf:name	"Baka no Uta"@en .
+<http://dbpedia.org/resource/Edgeland_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Edgeland is the debut solo album by Underworld member Karl Hyde. It was released on 19 April 2013 by Universal Music. The album debuted at number 117 on the UK Albums Chart."@en ;
+	dbo:artist	dbr:Karl_Hyde ;
+	dbo:genre	dbr:Electronica ;
+	dbo:recordLabel	dbr:Universal_Music_Group ;
+	dbo:releaseDate	"2013-04-19"^^xsd:date ;
+	foaf:name	"Edgeland"@en .
+dbr:Greatest_Movie_Hits	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Greatest Movie Hits is a greatest hits album by the Baha Men, released in 2002 on the S-Curve label. The album features 13 of their songs featured in movies and on soundtracks, including two of their newest songs: their cover of Elton John's \"Crocodile Rock\" featured in The Crocodile Hunter: Collision Course, and \"Accident\" featured in The Wild Thornberrys Movie. One song, however (that being \"You All Dat\"), was featured in a episode of Malcolm in the Middle, while another song (\"My Man Stanley\") was actually a theme song from a TV show."@en ;
+	dbo:artist	dbr:Baha_Men ;
+	dbo:genre	dbr:Reggae ,
+		dbr:Junkanoo ,
+		dbr:Hip_hop_music ;
+	dbo:recordLabel	dbr:S-Curve_Records ;
+	dbo:releaseDate	"2002-11-05"^^xsd:date ;
+	foaf:name	"Greatest Movie Hits"@en .
+dbr:Jezus_Maria_Peszek	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Jezus Maria Peszek is the third studio album by Polish singer Maria Peszek, released in 2012. The album debuted at #1 in Polish albums chart and went Platinum in Poland."@en ;
+	dbo:artist	dbr:Maria_Peszek ;
+	dbo:genre	dbr:Pop_music ;
+	dbo:recordLabel	dbr:Mystic_Production ;
+	dbo:releaseDate	"2012-10-03"^^xsd:date ;
+	foaf:name	"Jezus Maria Peszek"@en .
+dbr:Main_Gate	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Main Gate is the thirty-five album by the jazz fusion group Casiopea recorded and released in 2001."@en ;
+	dbo:artist	dbr:Casiopea ;
+	dbo:genre	dbr:Jazz_fusion ;
+	dbo:recordLabel	dbr:Pioneer_Corporation ;
+	dbo:releaseDate	"2001-07-11"^^xsd:date ;
+	foaf:name	"Main Gate"@en .
+dbr:May_1977	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"May 1977 is a live album by the rock band the Grateful Dead. It contains five complete concerts, on 14 CDs. It was recorded at five consecutive shows, from May 11 to May 17, 1977. Packaged as a box set, it includes a booklet with a historical essay and photos from the concerts, along with individual liner notes for each show. Produced as a limited edition of 15,000 numbered copies, it was released on June 11, 2013."@en ;
+	dbo:artist	dbr:Grateful_Dead ;
+	dbo:genre	dbr:Rock_music ;
+	dbo:recordLabel	dbr:Rhino_Entertainment ;
+	dbo:releaseDate	"2013-06-11"^^xsd:date ;
+	foaf:name	"May 1977"@en .
+dbr:RockaByeBaby	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"RockaByeBaby is the first mixtape by American recording artist Cassie, released on April 11, 2013 by Bad Boy Records. It is her first body of work released since her debut studio album Cassie (2006). Following the premiere of the track \"King of Hearts\" in February 2012, which was initially announced as the lead single from her upcoming second studio album, Cassie announced that she would release a mixtape. The mixtape's concept is based on the 1991 film New Jack City. RockaByeBaby is Cassie's first body of work to include a diverse roster of collaborators including musical guests Meek Mill, French Montana, Fabolous, Rick Ross, Pusha T, Ester Dean, Wiz Khalifa, and Too $hort, as well as writer James Fauntleroy. Recording and production sessions for the mixtape took place with producers Da Internz, Mike Will Made It, Rob Holladay,Trappin Ass Mac, Rob Holladay, B Joanz, Noel Cadastre, The Real Knotch, The Fr3shmen, THC, Sounwave, Young Chop, David D.A. Doman, FRESHM3N III, Soundz Dope and Terrace Martin. RockaByeBaby received positive reviews from music critics, who complimented its production and the mixtapes features, with some critics calling it \"hip-hop's streetest spitters\" and praising Cassie's vocal performances. On April 2, 2013 \"Numb\" featuring American rapper Rick Ross was released alongside its accompanying music video. \"Paradise\" featuring rapper Wiz Khalifa premiered on April 9, 2013 alongside the video on BET 106 & Park."@en ;
+	dbo:artist	dbr:Cassie_Ventura ;
+	dbo:recordLabel	dbr:Bad_Boy_Records ;
+	dbo:releaseDate	"2013-04-11"^^xsd:date ;
+	foaf:name	"RockaByeBaby"@en .
+<http://dbpedia.org/resource/Sunbather_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Sunbather is the second studio album by the American metal band Deafheaven. After the release of their debut record Roads to Judah, the then two piece group consisting of George Clarke and Kerry Mccoy began work on Sunbather under the label Deathwish and recorded in several days in January 2013. The recording process brought a third member into the fold with drummer Dan Tracy who would go on to become a permanent fixture of the band. The album was recorded in The Atomic Garden Recording Studio, owned by Jack Shirley who had been a long time producer of the band. Although Deafheaven had been strongly influenced by black and other metal acts, their music drew comparisons from music critics to shoegaze, post-rock, and alternative rock sounds. This trend was further continued on Sunbather. The melancholic songs featured in the album include Wall of Sound arrangements that are found in many shoegazing and post-rock acts causing a dense sound that sometimes breakdown into slower, melodic parts that is then topped with vocalist George Clarke's reverb-soaked screaming style singing of lyrics. The album also contains a few interludes that include sampling, field recording, and droning. Sunbather was released in June 2013 and received widespread acclaim from critics, many of whom named it one of the year's best albums. However, the album was met with some controversy from the metal community for its diverse styles that strayed away from metal as well as backlash from the community due to the band's image, labeling them as \"hipster metal\". The band recruited musicians Shiv Mehra and Stephen Clark to help tour the album and continue as a more stable musician line up to help future music writing and confidence."@en ;
+	dbo:artist	dbr:Deafheaven ;
+	dbo:genre	dbr:Blackgaze ,
+		dbr:Post-metal ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Deathwish_Inc.> ;
+	dbo:releaseDate	"2013-06-11"^^xsd:date ;
+	foaf:name	"Sunbather"@en .
+<http://dbpedia.org/resource/The_For_Carnation_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The For Carnation is the eponymously titled album by The For Carnation, released on April 4, 2000 through Touch and Go Records."@en ;
+	dbo:artist	dbr:The_For_Carnation ;
+	dbo:genre	dbr:Post-rock ,
+		dbr:Slowcore ;
+	dbo:recordLabel	dbr:Touch_and_Go_Records ;
+	dbo:releaseDate	"2000-04-04"^^xsd:date ;
+	foaf:name	"The For Carnation"@en .
+dbr:TrapGold	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"TrapGold is the second mixtape by Australian rapper Iggy Azalea, who released it as a free digital download on 11 October 2012. American DJ and music producer Diplo and 1st Down of FKi executive produced the project, along with Azalea and Stix serving as co-executive producers. It also features a guest appearance from Juicy J and samples interviews from Salvador Dali, Andy Warhol, David LaChapelle and Reiner Opoku."@en ;
+	dbo:artist	dbr:Iggy_Azalea ;
+	dbo:recordLabel	dbr:Self-publishing ;
+	dbo:releaseDate	"2012-10-11"^^xsd:date ;
+	foaf:name	"TrapGold"@en .
+dbr:Unwelcome	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Unwelcome is the fifth studio album by the Death Metal band Arsis. It was released on April 30, 2013 through Nuclear Blast Records. This is the first full length album to feature Shawn Priest on drums and Brandon Ellis on guitar. This album was produced by Marc Lewis."@en ;
+	dbo:artist	dbr:Arsis ;
+	dbo:genre	dbr:Technical_death_metal ,
+		dbr:Melodic_death_metal ;
+	dbo:recordLabel	dbr:Nuclear_Blast ;
+	dbo:releaseDate	"2013-04-30"^^xsd:date ;
+	foaf:name	"Unwelcome"@en .
+dbr:We_Meet_Again	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"We Meet Again is a Jazz album by Ramsey Lewis. It featured Billy Taylor as Lewis and Taylor played duets on several songs composed by Taylor as well as songs composed by Duke Ellington, Chick Corea (who wrote the title song of the album), Oscar Peterson, Bill Evans and Horace Silver."@en ;
+	dbo:artist	dbr:Ramsey_Lewis ;
+	dbo:genre	dbr:Jazz_piano ,
+		dbr:Crossover_jazz ,
+		dbr:Jazz ;
+	dbo:recordLabel	dbr:Columbia_Records ;
+	dbo:releaseDate	"1989-10-16"^^xsd:date ;
+	foaf:name	"We Meet Again"@en .
+dbr:Fifteen_Quiet_Years	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Fifteen Quiet Years is a compilation album by American math rock band Rodan, released on June 11, 2013 through Quarterstick Records. It consists of several tracks originally released only on compilations as well as recordings from the band's BBC session with John Peel. All the songs have been newly mastered by Bob Weston for their inclusion in Fifteen Quiet Years. All formats include a digital download of ten bonus live tracks."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Rodan_(band)> ;
+	dbo:genre	dbr:Indie_rock ,
+		dbr:Math_rock ;
+	dbo:recordLabel	dbr:Quarterstick_Records ;
+	dbo:releaseDate	"2013-06-11"^^xsd:date ;
+	foaf:name	"Fifteen Quiet Years"@en .
+<http://dbpedia.org/resource/Studio_City_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Studio City is the second album by Electric Company, released on March 10, 1998, on Island Records."@en ;
+	dbo:artist	dbr:Brad_Laner ;
+	dbo:genre	dbr:Intelligent_dance_music ;
+	dbo:recordLabel	dbr:Island_Records ,
+		dbr:PolyGram ;
+	dbo:releaseDate	"1998-03-10"^^xsd:date ;
+	foaf:name	"Studio City"@en .
+<http://dbpedia.org/resource/Chet_Baker_&_Strings>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Chet Baker & Strings is an album by jazz trumpeter Chet Baker recorded in late 1953 and early 1954 and released on the Columbia label."@en ;
+	dbo:artist	dbr:Chet_Baker ;
+	dbo:genre	dbr:Jazz ;
+	dbo:recordLabel	dbr:Columbia_Records ;
+	dbo:releaseDate	"1954-04-14"^^xsd:date ;
+	foaf:name	"Chet Baker & Strings"@en .
+<http://dbpedia.org/resource/Only_You_(Karyn_Williams_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Only You is the first studio album from Karyn Williams. Inpop Records released the album on August 28, 2012."@en ;
+	dbo:artist	dbr:Karyn_Williams ;
+	dbo:genre	dbr:Contemporary_Christian_music ;
+	dbo:recordLabel	dbr:Inpop_Records ;
+	dbo:releaseDate	"2012-08-28"^^xsd:date ;
+	foaf:name	"Only You"@en .
+<http://dbpedia.org/resource/Beauty_and_the_Beast_(Rapsody_EP)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Beauty And The Beast is the second official EP released by Carolina rapper Rapsody. It was released on October 7, 2014 by Jamla Records / Culture Over Everything and It's a Wonderful World Music Group, and distributed by EMPIRE."@en ;
+	dbo:artist	dbr:Rapsody ;
+	dbo:genre	dbr:Hip_hop_music ;
+	dbo:recordLabel	dbr:Empire_Distribution ,
+		<http://dbpedia.org/resource/It\u0027s_a_Wonderful_World_Music_Group> ;
+	dbo:releaseDate	"2014-10-07"^^xsd:date ;
+	foaf:name	"Beauty And The Beast"@en .
+<http://dbpedia.org/resource/Cavalo_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Cavalo is the first solo album of singer Rodrigo Amarante, released in September 2013 in Brazil by Som Livre, and in May 2014 around the world by the Easy Sound."@en ;
+	dbo:artist	dbr:Rodrigo_Amarante ;
+	dbo:genre	dbr:Experimental_music ,
+		dbr:Psychedelic_folk ,
+		dbr:Música_popular_brasileira ,
+		dbr:Folk_rock ;
+	dbo:recordLabel	dbr:Som_Livre ;
+	dbo:releaseDate	"2014-05-06"^^xsd:date ,
+		"2013-09-22"^^xsd:date ,
+		"2014-05-05"^^xsd:date ;
+	foaf:name	"Cavalo"@en .
+<http://dbpedia.org/resource/Crystal_Clear_(David_Dunn_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Crystal Clear is the second studio album from David Dunn. BEC Recordings released the project on June 23, 2015."@en ;
+	dbo:artist	<http://dbpedia.org/resource/David_Dunn_(musician)> ;
+	dbo:genre	dbr:Contemporary_worship_music ,
+		dbr:Contemporary_Christian_music ;
+	dbo:recordLabel	dbr:BEC_Recordings ;
+	dbo:releaseDate	"2015-06-23"^^xsd:date ;
+	foaf:name	"Crystal Clear"@en .
+<http://dbpedia.org/resource/D_(Big_Bang_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"D is the sixth single album by South Korean band Big Bang, and the third from their MADE Series."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Big_Bang_(South_Korean_band)> ;
+	dbo:genre	dbr:Ballad ,
+		dbr:Electronic_rock ,
+		dbr:Pop_music ,
+		dbr:Pop_punk ;
+	dbo:recordLabel	dbr:YG_Entertainment ;
+	dbo:releaseDate	"2015-07-01"^^xsd:date ;
+	foaf:name	"D"@en .
+<http://dbpedia.org/resource/Fearless_(Travis_Ryan_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Fearless is the first studio album by Travis Ryan. Integrity Music released the album on April 10, 2012. Ryan worked with producers, Josh Auer, Dan Bailey, Brandon Collins, in the making of this album."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Travis_Ryan_(musician)> ;
+	dbo:genre	dbr:Contemporary_Christian_music ,
+		dbr:Contemporary_worship_music ;
+	dbo:recordLabel	dbr:Integrity_Music ;
+	dbo:releaseDate	"2012-04-10"^^xsd:date ;
+	foaf:name	"Fearless"@en .
+dbr:From_Isolation	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"From Isolation is the second studio album from Call to Preserve. Facedown Records released the album on September 30, 2008."@en ;
+	dbo:artist	dbr:Call_to_Preserve ;
+	dbo:genre	dbr:Crossover_thrash ,
+		dbr:Metalcore ,
+		dbr:Christian_hardcore ;
+	dbo:recordLabel	dbr:Facedown_Records ;
+	dbo:releaseDate	"2008-09-30"^^xsd:date ;
+	foaf:name	"From Isolation"@en .
+dbr:Life_of_Defiance	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Life of Defiance is the third and final studio album from Call to Preserve. Facedown Records released the album on June 8, 2010."@en ;
+	dbo:artist	dbr:Call_to_Preserve ;
+	dbo:genre	dbr:Crossover_thrash ,
+		dbr:Christian_hardcore ,
+		dbr:Metalcore ;
+	dbo:recordLabel	dbr:Facedown_Records ;
+	dbo:releaseDate	"2010-06-08"^^xsd:date ;
+	foaf:name	"Life of Defiance"@en .
+@prefix ns21:	<http://dbpedia.org/resource/Morning/> .
+ns21:Evening	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Morning/Evening is the eighth full-length solo album by British electronic musician Kieran Hebden, released under his alias Four Tet in 2015 by Hebden's own Text Records and via the online music store Bandcamp. As a child, Hebden had inherited a collection of Hindu devotional musicfrom his late grandfather but did not listen to it until his maternal grandmother died during the making of his 2013 album, Beautiful Rewind. After sampling the voice of Indian playback singer Lata Mangeshkar, Hebden was inspired to make a record with a similar structure to Indian music, particularly the raga mode and decided to break the album into a \"Morning Side\" and an \"Evening Side\". Alongside the sampled vocals, Morning/Evening contains complex drum programming, electronic sounds and manipulated found sounds. Morning/Evening was announced in May 2015, with an expected release date of July 2015. It was made available tostream and download from Hebden's Bandcamp page on 21 June 2015 to celebrate the summer solstice. Music critics praised Hebden for continuing to release challenging and unique electronic music. The physical release of Morning/Evening became Hebden's second highest-charting album, peaking at number 48 in the UK Albums Chart."@en ;
+	dbo:artist	dbr:Four_Tet ;
+	dbo:genre	dbr:Electronic_music ;
+	dbo:recordLabel	dbr:Text_Records ;
+	dbo:releaseDate	"2015-06-21"^^xsd:date ;
+	foaf:name	"Morning/Evening"@en .
+dbr:Stuck_in_This_Ocean	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Stuck in This Ocean is the debut album by the Manchester band Airship, released 5 September 2011 on PIAS Records."@en ;
+	dbo:artist	dbr:Airship ;
+	dbo:genre	dbr:Independent_music ;
+	dbo:recordLabel	dbr:PIAS_Recordings ;
+	dbo:releaseDate	"2011-09-05"^^xsd:date ;
+	foaf:name	"Stuck in This Ocean"@en .
+<http://dbpedia.org/resource/The_Clearing_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Clearing is the first studio album from Sleep for Sleepers. Dreamt Records released the album on May 12, 2009."@en ;
+	dbo:artist	dbr:Sleep_for_Sleepers ;
+	dbo:genre	dbr:Indie_rock ,
+		dbr:Christian_alternative_rock ;
+	dbo:recordLabel	dbr:Facedown_Records ;
+	dbo:releaseDate	"2009-05-12"^^xsd:date ;
+	foaf:name	"The Clearing"@en .
+<http://dbpedia.org/resource/Trilateral_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Trilateral is the third studio album from My Ransomed Soul. They released the album on February 24, 2015."@en ;
+	dbo:artist	dbr:My_Ransomed_Soul ;
+	dbo:genre	dbr:Metalcore ;
+	dbo:recordLabel	dbr:My_Ransomed_Soul ;
+	dbo:releaseDate	"2015-02-24"^^xsd:date ;
+	foaf:name	"Trilateral"@en .
+<http://dbpedia.org/resource/Don\u0027t_Say_a_Word_(EP)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Don't Say a Word is Sonata Arctica's fourth EP released on August 30, 2004 through the label Nuclear Blast."@en ;
+	dbo:artist	dbr:Sonata_Arctica ;
+	dbo:genre	dbr:Power_metal ;
+	dbo:recordLabel	dbr:Nuclear_Blast ;
+	dbo:releaseDate	"2004-08-30"^^xsd:date ;
+	foaf:name	"Don't Say a Word"@en .
+<http://dbpedia.org/resource/2_Kings_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"2 Kings is a collaborative studio album by Nigerian rappers Olamide and Phyno. It was released through Cloud 9 and the iTunes Store with little announcement on 1 April 2015, by Penthauze Music and YBNL Nation. The album features collaborations with producers and guest artists such as Wizkid, Lil Kesh, Storm Rex, Pheelz, Major Bangz, B.Banks and Young Jonn. Prior to the album, Olamide and Phyno frequently collaborated with one another on several songs including \"Ghost Mode\" and \"Dope Money\". The album produced the singles \"Une\" and \"Confam Ni\", both of which were released in the months leading to the album release."@en ;
+	dbo:artist	dbr:Phyno ,
+		dbr:Olamide ;
+	dbo:genre	dbr:Hip_hop_music ;
+	dbo:recordLabel	dbr:YBNL_Nation ;
+	dbo:releaseDate	"2015-04-01"^^xsd:date ;
+	foaf:name	"2 Kings"@en .
+<http://dbpedia.org/resource/2_YNFYNYTY>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"2 YNFYNYTY is the third studio album by Texas noise rock band Cherubs, released through Brutal Panda Records in March 3, 2015 The album marks the band's first studio recording science their reunion in 2014, and it is the first release by the band since Short of Popular, a B-Side collection the trio released in 1996, two years after their break-up. The record was released on digital, vinyl, and cassette tape formats, with the later two initially being released in limited quantities."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Cherubs_(American_band)> ;
+	dbo:genre	dbr:Post-hardcore ,
+		dbr:Noise_rock ;
+	dbo:recordLabel	dbr:Brutal_Panda_Records ;
+	dbo:releaseDate	"2015-03-03"^^xsd:date ;
+	foaf:name	"2 YNFYNYTY"@en .
+<http://dbpedia.org/resource/Alt_det_jeg_ville_have_sagt_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Alt det jeg ville have sagt is the debut studio album by Danish pop singer and songwriter Basim. It was released in Denmark on 6 October 2008. The album peaked at number eight on the Danish Albums Chart. The album includes the singles \"Alt det jeg ville have sagt\", \"Jeg vil\" and \"Baby, jeg savner dig\"."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Basim_(singer)> ;
+	dbo:recordLabel	dbr:Universal_Music_Group ;
+	dbo:releaseDate	"2008-10-06"^^xsd:date ;
+	foaf:name	"Alt det jeg ville have sagt"@en .
+<http://dbpedia.org/resource/Bunny_(YuiKaori_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Bunny is the second album of J-Pop idol duo, YuiKaori. It was released on 23 October 2013"@en ;
+	dbo:artist	dbr:YuiKaori ;
+	dbo:genre	dbr:J-pop ;
+	dbo:recordLabel	<http://dbpedia.org/resource/King_Records_(Japan)> ;
+	dbo:releaseDate	"2013-10-23"^^xsd:date ;
+	foaf:name	"Bunny"@en .
+dbr:Carelessly_Yours	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Carelessly Yours is the fourth album released by Swedish pop singer Ola. It was released in Sweden in January 2014, and debuted at #4 in the official Swedish album chart. It is the first release on Sony Music Entertainment. It spawned the hit singles, \"I'm in Love\" that was a hit for Ola in Italy, his first in that country reaching #4 in the Italian Singles Chart. The album resulted in addition to two minor hits, \"Maybe\" and \"Jackie Kennedy\", the latter charting again in Italy."@en ;
+	dbo:artist	dbr:Ola_Svensson ;
+	dbo:genre	dbr:Pop_music ;
+	dbo:recordLabel	dbr:Sony_Music_Entertainment ;
+	dbo:releaseDate	"2014-01-07"^^xsd:date ;
+	foaf:name	"Carelessly Yours"@en .
+<http://dbpedia.org/resource/Disconnected_(Greymachine_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Disconnected is the debut album by experimental music act Greymachine, featuring Justin Broadrick, Aaron Turner, Dave Cochrane and Diarmuid Dalton. Produced by Broadrick, it was released on 4 August 2009 via Turner's own record label, Hydra Head Records. The track \"Vultures Descend\" was released as a limited edition promotional single on 12 May 2009."@en ;
+	dbo:artist	dbr:Greymachine ;
+	dbo:genre	dbr:Sludge_metal ,
+		dbr:Drone_music ,
+		dbr:Noise_music ,
+		dbr:Industrial_metal ,
+		dbr:Post-metal ;
+	dbo:recordLabel	dbr:Hydra_Head_Records ;
+	dbo:releaseDate	"2009-08-04"^^xsd:date ;
+	foaf:name	"Disconnected"@en .
+dbr:Entré	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Entr\u00E9 is a studio album by Matz Bladhs released 23 December 2009."@en ;
+	dbo:artist	dbr:Matz_Bladhs ;
+	dbo:genre	dbr:Dansband ;
+	dbo:recordLabel	dbr:Mariann_Grammofon ;
+	dbo:releaseDate	"2009-12-23"^^xsd:date ;
+	foaf:name	"Entr\u00E9"@en .
+dbr:Everybody_Down	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Everybody Down is the debut album by English poet and spoken word artist Kate Tempest, which was nominated for the 2014 Mercury Prize."@en ;
+	dbo:artist	dbr:Kate_Tempest ;
+	dbo:genre	dbr:Hip_hop_music ,
+		dbr:Spoken_word ;
+	dbo:recordLabel	dbr:Big_Dada ;
+	dbo:releaseDate	"2014-05-19"^^xsd:date ;
+	foaf:name	"Everybody Down"@en .
+@prefix ns22:	<http://dbpedia.org/resource/Finest_Hour:> .
+ns22:_The_Best_of_Gavin_DeGraw	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Finest Hour: The Best of Gavin DeGraw is a compilation album by American singer-songwriter Gavin DeGraw. It was released on October 17, 2014 RCA Records. On August 14, 2014 RCA Records announced the release of Gavin DeGraw's first greatest hits album, Finest Hour. It contains songs from all his studio albums except Free (2009). It also includes the two new tracks \"You Got Me\" and \"Fire\". According to the press release a new song titled \"Not Our Fault\", written by DeGraw, Jake Gosling, Chris Leonard, and Harry Styles, was intended to be included on the album but did not make the final track listing."@en ;
+	dbo:artist	dbr:Gavin_DeGraw ;
+	dbo:genre	dbr:Pop_rock ,
+		dbr:Blue-eyed_soul ;
+	dbo:recordLabel	dbr:RCA_Records ;
+	dbo:releaseDate	"2014-10-17"^^xsd:date ;
+	foaf:name	"Finest Hour: The Best of Gavin DeGraw"@en .
+<http://dbpedia.org/resource/Frostbite_(soundtrack)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Frostbite is the soundtrack to the 2006 Anders Banke film of the same name. The orchestral score was composed by Anthony Lledo and released in 2006 on MovieScore Media."@en ;
+	dbo:artist	dbr:Anthony_Lledo ;
+	dbo:genre	dbr:Soundtrack ;
+	dbo:recordLabel	dbr:MovieScore_Media ;
+	dbo:releaseDate	"2006-12-12"^^xsd:date ;
+	foaf:name	"Frostbite"@en .
+<http://dbpedia.org/resource/Hearts_and_Flowers_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Hearts and Flowers is the twelfth studio album by British singer-songwriter Joan Armatrading. The album was written, arranged and produced by Armatrading; recorded at Bumpkin Studios, her own studios in the grounds of her home; mixed at The Grey Room in Los Angeles and mastered at Sterling Sound, New York. Armatrading began writing the album in 1989 and finished it in April 1990. It was released on 4 June 1990 by A&M Records."@en ;
+	dbo:artist	dbr:Joan_Armatrading ;
+	dbo:genre	dbr:Pop_music ;
+	dbo:recordLabel	<http://dbpedia.org/resource/A&M_Records> ;
+	dbo:releaseDate	"1990-06-04"^^xsd:date ;
+	foaf:name	"Hearts and Flowers"@en .
+<http://dbpedia.org/resource/Help_2.0>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Help 2.0 was released on March 31, 2015. A follow-up to her 2014 solo debut album, Help, the release marks the second solo studio album apart from her duo of Mary Mary, which was produced by her husband Warryn Campbell and released under the eOne record label."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Erica_Campbell_(musician)> ;
+	dbo:genre	<http://dbpedia.org/resource/Christian_R&B> ,
+		<http://dbpedia.org/resource/Contemporary_R&B> ,
+		dbr:Urban_contemporary_gospel ;
+	dbo:recordLabel	dbr:Entertainment_One_Music ;
+	dbo:releaseDate	"2015-03-31"^^xsd:date ;
+	foaf:name	"Help 2.0"@en .
+dbr:Hold_You_Up	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Hold You Up is a vinyl only EP by The Gaslight Anthem released on 10\" red vinyl. It was released on November 23, 2012 for Black Friday Record Store Day (limited to 3000 copies). The EP features two original acoustic performances and one cover song."@en ;
+	dbo:artist	dbr:The_Gaslight_Anthem ;
+	dbo:recordLabel	dbr:Mercury_Records ;
+	dbo:releaseDate	"2012-11-23"^^xsd:date ;
+	foaf:name	"Hold You Up"@en .
+<http://dbpedia.org/resource/Hostage_Calm_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Hostage Calm is the second studio album by Connecticut rock band Hostage Calm. It was recorded at Silver Bullet Studios in Burlington, Connecticut and produced by Greg Thomas. This album is the last release to feature drummer Brett Pieper and first to feature guitarist Nick Balzano. On October 12, 2011 a music video was released for the single, \"Rebel Fatigues.\""@en ;
+	dbo:artist	dbr:Hostage_Calm ;
+	dbo:genre	dbr:Punk_rock ,
+		dbr:Indie_rock ;
+	dbo:recordLabel	dbr:Run_for_Cover_Records ;
+	dbo:releaseDate	"2010-07-20"^^xsd:date ;
+	foaf:name	"Hostage Calm"@en .
+dbr:Hotel_Morgen	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Hotel Morgen is a studio album by German band To Rococo Rot. It was released in May 2004 under Domino Records."@en ;
+	dbo:artist	dbr:To_Rococo_Rot ;
+	dbo:recordLabel	dbr:Domino_Recording_Company ;
+	dbo:releaseDate	"2004-05-18"^^xsd:date ;
+	foaf:name	"Hotel Morgen"@en .
+dbr:If_You_Wait	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"If You Wait is the debut studio album by English indie pop band London Grammar, released on 6 September 2013 by Metal & Dust Recordings and Ministry of Sound. Seven singles have been released from the album: \"Metal & Dust\", \"Wasting My Young Years\", \"Strong\", \"Nightcall\", \"Hey Now\", \"Sights\" and \"If You Wait\". The album debuted at number two the UK Albums Chart with first-week sales of 33,130 copies."@en ;
+	dbo:artist	dbr:London_Grammar ;
+	dbo:genre	dbr:Dream_pop ,
+		dbr:Electronica ,
+		dbr:Downtempo ,
+		dbr:Pop_music ;
+	dbo:recordLabel	dbr:Ministry_of_Sound ;
+	dbo:releaseDate	"2013-09-06"^^xsd:date ;
+	foaf:name	"If You Wait"@en .
+dbr:Into_Colour	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"'Into Colour' is the third album by British singer-songwriter Rumer. It was released on 10 November 2014."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Rumer_(musician)> ;
+	dbo:genre	dbr:Soul_music ,
+		dbr:Easy_listening ;
+	dbo:recordLabel	dbr:Atlantic_Records ;
+	dbo:releaseDate	"2014-11-10"^^xsd:date ;
+	foaf:name	"Into Colour"@en .
+<http://dbpedia.org/resource/June_26,_1981,_Warfield_Theatre,_San_Francisco,_CA>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"June 26, 1981, Warfield Theatre, San Francisco, CA is a live album by the Jerry Garcia Band. As the name suggests, it was recorded on June 26, 1981, at the Warfield in San Francisco. It was released as a digital download on April 1, 2013. Released after the first and before the second volume of the Garcia Live series of albums, it is sometimes referred to as Garcia Live Volume 1.5."@en ;
+	dbo:artist	dbr:Jerry_Garcia_Band ;
+	dbo:genre	dbr:Rock_music ,
+		dbr:Rhythm_and_blues ;
+	dbo:recordLabel	dbr:ATO_Records ;
+	dbo:releaseDate	"2013-04-01"^^xsd:date ;
+	foaf:name	"June 26, 1981, Warfield Theatre, San Francisco, CA"@en .
+dbr:Kenny_Dennis_III	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Kenny Dennis III is a studio album by American rapper Serengeti. It was released in November 11, 2014 by Joyful Noise. Spin named it their Album of the Week on November 10, 2014."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Serengeti_(rapper)> ;
+	dbo:genre	dbr:Hip_hop_music ;
+	dbo:recordLabel	dbr:Joyful_Noise_Recordings ;
+	dbo:releaseDate	"2014-11-11"^^xsd:date ;
+	foaf:name	"Kenny Dennis III"@en .
+dbr:Kära_vinter	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"K\u00E4ra vinter is the fourth studio album from Swedish singer and model M\u00E5ns Zelmerl\u00F6w. It was released on 19 December 2011 in Sweden, and is a Christmas album. The album failed to chart on the Swedish Albums Chart."@en ;
+	dbo:artist	dbr:Måns_Zelmerlöw ;
+	dbo:genre	dbr:Christmas_music ;
+	dbo:recordLabel	dbr:Warner_Music_Group ;
+	dbo:releaseDate	"2011-12-19"^^xsd:date ;
+	foaf:name	"K\u00E4ra vinter"@en .
+dbr:Leende_dansmusik_2012	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Leende dansmusik 2012 is a 2012 Matz Bladhs studio album."@en ;
+	dbo:artist	dbr:Matz_Bladhs ;
+	dbo:genre	dbr:Dansband ;
+	dbo:recordLabel	dbr:EMI_Music_Sweden ;
+	dbo:releaseDate	"2012-01-25"^^xsd:date ;
+	foaf:name	"Leende dansmusik 2012"@en .
+<http://dbpedia.org/resource/Lekar_Hum_Deewana_Dil_(soundtrack)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Lekar Hum Deewana Dil is the soundtrack album, composed by A. R. Rahman, to the 2014 Hindi film of the same name, directed by Arif Ali that stars Armaan Jain and Deeksha Seth in the lead roles. The film is jointly produced by Saif Ali Khan, Dinesh Vijan and Sunil Lulla under the banner of Eros International and Illuminati Films. The album features six tracks, and was digitally released on 3 June 2014 on Eros Music."@en ;
+	dbo:artist	<http://dbpedia.org/resource/A._R._Rahman> ;
+	dbo:genre	dbr:Soundtrack ;
+	dbo:recordLabel	dbr:Eros_International ;
+	dbo:releaseDate	"2014-06-03"^^xsd:date ,
+		"2014-06-12"^^xsd:date ;
+	foaf:name	"Lekar Hum Deewana Dil"@en .
+dbr:Live_at_Arena_Zagreb	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Live at Arena Zagreb is a live concert video from Croatian cello duo, 2Cellos, filmed at Croatia's, Arena Zagreb, in 2012. It was released on 21 August 2013 to DVD. The concert is notable for being their \"homecoming\" show and their biggest solo concert at that point, with over 20,000 fans attending. The 2Cellos, were accompanied by the Zagreb Philharmonic Orchestra while they performed classical repertoire. The concert also included songs from their self-titled debut album and their second album, In2ition."@en ;
+	dbo:artist	<http://dbpedia.org/resource/2Cellos> ;
+	dbo:genre	dbr:Classical_music ,
+		dbr:Cello_rock ;
+	dbo:recordLabel	dbr:Sony_Masterworks ;
+	dbo:releaseDate	"2013-08-21"^^xsd:date ;
+	foaf:name	"2Cellos - Live at Arena Zagreb"@en .
+<http://dbpedia.org/resource/Love_Me_for_a_Reason_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Love Me for a Reason is the twelfth studio album by The Osmonds, released in 1974. The album peaked at No. 47 on the Billboard Top LPs chart. Two singles were released from the album: \"Love Me for a Reason\" (No. 1 UK, No. 10 US) and \"Having a Party\" (No. 28 UK)."@en ;
+	dbo:artist	dbr:The_Osmonds ;
+	dbo:genre	dbr:Soul_music ,
+		dbr:Pop_music ;
+	dbo:recordLabel	dbr:MGM_Records ;
+	dbo:releaseDate	"1974-11-02"^^xsd:date ;
+	foaf:name	"Love Me for a Reason"@en .
+dbr:Museum_of_Consciousness	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Museum of Consciousness is the fifth studio album by Shpongle, released on 29 July 2013. A snippet of the album's early form was shown in a YouTube video by Simon Posford. Songs from the album became part of Shpongle's live shows in 2012. The album was announced in May 2013 via Shpongle's Facebook page, and more details were revealed in June on Twisted Records' website. The album was released early on 24 July 2013 for people who pre-ordered, and on 29 July to the general public."@en ;
+	dbo:artist	dbr:Shpongle ;
+	dbo:genre	dbr:Chill-out_music ,
+		dbr:Ambient_music ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Twisted_Records_(UK)> ;
+	dbo:releaseDate	"2013-07-29"^^xsd:date ;
+	foaf:name	"Museum of Consciousness"@en .
+dbr:Pageant_Material	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Pageant Material is the fifth studio album and second major label album by American country music artist Kacey Musgraves, released June 23, 2015, through Mercury Nashville. Musgraves co-wrote all thirteen tracks and co-produced the album with Luke Laird and Shane McAnally. The album made numerous \"Best Albums of 2015\" lists and was nominated for Best Country Album at the 58th Grammy Awards."@en ;
+	dbo:artist	dbr:Kacey_Musgraves ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:Universal_Music_Group_Nashville ;
+	dbo:releaseDate	"2015-06-23"^^xsd:date ;
+	foaf:name	"Pageant Material"@en .
+dbr:Party_in_the_Graveyard	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Party in the Graveyard is the debut album by the American electronic rock band Ghost Town. Most of the songs were already available for listening on YouTube, with four more being uploaded on December 21, 2012. It was released onto iTunes independently on January 15, 2013. On June 11, 2013, Ghost Town added 6 singles from the album onto iTunes: \"You're So Creepy\", \"Off with Her Head\", \"Monster\", \"Skeleton\", \"Voodoo\", and \"Universe\". Ghost Town was signed to Fueled By Ramen on May 7, 2013. Shortly after, Fueled By Ramen announced a re-release of Party in the Graveyard, with the addition of four tracks. All tracks were remastered, and the album received new cover art. The album was released on November 19, 2013."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Ghost_Town_(band)> ;
+	dbo:recordLabel	dbr:Fueled_By_Ramen ;
+	dbo:releaseDate	"2013-11-19"^^xsd:date ;
+	foaf:name	"Party in the Graveyard"@en .
+<http://dbpedia.org/resource/Power_Ballads_(London_Elektricity_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Power Ballads is the third studio album by London Elektricity, released in October 2005 through Hospital Records. It features vocals by Liane Carroll and MC Wrec."@en ;
+	dbo:artist	dbr:London_Elektricity ;
+	dbo:genre	dbr:Liquid_funk ,
+		dbr:Drum_and_bass ;
+	dbo:recordLabel	dbr:Hospital_Records ;
+	dbo:releaseDate	"2005-10-11"^^xsd:date ;
+	foaf:name	"Power Ballads"@en .
+<http://dbpedia.org/resource/REvolution:_Live!>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"REvolution: Live! is a live CD/DVD released by the American band Lynch Mob in 2006. The album/DVD was recorded during the REvolution tour. For this release, Michael Frowein was replaced by Chas Stumbo (ex-Earshot)"@en ;
+	dbo:artist	<http://dbpedia.org/resource/Lynch_Mob_(band)> ;
+	dbo:genre	dbr:Hard_rock ,
+		dbr:Heavy_metal_music ;
+	dbo:recordLabel	dbr:Cleopatra_Records ;
+	dbo:releaseDate	"2006-09-19"^^xsd:date ;
+	foaf:name	"REvolution: Live!"@en .
+dbr:Reworkings	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Reworkings is an album by the Australian rock band The Paradise Motel. It is made up of remixes of previously released songs remixed by other acts. A remix of the song 'The Trees' by Lee Ranaldo entitled \"Lee's Trees\" was released as a single. The album was also issued as an accompanying CD to later copies of the previous album Flight Paths. This was the last album released by the band before splitting up the following year. The album 'The Winter of Our Discoth\u00E8que' was recorded later in 1999 but remains unreleased."@en ;
+	dbo:artist	dbr:The_Paradise_Motel ;
+	dbo:genre	dbr:Electronic_music ,
+		dbr:Orchestra ,
+		dbr:Rock_music ;
+	dbo:recordLabel	dbr:Mushroom_Records ,
+		dbr:Infectious_Records ;
+	dbo:releaseDate	"1999-02-27"^^xsd:date ;
+	foaf:name	"Reworkings"@en .
+dbr:Ripe_for_Rebellion	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Ripe for Rebellion is the debut album by Argentinian Folk Metal band Triddana."@en ;
+	dbo:artist	dbr:Triddana ;
+	dbo:genre	dbr:Folk_metal ;
+	dbo:recordLabel	dbr:Triddana ;
+	dbo:releaseDate	"2012-12-08"^^xsd:date ;
+	foaf:name	"Ripe for Rebellion"@en .
+dbr:Samma_himmel	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Samma himmel is a 2009 studio album by Molly Sand\u00E9n. and her debut album."@en ;
+	dbo:artist	dbr:Molly_Sandén ;
+	dbo:recordLabel	dbr:Warner_Music_Sweden ;
+	dbo:releaseDate	"2009-05-27"^^xsd:date ;
+	foaf:name	"Samma himmel"@en .
+dbr:Son_of_Mustang_Ford	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Son of Mustang Ford is the debut EP by English alternative rock band, Swervedriver. Self-produced by the band, it was released on 16 July 1990 through Creation and A&M Records. The title track of the EP was included in the band's debut album, Raise (1991)."@en ;
+	dbo:artist	dbr:Swervedriver ;
+	dbo:genre	dbr:Alternative_rock ,
+		dbr:Shoegazing ;
+	dbo:recordLabel	<http://dbpedia.org/resource/A&M_Records> ,
+		dbr:Creation_Records ;
+	dbo:releaseDate	"1990-07-16"^^xsd:date ;
+	foaf:name	"Son of Mustang Ford"@en .
+dbr:Songs_from_Ireland	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Songs from Ireland is the eighth album by Australian Idol 2006 winner Damien Leith. It was released by Sony Music Australia on CD and digital download in Australia on 13 March 2015. The album debuted at No. 11 in Australia."@en ;
+	dbo:artist	dbr:Damien_Leith ;
+	dbo:genre	dbr:Music_of_Ireland ,
+		dbr:Folk_music ;
+	dbo:recordLabel	dbr:Sony_Music_Australia ;
+	dbo:releaseDate	"2015-03-13"^^xsd:date ;
+	foaf:name	"Songs from Ireland"@en .
+<http://dbpedia.org/resource/The_8th_(Doc_Walker_album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The 8th is the eighth studio album by Canadian country music group Doc Walker. It was released on October 21, 2014 by Open Road Recordings. The album includes the singles \"Put It into Drive\", \"Shake It Like It's Saturday Night\" and \"That's How I Like It\"."@en ;
+	dbo:artist	dbr:Doc_Walker ;
+	dbo:genre	dbr:Country_music ;
+	dbo:recordLabel	dbr:Open_Road_Recordings ;
+	dbo:releaseDate	"2014-10-21"^^xsd:date ;
+	foaf:name	"The 8th"@en .
+dbr:The_Days_Run_Away	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Days Run Away is the second studio album by indie rock band Frankie & The Heartstrings. It was released in June 2013 under Wichita Recordings."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Frankie_&_The_Heartstrings> ;
+	dbo:genre	dbr:Indie_rock ;
+	dbo:recordLabel	dbr:Wichita_Recordings ;
+	dbo:releaseDate	"2013-06-04"^^xsd:date ;
+	foaf:name	"The Days Run Away"@en .
+dbr:The_Other_I	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"The Other I is a studio album by English duo 2:54. It was released in November 2014 under Bella Union."@en ;
+	dbo:artist	<http://dbpedia.org/resource/2:54> ;
+	dbo:recordLabel	dbr:Bella_Union ;
+	dbo:releaseDate	"2014-11-11"^^xsd:date ;
+	foaf:name	"The Other I"@en .
+<http://dbpedia.org/resource/Threat_Signal_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Threat Signal is the third official full-length studio album by the Canadian melodic death metal band Threat Signal."@en ;
+	dbo:artist	dbr:Threat_Signal ;
+	dbo:genre	dbr:Melodic_death_metal ,
+		dbr:Groove_metal ,
+		dbr:Metalcore ;
+	dbo:recordLabel	dbr:Nuclear_Blast ;
+	dbo:releaseDate	"2011-10-11"^^xsd:date ;
+	foaf:name	"Threat Signal"@en .
+dbr:We_Can_Make_a_Difference	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"We Can Make a Difference is the third studio album by Witness. The album earned Grammy and Dove Award nominations for Best Contemporary Gospel Group."@en ;
+	dbo:artist	<http://dbpedia.org/resource/Witness_(Gospel_quartet)> ;
+	dbo:genre	dbr:Gospel_music ;
+	dbo:recordLabel	dbr:PolyGram ;
+	dbo:releaseDate	"1990-01-05"^^xsd:date ;
+	foaf:name	"We Can Make A Difference"@en .
+dbr:White_Men_Are_Black_Men_Too	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"White Men Are Black Men Too is the second studio album by Scottish hip hop group Young Fathers. It was released on Big Dada on 6 April 2015."@en ;
+	dbo:artist	dbr:Young_Fathers ;
+	dbo:genre	dbr:Pop_music ,
+		dbr:Indie_rock ,
+		dbr:Alternative_hip_hop ;
+	dbo:recordLabel	dbr:Big_Dada ;
+	dbo:releaseDate	"2015-04-06"^^xsd:date ;
+	foaf:name	"White Men Are Black Men Too"@en .
+dbr:You_Haunt_Me	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"You Haunt Me is the first studio album by Indie pop trio Sir Sly. It was released on 16 September 2014 by Interscope Records."@en ;
+	dbo:artist	dbr:Sir_Sly ;
+	dbo:genre	dbr:Indie_pop ,
+		dbr:Trance_music ;
+	dbo:recordLabel	dbr:Interscope_Records ;
+	dbo:releaseDate	"2014-09-16"^^xsd:date ;
+	foaf:name	"You Haunt Me"@en .
+<http://dbpedia.org/resource/Young_Statues_(album)>	rdf:type	schema:MusicAlbum ;
+	dbo:abstract	"Young Statues is the eponymously-titled debut studio album from the Philadelphia, Pennsylvania based rock band of the same name."@en ;
+	dbo:artist	dbr:Young_Statues ;
+	dbo:genre	dbr:Emo ,
+		dbr:Indie_rock ;
+	dbo:recordLabel	dbr:Run_for_Cover_Records ,
+		dbr:Banquet_Records ;
+	dbo:releaseDate	"2011-11-08"^^xsd:date ;
+	foaf:name	"Young Statues"@en .

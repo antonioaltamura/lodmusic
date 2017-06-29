@@ -58,6 +58,7 @@ while(!$stop){
 	$chunk++;
 	$value = 10000 * $chunk;
 $query = $toExec.$value;
+echo $query;
 $data=sparqlQuery($query, "http://dbpedia.org/sparql");
 if((strcmp($data,$nullPoint))==0){ 
 	$stop = true; 
