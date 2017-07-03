@@ -29,7 +29,7 @@ WHERE
 }`, function(r){
 		let json = JSON.parse(r);
 		let result = json.results.bindings.map(function(item){
-			return item.name.value;
+			return {name: item.name.value, uri: item.artist.value};
 		});
 		res.json(result);
 	})

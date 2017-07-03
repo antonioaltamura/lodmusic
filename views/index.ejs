@@ -249,9 +249,24 @@
 	{
 
 		$( "#tags" ).autocomplete({
-			source: "/api/autocomplete",
+			source: function( request, response ) {
+				$.ajax( {
+					url: "/api/autocomplete",
+					dataType: "json",
+					data: {
+						term: request.term
+					},
+					success: function( data ) {
+						if(data) {
+							var r = data.map(function(item){
+								return item.name;
+                            }); }
+						response( r );
+					}
+				} );
+			},
 			select: function( event, ui ) {
-				console.log( "Selected: " + ui.item.value + " aka " + ui.item.id );
+				log( "Selected: " + ui.item.value + " aka " + ui.item.id );
 			}
 		});
 
