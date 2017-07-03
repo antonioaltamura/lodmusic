@@ -3,11 +3,7 @@
  */
 "use strict";
 let router = require('express').Router();
-let SparqlClient = require('sparql-client');
 let sparql = require('./sparql');
-let util = require('util');
-let endpoint = 'http://dbpedia.org/sparql';
-
 
 
 var escape = function (str){ return String(str).replace(/([.*+?=^!:${}()|[\]\/\\])/g, '\\$1');}
@@ -18,44 +14,27 @@ var startsWith = function(str) {
 		return new RegExp('.*', "i");
 };
 
-router.get('/query/', function(req,res) {
-	sparql(`SELECT DISTINCT ?artist ?bDate ?abstract ?image
+router.get('/autocomplete/', function(req,res) {
+	if(!req.query.term)
+		res.status(400).send('No query param');
+	sparql.query(`SELECT DISTINCT ?name ?artist ?bDate ?abstract ?image
 WHERE
 {
   ?artist a umbelrc:MusicalPerformer;
-    foaf:name "Bono"@en;
+    foaf:name ?name;
   dbo:abstract ?abstract;
   dbo:birthDate ?bDate.
  OPTIONAL{?artist dbo:thumbnail ?image}.
+ FILTER regex(?name, "^${req.query.term}","i").
 }`, function(r){
-		res.json(r);
-	})
-
-});
-
-router.get('/fuseki/', function(req,res){
-
-	let endpoint = 'http://localhost:3030/lodmusic/sparql';
-	let query = `${prefixes} 
-	SELECT DISTINCT ?artist ?name ?bDate ?abstract ?image
-WHERE
-{
-	?artist a umbelrc:MusicalPerformer;
-    foaf:name ?name;
-	dbo:abstract ?abstract;
-	dbo:birthDate ?bDate.
- OPTIONAL{?artist dbo:thumbnail ?image}.
-}`;
-	let client = new SparqlClient(endpoint);
-
-
-	client.query(query)
-		.bind(req.query.name, 'foaf:name')
-		.execute(function(error, results) {
-			return res.json(results);
+		let json = JSON.parse(r);
+		let result = json.results.bindings.map(function(item){
+			return item.name.value;
 		});
-
+		res.json(result);
+	})
 });
+
 router.get('/', function(req, res){
 
 	console.log(req.query.q);

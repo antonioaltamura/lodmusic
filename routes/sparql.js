@@ -10,15 +10,19 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>`;
 
-let request = function (q,next) {
+let request = function (q, next) {
 
 	rp({
 		method: 'POST',
 		uri: endpoint,
-		body: {
-			query: q
+		form: {
+			query: prefixes + q
+		},
+		headers : {
+			Accept: 'application/sparql-results+json,*/*;q=0.9'
 		}
-	})
+
+})
 		.then(function (parsedBody) {
 			next(parsedBody);
 		})
@@ -27,4 +31,4 @@ let request = function (q,next) {
 		});
 };
 
-module.exports = request;
+module.exports.query = request;

@@ -249,11 +249,13 @@
 	{
 
 		$( "#tags" ).autocomplete({
-			source: "api/memberState",
+			source: "/api/autocomplete",
 			select: function( event, ui ) {
 				console.log( "Selected: " + ui.item.value + " aka " + ui.item.id );
 			}
 		});
+
+
 	});
 </script>
 </body>
