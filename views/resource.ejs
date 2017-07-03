@@ -36,11 +36,11 @@
     </nav>
     <!-- End Navigation panel -->
     <!-- Head Section -->
-    <section class="page-section bg-dark-alfa-30" data-background="images/full-width-images/detail.jpg">
+    <section class="page-section bg-dark resource_background" data-resource="background_image">
         <div class="relative container align-left">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0">Chet Baker</h1>
+                    <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0" data-resource="name"> <% uri %> </h1>
                     <div class="hs-line-4 font-alt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
                 </div>
             </div>
@@ -54,18 +54,13 @@
                 <div class="col-sm-8">
                     <div class="alt-features-item align-center">
                         <div class="alt-features-descr align-left">
-                            <h4 class="mt-0 font-alt">About</h4> Chesney Henry "Chet" Baker, Jr. (December 23, 1929 –
-                            May 13, 1988) was an American jazz trumpeter, flugelhornist and vocalist.Baker earned much
-                            attention and critical praise through the 1950s, particularly for albums featuring his
-                            vocals (Chet Baker Sings, It Could Happen to You). Jazz historian David Gelly described the
-                            promise of Baker's early career as "James Dean, Sinatra, and Bix, rolled into one." His
-                            well-publicized drug habit also drove his notoriety and fame; Baker was in and out of jail
-                            frequently before enjoying a career resurgence in the late 1970s and '80s.
+                            <h4 class="mt-0 font-alt">About</h4>
+                            <span data-resource="abstract"></span>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4"><img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Getz%26BakerSandvika1983x.jpg/300px-Getz%26BakerSandvika1983x.jpg"/>
+
+                <div class="col-sm-4"><p data-resource="image2"></p><img src="images/resource_img.png" data-resource="image"/>
                 </div>
             </div>
             <hr class="mb-70 mb-xs-30"/>
@@ -76,30 +71,7 @@
                         <!-- Project Detail -->
                         <div class="work-detail">
                             <h5 class="font-alt mt-0 mb-20">Details</h5>
-                            <div class="work-full-detail">
-                                <div class="row">
-                                    <div class="col-md-4"><strong>dbo:activeYearsStartYear</strong></div>
-                                    <div class="col-md-8"> 1949-01-01 (xsd:date)</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4"><strong>dbo:associatedBand</strong></div>
-                                    <div class="col-md-8">
-                                        <ul>
-                                            <li>dbr:Gerry_Mulligan</li>
-                                            <li>dbr:Art_Pepper</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4"><strong>dbo:genre</strong></div>
-                                    <div class="col-md-8">
-                                        <ul>
-                                            <li> dbr:Bebop</li>
-                                            <li>dbr:Cool_jazz</li>
-                                            <li>dbr:West_Coast_jazz</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                            <div class="work-full-detail" id="details">
                             </div>
                         </div>
                         <!-- End Project Detail -->
@@ -176,13 +148,31 @@
 <script type="text/javascript">
 
 	$.ajax({
-		url: "/api/" + "artist" + "/",
+		url: "/api/<%= resourceType || null %>/",
 		dataType: "json",
 		data: {
-			uri: "<http://dbpedia.org/resource/Attack_Attack!>"
+			uri: '<%= uri || null %>'
 		}
 	}).done(function (data) {
-		console.log(data);
+		if(data.results.bindings.length>0) {
+			var props = data.results.bindings[0];
+			$.each(props, function(k, v) {
+				$('[data-resource='+k+']').html(v.value);
+				$("#details").append(
+					`<div class="row">
+					<div class="col-md-4"><strong>${k}</strong></div>
+				<div class="col-md-8"> ${v.value} </div>
+				</div>`);
+			});
+			if(data.results.bindings[0].image){
+				$('[data-resource=image]').attr('src',data.results.bindings[0].image.value);
+				$('[data-resource=background_image]').css({'background-image':`url(${data.results.bindings[0].image.value.split("?")[0]})`})
+			}
+
+
+		} else $('[data-resource=name]').html("No resource found")
+
+
 	})
 		.fail(function (e) {
 			console.log("error " + e);

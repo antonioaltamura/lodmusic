@@ -1,6 +1,6 @@
 "use strict";
 let rp = require('request-promise');
-let endpoint = 'http://lodmusic.cloudapp.net:26109/lodmusic/sparql';
+let endpoint = 'http://localhost:3030/lodmusic/sparql';
 
 let prefixes = `PREFIX umbelrc: <http://umbel.org/umbel/rc/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
