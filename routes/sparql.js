@@ -1,6 +1,3 @@
-/**
- * Created by Antonio Altamura on 03/07/2017.
- */
 "use strict";
 let rp = require('request-promise');
 let endpoint = 'http://lodmusic.cloudapp.net:26109/lodmusic/sparql';
@@ -11,26 +8,21 @@ PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX schema: <http://schema.org/>`;
 
-
-let request = function (q, next) {
-
-    rp({
-        method: 'POST',
-        uri: endpoint,
-        form: {
-            query: prefixes + q
-        },
-        headers: {
-            Accept: 'application/sparql-results+json,*/*;q=0.9'
-        }
-
-    })
-        .then(function (parsedBody) {
-            next(parsedBody);
-        })
-        .catch(function (err) {
-            next(err);
-        });
-};
-
-module.exports.query = request;
+module.exports.query = function (q, next) {
+	rp({
+		method: 'POST',
+		uri: endpoint,
+		form: {
+			query: prefixes + q
+		},
+		headers: {
+			Accept: 'application/sparql-results+json,*/*;q=0.9'
+		}
+	})
+		.then(function (parsedBody) {
+			next(parsedBody);
+		})
+		.catch(function (err) {
+			next(err);
+		});
+};;

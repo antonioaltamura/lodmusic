@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vis-network.min.css">
 </head>
 
 <body class="appear-animate">
@@ -97,19 +98,27 @@
                         <div class="banner-content">
                             <h3 class="banner-heading font-alt">Search</h3>
                             <div class="banner-decription">
-                                <form method="get" action="detail" id="form" role="form" class="form">
+                                <form method="get" action="resource" id="form" role="form" class="form">
                                     <div class="mb-20 mb-md-10">
-                                        <!-- Name -->
-                                        <select id="query_type">
-                                            <option value="artist">Artist</option>
-                                            <option value="album">Album</option>
-                                            <option value="track">Track</option>
-                                            <option value="band">Band</option>
-                                        </select>
-                                        <input type="text" name="name" id="autocomplete" class="input-md form-control"
-                                               placeholder="Name" maxlength="100"></div>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-3">
+                                                <select id="resourceType" class="input-md form-control"
+                                                        name="resourceType">
+                                                    <option value="band">Band</option>
+                                                    <option value="artist">Artist</option>
+                                                    <option value="album">Album</option>
+                                                    <option value="track">Track</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-12 col-md-9">
+                                                <input type="text" name="name" id="autocomplete"
+                                                       class="input-md form-control"
+                                                       placeholder="Name" maxlength="100">
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="local-scroll">
-                                        <input type="hidden" id="autocomplete_hidden" name="autocomplete_hidden"/>
+                                        <input type="hidden" id="uri" name="uri"/>
                                         <button type="submit" class="btn btn-mod btn-w btn-medium btn-round">Link it!
                                         </button>
                                     </div>
@@ -285,40 +294,36 @@
 <!-- End Page Wrap -->
 <%- include blocks/scripts %>
 <script>
-    $(function () {
+	$(function () {
 
-        $("#autocomplete").autocomplete({
-            focus: function (event, ui) {
-                $("#autocomplete").val(ui.item.name);
-                return false;
-            },
-            source: function (request, response) {
-
-                //Valore selezionato dalla select
-                var query_type = $('#query_type').val();
-
-                $.ajax({
-                    url: "/api/autocomplete/" + query_type,
-                    dataType: "json",
-                    data: {
-                        term: request.term
-                    },
-                    success: function (data) {
-                        response(data);
-                    }
-                });
-            },
-            select: function (event, ui) {
-                $('#autocomplete_hidden').val(ui.item.uri);
-                return false;
-            }
-        }).autocomplete("instance")._renderItem = function (ul, item) {
-            return $("<li>")
-                .append(item.name)
-                .appendTo(ul);
-        };
-        ;
-    });
+		$("#autocomplete").autocomplete({
+			focus: function (event, ui) {
+				$("#autocomplete").val(ui.item.name);
+				return false;
+			},
+			source: function (request, response) {
+				var resourceType = $('#resourceType').val();
+				$.ajax({
+					url: "/api/autocomplete/" + resourceType,
+					dataType: "json",
+					data: {
+						name: request.term
+					},
+					success: function (data) {
+						response(data);
+					}
+				});
+			},
+			select: function (event, ui) {
+				$('#uri').val(ui.item.uri);
+				return false;
+			}
+		}).autocomplete("instance")._renderItem = function (ul, item) {
+			return $("<li>")
+				.append(item.name)
+				.appendTo(ul);
+		};
+	});
 </script>
 </body>
 </html>
