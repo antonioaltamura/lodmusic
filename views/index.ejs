@@ -100,6 +100,12 @@
                                 <form method="get" action="detail" id="form" role="form" class="form">
                                     <div class="mb-20 mb-md-10">
                                         <!-- Name -->
+                                        <select id="query_type">
+                                            <option value="artist">Artist</option>
+                                            <option value="album">Album</option>
+                                            <option value="track">Track</option>
+                                            <option value="band">Band</option>
+                                        </select>
                                         <input type="text" name="name" id="autocomplete" class="input-md form-control"
                                                placeholder="Name" maxlength="100"></div>
                                     <div class="local-scroll">
@@ -287,8 +293,12 @@
                 return false;
             },
             source: function (request, response) {
+
+                //Valore selezionato dalla select
+                var query_type = $('#query_type').val();
+
                 $.ajax({
-                    url: "/api/autocomplete",
+                    url: "/api/autocomplete/" + query_type,
                     dataType: "json",
                     data: {
                         term: request.term
@@ -311,5 +321,4 @@
     });
 </script>
 </body>
-
 </html>
