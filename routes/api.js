@@ -7,6 +7,13 @@ let SparqlClient = require('sparql-client');
 let util = require('util');
 let endpoint = 'http://dbpedia.org/sparql';
 
+var escape = function (str){ return String(str).replace(/([.*+?=^!:${}()|[\]\/\\])/g, '\\$1');}
+var startsWith = function(str) {
+	if(str)
+		return  new RegExp('^'+escape(str), "i");
+	else
+		return new RegExp('.*', "i");
+};
 router.get('/', function(req, res){
 
 	console.log(req.query.q);
@@ -30,5 +37,39 @@ router.get('/', function(req, res){
 			return res.json(results);
 		});
 	});
+
+router.get('/memberState', function(req,res) {
+	var memberState=["Austria",
+		"Belgium",
+		"Bulgaria",
+		"Cyprus",
+		"Croatia",
+		"Czech Republic",
+		"Denmark",
+		"Estonia",
+		"Finland",
+		"France",
+		"Germany",
+		"Greece",
+		"Hungary",
+		"Ireland",
+		"Italy",
+		"Latvia",
+		"Lithuania",
+		"Luxembourg",
+		"Malta",
+		"Netherlands",
+		"Poland",
+		"Portugal",
+		"Romania",
+		"Slovakia",
+		"Slovenia",
+		"Spain",
+		"Sweden",
+		"United Kingdom"];
+	var query = startsWith(req.query.term);
+	res.json(memberState.filter( (el) => query.test(el)));
+});
+
 module.exports = router;
 
