@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body class="appear-animate">
+<body class="appear-animate resourcePage">
 <!-- Page Loader -->
 <div class="page-loader">
     <div class="loader">Loading...</div>
@@ -152,6 +152,14 @@
 		dataType: "json",
 		data: {
 			uri: '<%= uri || null %>'
+		},
+		beforeSend: function() {
+			$(".page-loader div").show();
+			$(".page-loader").show();
+		},
+		success: function(data) {
+			$(".page-loader div").fadeOut();
+			$(".page-loader").delay(200).fadeOut("slow");
 		}
 	}).done(function (data) {
 		if(data.results.bindings.length>0) {

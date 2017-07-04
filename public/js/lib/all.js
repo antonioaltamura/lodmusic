@@ -10,9 +10,9 @@
         
         // Page loader
         
-        $("body").imagesLoaded(function(){
-            $(".page-loader div").fadeOut();
-            $(".page-loader").delay(200).fadeOut("slow");
+        $("body:not(.resourcePage)").imagesLoaded(function(){
+            $("body:not(.resourcePage) .page-loader div").fadeOut();
+            $("body:not(.resourcePage) .page-loader").delay(200).fadeOut("slow");
         });
 
         init_scroll_navigate();
