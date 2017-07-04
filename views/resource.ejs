@@ -40,8 +40,8 @@
         <div class="relative container align-left">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0" data-resource="name"> <% uri %> </h1>
-                    <div class="hs-line-4 font-alt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                    <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0" data-resource="name"></h1>
+                    <div class="hs-line-4 font-alt"><a data-resource="website" href=""></a></div>
                 </div>
             </div>
         </div>
@@ -60,7 +60,8 @@
                     </div>
                 </div>
 
-                <div class="col-sm-4"><p data-resource="image2"></p><img src="images/resource_img.png" data-resource="image"/>
+                <div class="col-sm-4"><p data-resource="image2"></p><img src="images/resource_img.png"
+                                                                         data-resource="image"/>
                 </div>
             </div>
             <hr class="mb-70 mb-xs-30"/>
@@ -147,40 +148,39 @@
 
 <script type="text/javascript">
 
-	$.ajax({
-		url: "/api/<%= resourceType || null %>/",
-		dataType: "json",
-		data: {
-			uri: '<%= uri || null %>'
-		},
-		success: function(data) {
-			$(".page-loader div").fadeOut();
-			$(".page-loader").delay(200).fadeOut("slow");
-		}
-	}).done(function (data) {
-		if(data.results.bindings.length>0) {
-			var props = data.results.bindings[0];
-			$.each(props, function(k, v) {
-				$('[data-resource='+k+']').html(v.value);
-				$("#details").append(
-					`<div class="row">
-					<div class="col-md-4"><strong>${k}</strong></div>
-				<div class="col-md-8"> ${v.value} </div>
-				</div>`);
-			});
-			if(data.results.bindings[0].image){
-				$('[data-resource=image]').attr('src',data.results.bindings[0].image.value);
-				$('[data-resource=background_image]').css({'background-image':`url(${data.results.bindings[0].image.value.split("?")[0]})`})
-			}
-
-
-		} else $('[data-resource=name]').html("No resource found")
-
-
-	})
-		.fail(function (e) {
-			console.log("error " + e);
-		})
+    $.ajax({
+        url: "/api/<%= resourceType || null %>/",
+        dataType: "json",
+        data: {
+            uri: '<%= uri || null %>'
+        },
+        success: function (data) {
+            $(".page-loader div").fadeOut();
+            $(".page-loader").delay(200).fadeOut("slow");
+            if (data.results.bindings.length > 0) {
+                var props = data.results.bindings[0];
+                $.each(props, function (k, v) {
+                    var value = v.value;
+                    // se URL
+                    if (value.match(/^http([s]?):\/\/.*/))
+                        value = '<a href="' + value + '">' + value + '</a>';
+                    $('[data-resource=' + k + ']').html(value);
+                    $("#details").append(
+                        `<div class="row">
+					     <div class="col-md-4"><strong>${k}</strong></div>
+				         <div id="${k}_tab" class="col-md-8"> ${value}</div>
+				         </div>`);
+                });
+                if (data.results.bindings[0].image) {
+                    $('[data-resource=image]').attr('src', data.results.bindings[0].image.value);
+                    $('[data-resource=background_image]').css({'background-image': `url(${data.results.bindings[0].image.value.split("?")[0]})`})
+                }
+            }
+            else $('[data-resource=name]').html("No resource found")
+        }
+    }).fail(function (e) {
+        console.log("error " + e);
+    })
 
 </script>
 </body>
