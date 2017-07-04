@@ -1,8 +1,7 @@
 "use strict";
-let rp = require('request-promise');
-let endpoint = 'http://localhost:3030/lodmusic/sparql';
-
-let prefixes = `PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+let rp = require('request-promise'),
+	endpoint = 'http://lodmusic.cloudapp.net:26109/lodmusic/sparql',
+	prefixes = `PREFIX umbelrc: <http://umbel.org/umbel/rc/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>
@@ -25,4 +24,4 @@ module.exports.query = function (q, next) {
 		.catch(function (err) {
 			next(err);
 		});
-};;
+};
