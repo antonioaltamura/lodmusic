@@ -153,10 +153,6 @@
 		data: {
 			uri: '<%= uri || null %>'
 		},
-		beforeSend: function() {
-			$(".page-loader div").show();
-			$(".page-loader").show();
-		},
 		success: function(data) {
 			$(".page-loader div").fadeOut();
 			$(".page-loader").delay(200).fadeOut("slow");

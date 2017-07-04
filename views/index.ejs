@@ -118,7 +118,7 @@
                                     </div>
                                     <div class="local-scroll">
                                         <input type="hidden" id="uri" name="uri"/>
-                                        <button type="submit" class="btn btn-mod btn-w btn-medium btn-round">Link it!
+                                        <button type="submit" id="submit_button" disabled class="btn btn-mod btn-w btn-medium btn-round">Link it!
                                         </button>
                                     </div>
                                     <br> temp buttons
@@ -316,6 +316,7 @@
 			},
 			select: function (event, ui) {
 				$('#uri').val(ui.item.uri);
+				$('#submit_button').removeAttr('disabled');
 				return false;
 			}
 		}).autocomplete("instance")._renderItem = function (ul, item) {
