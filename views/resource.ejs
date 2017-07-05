@@ -52,11 +52,24 @@
         <div class="container relative"><h2 class="mt-0 font-alt">About</h2>
             <div class="alt-features-item abstract">
                 <div class="alt-features-descr">
-                    <img src="images/resource_img.png" data-resource="image"/>
+                    <div class="work-item mix photography">
+                        <a href="#" class="work-lightbox-link mfp-image">
+                            <div class="work-img">
+                                <img data-resource="image" />
+                            </div>
+                            <div class="work-intro">
+                                <h3 class="work-title"data-resource="name"></h3>
+                                <div class="work-descr" data-resource="caption">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                     <span data-resource="abstract"></span>
+                    <div id="tmpl">tmpl</div>
                 </div>
 
             </div>
+
             <hr class="mb-70 mb-xs-30"/>
             <!-- End Divider -->
             <div class="section-text mb-60 mb-sm-40">
@@ -75,62 +88,13 @@
         </div>
     </section>
     <!-- End Section -->
-    <!-- Blog Section -->
     <section class="small-section" id="news">
         <div class="container relative">
-            <h2 class="section-title font-alt align-left mb-70 mb-sm-40">
-                Related artists
-            </h2>
-            <div class="row multi-columns-row">
-                <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.1s"
-                     data-wow-duration="2s">
-                    <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right.html"><img
-                                    src="http://commons.wikimedia.org/wiki/Special:FilePath/Gerry_Mulligan_by_Erling_Mandelmann.jpg?width=300"
-                                    alt=""/>
-                        </a>
-                    </div>
-                    <div class="post-prev-title font-alt"><a href="">Gerry Mulligan</a></div>
-                    <div class="post-prev-text"> Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor
-                        consectetur fermentum nibh volutpat, accumsan purus.
-                    </div>
-                </div>
-                <!-- End Post Item -->
-                <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.2s"
-                     data-wow-duration="2s">
-                    <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right.html"><img
-                                    src="http://commons.wikimedia.org/wiki/Special:FilePath/Art_Pepper.jpg?width=300"
-                                    alt=""/>
-                        </a>
-                    </div>
-                    <div class="post-prev-title font-alt"><a href="">Art Pepper</a></div>
-                    <div class="post-prev-text"> Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor
-                        consectetur fermentum nibh volutpat, accumsan purus.
-                    </div>
-                </div>
-                <!-- End Post Item -->
-                <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.3s"
-                     data-wow-duration="2s">
-                    <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right.html"><img
-                                    src="http://commons.wikimedia.org/wiki/Special:FilePath/Dizzy_Gillespie01.JPG?width=300"
-                                    alt=""/>
-                        </a>
-                    </div>
-                    <div class="post-prev-title font-alt"><a href="">Dizzy Gillespie</a></div>
-                    <div class="post-prev-text"> Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor
-                        consectetur fermentum nibh volutpat, accumsan purus.
-                    </div>
-                </div>
-                <!-- End Post Item -->
+            <h2 class="font-alt mt-0 mb-20">Related artists</h2>
+            <div id="related">
             </div>
         </div>
     </section>
-    <!-- End Blog Section -->
     <!-- Divider -->
     <hr class="mt-0 mb-0 "/>
     <!-- End Divider -->
@@ -169,8 +133,34 @@
 				         </div>`);
                 });
                 if (data.results.bindings[0].image) {
-                    $('[data-resource=image]').attr('src', data.results.bindings[0].image.value);
-                    $('[data-resource=background_image]').css({'background-image': `url(${data.results.bindings[0].image.value.split("?")[0]})`})
+                    var fullimage = data.results.bindings[0].image.value.split("?")[0];
+					//urlExists(data.results.bindings[0].image.value, function(ok) {
+					//	if (ok !==404) {
+							$('[data-resource=image]').attr('src', data.results.bindings[0].image.value);
+							$('[data-resource=background_image]').css({'background-image': `url(${fullimage})`})
+							$('.work-lightbox-link').attr("href", fullimage);
+					//	}
+					//});
+                }
+                if(data.results.bindings[0].artistRelateds) {
+					var tmpl = $.templates("#relatedItem");
+                	var relateds = data.results.bindings[0].artistRelateds.value.split("(.)(.)");
+					relateds.forEach(function(related){
+						$.ajax({
+							url: "/api/band",
+							dataType: "json",
+							data: {
+								uri: related
+							},
+							success: function (data) {
+								var res = data.results.bindings[0];
+								if(res.name){
+									$('#related').append(tmpl.render(res));
+                                }
+
+							}
+						});
+                    })
                 }
             }
             else $('[data-resource=name]').html("No resource found")
@@ -179,7 +169,22 @@
         console.log("error " + e);
     })
 
-</script>
-</body>
+    function urlExists(url, cb){
+		$.ajax({
+			url:      url,
+			type:     'GET',
+			crossDomain: true,
+			dataType: 'jsonp',
 
+			complete:  function(xhr){
+				if(typeof cb === 'function')
+					cb.apply(this, [xhr.status]);
+			}
+		});
+	}
+</script>
+
+<%- include blocks/related.ejs %>
+
+</body>
 </html>

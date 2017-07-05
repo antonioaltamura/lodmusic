@@ -30,10 +30,23 @@ a.ui-button:active,
 .resource_background{
     background-position: center center;
 }
-.abstract img {
+.abstract .photography {
     margin: 20px;
     float:right
 }
 .abstract{
     text-align: justify;
+}
+#related {
+    display: flex;
+}
+#related .item{
+    flex: 1;
+    padding: 20px;
+}
+#related .item:first-child {
+    padding-left: 0px;
+}
+#related .item:last-child {
+    padding-right: 0px;
 }

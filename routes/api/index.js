@@ -3,10 +3,11 @@ let router = require('express').Router();
 let sparql = require('../sparql');
 
 
-		router.get('/band', function (req, res) {
-			if (!req.query.uri)
-				res.status(400).json({message: 'No query param'});
-			sparql.query(`
+
+router.get('/band', function (req, res) {
+	if (!req.query.uri)
+		res.status(400).json({message: 'No query param'});
+	sparql.query(`
 SELECT ?name
 ?image
 ?abstract
@@ -32,12 +33,12 @@ VALUES ?s { <${req.query.uri}> }
 FILTER LANGMATCHES(LANG(?abstract ), "en")
 } group by ?name  ?abstract ?image ?origin ?caption
 `, function (r) {
-				if(r.error) {
-					res.json(r);
-				}
-				res.json(JSON.parse(r));
-			})
-		});
+		if (r.error) {
+			res.json(r);
+		}
+		res.json(JSON.parse(r));
+	})
+});
 
 router.get('/album', function (req, res) {
 	if (!req.query.uri)
@@ -53,7 +54,7 @@ dbo:releaseDate ?date;
 dbo:artist ?band.
 	OPTIONAL{?album dbo:genre ?genre}.
 }`, function (r) {
-		if(r.error) {
+		if (r.error) {
 			res.json(r);
 		}
 		res.json(JSON.parse(r));
@@ -77,7 +78,7 @@ WHERE
   ?band dbp:currentMembers ?artist.
  OPTIONAL{<${req.query.uri}>  dbo:thumbnail ?image}.
 }`, function (r) {
-		if(r.error) {
+		if (r.error) {
 			res.json(r);
 		}
 		res.json(JSON.parse(r));
@@ -106,11 +107,31 @@ SELECT DISTINCT ?name ?abstract ?releaseDate ?artist ?album ?recordLabel
       OPTIONAL{?track dbo:album ?album}.
       OPTIONAL{?track dbo:recordLabel ?recordLabel}.
 }`, function (r) {
-		if(r.error) {
+		if (r.error) {
 			res.json(r);
 		}
 		res.json(JSON.parse(r));
 	})
 });
+
+//TODO <http://dbpedia.org/resource/Arch_Enemy> handle multiple images
+router.get('/related', function (req, res) {
+	if (!req.query.uri)
+		res.status(400).json({message: 'No query param'});
+	sparql.query(`SELECT DISTINCT ?name ?image ?abstract
+WHERE {
+  VALUES ?q {<${req.query.uri}>}
+    { ?q a umbelrc:MusicalPerformer } UNION { ?q a dbo:Band }.
+   ?q foaf:name ?name;
+      dbo:abstract ?abstract .
+   OPTIONAL{?q dbo:image ?image} .
+}`, function (r) {
+		if (r.error) {
+			res.json(r);
+		}
+		res.json(JSON.parse(r));
+	})
+});
+
 
 module.exports = router;
