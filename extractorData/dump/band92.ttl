@@ -1,0 +1,108 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+<http://dbpedia.org/resource/Ministry_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Ministry-at-Freemont-Country-Club-Vegas-05-26-16-27.jpg?width=300> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+<http://dbpedia.org/resource/Ministry_(band)>	foaf:name	"Ministry"@en .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+<http://dbpedia.org/resource/Ministry_(band)>	dbo:associateBand	dbr:Al_Jourgensen ,
+		dbr:Stonesour ,
+		dbr:Lead_into_Gold ,
+		dbr:Soulfly ,
+		dbr:Killing_Joke ,
+		<http://dbpedia.org/resource/Prong_(band)> ,
+		dbr:The_Rust_Punk_Tribe ,
+		<http://dbpedia.org/resource/1000_Homo_DJs> ,
+		<http://dbpedia.org/resource/Lard_(band)> ,
+		<http://dbpedia.org/resource/Rigor_Mortis_(band)> ,
+		dbr:Skinny_Puppy ,
+		dbr:Amebix ,
+		dbr:Fear_Factory ,
+		dbr:KMFDM ,
+		dbr:Acid_Horse ,
+		dbr:Nine_Inch_Nails ,
+		dbr:Pigface ,
+		dbr:Revolting_Cocks ,
+		dbr:Nausea ,
+		dbr:Pailhead ,
+		<http://dbpedia.org/resource/PTP_(band)> ;
+	dbo:abstract	"Ministry is an American industrial metal band founded by lead singer and only original member Al Jourgensen in 1981. Originally a new wave synthpop outfit, Ministry changed its style to become one of the pioneers of industrial metal in the mid-1980s. Ministry found mainstream success in the early 1990s with their fifth studio album Psalm 69: The Way to Succeed and the Way to Suck Eggs (1992) and touring as part of the Lollapalooza festival. After 27 years of performing, Jourgensen decided to end the band in 2008, saying a reunion would never happen. However, in August 2011, a reunion was announced, when Ministry confirmed they would play one of their first shows in four years at the Wacken Open Air festival in August 2012. Ministry released a new album, Relapse, on March 23, 2012, which was followed by a world tour. Following the death of long time guitarist Mike Scaccia, Ministry released their most recent studio album From Beer to Eternity in September 2013, and subsequently began to tour again with new guitarist Cesar Soto."@en ;
+	dbo:associatedMusicalArtist	dbr:Soulfly ,
+		<http://dbpedia.org/resource/Lard_(band)> ,
+		dbr:KMFDM ,
+		dbr:The_Rust_Punk_Tribe ,
+		dbr:Revolting_Cocks ,
+		dbr:Al_Jourgensen ,
+		dbr:Killing_Joke ,
+		<http://dbpedia.org/resource/PTP_(band)> ,
+		dbr:Amebix ,
+		<http://dbpedia.org/resource/1000_Homo_DJs> ,
+		<http://dbpedia.org/resource/Prong_(band)> ,
+		<http://dbpedia.org/resource/Rigor_Mortis_(band)> ,
+		dbr:Pailhead ,
+		dbr:Nausea ,
+		dbr:Pigface ,
+		dbr:Nine_Inch_Nails ,
+		dbr:Acid_Horse ,
+		dbr:Skinny_Puppy ,
+		dbr:Stonesour ,
+		dbr:Lead_into_Gold ,
+		dbr:Fear_Factory ;
+	dbo:genre	dbr:Thrash_metal ,
+		dbr:Electronic_body_music ,
+		dbr:Industrial_metal ,
+		dbr:Synthpop ,
+		dbr:Alternative_metal .
+@prefix dbp:	<http://dbpedia.org/property/> .
+<http://dbpedia.org/resource/Ministry_(band)>	dbp:caption	"Ministry performing live at the 2016 Punk Rock Bowling."^^rdf:langString ;
+	dbp:currentMembers	dbr:Beefcake_the_Mighty ,
+		dbr:Tommy_Victor ,
+		dbr:Louis_Svitek ,
+		dbr:Tony_Campos ,
+		dbr:Stephen_George ,
+		dbr:Max_Brody ,
+		<http://dbpedia.org/resource/Marz_(rapper)> ,
+		dbr:John_Monte ,
+		<http://dbpedia.org/resource/Chris_Connelly_(musician)> ;
+	dbp:website	<http://www.alfuckingjourgensen.com/> .
+@prefix ns5:	<https://web.archive.org/web/20110926060122/http:/www.thirteenthplanet.com/> .
+<http://dbpedia.org/resource/Ministry_(band)>	dbp:website	ns5:ministry .
+<http://dbpedia.org/resource/Misfits_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Misfits_2012-11-08_01.JPG?width=300> ;
+	foaf:name	"Misfits"@en ;
+	dbo:associateBand	dbr:Kryst_the_Conqueror ,
+		dbr:Ramones ,
+		dbr:Gorgeous_Frankenstein ,
+		dbr:Gotham_Road ,
+		<http://dbpedia.org/resource/Dr._Chud\u0027s_X-Ward> ,
+		<http://dbpedia.org/resource/Samhain_(band)> ,
+		dbr:Necros ,
+		<http://dbpedia.org/resource/Balzac_(band)> ,
+		<http://dbpedia.org/resource/Murphy\u0027s_Law_(band)> ,
+		dbr:Osaka_Popstar ,
+		<http://dbpedia.org/resource/Danzig_(band)> ,
+		<http://dbpedia.org/resource/Black_Flag_(band)> ,
+		<http://dbpedia.org/resource/Graves_(band)> ,
+		dbr:The_Undead ,
+		dbr:Slayer ;
+	dbo:abstract	"Misfits are an American horror punk band often recognized as the progenitors of the horror punk subgenre, blending punk rock and other musical influences with horror film themes and imagery. Founded in 1977 in Lodi, New Jersey the original lineup consisted of singer and songwriter Glenn Danzig, bassist Jerry Only, and drummer Manny Mart\u00EDnez. Danzig and Only were the only consistent members throughout the next six years. During this time they released several EPs and singles, and with Only's brother Doyle as guitarist, the albums Walk Among Us (1982) and Earth A.D./Wolfs Blood (1983), both considered touchstones of the early-1980s hardcore punk movement. Misfits disbanded in 1983 and Danzig went on to form Samhain and then the eponymous Danzig. Several albums of reissued and previously unreleased material were issued after the group's dissolution, and their music became influential to punk rock, heavy metal, and alternative rock music of the late 1990s and early 2000s. After a series of legal battles with Danzig, Only and Doyle regained the rights to record and perform as the Misfits. They formed a new version of the band in 1995 with singer Michale Graves and drummer Dr. Chud. This incarnation of Misfits had a sound much more rooted in heavy metal, and released the albums American Psycho (1997) and Famous Monsters (1999) before dissolving in 2000. Jerry Only then took over lead vocals and recruited former Black Flag guitarist Dez Cadena and former Ramones drummer Marky Ramone for a Misfits 25th Anniversary tour. This lineup released an album of cover songs entitled Project 1950 and toured for several years. In 2005 Ramone was replaced by Robo, who had played with Black Flag in the early 1980s and had also previously been Misfits' drummer from 1982 to 1983. This lineup released a single titled \"Land of the Dead\" in 2009. The Misfits' lineup of Only, Cadena, and drummer Eric \"Chupacabra\" Arce released a new album titled The Devil's Rain in October 2011. In 2015 it was announced that Cadena would be taking a break from music after receiving a cancer diagnosis, and was replaced by Only's son Jerry Caiafa II. That same year Soulfly's Marc Rizzo joined the band, also playing guitar, filling in for Cadena before Caiafa would move on to become the sole guitarist for the band. In September 2016, for the first time in 33 years, Danzig, Only and Doyle reunited for two headlining shows at the Riot Fest, along with original Slayer drummer Dave Lombardo and second guitarist Acey Slade."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Danzig_(band)> ,
+		dbr:Gorgeous_Frankenstein ,
+		dbr:Osaka_Popstar ,
+		dbr:Necros ,
+		<http://dbpedia.org/resource/Black_Flag_(band)> ,
+		dbr:Gotham_Road ,
+		<http://dbpedia.org/resource/Murphy\u0027s_Law_(band)> ,
+		<http://dbpedia.org/resource/Graves_(band)> ,
+		dbr:The_Undead ,
+		<http://dbpedia.org/resource/Balzac_(band)> ,
+		dbr:Ramones ,
+		<http://dbpedia.org/resource/Samhain_(band)> ,
+		dbr:Kryst_the_Conqueror ,
+		dbr:Slayer ,
+		<http://dbpedia.org/resource/Dr._Chud\u0027s_X-Ward> ;
+	dbo:genre	dbr:Punk_rock ,
+		dbr:Horror_punk ;
+	dbp:caption	"Left to right: Only, Arce, and Cadena in 2012"^^rdf:langString ;
+	dbp:currentMembers	dbr:Joey_Image ;
+	dbp:website	<http://misfits.com> .

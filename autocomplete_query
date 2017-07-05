@@ -32,3 +32,7 @@ WHERE{
 	FILTER regex(?name, "^"). 
 
 }
+
+
+
+SELECT DISTINCT ?id (str(?name) AS ?str_name)

@@ -1,0 +1,119 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbr:Jefferson_Airplane	rdf:type	dbo:Band ;
+	dbo:image	<http://en.wikipedia.org/wiki/Special:FilePath/Jefferson_Airplane.jpg?width=300> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+dbr:Jefferson_Airplane	foaf:name	"Jefferson Airplane"@en ;
+	dbo:associateBand	dbr:Jefferson_Starship ,
+		<http://dbpedia.org/resource/Starship_(band)> ;
+	dbo:abstract	"Jefferson Airplane was a San Francisco, California-based band who pioneered the American counterculture movement as well as psychedelic rock. Formed in 1965, the group defined the San Francisco Sound and was the first from the Bay Area to achieve international commercial success. They were headliners at the three most famous American rock festivals of the 1960s\u2014Monterey (1967), Woodstock (1969) and Altamont (1969)\u2014in addition to the first Isle of Wight Festival (1968)  in England. Their 1967 break-out record Surrealistic Pillow ranks on the short list of most significant recordings of the \"Summer of Love\". Two songs from that album, \"Somebody to Love\" and \"White Rabbit\", are among Rolling Stone's \"500 Greatest Songs of All Time.\" The \"classic\" line-up of Jefferson Airplane remained stable from 1967 to early 1970, and consisted of Marty Balin, Jack Casady, Spencer Dryden, Paul Kantner, Jorma Kaukonen and Grace Slick. The group broke up in 1972 and split into two bands: Hot Tuna and Jefferson Starship. Jefferson Airplane was inducted into the Rock and Roll Hall of Fame in 1996, and honored with the Grammy Lifetime Achievement Award in 2016."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Starship_(band)> ;
+	dbo:genre	dbr:Psychedelic_rock .
+@prefix dbp:	<http://dbpedia.org/property/> .
+dbr:Jefferson_Airplane	dbp:caption	"Jefferson Airplane photographed  by Herb Greene at The Matrix club, San Francisco, in 1966. Top row from left: Jack Casady, Grace Slick, Marty Balin; bottom row from left: Jorma Kaukonen, Paul Kantner, Spencer Dryden. A cropped version was used for the front cover of Surrealistic Pillow."^^rdf:langString ;
+	dbp:currentMembers	dbr:Signe_Toly_Anderson ;
+	dbp:website	<http://www.jeffersonairplane.com/> .
+dbr:Jefferson_Starship	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Jefferson_Starship_2014.jpg?width=300> ;
+	foaf:name	"Jefferson Starship"@en ;
+	dbo:associateBand	dbr:Hot_Tuna ,
+		dbr:KBC_Band ,
+		dbr:Moonalice ,
+		dbr:Jefferson_Airplane ,
+		<http://dbpedia.org/resource/Starship_(band)> ,
+		dbr:Quicksilver_Messenger_Service ;
+	dbo:abstract	"Jefferson Starship is an American rock band formed in the early 1970s by several members of the former Jefferson Airplane. The band has undergone several major changes in personnel and genres through the years while retaining the same Jefferson Starship name. It is not to be confused with Starship, a spin-off of the group featuring former co-lead singer Mickey Thomas that also periodically tours."@en ;
+	dbo:associatedMusicalArtist	dbr:Quicksilver_Messenger_Service ,
+		dbr:Moonalice ,
+		dbr:KBC_Band ,
+		dbr:Hot_Tuna ,
+		dbr:Jefferson_Airplane ,
+		<http://dbpedia.org/resource/Starship_(band)> ;
+	dbo:genre	dbr:Soft_rock ,
+		dbr:Progressive_rock ,
+		dbr:Rock_music ,
+		dbr:Hard_rock ,
+		dbr:Psychedelic_rock ;
+	dbp:caption	"Jefferson Starship in 2014 - l to r: Chris Smith, David Freiberg, Cathy Richardson, Paul Kantner, Donny Baldwin, Jude Gold"^^rdf:langString ;
+	dbp:currentMembers	dbr:List_of_Jefferson_Starship_members ;
+	dbp:website	<http://www.jeffersonstarship.net/> .
+<http://dbpedia.org/resource/Madness_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Madness_2014.JPG?width=300> ;
+	foaf:name	"Madness"@en ;
+	dbo:associateBand	dbr:The_Madness ;
+	dbo:abstract	"Madness are an English ska band from Camden Town, London, that formed in 1976. One of the most prominent bands of the late 1970s and early 1980s 2 Tone ska revival, they continue to perform with their most recognised line-up of seven members. Madness achieved most of their success in the early to mid-1980s. Both Madness and UB40 spent 214 weeks on the UK singles charts over the course of the decade, holding the record for most weeks spent by a group in the 1980s UK singles charts. However, Madness achieved this in a shorter time period (1980\u20131986). Madness have had 15 singles reach the UK top ten, one UK number one single (\"House of Fun\") and two number ones in Ireland, \"House of Fun\" and \"Wings of a Dove\"."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Madness ;
+	dbo:genre	dbr:Pop_music ,
+		dbr:New_wave_music ,
+		dbr:Ska_music ;
+	dbp:caption	"Madness performing live at the Manchester Arena, in 2014"^^rdf:langString ;
+	dbp:currentMembers	dbr:Chas_Smash ,
+		dbr:Steve_Nieve ,
+		dbr:Dikron_Tulane ;
+	dbp:website	<http://madness.co.uk> .
+<http://dbpedia.org/resource/Ministry_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Ministry-at-Freemont-Country-Club-Vegas-05-26-16-27.jpg?width=300> ;
+	foaf:name	"Ministry"@en ;
+	dbo:associateBand	dbr:Stonesour ,
+		dbr:Al_Jourgensen ,
+		dbr:Lead_into_Gold ,
+		dbr:Soulfly ,
+		dbr:Killing_Joke ,
+		<http://dbpedia.org/resource/Prong_(band)> ,
+		dbr:The_Rust_Punk_Tribe ,
+		<http://dbpedia.org/resource/1000_Homo_DJs> ,
+		<http://dbpedia.org/resource/Lard_(band)> ,
+		<http://dbpedia.org/resource/Rigor_Mortis_(band)> ,
+		dbr:Skinny_Puppy ,
+		dbr:Amebix ,
+		dbr:Fear_Factory ,
+		dbr:KMFDM ,
+		dbr:Acid_Horse ,
+		dbr:Nine_Inch_Nails ,
+		dbr:Pigface ,
+		dbr:Revolting_Cocks ,
+		dbr:Nausea ,
+		dbr:Pailhead ,
+		<http://dbpedia.org/resource/PTP_(band)> ;
+	dbo:abstract	"Ministry is an American industrial metal band founded by lead singer and only original member Al Jourgensen in 1981. Originally a new wave synthpop outfit, Ministry changed its style to become one of the pioneers of industrial metal in the mid-1980s. Ministry found mainstream success in the early 1990s with their fifth studio album Psalm 69: The Way to Succeed and the Way to Suck Eggs (1992) and touring as part of the Lollapalooza festival. After 27 years of performing, Jourgensen decided to end the band in 2008, saying a reunion would never happen. However, in August 2011, a reunion was announced, when Ministry confirmed they would play one of their first shows in four years at the Wacken Open Air festival in August 2012. Ministry released a new album, Relapse, on March 23, 2012, which was followed by a world tour. Following the death of long time guitarist Mike Scaccia, Ministry released their most recent studio album From Beer to Eternity in September 2013, and subsequently began to tour again with new guitarist Cesar Soto."@en ;
+	dbo:associatedMusicalArtist	dbr:Soulfly ,
+		<http://dbpedia.org/resource/Lard_(band)> ,
+		dbr:KMFDM ,
+		dbr:The_Rust_Punk_Tribe ,
+		dbr:Revolting_Cocks ,
+		dbr:Al_Jourgensen ,
+		dbr:Killing_Joke ,
+		<http://dbpedia.org/resource/PTP_(band)> ,
+		<http://dbpedia.org/resource/1000_Homo_DJs> ,
+		dbr:Amebix ,
+		<http://dbpedia.org/resource/Prong_(band)> ,
+		<http://dbpedia.org/resource/Rigor_Mortis_(band)> ,
+		dbr:Pailhead ,
+		dbr:Nausea ,
+		dbr:Pigface ,
+		dbr:Nine_Inch_Nails ,
+		dbr:Acid_Horse ,
+		dbr:Skinny_Puppy ,
+		dbr:Stonesour ,
+		dbr:Lead_into_Gold ,
+		dbr:Fear_Factory ;
+	dbo:genre	dbr:Thrash_metal ,
+		dbr:Electronic_body_music ,
+		dbr:Industrial_metal ,
+		dbr:Synthpop ,
+		dbr:Alternative_metal ;
+	dbp:caption	"Ministry performing live at the 2016 Punk Rock Bowling."^^rdf:langString ;
+	dbp:currentMembers	dbr:Nivek_Ogre ,
+		dbr:Paul_Barker ,
+		<http://dbpedia.org/resource/Paul_Raven_(musician)> ,
+		dbr:Aaron_Rossi ,
+		dbr:Bill_Rieflin ,
+		dbr:Mike_Scaccia ,
+		dbr:Howie_Beno ,
+		<http://dbpedia.org/resource/Chris_Connelly_(musician)> ,
+		dbr:Martin_Atkins ,
+		dbr:Rey_Washam ;
+	dbp:website	<http://www.alfuckingjourgensen.com/> .
+@prefix ns5:	<https://web.archive.org/web/20110926060122/http:/www.thirteenthplanet.com/> .
+<http://dbpedia.org/resource/Ministry_(band)>	dbp:website	ns5:ministry .

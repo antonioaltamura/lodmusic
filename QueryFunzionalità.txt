@@ -4,7 +4,7 @@ PREFIX umbelrc: <http://umbel.org/umbel/rc/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 
-SELECT DISTINCT ?name ?bDate ?abstract ?image
+SELECT DISTINCT ?name ?bDate ?abstract ?image ?relatedArtist ?relatedBand ?origin ?caption
 WHERE
 {
 	$param a umbelrc:MusicalPerformer;
@@ -12,6 +12,10 @@ WHERE
 	dbo:abstract ?abstract;
 	dbo:birthDate ?bDate.
  OPTIONAL{$param dbo:thumbnail ?image}.
+ OPTIONAL{?artist dbo:associatedBand ?bandRelated} .
+ OPTIONAL{?artist dbo:associatedMusicalArtist ?artistRelated} .
+ OPTIONAL{ ?artist dbp:caption ?caption} .
+ OPTIONAL{?artist dbp:origin ?origin} .
 
 }
 
@@ -23,7 +27,7 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>
 
-SELECT DISTINCT ?name ?bDate ?abstract ?image ?band
+SELECT DISTINCT ?name ?bDate ?abstract ?image ?band ?relatedArtist ?relatedBand ?origin ?caption
 WHERE
 {
 	$param a umbelrc:MusicalPerformer;
@@ -31,7 +35,11 @@ WHERE
 	dbo:abstract ?abstract;
 	dbo:birthDate ?bDate.
   ?band dbp:currentMembers ?artist.
- OPTIONAL{$param dbo:thumbnail ?image}.
+  OPTIONAL{?artist dbo:associatedBand ?bandRelated} .
+  OPTIONAL{?artist dbo:associatedMusicalArtist ?artistRelated} .
+  OPTIONAL{ ?artist dbp:caption ?caption} .
+  OPTIONAL{?artist dbp:origin ?origin} .
+  OPTIONAL{$param dbo:thumbnail ?image}.
 
 }
 
@@ -56,7 +64,7 @@ PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dbp: <http://dbpedia.org/property/>
 
-SELECT ?name ?website ?abstract ?genre ?image ?member
+SELECT ?name ?website ?abstract ?genre ?image ?member ?relatedArtist ?relatedBand ?origin ?caption
 WHERE{
  $param a dbo:Band ;
        foaf:name ?name;
@@ -64,6 +72,10 @@ WHERE{
       dbp:currentMembers ?member .
   OPTIONAL{$param dbo:genre ?genre } .
   OPTIONAL{$param dbp:website ?website} .
+  OPTIONAL{?artist dbo:associatedBand ?bandRelated} .
+  OPTIONAL{?artist dbo:associatedMusicalArtist ?artistRelated} .
+  OPTIONAL{ ?artist dbp:caption ?caption} .
+  OPTIONAL{?artist dbp:origin ?origin} .
   OPTIONAL{$param dbo:image ?image} .
 
 }

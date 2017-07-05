@@ -1,0 +1,1737 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+@prefix umbel-rc:	<http://umbel.org/umbel/rc/> .
+dbr:Dean_Friedman	rdf:type	umbel-rc:MusicalPerformer .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbr:Dean_Friedman	dbo:birthDate	"1955-5-23"^^xsd:date ,
+		"1955-05-23"^^xsd:date .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+dbr:Dean_Friedman	foaf:name	"Dean Friedman"@en ;
+	dbo:thumbnail	<http://en.wikipedia.org/wiki/Special:FilePath/DeanFriedman2007.jpg?width=300> ;
+	dbo:abstract	"Dean Friedman (born May 23, 1955) is an American singer-songwriter who plays piano, keyboard, guitar and other instruments, including the harmonica."@en .
+@prefix dbp:	<http://dbpedia.org/property/> .
+dbr:Dean_Friedman	dbp:caption	"--04-18"^^xsd:gMonthDay .
+dbr:Dina_Hayek	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1982-6-10"^^xsd:date ,
+		"1975-06-10"^^xsd:date ;
+	foaf:name	"Dina Hayek"@en ;
+	dbo:abstract	"Dina Hayek (Arabic: \u062F\u064A\u0646\u0627 \u062D\u0627\u064A\u0643\u200E\u200E born Collet Bou Gergis on 10 June 1982) is a popular Lebanese singer. She gained popularity by the release of her second album, Katabtillak. Her father is Lebanese and her mother is Syrian."@en .
+dbr:Dino_Jelusić	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1992-6-4"^^xsd:date ,
+		"1992-06-04"^^xsd:date ;
+	foaf:name	"Dino Jelu\u0161i\u0107"@en ,
+		"Dino Jelusic"@en ;
+	dbo:associateBand	dbr:Trans-Siberian_Orchestra ,
+		dbr:Muris_Varajic ,
+		<http://dbpedia.org/resource/Mad_Dogs_(Band)> ,
+		<http://dbpedia.org/resource/M.U.D.> ,
+		dbr:The_Ralph ,
+		dbr:Zoran_Misic ,
+		dbr:Crno_Perje ,
+		dbr:John_Macaluso ,
+		dbr:Divlje_Jagode ,
+		<http://www.dino-official.com> ,
+		<http://www.dino.hr> ;
+	dbo:abstract	"Dino Jelusic (born 4 June 1992) is a Croatian Rock singer, musician and songwriter. He is the lead singer in the band called Mad Dogs (Band). In 2016. he entered Grammy Awarded American band Trans-Siberian Orchestra along with Mats Leven. Dino also works with John Macaluso (Yngwie Malmsteen, Ark). He was the winner of the first Junior Eurovision Song Contest 2003, which took place in Copenhagen on 15 November 2003."@en ;
+	dbo:associatedMusicalArtist	<http://www.dino-official.com> ,
+		<http://dbpedia.org/resource/Mad_Dogs_(Band)> ,
+		<http://dbpedia.org/resource/M.U.D.> ,
+		dbr:Muris_Varajic ,
+		dbr:Divlje_Jagode ,
+		dbr:John_Macaluso ,
+		dbr:Crno_Perje ,
+		dbr:The_Ralph ,
+		dbr:Zoran_Misic ,
+		dbr:Trans-Siberian_Orchestra ,
+		<http://www.dino.hr> .
+dbr:Dino_Merlin	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1962-9-12"^^xsd:date ,
+		"1962-09-12"^^xsd:date ;
+	foaf:name	"Dino Merlin"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Dino_Merlin_(2011).jpg?width=300> ;
+	dbo:associateBand	dbr:Goran_Bregović ,
+		dbr:Cat_Stevens ,
+		dbr:Zdravko_Čolić ,
+		dbr:Vesna_Zmijanac ,
+		dbr:Esad_Samardžić ,
+		dbr:Emina_Jahović ,
+		dbr:Richard_Niles ,
+		<http://dbpedia.org/resource/Merlin_(Merlin_album)> ,
+		dbr:Nina_Badrić ,
+		dbr:Mustafa_Sandal ,
+		dbr:Željko_Joksimović ,
+		dbr:Yoad_Nevo ,
+		dbr:Hari_Mata_Hari ;
+	dbo:abstract	"Edin Dervi\u0161halidovi\u0107 (pronounced [\u011Bdin der\u028Bi\u0283xa\u02D0l\u01D0do\u028Bit\u0255]; born 12 September 1962), known by his stage name Dino Merlin (pronounced [d\u01D0\u02D0no m\u011Brlin]), is a Bosnian singer-songwriter, musician, and producer. He is one of the most prominent and commercially successful artists from Bosnia and Herzegovina and is also widely popular in the other countries of the former Yugoslavia."@en ;
+	dbo:associatedMusicalArtist	dbr:Nina_Badrić ,
+		dbr:Željko_Joksimović ,
+		dbr:Zdravko_Čolić ,
+		dbr:Vesna_Zmijanac ,
+		dbr:Richard_Niles ,
+		dbr:Emina_Jahović ,
+		<http://dbpedia.org/resource/Merlin_(Merlin_album)> ,
+		dbr:Esad_Samardžić ,
+		dbr:Mustafa_Sandal ,
+		dbr:Cat_Stevens ,
+		dbr:Goran_Bregović ,
+		dbr:Hari_Mata_Hari ,
+		dbr:Yoad_Nevo .
+<http://dbpedia.org/resource/Dolphin_(musician)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1971-9-29"^^xsd:date ,
+		"1971-09-29"^^xsd:date ;
+	foaf:name	"Dolphin"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/\u0414\u0435\u043B\u044C\u0444\u0438\u043D_\u043A\u043E\u043D\u0446\u0435\u0440\u0442.jpg?width=300> ;
+	dbo:associateBand	dbr:Malchishnik ;
+	dbo:abstract	"Andrey Vyacheslavovich Lysikov (born September 29, 1971, Moscow) is a Russian musical artist, singer, songwriter, poet and rapper, known by his stage name Dolphin (or \u0414\u0435\u043B\u044C\u0444\u0438\u043D). He won the award of best artist at the 2004 MTV Russian Music Awards. He also played at the Live 8 Russia concert."@en ;
+	dbo:associatedMusicalArtist	dbr:Malchishnik .
+<http://dbpedia.org/resource/Don_Cherry_(singer)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1924-1-11"^^xsd:date ,
+		"1924-01-11"^^xsd:date ;
+	foaf:name	"Don Cherry"@en ;
+	dbo:abstract	"Donald Ross Cherry (born January 11, 1924) is an American traditional pop music singer and former amateur and professional golfer. In music, he is best known for his 1955 hit \"Band of Gold\"."@en .
+dbr:Duncan_Sheik	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1969-11-18"^^xsd:date ;
+	foaf:name	"Duncan Sheik"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Duncan_Sheik.jpg?width=300> ;
+	dbo:abstract	"Duncan Sheik (born November 18, 1969) is an American singer-songwriter and composer. Initially finding success as a singer, most notably for his 1996 debut single \"Barely Breathing\", he later expanded to compositions for motion pictures and the Broadway stage, such as the successful musical, Spring Awakening, where he won multiple Tonys and a Grammy. Sheik practices Nichiren Buddhism and is a member of the US branch of the worldwide Buddhist association Soka Gakkai International."@en .
+<http://dbpedia.org/resource/Dynamo_(magician)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1982-12-17"^^xsd:date ;
+	foaf:name	"Dynamo"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Steven_Frayne.jpg?width=300> ;
+	dbo:abstract	"Steven Frayne (born 17 December 1982), commonly known by his stage name \"Dynamo\", is an English magician, best known for his award-winning television show Dynamo: Magician Impossible which ran from July 2011 to September 2014."@en .
+<http://dbpedia.org/resource/Eddie_%22Lockjaw%22_Davis>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1922-03-02"^^xsd:date ,
+		"1922-3-2"^^xsd:date ;
+	foaf:name	"Eddie \\\\\\\\Lockjaw\\\\\\\\ Davis"@en ,
+		"Eddie \"Lockjaw\" Davis"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Eddie_Lockjaw_Davis.jpg?width=300> ;
+	dbo:abstract	"Eddie \"Lockjaw\" Davis (March 2, 1922 \u2013 November 3, 1986) was an American jazz tenor saxophonist."@en .
+dbr:Eek-A-Mouse	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1957-11-19"^^xsd:date ;
+	foaf:name	"Eek-A-Mouse"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Eek-A-Mouse_(Swea_reggae_festival_2006).jpg?width=300> ;
+	dbo:abstract	"Eek-A-Mouse (born Ripton Joseph Hylton, 19 November 1957, Kingston, Jamaica) is a Jamaican reggae musician. He is one of the early artists to be described as a \"singjay\"."@en ;
+	dbp:caption	"Eek-A-Mouse performing in 2006"^^rdf:langString .
+dbr:El_DeBarge	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1961-06-04"^^xsd:date ,
+		"1961-6-4"^^xsd:date ;
+	foaf:name	"El DeBarge"@en ;
+	dbo:associateBand	dbr:Barry_White ,
+		dbr:Chico_DeBarge ,
+		dbr:DJ_Quik ,
+		dbr:DeBarge ,
+		<http://dbpedia.org/resource/Switch_(band)> ,
+		dbr:Siedah_Garrett ,
+		<http://dbpedia.org/resource/Babyface_(musician)> ,
+		dbr:Faith_Evans ,
+		dbr:James_Ingram ,
+		dbr:Quincy_Jones ;
+	dbo:abstract	"Eldra Patrick \"El\" DeBarge (born June 4, 1961) is an American singer-songwriter and musician. DeBarge was the focal point and primary lead singer of the family group DeBarge throughout the early to mid-1980s. Popular songs led by El include \"Time Will Reveal\", \"Stay with Me\", \"All This Love\", and \"Rhythm of the Night\". As a solo artist, he is best known for his unique high tenor register, strong falsetto and the hits \"Who's Johnny\" and \"Love Always\", and for his collaborations with Tone Loc, George Clinton, Quincy Jones, Fourplay, and DJ Quik. DeBarge is a three-time Grammy nominee."@en ;
+	dbo:associatedMusicalArtist	dbr:DJ_Quik ,
+		dbr:Chico_DeBarge ,
+		dbr:James_Ingram ,
+		dbr:Siedah_Garrett ,
+		dbr:DeBarge ,
+		dbr:Faith_Evans ,
+		<http://dbpedia.org/resource/Switch_(band)> ,
+		<http://dbpedia.org/resource/Babyface_(musician)> ,
+		dbr:Quincy_Jones ,
+		dbr:Barry_White .
+dbr:Eleanor_McEvoy	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1967-1-22"^^xsd:date ,
+		"1967-01-22"^^xsd:date ;
+	foaf:name	"Eleanor McEvoy"@en ;
+	dbo:thumbnail	<http://en.wikipedia.org/wiki/Special:FilePath/Eleanor_McEvoy_Live.jpeg?width=300> ;
+	dbo:abstract	"Eleanor McEvoy (born 22 January 1967) is one of Ireland's most accomplished contemporary singer/songwriters. McEvoy composed the song \"Only A Woman's Heart\", title track of A Woman's Heart, the best-selling Irish album in Irish history."@en .
+dbr:Ernie_Isley	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1952-03-07"^^xsd:date ,
+		"1952-3-7"^^xsd:date ;
+	foaf:name	"Ernie Isley"@en ;
+	dbo:associateBand	dbr:Isley-Jasper-Isley ,
+		dbr:The_Isley_Brothers ;
+	dbo:abstract	"Ernest \"Ernie\" Isley (born March 7, 1952) is a member of the American musical ensemble The Isley Brothers."@en ;
+	dbo:associatedMusicalArtist	dbr:Isley-Jasper-Isley ,
+		dbr:The_Isley_Brothers .
+dbr:Eubie_Blake	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1883-2-7"^^xsd:date ,
+		"1887-02-07"^^xsd:date ;
+	foaf:name	"Eubie Blake"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/EubieBlake.jpg?width=300> ;
+	dbo:associateBand	dbr:Noble_Sissle ;
+	dbo:abstract	"James Hubert Blake (February 7, 1887 \u2013 February 12, 1983), known as Eubie Blake, was an American composer, lyricist, and pianist of ragtime, jazz, and popular music. In 1921, Blake and long-time collaborator Noble Sissle wrote Shuffle Along, one of the first Broadway musicals to be written and directed by African Americans. Blake's compositions included such hits as \"Bandana Days\", \"Charleston Rag\", \"Love Will Find a Way\", \"Memories of You\" and \"I'm Just Wild About Harry\". The musical Eubie!, which opened on Broadway in 1978, featured his works."@en ;
+	dbo:associatedMusicalArtist	dbr:Noble_Sissle .
+<http://dbpedia.org/resource/Flex_(singer)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1980-08-31"^^xsd:date ,
+		"1979-8-31"^^xsd:date ;
+	foaf:name	"Flex"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Flex_(singer).png?width=300> ;
+	dbo:associateBand	dbr:Kumbia_All_Starz ,
+		<http://dbpedia.org/resource/Arc\u00E1ngel_(singer)> ,
+		<http://dbpedia.org/resource/Pee_Wee_(singer)> ,
+		<http://dbpedia.org/resource/Alexis_&_Fido> ,
+		<http://dbpedia.org/resource/Belinda_(entertainer)> ,
+		dbr:Predikador ,
+		dbr:Yomo ;
+	dbo:abstract	"F\u00E9lix Danilo G\u00F3mez (born August 31, 1980), known by his stage names Flex and Nigga, is a Panamanian reggaeton artist. He adopted the name  Nigga after being told by another Panamanian artist that he \"sings like an African.\" Before releasing an album in the United States in 2008, Flex removed references to his nickname in songs, and his CD packages were reprinted with the name \"Flex.\""@en ;
+	dbo:associatedMusicalArtist	dbr:Kumbia_All_Starz ,
+		<http://dbpedia.org/resource/Pee_Wee_(singer)> ,
+		dbr:Predikador ,
+		<http://dbpedia.org/resource/Alexis_&_Fido> ,
+		<http://dbpedia.org/resource/Belinda_(entertainer)> ,
+		dbr:Yomo ,
+		<http://dbpedia.org/resource/Arc\u00E1ngel_(singer)> .
+dbr:Frankie_Laine	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1913-3-30"^^xsd:date ,
+		"1913-03-30"^^xsd:date ;
+	foaf:name	"Frankie Laine"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Frankie_Laine_1954.JPG?width=300> ;
+	dbo:abstract	"Frankie Laine (born Francesco Paolo LoVecchio; March 30, 1913 \u2013 February 6, 2007) was an American singer, songwriter, and actor whose career spanned 75 years, from his first concerts in 1930 with a marathon dance company to his final performance of \"That's My Desire\" in 2005. Often billed as \"America's Number One Song Stylist\", his other nicknames include \"Mr. Rhythm\", \"Old Leather Lungs\", and \"Mr. Steel Tonsils\". His hits included \"That's My Desire\", \"That Lucky Old Sun\", \"Mule Train\", \"Cry of the Wild Goose\", \"A Woman In Love\", \"Jezebel\", \"High Noon\", \"I Believe\", \"Hey Joe!\", \"The Kid's Last Fight\", \"Cool Water\", \"Moonlight Gambler,\" \"Love Is a Golden Ring,\" \"Rawhide\", and \"Lord, You Gave Me a Mountain.\" He sang well-known theme songs for many movie Western soundtracks, including 3:10 To Yuma, Gunfight at the O.K. Corral, and Blazing Saddles, although he was not a country & western singer. Laine sang an eclectic variety of song styles and genres, stretching from big band crooning to pop, western-themed songs, gospel, rock, folk, jazz, and blues. He did not sing the soundtrack song for High Noon, which was sung by Tex Ritter, but his own version (with somewhat altered lyrics, omitting the name of the antagonist, Frank Miller) was the one that became a bigger hit, nor did he sing the theme to another show he is commonly associated with\u2014Champion the Wonder Horse (sung by Mike Stewart)\u2014but released his own, subsequently more popular, version. Laine's enduring popularity was illustrated in June 2011, when a TV-advertised compilation called Hits reached No. 16 on the British chart. The accomplishment was achieved nearly 60 years after his debut on the UK chart, 64 years after his first major U.S. hit and four years after his death."@en ;
+	dbp:caption	"Laine in 1954"^^rdf:langString .
+dbr:Funkmaster_Flex	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1968-8-5"^^xsd:date ,
+		"1968-08-05"^^xsd:date ;
+	foaf:name	"Funkmaster Flex"@en ,
+		"DJ Funkmaster Flex"@en ;
+	dbo:abstract	"Aston George Taylor, Jr. (born August 5, 1968) better known as DJ Funkmaster Flex is an American hip hop DJ, rapper, musician and producer on New York City's Hot 97 radio station. In 1992, he became host of the first hip hop radio show in New York, on Hot 97, which was a pop radio station at the time."@en .
+dbr:Fuzzy_Haskins	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1941-06-08"^^xsd:date ,
+		"1941-6-8"^^xsd:date ;
+	foaf:name	"Fuzzy Haskins"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Parliament_(band)> ,
+		dbr:The_Parliaments ;
+	dbo:abstract	"Clarence Eugene \"Fuzzy\" Haskins (born June 8, 1941) is a former singer with 1950s and 1960s doo-wop group, The Parliaments. He is a founding member of the groundbreaking and influential 1970s funk bands Parliament and Funkadelic, also known as Parliament-Funkadelic. He left Parliament-Funkadelic in 1977 to pursue a solo career. He is a member of the Rock and Roll Hall of Fame, inducted in 1997 with fifteen other members of Parliament-Funkadelic."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Parliament_(band)> ,
+		dbr:The_Parliaments .
+dbr:GG_Allin	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1956-08-29"^^xsd:date ,
+		"1956-8-29"^^xsd:date ;
+	foaf:name	"GG Allin"@en ;
+	dbo:associateBand	dbr:Antiseen ,
+		dbr:J_Mascis ,
+		dbr:Dee_Dee_Ramone ,
+		dbr:The_Primates ,
+		dbr:The_Cedar_Street_Sluts ,
+		dbr:MC5 ,
+		dbr:The_Murder_Junkies ,
+		dbr:The_Scumfucs ,
+		dbr:Mark_Kramer ,
+		dbr:The_Jabbers ,
+		<http://dbpedia.org/resource/David_Peel_(musician)> ;
+	dbo:abstract	"Kevin Michael \"GG\" Allin (born Jesus Christ Allin; August 29, 1956 \u2013 June 28, 1993) was an American singer, songwriter and record producer, who performed and recorded with many groups during his career. GG Allin was best known for his notorious live performances, which often featured transgressive acts, including coprophagia, self-mutilation, and attacking audience members, for which he was arrested and imprisoned on multiple occasions. AllMusic and G4TV's That's Tough have called him \"the most spectacular degenerate in rock & roll history\" and the \"toughest rock star in the world\", respectively. Known more for his notorious stage antics than for his music, he recorded prolifically, not only in the punk rock genre, but also in spoken word, country, and more traditional-style rock. His lyrics, which often expressed themes of misogyny, pedophilia, blasphemy and racism, polarized listeners and created varied opinions of him within the highly politicized punk community. When questioned about his music and shows, Allin often replied that he was trying to make rock music \"dangerous\" again. Allin's music was often poorly recorded and produced, given limited distribution, and was met with mostly negative reviews from critics, although he maintained a cult following throughout and after his career. Allin promised for several years that he would commit suicide on stage during one of his concerts, but died off-stage of an accidental heroin overdose."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Jabbers ,
+		dbr:The_Scumfucs ,
+		dbr:The_Murder_Junkies ,
+		dbr:Dee_Dee_Ramone ,
+		dbr:MC5 ,
+		<http://dbpedia.org/resource/David_Peel_(musician)> ,
+		dbr:The_Cedar_Street_Sluts ,
+		dbr:Antiseen ,
+		dbr:J_Mascis ,
+		dbr:The_Primates ,
+		dbr:Mark_Kramer ;
+	dbp:caption	"A typically bloodied GG Allin c. 1992"^^rdf:langString .
+<http://dbpedia.org/resource/GLC_(rapper)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1974-12-01"^^xsd:date ,
+		"2000-1-1"^^xsd:date ;
+	foaf:name	"GLC"@en ;
+	dbo:associateBand	dbr:Keezo_Kane ,
+		dbr:King_Chip ,
+		<http://dbpedia.org/resource/Consequence_(rapper)> ,
+		dbr:Really_Doe ,
+		dbr:Kid_Cudi ,
+		dbr:The_Legendary_Traxster ,
+		dbr:Kendrick_Lamar ,
+		dbr:Kanye_West ;
+	dbo:abstract	"Leonard D. Harris (born December 1, 1974), better known by his stage name GLC, is an American rapper from Chicago, Illinois."@en ;
+	dbo:associatedMusicalArtist	dbr:Kanye_West ,
+		<http://dbpedia.org/resource/Consequence_(rapper)> ,
+		dbr:Keezo_Kane ,
+		dbr:Kendrick_Lamar ,
+		dbr:The_Legendary_Traxster ,
+		dbr:King_Chip ,
+		dbr:Really_Doe ,
+		dbr:Kid_Cudi .
+<http://dbpedia.org/resource/George_Baker_(Dutch_singer)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1944-12-08"^^xsd:date ,
+		"1944-12-8"^^xsd:date ;
+	foaf:name	"George Baker"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/George_Baker_Selection.jpg?width=300> ;
+	dbo:abstract	"George Baker (born Johannes (Hans) Bouwens, 8 December 1944) is a Dutch singer and songwriter who, with his band George Baker Selection, scored two international hits in the 1970s, \"Paloma Blanca\" and \"Little Green Bag\". He is now a solo artist. Little Green Bag is used as the opening soundtrack for the movie Reservoir Dogs."@en .
+dbr:George_Nozuka	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1986-04-28"^^xsd:date ,
+		"1986-4-28"^^xsd:date ;
+	foaf:name	"George Nozuka"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/George_Nozuka.jpg?width=300> ;
+	dbo:abstract	"George Nozuka (born April 28, 1986, in New York City) is a Canadian-American R&B singer of mixed Caucasian and Japanese descent. He is best known for his single \"Talk to Me\", which peaked at No. 1 on the MuchMusic music-video countdown in October 2006."@en .
+<http://dbpedia.org/resource/Glory_(singer)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"2000-1-1"^^xsd:date ;
+	foaf:name	"Glory"@en ;
+	dbo:associateBand	dbr:Daddy_Yankee ,
+		dbr:Don_Omar ;
+	dbo:abstract	"Glory (born Glorimar Montalvo Castro February 14, 1979 in Santurce, San Juan, Puerto Rico), also known as \"La Gata Gangster\", is a reggaeton singer."@en ;
+	dbo:associatedMusicalArtist	dbr:Daddy_Yankee ,
+		dbr:Don_Omar .
+dbr:Harlem_Yu	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1961-7-28"^^xsd:date ;
+	foaf:name	"Y\u00FA Ch\u00E9ngq\u00ECng"@en ,
+		"\u5EBE\u6F84\u5E86"@en ,
+		"\u5EBE\u6F84\u6176"@en ,
+		"Harlem Yu"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Harlem_Yu.jpg?width=300> ;
+	dbo:abstract	"Harlem Yu (traditional Chinese: \u5EBE\u6F84\u6176; simplified Chinese: \u5EBE\u6F84\u5E86; pinyin: Y\u00FA Ch\u00E9ngq\u00ECng; born 28 July 1961) is a Taiwanese Golden Melody Award-winning singer-songwriter. He was the first artist to experiment with the style of R&B and rap in Chinese music. He has released 15 studio albums. His contribution to the Asian music industry has earned him the reputation of 'God of Pop Music'. Apart from music Yu also hosts television variety shows. His other investments include: mega force studio, AoBa Taiwanese cuisine restaurant, Legacy Taipei (Livehouse), etc."@en ;
+	dbp:caption	"--10-14"^^xsd:gMonthDay .
+dbr:Heather_Nova	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1967-07-06"^^xsd:date ,
+		"1967-7-6"^^xsd:date ;
+	foaf:name	"Heather Nova"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Heather_Nova.jpg?width=300> ;
+	dbo:abstract	"Heather Nova (born Heather Allison Frith, July 6, 1967) is a Bermudian singer-songwriter and poet. As of 2015 she had released 9 full-length albums and numerous singles and EPs."@en ;
+	dbp:caption	"Heather Nova in Hanau, Germany 2005"^^rdf:langString .
+dbr:Heavy_D	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1967-5-24"^^xsd:date ,
+		"1967-05-24"^^xsd:date ;
+	foaf:name	"Heavy D"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Mary_J._Blige> ,
+		dbr:Super_Cat ,
+		<http://dbpedia.org/resource/Al_B._Sure> ,
+		dbr:Michael_Jackson ;
+	dbo:abstract	"Dwight Errington Myers (May 24, 1967 \u2013 November 8, 2011), better known as Heavy D, was a Jamaican-born American rapper, record producer, singer, actor, and the former leader of Heavy D & the Boyz, a hip hop group which included dancers/background vocalists G-Whiz (Glen Parrish), \"Trouble\" T. Roy (Troy Dixon), and Eddie F (born Edward Ferrell). The group maintained a sizable audience in the United States through most of the 1990s. The five albums the group released were produced by Teddy Riley, Marley Marl, DJ Premier, his cousin Pete Rock, and Eddie F."@en ;
+	dbo:associatedMusicalArtist	dbr:Michael_Jackson ,
+		<http://dbpedia.org/resource/Al_B._Sure> ,
+		<http://dbpedia.org/resource/Mary_J._Blige> ,
+		dbr:Super_Cat ;
+	dbp:caption	"Heavy D in 1991"^^rdf:langString .
+<http://dbpedia.org/resource/Hide_(musician)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1964-12-13"^^xsd:date ;
+	foaf:name	"hide"@en ;
+	dbo:associateBand	dbr:X_Japan ,
+		<http://dbpedia.org/resource/Zilch_(band)> ;
+	dbo:abstract	"Hideto Matsumoto (\u677E\u672C \u79C0\u4EBA Matsumoto Hideto, December 13, 1964 \u2013 May 2, 1998), better known by his stage name hide, was a Japanese musician, singer and songwriter. He is primarily known for his work as lead guitarist of the heavy metal band X Japan, but was also a successful solo artist and co-founder of the United States-based band Zilch. He sold millions of records, both solo and as a member of X Japan. X Japan rose to prominence in the late 1980s and early 1990s, credited as founders of the Japanese visual kei movement. When they disbanded in 1997, hide focused on his solo career which started four years prior and went on to enjoy significant popularity. At the height of his fame, while recording his third studio album and about to launch an international career with the newly formed Zilch, he died in 1998 of what was ruled a suicide by hanging. hide was seen as an icon for Japanese youth rebelling against their country's conformist society and his death was labeled \"the end of an era.\""@en ;
+	dbo:associatedMusicalArtist	dbr:X_Japan ,
+		<http://dbpedia.org/resource/Zilch_(band)> ;
+	dbp:caption	"Spread Beaver keyboardist D.I.E. in 2009."^^rdf:langString ,
+		"Spread Beaver guitarist K.A.Z in 2013."^^rdf:langString ,
+		"Spread Beaver guitarist Kiyoshi in 2008."^^rdf:langString ,
+		"hide performing with X Japan in 1997."^^rdf:langString .
+dbr:Hiro_Yamamoto	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1961-04-13"^^xsd:date ,
+		"1961-4-13"^^xsd:date ;
+	foaf:name	"Hiro Yamamoto"@en ;
+	dbo:associateBand	dbr:Truly ,
+		dbr:Soundgarden ;
+	dbo:abstract	"Hiro Yamamoto (born April 13, 1961) is an American bassist who was a founding member of grunge band Soundgarden, along with Kim Thayil and Chris Cornell in 1984. He left the band in 1989, and two years later, he started the independent rock band Truly together with Screaming Trees drummer Mark Pickerel and Robert Roth from The Storybook Krooks."@en ;
+	dbo:associatedMusicalArtist	dbr:Soundgarden ,
+		dbr:Truly .
+dbr:Ho_Yeow_Sun	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1972-06-02"^^xsd:date ,
+		"1972-6-2"^^xsd:date ;
+	foaf:name	"Ho Yeow Sun"@en ;
+	dbo:abstract	"(This is a Chinese name; the family name is Ho (\u4F55).) Reverend Ho Yeow Sun (Chinese: \u4F55\u8000\u73CA; pinyin: H\u00E9 Y\u00E0o Sh\u0101n), better known as Sun Ho, is a Singaporean Christian pastor and co-founder of City Harvest Church. She is also a singer of Mandopop."@en .
+<http://dbpedia.org/resource/Houston_(singer)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1983-10-26"^^xsd:date ;
+	foaf:name	"Houston"@en ;
+	dbo:associateBand	dbr:Chingy ;
+	dbo:abstract	"Houston (born Houston Edward Summers IV, October 26, 1983, Los Angeles, California) is an American singer, best known for the hit single \"I Like That.\""@en ;
+	dbo:associatedMusicalArtist	dbr:Chingy .
+dbr:Hōzan_Yamamoto	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1937-10-6"^^xsd:date ,
+		"1937-10-06"^^xsd:date ;
+	foaf:name	"H\u014Dzan Yamamoto(\u5C71\u672C\u90A6\u5C71)"@en ,
+		"H\u014Dzan Yamamoto"@en ;
+	dbo:abstract	"H\u014Dzan Yamamoto (\u5C71\u672C \u90A6\u5C71, Yamamoto H\u014Dzan; October 6, 1937 - February 10, 2014 in \u014Ctsu, Shiga prefecture) was a Japanese shakuhachi player, composer and lecturer. Yamamoto started playing the Japanese bamboo flute shakuhachi from the age of nine. He was initially taught by his father and then by Chozan Nakanishi. After graduating from Kyoto Junior College of Foreign Studies in 1958, he participated in UNESCO's World Folk music Festival and graduated from Seiha Music College in 1962. Together with kotoplayer Shinichi Yuize and Tony Scott he recorded the album Music for Zen Meditation in February 1964. After formation with Reibo Aoki and Katsuya Yokoyama of the widely acclaimed \"Shakuhachi Sanbon Kai\" trio in 1966, he electrified the conservative traditional scene by applying his talents to a variety of crossover collaborations. These have led him to work with such world-renowned musicians as Ravi Shankar, Helen Merrill, Gary Peacock and Karl Berger, but also with flute colleagues Jean-Pierre Rampal and Chris Hinze. In 1980 he was invited to the renowned Donaueschingen music festival with his trio. He recorded the music to the Samurai Reincarnation film and the album Masters of Zen: Shakuhachi & Organ (together with Wolfgang Mitterer at the organ) which he composed for his instrument. Through the 1970s and 1980s to the present he has led the shakuhachi world receiving innumerable honors, including Japanese Ministry of Cultural Affairs and Education Ministerial awards for his performances, recordings (numbering in the hundreds) and compositions. He served as lecturer at the Tokyo National University of Fine Arts and Music and as head of the Hozan-kai Shakuhachi Guild. In 2002 he became designated Living National Treasure of Japan. In 2004, he was awarded a Medal with Purple Ribbon. In 2009, he was awarded an Order of the Rising Sun, Gold Rays with Rosette. On February 10, 2014, he died at a hospital in Tokyo."@en .
+dbr:ICS_Vortex	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1974-3-4"^^xsd:date ,
+		"1974-03-04"^^xsd:date ;
+	foaf:name	"ICS Vortex"@en ,
+		"I.C.S. Vortex"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/ICS_Vortex2005.jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/Arcturus_(band)> ,
+		dbr:Borknagar ,
+		<http://dbpedia.org/resource/Code_(band)> ,
+		dbr:Dimmu_Borgir ;
+	dbo:abstract	"Simen Hestn\u00E6s (born March 4, 1974, in Oslo, Norway), also known as I.C.S. Vortex, or just simply Vortex, is a Norwegian musician, best known as the current vocalist of the similar named band ICS Vortex, the avant-garde metal band Arcturus, the current vocalist and bass guitarist to the progressive black metal band Borknagar, vocalist in the doom metal band Lamented Souls and the former bass guitarist and backing vocalist for the Norwegian symphonic black metal band Dimmu Borgir."@en ;
+	dbo:associatedMusicalArtist	dbr:Dimmu_Borgir ,
+		<http://dbpedia.org/resource/Code_(band)> ,
+		dbr:Borknagar ,
+		<http://dbpedia.org/resource/Arcturus_(band)> .
+<http://dbpedia.org/resource/Ian_Wallace_(drummer)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1946-9-29"^^xsd:date ,
+		"1946-09-29"^^xsd:date ;
+	foaf:name	"Ian Wallace"@en ;
+	dbo:associateBand	dbr:Bonzo_Dog_Doo_Dah_Band ,
+		dbr:Lonnie_Mack ,
+		<http://dbpedia.org/resource/Yes_(band)> ,
+		<http://dbpedia.org/resource/Crosby,_Stills_&_Nash_(and_Young)> ,
+		dbr:Alvin_Lee ,
+		<http://dbpedia.org/resource/Badger_(band)> ,
+		dbr:Procol_Harum ,
+		dbr:Stevie_Nicks ,
+		dbr:Al_Kooper ,
+		dbr:Nalle ,
+		dbr:Eric_Clapton ,
+		dbr:Steve_Marriott ,
+		dbr:Joe_Walsh ,
+		dbr:Warren_Zevon ,
+		dbr:Johnny_Hallyday ,
+		dbr:Jon_Anderson ,
+		dbr:Peter_Banks ,
+		dbr:Jackson_Browne ,
+		dbr:Lindsey_Buckingham ,
+		dbr:Keith_Emerson ,
+		dbr:Tim_Buckley ,
+		dbr:Ry_Cooder ,
+		dbr:King_Crimson ,
+		dbr:Bonnie_Raitt ,
+		dbr:Roy_Orbison ,
+		dbr:Don_Henley ,
+		dbr:Big_Sound ,
+		dbr:Brian_Eno ,
+		dbr:Traveling_Wilburys ,
+		dbr:Neil_Innes ,
+		dbr:Larry_Coryell ,
+		dbr:Peter_Frampton ,
+		dbr:Bob_Dylan ,
+		dbr:The_Crimson_Jazz_Trio ;
+	dbo:abstract	"Ian Russell Wallace (29 September 1946 \u2013 22 February 2007) was an English rock and jazz drummer, most visibly as a member of progressive rock band, King Crimson, a member of David Lindley's El Rayo-X and as Don Henley's drummer."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Crimson_Jazz_Trio ,
+		dbr:Bob_Dylan ,
+		dbr:Larry_Coryell ,
+		dbr:Tim_Buckley ,
+		dbr:Lindsey_Buckingham ,
+		dbr:Keith_Emerson ,
+		dbr:Warren_Zevon ,
+		dbr:Big_Sound ,
+		dbr:Bonnie_Raitt ,
+		<http://dbpedia.org/resource/Crosby,_Stills_&_Nash_(and_Young)> ,
+		dbr:Ry_Cooder ,
+		dbr:Jackson_Browne ,
+		dbr:Johnny_Hallyday ,
+		dbr:Jon_Anderson ,
+		<http://dbpedia.org/resource/Badger_(band)> ,
+		dbr:Peter_Banks ,
+		dbr:Brian_Eno ,
+		dbr:Joe_Walsh ,
+		dbr:Roy_Orbison ,
+		dbr:Alvin_Lee ,
+		dbr:Steve_Marriott ,
+		dbr:King_Crimson ,
+		dbr:Bonzo_Dog_Doo_Dah_Band ,
+		dbr:Al_Kooper ,
+		dbr:Stevie_Nicks ,
+		dbr:Peter_Frampton ,
+		dbr:Eric_Clapton ,
+		<http://dbpedia.org/resource/Yes_(band)> ,
+		dbr:Procol_Harum ,
+		dbr:Nalle ,
+		dbr:Traveling_Wilburys ,
+		dbr:Neil_Innes ,
+		dbr:Lonnie_Mack ,
+		dbr:Don_Henley .
+<http://dbpedia.org/resource/Ian_Watkins_(Lostprophets)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1977-7-30"^^xsd:date ;
+	foaf:name	"Ian Watkins"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Ian_Watkins_of_Lostprophets_(2007).jpg?width=300> ;
+	dbo:abstract	"Ian David Karslake Watkins (born 30 July 1977) is a Welsh singer, musician, and convicted sex offender. He achieved prominence as a founding member, lead vocalist, and lyricist of the rock band Lostprophets. Lostprophets disbanded in 2013 after Watkins was charged with sexual offences in late 2012. In November 2013, he pleaded guilty to 13 charges, including the attempted rape and sexual assault of a child under 13; these offences were committed against the infant children of two women who were also convicted. He is currently in HM Prison Long Lartin serving 29 years in jail."@en ;
+	dbp:caption	"Watkins performing with Lostprophets in 2007"^^rdf:langString .
+dbr:Izumi_Sakai	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1967-2-6"^^xsd:date ,
+		"1967-02-06"^^xsd:date ;
+	foaf:name	"Izumi Sakai"@en ;
+	dbo:associateBand	dbr:Zard ;
+	dbo:abstract	"Sachiko Kamachi (\u84B2\u6C60 \u5E78\u5B50 Kamachi Sachiko, February 6, 1967 \u2013 May 27, 2007), known professionally as Izumi Sakai (\u5742\u4E95 \u6CC9\u6C34 Sakai Izumi), was a Japanese pop singer, songwriter, and member of the group Zard. As Sakai was the only member who stayed in the group while others joined and left regularly, Zard and Sakai may be referred to interchangeably. She was the best-selling female recording artist of the 1990s and has sold over 37 million copies of sales, making her one of the best-selling music artists in Japan of all time."@en ;
+	dbo:associatedMusicalArtist	dbr:Zard ;
+	dbp:caption	"Izumi Sakai in her final photoshoot in 2007."^^rdf:langString .
+dbr:J_Dilla	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1974-2-7"^^xsd:date ,
+		"1974-02-07"^^xsd:date ;
+	foaf:name	"J Dilla"@en ,
+		"Jay Dee"@en ;
+	dbo:associateBand	dbr:A_Tribe_Called_Quest ,
+		dbr:MF_DOOM ,
+		dbr:Dwele ,
+		dbr:De_La_Soul ,
+		dbr:Waajeed ,
+		dbr:Erykah_Badu ,
+		<http://dbpedia.org/resource/Common_(rapper)> ,
+		dbr:The_Pharcyde ,
+		dbr:J_Rocc ,
+		<http://dbpedia.org/resource/Bilal_(American_singer)> ,
+		dbr:Soulquarians ,
+		dbr:Questlove ,
+		dbr:Black_Milk ,
+		dbr:Phat_Kat ,
+		dbr:Guilty_Simpson ,
+		dbr:Frank_n_Dank ,
+		dbr:Mos_Def ,
+		dbr:Madlib ,
+		dbr:Slum_Village ,
+		dbr:Busta_Rhymes ;
+	dbo:abstract	"James Dewitt Yancey (February 7, 1974 \u2013 February 10, 2006), better known by the stage names J Dilla and Jay Dee, was an American record producer and rapper who emerged from the mid-1990s underground hip hop scene in Detroit, Michigan as one third of the acclaimed music group Slum Village. According to his obituary at NPR, he \"was one of the music industry's most influential hip-hop artists\", working with big-name acts including A Tribe Called Quest, De La Soul, Busta Rhymes, Erykah Badu, The Roots, The Pharcyde and Common. Yancey died in 2006 of the blood disease thrombotic thrombocytopenic purpura."@en ;
+	dbo:associatedMusicalArtist	dbr:Soulquarians ,
+		dbr:Dwele ,
+		dbr:Busta_Rhymes ,
+		dbr:Frank_n_Dank ,
+		<http://dbpedia.org/resource/Bilal_(American_singer)> ,
+		dbr:The_Pharcyde ,
+		dbr:Questlove ,
+		dbr:Black_Milk ,
+		dbr:J_Rocc ,
+		dbr:MF_DOOM ,
+		dbr:De_La_Soul ,
+		dbr:Mos_Def ,
+		dbr:Guilty_Simpson ,
+		dbr:Erykah_Badu ,
+		dbr:Waajeed ,
+		dbr:Slum_Village ,
+		dbr:A_Tribe_Called_Quest ,
+		<http://dbpedia.org/resource/Common_(rapper)> ,
+		dbr:Madlib ,
+		dbr:Phat_Kat .
+dbr:Jack_Black	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1969-8-28"^^xsd:date ,
+		"1969-08-28"^^xsd:date ;
+	foaf:name	"Jack Black"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/2016_RiP_Tenacious_D_-_Jack_Black_-_by_2eight_-_8SC8891.jpg?width=300> ;
+	dbo:abstract	"Thomas Jacob \"Jack\" Black (born August 28, 1969) is an American actor, comedian and musician. His acting career has been extensive, starring primarily in comedy films. He is known for his roles in High Fidelity (2000), Shallow Hal (2001), School of Rock (2003), King Kong (2005), The Holiday (2006), Nacho Libre (2006), Kung Fu Panda (2008), Tropic Thunder (2008), Gulliver's Travels (2010), Kung Fu Panda 2 (2011), Bernie (2011), Goosebumps (2015) and Kung Fu Panda 3 (2016). He has been nominated for two Golden Globe Awards. Black is the lead vocalist of the comedic rock group Tenacious D, which he formed in 1994 with friend Kyle Gass. They have released the albums Tenacious D, The Pick of Destiny, and Rize of the Fenix."@en ;
+	dbp:caption	"Black performing in June 2016"^^rdf:langString .
+dbr:James_Galway	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1939-12-08"^^xsd:date ,
+		"1939-12-8"^^xsd:date ;
+	foaf:name	"James Galway"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Jeanne_and_James_Galway.jpg?width=300> ;
+	dbo:abstract	"Sir James Galway, OBE (born 8 December 1939) is an Irish virtuoso flute player from Belfast, nicknamed \"The Man With the Golden Flute\". Following in the footsteps of Jean-Pierre Rampal, he became one of the first flute players to establish an international career as a soloist."@en ;
+	dbp:caption	"Sir James Galway and his wife, Jeanne Galway, performing in the 2007 New Year's Eve concert at the Culture and Convention Centre, Lucerne."^^rdf:langString .
+dbr:James_McCartney	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1977-09-12"^^xsd:date ,
+		"1977-9-12"^^xsd:date ;
+	foaf:name	"James McCartney"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/JamesMcCartney_photoshoot.png?width=300> ;
+	dbo:abstract	"James Louis McCartney (born 12 September 1977) is a British musician and songwriter living in London. He is the only son of songwriter and former Beatle Paul McCartney and Linda McCartney. He has contributed to a number of solo albums by his parents, including Flaming Pie (1997) and Driving Rain (2001) by Paul McCartney and Wide Prairie (1998) by Linda McCartney. He has released two EPs and two albums, the second was released on 6 May 2016."@en .
+dbr:Jason_Donovan	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1968-6-1"^^xsd:date ,
+		"1968-06-01"^^xsd:date ;
+	foaf:name	"Jason Donovan"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Jason_Donovan_Here_and_Now_Tour_2011_429_v2.jpg?width=300> ;
+	dbo:abstract	"Jason Donovan (born 1 June 1968) is an Australian actor and singer. He initially achieved fame in the Australian soap Neighbours, before beginning a career in music in 1988. In the UK he has sold over 3 million records, and his d\u00E9but album Ten Good Reasons was one of the highest-selling albums of 1989, with UK sales of over 1.5 million copies. He has had four UK No. 1 singles, one of which was \"Especially for You\", his 1988 duet with fellow Neighbours co-star Kylie Minogue. He has also appeared in several stage musicals, most prominently in the lead role of Joseph and the Amazing Technicolor Dreamcoat in the early 1990s. Born in Australia, he now resides in London, United Kingdom."@en ;
+	dbp:caption	"Donovan performing at the Here and Now Tour in 2011"^^rdf:langString .
+dbr:Jaydee	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1958-1-1"^^xsd:date ;
+	foaf:name	"JayDee"@en ,
+		"Jaydee"@en ;
+	dbo:abstract	"Jaydee (born Robin Albers in 1956) is a Dutch house music producer and DJ. The original name was Jei D, which Robin Albers (the sole original member) changed to JayDee."@en .
+<http://dbpedia.org/resource/Joe_(singer)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1973-7-5"^^xsd:date ,
+		"1973-07-05"^^xsd:date ;
+	foaf:name	"Joe"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Xscape_(group)> ,
+		<http://dbpedia.org/resource/Case_(singer)> ,
+		dbr:Mariah_Carey ,
+		dbr:Profyle ,
+		dbr:G-Unit ,
+		dbr:Big_Punisher ;
+	dbo:abstract	"Joseph Lewis Thomas (born July 5, 1973), better known by his stage name, Joe, is an American R&B singer-songwriter and record producer."@en ;
+	dbo:associatedMusicalArtist	dbr:Profyle ,
+		dbr:Mariah_Carey ,
+		dbr:Big_Punisher ,
+		<http://dbpedia.org/resource/Xscape_(group)> ,
+		dbr:G-Unit ,
+		<http://dbpedia.org/resource/Case_(singer)> .
+dbr:Joe_Dolce	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1947-1-1"^^xsd:date ;
+	foaf:name	"Joe Dolce"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Joedolcesteps.jpg?width=300> ;
+	dbo:abstract	"Joseph \"Joe\" Dolce (/\u02C8do\u028Alt\u0283e\u026A/, originally /\u02C8do\u028Alts/; born 1947 in Painesville, Ohio) is an American-born Australian singer/songwriter, poet and essayist who achieved international recognition with his multi-million-selling song, \"Shaddap You Face\", released under the name of his one-man show, Joe Dolce Music Theatre, worldwide, in 1980\u20131981. The single reached number one in 15 countries, it has sold more than 450,000 copies in Australia, and has remained the most successful Australian-produced single since, selling an estimated six million copies worldwide. It reached No. 1 on the Australian Kent Music Report Singles Chart for eight weeks from November 1980."@en ;
+	dbp:caption	"Joe Dolce, 2005"^^rdf:langString .
+dbr:Joe_Tex	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1935-08-08"^^xsd:date ,
+		"1933-8-8"^^xsd:date ;
+	foaf:name	"Joe Tex"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Joe_Tex.png?width=300> ;
+	dbo:abstract	"Joseph Arrington Jr. (August 8, 1935\u2013 August 13, 1982), better known as Joe Tex, was an American musician who gained success in the 1960s and 1970s with his brand of Southern soul, which mixed the styles of country, gospel and rhythm and blues. His career started after he was signed to King Records in 1955 following four wins at the Apollo Theater. Between 1955 and 1964, he struggled to find hits and by the time he finally recorded his first hit,\"Hold What You've Got\", in 1964, he had recorded 30 previous singles that were deemed failures on the charts. He went on to have four million-selling hits, \"Hold What You've Got\" (1965), \"Skinny Legs and All\" (1967), \"I Gotcha\" (1972), and \"Ain't Gonna Bump No More (With No Big Fat Woman)\" (1977)."@en ;
+	dbp:caption	"Joe Tex in 1965"^^rdf:langString .
+dbr:Joey_Tempest	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1963-08-19"^^xsd:date ,
+		"1963-8-19"^^xsd:date ;
+	foaf:name	"Joey Tempest"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Joey_Tempest_by_Enrico_Dal_Boni.jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/Europe_(band)> ;
+	dbo:abstract	"Joey Tempest (born Rolf Magnus Joakim Larsson in Stockholm, 19 August 1963) is a Swedish vocalist and main songwriter in the rock band Europe. He has written hits which include \"The Final Countdown\", \"Rock the Night\", \"Cherokee\" and \"Superstitious\"."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Europe_(band)> .
+<http://dbpedia.org/resource/John_Lewis_(pianist)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1920-5-3"^^xsd:date ,
+		"1920-05-03"^^xsd:date ;
+	foaf:name	"John Lewis"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/John_Lewis_1977.jpg?width=300> ;
+	dbo:abstract	"John Aaron Lewis (May 3, 1920 \u2013 March 29, 2001) was an American jazz pianist, composer and arranger, best known as the founder and musical director of the Modern Jazz Quartet."@en ;
+	dbp:caption	"Lewis in 1977"^^rdf:langString .
+dbr:Johnny_Bristol	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1939-02-03"^^xsd:date ,
+		"1939-2-3"^^xsd:date ;
+	foaf:name	"Johnny Bristol"@en ;
+	dbo:associateBand	dbr:Junior_Walker ,
+		<http://dbpedia.org/resource/Tavares_(band)> ,
+		dbr:Supremes ,
+		dbr:Boz_Scaggs ,
+		<http://dbpedia.org/resource/Tom_Jones_(singer)> ;
+	dbo:abstract	"John William \"Johnny\" Bristol (February 3, 1939 \u2013 March 21, 2004) was an American musician, most famous as a songwriter and record producer for the Motown label in the late 1960s and early 1970s. He was a native of Morganton, North Carolina, about which he wrote an eponymous song. His most famous recording was \"Hang On in There Baby\", which reached the Top Ten in both the United States and the United Kingdom."@en ;
+	dbo:associatedMusicalArtist	dbr:Supremes ,
+		dbr:Junior_Walker ,
+		dbr:Boz_Scaggs ,
+		<http://dbpedia.org/resource/Tavares_(band)> ,
+		<http://dbpedia.org/resource/Tom_Jones_(singer)> .
+<http://dbpedia.org/resource/Johnny_Rebel_(singer)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1938-10-3"^^xsd:date ,
+		"1938-09-25"^^xsd:date ;
+	foaf:name	"Johnny Rebel"@en ;
+	dbo:associateBand	dbr:Rufus_Thibodeaux ,
+		dbr:Warren_Storm ;
+	dbo:abstract	"Clifford Joseph \"Pee Wee \" Trahan (September 25, 1938 \u2013 September 3, 2016) best known as Johnny Rebel and Pee Wee Trahan, was an American country musician. Trahan used the Johnny Rebel name for a series of recordings for J. D. \"Jay\" Miller's Reb Rebel label in the 1960s."@en ;
+	dbo:associatedMusicalArtist	dbr:Warren_Storm ,
+		dbr:Rufus_Thibodeaux .
+dbr:Jonathan_Elias	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1956-1-1"^^xsd:date ;
+	foaf:name	"Jonathan Elias"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Jonathan_Elias.jpg?width=300> ;
+	dbo:abstract	"Jonathan Elias (born 1956) is a U.S. composer and record producer, known for his movie soundtracks, production for several pop and rock acts, and his award-winning advertising music."@en .
+dbr:Jordan_Rudess	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1956-11-4"^^xsd:date ;
+	foaf:name	"Jordan Rudess"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Jordan_Rudess_(2964329900).jpg?width=300> ;
+	dbo:associateBand	dbr:Liquid_Tension_Experiment ,
+		dbr:Neal_Morse ,
+		<http://dbpedia.org/resource/Mr._Fastfinger> ,
+		dbr:Nóirín_Ní_Riain ,
+		dbr:Vinnie_Moore ,
+		dbr:Scott_McGill ,
+		dbr:Tom_Coster ,
+		<http://dbpedia.org/resource/Frost*> ,
+		dbr:Richard_Lainhart ,
+		dbr:Dixie_Dregs ,
+		<http://dbpedia.org/resource/Ricardo_Garcia_(German_musician)> ,
+		dbr:Paul_Winter ,
+		dbr:Rod_Morgenstein ,
+		dbr:John-Luke_Addison ,
+		dbr:Daniel_J ,
+		dbr:Steven_Wilson ,
+		<http://dbpedia.org/resource/Jupiter_(band)> ,
+		dbr:Prefab_Sprout ,
+		dbr:Rhonda_Larson ,
+		dbr:Dream_Theater ,
+		dbr:Kip_Winger ,
+		dbr:David_Bowie ,
+		dbr:Ayreon ,
+		dbr:Liquid_Trio_Experiment ,
+		<http://dbpedia.org/resource/Behold..._The_Arctopus> ,
+		dbr:John_Petrucci ,
+		dbr:Enrique_Iglesias ,
+		dbr:Neil_Zaza ,
+		dbr:Annie_Haslam ;
+	dbo:abstract	"Jordan Rudess (born Jordan Charles Rudes; November 4, 1956) is an American keyboardist and composer best known as a member of the progressive metal/rock band Dream Theater and the progressive rock supergroup Liquid Tension Experiment."@en ;
+	dbo:associatedMusicalArtist	dbr:Paul_Winter ,
+		dbr:Rod_Morgenstein ,
+		dbr:John-Luke_Addison ,
+		<http://dbpedia.org/resource/Mr._Fastfinger> ,
+		dbr:Liquid_Trio_Experiment ,
+		dbr:Daniel_J ,
+		dbr:Richard_Lainhart ,
+		dbr:John_Petrucci ,
+		dbr:Kip_Winger ,
+		dbr:Annie_Haslam ,
+		dbr:Scott_McGill ,
+		dbr:Tom_Coster ,
+		dbr:Nóirín_Ní_Riain ,
+		dbr:Liquid_Tension_Experiment ,
+		dbr:Rhonda_Larson ;
+	dbp:caption	"--10-19"^^xsd:gMonthDay .
+dbr:Josefina_Pla	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1903-11-9"^^xsd:date ,
+		"1903-11-09"^^xsd:date ;
+	foaf:name	"Josefina Pla"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Pla-2.jpg?width=300> ;
+	dbo:abstract	"Josefina Pla (9 November 1903 in Isla de Lobos, Canary Island, Spain \u2013 11 January 1999 in Asunci\u00F3n, Paraguay) was a Spanish poet, playwright, art critic, painter and journalist. She received numerous awards and distinctions for her literary work, for defending human rights and the equality between men and woman. Living the other one that I am that wasn\u2019t what would have been.Living what would have been dying which I am still not.Sleeping all was I, another waking I go. \n* Nos habremos deseado tanto / que el beso habr\u00E1 muerto. Desnudo d\u00EDa, 1936We will have wanted each other so bad / that the kiss will have died. Naked day, 1936"@en ;
+	dbp:caption	"Statue on Isla de Lobos, Canarias, Spain"^^rdf:langString .
+<http://dbpedia.org/resource/Jude_(singer)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1969-10-16"^^xsd:date ,
+		"1970-10-16"^^xsd:date ;
+	foaf:name	"Jude"@en ;
+	dbo:associateBand	dbr:Low_Stars ;
+	dbo:abstract	"Jude (born Michael Jude Christodal, October 16, 1969, Boston, Massachusetts) is an American singer and songwriter."@en ;
+	dbo:associatedMusicalArtist	dbr:Low_Stars .
+<http://dbpedia.org/resource/K._V._Mahadevan>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1918-3-14"^^xsd:date ,
+		"1918-03-14"^^xsd:date ;
+	foaf:name	"K. V. Mahadevan"@en ;
+	dbo:abstract	"K. V. Mahadevan (born Krishnankoil Venkatachalam Mahadevan 14 March 1918 \u2013 21 June 2001) was an Indian composer, singer-songwriter, music producer, and musician known for his works in Telugu cinema, Tamil cinema, Kannada cinema, and Malayalam cinema. He is best known for his contributions in works such as Manchi Manasulu (1962), Lava Kusa (1963), Kandan Karunai (1967), Adimai Penn (1969), Balaraju Katha (1970), Sankarabharanam (1979), Saptapadi (1981), Sirivennela (1986), Shrutilayalu (1987), Pelli Pustakam (1991), and Swathi Kiranam (1992). K. V. Mahadevan was born in 1918 at Nagercoil, Krishnancoil, Kanyakumari district. A contemporary of M. S. Viswanathan and T. K. Ramamoorthy, starting his career in the 1942 with Manonmani, Mahadevan scored music for over six hundred feature films, spanning four decades, and has garnered two National Film Awards, the Tamil Nadu State Film Award for Best Music Director, three Nandi Awards for Best Music Director, and the Filmfare Best Music Director Award (Telugu)."@en ;
+	dbp:caption	"K. V. Mahadevan"^^rdf:langString .
+dbr:Karen_Tweed	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1963-1-1"^^xsd:date ;
+	foaf:name	"Karen Tweed"@en ;
+	dbo:associateBand	dbr:The_Poozies ,
+		dbr:Sally_Barker ,
+		dbr:Swåp ,
+		dbr:Kathryn_Tickell ,
+		dbr:Andy_Cutting ,
+		dbr:Timo_Alakotila ;
+	dbo:abstract	"Karen Tweed (born 1963, Willesden) is a piano accordionist from London, England."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Poozies ,
+		dbr:Kathryn_Tickell ,
+		dbr:Sally_Barker ,
+		dbr:Timo_Alakotila ,
+		dbr:Andy_Cutting ,
+		dbr:Swåp .
+dbr:Keller_Williams	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1970-02-04"^^xsd:date ,
+		"1970-2-4"^^xsd:date ;
+	foaf:name	"Keller Williams"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Keller-Williams.jpg?width=300> ;
+	dbo:associateBand	dbr:Yonder_Mountain_String_Band ,
+		dbr:The_String_Cheese_Incident ,
+		dbr:The_Rhythm_Devils ,
+		<http://dbpedia.org/resource/Umphrey\u0027s_McGee> ;
+	dbo:abstract	"(This article is about the singer. For the real estate company, see Keller Williams Realty.) Keller Williams (born February 4, 1970) is an American musician who began performing in the early 1990s. He is also known by the name K-Dub when performing. Williams' music combines elements of bluegrass, folk, alternative rock, reggae, electronica/dance, jazz, funk, and other assorted genres. He is often described as a 'one-man jam-band' due to his frequent use of live phrase looping with multiple instruments."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Umphrey\u0027s_McGee> ,
+		dbr:The_String_Cheese_Incident ,
+		dbr:The_Rhythm_Devils ,
+		dbr:Yonder_Mountain_String_Band ;
+	dbp:caption	"--03-09"^^xsd:gMonthDay ,
+		"Williams at Langerado Music Festival"^^rdf:langString .
+dbr:Kelly_Osbourne	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1984-10-27"^^xsd:date ;
+	foaf:name	"Kelly Osbourne"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Kelly_Osbourne_2013.jpg?width=300> ;
+	dbo:abstract	"Kelly Lee Osbourne (born 27 October 1984) is a British singer-songwriter, actress, television presenter and fashion designer. The daughter of Ozzy and Sharon Osbourne, she is known for her appearances on The Osbournes with her family, for which they won a 2002 Emmy Award for Outstanding Reality Program, as well as on E!'s Fashion Police, where she was a presenter from 2010 to 2015. She has also appeared on Dancing with the Stars, in which she and her professional dance partner Louis van Amstel took third place. She is the voice of Hildy Gloom in the Disney XD animated series The 7D. She is also a judge on both 'Australia's Got Talent and 'Project Runway Junior."@en ;
+	dbp:caption	"Osbourne attending The Heart Truth Red Dress Collection Fashion Show, 2013"^^rdf:langString .
+dbr:Kim_Wilde	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1960-11-18"^^xsd:date ;
+	foaf:name	"Kim Wilde"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Kim_Wilde_2014.jpg?width=300> ;
+	dbo:abstract	"Kim Wilde (born Kim Smith; 18 November 1960) is an English pop singer, author, DJ and television presenter who burst onto the music scene in 1981 with her debut single \"Kids in America\", which reached number two in the UK. In 1983, she received the Brit Award for Best British Female. In 1986, she had a UK number two hit with her version of the Supremes' song \"You Keep Me Hangin' On\", which also went on to be a major US hit, topping the charts there in 1987. Between 1981 and 1996, she had 25 singles reach the Top 50 of the UK singles chart. Her other hits include \"Chequered Love\" (1981), \"You Came\" (1988) and \"Never Trust a Stranger\" (1988). In 2003, she collaborated with Nena on the song \"Anyplace, Anywhere, Anytime\", which topped the Dutch charts. Worldwide, she has sold over 10 million albums and 20 million singles. Starting in 1998, while still active in music, she has branched into an alternative career as a landscape gardener."@en ;
+	dbp:caption	"Wilde performing in 2014"^^rdf:langString .
+dbr:Koji_Kondo	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1961-8-13"^^xsd:date ,
+		"1961-08-13"^^xsd:date ;
+	foaf:name	"Koji Kondo"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Koji_kondo.jpg?width=300> ;
+	dbo:abstract	"Koji Kondo (\u8FD1\u85E4 \u6D69\u6CBB Kond\u014D K\u014Dji, born August 13, 1961) is a Japanese video game composer and sound director who is employed at Nintendo. He is best known for his involvement in numerous titles in the Mario and The Legend of Zelda series of video games, among other games produced by Nintendo."@en ;
+	dbp:caption	"Kondo in 2006"^^rdf:langString .
+dbr:Kyle_Gass	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1960-7-14"^^xsd:date ,
+		"1960-07-14"^^xsd:date ;
+	foaf:name	"Kyle Gass"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Kyle_Gass.jpg?width=300> ;
+	dbo:abstract	"Kyle Richard Gass (born July 14, 1960), also known as KG, is an American rock musician, singer-songwriter and actor. He is a member of the comedy rock band Tenacious D, winner of a Grammy Award for Best Metal Performance, alongside longtime friend Jack Black. He also has his own supergroup called The Kyle Gass Band which he formed after the break-up of his other side-project, Trainwreck in 2011. In Tenacious D, Gass plays lead guitar and sings backup vocals, and also plays the role of Black's comic foil in most of their comedy routines. He is the godfather of Black's son."@en ;
+	dbp:caption	"Kyle Gass performing live, 2006"^^rdf:langString .
+dbr:Lady_Bunny	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1962-08-14"^^xsd:date ,
+		"1962-8-14"^^xsd:date ;
+	foaf:name	"Lady Bunny"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Lady_Bunny_2001.jpg?width=300> ;
+	dbo:abstract	"Lady Bunny (born Jon Ingle, August 14, 1962) is an American drag queen, nightclub DJ, promoter and founder of the annual Wigstock event. She has also released disco singles such as \"Shame, Shame, Shame!\" and \"The Pussycat Song\". She has appeared in films such as Party Girl, Wigstock: The Movie, Peoria Babylon, Starrbooty, and To Wong Foo, Thanks for Everything! Julie Newmar."@en ;
+	dbp:caption	"Lady Bunny at the 2001 edition of Wigstock"^^rdf:langString .
+dbr:Lady_Sovereign	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1985-12-19"^^xsd:date ;
+	foaf:name	"Lady Sovereign"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/LadySOV2009.jpg?width=300> ;
+	dbo:abstract	"Louise Amanda Harman (born 19 December 1985), better known by the stage name Lady Sovereign, is an English rapper. She is best known for the songs \"9 to 5\" and \"Love Me or Hate Me\"."@en ;
+	dbp:caption	"Lady Sovereign at Parklife 2009"^^rdf:langString .
+dbr:Leonard_Cohen	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1934-9-21"^^xsd:date ,
+		"1934-09-21"^^xsd:date ;
+	foaf:name	"Leonard Cohen"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Leonard_Cohen_2187-edited.jpg?width=300> ;
+	dbo:associateBand	dbr:Jennifer_Warnes ,
+		<http://dbpedia.org/resource/Sharon_Robinson_(songwriter)> ,
+		dbr:Anjani ,
+		dbr:Judy_Collins ;
+	dbo:abstract	"Leonard Norman Cohen, CC GOQ (born 21 September 1934) is a Canadian singer, songwriter, poet and novelist. His work has explored religion, politics, isolation, sexuality, and personal relationships. Cohen has been inducted into both the Canadian Music Hall of Fame and the Canadian Songwriters Hall of Fame as well as the American Rock and Roll Hall of Fame. He is also a Companion of the Order of Canada, the nation's highest civilian honour. In 2011, Cohen received one of the Princess of Asturias Awards for literature. The critic Bruce Eder assessed Cohen's overall career in popular music by asserting that \"[he is] one of the most fascinating and enigmatic \u2026 singer/songwriters of the late '60s \u2026 [and] has retained an audience across four decades of music-making.... Second only to Bob Dylan (and perhaps Paul Simon) [in terms of influence], he commands the attention of critics and younger musicians more firmly than any other musical figure from the 1960s who is still working at the outset of the 21st century.\" His second novel, Beautiful Losers (1966), received attention from the Canadian press and was considered controversial because of a number of sexually graphic passages. The Academy of American Poets has commented more broadly on Cohen's overall career in the arts, including his work as a poet, novelist, and songwriter, stating that \"Cohen's successful blending of poetry, fiction, and music is made most clear in Stranger Music: Selected Poems and Songs, published in 1993, which gathered more than 200 of Cohen's poems \u2026 several novel excerpts, and almost 60 song lyrics... while it may seem to some that Leonard Cohen departed from the literary in pursuit of the musical, his fans continue to embrace him as a Renaissance man who straddles the elusive artistic borderlines.\" Cohen's first album was Songs of Leonard Cohen (1967) followed by Songs from a Room (1969) (featuring the often-recorded \"Bird on the Wire\") and Songs of Love and Hate (1971). His 1977 record Death of a Ladies' Man was co-written and produced by Phil Spector, which was a move away from Cohen's previous minimalist sound. In 1979 Cohen returned with the more traditional Recent Songs, which blended his acoustic style with jazz and Oriental and Mediterranean influences. \"Hallelujah\" was first released on Cohen's studio album Various Positions in 1984. I'm Your Man in 1988 marked Cohen's turn to synthesized productions and remains his most popular album. In 1992 Cohen released its follow-up, The Future, which had dark lyrics and references to political and social unrest. Cohen returned to music in 2001 with the release of Ten New Songs, which was a major hit in Canada and Europe. In 2006 Cohen produced and co-wrote Blue Alert, a collaboration with jazz chanteuse Anjani Thomas. After the success of his 2008\u201313 world tours, Cohen released the highest charting album in his entire career, Old Ideas, to positive reviews. On 22 September 2014, one day after his 80th birthday, Cohen released his 13th studio album, Popular Problems, again to positive reviews."@en ;
+	dbo:associatedMusicalArtist	dbr:Judy_Collins ,
+		dbr:Anjani ,
+		<http://dbpedia.org/resource/Sharon_Robinson_(songwriter)> ,
+		dbr:Jennifer_Warnes ;
+	dbp:caption	"Cohen in 2008"^^rdf:langString .
+<http://dbpedia.org/resource/Liam_Lynch_(musician)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1970-9-4"^^xsd:date ,
+		"1970-09-05"^^xsd:date ;
+	foaf:name	"Liam Lynch"@en ;
+	dbo:associateBand	dbr:They_Might_Be_Giants ,
+		dbr:Queens_of_the_Stone_Age ,
+		dbr:Spinnerette ,
+		dbr:Tenacious_D ,
+		dbr:Foo_Fighters ,
+		dbr:Eagles_of_Death_Metal ;
+	dbo:abstract	"William Patrick Niederst (born September 5, 1970), best known as Liam Lynch, is a musician, puppeteer, writer and film director. Lynch co-created, co-wrote, played the music for, directed, and produced MTV's Sifl and Olly Show. Lynch also made the album Fake Songs, released in 2003, produced by his own company, 111 Productions. This album featured the song \"United States of Whatever\", which charted in the Top 10 in the United Kingdom, and Australia. Lynch also directs music videos. He has worked with Queens of the Stone Age, Eagles of Death Metal, Spinnerette, and No Doubt. In 2003 he directed the UK music video for the Foo Fighters single \"Times Like These\", although it was rarely played in the United States. He directed the 2006 film Tenacious D in The Pick of Destiny after working with Tenacious D in 2002, when he directed the video to the song \"Tribute\", their most popular hit. He also directed several short films that played as part of their live show, as well as a documentary called On The Road with Tenacious D which was a featured part of their DVD collection, The Complete Masterworks. He directed Sarah Silverman's movie, Sarah Silverman: Jesus Is Magic as well as a music video for Silverman called \"Give the Jew Girl Toys\". He wrote the original music used in the MTV animated series Clone High and co-wrote a song in the feature film,School of Rock. Lynch has an ongoing podcast available through his website that contains skits, videos he has created, and answering viewer mail."@en ;
+	dbo:associatedMusicalArtist	dbr:Queens_of_the_Stone_Age ,
+		dbr:They_Might_Be_Giants ,
+		dbr:Spinnerette ,
+		dbr:Eagles_of_Death_Metal ,
+		dbr:Foo_Fighters ,
+		dbr:Tenacious_D .
+<http://dbpedia.org/resource/Lil\u0027_Troy>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1966-2-24"^^xsd:date ,
+		"1966-02-24"^^xsd:date ;
+	foaf:name	"Lil' Troy"@en ;
+	dbo:abstract	"Troy Lane Birklett (born February 24, 1966), better known by his stage name Lil' Troy is an American rapper from Houston, Texas."@en .
+dbr:Lil_Hardin_Armstrong	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1898-02-03"^^xsd:date ,
+		"1898-2-3"^^xsd:date ;
+	foaf:name	"Lil Hardin Armstrong"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Lil_Armstrong_Billboard.jpg?width=300> ;
+	dbo:associateBand	dbr:King_Oliver ,
+		dbr:Louis_Armstrong ;
+	dbo:abstract	"Lil Hardin Armstrong (February 3, 1898 \u2013 August 27, 1971) was a jazz pianist, composer, arranger, singer, and bandleader, and the second wife of Louis Armstrong, with whom she collaborated on many recordings in the 1920s. Hardin's compositions include \"Struttin' With Some Barbecue\", \"Don't Jive Me\", \"Two Deuces\", \"Knee Drops\", \"Doin' the Suzie-Q\", \"Just For a Thrill\" (which became a major hit when revived by Ray Charles in 1959), \"Clip Joint\", and \"Bad Boy\" (a minor hit for Ringo Starr in 1978), her composition \"Oriental Swing\" was sampled heavily to create Parov Stelar's 2012 retro-song \"Booty Swing\", which in turn gained notoriety when it was used in a 2013 Chevrolet commercial. Armstrong was inducted into the Memphis Music Hall of Fame in 2014."@en ;
+	dbo:associatedMusicalArtist	dbr:Louis_Armstrong ,
+		dbr:King_Oliver .
+dbr:Lionel_Hampton	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1908-4-20"^^xsd:date ,
+		"1908-04-20"^^xsd:date ;
+	foaf:name	"Lionel Hampton"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Lionel_Hampton,_Aquarium,_New_York,_ca._June_1946_(William_P._Gottlieb_03841).jpg?width=300> ;
+	dbo:associateBand	dbr:Louis_Armstrong ,
+		dbr:Gloria_Parker ,
+		dbr:Quincy_Jones ,
+		dbr:Benny_Goodman ,
+		dbr:Teddy_Wilson ;
+	dbo:abstract	"Lionel Leo Hampton (April 20, 1908 \u2013 August 31, 2002) was an American jazz vibraphonist, pianist, percussionist, bandleader and actor. Hampton worked with jazz musicians from Louis Armstrong, Benny Goodman, and Buddy Rich to Charlie Parker, Charles Mingus, and Quincy Jones. In 1992, he was inducted into the Alabama Jazz Hall of Fame, and was awarded the National Medal of Arts in 1996."@en ;
+	dbo:associatedMusicalArtist	dbr:Louis_Armstrong ,
+		dbr:Quincy_Jones ,
+		dbr:Benny_Goodman ,
+		dbr:Gloria_Parker ,
+		dbr:Teddy_Wilson ;
+	dbp:caption	"Lionel Hampton, 1946."^^rdf:langString ,
+		"Photo by William P. Gottlieb."^^rdf:langString .
+dbr:Lionel_Richie	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1949-06-20"^^xsd:date ,
+		"1949-6-20"^^xsd:date ;
+	foaf:name	"Lionel Richie"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Lionel_Richie_2012_2.jpg?width=300> ;
+	dbo:abstract	"Lionel Brockman Richie, Jr. (born June 20, 1949) is an American singer, songwriter, actor and record producer. Beginning in 1968, he was a member of the musical group Commodores."@en ;
+	dbp:caption	"Lionel Richie in France, 2012"^^rdf:langString .
+dbr:Lobby_Loyde	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1941-05-18"^^xsd:date ,
+		"1941-5-18"^^xsd:date ;
+	foaf:name	"Lobby Loyde"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Purple_Hearts_(Australian_band)> ,
+		<http://dbpedia.org/resource/Billy_Thorpe_&_the_Aztecs> ,
+		dbr:Wild_Cherries ,
+		dbr:Rose_Tattoo ;
+	dbo:abstract	"Lobby Loyde (born John Baslington Lyde, 18 May 1941 \u2013 21 April 2007), also known as John Barrie Lyde or Barry Lyde, was an Australian rock music guitarist, songwriter and producer. He was a member of two 1960s groups: Purple Hearts, which had a Top 40 hit with \"Early in the Morning\" in 1966, and Wild Cherries with their hit \"That's Life\" in 1967. He became a leading figure in the 1970s Australian pub rock scene, particularly as a member of Billy Thorpe & the Aztecs on their No. 8 album, The Hoax Is Over (1971) and Coloured Balls for a Top 20 album Ball Power (1973). He was briefly a member of Rose Tattoo during 1979 to 1980. His solo work includes the psychedelic album, Plays with George Guitar (1971) and the space opera, Beyond Morgia: The Labyrinths of Klimster (2007). Known for his plectrum guitar technique, Loyde inspired a legion of Australian musicians, and was also cited as an influence by international musicians such as Kurt Cobain and Henry Rollins. He was inducted into the ARIA Hall of Fame in 2006 where his Rose Tattoo band mate, Angry Anderson acknowledged his prowess, \"More than anyone else, Lobby helped create the Australian guitar sound, long before Angus [Young] or Billy Thorpe or The Angels or Rose Tattoo. Lobby inspired Australian bands to step forward and play as loud and aggressively as they could. People are still trying to copy it today\". Loyde died of lung cancer in April 2007 and was survived by his children, Shane, Frances, Rebecca, Vyvyan and Lucinda, and his second wife Debbie Nankervis."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Billy_Thorpe_&_the_Aztecs> ,
+		dbr:Rose_Tattoo ,
+		<http://dbpedia.org/resource/Purple_Hearts_(Australian_band)> ,
+		dbr:Wild_Cherries ;
+	dbp:caption	"Lobby Loyde performing \"G.O.D.\""^^rdf:langString ,
+		"--07-21"^^xsd:gMonthDay .
+dbr:Lol_Creme	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1947-09-19"^^xsd:date ,
+		"1947-9-19"^^xsd:date ;
+	foaf:name	"Lol Creme"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Lol_Creme_1976.jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/Godley_&_Creme> ,
+		dbr:The_Magic_Lanterns ,
+		dbr:Hotlegs ,
+		<http://dbpedia.org/resource/10cc> ,
+		dbr:Art_of_Noise ,
+		dbr:Doctor_Father ,
+		<http://dbpedia.org/resource/The_Producers_(2006_band)> ;
+	dbo:abstract	"Laurence Neil 'Lol' Creme (born 19 September 1947) is an English musician and music video director, best known for his work in 10cc. He sings and plays guitar, bass and keyboards."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/The_Producers_(2006_band)> ,
+		dbr:The_Magic_Lanterns ,
+		<http://dbpedia.org/resource/Godley_&_Creme> ,
+		dbr:Doctor_Father ,
+		<http://dbpedia.org/resource/10cc> ,
+		dbr:Art_of_Noise ,
+		dbr:Hotlegs ;
+	dbp:caption	"Lol Creme in 1976 performing with 10cc"^^rdf:langString .
+dbr:Lol_Tolhurst	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1959-2-3"^^xsd:date ,
+		"1959-02-03"^^xsd:date ;
+	foaf:name	"Lol Tolhurst"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Lol_Tolhurst_(cropped).jpg?width=300> ;
+	dbo:associateBand	dbr:The_Cure ,
+		dbr:Easy_Cure ,
+		dbr:Levinhurst ,
+		<http://dbpedia.org/resource/Presence_(band)> ,
+		<http://dbpedia.org/resource/Malice_(UK_band)> ;
+	dbo:abstract	"Laurence Andrew \"Lol\" Tolhurst (born 3 February 1959) is a founding member and the former drummer and keyboardist of British band The Cure. He left The Cure in 1989 and was later involved in the band Presence and his current project Levinhurst. In 2011, he briefly reunited with The Cure for selected shows but did not officially rejoin."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Presence_(band)> ,
+		<http://dbpedia.org/resource/Malice_(UK_band)> ,
+		dbr:Easy_Cure ,
+		dbr:Levinhurst ,
+		dbr:The_Cure ;
+	dbp:caption	"Tolhurst in 2008"^^rdf:langString .
+<http://dbpedia.org/resource/Lolly_(singer)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1978-06-27"^^xsd:date ,
+		"1977-6-27"^^xsd:date ;
+	foaf:name	"Lolly"@en ;
+	dbo:abstract	"Lolly (born Anna Shantha Kumble, 27 June 1977, Sutton Coldfield, Birmingham) is a British pop star, TV presenter and actress."@en .
+dbr:Longmont_Potion_Castle	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1972-1-1"^^xsd:date ;
+	foaf:name	"Longmont Potion Castle"@en ;
+	dbo:associateBand	dbr:Hatebeak ;
+	dbo:abstract	"Longmont Potion Castle (born 1972) is the pseudonym of an anonymous surrealist prank caller who has been active in the Colorado and Los Angeles areas since 1987. Details about his personal life are scarce and his real name is unknown to the public. Over the years, his mostly self-released albums have gained a cult following, notably amongst musicians."@en ;
+	dbo:associatedMusicalArtist	dbr:Hatebeak .
+dbr:Lys_Assia	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1924-3-3"^^xsd:date ,
+		"1924-03-03"^^xsd:date ;
+	foaf:name	"Lys Assia"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/LysAssia2012october.jpg?width=300> ;
+	dbo:abstract	"Lys Assia (born Rosa Mina Sch\u00E4rer; 3 March 1924, in Rupperswil, Aargau, Switzerland) is a Swiss singer who won the first Eurovision Song Contest in 1956. When Assia was a young girl she was a dancer. In 1940, however, she stood in for a female singer. People who heard her singing liked it, so she changed from dancing to singing."@en ;
+	dbp:caption	"Assia in 2012"^^rdf:langString .
+<http://dbpedia.org/resource/M.C._Brains>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1974-05-24"^^xsd:date ,
+		"1974-5-24"^^xsd:date ;
+	foaf:name	"M.C. Brains"@en ;
+	dbo:abstract	"M.C. Brains (born James DeShannon Davis) is an American rapper from Cleveland, Ohio. He is perhaps best known for his hit single, \"Oochie Coochie\". Discovered by Michael Bivins of New Edition, Brains was signed to Motown Records, who issued his debut album Lovers Lane in 1992. The album's lead single, \"Oochie Coochie\", became a top-40 hit, peaking at number 21 on the Billboard Hot 100 and earning a gold certification four months after its release then on to platinum. Despite the success of \"Oochie Coochie\", Lovers Lane could only reach close to gold status. In 1996, M.C. Brains (now using the name M.C. Brainz) released a second album entitled Brainwashed for Ichiban Records."@en .
+dbr:MC_Trouble	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1970-7-30"^^xsd:date ,
+		"1970-07-30"^^xsd:date ;
+	foaf:name	"MC Trouble"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/The_Boys_(band)> ,
+		dbr:The_Good_Girls ,
+		dbr:Queen_Latifah ,
+		dbr:A_Tribe_Called_Quest ,
+		dbr:Johnny_Gill ,
+		<http://dbpedia.org/resource/Today_(band)> ,
+		<http://dbpedia.org/resource/Teddy_Riley_(producer)> ;
+	dbo:abstract	"LaTasha Sheron Rogers (July 30, 1970 \u2013 June 4, 1991), better known as MC Trouble, was a rap artist, and the first female rapper signed to Motown Records. MC Trouble had a minor hit with the song \"(I Wanna) Make You Mine\" featuring The Good Girls, released May 25, 1990. \"Make You Mine\" peaked at number 15 on Billboard magazine's Hot Rap Singles chart. The title track of her debut album Gotta Get a Grip was released as the second single on September 14, 1990. Gotta Get a Grip was a mix of hardcore rap and more commercial R&B."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Good_Girls ,
+		dbr:Queen_Latifah ,
+		<http://dbpedia.org/resource/Teddy_Riley_(producer)> ,
+		dbr:A_Tribe_Called_Quest ,
+		<http://dbpedia.org/resource/Today_(band)> ,
+		<http://dbpedia.org/resource/The_Boys_(band)> ,
+		dbr:Johnny_Gill .
+dbr:Ma_Rainey	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1886-04-26"^^xsd:date ,
+		"1886-4-26"^^xsd:date ;
+	foaf:name	"Ma Rainey"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/MaRainey.jpg?width=300> ;
+	dbo:associateBand	dbr:Louis_Armstrong ,
+		<http://dbpedia.org/resource/The_Rabbit\u0027s_Foot_Company> ,
+		dbr:Bessie_Smith ;
+	dbo:abstract	"\"Ma\" Rainey (born Gertrude Malissa Nix Pridgett, September 1882 or April 26, 1886 \u2013 December 22, 1939) was one of the earliest American professional blues singers and one of the first generation of blues singers to record. She was billed as the Mother of the Blues. She began performing as a young teenager and became known as Ma Rainey after her marriage to Will Rainey, in 1904. They toured with the Rabbit Foot Minstrels and later formed their own group, Rainey and Rainey, Assassinators of the Blues. Her first recording was made in 1923. In the next five years, she made over 100 recordings, including \"Bo-Weevil Blues\" (1923), \"Moonshine Blues\" (1923), \"See See Rider Blues\" (1924), \"Black Bottom\" (1927), and \"Soon This Morning\" (1927). Rainey was known for her powerful vocal abilities, energetic disposition, majestic phrasing, and a \"moaning\" style of singing. Her powerful voice was never adequately captured on her records, because she recorded exclusively for Paramount, which was known for its below-average recording techniques and poor shellac quality. However, her other qualities are present and most evident in her early recordings \"Bo-Weevil Blues\" and \"Moonshine Blues\". Rainey recorded with Louis Armstrong, and she toured and recorded with the Georgia Jazz Band. She continued to tour until 1935, when she retired and went to live in her hometown."@en ;
+	dbo:associatedMusicalArtist	dbr:Bessie_Smith ,
+		dbr:Louis_Armstrong ,
+		<http://dbpedia.org/resource/The_Rabbit\u0027s_Foot_Company> .
+dbr:Mallikarjun_Mansur	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1910-12-31"^^xsd:date ,
+		"1911-01-01"^^xsd:date ;
+	foaf:name	"Mallikarjun Mansur"@en ;
+	dbo:abstract	"Mallikarjun Bheemarayappa Mansur (Kannada: \u0CAE\u0CB2\u0CCD\u0CB2\u0CBF\u0C95\u0CBE\u0CB0\u0CCD\u0C9C\u0CC1\u0CA8 \u0CAE\u0CA8\u0CB8\u0CC2\u0CB0) (1 January 1911 \u2013 12 September 1992) was an Indian classical singer of the khyal style in the Jaipur-Atrauli gharana of Hindustani classical music. He received all three national Padma Awards, the Padma Shri in 1970, Padma Bhushan in 1976, and Padma Vibhushan, the second highest civilian honour given Government of India in 1992. In 1982, he was awarded the Sangeet Natak Akademi Fellowship, the highest honour conferred by the Sangeet Natak Akademi, India's National Academy of Music, Dance & Drama."@en .
+<http://dbpedia.org/resource/Mando_(singer)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1969-04-13"^^xsd:date ,
+		"1966-4-13"^^xsd:date ;
+	foaf:name	"\u039C\u03B1\u03BD\u03C4\u03CE"@en ,
+		"Mando"@en ;
+	dbo:abstract	"Mando (Greek: \u039C\u03B1\u03BD\u03C4\u03CE), born Adamantia Stamatopoulou (Greek: \u0391\u03B4\u03B1\u03BC\u03B1\u03BD\u03C4\u03AF\u03B1 \u03A3\u03C4\u03B1\u03BC\u03B1\u03C4\u03BF\u03C0\u03BF\u03CD\u03BB\u03BF\u03C5), is a popular Greek singer. She was born in Piraeus on 13 April 1969 and raised in Athens by her jazz pianist father, Nikos Stamatopoulos and a classic soprano opera mother, Mary Apergi. From a young age she began to develop her talent and interest in music, and was characterized as a \"born musician\". On 14 March 2010, Alpha TV ranked Mando the 23rd top-certified female artist in the nation's phonographic era (since 1960), totalling five gold records. On 21 April 2013 she participated at the Greek version of Your Face Sounds Familiar which was aired by Antenna TV Greece, where in the last episode (30 June 2013), she placed 4th. She was a special guest star in the semifinal of The Voice of greece where she and one of the participants, Maria Elena Kiriakou, sang together Beyonce's Hit ListenAnd she has presented her new song Poliploka from her upcoming album."@en .
+dbr:Marilyn_Manson	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1969-01-05"^^xsd:date ,
+		"1969-1-5"^^xsd:date ;
+	foaf:name	"Marilyn Manson"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Marilyn_Manson_-_Rock_am_Ring_2015-8751.jpg?width=300> ;
+	dbo:associateBand	dbr:Nine_Inch_Nails ,
+		dbr:Rob_Zombie ,
+		<http://dbpedia.org/resource/Slipknot_(band)> ,
+		dbr:Gucci_Mane ,
+		dbr:Ozzy_Osbourne ,
+		dbr:Rammstein ,
+		<http://dbpedia.org/resource/Godhead_(band)> ,
+		dbr:Trent_Reznor ,
+		dbr:Eminem ,
+		dbr:Jack_Off_Jill ,
+		<http://dbpedia.org/resource/Marilyn_Manson_(band)> ,
+		dbr:Die_Antwoord ,
+		dbr:Alice_Cooper ;
+	dbo:abstract	"Brian Hugh Warner (born January 5, 1969), better known by his stage name Marilyn Manson, is an American singer, songwriter, musician, composer, actor, painter, author and former music journalist. He is known for his controversial stage personality and image as the lead singer of the band Marilyn Manson, which he co-founded with Daisy Berkowitz and of which he remains the only constant member. His stage name was formed by juxtaposing the names of two opposing American pop cultural icons; actress Marilyn Monroe and cult leader Charles Manson. He is best known for his band's records released in the 1990s, most notably Antichrist Superstar and Mechanical Animals, which, along with his public image, earned him a reputation in the mainstream media as a controversial figure and an allegedly negative influence on young people. In the U.S. alone, three of the band's albums have been awarded platinum and three more went gold, and the band has had eight releases debut in the top ten, including two number-one albums. Manson has been ranked number 44 in the Top 100 Heavy Metal Vocalists by Hit Parader, and has been nominated for four Grammy Awards. Manson made his film debut in 1997, as an actor in David Lynch's Lost Highway. Since then he has appeared in a variety of minor roles and cameos. He was interviewed in Michael Moore's political documentary Bowling for Columbine, discussing possible motivations for the 1999 Columbine massacre and allegations that his music was somehow a factor. On September 13\u201314, 2002, his first art show, The Golden Age of Grotesque, was held at the Los Angeles Contemporary Exhibitions center. Manson revealed a series of 20 paintings in 2010 entitled Genealogies of Pain, an exhibition showcased at Vienna's Kunsthalle gallery, which the artist collaborated on with David Lynch."@en ;
+	dbo:associatedMusicalArtist	dbr:Alice_Cooper ,
+		dbr:Trent_Reznor ,
+		dbr:Die_Antwoord ,
+		dbr:Jack_Off_Jill ,
+		dbr:Rammstein ,
+		<http://dbpedia.org/resource/Slipknot_(band)> ,
+		dbr:Ozzy_Osbourne ,
+		dbr:Gucci_Mane ,
+		dbr:Nine_Inch_Nails ,
+		<http://dbpedia.org/resource/Godhead_(band)> ,
+		dbr:Rob_Zombie ,
+		<http://dbpedia.org/resource/Marilyn_Manson_(band)> ,
+		dbr:Eminem ;
+	dbp:caption	"Manson performing in 2015"^^rdf:langString .
+dbr:Mark_Clarke	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1950-07-25"^^xsd:date ,
+		"1950-7-25"^^xsd:date ;
+	foaf:name	"Mark Clarke"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Uriah_Heep_(band)> ,
+		<http://dbpedia.org/resource/Mountain_(band)> ,
+		<http://dbpedia.org/resource/Natural_Gas_(band)> ,
+		<http://dbpedia.org/resource/Rainbow_(English_band)> ,
+		dbr:Torque ,
+		<http://dbpedia.org/resource/Colosseum_(band)> ,
+		dbr:The_Monkees ,
+		<http://dbpedia.org/resource/Tempest_(UK_band)> ,
+		dbr:Billy_Squier ;
+	dbo:abstract	"Mark Clarke (born 25 July 1950 in Liverpool) is an English musician, bass player and singer. After seeing the Beatles and many other bands in Liverpool as a young boy at the age of 12, he decided to be a bass player. In 1966 Mark Clarke played with the Kegmen, in 1968 with the Locomotif and late 1968 with St. James Infirmary. Liverpool Echo called him in an article \"The Joe Cocker of Liverpool\". After a year of local gigs, he moved to London, where he was introduced to Clem Clempson, who played at that time in Colosseum. After some time Mark was asked by Jon Hiseman to join the Colosseum in summer 1970 and played in the band until the split late 1971, and again from 1994 after the reunion of the band. After Colosseum split in 1971 he was briefly a member of Uriah Heep, performing (and co-writing) on one studio track, \"The Wizard\", on the 1972 album Demons & Wizards. In the beginning of 1973 he became a member of Jon Hiseman's Tempest and played bass on the two Tempest studio albums with Allan Holdsworth, Ollie Halsall and Paul Williams, and a live album issued later. He also played bass on Ken Hensley's solo albums. In 1975 he formed Natural Gas with Joey Molland, Jerry Shirley and Peter Wood. He also played in Mountain, Ritchie Blackmore's Rainbow, and in 1980 started working with Billy Squier and recorded Don't Say No, The Stroke, In the Dark and many other albums with him. In 1985 he toured with The Monkees, and until recently still worked with Davy Jones. Clarke has also worked with Mountain, Ian Hunter and Torque, recording albums with all of them. In 2010 Mark Clarke released his first solo album Moving to the Moon, which was co-produced by Ray DeTone, who also played all guitars on the record."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Monkees ,
+		dbr:Torque ,
+		<http://dbpedia.org/resource/Mountain_(band)> ,
+		<http://dbpedia.org/resource/Colosseum_(band)> ,
+		<http://dbpedia.org/resource/Tempest_(UK_band)> ,
+		<http://dbpedia.org/resource/Rainbow_(English_band)> ,
+		dbr:Billy_Squier ,
+		<http://dbpedia.org/resource/Uriah_Heep_(band)> ,
+		<http://dbpedia.org/resource/Natural_Gas_(band)> .
+dbr:Mark_Knopfler	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1949-8-12"^^xsd:date ,
+		"1949-08-12"^^xsd:date ;
+	foaf:name	"Mark Knopfler"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Markknopfler20061.jpg?width=300> ;
+	dbo:associateBand	dbr:Bob_Dylan ,
+		dbr:Brewers_Droop ,
+		dbr:Dire_Straits ,
+		<http://dbpedia.org/resource/Sting_(musician)> ,
+		dbr:Sonny_Landreth ,
+		dbr:Emmylou_Harris ,
+		dbr:Chet_Atkins ,
+		dbr:Eric_Clapton ,
+		dbr:The_Notting_Hillbillies ;
+	dbo:abstract	"Mark Freuder Knopfler, OBE (born 12 August 1949) is a British singer, songwriter, guitarist, record producer and film score composer. He is best known as the lead guitarist, lead singer and songwriter for the rock band Dire Straits, which he co-founded with his younger brother, David Knopfler, in 1977. Since Dire Straits disbanded in 1995, Knopfler has recorded and produced eight solo albums, and, as with his previous band, produced many hit songs. He has composed and produced film scores for nine films, including Local Hero (1983), Cal (1984), The Princess Bride (1987), Wag the Dog (1997) and Altamira (2016). In addition to his work with Dire Straits and as a solo artist and composer, Knopfler has recorded and performed with many prominent musicians, including B.B.King, Chet Atkins, Chris Botti, John Anderson, the Chieftains, Eric Clapton, Bob Dylan, Elton John, Bryan Ferry, George Jones, Emmylou Harris, Jools Holland, Sonny Landreth, Phil Lynott, Van Morrison, Steely Dan, Sting, and James Taylor, sometimes working as a session musician. He has produced albums for Tina Turner, Bob Dylan, and Randy Newman. Knopfler is a fingerstyle guitarist and was ranked 27th on Rolling Stone magazine's list of 100 Greatest Guitarists of All Time. Knopfler and Dire Straits have sold in excess of 120 million albums to date. A four-time Grammy Award winner, Knopfler is the recipient of the Edison Award, the Steiger Award and the Ivor Novello Award, as well as holding three honorary doctorate degrees in music from universities in the United Kingdom."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Sting_(musician)> ,
+		dbr:Brewers_Droop ,
+		dbr:Sonny_Landreth ,
+		dbr:The_Notting_Hillbillies ,
+		dbr:Dire_Straits ,
+		dbr:Bob_Dylan ,
+		dbr:Eric_Clapton ,
+		dbr:Chet_Atkins ,
+		dbr:Emmylou_Harris ;
+	dbp:caption	"Mark Knopfler, 2006"^^rdf:langString .
+dbr:Marques_Houston	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1981-8-4"^^xsd:date ,
+		"1981-08-04"^^xsd:date ;
+	foaf:name	"Marques Houston"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Marques_Houston_in_2012.jpg?width=300> ;
+	dbo:associateBand	dbr:J-Boog ,
+		dbr:Rick_Ross ,
+		dbr:Omarion ,
+		dbr:IMx ,
+		dbr:B2K ;
+	dbo:abstract	"Marques Barrett Houston (born August 4, 1981), better known by his stage name Batman, is an American R&B singer, songwriter, rapper, and actor. A member of the R&B singing group Immature/IMx from 1990 until 2001, he went solo in 2003. As an actor, he is best known for his role as Roger Evans in the television comedy Sister, Sister."@en ;
+	dbo:associatedMusicalArtist	dbr:Rick_Ross ,
+		dbr:B2K ,
+		dbr:IMx ,
+		dbr:Omarion ,
+		dbr:J-Boog ;
+	dbp:caption	"Marques Houston in 2012"^^rdf:langString .
+dbr:Mary_Travers	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1936-11-09"^^xsd:date ,
+		"1936-11-9"^^xsd:date ;
+	foaf:name	"Mary Travers"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Peter_paul_and_mary_publicity_photo.JPG?width=300> ;
+	dbo:associateBand	dbr:Joni_Mitchell ,
+		dbr:Mama_Cass ,
+		dbr:John_Denver ,
+		<http://dbpedia.org/resource/Peter,_Paul_and_Mary> ;
+	dbo:abstract	"Mary Allin Travers (November 9, 1936 \u2013 September 16, 2009) was an American singer-songwriter and member of the folk music group Peter, Paul and Mary, along with Peter Yarrow and (Noel) Paul Stookey. Peter, Paul and Mary was one of the most successful folk-singing groups of the 1960s. Unlike most folk musicians who were a part of the early 1960s Greenwich Village music scene, Travers grew up in that New York City neighborhood."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Peter,_Paul_and_Mary> ,
+		dbr:Joni_Mitchell ,
+		dbr:John_Denver ,
+		dbr:Mama_Cass ;
+	dbp:caption	"Travers  as part of Peter, Paul and Mary"^^rdf:langString .
+<http://dbpedia.org/resource/Maxim_(musician)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1967-03-21"^^xsd:date ,
+		"1967-3-21"^^xsd:date ;
+	foaf:name	"Maxim Reality"@en ,
+		"Maxim"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Prodigy-maxim.jpg?width=300> ;
+	dbo:associateBand	dbr:The_Prodigy ;
+	dbo:abstract	"Keith Palmer (born 21 March 1967, Peterborough, Cambridgeshire, England), known by his stage name Maxim (previously Maxim Reality), is a British musician, known for being a member with rave and electronic rock band The Prodigy."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Prodigy ;
+	dbp:caption	"Maxim on tour in Washington, D.C."^^rdf:langString .
+dbr:Maynard_Ferguson	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1928-05-04"^^xsd:date ,
+		"1928-5-4"^^xsd:date ;
+	foaf:name	"Maynard Ferguson"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Maynard.jpg?width=300> ;
+	dbo:associateBand	dbr:Big_Bop_Nouveau ,
+		dbr:Stan_Kenton_Orchestra ;
+	dbo:abstract	"Walter Maynard Ferguson (May 4, 1928 \u2013 August 23, 2006) was a Canadian jazz musician and bandleader. He came to prominence playing in Stan Kenton's orchestra before forming his own band in 1957. He was noted for his bands, which often served as stepping stones for up-and-coming talent, and his ability to play expressively and accurately in a remarkably high register."@en ;
+	dbo:associatedMusicalArtist	dbr:Stan_Kenton_Orchestra ,
+		dbr:Big_Bop_Nouveau .
+dbr:Melanie_Blatt	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1975-3-25"^^xsd:date ,
+		"1975-03-25"^^xsd:date ;
+	foaf:name	"Melanie Blatt"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Allsaints3.jpg?width=300> ;
+	dbo:abstract	"Melanie Blatt (born 25 March 1975) is an English singer-songwriter and actress. She is the daughter of author and travel expert David Blatt. She rose to fame in 1997 as a member of the BRIT Award-winning girl group All Saints. The group have gained five number one singles, two multi-platinum albums, two BRIT Awards and have sold over 10 million records worldwide making them one of the best-selling girl groups of all time, and the second best-selling girl group in the UK. Blatt began recording a solo album in 2003, working with numerous producers including Xenomania and released her debut solo single \"Do Me Wrong\" in 2003. Blatt was later dropped by her record label, and her solo album was cancelled. In 2005, she made a return to music with her single \"See Me\", and began recording another album independently which was later shelved and cancelled in favour of the All Saints reunion. Starting in 2013, she was a judge on the television series The X Factor NZ. Was also the 2015 x Factor judge"@en .
+dbr:Melanie_Safka	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1947-02-03"^^xsd:date ,
+		"1947-2-3"^^xsd:date ;
+	foaf:name	"Melanie Safka"@en ,
+		"Melanie"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Melanie_Safka_1975.JPG?width=300> ;
+	dbo:abstract	"Melanie Anne Safka-Schekeryk (born February 3, 1947) is an American singer-songwriter. Known professionally as Melanie, she is best known for her hits \"Brand New Key\", \"Ruby Tuesday\", \"What Have They Done to My Song, Ma\", and her song about performing at the 1969 Woodstock Music Festival, \"Lay Down (Candles in the Rain)\"."@en ;
+	dbp:caption	"Melanie in 1975"^^rdf:langString .
+dbr:Michael_Jackson	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1958-8-29"^^xsd:date ;
+	foaf:name	"Michael Jackson"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Michael_Jackson_in_1988.jpg?width=300> ;
+	dbo:associateBand	dbr:The_Jackson_5 ;
+	dbo:abstract	"Michael Joseph Jackson (August 29, 1958 \u2013 June 25, 2009) was an American singer, songwriter, record producer, dancer, actor and philanthropist. Called the \"King of Pop\", his contributions to music, dance, and fashion along with his publicized personal life made him a global figure in popular culture for over four decades. The eighth child of the Jackson family (one of whom died in infancy), Michael made his professional debut in 1964 with his elder brothers Jackie, Tito, Jermaine, and Marlon as a member of the Jackson 5. He began his solo career in 1971. In the early 1980s, Jackson became a dominant figure in popular music. His music videos, including those of \"Beat It\", \"Billie Jean\", and \"Thriller\" from his 1982 album Thriller, are credited with breaking racial barriers and transforming the medium into an art form and promotional tool. The popularity of these videos helped bring the television channel MTV to fame. Jackson's 1987 album Bad spawned the U.S. Billboard Hot 100 number-one singles \"I Just Can't Stop Loving You\", \"Bad\", \"The Way You Make Me Feel\", \"Man in the Mirror\", and \"Dirty Diana\", becoming the first album to have five number-one singles on the Billboard Hot 100. He continued to innovate with videos such as \"Black or White\" and \"Scream\" throughout the 1990s, and forged a reputation as a touring solo artist. Through stage and video performances, Jackson popularized a number of complicated dance techniques, such as the robot and the moonwalk, to which he gave the name. His distinctive sound and style has influenced numerous artists of various music genres. Thriller is the best-selling album of all time, with estimated sales of 65 million copies worldwide. Jackson's other albums, including Off the Wall (1979), Bad (1987), Dangerous (1991), and HIStory (1995), also rank among the world's best-selling albums. He is recognized as the Most Successful Entertainer of All Time by Guinness World Records. Jackson is one of the few artists to have been inducted into the Rock and Roll Hall of Fame twice, and was also inducted into the Songwriters Hall of Fame and the Dance Hall of Fame as the only dancer from pop and rock music. His other achievements include multiple Guinness World Records, 13 Grammy Awards, the Grammy Legend Award, the Grammy Lifetime Achievement Award, 26 American Music Awards\u2014more than any other artist\u2014including the \"Artist of the Century\" and \"Artist of the 1980s\", 13 number-one singles in the United States during his solo career,\u2014more than any other male artist in the Hot 100 era\u2014and estimated sales of over 350 million records worldwide. Jackson has won hundreds of awards, making him the most awarded recording artist in the history of popular music. He became the first artist in history to have a top ten single in the Billboard Hot 100 in five different decades when \"Love Never Felt So Good\" reached number nine on May 21, 2014. Jackson traveled the world attending events honoring his humanitarianism, and, in 2000, the Guinness World Records recognized him for supporting 39 charities, more than any other entertainer. Aspects of Jackson's personal life, including his changing appearance, personal relationships, and behavior, generated controversy. In 1993, he was accused of child sexual abuse, but the civil case was settled out of court for an undisclosed amount and no formal charges were brought. In 2005, he was tried and acquitted of further child sexual abuse allegations and several other charges after the jury found him not guilty on all counts. While preparing for his comeback concert series, This Is It, Jackson died of acute propofol and benzodiazepine intoxication on June 25, 2009, after suffering from cardiac arrest. The Los Angeles County Coroner ruled his death a homicide, and his personal physician, Conrad Murray, was convicted of involuntary manslaughter. Jackson's death triggered a global outpouring of grief, and a live broadcast of his public memorial service was viewed around the world. Forbes ranks Jackson as the top-earning dead celebrity, with yearly earnings of $825 million in 2016, the highest ever recorded by the publication."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Jackson_5 ;
+	dbp:caption	"Jackson performing in Vienna, Austria in June 1988"^^rdf:langString .
+dbr:Michael_Penn	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1958-08-01"^^xsd:date ,
+		"1958-8-1"^^xsd:date ;
+	foaf:name	"Michael Penn"@en ;
+	dbo:associateBand	dbr:Doll_Congress ;
+	dbo:abstract	"Michael Penn (born August 1, 1958) is an American singer, songwriter and composer. He is the eldest son of actor/director Leo Penn and actress Eileen Ryan and the brother of actors Sean Penn and Chris Penn."@en ;
+	dbo:associatedMusicalArtist	dbr:Doll_Congress .
+dbr:Michael_Romeo	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1968-3-6"^^xsd:date ,
+		"1968-03-06"^^xsd:date ;
+	foaf:name	"Michael Romeo"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Symphonyx07.jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/Redemption_(band)> ,
+		dbr:Kotipelto ,
+		<http://dbpedia.org/resource/Steve_Walsh_(musician)> ,
+		dbr:Ayreon ,
+		dbr:Symphony_X ;
+	dbo:abstract	"Michael James Romeo (born March 6, 1968) is an American guitarist and a founding member of the progressive metal group Symphony X. He is one of two members to appear on every Symphony X release (the other being Michael Pinnella). Romeo was ranked #91 out of 100 Greatest Heavy Metal Guitarists of All Time by Guitar World."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Redemption_(band)> ,
+		<http://dbpedia.org/resource/Steve_Walsh_(musician)> ,
+		dbr:Symphony_X ,
+		dbr:Ayreon ,
+		dbr:Kotipelto ;
+	dbp:caption	"Romeo performing in Novara, 2007"^^rdf:langString .
+dbr:Mike_Dierickx	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1973-02-20"^^xsd:date ,
+		"1973-2-20"^^xsd:date ;
+	foaf:name	"Mike Dierickx"@en ;
+	dbo:associateBand	dbr:Armin_Van_Buuren ,
+		dbr:Tetsuya_Komuro ,
+		dbr:Rank_1 ;
+	dbo:abstract	"Mike Dierickx (born 20 February 1973), formerly known as Dirk Dierickx, and most commonly recognized under the aliases M.I.K.E. Push or Plastic Boy, is a Belgian DJ. Best known for the song \"Universal Nation\", he has also released other singles including \"The Legacy\" and \"Strange World\". His style is primarily trance."@en ;
+	dbo:associatedMusicalArtist	dbr:Armin_Van_Buuren ,
+		dbr:Tetsuya_Komuro ,
+		dbr:Rank_1 .
+dbr:Mike_Rutherford	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1950-10-02"^^xsd:date ,
+		"1950-10-2"^^xsd:date ;
+	foaf:name	"Mike Rutherford"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Mike_Rutherford.jpg?width=300> ;
+	dbo:associateBand	dbr:Red_7 ,
+		<http://dbpedia.org/resource/Mike_+_The_Mechanics> ,
+		<http://dbpedia.org/resource/Genesis_(band)> ;
+	dbo:abstract	"Michael John Cloete Crawford \"Mike\" Rutherford (born 2 October 1950) is an English musician. He is a founding member of Genesis and one of the band's only two original members. Initially serving as Genesis' bass guitarist and backing vocalist, Rutherford also performed most of the band's rhythm guitar parts - frequently on twelve-string guitar - in collaboration with successive Genesis lead guitarists Anthony Phillips and Steve Hackett. Following Hackett's departure from Genesis in 1977, Rutherford assumed the additional role of lead guitarist on the band's studio albums (beginning with ...And Then There Were Three... in 1978). Rutherford was one of the main Genesis songwriters throughout their career and wrote the lyrics for some of the band's biggest international hits, such as \"Follow You Follow Me\", \"Turn It On Again\", \"Land of Confusion\" and \"Throwing It All Away\". He was inducted into the Rock and Roll Hall of Fame as a member of Genesis in 2010. In addition to his work with Genesis, Rutherford released two solo albums in the early 1980s. In 1985, he formed the highly-successful band Mike + The Mechanics, which became a chart-topping act and significant live draw in its own right, and earned Rutherford an Ivor Novello Award for the 1988 single \"The Living Years\"."@en ;
+	dbo:associatedMusicalArtist	dbr:Red_7 ,
+		<http://dbpedia.org/resource/Mike_+_The_Mechanics> ,
+		<http://dbpedia.org/resource/Genesis_(band)> ;
+	dbp:caption	"Rutherford playing at Manchester, England, in 2007"^^rdf:langString .
+dbr:Mike_Shinoda	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1977-2-11"^^xsd:date ,
+		"1977-02-11"^^xsd:date ;
+	foaf:name	"Mike Shinoda"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Mike_Shinoda_World_Expo_2008.jpg?width=300> ;
+	dbo:abstract	"Michael Kenji \"Mike\" Shinoda (born February 11, 1977) is an American musician, rapper, singer, songwriter, record producer, graphic designer, manager and film composer. He co-founded Linkin Park in 1996 and is the band's rhythm guitarist, songwriter, keyboardist, and co-vocalist. Shinoda later created a hip hop-driven side project, Fort Minor, in 2004. He served as a producer for tracks and albums by Lupe Fiasco, Styles of Beyond, and The X-Ecutioners. Shinoda is also the co-founder of Machine Shop Recordings, a California-based record label. Outside of music, Shinoda is an artist and graphic designer. He has painted several pieces of artwork, some of which have been featured in the Japanese American National Museum."@en ;
+	dbp:caption	"Shinoda at World Expo 2008"^^rdf:langString .
+dbr:Mos_Def	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1973-12-11"^^xsd:date ;
+	foaf:name	"Mos Def"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Mos_Def_-_Ilosaarirock_2012.jpg?width=300> ;
+	dbo:abstract	"Mos Def (/\u02C8mo\u028As \u02C8d\u025Bf/); born Dante Terrell Smith; December 11, 1973), also known by his recently used stage name Yasiin Bey (/j\u00E6\u02C8si\u02D0n \u02C8be\u026A/), is an American hip hop recording artist, actor, and activist from Brooklyn, New York City, New York. Best known for his music, Mos Def embarked on his hip hop career in 1994, alongside his siblings in the short-lived rap group Urban Thermo Dynamics (UTD), after which he appeared on albums by Da Bush Babees and De La Soul. He subsequently formed the trio Black Star, alongside fellow Brooklyn-based rapper Talib Kweli, and Cincinnati producer Hi-Tek and released their eponymous debut album in 1998. He was a major force in late-1990s underground hip hop while under Rawkus Records. In 1999, Mos Def released his solo debut, Black on Both Sides, under Rawkus and Priority Records. His debut was followed by The New Danger (2004), True Magic (2006) and The Ecstatic (2009). The editors at About.com listed him as the 14th greatest emcee of all time on their \"50 greatest MC's of our time\" list. Prior to his career in music, Mos Def first entered public life as a child actor, having played roles in television movies, sitcoms, and theater, some of which were under the name Dante Beze. At the age of 14, he appeared in the TV movie God Bless the Child, which aired on ABC in 1988. He played the oldest child in the 1990 family sitcom You Take the Kids, shortly before it was cancelled. In 1995, he played the character \"Dante\" in The Cosby Mysteries. Since the early 2000s, Mos Def has been well known for his roles in films such as Something the Lord Made, Next Day Air, The Hitchhiker's Guide to the Galaxy, 16 Blocks, Be Kind Rewind, The Italian Job, Bamboozled and Brown Sugar, as well as for his portrayal of Brother Sam in the Showtime drama series Dexter. He is also known as the host of Def Poetry Jam, which aired on HBO between 2002 and 2007. Mos Def has been vocal on several social and political causes, including police brutality, the idea of American exceptionalism, and the state of African Americans."@en ;
+	dbp:caption	"Mos Def performing at the 2012 Ilosaarirock festival"^^rdf:langString .
+dbr:Murray_Cook	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1960-6-30"^^xsd:date ,
+		"1960-06-30"^^xsd:date ;
+	foaf:name	"Murray Cook"@en ;
+	dbo:thumbnail	<http://en.wikipedia.org/wiki/Special:FilePath/Murray_Cook110807.jpg?width=300> ;
+	dbo:associateBand	dbr:The_Wiggles ,
+		dbr:Bang_Shang_a_Lang ;
+	dbo:abstract	"Murray James Cook, AM (born 30 June 1960) is an Australian vocalist, songwriter, musician, and guitarist. He is best known as one of the founding members of the children's band The Wiggles. Cook was also a regular guest on the Australian TV show Spicks and Specks, with his good friend, host Adam Hills."@en ;
+	dbo:associatedMusicalArtist	dbr:Bang_Shang_a_Lang ,
+		dbr:The_Wiggles ;
+	dbp:caption	"Murray Cook of The Wiggles, 2007."^^rdf:langString .
+dbr:Mylène_Farmer	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1961-9-12"^^xsd:date ,
+		"1961-09-12"^^xsd:date ;
+	foaf:name	"Myl\u00E8ne Farmer"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Myl\u00E8ne_Farmer_NRJ_Music_Awards_2012.jpg?width=300> ;
+	dbo:associateBand	dbr:Jean-Louis_Murat ,
+		dbr:Jeff_Dahlgren ,
+		dbr:Moby ,
+		<http://dbpedia.org/resource/Sting_(musician)> ,
+		dbr:Ben_Harper ,
+		<http://dbpedia.org/resource/Seal_(musician)> ,
+		dbr:RedOne ,
+		dbr:Alizée ,
+		dbr:Laurent_Boutonnat ,
+		<http://dbpedia.org/resource/Archive_(band)> ;
+	dbo:abstract	"Myl\u00E8ne Farmer (pronounced: [mil\u025Bn fa\u0281m\u0153\u0281]; born Myl\u00E8ne Jeanne Gautier; [mil\u025Bn \u0292an \u0261otje]; born 12 September 1961) is a French recording artist, songwriter, occasional actress, writer and entrepreneur. She was born in Pierrefonds, Quebec, in a French family, and brought up in France. She has sold more than 30 million records in France and is among the most successful recording artists of all-time there. She holds the record for the most number one hits in the French charts, with fifteen to date \u2013 eight of which were consecutive. Twelve of her albums have also reached number one in France."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Seal_(musician)> ,
+		dbr:Laurent_Boutonnat ,
+		dbr:Jean-Louis_Murat ,
+		<http://dbpedia.org/resource/Sting_(musician)> ,
+		dbr:RedOne ,
+		<http://dbpedia.org/resource/Archive_(band)> ,
+		dbr:Ben_Harper ,
+		dbr:Jeff_Dahlgren ,
+		dbr:Alizée ,
+		dbr:Moby ;
+	dbp:caption	"Myl\u00E8ne Farmer at NRJ Music Awards 2012"^^rdf:langString .
+dbr:Nami_Tamaki	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1988-6-1"^^xsd:date ,
+		"1988-06-01"^^xsd:date ;
+	foaf:name	"Nami Tamaki"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Nami_Tamaki_at_Hong_Kong_Airport.JPG?width=300> ;
+	dbo:abstract	"Nami Tamaki (\u7389\u7F6E \u6210\u5B9F Tamaki Nami, born June 1, 1988) is a Japanese pop singer. As a teenager under the Sony Music Japan label, she had four top-ten albums, two of which reached number one, and her singles were used as theme songs for anime shows such as Mobile Suit Gundam Seed, Gundam Seed Destiny, and D. Gray-man, as well as being representative of the J-Pop music trend. She has various commercial tie-ins with the anime and games industry, and has also performed in stage musicals and a movie."@en .
+dbr:Neal_Morse	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1960-08-02"^^xsd:date ,
+		"1960-8-2"^^xsd:date ;
+	foaf:name	"Neal Morse"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Neal_Morse2.jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/Transatlantic_(band)> ,
+		<http://dbpedia.org/resource/Flying_Colors_(band)> ,
+		dbr:Eric_Burdon ,
+		<http://dbpedia.org/resource/Spock\u0027s_Beard> ,
+		dbr:Yellow_Matter_Custard ;
+	dbo:abstract	"Neal Morse (born August 2, 1960) is an American singer, multi-instrumentalist, bandleader and progressive rock composer based in Nashville, Tennessee. In 1995, he formed the progressive rock band Spock's Beard with his brother Alan and released an album which was moderately successful. In 1999, he joined former Dream Theater co-founder Mike Portnoy, Flower Kings' Roine Stolt and Marillion's Pete Trewavas to form the supergroup Transatlantic. In 2002, Neal Morse became a born again Christian, left Spock's Beard and began a Christian rock solo career, releasing many progressive rock concept albums about his new religious faith. In the meantime, he continued to play with Transatlantic and formed three new band, Yellow Matter Custard, Flying Colors and The Neal Morse Band."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Flying_Colors_(band)> ,
+		dbr:Yellow_Matter_Custard ,
+		<http://dbpedia.org/resource/Spock\u0027s_Beard> ,
+		dbr:Eric_Burdon ,
+		<http://dbpedia.org/resource/Transatlantic_(band)> ;
+	dbp:caption	"Neal Morse in 2007, performing in Zoetermeer, Netherlands"^^rdf:langString .
+dbr:Neil_Zaza	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1964-1-1"^^xsd:date ;
+	foaf:name	"Neil Zaza"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Neil-Zaza_2009.jpg?width=300> ;
+	dbo:abstract	"Neil Zaza is an instrumental guitarist who has become well known for his technical accuracy and adaptation of classical works by Bach and Mozart into his own blend of neo-classical, melodic, guitar instrumentals."@en ;
+	dbp:caption	"Zaza in concert, 2009"^^rdf:langString .
+<http://dbpedia.org/resource/O\u0027Bryan>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1961-12-5"^^xsd:date ,
+		"1961-12-05"^^xsd:date ;
+	foaf:name	"O'Bryan"@en ;
+	dbo:abstract	"O'Bryan McCoy Burnette II, known mononymously as O'Bryan (born on December 5, 1961 in Sneads Ferry, North Carolina), is an American singer-songwriter."@en .
+<http://dbpedia.org/resource/Ol\u0027_Dirty_Bastard>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1968-11-15"^^xsd:date ;
+	foaf:name	"Ol' Dirty Bastard"@en ;
+	dbo:associateBand	dbr:Mariah_Carey ,
+		dbr:Brooklyn_Zu ,
+		dbr:Eazy-E ,
+		dbr:Busta_Rhymes ,
+		dbr:E-40 ,
+		dbr:Wu-Tang_Clan ,
+		dbr:Tha_Alkaholiks ,
+		dbr:Chris_Rock ;
+	dbo:abstract	"Russell Tyrone Jones (November 15, 1968 \u2013 November 13, 2004), better known under his stage name Ol' Dirty Bastard (or ODB), was an American rapper and producer. He was one of the founding members of the Wu-Tang Clan, a rap group primarily from Staten Island, New York which first rose to mainstream prominence with their 1993 debut album Enter the Wu-Tang (36 Chambers). After establishing the Wu-Tang Clan, Ol' Dirty Bastard went on to pursue a successful solo career and contributed as a rapper/producer for the Fugees. However, his professional success was hampered by frequent legal troubles, including incarceration. He died on November 13, 2004, of a drug overdose, two days before his 36th birthday. Before his death, Ol' Dirty Bastard recorded his third solo album, which remains unreleased. Ol' Dirty Bastard was noted for his \"outrageously profane, free-associative rhymes delivered in a distinctive half-rapped, half-sung style\". His stage name was derived from the 1980 martial arts film Ol' Dirty and the Bastard (also called An Old Kung Fu Master, starring Yuen Siu-tien)."@en ;
+	dbo:associatedMusicalArtist	dbr:Wu-Tang_Clan ,
+		dbr:Mariah_Carey ,
+		dbr:E-40 ,
+		dbr:Brooklyn_Zu ,
+		dbr:Chris_Rock ,
+		dbr:Eazy-E ,
+		dbr:Busta_Rhymes ,
+		dbr:Tha_Alkaholiks ;
+	dbp:caption	"Ol' Dirty Bastard, May 2003"^^rdf:langString .
+dbr:Ozzy_Osbourne	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1948-12-3"^^xsd:date ,
+		"1948-12-03"^^xsd:date ;
+	foaf:name	"Ozzy Osbourne"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/OzzyChangingHands02-20-2010.jpg?width=300> ;
+	dbo:associateBand	dbr:Black_Sabbath ;
+	dbo:abstract	"John Michael \"Ozzy\" Osbourne (born 3 December 1948) is an English singer, songwriter, television personality and actor. He rose to prominence in the early 1970s as the lead vocalist of the heavy metal band Black Sabbath. Osbourne was fired from Black Sabbath in 1979 and has since had a successful solo career, releasing 11 studio albums, the first seven of which were all awarded multi-platinum certifications in the US. He has reunited with Black Sabbath on several occasions, recording the album 13 in 2013. Osbourne's longevity and success have earned him the informal title of \"Godfather of Heavy Metal\". Osbourne's total album sales from his years in Black Sabbath, combined with his solo work, is over 100 million. As a member of Black Sabbath, he was inducted into the US Rock and Roll Hall of Fame, and he was inducted into the UK Music Hall of Fame as a solo artist and as a member of the band. Osbourne has a star on the Birmingham Walk of Stars in his hometown as well as the Hollywood Walk of Fame. At the 2014 MTV Europe Music Awards he received the Global Icon Award. In the early 2000s, he became a TV star, appearing as himself in the MTV reality program The Osbournes, alongside wife/manager Sharon and two of their three children, Kelly and Jack. Osbourne had a cameo role as himself in Ghostbusters: Answer the Call (2016). He is appearing with son Jack in the 2016 worldwide travelogue docuseries Ozzy & Jack's World Detour."@en ;
+	dbo:associatedMusicalArtist	dbr:Black_Sabbath ;
+	dbp:caption	"--02-20"^^xsd:gMonthDay .
+dbr:Parveen_Sultana	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1950-7-10"^^xsd:date ,
+		"1950-05-24"^^xsd:date ;
+	foaf:name	"Parveen Sultana"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Parveen_Sultana.jpg?width=300> ;
+	dbo:abstract	"Begum Parveen Sultana (Assamese: \u09AC\u09C7\u0997\u09AE \u09AA\u09BE\u09F0\u09F1\u09C0\u09A8 \u099A\u09C1\u09B2\u09A4\u09BE\u09A8\u09BE) (born 10 July 1950) is an Assamese Hindustani classical singer of the Patiala Gharana. She was awarded the Padma Shri (1976), Padma Bhushan (2014) by the Government of India, and the Sangeet Natak Akademi Award, 1998, given by Sangeet Natak Akademi, India's National Academy of Music, Dance and Drama."@en ;
+	dbp:caption	"Parveen Sultana"^^rdf:langString .
+dbr:Pastor_Troy	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1977-11-18"^^xsd:date ;
+	foaf:name	"Pastor Troy"@en ;
+	dbo:associateBand	dbr:Criminal_Manne ,
+		dbr:Chamillionaire ,
+		<http://dbpedia.org/resource/1017_Brick_Squad> ,
+		dbr:Dj_INC ,
+		dbr:J_Holiday ,
+		dbr:Lil_Jon ,
+		dbr:Big_Boi ,
+		dbr:Wiz_Khalifa ,
+		dbr:Lil_Wyte ,
+		dbr:Waka_Flocka_Flame ,
+		dbr:Xzibit ,
+		dbr:Snoop_Dogg ,
+		dbr:Goodie_Mob ,
+		dbr:Young_Jeezy ,
+		dbr:Killer_Mike ,
+		dbr:Gucci_Mane ,
+		dbr:OJ_da_Juiceman ,
+		<http://dbpedia.org/resource/T.I.> ,
+		dbr:Prophet_Posse ;
+	dbo:abstract	"Micah LeVar Troy (born November 18, 1977) is an American rapper. He is also a member of the hardcore rap group D.S.G.B. (Down South Georgia Boyz)."@en ;
+	dbo:associatedMusicalArtist	dbr:Snoop_Dogg ,
+		dbr:Killer_Mike ,
+		<http://dbpedia.org/resource/T.I.> ,
+		dbr:Chamillionaire ,
+		dbr:Prophet_Posse ,
+		dbr:J_Holiday ,
+		dbr:Lil_Jon ,
+		dbr:Xzibit ,
+		dbr:Waka_Flocka_Flame ,
+		dbr:Goodie_Mob ,
+		dbr:Lil_Wyte ,
+		dbr:Wiz_Khalifa ,
+		dbr:Big_Boi ,
+		dbr:Gucci_Mane ,
+		<http://dbpedia.org/resource/1017_Brick_Squad> ,
+		dbr:Young_Jeezy ,
+		dbr:Dj_INC ,
+		dbr:Criminal_Manne ,
+		dbr:OJ_da_Juiceman .
+dbr:Patsy_Montana	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1908-10-30"^^xsd:date ;
+	foaf:name	"Patsy Montana"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Patsy_Montana_Billboard.jpg?width=300> ;
+	dbo:associateBand	dbr:Roy_Rogers ,
+		dbr:Gene_Autry ;
+	dbo:abstract	"Ruby Rose Blevins (October 30, 1908 \u2013 May 3, 1996), known professionally as Patsy Montana, was an American country music singer, songwriter and actress. Montana was the first female country performer to have a million-selling single with her signature song \"I Want to Be a Cowboy's Sweetheart\", and is a member of the Country Music Hall of Fame."@en ;
+	dbo:associatedMusicalArtist	dbr:Roy_Rogers ,
+		dbr:Gene_Autry .
+dbr:Pepe_Romero	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1944-03-08"^^xsd:date ,
+		"1944-3-8"^^xsd:date ;
+	foaf:name	"Pepe Romero"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Pepe_Romero_2000.JPG?width=300> ;
+	dbo:associateBand	dbr:The_Romero_Guitar_Quartet ;
+	dbo:abstract	"Pepe Romero (born March 8, 1944, in M\u00E1laga, Spain) is a classical and flamenco guitarist. He is particularly noted for his outstanding technique and colorful musical interpretations on the instrument."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Romero_Guitar_Quartet ;
+	dbp:caption	"Pepe Romero in 2000"^^rdf:langString .
+dbr:Peter_Elkas	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1976-07-24"^^xsd:date ,
+		"1976-7-24"^^xsd:date ;
+	foaf:name	"Peter Elkas"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Peter_Elkas.jpg?width=300> ;
+	dbo:associateBand	dbr:Joel_Plaskett ,
+		dbr:Local_Rabbits ,
+		dbr:The_Joel_Plaskett_Emergency ;
+	dbo:abstract	"Peter Elkas (born July 24, 1976 in Montreal, Quebec) is a Canadian singer-songwriter, signed to MapleMusic Recordings. He spent twelve years as part of the Montreal band Local Rabbits, with whom he started playing as a teenager. He released his first solo album, Party of One, in 2004, and has opened for such artists as Ron Sexsmith, Joel Plaskett, Feist and k-os. Charlie Sexton produced Elkas' 2007 release, Wall of Fire. Along with Ian McGettigan, Elkas produced an album of all original material, 2011's Repeat Offender on New Scotland Records."@en ;
+	dbo:associatedMusicalArtist	dbr:Joel_Plaskett ,
+		dbr:Local_Rabbits ,
+		dbr:The_Joel_Plaskett_Emergency ;
+	dbp:caption	"Peter Elkas performing at the Horseshoe Tavern in Toronto, Ontario, 2007"^^rdf:langString .
+dbr:Polly_Brown	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1947-4-18"^^xsd:date ,
+		"1947-04-18"^^xsd:date ;
+	foaf:name	"Polly Brown"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Sweet_Dreams_(1970s_band)> ,
+		dbr:Pickettywitch ;
+	dbo:abstract	"Polly Browne (aka Polly Brown) (born 18 April 1947) is an English singer. A member of Pickettywitch and Sweet Dreams - and with each group lead singer on a Top Ten hit, respectively \"That Same Old Feeling\" and \"Honey Honey\" - Brown had an international solo hit in 1975 with \"Up in a Puff of Smoke\"."@en ;
+	dbo:associatedMusicalArtist	dbr:Pickettywitch ,
+		<http://dbpedia.org/resource/Sweet_Dreams_(1970s_band)> .
+dbr:Romeo_Santos	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1981-7-21"^^xsd:date ,
+		"1981-07-21"^^xsd:date ;
+	foaf:name	"Romeo Santos de Scaroni"@en ,
+		"Romeo Santos"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Romeo_Santos_CT.jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/Aventura_(band)> ;
+	dbo:abstract	"Anthony Santos (born July 21, 1981), known professionally as Romeo Santos, is an American singer, songwriter, actor, record producer and former lead singer of the American bachata group Aventura. After releasing several albums with Aventura, the group went its separate ways. Since then, Romeo has embarked on a solo career which in three years has spawned seven number one songs on the Hot Latin Songs chart and eight number ones on the Tropical Songs chart."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Aventura_(band)> .
+<http://dbpedia.org/resource/The_Game_(rapper)>	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1979-11-29"^^xsd:date ;
+	foaf:name	"The Game"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/The_Game_2016.jpg?width=300> ;
+	dbo:associateBand	dbr:Chris_Brown ,
+		dbr:Snoop_Dogg ,
+		dbr:Kendrick_Lamar ,
+		dbr:Nas ,
+		dbr:Lil_Wayne ,
+		dbr:Kanye_West ,
+		<http://dbpedia.org/resource/Dr._Dre> ,
+		dbr:Fabolous ,
+		dbr:G-Unit ;
+	dbo:abstract	"Jayceon Terrell Taylor (born November 29, 1979), better known by his stage name The Game (or simply Game), is an American rapper and actor. The Game is best known as a rapper in the West Coast hip hop scene and for being one of Dr. Dre's signers under Aftermath Records. Born in Los Angeles, California, he released his first mixtape You Know What It Is Vol. 1 in 2002; shortly after, he was signed to Dr. Dre's Aftermath Entertainment label. He rose to fame in 2005 with the success of his major-label debut album The Documentary and found continued success with the 2006 follow-up Doctor's Advocate. The Recording Industry Association of America certified The Documentary double platinum in March 2005. A rising artist in the 2000s, The Game was considered to be a driving force in bringing back the West Coast hip hop scene into the mainstream and competing with many of his East Coast counterparts. The Game was placed into G-Unit by Dr. Dre and Jimmy Iovine. As a result of his disputes with 50 Cent, Game left Aftermath Entertainment and signed with Geffen Records, another label under Universal Music Group's Interscope-Geffen-A&M division, to terminate his contractual obligations with G-Unit in the summer of 2006. The Game's second major label album Doctor's Advocate was released on November 14, 2006 and it became his second straight album to debut at number one on the U.S. Billboard 200 chart. Doctor's Advocate did not feature any production from Dr. Dre. Pitchfork Media placed The Documentary at number 35 on their list of Top 50 Albums of 2005. The Game was nominated with a total of two nominations, including Grammy Award for Best Rap Song and Grammy Award for Best Rap Performance by a Duo or Group for the smash single \"Hate It or Love It\". The New York Times named Doctor's Advocate best hip-hop album of 2006. His next album LAX was released in 2008. With his eighth studio album The R.E.D. Album, The Game again debuted at number one on the Billboard 200. In addition to music, The Game has starred in motion pictures and founded The Black Wall Street Records. In September 2011, The Game started working on his ninth studio album, Jesus Piece, which was released on December 11, 2012, his final album released by Interscope. After releasing a mixtape OKE, on October 12, 2013, Birdman announced The Game had signed to Cash Money Records, which is distributed by Republic Records. However, The Game later refuted this claim. His latest album is 1992 was released on October 14, 2016 and spawned to official singles."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Dr._Dre> ,
+		dbr:Kanye_West ,
+		dbr:Snoop_Dogg ,
+		dbr:Lil_Wayne ,
+		dbr:Kendrick_Lamar ,
+		dbr:Fabolous ,
+		dbr:G-Unit ,
+		dbr:Chris_Brown ,
+		dbr:Nas ;
+	dbp:caption	"The Game speaking at a press conference, July 2016"^^rdf:langString .
+dbr:Yazz	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1960-5-19"^^xsd:date ,
+		"1960-05-19"^^xsd:date ;
+	foaf:name	"Yazz"@en ;
+	dbo:abstract	"Yazz (born Yasmin Evans, 19 May 1960) is a British pop singer, who remains best known for her successful 1988 dance track, \"The Only Way Is Up\". Some of her records were credited to Yazz & The Plastic Population."@en .
+dbr:YolanDa_Brown	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1982-10-04"^^xsd:date ,
+		"1982-10-4"^^xsd:date ;
+	foaf:name	"YolanDa Brown"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Yolanda_Brown_2012.jpg?width=300> ;
+	dbo:abstract	"YolanDa Brown, born to Jamaican parents in Barking, London, England (4 October 1982), is a British saxophonist and composer. A past student of Bancroft's School, Beal High School, and the University of Kent, Kent Business School in Canterbury, England, and the University of Oviedo in Asturias, Spain. Her undergraduate Master's dissertation was on \"Combining SSM (Soft systems methodology) and DESM (Discrete event simulation) in an Athletics Club.\" She also fronted a TV talk show on a Sky Channel and appeared in inspirational idents for BET network.(Black Entertainment Television) Considered a brilliant saxophonist in the UK, Yolanda Brown\u2019s sound is influenced primarily by the modal values of jazz, soul music and reggae. She is a 2008 MOBO \"Best Jazz\" winner and UMA nominee. In 2009, she became the first musician to not only be nominated in the \"Best Jazz\" category of the MOBOs in consecutive years, but also the first to win it two years running. In 2009 she also won \"Best Jazz\" at the UMAs. A prolific collaborator, Brown has worked with musicians such as Jools Holland, Grammy Award-winners Morgan Heritage, Lemar, Michelle Williams of Destiny\u2019s Child, reggae legend Bob Marley\u2019s son Julian Marley, Matt Cardle, Shingai Shoniwa of the Noisettes, The Floacist from the duo Floetry, Mica Paris, Omar Lye-Fook, Wretch 32 Sonny Bradshaw, Otis Williams and the The Temptations along with their legendary manager Shelly Berger. Brown's pivotal performances of 2010 included an invitation to take part in PanJazz 2010 on its transfer from the Lincoln Center in New York to the UK. This saw her performing alongside musicians including Etienne Charles and Leon Foster Thomas. Her 19 November concert at IndigO2 at the O2 Arena, London continued her record of musically excellent and uniquely entertaining sold out events. On 2 December 2010, Brown was presented with an Honorary Doctorate of the Arts by the University of East London in a ceremony at the Barbican Theatre, London. For YolanDa music has always been a therapeutic and enabling force that promotes 360-degree communication and empowering links across all humankind. In striving to share and involve the many rather than an elite few through the wonder of music, she was honoured to become a Celebrity Ambassador for HRH The Prince of Wales and His Prince's Trust charity. She is an ambassador for the Prince's Foundation for Children and the Arts. She is a Yamaha-endorsed artist and was appointed the UK's class band ambassador in February 2011. Yamaha Class Band is a whole-class wind band teaching method, currently being piloted, until July 2012, in a collaboration between Yamaha UK and two of the UK's leading music services. She is also a patron of the Mayor of London's Fund for Young Musicians, which provides outstanding progression and development opportunities to young people who demonstrate significant musical talent and commitment. In February 2012 YolanDa released her first album. Remaining an independent artist, she kicked off a UK and overseas tour in support of the album with two benchmark concerts at the HMV Hammersmith Apollo accompanied by her full band and the Royal Philharmonic Concert Orchestra. At the end of the year, April Showers, May Flowers was listed as an album of the year on the UK iTunes \"Best Jazz Album of 2012\" list. Brown's sophomore album is due for release in 2016. In addition, during 2016 she embarked upon her biggest and most extensive nationwide tour to date, featuring her musical hybrid programme entitled \u201CReggae Love Songs\u201D. Yolanda\u2019s Reggae Love Songs will run up to November 2016 when she will return to London to headline her own show at the Barbican Centre to officially end the tour and launch her new album . In spring 2016, YolanDa Brown returned on selected dates as special guest during the UK leg of Billy Ocean\u2019s \u201CWhen The Going Gets Tough\u201D 30th Anniversary tour."@en .
+dbr:Young_Buck	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1981-3-15"^^xsd:date ,
+		"1981-03-15"^^xsd:date ;
+	foaf:name	"Young Buck"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Young_Buck_Departs_From_LAX_-_cropped.jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/615_(group)> ,
+		<http://dbpedia.org/resource/UTP_(group)> ,
+		dbr:Young_Jeezy ,
+		dbr:C-Bo ,
+		<http://dbpedia.org/resource/B.G._(rapper)> ,
+		dbr:Three_6_Mafia ,
+		dbr:G-Unit ,
+		dbr:Drumma_Boy ,
+		<http://dbpedia.org/resource/8Ball_&_MJG> ,
+		dbr:Tha_City_Paper ,
+		dbr:The_Outlawz ;
+	dbo:abstract	"David Darnell Brown (born March 15, 1981), best known by his stage name Young Buck, is an American rapper and actor. Buck is a former member of the hip hop group UTP Playas. As a music executive, he is heads his own record label, Ca$hville Records, and is currently a member of the hip hop group G-Unit. After being dismissed from the group back in 2008, Buck reunited with his former group members on June 1, 2014 at Hot 97's Summer Jam event."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/615_(group)> ,
+		<http://dbpedia.org/resource/8Ball_&_MJG> ,
+		dbr:C-Bo ,
+		dbr:Young_Jeezy ,
+		<http://dbpedia.org/resource/B.G._(rapper)> ,
+		dbr:G-Unit ,
+		dbr:Three_6_Mafia ,
+		<http://dbpedia.org/resource/UTP_(group)> ,
+		dbr:Drumma_Boy ,
+		dbr:The_Outlawz ,
+		dbr:Tha_City_Paper ;
+	dbp:caption	"Young Buck departs from the LAX in November 2011."^^rdf:langString .
+dbr:Aaron_Carter	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1987-12-7"^^xsd:date ,
+		"1987-12-07"^^xsd:date ;
+	foaf:name	"Aaron Carter"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Aaron_Carter_Performing_at_the_Gramercy_Theatre_-_Photo_by_Peter_Dzubay.jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/Nick_Carter_(musician)> ,
+		dbr:Backstreet_Boys ,
+		dbr:Leslie_Carter ,
+		dbr:Drake_Bell ;
+	dbo:abstract	"Aaron Charles Carter (born December 7, 1987) is an American singer. He came to fame as a pop and hip hop singer in the late 1990s, establishing himself as a star among pre-teen and teenage audiences during the early 2000s with his four studio albums. Born in Tampa, Florida, Carter began performing at age seven and released his self-titled debut album in 1997. His second album Aaron's Party (Come Get It) (2000) sold three million copies in the United States, and Carter began making guest appearances on Nickelodeon and touring with the Backstreet Boys shortly after the record's release. Carter's next album, Oh Aaron, also went platinum, and the musician released his most recent studio album, Another Earthquake!, in 2002, followed by his 2003 Most Requested Hits collection. He has since appeared on Dancing With the Stars, the Broadway play The Fantasticks, and made several one-off performances. In 2014, he announced that he would begin releasing new music and began by releasing a single featuring rapper Pat SoLo, \"Ooh Wee\", which first became available as a free download with purchase on his web store, and is reportedly working on a new studio album titled L\u00D8V\u00CB, set to be released in late 2016. Carter released Fool's Gold as the album's first single on November 24, 2015."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Nick_Carter_(musician)> ,
+		dbr:Backstreet_Boys ,
+		dbr:Leslie_Carter ,
+		dbr:Drake_Bell ;
+	dbp:caption	"Carter performing at the Gramercy Theatre in 2014"^^rdf:langString .
+dbr:Alanis_Morissette	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1974-6-1"^^xsd:date ,
+		"1974-06-01"^^xsd:date ;
+	foaf:name	"Alanis Morissette"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Alanis_Morissette_5-19-2014.jpg?width=300> ;
+	dbo:abstract	"Alanis Nadine Morissette (born June 1, 1974) is a Canadian alternative rock singer-songwriter, musician, multi-instrumentalist, record producer, and actress. Morissette began her career in Canada in the early 1990s, with two commercially successful dance-pop albums. Afterwards, she moved to Los Angeles, California, and in 1995, released Jagged Little Pill, a more rock-oriented album which sold more than 33 million units globally. Her following album, Supposed Former Infatuation Junkie, was released in 1998. Morissette took up producing duties for her subsequent albums, which include Under Rug Swept (2002), So-Called Chaos (2004), and Flavors of Entanglement (2008). Her eighth studio album, Havoc and Bright Lights, was released in 2012. Morissette has sold more than 60 million albums worldwide. Morissette is also known for her powerful and emotive mezzo-soprano voice. She has been dubbed the \"Queen of alt-rock angst\"by Rolling Stone."@en ;
+	dbp:caption	"Beverly Hills, California in May 2014"^^rdf:langString ,
+		"Morissette performing at Saban Theater in"^^rdf:langString .
+dbr:Alicia_Keys	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1981-01-25"^^xsd:date ,
+		"1981-1-25"^^xsd:date ;
+	foaf:name	"Alicia Keys"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/AliciaKeys2013.jpg?width=300> ;
+	dbo:abstract	"Alicia Augello Cook (born January 25, 1981), known by her stage name Alicia Keys, is an American singer, songwriter, actress, record producer and philanthropist. Keys released her debut album with J Records, having had previous record deals first with Columbia and then Arista Records. Keys' debut album, Songs in A Minor, was a commercial success, selling over 12 million copies worldwide. She became the best-selling new artist and best-selling R&B artist of 2001. The album earned Keys five Grammy Awards in 2002, becoming the second American recording artist to win five Grammys in one night. It produced her first Billboard Hot 100 number-one single \"Fallin'\" won Song of the Year. Her sophomore album, The Diary of Alicia Keys, was released in 2003, spawning successful singles \"You Don't Know My Name\", \"If I Ain't Got You\" and \"Diary\", and selling eight million copies worldwide. The duet song \"My Boo\" with Usher, scored her a second number-one single in 2004. The album garnered her an additional four Grammy Awards in 2005. Later that year, she released her first live album, Unplugged, which debuted at number one in the United States. She became the first female to have an MTV Unplugged album to debut at number one and the highest since Nirvana in 1994. Keys has made guest appearances on several television series, beginning with The Cosby Show and most recently on season 2 of Empire. She made her film debut in Smokin' Aces and also went on to appear in The Nanny Diaries in 2007. Her third studio album, As I Am, was released in the same year and sold five million copies worldwide, earning Keys an additional three Grammy Awards. It produced the Hot 100 number-one single \"No One\". The following year, she appeared in The Secret Life of Bees, which earned her a nomination at the NAACP Image Awards. She released her fourth album, The Element of Freedom, in December 2009, which became Keys' first chart-topping album in the United Kingdom. Keys additionally collaborated with Jay Z on \"Empire State of Mind\" as a featuring vocalist, winning a Grammy Award as Best Rap/Sung Collaboration in 2010. It became her fourth number-one single on the Hot 100. She released her fifth album, Girl on Fire, in November 2012, which became Keys' fifth chart-topping album on the Billboard 200, spawning successful single \"Girl On Fire\". Keys released her second live album, VH1 Storytellers, in June 2013. Throughout her career, Keys has won numerous awards such as 15 Grammy Awards, and has sold over 35 million albums and 30 million singles worldwide. Billboard magazine named her the top R&B songs artist of the 2000s decade. In 2010, VH1 included Keys on its list of the 100 Greatest Artists of All Time. Billboard magazine placed her number ten on their list of Top 50 R&B/Hip-Hop Artists of the Past 25 Years. In February 2012, Keys was ranked 14th on VH1's 100 Greatest Women in Music list. Keys was ranked at number thirty-three on VH1's \"50 Greatest Women of the Video Era\" list and number 10 on their \"100 Sexiest Artists\" list."@en ;
+	dbp:caption	"Keys at the 2013 ARIA Music Awards in Sydney, Australia"^^rdf:langString .
+dbr:Alpha_Blondy	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1953-1-1"^^xsd:date ,
+		"1953-01-01"^^xsd:date ;
+	foaf:name	"Alpha Blondy"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Alpha_Blondy_013_Tilburg.jpg?width=300> ;
+	dbo:associateBand	dbr:The_Wailers ;
+	dbo:abstract	"Alpha Blondy (born Seydou Kon\u00E9; 1 January 1953 in Dimbokro, Ivory Coast) is a reggae singer and international recording artist. Many of his songs are politically motivated, and are mainly sung in his native language of Dioula, French and in English, though he occasionally uses other languages, for example, Arabic or Hebrew."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Wailers ;
+	dbp:caption	"Alpha Blondy live at 013 Tilburg, Netherlands, 2016"^^rdf:langString .
+dbr:Art_Garfunkel	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1941-11-5"^^xsd:date ,
+		"1941-11-05"^^xsd:date ;
+	foaf:name	"Art Garfunkel"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Art_Garfunkel_2013.jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/Simon_&_Garfunkel> ;
+	dbo:abstract	"Arthur Ira \"Art\" Garfunkel (born November 5, 1941) is an American singer, poet and actor. He is best known for his partnership in his earlier years with Paul Simon in the folk rock duo Simon & Garfunkel. Highlights of his solo music career include a top 10 hit, three top 20 hits, six top 40 hits, 14 Adult Contemporary top 30 singles, five Adult Contemporary number ones, two UK number ones and a People's Choice Award. Through his solo and collaborative work, Garfunkel has earned six Grammys, including the Lifetime Achievement Award. In 1990, he and Simon were inducted into the Rock and Roll Hall of Fame."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Simon_&_Garfunkel> ;
+	dbp:caption	"Art Garfunkel in New York City, 2013"^^rdf:langString .
+dbr:Billy_Childish	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1959-12-1"^^xsd:date ,
+		"1959-12-01"^^xsd:date ;
+	foaf:name	"Billy Childish"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Wolf_Howard._Billy_Childish.jpg?width=300> ;
+	dbo:associateBand	dbr:The_Medway_Poets ,
+		dbr:Thee_Milkshakes ,
+		<http://dbpedia.org/resource/Holly_Golightly_(singer)> ,
+		dbr:Thee_Mighty_Caesars ,
+		dbr:Thee_Headcoats ,
+		dbr:Mudhoney ;
+	dbo:abstract	"Billy Childish (born Steven John Hamper, 1 December 1959) is an English painter, author, poet, photographer, film maker, singer and guitarist. Since the late 1970s, Childish has been prolific in creating music, writing and visual art. He has led and played in bands including the Pop Rivets, Thee Milkshakes, Thee Headcoats, and the Musicians of the British Empire, primarily working in the genres of garage rock, punk and surf. He is a consistent advocate for amateurism and free emotional expression. Childish co-founded the Stuckism art movement with Charles Thomson in 1999, which he left in 2001. Since then a new evaluation of Childish's standing in the art world has been under way, culminating with the publication of a critical study of Childish's working practice by the artist and writer Neal Brown, with an introduction by Peter Doig, which describes Childish as \"one of the most outstanding, and often misunderstood, figures on the British art scene\". He is a visiting lecturer at Rochester Independent College. In July 2014 Childish was awarded an honorary Doctor of Arts Degree from the University of Kent. He is known for his explicit and prolific work \u2013 he has detailed his love life and childhood sexual abuse, notably in his early poetry and the novels My Fault (1996), Notebooks of a Naked Youth (1997), Sex Crimes of the Futcher (2004) \u2013 The Idiocy of Idears (2007), and in several of his songs, notably in the instrumental \"Paedophile\" (1992) (featuring a photograph of the man who sexually abused him on the front cover) and \"Every Bit of Me\" (1993). From 1981 until 1985 Childish had a relationship with artist Tracey Emin. Thirty years after Childish's first musical releases with Thee Milkshakes and Thee Mighty Caesars, a crop of lo-fi, surf rock and punk groups with psychedelic subtexts has surfaced referencing the aesthetic established by Childish in both their band names and in various aspects of their sonic aesthetic: Thee Oh Sees, Thee Open Sex, Thee Tsunamis, Thee Dang Dangs and many others."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Holly_Golightly_(singer)> ,
+		dbr:Thee_Milkshakes ,
+		dbr:Mudhoney ,
+		dbr:Thee_Headcoats ,
+		dbr:The_Medway_Poets ,
+		dbr:Thee_Mighty_Caesars ;
+	dbp:caption	"Pinhole photograph of Billy Childish from 2003"^^rdf:langString .
+dbr:Bono	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1960-5-10"^^xsd:date ,
+		"1960-05-10"^^xsd:date ;
+	foaf:name	"Bono"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Bono_2014.jpg?width=300> ;
+	dbo:associateBand	dbr:U2 ,
+		dbr:Original_Soundtracks_1 ;
+	dbo:abstract	"Paul David Hewson (born 10 May 1960), known by his stage name Bono (/\u02C8b\u0252no\u028A/), is an Irish singer-songwriter, musician, venture capitalist, businessman, and philanthropist. He is best known as the lead vocalist of rock band U2. Bono was born and raised in Dublin, Ireland, and attended Mount Temple Comprehensive School where he met his future wife, Alison Stewart, and the future members of U2. Bono writes almost all U2 lyrics, frequently using religious, social, and political themes. During U2's early years, his lyrics contributed to their rebellious and spiritual tone. As the band matured, his lyrics became inspired more by personal experiences shared with the other members. Outside the band, he has collaborated and recorded with numerous artists, is managing director and a managing partner of Elevation Partners, and has refurbished and owns the Clarence Hotel in Dublin with The Edge. Bono is also widely known for his activism concerning Africa, for which he co-founded DATA, EDUN, the ONE Campaign and Product Red. He has organised and played in several benefit concerts and has met with influential politicians. Bono has been praised for his activism and involvement with U2. Bono was granted an honorary knighthood by Elizabeth II of the United Kingdom for \"his services to the music industry and for his humanitarian work\", and has been made a Commandeur of the French Ordre des Arts et des Lettres (Order of Arts and Letters). Together with Bill and Melinda Gates, Bono was named Time Person of the Year in 2005, among other awards and nominations."@en ;
+	dbo:associatedMusicalArtist	dbr:U2 ,
+		dbr:Original_Soundtracks_1 ;
+	dbp:caption	"Bono at the 2014 Web Summit"^^rdf:langString .
+dbr:Brian_Jones	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1942-02-28"^^xsd:date ,
+		"1942-2-28"^^xsd:date ;
+	foaf:name	"Brian Jones"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Brian_Jones_1965.jpg?width=300> ;
+	dbo:associateBand	dbr:The_Rolling_Stones ,
+		dbr:The_Beatles ,
+		dbr:Master_Musicians_of_Joujouka ,
+		dbr:Jimi_Hendrix ;
+	dbo:abstract	"Lewis Brian Hopkin Jones (28 February 1942 \u2013 3 July 1969) was an English musician, the founder and the original leader of The Rolling Stones. Jones was a multi-instrumentalist, with his main instruments being the guitar, harmonica and keyboards. Although he was originally the leader of the group, Jones's fellow band members Mick Jagger and Keith Richards soon overshadowed him, especially after they became a successful songwriting team. Jones developed a serious drug problem over the years and his role in the band steadily diminished. The band asked Jones to leave the Rolling Stones in June 1969 and guitarist Mick Taylor took his place in the group. Jones died less than a month later by drowning in the swimming pool at his home on Cotchford Farm in Hartfield, East Sussex. Original Rolling Stones bass guitarist Bill Wyman said of Jones, \"He formed the band. He chose the members. He named the band. He chose the music we played. He got us gigs. ... he was very influential, very important, and then slowly lost it \u2013 highly intelligent \u2013 and just kind of wasted it and blew it all away.\""@en ;
+	dbo:associatedMusicalArtist	dbr:Master_Musicians_of_Joujouka ,
+		dbr:The_Rolling_Stones ,
+		dbr:Jimi_Hendrix ,
+		dbr:The_Beatles ;
+	dbp:caption	"--05-04"^^xsd:gMonthDay .
+dbr:Brian_Wilson	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1942-06-20"^^xsd:date ,
+		"1942-6-20"^^xsd:date ;
+	foaf:name	"Brian Wilson"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Brian_Wilson_2009.png?width=300> ;
+	dbo:associateBand	dbr:Andy_Paley ,
+		dbr:Wondermints ,
+		dbr:California_Music ,
+		dbr:The_Honeys ,
+		<http://dbpedia.org/resource/Joe_Thomas_(producer)> ,
+		dbr:Stephen_Kalinich ,
+		dbr:American_Spring ,
+		dbr:Van_Dyke_Parks ,
+		dbr:The_Wilsons ,
+		dbr:The_Beach_Boys ,
+		dbr:Jan_and_Dean ,
+		dbr:Don_Was ,
+		dbr:Gary_Usher ;
+	dbo:abstract	"Brian Douglas Wilson (born June 20, 1942) is an American musician, singer, songwriter, and record producer best known for being the multi-tasking leader and co-founder of the Beach Boys. After signing with Capitol Records in 1962, Wilson wrote or co-wrote more than two dozen Top 40 hits for the group. Because of his unorthodox approaches to song composition and arrangement and mastery of recording techniques, he is widely acknowledged as one of the most innovative and influential creative forces in popular music by critics and musicians alike. In the mid-1960s, Wilson composed, arranged and produced Pet Sounds (1966), considered one of the greatest albums ever made. The intended follow-up to Pet Sounds, Smile, was canceled for various reasons, which included Wilson's deteriorating mental health. As he suffered repeated nervous breakdowns, Wilson's contributions to the Beach Boys diminished, and his erratic behavior led to tensions with the band. Following a court-ordered removal from the care of psychologist Eugene Landy, Wilson started receiving conventional medical treatment, and in the late 1990s, he began performing and recording consistently as a solo artist. He remains a member of the Beach Boys' corporation, Brother Records Incorporated. Wilson is considered a major innovator in the field of music production, the principal originator of the California Sound, one of the first music producer auteurs, and one of the most famous examples of the outsider musician. According to Erik Davis, \"Not only did [he] write a soundtrack to the early '60s, but Brian let loose a delicate and joyful art pop unique in music history and presaged the mellowness so fundamental to '70s California pop.\" The A.V. Club wrote that Wilson was among \"studio rats ... [that] set the pace for how pop music could and should sound in the Flower Power era: at once starry-eyed and wistful.\" Only 21 years old when he received the freedom to produce his own records with total creative autonomy, he ignited an explosion of like-minded California producers, supplanting New York as the center of popular records, and becoming the first rock producer to use the studio as its own instrument. Wilson effectively set a precedent that allowed bands and artists to enter a recording studio and act as their own producers or co-producers. His honors include being inducted into the 1988 Rock and Roll Hall of Fame and winning Grammy Awards for Brian Wilson Presents Smile (2004) and The Smile Sessions (2011). In lists published by Rolling Stone, Wilson ranked 52 for the \"100 Greatest Singers of All Time\" in 2008 and 12 for the \"100 Greatest Songwriters of All Time\" in 2015. In 2012, music publication NME ranked Wilson number 8 in its \"50 Greatest Producers Ever\" list, elaborating \"few consider quite how groundbreaking Brian Wilson's studio techniques were in the mid-60s\". He is an occasional actor and voice actor, having appeared in television shows, films, and other artists' music videos. His life was portrayed in the 2014 biopic Love & Mercy, which received a wide release in 2015."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Honeys ,
+		dbr:Don_Was ,
+		dbr:American_Spring ,
+		<http://dbpedia.org/resource/Joe_Thomas_(producer)> ,
+		dbr:Stephen_Kalinich ,
+		dbr:Gary_Usher ,
+		dbr:Wondermints ,
+		dbr:The_Beach_Boys ,
+		dbr:Van_Dyke_Parks ,
+		dbr:Jan_and_Dean ,
+		dbr:Andy_Paley ,
+		dbr:California_Music ,
+		dbr:The_Wilsons ;
+	dbp:caption	"Wilson performing in the UK in 2009"^^rdf:langString .
+dbr:Captain_Beefheart	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1941-1-15"^^xsd:date ,
+		"1941-01-15"^^xsd:date ;
+	foaf:name	"Captain Beefheart"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Captain_Beefheart_in_Toronto.jpg?width=300> ;
+	dbo:associateBand	dbr:Jack_Nitzsche ,
+		dbr:Zoot_Horn_Rollo ,
+		dbr:The_Mothers_of_Invention ,
+		dbr:Gary_Lucas ,
+		dbr:Moris_Tepper ,
+		dbr:Jeff_Cotton ,
+		dbr:Winged_Eel_Fingerling ,
+		dbr:Rockette_Morton ,
+		dbr:Frank_Zappa ,
+		dbr:The_Tubes ,
+		dbr:The_Mascara_Snake ,
+		dbr:Ry_Cooder ,
+		<http://dbpedia.org/resource/John_French_(musician)> ,
+		dbr:Eric_Drew_Feldman ,
+		<http://dbpedia.org/resource/Mallard_(band)> ;
+	dbo:abstract	"Don Van Vliet (/v\u00E6n \u02C8vli\u02D0t/, born Don Glen Vliet; January 15, 1941 \u2013 December 17, 2010) was an American singer, songwriter, musician and artist best known by the stage name Captain Beefheart. His musical work was conducted with a rotating ensemble of musicians called the Magic Band (1965\u20131982), with whom he recorded 13 studio albums. Noted for his powerful singing voice and his wide vocal range, Van Vliet also played the harmonica, saxophone, and numerous other wind instruments. His music integrated blues, rock, psychedelia, and free jazz with contemporary experimental composition and the avant-garde. Beefheart was also known for often constructing myths about his life and for exercising an almost dictatorial control over his supporting musicians. An artistic prodigy in his childhood, Van Vliet developed an eclectic musical taste during his teen years in Lancaster, California, and formed \"a mutually useful but volatile\" friendship with musician Frank Zappa, with whom he sporadically competed and collaborated. He began performing with his Captain Beefheart persona in 1964 and joined the original Magic Band line-up, initiated by Alexis Snouffer, in 1965. The group drew attention with their cover of Bo Diddley's \"Diddy Wah Diddy\", which became a regional hit. It was followed by their acclaimed debut album Safe as Milk, released in 1967 on Buddah Records. After being dropped by two consecutive record labels, they signed to Zappa's Straight Records. As producer, Zappa granted Beefheart unrestrained artistic freedom in making 1969's Trout Mask Replica, which was ranked 58th in Rolling Stone magazine's 2003 list of the 500 greatest albums of all time. Beefheart followed this up with the album Lick My Decals Off, Baby, released in 1970. In 1974, frustrated by lack of commercial success, he released two albums of more conventional rock music that were critically panned; this move, combined with not having been paid for a European tour, and years of enduring Beefheart's abusive behavior, led the entire band to quit. Beefheart eventually formed a new Magic Band with a group of younger musicians and regained contemporary approval through three final albums: Shiny Beast (1978), Doc at the Radar Station (1980) and Ice Cream for Crow (1982). Van Vliet has been described as \"one of modern music's true innovators\" with \"a singular body of work virtually unrivalled in its daring and fluid creativity.\" Although he achieved little commercial or mainstream critical success, he sustained a cult following as a \"highly significant\" and \"incalculable\" influence on an array of new wave, punk, post-punk, experimental and alternative rock musicians. Known for his enigmatic personality and relationship with the public, Van Vliet made few public appearances after his retirement from music in 1982. He pursued a career in art, an interest that originated in his childhood talent for sculpture, and a venture which proved to be his most financially secure. His expressionist paintings and drawings command high prices, and have been exhibited in art galleries and museums across the world. Van Vliet died in 2010, having suffered from multiple sclerosis for many years."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/John_French_(musician)> ,
+		dbr:The_Mothers_of_Invention ,
+		dbr:Eric_Drew_Feldman ,
+		dbr:Jeff_Cotton ,
+		dbr:Jack_Nitzsche ,
+		dbr:Frank_Zappa ,
+		dbr:Gary_Lucas ,
+		dbr:Ry_Cooder ,
+		dbr:Winged_Eel_Fingerling ,
+		dbr:Zoot_Horn_Rollo ,
+		dbr:Moris_Tepper ,
+		dbr:Rockette_Morton ,
+		dbr:The_Mascara_Snake ,
+		<http://dbpedia.org/resource/Mallard_(band)> ,
+		dbr:The_Tubes ;
+	dbp:caption	"At Convocation Hall (University of Toronto), 1974"^^rdf:langString .
+dbr:Chayanne	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1968-06-28"^^xsd:date ,
+		"1968-6-28"^^xsd:date ;
+	foaf:name	"Chayanne"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Chayannemn.jpg?width=300> ;
+	dbo:associateBand	dbr:Los_Chicos ;
+	dbo:abstract	"Elmer Figueroa Arce (born June 28, 1968), better known under the stage name Chayanne, is a Puerto Rican Latin pop singer, actor and composer. As a solo artist, Chayanne has released 21 solo albums and sold over 30 million albums worldwide."@en ;
+	dbo:associatedMusicalArtist	dbr:Los_Chicos ;
+	dbp:caption	"Chayanne performing at the Nokia Theatre in Grand Prairie, Texas, United States"^^rdf:langString .
+dbr:Dave_Mustaine	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1961-9-13"^^xsd:date ,
+		"1961-09-13"^^xsd:date ;
+	foaf:name	"Dave Mustaine"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Dave_Mustaine_2011_(cropped).jpg?width=300> ;
+	dbo:associateBand	dbr:Red_Lamb ,
+		dbr:Metallica ,
+		dbr:Megadeth ,
+		<http://dbpedia.org/resource/MD.45> ;
+	dbo:abstract	"David Scott \"Dave\" Mustaine (born September 13, 1961) is an American musician, singer, songwriter, actor and author. He is best known as the co-founder, guitarist, and lead singer of the American thrash metal band Megadeth, and the original lead guitarist and co-founder for the American thrash metal band Metallica."@en ;
+	dbo:associatedMusicalArtist	dbr:Metallica ,
+		dbr:Red_Lamb ,
+		<http://dbpedia.org/resource/MD.45> ,
+		dbr:Megadeth ;
+	dbp:caption	"Mustaine performing at Sonisphere 2011"^^rdf:langString .
+dbr:David_Ellefson	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1964-11-12"^^xsd:date ;
+	foaf:name	"David Ellefson"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Megadeth_@_Arena_Joondalup_(12_12_2010)_(5272639753).jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/Altitudes_&_Attitude> ,
+		<http://dbpedia.org/resource/Ministry_(band)> ,
+		<http://dbpedia.org/resource/Hail!> ,
+		<http://dbpedia.org/resource/Avian_(band)> ,
+		<http://dbpedia.org/resource/Killing_Machine_(band)> ,
+		<http://dbpedia.org/resource/F5_(band)> ,
+		dbr:Megadeth ,
+		dbr:Soulfly ;
+	dbo:abstract	"David Warren Ellefson (born November 12, 1964) is an American bassist and co-founding member of the American thrash metal band Megadeth from 1983 to 2002 and again from 2010. He has also been referred to as \"Junior\" to differentiate him from his bandmate Dave Mustaine but does not go by this name professionally. Ellefson currently resides in Scottsdale, Arizona. In addition to playing bass guitar in Megadeth, Ellefson also has various side projects which include Temple of Brutality, F5, and Killing Machine."@en ;
+	dbo:associatedMusicalArtist	dbr:Soulfly ,
+		<http://dbpedia.org/resource/Altitudes_&_Attitude> ,
+		<http://dbpedia.org/resource/Ministry_(band)> ,
+		<http://dbpedia.org/resource/Killing_Machine_(band)> ,
+		dbr:Megadeth ,
+		<http://dbpedia.org/resource/Avian_(band)> ,
+		<http://dbpedia.org/resource/Hail!> ,
+		<http://dbpedia.org/resource/F5_(band)> ;
+	dbp:caption	"Dave Ellefson playing with Megadeth at Arena Joondalup"^^rdf:langString .
+dbr:Doc_Watson	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1923-03-03"^^xsd:date ,
+		"1923-3-3"^^xsd:date ;
+	foaf:name	"Doc Watson"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Doc_Watson_Sugar_Grove.jpg?width=300> ;
+	dbo:associateBand	dbr:Merle_Watson ;
+	dbo:abstract	"Arthel Lane \"Doc\" Watson (March 3, 1923 \u2013 May 29, 2012) was an American guitarist, songwriter, and singer of bluegrass, folk, country, blues, and gospel music. Watson won seven Grammy awards as well as a Grammy Lifetime Achievement Award. Watson's flatpicking skills and knowledge of traditional American music were highly regarded. He performed with his son, guitarist Merle Watson, for over 15 years until Merle's death in 1985 in an accident on the family farm."@en ;
+	dbo:associatedMusicalArtist	dbr:Merle_Watson ;
+	dbp:caption	"Doc Watson at MusicFest 'n Sugar Grove in Sugar Grove, North Carolina in 2009"^^rdf:langString .
+dbr:Elliott_Smith	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1969-08-06"^^xsd:date ,
+		"1969-8-6"^^xsd:date ;
+	foaf:name	"Elliott Smith"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Elliott_Smith.jpg?width=300> ;
+	dbo:associateBand	dbr:Pete_Krebs ,
+		<http://dbpedia.org/resource/No._2_(band)> ,
+		dbr:Beck ,
+		dbr:Mary_Lou_Lord ,
+		dbr:Quasi ,
+		dbr:Heatmiser ;
+	dbo:abstract	"Steven Paul \"Elliott\" Smith (August 6, 1969 \u2013 October 21, 2003) was an American singer, songwriter, and musician. Smith was born in Omaha, Nebraska, raised primarily in Texas, and lived for much of his life in Portland, Oregon, where he first gained popularity. Smith's primary instrument was the guitar, though he was also proficient with piano, clarinet, bass guitar, drums, and harmonica. Smith had a distinctive vocal style, characterized by his \"whispery, spiderweb-thin delivery\", and used multi-tracking to create vocal layers, textures, and harmonies. After playing in the rock band Heatmiser for several years, Smith began his solo career in 1994, with releases on the independent record labels Cavity Search and Kill Rock Stars (KRS). In 1997, he signed a contract with DreamWorks Records, for which he recorded two albums. Smith rose to mainstream prominence when his song \"Miss Misery\"\u2014included in the soundtrack for the film Good Will Hunting (1997)\u2014was nominated for an Oscar in the Best Original Song category in 1998. Smith abused alcohol and drugs, while suffering from depression, and these topics often appear in his lyrics. In 2003, aged 34, he died in Los Angeles, California from two stab wounds to the chest. The autopsy evidence was inconclusive as to whether the wounds were self-inflicted. At the time of his death, Smith was working on his sixth studio album, From a Basement on the Hill, which was posthumously completed and released in 2004."@en ;
+	dbo:associatedMusicalArtist	dbr:Mary_Lou_Lord ,
+		dbr:Beck ,
+		dbr:Pete_Krebs ,
+		dbr:Quasi ,
+		dbr:Heatmiser ,
+		<http://dbpedia.org/resource/No._2_(band)> ;
+	dbp:caption	"Smith performing in Los Angeles, February 2003"^^rdf:langString .
+dbr:Fennesz	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1962-12-25"^^xsd:date ;
+	foaf:name	"Christian Fennesz"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Fennesz_in_Bethesda,_Maryland,_on_September_21,_2010_(5027816082).jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/Fenn_O\u0027Berg> ;
+	dbo:abstract	"Christian Fennesz (born 25 December 1962) is an Austrian guitarist and composer active in electronic music, often credited on recordings simply as Fennesz. Fennesz uses guitar and notebook computers to make multilayered compositions that blend melody and treated samples with glitch-influenced sounds and washes of white noise. He lives and works in Vienna, Austria."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Fenn_O\u0027Berg> ;
+	dbp:caption	"Fennesz performing in Bethesda, Maryland, September 2010"^^rdf:langString .
+dbr:George_Martin	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1926-01-03"^^xsd:date ,
+		"1926-1-3"^^xsd:date ;
+	foaf:name	"George Martin"@en ,
+		"Sir George Martin"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/George_Martin_-_backstage_at_LOVE.jpg?width=300> ;
+	dbo:associateBand	<http://dbpedia.org/resource/America_(band)> ,
+		dbr:John_Lennon ,
+		dbr:Jeff_Beck ,
+		dbr:Paul_McCartney ,
+		<http://dbpedia.org/resource/Wings_(band)> ,
+		dbr:Mahavishnu_Orchestra ,
+		dbr:Cilla_Black ,
+		dbr:The_Beatles ;
+	dbo:abstract	"Sir George Henry Martin CBE (3 January 1926 \u2013 8 March 2016) was an English record producer, arranger, composer, conductor, audio engineer and musician. He was referred to as the \"Fifth Beatle\", including by Paul McCartney, in reference to his extensive involvement on each of the Beatles' original albums. Martin had 30 number-one hit singles in the United Kingdom and 23 number-one hits in the United States. Martin produced comedy and novelty records in the early 1950s, working with Peter Sellers, Spike Milligan and Bernard Cribbins, among others. His career spanned more than six decades of work in music, film, television and live performance. He held a number of senior executive roles at media companies and contributed to a wide range of charitable causes, including his work for The Prince's Trust and the Caribbean island of Montserrat. In recognition of his services to the music industry and popular culture, he was made a Knight Bachelor in 1996."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/America_(band)> ,
+		dbr:Jeff_Beck ,
+		dbr:John_Lennon ,
+		dbr:The_Beatles ,
+		dbr:Mahavishnu_Orchestra ,
+		dbr:Paul_McCartney ,
+		<http://dbpedia.org/resource/Wings_(band)> ,
+		dbr:Cilla_Black ;
+	dbp:caption	"Martin backstage at the Beatles' Love show, Las Vegas, c. 2006"^^rdf:langString .
+dbr:Cyril_Cinélu	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1987-1-23"^^xsd:date ,
+		"1987-01-23"^^xsd:date ;
+	foaf:name	"Cyril Cin\u00E9lu"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Concertstarac6runiondu1ua5.jpg?width=300> ;
+	dbo:associateBand	dbr:Star_Academy ;
+	dbo:abstract	"Cyril Cin\u00E9lu, born 23 January 1987 in Lagny-sur-Marne, is a Francophone singer originally from Martinique who won the sixth season of Star Academy on 22 December 2006."@en ;
+	dbo:associatedMusicalArtist	dbr:Star_Academy ;
+	dbp:origin	"Paris, France"^^rdf:langString .
+dbr:Jam_Hsiao	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1987-3-30"^^xsd:date ;
+	foaf:name	"\u856D\u656C\u9A30"@en ,
+		"Jam Hsiao"@en ,
+		"Xi\u0101o J\u00ECngt\u00E9ng"@en ,
+		"\u8427\u656C\u817E"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Jam_at_2012_Macau_concert.jpg?width=300> ;
+	dbo:abstract	"Jam Hsiao (traditional Chinese: \u856D\u656C\u9A30; simplified Chinese: \u8427\u656C\u817E; pinyin: Xi\u0101o J\u00ECngt\u00E9ng; Wade\u2013Giles: Hsiao Ching-teng, born 30 March 1987 in Taipei, Taiwan) is a Taiwanese Mandopop singer. At the age of 17, while still in high school, he began working as a restaurant singer. In May 2007, Hsiao took part in the first season of China Television (CTV)'s (\u4E2D\u8996) star search show, One Million Star (\u8D85\u7D1A\u661F\u5149\u5927\u9053), which was the Taiwanese equivalence of American Idol. He was a challenger and quickly rose to fame with his wide vocal ranges and unique singing style. His diverse music genres and charisma quickly captured the attention of the Taiwanese media and music industry. After signing a contract with Warner Music Taiwan Ltd. in 2008, Jam Hsiao has released eight individual records and received good reviews and sales in Taiwan, Hong Kong, Singapore, Mainland China, and other Southeast Asian countries. In 2011, Jam was offered the lead role in the action film The Killer Who Never Kills and won the Best New Actor Award in Hong Kong's 2012 31st Golden Film. In 2013, his fourth album It's All About Love won him the prestigious title of Best Male Singer at Taiwan's 24th Golden Melody Awards. His second movie, My Geeky Nerdy Buddies, a romance comedy in which he played the role of the male lead was released in August in Mainland China and Taiwan. Jam is currently on his third world tour, called \"Triple Jam\". He released a cover album titled \"Reminiscence\" in December 2015. All 10 tracks were covers of popular classic oldies and the entire album recording only took 8 hours, all in only one take - with both Jam and his group of musicians recording the instrumental and singing parts simultaneously."@en ;
+	dbp:caption	"Jam at Concert in Macau"^^rdf:langString ;
+	dbp:origin	dbr:Taiwan .
+dbr:Alan_Dawa_Dolma	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1987-7-25"^^xsd:date ;
+	foaf:name	"Alan Dawa Dolma"@en ,
+		"\u0100l\u00E1n D\u00E1w\u01CEzhu\u00F3m\u01CE"@en ,
+		"\u963F\u862D\u00B7\u9054\u74E6\u5353\u746A"@en ,
+		"\u963F\u5170\u00B7\u8FBE\u74E6\u5353\u739B"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Alan_tgs08.jpg?width=300> ;
+	dbo:abstract	"Alan Dawa Dolma (Tibetan: \u0F68\u0F0B\u0F63\u0F53\u0F0B\u0F5F\u0FB3\u0F0B\u0F56\u0F0B\u0F66\u0F92\u0FB2\u0F7C\u0F63\u0F0B\u0F58\u0F0B, ZYPY: Alain Dawazhoima; simplified Chinese: \u963F\u5170\u00B7\u8FBE\u74E6\u5353\u739B; traditional Chinese: \u963F\u862D\u00B7\u9054\u74E6\u5353\u746A; pinyin: \u0100l\u00E1n D\u00E1w\u01CEzhu\u00F3m\u01CE; born on July 25, 1987), professionally known as Alan (stylized as alan or aLan) (Japanese: \u30A2\u30E9\u30F3, simplified Chinese: \u963F\u5170; traditional Chinese: \u963F\u862D), is a female Chinese singer active in both Chinese and Japanese music industry. She is of Tibetan ethnicity. Discovered by Avex Trax at an audition in China in 2006, she made her debut in Japan the following year. Her main producer and composer is Kazuhito Kikuchi and she is also known for playing the erhu. In 2009, her ninth Japanese single \"Kuon no Kawa\" debuted at No.3 on the Oricon weekly charts, the highest ever by a singer from China."@en ;
+	dbp:caption	"Alan at the Tokyo Game Show 2008"^^rdf:langString ;
+	dbp:origin	dbr:Chengdu ,
+		<http://dbpedia.org/resource/People\u0027s_Republic_of_China> ,
+		dbr:Sichuan .
+dbr:Amber_Kuo	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1986-2-19"^^xsd:date ;
+	foaf:name	"Amber Kuo"@en ,
+		"\u90ED\u91C7\u6F54"@en ,
+		"Gu\u014D C\u01CEiji\u00E9"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/\u90ED\u91C7\u6F54.jpg?width=300> ;
+	dbo:abstract	"Amber Kuo (Chinese: \u90ED\u91C7\u6F54; pinyin: Gu\u014D C\u01CEiji\u00E9; Pe\u030Dh-\u014De-j\u012B: Kok Chh\u00E1i-kiat, born 19 February 1986) is a Taiwanese Mandopop singer and actress."@en ;
+	dbp:origin	dbr:Taiwan .
+dbr:Ayano_Ōmoto	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1988-9-20"^^xsd:date ,
+		"1988-09-20"^^xsd:date ;
+	foaf:name	"Ayano \u014Cmoto"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/At_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_(22241488958).jpg?width=300> ;
+	dbo:abstract	"Ayano \u014Cmoto (\u5927\u672C \u5F69\u4E43 \u014Cmoto Ayano, born 20 September 1988), nicknamed Nocchi (\u306E\u3063\u3061 Notchi, stylized as NOCCHi), is a Japanese singer and dancer. She is known as one of the members of the Japanese electropop group Perfume."@en ;
+	dbp:origin	"Fukuyama, Hiroshima Prefecture, Japan"^^rdf:langString .
+dbr:Eiza_González	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1990-01-30"^^xsd:date ,
+		"1991-1-30"^^xsd:date ;
+	foaf:name	"Eiza Gonz\u00E1lez"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Eiza_Gonz\u00E1lez_en_IDM_pasarelas.jpg?width=300> ;
+	dbo:abstract	"Eiza Gonz\u00E1lez Reyna (Spanish pronunciation: ['ei\u032F\u03B8a \u0263on\u0325'\u03B8ale\u03B8 'r\u0304ei\u032Fna]; born 30 January 1990 in Caborca, Sonora, Mexico) is a Mexican actress and singer. In 2007, she gained popularity for her debut role as \"Lola\" in the Mexican teen-oriented musical telenovela Lola...\u00C9rase una vez. She currently plays Santanico Pandemonium, on the television show, From Dusk till Dawn: The Series."@en ;
+	dbp:origin	dbr:Mexico_City ,
+		dbr:Mexico .
+dbr:Filippos_Pliatsikas	rdf:type	umbel-rc:MusicalPerformer ;
+	dbo:birthDate	"1967-1-1"^^xsd:date ;
+	foaf:name	"Filippos Pliatsikas"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Filippos_Pliatsikas_in_KNE_Festival_2009.jpg?width=300> ;
+	dbo:abstract	"Filippos Pliatsikas (Greek: \u03A6\u03AF\u03BB\u03B9\u03C0\u03C0\u03BF\u03C2 \u03A0\u03BB\u03B9\u03AC\u03C4\u03C3\u03B9\u03BA\u03B1\u03C2) was the main composer, lyricist, and lead singer of the Entekhno rock group Pyx Lax (\u03A0\u03C5\u03BE \u039B\u03B1\u03BE) and is now a solo artist."@en ;
+	dbp:caption	"Filippos Pliatsikas performing live in Patras"^^rdf:langString ;
+	dbp:origin	"Greece"^^rdf:langString .

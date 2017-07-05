@@ -1,0 +1,225 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+@prefix schema:	<http://schema.org/> .
+dbr:Six_Feet_Down_Under	rdf:type	schema:MusicAlbum .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+dbr:Six_Feet_Down_Under	foaf:name	"Six Feet Down Under"@en .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbr:Six_Feet_Down_Under	dbo:abstract	"Six Feet Down Under is a limited edition commemorative live EP by the American heavy metal band Metallica. It was released in Australia and New Zealand only on September 20, 2010 through Universal Music. It has been sold by Trans-Tasman record stores, Metallica online store and iTunes only. The EP contains eight songs recorded by fans, and live recordings from the band's archive that were never released (being two of each year the band performed in Australia)."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Universal_Music_Group .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:Six_Feet_Down_Under	dbo:releaseDate	"2010-09-20"^^xsd:date .
+<http://dbpedia.org/resource/...And_Justice_for_All_(album)>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"\u2026And Justice for All"@en ;
+	dbo:abstract	"\u2026And Justice for All is the fourth studio album by American heavy metal band Metallica, released on August 25, 1988, by Elektra Records. It was the band's first studio album to feature bassist Jason Newsted after the death of Cliff Burton in 1986. \u2026And Justice for All is musically progressive, with long and complex songs, fast tempos, and few verse-chorus structures. The album is noted for its sterile production, which producer Flemming Rasmussen attributed to his absence during the mixing process. The lyrics feature themes of political and legal injustice seen through the prisms of censorship, war, and nuclear brinkmanship. The album's front cover, designed by Stephen Gorman on a scheme by James Hetfield and Lars Ulrich, features a representation of Lady Justice, bound by ropes, with one breast bare and its scales tipping toward one plate filled with money. The phrase \"\u2026And Justice for All\" appears spray-painted in the lower right corner. The album title is derived from the American Pledge of Allegiance. Originally released on one vinyl disc, the album was quickly re-released as a double album without additional tracks. Three songs from the album were released as singles: \"Harvester of Sorrow\", \"Eye of the Beholder\", and \"One\", while the title track was released as a promotional single. \u2026And Justice for All was acclaimed by music critics. It was included in The Village Voice's annual Pazz & Jop critics' poll of the year's best albums, and the single \"One\" earned Metallica its first Grammy Award for Best Metal Performance in 1990. The group's best-selling album at the time, it was the first underground metal album to achieve chart success in the United States. The album was certified 8\u00D7 platinum by the Recording Industry Association of America (RIAA) in 2003 for shipping eight million copies in the US, making it Metallica's second-best-selling album in the country."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Elektra_Records ;
+	dbo:releaseDate	"1988-08-25"^^xsd:date .
+<http://dbpedia.org/resource/Live_at_Grimey\u0027s>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Live at Grimey's"@en ;
+	dbo:abstract	"Live at Grimey's is a live album by the American heavy metal band Metallica. The album was recorded live on June 12, 2008, at The Basement, a venue beneath Grimey's New & Preloved Music in Nashville, Tennessee, just before their appearance at the Bonnaroo Music Festival. It was released on November 26, 2010. It was released on both CD and vinyl, and is available at independent record stores, as well as the band's website. In its first week after release, the EP sold around 3,000 copies. As opposed to all of Metallica releases from Death Magnetic onwards, Live at Grimey's is its first release since the band's live album S&M (1999) to use the original Metallica logo rather than the more slanted one used for Death Magnetic."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Thrash_metal ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Warner_Bros.> ;
+	dbo:releaseDate	"2010-11-26"^^xsd:date .
+dbr:Six_Feet_Down_Under_Part_II	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Six Feet Down Under Part II"@en ;
+	dbo:abstract	"Six Feet Down Under Part II is a limited edition commemorative live EP by the American heavy metal band Metallica. It is the second part of the band's previous live EP, Six Feet Down Under, and was released in Australia and New Zealand only, on November 12, 2010 through Universal Music. Like the EP's preceder (part one), it has been sold by Trans-Tasman record stores, Metallica online store and iTunes only, and contains eight songs from the early part of the tour in Australia and New Zealand in 2010 as voted by members of the Metallica Fan Club living in those areas."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Universal_Music_Group ;
+	dbo:releaseDate	"2010-11-12"^^xsd:date .
+<http://dbpedia.org/resource/Garage_Inc.>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Garage, Inc."@en ;
+	dbo:abstract	"Garage, Inc. is a cover/compilation album by the American thrash metal band Metallica. It was released on November 23, 1998 through Elektra Records. Over 2.5 million copies have been sold in the U.S. as certified by the RIAA. It includes cover songs, B-side covers, and The $5.98 E.P.: Garage Days Re-Revisited, which had gone out of print since its original release in 1987. The title is a combination of Garage Days Revisited and their song \"Damage, Inc.\", from Master of Puppets, and the album's artwork draws heavily from the 1987 EP. The album features songs by artists that have influenced Metallica, including many bands from the new wave of British heavy metal movement, hardcore punk bands and popular songs. As of August 2013 the album has sold more than 6 million copies worldwide."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Crossover_thrash ,
+		dbr:Heavy_metal_music ,
+		dbr:Hard_rock ,
+		dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Elektra_Records ,
+		<http://dbpedia.org/resource/Sony_Music_Entertainment_(Japan)> ,
+		dbr:Vertigo_Records ;
+	dbo:releaseDate	"1998-11-23"^^xsd:date .
+<http://dbpedia.org/resource/Load_(album)>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Load"@en ;
+	dbo:abstract	"Load is the sixth studio album by the American heavy metal band Metallica, released on June 4, 1996 by Elektra Records in the United States and by Vertigo Records internationally. The album showed more of a hard rock side of Metallica than the band's typical thrash metal style, which alienated much of the band's fanbase. It also featured influences from genres such as Southern rock, blues rock, country rock and alternative rock. Drummer Lars Ulrich said about Load's more exploratory nature, \"This album and what we're doing with it \u2013 that, to me, is what Metallica are all about: exploring different things. The minute you stop exploring, then just sit down and fucking die.\" Load debuted and spent four consecutive weeks at number one on the US Billboard 200 chart. Load sold 680,000 units in its first week, making it the biggest opening week for Metallica as well as the biggest debut of 1996. It was certified 5\u00D7 platinum by the Recording Industry Association of America (RIAA) for shipping five million copies in the United States. Four singles; \"Until It Sleeps\", \"Hero of the Day\", \"Mama Said\", and \"King Nothing\", were released as part of the marketing campaign for the album."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Hard_rock ;
+	dbo:recordLabel	dbr:Elektra_Records ,
+		dbr:Vertigo_Records ;
+	dbo:releaseDate	"1996-06-04"^^xsd:date .
+dbr:Master_of_Puppets	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Master of Puppets"@en ;
+	dbo:abstract	"Master of Puppets is the third studio album by American heavy metal band Metallica, released on March 3, 1986 by Elektra Records. Recorded at the Sweet Silence Studios with producer Flemming Rasmussen, it was the first Metallica album released on a major label. Master of Puppets was the band's last album to feature bassist Cliff Burton, who died in a bus crash in Sweden during the album's promotional tour. The album peaked at number 29 on the Billboard 200 and became the first thrash metal album to be certified platinum. It was certified 6\u00D7 platinum by the Recording Industry Association of America (RIAA) in 2003 for shipping six million copies in the United States. The album was eventually certified 6\u00D7 platinum by Music Canada and gold by the British Phonographic Industry (BPI). Master of Puppets was released to critical acclaim and has been included in several publications' best album lists. Its driving, virtuosic music and angry, political lyrics drew praise from critics outside the metal community. The album is considered the band's strongest effort of the period and is one of the most influential heavy metal albums. Critics credit it for consolidating the American thrash metal scene with its atmospheric and meticulously performed songs. Many bands from all genres of heavy metal have covered the album's songs, including tribute albums. Master of Puppets was deemed \"culturally, historically, or aesthetically significant\" enough for preservation in the National Recording Registry by the United States Library of Congress in 2016. Only 450 recordings have earned this distinction, with Master of Puppets being the first metal selection. The cover was designed by Metallica and Peter Mensch and painted by Don Brautigam. It depicts a cemetery field of white crosses tethered to strings, manipulated by a pair of hands in a blood-red sky. Instead of releasing a single or video in the US to promote Master of Puppets, Metallica embarked on a five-month American tour in support of Ozzy Osbourne. The European leg was canceled after Burton's death in September 1986, and the band returned home to audition a new bassist. Metallica honored the album's 20th anniversary on the Escape from the Studio '06 tour, by playing it in its entirety."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Elektra_Records ;
+	dbo:releaseDate	"1986-03-03"^^xsd:date .
+<http://dbpedia.org/resource/Metallica_(album)>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Metallica"@en ;
+	dbo:abstract	"Metallica (commonly known as The Black Album) is the eponymously titled fifth studio album by American heavy metal band Metallica. Released on August 12, 1991 by Elektra Records, it received widespread critical acclaim and became the band's best-selling album. Metallica produced five singles that are considered to be among the band's best-known songs: \"Enter Sandman\", \"The Unforgiven\", \"Nothing Else Matters\", \"Wherever I May Roam\", and \"Sad but True\". \"Don't Tread on Me\" was also issued to rock radio shortly after the album's release, but the song did not receive a commercial single release. The album marked a change in the band's sound from the thrash metal style of the previous four albums to a slower one. Metallica promoted the album with a series of tours. In 2003, the album was ranked number 252 on Rolling Stone's 500 greatest albums of all time. The recording of Metallica was troubled, as the band frequently entered conflicts with Bob Rock, the band's new producer, during production. The album debuted at number one in ten countries and spent four consecutive weeks at the top of the Billboard 200, making it Metallica's first album to top album charts. By February 2016, the album spent 363 weeks on the Billboard album chart, making it one of the ten longest running discs of all time. Metallica is one of the best-selling albums worldwide, and the best-selling album in the United States since Nielsen SoundScan tracking began. The album was certified 16\u00D7 platinum by the Recording Industry Association of America (RIAA) in 2012, and has sold over sixteen million copies in the United States, the first album in the SoundScan era to do so. Metallica played the album in its entirety during the 2012 European Black Album Tour."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ;
+	dbo:recordLabel	dbr:Elektra_Records ;
+	dbo:releaseDate	"1991-08-12"^^xsd:date .
+dbr:Ride_the_Lightning	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Ride the Lightning"@en ;
+	dbo:abstract	"(This article is about the Metallica album. For the album by Marshmallow Coast, see Ride the Lightning (Marshmallow Coast album).) Ride the Lightning is the second studio album by American heavy metal band Metallica, released on July 27, 1984, by the independent label Megaforce Records. The album was recorded in three weeks with producer Flemming Rasmussen at the Sweet Silence Studios in Copenhagen, Denmark. The artwork, based on a concept by the band, depicts an electric chair being struck by lightning flowing from the band logo. The title was taken from a passage in Stephen King's novel The Stand. Although rooted in the thrash metal genre, the album showcased the band's musical growth and lyrical sophistication. This was partly because bassist Cliff Burton introduced the basics of music theory to the rest of the band and had more input in the songwriting. Instead of relying strictly on fast tempos as on its debut Kill 'Em All, Metallica broadened its approach by employing acoustic guitars, extended instrumentals, and more complex harmonies. The overall recording costs were paid by Metallica's European label Music for Nations because Megaforce was unable to cover it. It was the last album to feature songwriting contributions from former lead guitarist Dave Mustaine. Ride the Lightning received positive response from music critics, who saw it as a more ambitious effort than its predecessor. Metallica promoted the album on the Bang That Head That Doesn't Bang European tour in late 1984, and on its North American leg in the first half of 1985. The band performed at a few major music festivals, such as Monsters of Rock and Day on the Green later that year. Two months after its release, Elektra Records signed Metallica to a multi-year contract and reissued the album. Ride the Lightning peaked at number 100 on the Billboard 200 with no radio exposure. Although 75,000 copies were initially pressed for the American market, the album sold half a million by November 1987. It was certified 6\u00D7 platinum by the Recording Industry Association of America (RIAA) in 2012 for shipping six million copies in the United States. Many rock publications have ranked Ride the Lightning on their best album lists, saying it had a lasting impact on the genre."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Megaforce_Records ;
+	dbo:releaseDate	"1984-07-27"^^xsd:date .
+<http://dbpedia.org/resource/S&M_(album)>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"S&M"@en ;
+	dbo:abstract	"S&M (an abbreviation of Symphony and Metallica) is a live album by the American heavy metal band Metallica, with The San Francisco Symphony conducted by Michael Kamen. It was recorded on April 21\u201322, 1999 at The Berkeley Community Theatre. This is the final Metallica album to feature Jason Newsted as bassist."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Symphonic_metal ;
+	dbo:recordLabel	dbr:Elektra_Records ,
+		dbr:Vertigo_Records ;
+	dbo:releaseDate	"1999-11-23"^^xsd:date .
+<http://dbpedia.org/resource/Reload_(Metallica_album)>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Reload"@en ;
+	dbo:abstract	"Reload is the seventh studio album by American heavy metal band Metallica, released on November 18, 1997 by Elektra Records. The album is a follow-up to Load, released the previous year, and Metallica's last studio album to feature longtime bassist Jason Newsted. Reload debuted at number one on the Billboard 200, selling 436,000 copies in its first week. It was certified 4\u00D7 platinum by the Recording Industry Association of America (RIAA) for shipping four million copies in the United States."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Hard_rock ;
+	dbo:recordLabel	dbr:Elektra_Records ,
+		dbr:Vertigo_Records ;
+	dbo:releaseDate	"1997-11-18"^^xsd:date .
+<http://dbpedia.org/resource/The_Big_Four:_Live_from_Sofia,_Bulgaria>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"The Big Four: Live from Sofia, Bulgaria"@en ;
+	dbo:abstract	"The Big Four: Live from Sofia, Bulgaria is a DVD/Blu-ray featuring live concert performances by Metallica, Slayer, Megadeth, and Anthrax, collectively known as \"the big four\" of thrash metal. The event took place on June 22, 2010 at the Sonisphere Festival at Vasil Levski National Stadium, Sofia, Bulgaria. Before its DVD release, it was shown at 450 movie theaters in the United States and over 350 movie theaters across Europe, Canada, and Latin America on June 22, 2010. Critical reviews of the DVD were mostly favorable. Websites such as AllMusic and About.com were positive, though Blogcritics gave the DVD a mixed review. The DVD peaked at number one on the United States, United Kingdom, Austrian, and Canadian charts, and also charted on three other charts. It was certified gold in Germany, and provided Slayer with its first platinum certification."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Speed_metal ,
+		dbr:Thrash_metal ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Warner_Bros._Records> ,
+		dbr:Mercury_Records ,
+		dbr:Vertigo_Records ;
+	dbo:releaseDate	"2010-10-29"^^xsd:date .
+dbr:The_30th_Anniversary_Celebration	rdf:type	schema:MusicAlbum ;
+	foaf:name	"The 30th Anniversary Celebration"@en ;
+	dbo:abstract	"The 30th Anniversary Celebration is a live EP by the American heavy metal band Metallica. The EP was recorded live on December 9 and 10, 2011 at Fillmore Theatre, San Francisco, California. Metallica celebrated its 30th anniversary by playing four shows at the Fillmore in San Francisco. The shows were exclusive only to Met Club members and tickets were only being charged at $6 (or 19.81 for all four nights). The shows consisted of songs spanning their entire career and featured guest appearances by multiple artists that either helped or influenced Metallica. These shows were notable for having Dave Mustaine, Jason Newsted, Glenn Danzig, Ozzy Osbourne, Jerry Cantrell, Rob Halford, Apocalyptica, members of Diamond Head, and King Diamond join Metallica on stage for all appropriate songs."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Warner_Bros.> ;
+	dbo:releaseDate	"2012-05-14"^^xsd:date .
+<http://dbpedia.org/resource/Cunning_Stunts_(video)>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Cunning Stunts"@en ;
+	dbo:abstract	"Cunning Stunts is a concert video by heavy metal band Metallica released in 1998. It was released in DVD and VHS formats. The title is a spoonerism of the words stunning cunts. The DVD features concert footage, band interviews, a documentary, behind the scenes footage, and a photo gallery consisting of approximately 1,000 photos. Three of the performances feature multiple angles. During the performance of the song \"Enter Sandman\", the entire stage is set to appear to collapse and explode, with pyrotechnics and a technician (referred to in the extras as the \"Burning Dude\") who runs across the stage while on fire, as another technician swings overhead. This is also one of the few Metallica concerts that did not feature \"Ecstasy of Gold\" as an intro."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Elektra_Entertainment ;
+	dbo:releaseDate	"1998-12-08"^^xsd:date .
+dbr:Français_Pour_une_Nuit	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Fran\u00E7ais pour une nuit"@en ;
+	dbo:abstract	"Fran\u00E7ais pour une nuit (French for One Night) is a live DVD by the American heavy metal band Metallica, recorded in N\u00EEmes, France in the Arena of N\u00EEmes on July 7, 2009 during the World Magnetic Tour. It was released in three formats. A standard DVD in a digipak including a 16-page booklet, a Blu-ray, also in a digipak with the booklet and a deluxe limited edition box set including the DVD, a copy of Death Magnetic on CD, a T-shirt, laminated pass, and five exclusive photos. Despite only being issued in France, it has been imported in sufficient quantity to be considered a regular release."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Thrash_metal ,
+		dbr:Heavy_metal_music ;
+	dbo:recordLabel	dbr:Universal_Music ;
+	dbo:releaseDate	"2009-11-23"^^xsd:date .
+@prefix ns6:	<http://dbpedia.org/resource/Orgullo,_Pasi\u00F3n,_y_Gloria:> .
+ns6:_Tres_Noches_en_la_Ciudad_de_México	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Orgullo, Pasi\u00F3n, y Gloria: Tres Noches en la Ciudad de M\u00E9xico"@en ;
+	dbo:abstract	"Orgullo, Pasi\u00F3n, y Gloria: Tres Noches en la Ciudad de M\u00E9xico or Orgulho, Paix\u00E3o e Gl\u00F3ria: Tr\u00EAs Noites na Cidade do M\u00E9xico, in the Portuguese version, (English: Pride, Passion and Glory: Three Nights in Mexico City) is a live video and album by the American heavy metal band Metallica, recorded at Foro Sol, Mexico City, Mexico on June 4, 6 and 7, 2009 during the World Magnetic Tour. It was supposed to be released in Latin America only, but it is also available in Northern Europe. The record was released in four formats: \n* A DVD containing 19 tracks, \n* A Blu-ray of the DVD \n* A digipak with the DVD and two CD's, \n* A deluxe version in a slipcase with two DVDs and two CDs. It also features interviews with the band members and all the credits in Spanish (and Portuguese for Brazil). On September 22, 2010, the deluxe version was released in Japan containing the two DVDs and two SHM-CDs."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Universal_Music ;
+	dbo:releaseDate	"2009-11-30"^^xsd:date .
+<http://dbpedia.org/resource/Lulu_(Lou_Reed_and_Metallica_album)>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Lulu"@en ;
+	dbo:abstract	"Lulu is a collaborative album between rock singer-songwriter Lou Reed and heavy metal band Metallica, released on 31 October 2011, on Warner Bros. and Vertigo. The album is the final full-length studio recording project that Reed was involved in before his death in 2013. It was recorded in San Rafael, California, during April through June 2011, after Reed had played with Metallica at the Rock and Roll Hall of Fame's 25th Anniversary Concert which led to them wanting to collaborate. The lead single, titled \"The View\", was released on 27 September 2011. Conceptually, the album is based on the two \"Lulu plays\" by the German playwright Frank Wedekind (1864\u20131918). The majority of composition is centered on spoken word delivered by Reed over instrumentals composed by Metallica, with occasional backing vocals provided by Metallica lead vocalist James Hetfield. Reed wrote the majority of the lyrics. The album was released worldwide on 31 October 2011, and on 1 November in North America. Upon its release, Lulu received mixed reviews from music critics, and an extremely negative response from fans."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Avant-garde_metal ;
+	dbo:recordLabel	dbr:Vertigo_Records ,
+		<http://dbpedia.org/resource/Warner_Bros._Records> ;
+	dbo:releaseDate	"2011-10-31"^^xsd:date .
+dbr:Death_Magnetic	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Death Magnetic"@en ;
+	dbo:abstract	"Death Magnetic is the ninth studio album by American heavy metal band Metallica, released on September 12, 2008 through Warner Bros. Records. It was the band's first album to be produced by Rick Rubin, making this their first album since 1988's ...And Justice For All not to be produced by Bob Rock. The album received mostly positive reviews upon release, with critics describing it as a return to the musical style of their early albums. Death Magnetic is the band's first album to feature bassist Robert Trujillo. Musically, Death Magnetic is a radical departure from Metallica's previous album, St. Anger, which featured simple instrumentation, stripped-down production, and an absence of guitar solos. This album, on the other hand, features more complex musical compositions and long, technical guitar solos from both Kirk Hammett and James Hetfield, marking a return to the band's thrash metal roots. It was also the band's first album released through Warner Bros. Records, although they still remain with Warner Music Group, which also owns their previous label, Elektra Records. Outside of North America, they are distributed through Universal Music Group as they remain signed to Vertigo Records in the UK. The album is also Metallica's fifth consecutive studio album to debut at #1 on the US Billboard 200, making them the first band ever to do so."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Vertigo_Records ,
+		<http://dbpedia.org/resource/Warner_Bros._Records> ;
+	dbo:releaseDate	"2008-09-12"^^xsd:date .
+<http://dbpedia.org/resource/Cliff_\u0027Em_All>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Cliff 'Em All"@en ;
+	dbo:abstract	"Cliff 'Em All is a compilation of video footage by the American thrash metal band Metallica. It was released in 1987 as a tribute to Metallica's bassist Cliff Burton, who died in a tour bus accident on September 27, 1986, at the age of 24, near Ljungby, Sweden during the European leg of their Damage, Inc. Tour. Its title is derived from Metallica's debut album, Kill 'Em All. The home video also features a performance with former guitarist Dave Mustaine on March 19, 1983, shortly before his ousting from the band for heavy drug and alcohol abuse. The video is a retrospective on the 3 and a half years that Cliff Burton was in Metallica, presented as a collection of bootleg footage shot by fans, some professional filming and TV shots that were never used and some of his best bass solos, personal photos and live concerts. Photos and narrations by the band (Ulrich, Hetfield and Hammett drinking beer) are placed between songs which focus on Burton before fading into a title card of a performance. The video ends with the melodic interlude of \"Orion\" as pictures of Burton are shown. With this video, the band tries to show the unique personality and style he had. While ostensibly the film focuses on Burton, it also has given fans a rare glimpse of Metallica's less-documented early career. This contrasts sharply with the 'Metallica business' represented in the feature film Some Kind of Monster. The back of the case reads \"Well, we finally went and did what we always talked about not doing. Releasing a vid[eo]! Before you throw up in disgust, let us (except K.) tell you the idea behind this.\" The \"K\" is presumably short for Kirk, explaining why he is on the bottom of the cover."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Elektra_Records ;
+	dbo:releaseDate	"1987-11-17"^^xsd:date .
+dbr:Beyond_Magnetic	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Beyond Magnetic"@en ;
+	dbo:abstract	"Beyond Magnetic is a 2011 EP by American heavy metal band Metallica. It was released to coincide with the band's 30th anniversary shows, in which they released a new song for all four days of the shows. It was originally released as a digital download only on iTunes on December 13, 2011. All four songs featured on Beyond Magnetic were all recorded for the group's Death Magnetic sessions but had not been released. Beyond Magnetic was released on CD on January 30, 2012, internationally, and on the following day in the United States. As of September 2016, Beyond Magnetic sold over 210,000 copies in the U.S."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Thrash_metal ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Warner_Bros.> ;
+	dbo:releaseDate	"2011-12-13"^^xsd:date .
+<http://dbpedia.org/resource/2_of_One>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"2 of One"@en ;
+	dbo:abstract	"2 of One is a video album by the American thrash metal band Metallica. It was released on June 6, 1989 through Elektra Entertainment and features two versions of the group's first music video \"One\", from its fourth studio album ...And Justice for All. The music video was directed by Bill Pope and Michael Salomon and was filmed in Los Angeles, California."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ;
+	dbo:recordLabel	dbr:Elektra_Records ;
+	dbo:releaseDate	"1989-06-06"^^xsd:date .
+dbr:A_Year_and_a_Half_in_the_Life_of_Metallica	rdf:type	schema:MusicAlbum ;
+	foaf:name	"A Year and a Half in the Life of Metallica"@en ;
+	dbo:abstract	"A Year and a Half in the Life of Metallica is a two-part documentary about the process of making the Metallica album (or \"The Black Album\"), and the following tour. It was produced by Juliana Roberts and directed by Adam Dubin. A Year and a Half in the Life of Metallica was released as a double VHS pack. Both parts are available on a single DVD, but only in region 1."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ;
+	dbo:recordLabel	dbr:Elektra_Entertainment ;
+	dbo:releaseDate	"1992-11-17"^^xsd:date .
+dbr:The_Videos_1989-2004	rdf:type	schema:MusicAlbum ;
+	foaf:name	"The Videos 1989\u20132004"@en ;
+	dbo:abstract	"The Videos 1989\u20132004 is a video album by American heavy metal band Metallica. It was released on December 4, 2006 worldwide, and on December 5 in North America. It features all of the band's videos from 1989 to 2004. The DVD sold 28,000 copies in its first week of release. The disc has been released by Warner Bros. Records, although this is not mentioned anywhere except for the packaging and on the label of the disc itself. Copyright is given to Elektra Entertainment and E/M Ventures in the liner notes and the end credits of the DVD. The menus also play excerpts of different Metallica songs, including: \"The Outlaw Torn\" (Load), \"My Friend of Misery\" (Metallica), \"Bleeding Me\" (Load), \"Carpe Diem Baby\" (ReLoad) and \"Prince Charming\" (ReLoad)."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Hard_rock ,
+		dbr:Thrash_metal ,
+		dbr:Heavy_metal_music ;
+	dbo:recordLabel	<http://dbpedia.org/resource/Warner_Bros._Records> ;
+	dbo:releaseDate	"2006-12-04"^^xsd:date .
+<http://dbpedia.org/resource/Kill_\u0027Em_All>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Kill 'Em All"@en ;
+	dbo:abstract	"Kill 'Em All is the debut studio album by the American heavy metal band Metallica, released on July 25, 1983, by the independent label Megaforce Records. Kill 'Em All is regarded as a groundbreaking album for thrash metal because of its precise musicianship, which fuses new wave of British heavy metal riffs with hardcore punk tempos. Its musical approach and lyrics were markedly different from rock's mainstream of the early Eighties and inspired a number of bands who followed in similar manner. The album did not enter the Billboard 200 until 1986, when it peaked at number 155, following Metallica's commercial success with its third studio album Master of Puppets; the 1988 Elektra reissue peaked at number 120. Kill 'Em All was critically praised at the time of its release and in retrospect, and was placed on a few publications' best album lists. It was certified 3\u00D7 platinum by the Recording Industry Association of America (RIAA) in 1999 for shipping three million copies in the United States. The album generated two singles: \"Whiplash\" and \"Jump in the Fire\". Metallica began by playing shows in local clubs in Los Angeles. They recorded several demos to gain attention from club owners, and eventually relocated to San Francisco to secure the services of bassist Cliff Burton. The group's No Life 'til Leather demo (1982) was noticed by Megaforce label head Jon Zazula, who signed them and provided a small budget of $15,000 for recording. The album was recorded in May with producer Paul Curcio at the Music America Studios in Rochester, New York. It was originally intended to be titled Metal Up Your Ass, with cover art featuring a hand clutching a dagger emerging from a toilet bowl. The band was asked to change the name because distributors feared releasing an album with such an offensive title and artwork would diminish its chances of commercial success. Metallica promoted the album on the two-month co-headlining Kill 'Em All for One tour with Raven in the United States. Although the initial shipment was 15,000 copies in the US, the album sold 60,000 copies worldwide by the end of Metallica's Seven Dates of Hell European tour in 1984."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Megaforce_Records ;
+	dbo:releaseDate	"1983-07-25"^^xsd:date .
+<http://dbpedia.org/resource/St._Anger>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"St. Anger"@en ;
+	dbo:abstract	"St. Anger is the eighth studio album by American heavy metal band Metallica, released on June 5, 2003 by Elektra Records. It was the band's last album released through Elektra, thus marking the end of the second-longest timespan between studio albums from Metallica, with nearly six years between the release of Reload and this album. It is also the final collaboration between Metallica and producer Bob Rock, whose relationship began with the band's fifth studio album, 1991's Metallica. St. Anger was originally intended for release on June 10, 2003, but was released five days earlier due to concerns over unlicensed distribution through peer-to-peer file sharing networks. The St. Anger sessions also mark the only time Rock actually played when the music was being recorded, filling in for the departed bassist Jason Newsted. Newsted left the band prior to the initial sessions for the album, leaving Rock to temporarily take his place until a permanent replacement could be found. Recording of the album initially started on April 23, 2001, but was postponed indefinitely when rhythm guitarist and singer James Hetfield entered rehab for \"alcoholism and other addictions\". St. Anger is often recognized for being a radical musical departure from Metallica's earlier work; it features a modern heavy metal style, raw production, and no guitar solos. The artwork was created by Pushead, who had previously collaborated with the band. Metallica spent the next couple of years touring to promote the album. St. Anger debuted at the top of sales charts in 30 countries, including the US Billboard 200. Upon its release, it received mixed reviews. In 2004, the album's lead single, \"St. Anger\", won a Grammy Award for Best Metal Performance. The album was certified double platinum by the Recording Industry Association of America (RIAA) for shipping two million copies in the US. St. Anger has sold nearly six million copies worldwide."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ;
+	dbo:recordLabel	dbr:Vertigo_Records ,
+		dbr:Elektra_Records ;
+	dbo:releaseDate	"2003-06-05"^^xsd:date .
+@prefix ns7:	<http://dbpedia.org/resource/The_$5.98_E.P.:> .
+ns7:_Garage_Days_Re-Revisited	rdf:type	schema:MusicAlbum ;
+	foaf:name	"The $5.98 E.P.: Garage Days Re-Revisited"@en ;
+	dbo:abstract	"The $5.98 E.P.: Garage Days Re-Revisited is an extended play by American heavy metal band Metallica. It was released on August 21, 1987 by Elektra Records. The extended play consisted entirely of covers of late-'70s and early-'80s new wave of British heavy metal bands and hardcore punk music rehearsed in Lars Ulrich's soundproofed garage and then recorded in Los Angeles over the course of six days. It was the group's first recording to feature its new bassist Jason Newsted, and also the band's first release following the death of second bassist Cliff Burton."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Vertigo_Records ,
+		dbr:Elektra_Records ;
+	dbo:releaseDate	"1987-08-21"^^xsd:date .
+<http://dbpedia.org/resource/Live_Shit:_Binge_&_Purge>	rdf:type	schema:MusicAlbum ;
+	foaf:name	"Live Shit: Binge & Purge"@en ;
+	dbo:abstract	"Live Shit: Binge & Purge is a live album by the American heavy metal band Metallica. It was the band's first live album and was released in a box set format on November 23, 1993. The initial first pressings contained three CDs or cassette tapes, with songs from concerts in Mexico City on the Nowhere Else to Roam tour, as well as three VHS tapes while a newer version contains two DVDs from concerts in San Diego on the Wherever We May Roam Tour and Seattle on the Damaged Justice Tour. It was originally released as a cardboard box depicting the style of a typical tour equipment transport box. Besides the audio and video media, the box featured additional bonus material (booklet showing photos, typical tour correspondence as sent and received by the band and their management, and internal documents and handwritten notes; a recreated copy of an access pass to the \"Snakepit\" part of the tour stage; a cardboard drawing/airbrush stencil for the \"Scary Guy\" logo) and a black \"Metalli'Fukin'ca\" T-shirt. Live Shit: Binge & Purge has been certified 15x platinum by the RIAA as a long-form video format."@en ;
+	dbo:artist	dbr:Metallica ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Thrash_metal ;
+	dbo:recordLabel	dbr:Elektra_Records ,
+		dbr:Vertigo_Records ;
+	dbo:releaseDate	"1993-11-23"^^xsd:date .

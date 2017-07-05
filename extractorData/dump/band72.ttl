@@ -1,0 +1,456 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbr:Beastie_Boys	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Beastie_Boys_Compo.jpg?width=300> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+dbr:Beastie_Boys	foaf:name	"Beastie Boys"@en ;
+	dbo:associateBand	dbr:The_Latch_Brothers ,
+		dbr:Cypress_Hill ,
+		<http://dbpedia.org/resource/Q-Tip_(musician)> ,
+		dbr:Bad_Brains ,
+		dbr:The_Roots ,
+		dbr:Rollins_Band ,
+		dbr:BS_2000 ,
+		<http://dbpedia.org/resource/Run-D.M.C.> ,
+		dbr:Rick_Rubin ,
+		dbr:Nas ,
+		dbr:Luscious_Jackson ,
+		dbr:Mix_Master_Mike ,
+		dbr:Slayer ,
+		dbr:DJ_Hurricane ,
+		dbr:De_La_Soul ,
+		dbr:Kerry_King ,
+		dbr:Biz_Markie ,
+		<http://dbpedia.org/resource/Public_Enemy_(group)> ;
+	dbo:abstract	"The Beastie Boys were an American hip hop group from New York City, formed in 1980. For the majority of their career, the group consisted of Michael \"Mike D\" Diamond (vocals, drums), Adam \"MCA\" Yauch (vocals, bass) and Adam \"Ad-Rock\" Horovitz (vocals, guitar). Originally formed as a four-piece hardcore punk band, the Young Aborigines, in 1978 by Diamond (vocals), John Berry (guitar), Yauch (bass) and Kate Schellenbach (drums), the band appeared on the compilation cassette New York Thrash, before recording their first EP, Polly Wog Stew, in 1982. Berry left shortly thereafter, and was replaced by Horovitz. After achieving moderate local success with the 1983 experimental hip hop 12-inch \"Cooky Puss\", Schellenbach dropped out and the Beastie Boys made a full transition to hip hop, releasing a string of successful singles. They toured with Madonna in 1985 and a year later released their debut album Licensed to Ill. The group sold 26 million albums in the United States and 50 million albums worldwide, making them, according to Billboard, the biggest-selling rap group since the magazine began recording sales data in 1991. With seven platinum or better albums from 1986 to 2004, the Beastie Boys were one of the longest-lived hip hop acts worldwide. In 2009, they released digitally remastered deluxe editions of their albums Paul's Boutique, Check Your Head, Ill Communication and Hello Nasty. Their eighth studio album, Hot Sauce Committee Part Two, was released in 2011, and received positive reviews. They were inducted into the Rock and Roll Hall of Fame in April 2012, \"just the third rap group to enter the Hall, after Run\u2013D.M.C. (2009) and Grandmaster Flash and the Furious Five (2007).\" The following month, MCA died of cancer of the parotid salivary gland. In June 2014, Mike D confirmed that he and Ad-Rock would not continue the Beastie Boys, out of respect to Yauch."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Run-D.M.C.> ,
+		dbr:Luscious_Jackson ,
+		dbr:De_La_Soul ,
+		dbr:Kerry_King ,
+		dbr:Nas ,
+		dbr:Rick_Rubin ,
+		dbr:Cypress_Hill ,
+		dbr:BS_2000 ,
+		<http://dbpedia.org/resource/Q-Tip_(musician)> ,
+		dbr:The_Roots ,
+		dbr:Mix_Master_Mike ,
+		<http://dbpedia.org/resource/Public_Enemy_(group)> ,
+		dbr:Rollins_Band ,
+		dbr:Bad_Brains ,
+		dbr:Slayer ,
+		dbr:DJ_Hurricane ,
+		dbr:Biz_Markie ,
+		dbr:The_Latch_Brothers ;
+	dbo:genre	dbr:Hardcore_punk ,
+		dbr:Hip_hop_music ,
+		dbr:Alternative_hip_hop ,
+		dbr:Rapcore ,
+		dbr:Rap_rock .
+@prefix dbp:	<http://dbpedia.org/property/> .
+dbr:Beastie_Boys	dbp:caption	"The Beastie Boys live in 2007"^^rdf:langString ,
+		"L\u2013R: Ad-Rock, MCA and Mike D"^^rdf:langString ;
+	dbp:currentMembers	dbr:Kate_Schellenbach ,
+		dbr:Mike_D ,
+		<http://dbpedia.org/resource/John_Berry_(musician)> ,
+		dbr:Adam_Yauch ;
+	dbp:website	<http://www.beastieboys.com/> ,
+		<http://www.beastieboys.com> .
+dbr:Belle_and_Sebastian	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Belle_and_Sebastian_British_Band.jpeg?width=300> ;
+	foaf:name	"Belle and Sebastian"@en ;
+	dbo:associateBand	dbr:The_Vaselines ,
+		dbr:God_Help_The_Girl ,
+		dbr:The_Reindeer_Section ,
+		dbr:Tired_Pony ,
+		dbr:The_Gentle_Waves ,
+		dbr:Norah_Jones ,
+		<http://dbpedia.org/resource/Looper_(band)> ;
+	dbo:abstract	"Belle and Sebastian are a Scottish band formed in Glasgow in January 1996. Led by Stuart Murdoch, the band has released 9 albums to date. Though often praised by critics, Belle and Sebastian has enjoyed only limited commercial success. After releasing a number of albums and EPs on Jeepster Records, they are now signed to Rough Trade Records in the United Kingdom and Matador Records in the United States."@en ;
+	dbo:associatedMusicalArtist	dbr:Norah_Jones ,
+		dbr:The_Gentle_Waves ,
+		dbr:The_Vaselines ,
+		dbr:The_Reindeer_Section ,
+		<http://dbpedia.org/resource/Looper_(band)> ,
+		dbr:Tired_Pony ,
+		dbr:God_Help_The_Girl ;
+	dbo:genre	dbr:Indie_pop ,
+		dbr:Chamber_pop ;
+	dbp:caption	"Left to right: Mick Cooke, Richard Colburn, Bobby Kildea, Chris Geddes, Stevie Jackson, Sarah Martin, Stuart Murdoch"^^rdf:langString ;
+	dbp:currentMembers	dbr:Isobel_Campbell ,
+		dbr:Mick_Cooke ,
+		dbr:Stuart_David ;
+	dbp:website	<http://www.belleandsebastian.com/> .
+dbr:Black_Sabbath	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Sabs.jpg?width=300> ;
+	foaf:name	"Black Sabbath"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Heaven_&_Hell_(band)> ,
+		<http://dbpedia.org/resource/Mythology_(UK_band)> ,
+		<http://dbpedia.org/resource/Dio_(band)> ;
+	dbo:abstract	"Black Sabbath are an English rock band, formed in Birmingham in 1968, by guitarist and main songwriter Tony Iommi, bassist and main lyricist Geezer Butler, singer Ozzy Osbourne, and drummer Bill Ward. The band have since experienced multiple line-up changes, with guitarist Iommi being the only constant presence in the band through the years. Originally formed as a blues rock band, the group soon adopted the Black Sabbath moniker and began incorporating occult themes with horror-inspired lyrics and tuned-down guitars. Despite an association with these two themes, Black Sabbath also composed songs dealing with social instability, political corruption, the dangers of drug abuse and apocalyptic prophecies of the horrors of war. Osbourne's regular abuse of alcohol and other drugs led to his dismissal from the band in 1979. He was replaced by former Rainbow vocalist Ronnie James Dio. Following two albums with Dio, Black Sabbath endured countless personnel changes in the 1980s and 1990s that included vocalists Ian Gillan, Glenn Hughes, Ray Gillen and Tony Martin, as well as several drummers and bassists. In 1992, Iommi and Butler rejoined Dio and drummer Vinny Appice to record Dehumanizer. The original line-up reunited with Osbourne in 1997 and released a live album Reunion. Black Sabbath's 19th studio album, 13, which features all of the original members but Ward, was released in June 2013. Black Sabbath are often cited as pioneers of heavy metal music. The band helped define the genre with releases such as Black Sabbath (1970), Paranoid (1970) and Master of Reality (1971). They were ranked by MTV as the \"Greatest Metal Band\" of all time, and placed second in VH1's \"100 Greatest Artists of Hard Rock\" list. Rolling Stone magazine ranked them number 85 in their \"100 Greatest Artists of All Time\". They have sold over 70 million records worldwide. Black Sabbath were inducted into the UK Music Hall of Fame in 2005 and the Rock and Roll Hall of Fame in 2006. They have also won two Grammy Awards for Best Metal Performance."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Dio_(band)> ,
+		<http://dbpedia.org/resource/Heaven_&_Hell_(band)> ,
+		<http://dbpedia.org/resource/Mythology_(UK_band)> ;
+	dbo:genre	dbr:Heavy_metal_music ;
+	dbp:caption	"Black Sabbath in 1970. From left to right: Geezer Butler, Tony Iommi, Bill Ward, Ozzy Osbourne."^^rdf:langString ;
+	dbp:currentMembers	dbr:List_of_Black_Sabbath_band_members ;
+	dbp:website	<http://www.blacksabbath.com> .
+dbr:Crowded_House	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Crowded_House.jpg?width=300> ;
+	foaf:name	"Crowded House"@en ;
+	dbo:associateBand	dbr:Finn_Brothers ,
+		dbr:Tarmac_Adam ,
+		dbr:Split_Enz ;
+	dbo:abstract	"Crowded House are a rock band formed in Melbourne, Australia, in 1985. The founding members were New Zealander Neil Finn (vocalist, guitarist, primary songwriter) and Australians Paul Hester (drums) and Nick Seymour (bass). Later band members included Neil Finn's brother, Tim Finn, and Americans Mark Hart and Matt Sherrod. Originally active from 1985 to 1996, the band had consistent commercial and critical success in Australia and New Zealand and international chart success in two phases, beginning with their self-titled debut album, which reached number twelve on the US Album Chart in 1987 and provided the Top Ten hits \"Don't Dream It's Over\" and \"Something So Strong\". Further international success came in the UK, Europe and South Africa with their third and fourth albums, Woodface and Together Alone and the compilation album Recurring Dream, which included the hits \"Fall at Your Feet\", \"Weather with You\", \"Distant Sun\", \"Locked Out\", \"Instinct\" and \"Not the Girl You Think You Are\". Queen Elizabeth II bestowed an OBE on both Neil and Tim Finn, in June 1993, for their contribution to the music of New Zealand. Founding drummer Hester left in May 1994 citing family reasons, but briefly returned for their \"Farewell to the World\" concerts in Melbourne and Sydney in 1996. Neil Finn had decided to end the band to concentrate on his solo career and the Finn Brothers project with Tim. On 26 March 2005 Hester died by suicide, aged 46. In 2006 the group re-formed with new drummer Matt Sherrod and released two further albums (in 2007 and 2010), both of which reached number one on Australia's album chart. In 2016, the band were inducted into the ARIA Hall of Fame."@en ;
+	dbo:associatedMusicalArtist	dbr:Finn_Brothers ,
+		dbr:Tarmac_Adam ,
+		dbr:Split_Enz ;
+	dbo:genre	dbr:Jangle_pop ,
+		dbr:Rock_music ,
+		dbr:New_wave_music ,
+		dbr:Indie_rock ,
+		dbr:Pop_rock ,
+		dbr:Alternative_rock ;
+	dbp:caption	"Crowded House, August 2007"^^rdf:langString ,
+		"Liam Finn, Matt Sherrod, Mark Hart, Neil Finn, Nick Seymour"^^rdf:langString ;
+	dbp:currentMembers	dbr:Tim_Finn ,
+		<http://dbpedia.org/resource/Peter_Jones_(drummer)> ,
+		dbr:Paul_Hester ;
+	dbp:website	<http://www.crowdedhouse.com/> .
+dbr:Cypress_Hill	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Cypress_Hill_crop.jpg?width=300> ;
+	foaf:name	"Cypress Hill"@en ;
+	dbo:associateBand	dbr:Deadmau5 ,
+		dbr:Psycho_Realm ,
+		dbr:Travis_Barker ,
+		<http://dbpedia.org/resource/Slash_(musician)> ,
+		<http://dbpedia.org/resource/Rusko_(musician)> ,
+		dbr:Eazy-E ,
+		dbr:Cypress_X_Rusko ,
+		dbr:Snoop_Dogg ,
+		dbr:Eminem ,
+		dbr:Mike_Shinoda ,
+		<http://dbpedia.org/resource/Fergie_(singer)> ,
+		dbr:Kottonmouth_Kings ,
+		dbr:Richie_Londres ,
+		dbr:House_of_Pain ,
+		dbr:La_Coka_Nostra ,
+		dbr:Xzibit ,
+		dbr:Adil_Omar ,
+		<http://dbpedia.org/resource/P.O.D.> ,
+		dbr:Funkdoobiest ,
+		dbr:Tom_Morello ,
+		dbr:Young_De ,
+		dbr:Prophets_of_Rage ,
+		dbr:Rage_Against_the_Machine ,
+		dbr:Sol_Invicto ,
+		dbr:Ice_Cube ,
+		dbr:Daron_Malakian ,
+		<http://dbpedia.org/resource/Everlast_(musician)> ,
+		dbr:Soul_Assassins ;
+	dbo:abstract	"Cypress Hill is an American hip hop group from South Gate, California. Cypress Hill was the first Latino American hip hop recording group to have platinum and multi-platinum albums, selling over 18 million albums worldwide. They are considered to be among the main progenitors of West Coast rap and Hip hop in the early 1990s, being critically acclaimed for their first four albums. The band has also been important for the advocacy of medical and recreational use of cannabis in the United States."@en ;
+	dbo:associatedMusicalArtist	dbr:Kottonmouth_Kings ,
+		dbr:La_Coka_Nostra ,
+		<http://dbpedia.org/resource/Fergie_(singer)> ,
+		dbr:Soul_Assassins ,
+		dbr:Eminem ,
+		dbr:Rage_Against_the_Machine ,
+		dbr:Prophets_of_Rage ,
+		dbr:Ice_Cube ,
+		<http://dbpedia.org/resource/P.O.D.> ,
+		<http://dbpedia.org/resource/Rusko_(musician)> ,
+		dbr:Young_De ,
+		dbr:Funkdoobiest ,
+		<http://dbpedia.org/resource/Slash_(musician)> ,
+		dbr:Tom_Morello ,
+		dbr:Psycho_Realm ,
+		dbr:Richie_Londres ,
+		dbr:Mike_Shinoda ,
+		dbr:Adil_Omar ,
+		dbr:Travis_Barker ,
+		dbr:Daron_Malakian ,
+		dbr:Sol_Invicto ,
+		dbr:Xzibit ,
+		dbr:Cypress_X_Rusko ,
+		dbr:Eazy-E ,
+		dbr:Deadmau5 ,
+		dbr:House_of_Pain ,
+		<http://dbpedia.org/resource/Everlast_(musician)> ,
+		dbr:Snoop_Dogg ;
+	dbo:genre	dbr:Nu_metal ,
+		dbr:Gangsta_rap ,
+		dbr:Rap_metal ,
+		dbr:Hardcore_hip_hop ,
+		dbr:Latin_hip_hop ,
+		dbr:West_coast_hip_hop ,
+		dbr:Hip_hop_music ;
+	dbp:caption	"Cypress Hill performing at Bonnaroo in 2006"^^rdf:langString ;
+	dbp:currentMembers	dbr:Mellow_Man_Ace ;
+	dbp:website	<http://www.cypresshill.com> .
+<http://dbpedia.org/resource/Deicide_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Deicide-Live-Metaltown_2011.jpg?width=300> ;
+	foaf:name	"Deicide"@en ;
+	dbo:associateBand	dbr:Vital_Remains ,
+		dbr:Cannibal_Corpse ,
+		<http://dbpedia.org/resource/Adrift_(band)> ,
+		<http://dbpedia.org/resource/Obituary_(band)> ,
+		dbr:Order_of_Ennead ;
+	dbo:abstract	"Deicide is an American death metal band formed in 1987 by bassist and vocalist Glen Benton and drummer Steve Asheim as \"Amon\". They would later change the band name to Deicide in 1989. The band rose to mainstream success in 1992 with their second album Legion, and is credited as the second best-selling death metal band of the Soundscan Era, after Cannibal Corpse. Since their debut album in 1990, Deicide has released eleven studio albums, one live album, two compilation albums and two live DVDs. In November 2003, their first two albums, Deicide and Legion, were ranked second and third place respectively in best-selling death metal albums of the SoundScan era. Deicide is known for their lyrics, which cover topics such as Satanism, anti-religion and blasphemy. Their lyrics have resulted in bans, lawsuits and criticism from religious groups and the public."@en ;
+	dbo:associatedMusicalArtist	dbr:Vital_Remains ,
+		<http://dbpedia.org/resource/Adrift_(band)> ,
+		dbr:Order_of_Ennead ,
+		<http://dbpedia.org/resource/Obituary_(band)> ,
+		dbr:Cannibal_Corpse ;
+	dbo:genre	dbr:Death_metal ;
+	dbp:caption	"Deicide performing live at Metaltown Festival in June 2011"^^rdf:langString ;
+	dbp:currentMembers	dbr:Ralph_Santolla ,
+		dbr:Brian_Hoffman .
+@prefix ns5:	<https://www.facebook.com/> .
+<http://dbpedia.org/resource/Deicide_(band)>	dbp:website	ns5:OfficialDeicide .
+dbr:Devo	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Forecastle_Devo.jpg?width=300> ;
+	foaf:name	"Devo"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Jihad_Jerry_&_the_Evildoers> ,
+		<http://dbpedia.org/resource/Devo_2.0> ,
+		dbr:Toni_Basil ;
+	dbo:abstract	"Devo (/\u02C8di\u02D0vo\u028A/, originally /di\u02D0\u02C8vo\u028A/) is an American rock band that formed in 1973, consisting of members from Kent and Akron, Ohio. Their classic line-up consisted of two sets of brothers, the Mothersbaughs (Mark and Bob) and the Casales (Gerald and Bob), along with Alan Myers. The band had a No. 14 Billboard chart hit in 1980 with the single \"Whip It\" and has maintained a cult following throughout its existence. Devo's music and stage shows mingle kitsch science fiction themes, deadpan surrealist humor, and mordantly satirical social commentary. Their often discordant pop songs feature unusual synthetic instrumentation and time signatures that have proven influential on subsequent popular music, particularly new wave, industrial, and alternative rock artists. Devo was also a pioneer of the music video, creating many memorable clips for the LaserDisc format, with \"Whip It\" getting heavy airplay in the early days of MTV."@en ;
+	dbo:associatedMusicalArtist	dbr:Toni_Basil ,
+		<http://dbpedia.org/resource/Devo_2.0> ,
+		<http://dbpedia.org/resource/Jihad_Jerry_&_the_Evildoers> ;
+	dbo:genre	dbr:Post-punk ,
+		dbr:Synthpop ,
+		dbr:Art_pop ,
+		dbr:Industrial_music ,
+		dbr:New_wave_music ,
+		dbr:Electronic_rock ,
+		dbr:Art_punk ;
+	dbp:caption	"Left to right: Gerald Casale , Mark Mothersbaugh , Bob Casale , and Bob Mothersbaugh"^^rdf:langString ,
+		"Devo performing live at the Forecastle Festival, in Louisville, Kentucky, in 2010"^^rdf:langString ;
+	dbp:currentMembers	dbr:Jim_Mothersbaugh ,
+		dbr:Rod_Reisman ,
+		<http://dbpedia.org/resource/Fred_Weber_(singer)> ,
+		<http://dbpedia.org/resource/Bob_Lewis_(musician)> ,
+		<http://dbpedia.org/resource/Alan_Myers_(drummer)> ,
+		dbr:Bob_Casale ;
+	dbp:website	<http://clubdevo.com> .
+dbr:Dimmu_Borgir	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/DimmuBorgirTuska2005.jpg?width=300> ;
+	foaf:name	"Dimmu Borgir"@en ;
+	dbo:associateBand	dbr:Chrome_Division ,
+		<http://dbpedia.org/resource/Brujeria_(band)> ,
+		dbr:Dødheimsgard ,
+		dbr:Angelcorpse ,
+		dbr:Susperia ,
+		dbr:Nachtmystium ,
+		<http://dbpedia.org/resource/Vader_(band)> ,
+		dbr:Carpe_Tenebrum ,
+		dbr:Infernal_Method ,
+		dbr:God_Dethroned ,
+		dbr:Vesania ,
+		dbr:Ov_Hell ,
+		<http://dbpedia.org/resource/Arcturus_(band)> ,
+		dbr:The_Kovenant ,
+		<http://dbpedia.org/resource/Nile_(band)> ,
+		<http://dbpedia.org/resource/Ragnarok_(Norwegian_band)> ,
+		<http://dbpedia.org/resource/Mayhem_(band)> ,
+		<http://dbpedia.org/resource/Code_(band)> ,
+		dbr:Ved_Buens_Ende ,
+		<http://dbpedia.org/resource/Old_Man\u0027s_Child> ,
+		dbr:Cradle_of_Filth ,
+		dbr:United_Forces ,
+		dbr:Borknagar ,
+		dbr:Xanthochroid ;
+	dbo:abstract	"Dimmu Borgir (/\u02CCd\u026Amu\u02D0 \u02C8b\u0254\u02D0r\u0261\u026Ar/ or Norwegian: [d\u026Amm\u028F b\u0254\u027Egi\u027E] or Norwegian pronunciation: [d\u026Amm\u028F b\u0254\u0281gi\u0281]) is a Norwegian symphonic black metal band from Oslo, Norway, formed in 1993. The name is derived from Dimmuborgir, a volcanic formation in Iceland, the name of which means \"dark cities\" or \"dark castles/fortresses\" in Icelandic, Faroese and Old Norse. The band has been through numerous lineup changes over the years; guitarist Silenoz and vocalist Shagrath are the only original members who still remain with guitarist Galder being a longstanding member."@en ;
+	dbo:associatedMusicalArtist	dbr:Xanthochroid ,
+		<http://dbpedia.org/resource/Nile_(band)> ,
+		<http://dbpedia.org/resource/Old_Man\u0027s_Child> ,
+		<http://dbpedia.org/resource/Vader_(band)> ,
+		dbr:Ved_Buens_Ende ,
+		dbr:Ov_Hell ,
+		dbr:God_Dethroned ,
+		<http://dbpedia.org/resource/Arcturus_(band)> ,
+		dbr:Angelcorpse ,
+		dbr:Nachtmystium ,
+		dbr:Infernal_Method ,
+		<http://dbpedia.org/resource/Brujeria_(band)> ,
+		<http://dbpedia.org/resource/Mayhem_(band)> ,
+		dbr:The_Kovenant ,
+		dbr:Borknagar ,
+		dbr:Susperia ,
+		dbr:Dødheimsgard ,
+		dbr:Chrome_Division ,
+		<http://dbpedia.org/resource/Code_(band)> ,
+		dbr:Cradle_of_Filth ,
+		dbr:Carpe_Tenebrum ,
+		dbr:Vesania ,
+		<http://dbpedia.org/resource/Ragnarok_(Norwegian_band)> ,
+		dbr:United_Forces ;
+	dbo:genre	dbr:Black_metal ,
+		dbr:Symphonic_black_metal ;
+	dbp:caption	"Dimmu Borgir performing in 2005."^^rdf:langString ;
+	dbp:currentMembers	dbr:Dimmu_Borgir ;
+	dbp:website	<http://www.site.dimmu-borgir.com/> .
+dbr:Grateful_Dead	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Grateful_Dead_(1970).png?width=300> ;
+	foaf:name	"Grateful Dead"@en ;
+	dbo:associateBand	dbr:The_Other_Ones ,
+		<http://dbpedia.org/resource/Missing_Man_Formation_(band)> ,
+		<http://dbpedia.org/resource/Reconstruction_(band)> ,
+		<http://dbpedia.org/resource/The_Dead_(band)> ,
+		<http://dbpedia.org/resource/Kingfish_(band)> ,
+		dbr:Jerry_Garcia_Band ,
+		<http://dbpedia.org/resource/Furthur_(band)> ,
+		dbr:New_Riders_of_the_Purple_Sage ,
+		dbr:BK3 ,
+		<http://dbpedia.org/resource/Go_Ahead_(band)> ,
+		dbr:Heart_of_Gold_Band ,
+		dbr:Rhythm_Devils ,
+		dbr:Bobby_and_the_Midnites ,
+		<http://dbpedia.org/resource/Dead_&_Company> ,
+		dbr:Bob_Dylan ,
+		dbr:Phil_Lesh_and_Friends ,
+		<http://dbpedia.org/resource/7_Walkers> ,
+		dbr:The_Tubes ,
+		dbr:RatDog ,
+		dbr:Jerry_Garcia_Acoustic_Band ,
+		<http://dbpedia.org/resource/Legion_of_Mary_(band)> ,
+		dbr:Bruce_Hornsby ,
+		dbr:Donna_Jean_Godchaux_Band ,
+		<http://dbpedia.org/resource/Billy_&_the_Kids> ,
+		dbr:Old_and_in_the_Way ;
+	dbo:abstract	"The Grateful Dead was an American rock band formed in 1965 in Palo Alto, California. Ranging from quintet to septet, the band is known for its unique and eclectic style, which fused elements of country, folk, bluegrass, blues, reggae, rock, improvisational jazz, psychedelia, and space rock, for live performances of lengthy instrumental jams, and for their devoted fan base, known as \"Deadheads\". \"Their music,\" writes Lenny Kaye, \"touches on ground that most other groups don't even know exists.\" These various influences were distilled into a diverse and psychedelic whole that made the Grateful Dead \"the pioneering Godfathers of the jam band world\". The band was ranked 57th by Rolling Stone magazine in its The Greatest Artists of all Time issue. The band was inducted into the Rock and Roll Hall of Fame in 1994 and their Barton Hall Concert at Cornell University (May 8, 1977) was added to the National Recording Registry of the Library of Congress. The Grateful Dead have sold more than 35 million albums worldwide. The Grateful Dead was founded in the San Francisco Bay Area amid the rise of the counterculture of the 1960s. The founding members were Jerry Garcia (guitar, vocals), Bob Weir (guitar, vocals), Ron \"Pigpen\" McKernan (keyboards, harmonica, vocals), Phil Lesh (bass, vocals), and Bill Kreutzmann (drums). Members of the Grateful Dead had played together in various San Francisco bands, including Mother McCree's Uptown Jug Champions and the Warlocks. Lesh was the last member to join the Warlocks before they became the Grateful Dead; he replaced Dana Morgan Jr., who had played bass for a few gigs. Drummer Mickey Hart and nonperforming lyricist Robert Hunter joined in 1967. With the exception of McKernan, who died in 1973, and Hart, who took time off from 1971 to 1974, the core of the band stayed together for its entire 30-year history. The other official members of the band are Tom Constanten (keyboards; 1968\u20131970), Keith Godchaux (keyboards; 1971\u20131979), Donna Godchaux (vocals; 1972\u20131979), Brent Mydland (keyboards, vocals; 1979\u20131990), and Vince Welnick (keyboards, vocals; 1990\u20131995). Pianist Bruce Hornsby was a touring member from 1990 to 1992, as well as guesting with the band on occasion before and after. After the death of Jerry Garcia in 1995, former members of the band, along with other musicians, toured as the Other Ones in 1998, 2000, and 2002, and the Dead in 2003, 2004, and 2009. The group performed together again as the Grateful Dead in 2015, with Trey Anastasio of Phish, to mark their fiftieth anniversary, in what the band announced would be their final concerts. And some members of the band started touring as Dead & Company in 2015. There have also been several spin-offs featuring band members, such as Furthur, Phil Lesh & Friends, RatDog, and the Rhythm Devils with drummers Hart and Kreutzmann."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Furthur_(band)> ,
+		<http://dbpedia.org/resource/Kingfish_(band)> ,
+		dbr:Old_and_in_the_Way ,
+		<http://dbpedia.org/resource/Legion_of_Mary_(band)> ,
+		<http://dbpedia.org/resource/The_Dead_(band)> ,
+		dbr:Jerry_Garcia_Acoustic_Band ,
+		dbr:RatDog ,
+		dbr:The_Tubes ,
+		dbr:New_Riders_of_the_Purple_Sage ,
+		dbr:BK3 ,
+		<http://dbpedia.org/resource/Reconstruction_(band)> ,
+		dbr:Bob_Dylan ,
+		dbr:Donna_Jean_Godchaux_Band ,
+		dbr:Heart_of_Gold_Band ,
+		<http://dbpedia.org/resource/Missing_Man_Formation_(band)> ,
+		dbr:The_Other_Ones ,
+		<http://dbpedia.org/resource/Go_Ahead_(band)> ,
+		dbr:Rhythm_Devils ,
+		<http://dbpedia.org/resource/7_Walkers> ,
+		dbr:Phil_Lesh_and_Friends ,
+		<http://dbpedia.org/resource/Billy_&_the_Kids> ,
+		dbr:Bruce_Hornsby ,
+		<http://dbpedia.org/resource/Dead_&_Company> ,
+		dbr:Jerry_Garcia_Band ,
+		dbr:Bobby_and_the_Midnites ;
+	dbo:genre	dbr:Rock_music ;
+	dbp:caption	"The Grateful Dead in 1970, from a promotional photo shoot. Left to right: Bill Kreutzmann, Ron \"Pigpen\" McKernan, Jerry Garcia, Bob Weir, Mickey Hart, Phil Lesh."^^rdf:langString ;
+	dbp:currentMembers	dbr:Donna_Jean_Godchaux ,
+		<http://dbpedia.org/resource/Robert_Hunter_(lyricist)> ,
+		dbr:Vince_Welnick ,
+		dbr:Brent_Mydland ,
+		dbr:Bill_Kreutzmann ,
+		dbr:Mickey_Hart ,
+		dbr:Keith_Godchaux ,
+		dbr:Phil_Lesh ,
+		dbr:Bob_Weir ,
+		dbr:Tom_Constanten ,
+		<http://dbpedia.org/resource/Ron_%22Pigpen%22_McKernan> ,
+		dbr:Jerry_Garcia ;
+	dbp:website	<http://dead.net> .
+dbr:Hawkwind	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Hawkwind_Donington_1982.jpg?width=300> ;
+	foaf:name	"Hawkwind"@en ;
+	dbo:associateBand	dbr:Pink_Fairies ,
+		dbr:Inner_City_Unit ,
+		<http://dbpedia.org/resource/Space_Ritual_(band)> ,
+		dbr:Motörhead ;
+	dbo:abstract	"Hawkwind are an English rock band and one of the earliest space rock groups. Their lyrics favour urban and science fiction themes. Formed in November 1969, Hawkwind have gone through many incarnations and they have incorporated different styles into their music, including hard rock, progressive rock and psychedelic rock. They are also regarded as an influential proto-punk band. Dozens of musicians, dancers and writers have worked with the band since their inception. Notable musicians to have performed in the band include Lemmy, Ginger Baker and Huw Lloyd-Langton, but the band are most closely associated with their founder, the singer, songwriter and guitarist Dave Brock, who remains the only original member. They are best known for the song \"Silver Machine\", which became a number three UK hit single in 1972, but they scored further hit singles with \"Urban Guerrilla\" (another Top 40 hit) and \"Shot Down in the Night.\" 22 of their albums charted in the UK between 1971 and 1993."@en ;
+	dbo:associatedMusicalArtist	dbr:Pink_Fairies ,
+		dbr:Motörhead ,
+		dbr:Inner_City_Unit ,
+		<http://dbpedia.org/resource/Space_Ritual_(band)> ;
+	dbo:genre	dbr:Space_rock ,
+		dbr:Psychedelic_rock ,
+		dbr:Progressive_rock ,
+		dbr:Hard_rock ,
+		dbr:Proto-punk ;
+	dbp:caption	"Hawkwind playing at the Monsters of Rock festival in Donington Park in 1982"^^rdf:langString ;
+	dbp:currentMembers	dbr:List_of_Hawkwind_band_members ;
+	dbp:website	<http://hawkwind.com/> .
+dbr:Joy_Division	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Sex_Pistols_in_Paradiso_-_Johnny_Rotten_&_Steve_Jones.jpg?width=300> ;
+	foaf:name	"Joy Division"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/New_Order_(band)> ;
+	dbo:abstract	"Joy Division were an English rock band formed in 1976 in Salford, Greater Manchester. Originally named Warsaw, the band consisted of singer Ian Curtis, guitarist and keyboardist Bernard Sumner, bass player Peter Hook, and drummer Stephen Morris. Formed by Sumner and Hook after the two attended a Sex Pistols gig, Joy Division moved beyond their punk roots to develop a sound and style that made them one of the pioneers of the post-punk movement. Their self-released 1978 debut EP, An Ideal for Living, drew the attention of the Manchester television personality Tony Wilson, who signed the group to his independent label, Factory Records. Joy Division's debut album Unknown Pleasures, recorded with producer Martin Hannett, was released in 1979 to critical acclaim. As the band's popularity grew, Curtis suffered from personal problems that included depression, a failing marriage, and epilepsy, and found it increasingly difficult to perform live concerts, during which he sometimes suffered seizures. In May 1980, on the eve of the band's first American tour, Curtis, aged 23, committed suicide. The band's second and final album, Closer, was released two months later; the album and preceding single \"Love Will Tear Us Apart\" became the band's highest charting release. After Curtis's death, the remaining members continued as New Order and achieved critical and commercial success. Although their career spanned less than four years, Joy Division have continued to exert a vast influence on a variety of subsequent artists."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/New_Order_(band)> ;
+	dbo:genre	dbr:Post-punk ;
+	dbp:caption	"Joy Division c. 1979: Morris, Curtis,"^^rdf:langString ,
+		"Sumner, Hook"^^rdf:langString ;
+	dbp:currentMembers	dbr:Ian_Curtis ,
+		<http://dbpedia.org/resource/Stephen_Morris_(musician)> ,
+		dbr:Bernard_Sumner ,
+		dbr:Peter_Hook ;
+	dbp:website	<http://joydivisionofficial.com> .
+dbr:Kraftwerk	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/KRAFTWERK_im_Kiew_01.jpg?width=300> ;
+	foaf:name	"Kraftwerk"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Organisation_(band)> ,
+		dbr:Ibliss ,
+		<http://dbpedia.org/resource/Neu!> ;
+	dbo:abstract	"Kraftwerk (German pronunciation: [\u02C8k\u0280aftv\u025B\u0250k], \"power station\") is a German electronic and pop music band formed by Ralf H\u00FCtter and Florian Schneider in 1969 in D\u00FCsseldorf. The band was fronted by both H\u00FCtter and Schneider until Schneider's departure in 2008. Kraftwerk emerged from the German \"krautrock\" scene in the early 1970s, releasing three albums in an experimental rock style before embracing electronic instrumentation in the middle of the decade, including synthesizers, drum machines, vocoders, and self-made instruments. They achieved commercial success with albums such as Autobahn (1974), Trans-Europe Express (1977), and The Man-Machine (1978). During this time, they developed a distinctive style which combined electronic music with catchy pop melodies, sparse arrangements, and repetitive rhythms, and adopted a stylized visual image which often employed matching suits. Member Wolfgang Fl\u00FCr left the group in 1987. They released their final album Tour de France Soundtracks in 2003. Schneider departed in 2008. As of 2016, the remaining members of Kraftwerk continue to tour. In the 1970s and early 1980s, Kraftwerk's sound was highly influential; they were among the first groups to popularize electronic music and are considered to be innovators and pioneers of the genre. The band has had a lasting effect across many genres of modern music, including synthpop, hip hop, and dance music. According to The Observer, \"no other band since the Beatles has given so much to pop culture\" and a wide range of artists have been influenced by their music and imagery. In January 2014, the Grammy Academy honored Kraftwerk with a Lifetime Achievement Award."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Organisation_(band)> ,
+		dbr:Ibliss ,
+		<http://dbpedia.org/resource/Neu!> ;
+	dbo:genre	dbr:Electropop ,
+		dbr:Krautrock ,
+		dbr:Electronic_music ,
+		dbr:Avant-garde ;
+	dbp:caption	"Kraftwerk performing in Kiev, Ukraine, in 2008"^^rdf:langString ;
+	dbp:currentMembers	dbr:Klaus_Dinger ,
+		dbr:Fernando_Abrantes ,
+		dbr:Emil_Schult ,
+		dbr:Florian_Schneider ,
+		dbr:Klaus_Röder ,
+		dbr:Wolfgang_Flür ,
+		dbr:Karl_Bartos ,
+		dbr:Michael_Rother ;
+	dbp:website	<http://kraftwerk.com> .
+<http://dbpedia.org/resource/Marilyn_Manson_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Marilyn_Manson_Live_in_Moscow_2012.JPG?width=300> ;
+	foaf:name	"Marilyn Manson"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Danzig_(band)> ,
+		dbr:Alice_Cooper ,
+		dbr:Slayer ,
+		dbr:Nine_Inch_Nails ,
+		<http://dbpedia.org/resource/Slipknot_(band)> ,
+		<http://dbpedia.org/resource/Rasputina_(band)> ,
+		<http://dbpedia.org/resource/Godhead_(band)> ,
+		dbr:Rammstein ,
+		dbr:Korn ,
+		dbr:Jack_Off_Jill ,
+		dbr:Rob_Zombie ,
+		dbr:The_Smashing_Pumpkins ;
+	dbo:abstract	"Marilyn Manson is an American rock band formed by singer Marilyn Manson and guitarist Daisy Berkowitz in Fort Lauderdale, Florida, in 1989. Originally named Marilyn Manson & the Spooky Kids, they gained a local cult following in South Florida in the early 1990s with their theatrical live performances. In 1993, they were the first act signed to Trent Reznor's Nothing Records label. Until 1996, the name of each member was created by combining the first name of an iconic female sex symbol and the last name of an iconic serial killer, for example Marilyn Monroe and Charles Manson. Their lineup has changed between many of their album releases; the current members of Marilyn Manson are the eponymous lead singer (the only remaining original member), bassist Twiggy Ramirez, guitarists Paul Wiley and Tyler Bates, keyboardist/percussionist Daniel Fox, and drummer Gil Sharone. In the past, band members dressed in outlandish makeup and costumes, and engaged in intentionally shocking behavior both onstage and off. Their lyrics often received criticism for their anti-religious sentiment and references to sex, violence and drugs, while their live performances were frequently called offensive and obscene. On several occasions, protests and petitions led to the group being blocked from performing, with at least three US states passing legislation banning the group from performing at state-owned venues. They released a number of platinum-selling albums, including Antichrist Superstar (1996) and Mechanical Animals (1998). These albums, along with their highly-stylized music videos and worldwide touring, brought public recognition to Marilyn Manson. In 1999, news media falsely blamed the band for influencing the perpetrators of the Columbine massacre. As this controversy began to wane throughout the 2000s, so did the band's mainstream popularity. Despite this, Jon Wiederhorn of MTV, in June 2003, referred to Marilyn Manson as \"the only true artist today\". Marilyn Manson is widely regarded as being one of the most iconic and controversial figures in heavy metal music, with the band and its lead singer influencing numerous other groups and musicians, both in metal-associated acts and also in wider popular culture. VH1 ranked Marilyn Manson as the seventy-eighth best rock band on their 100 Great Artists of Hard Rock. They were inducted into the Kerrang! Hall of Fame in 2000, and have been nominated for four Grammy Awards. In the US, the band has seen eight of its releases debut in the top ten, including two number-one albums. Marilyn Manson have sold in excess of 50 million records worldwide."@en ;
+	dbo:associatedMusicalArtist	dbr:Alice_Cooper ,
+		dbr:Korn ,
+		<http://dbpedia.org/resource/Rasputina_(band)> ,
+		dbr:Jack_Off_Jill ,
+		dbr:Rob_Zombie ,
+		<http://dbpedia.org/resource/Slipknot_(band)> ,
+		<http://dbpedia.org/resource/Danzig_(band)> ,
+		<http://dbpedia.org/resource/Godhead_(band)> ,
+		dbr:Nine_Inch_Nails ,
+		dbr:The_Smashing_Pumpkins ,
+		dbr:Slayer ,
+		dbr:Rammstein ;
+	dbo:genre	dbr:Industrial_rock ,
+		dbr:Hard_rock ,
+		dbr:Alternative_metal ,
+		dbr:Industrial_metal ,
+		dbr:Glam_rock ,
+		dbr:Shock_rock ;
+	dbp:caption	"Marilyn Manson performing in 2012"^^rdf:langString ;
+	dbp:currentMembers	dbr:Chris_Vrenna ;
+	dbp:website	<http://www.mansonwiki.com/> .
