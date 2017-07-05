@@ -50,11 +50,11 @@
     <!-- Section -->
     <section class="small-section">
         <div class="container relative"><h2 class="mt-0 font-alt">About</h2>
-                    <div class="alt-features-item abstract">
-                        <div class="alt-features-descr">
-                            <img src="images/resource_img.png" data-resource="image"/>
-                            <span data-resource="abstract"></span>
-                        </div>
+            <div class="alt-features-item abstract">
+                <div class="alt-features-descr">
+                    <img src="images/resource_img.png" data-resource="image"/>
+                    <span data-resource="abstract"></span>
+                </div>
 
             </div>
             <hr class="mb-70 mb-xs-30"/>
@@ -153,7 +153,14 @@
             if (data.results.bindings.length > 0) {
                 var props = data.results.bindings[0];
                 $.each(props, function (k, v) {
-                    var value = v.value.match(/^http([s]?):\/\/.*/) ? `<a href="${v.value}">${v.value}</a>` : v.value;
+                    var value = v.value;
+                    if (value.match(/^http([s]?):\/\/.*/)) {
+                        var splitted = value.split("(.)(.)");
+                        value = "";
+                        splitted.forEach(function (entry) {
+                            value = value + '<a href="' + entry + '">' + entry + '</a><br />';
+                        });
+                    }
                     $('[data-resource=' + k + ']').html(value);
                     $("#details").append(
                         `<div class="row">
