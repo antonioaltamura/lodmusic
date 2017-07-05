@@ -97,14 +97,28 @@
                         <div class="banner-content">
                             <h3 class="banner-heading font-alt">Search</h3>
                             <div class="banner-decription">
-                                <form method="get" action="detail" id="form" role="form" class="form">
+                                <form method="get" action="resource" id="form" role="form" class="form">
                                     <div class="mb-20 mb-md-10">
-                                        <!-- Name -->
-                                        <input type="text" name="name" id="autocomplete" class="input-md form-control"
-                                               placeholder="Name" maxlength="100"></div>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-3">
+                                                <select id="resourceType" class="input-md form-control"
+                                                        name="resourceType">
+                                                    <option value="band">Band</option>
+                                                    <option value="artist">Artist</option>
+                                                    <option value="album">Album</option>
+                                                    <option value="track">Track</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-12 col-md-9">
+                                                <input type="text" name="name" id="autocomplete"
+                                                       class="input-md form-control"
+                                                       placeholder="Name" maxlength="100">
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="local-scroll">
-                                        <input type="hidden" id="autocomplete_hidden" name="autocomplete_hidden"/>
-                                        <button type="submit" class="btn btn-mod btn-w btn-medium btn-round">Link it!
+                                        <input type="hidden" id="uri" name="uri"/>
+                                        <button type="submit" id="submit_button" disabled class="btn btn-mod btn-w btn-medium btn-round">Link it!
                                         </button>
                                     </div>
                                     <br> temp buttons
@@ -112,6 +126,7 @@
                                         detail</a> <a href="detailArtist"
                                                       class="btn btn-mod btn-w btn-medium btn-round">artist detail</a>
                                     <a href="form" class="btn btn-mod btn-w btn-medium btn-round">form</a></form>
+                                <a href="graph" class="btn btn-mod btn-w btn-medium btn-round">graph</a></form>
                             </div>
                         </div>
                     </div>
@@ -279,37 +294,37 @@
 <!-- End Page Wrap -->
 <%- include blocks/scripts %>
 <script>
-    $(function () {
+	$(function () {
 
-        $("#autocomplete").autocomplete({
-            focus: function (event, ui) {
-                $("#autocomplete").val(ui.item.name);
-                return false;
-            },
-            source: function (request, response) {
-                $.ajax({
-                    url: "/api/autocomplete",
-                    dataType: "json",
-                    data: {
-                        term: request.term
-                    },
-                    success: function (data) {
-                        response(data);
-                    }
-                });
-            },
-            select: function (event, ui) {
-                $('#autocomplete_hidden').val(ui.item.uri);
-                return false;
-            }
-        }).autocomplete("instance")._renderItem = function (ul, item) {
-            return $("<li>")
-                .append(item.name)
-                .appendTo(ul);
-        };
-        ;
-    });
+		$("#autocomplete").autocomplete({
+			focus: function (event, ui) {
+				$("#autocomplete").val(ui.item.name);
+				return false;
+			},
+			source: function (request, response) {
+				var resourceType = $('#resourceType').val();
+				$.ajax({
+					url: "/api/autocomplete/" + resourceType,
+					dataType: "json",
+					data: {
+						name: request.term
+					},
+					success: function (data) {
+						response(data);
+					}
+				});
+			},
+			select: function (event, ui) {
+				$('#uri').val(ui.item.uri);
+				$('#submit_button').removeAttr('disabled');
+				return false;
+			}
+		}).autocomplete("instance")._renderItem = function (ul, item) {
+			return $("<li>")
+				.append(item.name)
+				.appendTo(ul);
+		};
+	});
 </script>
 </body>
-
 </html>

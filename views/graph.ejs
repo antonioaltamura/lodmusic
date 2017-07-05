@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LODMusic</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="">
+    <!--[if IE]>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/vertical-rhythm.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vis-network.min.css">
+    <style>
+        html {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body class="appear-animate">
+<!-- Page Loader -->
+<div class="page-loader">
+    <div class="loader">Loading...</div>
+</div>
+<!-- End Page Loader -->
+<!-- Page Wrap -->
+<div class="page" id="top">
+    <!-- Home Section -->
+    <section class="home-section bg-dark parallax-1">
+        <div class="js-height-full" id="graph">
+            <!-- Hero Content -->
+            <div class="home-content">
+                <div class="home-text">
+                    <h1 class="hs-line-1 font-alt mb-80 mb-xs-30 mt-70 mt-sm-0">
+                        <!--<b>LOD</b>Music-->
+                        <img src="images/logo-white-big.png"/>
+                    </h1>
+                    <div class="hs-line-6"> Linked Open Data Music Knowledge Base</div>
+                </div>
+            </div>
+            <!-- Scroll Down -->
+            <div class="local-scroll"><a href="#about" class="scroll-down"><i
+                            class="fa fa-angle-down scroll-down-icon"></i></a></div>
+            <!-- End Scroll Down -->
+        </div>
+    </section>
+    <!-- End Home Section -->
+    <!-- Navigation panel -->
+    <nav class="main-nav dark transparent stick-fixed">
+        <%- include( 'blocks/menu.ejs', {theme: "white"}) %>
+    </nav>
+
+</div>
+<!-- End Page Wrap -->
+<%- include blocks/scripts %>
+<script type="text/javascript" src="js/lib/vis-network.min.js"></script>
+
+
+<script type="text/javascript">
+	// create an array with nodes
+	js_height_init()
+	var nodes = new vis.DataSet([
+		{id: 1, label: 'Node 1'},
+		{id: 2, label: 'Node 2'},
+		{id: 3, label: 'Node 3'},
+		{id: 4, label: 'Node 4'},
+		{id: 5, label: 'Node 5'}
+	]);
+
+	// create an array with edges
+	var edges = new vis.DataSet([
+		{from: 1, to: 3},
+		{from: 1, to: 2},
+		{from: 2, to: 4},
+		{from: 2, to: 5},
+	]);
+
+	// create a network
+	var container = document.getElementById('graph');
+	var data = {
+		nodes: nodes,
+		edges: edges
+	};
+	var options = {
+		nodes: {
+			shape: "circle",
+			borderWidth: 1,
+			borderWidthSelected: 2,
+			brokenImage: undefined,
+			chosen: true,
+			color: {
+				border: '#d7d7d7',
+				background: '#fff',
+				highlight: {
+					border: '#b4b4b4',
+					background: '#e9e9e9'
+				},
+				hover: {
+					border: '#bebebe',
+					background: '#d2cacd'
+				}
+			}
+		}
+	};
+	var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>
