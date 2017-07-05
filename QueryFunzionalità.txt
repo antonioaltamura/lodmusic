@@ -12,8 +12,8 @@ WHERE
 	dbo:abstract ?abstract;
 	dbo:birthDate ?bDate.
  OPTIONAL{$param dbo:thumbnail ?image}.
- OPTIONAL{?artist dbo:associatedBand ?bandRelated} .
- OPTIONAL{?artist dbo:associatedMusicalArtist ?artistRelated} .
+ OPTIONAL{?artist dbo:associatedBand ?relatedBand} .
+ OPTIONAL{?artist dbo:associatedMusicalArtist ?relatedArtist} .
  OPTIONAL{ ?artist dbp:caption ?caption} .
  OPTIONAL{?artist dbp:origin ?origin} .
 
@@ -35,8 +35,8 @@ WHERE
 	dbo:abstract ?abstract;
 	dbo:birthDate ?bDate.
   ?band dbp:currentMembers ?artist.
-  OPTIONAL{?artist dbo:associatedBand ?bandRelated} .
-  OPTIONAL{?artist dbo:associatedMusicalArtist ?artistRelated} .
+  OPTIONAL{?artist dbo:associatedBand ?relatedBand} .
+  OPTIONAL{?artist dbo:associatedMusicalArtist ?relatedArtist} .
   OPTIONAL{ ?artist dbp:caption ?caption} .
   OPTIONAL{?artist dbp:origin ?origin} .
   OPTIONAL{$param dbo:thumbnail ?image}.
