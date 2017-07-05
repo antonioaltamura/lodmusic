@@ -48,21 +48,14 @@
     </section>
     <!-- End Head Section -->
     <!-- Section -->
-    <section class="page-section">
-        <div class="container relative">
-            <div class="row alt-features-grid mb-80 mb-xs-40">
-                <div class="col-sm-8">
-                    <div class="alt-features-item align-center">
-                        <div class="alt-features-descr align-left">
-                            <h2 class="mt-0 font-alt">About</h2>
+    <section class="small-section">
+        <div class="container relative"><h2 class="mt-0 font-alt">About</h2>
+                    <div class="alt-features-item abstract">
+                        <div class="alt-features-descr">
+                            <img src="images/resource_img.png" data-resource="image"/>
                             <span data-resource="abstract"></span>
                         </div>
-                    </div>
-                </div>
 
-                <div class="col-sm-4"><p data-resource="image2"></p><img src="images/resource_img.png"
-                                                                         data-resource="image"/>
-                </div>
             </div>
             <hr class="mb-70 mb-xs-30"/>
             <!-- End Divider -->
@@ -83,7 +76,7 @@
     </section>
     <!-- End Section -->
     <!-- Blog Section -->
-    <section class="page-section" id="news">
+    <section class="small-section" id="news">
         <div class="container relative">
             <h2 class="section-title font-alt align-left mb-70 mb-sm-40">
                 Related artists
@@ -160,15 +153,12 @@
             if (data.results.bindings.length > 0) {
                 var props = data.results.bindings[0];
                 $.each(props, function (k, v) {
-                    var value = v.value;
-                    // se URL
-                    if (value.match(/^http([s]?):\/\/.*/))
-                        value = '<a href="' + value + '">' + value + '</a>';
+                    var value = v.value.match(/^http([s]?):\/\/.*/) ? `<a href="${v.value}">${v.value}</a>` : v.value;
                     $('[data-resource=' + k + ']').html(value);
                     $("#details").append(
                         `<div class="row">
-					     <div class="col-md-4"><strong>${k}</strong></div>
-				         <div id="${k}_tab" class="col-md-8"> ${value}</div>
+                             <div class="col-md-4"><strong>${k}</strong></div>
+                             <div id="${k}_tab" class="col-md-8"> ${value}</div>
 				         </div>`);
                 });
                 if (data.results.bindings[0].image) {

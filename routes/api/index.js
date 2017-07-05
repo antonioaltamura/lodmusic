@@ -2,26 +2,42 @@
 let router = require('express').Router();
 let sparql = require('../sparql');
 
-router.get('/band', function (req, res) {
-	if (!req.query.uri)
-		res.status(400).json({message: 'No query param'});
-	sparql.query(`
-	SELECT ?name ?website ?abstract ?genre ?image ?member
+
+		router.get('/band', function (req, res) {
+			if (!req.query.uri)
+				res.status(400).json({message: 'No query param'});
+			sparql.query(`
+SELECT ?name
+?image
+?abstract
+(GROUP_CONCAT(DISTINCT ?website; separator="(.)(.)") AS ?websites)
+(GROUP_CONCAT(DISTINCT ?genre; separator="(.)(.)") AS ?genres)
+(GROUP_CONCAT(DISTINCT ?member; separator="(.)(.)") AS ?members)
+(GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
+(GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
+?origin
+?caption
 WHERE{
- <${req.query.uri}> a dbo:Band ;
+VALUES ?s { <${req.query.uri}> }
+  ?s a dbo:Band ;
        foaf:name ?name;
-      dbo:abstract ?abstract ;
-      dbp:currentMembers ?member .
-  OPTIONAL{  <${req.query.uri}> dbo:genre ?genre } .
-  OPTIONAL{  <${req.query.uri}> dbp:website ?website} .
-  OPTIONAL{  <${req.query.uri}> dbo:image ?image} .
-}`, function (r) {
-		if(r.error) {
-			res.json(r);
-		}
-		res.json(JSON.parse(r));
-	})
-});
+      dbo:abstract ?abstract .
+  OPTIONAL{?s dbo:genre ?genre } .
+  OPTIONAL{?s dbp:website ?website} .
+  OPTIONAL{?s dbo:associatedBand ?bandRelated} .
+  OPTIONAL{?s dbo:associatedMusicalArtist ?artistRelated} .
+  OPTIONAL{?s dbp:caption ?caption} .
+  OPTIONAL{?s dbp:origin ?origin} .
+  OPTIONAL{?s dbo:image ?image} .
+FILTER LANGMATCHES(LANG(?abstract ), "en")
+} group by ?name  ?abstract ?image ?origin ?caption
+`, function (r) {
+				if(r.error) {
+					res.json(r);
+				}
+				res.json(JSON.parse(r));
+			})
+		});
 
 router.get('/album', function (req, res) {
 	if (!req.query.uri)

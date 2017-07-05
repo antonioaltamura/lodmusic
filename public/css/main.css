@@ -30,3 +30,10 @@ a.ui-button:active,
 .resource_background{
     background-position: center center;
 }
+.abstract img {
+    margin: 20px;
+    float:right
+}
+.abstract{
+    text-align: justify;
+}
