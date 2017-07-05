@@ -1,0 +1,524 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbr:Cypress_Hill	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Cypress_Hill_crop.jpg?width=300> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+dbr:Cypress_Hill	foaf:name	"Cypress Hill"@en ;
+	dbo:associateBand	dbr:Deadmau5 ,
+		dbr:Psycho_Realm ,
+		dbr:Travis_Barker ,
+		<http://dbpedia.org/resource/Slash_(musician)> ,
+		<http://dbpedia.org/resource/Rusko_(musician)> ,
+		dbr:Eazy-E ,
+		dbr:Cypress_X_Rusko ,
+		dbr:Snoop_Dogg ,
+		dbr:Eminem ,
+		dbr:Mike_Shinoda ,
+		<http://dbpedia.org/resource/Fergie_(singer)> ,
+		dbr:Kottonmouth_Kings ,
+		dbr:Richie_Londres ,
+		dbr:House_of_Pain ,
+		dbr:La_Coka_Nostra ,
+		dbr:Xzibit ,
+		dbr:Adil_Omar ,
+		<http://dbpedia.org/resource/P.O.D.> ,
+		dbr:Funkdoobiest ,
+		dbr:Tom_Morello ,
+		dbr:Young_De ,
+		dbr:Prophets_of_Rage ,
+		dbr:Rage_Against_the_Machine ,
+		dbr:Sol_Invicto ,
+		dbr:Ice_Cube ,
+		dbr:Daron_Malakian ,
+		<http://dbpedia.org/resource/Everlast_(musician)> ,
+		dbr:Soul_Assassins ;
+	dbo:abstract	"Cypress Hill is an American hip hop group from South Gate, California. Cypress Hill was the first Latino American hip hop recording group to have platinum and multi-platinum albums, selling over 18 million albums worldwide. They are considered to be among the main progenitors of West Coast rap and Hip hop in the early 1990s, being critically acclaimed for their first four albums. The band has also been important for the advocacy of medical and recreational use of cannabis in the United States."@en ;
+	dbo:associatedMusicalArtist	dbr:Kottonmouth_Kings ,
+		dbr:La_Coka_Nostra ,
+		<http://dbpedia.org/resource/Fergie_(singer)> ,
+		dbr:Soul_Assassins ,
+		dbr:Eminem ,
+		dbr:Rage_Against_the_Machine ,
+		dbr:Prophets_of_Rage ,
+		dbr:Ice_Cube ,
+		<http://dbpedia.org/resource/P.O.D.> ,
+		<http://dbpedia.org/resource/Rusko_(musician)> ,
+		dbr:Young_De ,
+		dbr:Funkdoobiest ,
+		<http://dbpedia.org/resource/Slash_(musician)> ,
+		dbr:Tom_Morello ,
+		dbr:Psycho_Realm ,
+		dbr:Richie_Londres ,
+		dbr:Mike_Shinoda ,
+		dbr:Adil_Omar ,
+		dbr:Travis_Barker ,
+		dbr:Daron_Malakian ,
+		dbr:Sol_Invicto ,
+		dbr:Xzibit ,
+		dbr:Cypress_X_Rusko ,
+		dbr:Eazy-E ,
+		dbr:Deadmau5 ,
+		dbr:House_of_Pain ,
+		<http://dbpedia.org/resource/Everlast_(musician)> ,
+		dbr:Snoop_Dogg ;
+	dbo:genre	dbr:Nu_metal ,
+		dbr:Gangsta_rap ,
+		dbr:Rap_metal ,
+		dbr:Hardcore_hip_hop ,
+		dbr:Latin_hip_hop ,
+		dbr:West_coast_hip_hop ,
+		dbr:Hip_hop_music .
+@prefix dbp:	<http://dbpedia.org/property/> .
+dbr:Cypress_Hill	dbp:caption	"Cypress Hill performing at Bonnaroo in 2006"^^rdf:langString ;
+	dbp:currentMembers	dbr:B-Real ,
+		dbr:Sen_Dog ,
+		<http://dbpedia.org/resource/Eric_%22Bobo%22_Correa> ,
+		dbr:DJ_Muggs ;
+	dbp:website	<http://www.cypresshill.com> .
+<http://dbpedia.org/resource/Deicide_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Deicide-Live-Metaltown_2011.jpg?width=300> ;
+	foaf:name	"Deicide"@en ;
+	dbo:associateBand	dbr:Vital_Remains ,
+		dbr:Cannibal_Corpse ,
+		<http://dbpedia.org/resource/Adrift_(band)> ,
+		<http://dbpedia.org/resource/Obituary_(band)> ,
+		dbr:Order_of_Ennead ;
+	dbo:abstract	"Deicide is an American death metal band formed in 1987 by bassist and vocalist Glen Benton and drummer Steve Asheim as \"Amon\". They would later change the band name to Deicide in 1989. The band rose to mainstream success in 1992 with their second album Legion, and is credited as the second best-selling death metal band of the Soundscan Era, after Cannibal Corpse. Since their debut album in 1990, Deicide has released eleven studio albums, one live album, two compilation albums and two live DVDs. In November 2003, their first two albums, Deicide and Legion, were ranked second and third place respectively in best-selling death metal albums of the SoundScan era. Deicide is known for their lyrics, which cover topics such as Satanism, anti-religion and blasphemy. Their lyrics have resulted in bans, lawsuits and criticism from religious groups and the public."@en ;
+	dbo:associatedMusicalArtist	dbr:Vital_Remains ,
+		<http://dbpedia.org/resource/Adrift_(band)> ,
+		dbr:Order_of_Ennead ,
+		<http://dbpedia.org/resource/Obituary_(band)> ,
+		dbr:Cannibal_Corpse ;
+	dbo:genre	dbr:Death_metal ;
+	dbp:caption	"Deicide performing live at Metaltown Festival in June 2011"^^rdf:langString ;
+	dbp:currentMembers	dbr:Glen_Benton ,
+		dbr:Steve_Asheim ,
+		dbr:Jack_Owen .
+@prefix ns5:	<https://www.facebook.com/> .
+<http://dbpedia.org/resource/Deicide_(band)>	dbp:website	ns5:OfficialDeicide .
+dbr:Devo	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Forecastle_Devo.jpg?width=300> ;
+	foaf:name	"Devo"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Jihad_Jerry_&_the_Evildoers> ,
+		<http://dbpedia.org/resource/Devo_2.0> ,
+		dbr:Toni_Basil ;
+	dbo:abstract	"Devo (/\u02C8di\u02D0vo\u028A/, originally /di\u02D0\u02C8vo\u028A/) is an American rock band that formed in 1973, consisting of members from Kent and Akron, Ohio. Their classic line-up consisted of two sets of brothers, the Mothersbaughs (Mark and Bob) and the Casales (Gerald and Bob), along with Alan Myers. The band had a No. 14 Billboard chart hit in 1980 with the single \"Whip It\" and has maintained a cult following throughout its existence. Devo's music and stage shows mingle kitsch science fiction themes, deadpan surrealist humor, and mordantly satirical social commentary. Their often discordant pop songs feature unusual synthetic instrumentation and time signatures that have proven influential on subsequent popular music, particularly new wave, industrial, and alternative rock artists. Devo was also a pioneer of the music video, creating many memorable clips for the LaserDisc format, with \"Whip It\" getting heavy airplay in the early days of MTV."@en ;
+	dbo:associatedMusicalArtist	dbr:Toni_Basil ,
+		<http://dbpedia.org/resource/Devo_2.0> ,
+		<http://dbpedia.org/resource/Jihad_Jerry_&_the_Evildoers> ;
+	dbo:genre	dbr:Post-punk ,
+		dbr:Synthpop ,
+		dbr:Art_pop ,
+		dbr:Industrial_music ,
+		dbr:New_wave_music ,
+		dbr:Electronic_rock ,
+		dbr:Art_punk ;
+	dbp:caption	"Left to right: Gerald Casale , Mark Mothersbaugh , Bob Casale , and Bob Mothersbaugh"^^rdf:langString ,
+		"Devo performing live at the Forecastle Festival, in Louisville, Kentucky, in 2010"^^rdf:langString ;
+	dbp:currentMembers	dbr:Mark_Mothersbaugh ,
+		dbr:Bob_Mothersbaugh ,
+		dbr:Josh_Freese ,
+		dbr:Gerald_Casale ;
+	dbp:website	<http://clubdevo.com> .
+dbr:Dimmu_Borgir	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/DimmuBorgirTuska2005.jpg?width=300> ;
+	foaf:name	"Dimmu Borgir"@en ;
+	dbo:associateBand	dbr:Chrome_Division ,
+		<http://dbpedia.org/resource/Brujeria_(band)> ,
+		dbr:Dødheimsgard ,
+		dbr:Angelcorpse ,
+		dbr:Susperia ,
+		dbr:Nachtmystium ,
+		<http://dbpedia.org/resource/Vader_(band)> ,
+		dbr:Carpe_Tenebrum ,
+		dbr:Infernal_Method ,
+		dbr:God_Dethroned ,
+		dbr:Vesania ,
+		dbr:Ov_Hell ,
+		<http://dbpedia.org/resource/Arcturus_(band)> ,
+		dbr:The_Kovenant ,
+		<http://dbpedia.org/resource/Nile_(band)> ,
+		<http://dbpedia.org/resource/Ragnarok_(Norwegian_band)> ,
+		<http://dbpedia.org/resource/Mayhem_(band)> ,
+		<http://dbpedia.org/resource/Code_(band)> ,
+		dbr:Ved_Buens_Ende ,
+		<http://dbpedia.org/resource/Old_Man\u0027s_Child> ,
+		dbr:Cradle_of_Filth ,
+		dbr:United_Forces ,
+		dbr:Borknagar ,
+		dbr:Xanthochroid ;
+	dbo:abstract	"Dimmu Borgir (/\u02CCd\u026Amu\u02D0 \u02C8b\u0254\u02D0r\u0261\u026Ar/ or Norwegian: [d\u026Amm\u028F b\u0254\u027Egi\u027E] or Norwegian pronunciation: [d\u026Amm\u028F b\u0254\u0281gi\u0281]) is a Norwegian symphonic black metal band from Oslo, Norway, formed in 1993. The name is derived from Dimmuborgir, a volcanic formation in Iceland, the name of which means \"dark cities\" or \"dark castles/fortresses\" in Icelandic, Faroese and Old Norse. The band has been through numerous lineup changes over the years; guitarist Silenoz and vocalist Shagrath are the only original members who still remain with guitarist Galder being a longstanding member."@en ;
+	dbo:associatedMusicalArtist	dbr:Xanthochroid ,
+		<http://dbpedia.org/resource/Nile_(band)> ,
+		<http://dbpedia.org/resource/Old_Man\u0027s_Child> ,
+		<http://dbpedia.org/resource/Vader_(band)> ,
+		dbr:Ved_Buens_Ende ,
+		dbr:Ov_Hell ,
+		dbr:God_Dethroned ,
+		<http://dbpedia.org/resource/Arcturus_(band)> ,
+		dbr:Angelcorpse ,
+		dbr:Nachtmystium ,
+		dbr:Infernal_Method ,
+		<http://dbpedia.org/resource/Brujeria_(band)> ,
+		<http://dbpedia.org/resource/Mayhem_(band)> ,
+		dbr:The_Kovenant ,
+		dbr:Borknagar ,
+		dbr:Susperia ,
+		dbr:Dødheimsgard ,
+		dbr:Chrome_Division ,
+		<http://dbpedia.org/resource/Code_(band)> ,
+		dbr:Cradle_of_Filth ,
+		dbr:Carpe_Tenebrum ,
+		dbr:Vesania ,
+		<http://dbpedia.org/resource/Ragnarok_(Norwegian_band)> ,
+		dbr:United_Forces ;
+	dbo:genre	dbr:Black_metal ,
+		dbr:Symphonic_black_metal ;
+	dbp:caption	"Dimmu Borgir performing in 2005."^^rdf:langString ;
+	dbp:currentMembers	dbr:Shagrath ,
+		dbr:Galder ,
+		dbr:Silenoz ;
+	dbp:website	<http://www.site.dimmu-borgir.com/> .
+dbr:Electric_Light_Orchestra	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/ELO_-_Time_Tour_81-82.jpg?width=300> ;
+	foaf:name	"Electric Light Orchestra"@en ;
+	dbo:associateBand	dbr:The_Idle_Race ,
+		dbr:ELO_Part_II ,
+		dbr:The_Orchestra ,
+		dbr:The_Move ,
+		dbr:Olivia_Newton-John ;
+	dbo:abstract	"The Electric Light Orchestra (ELO) are an English rock band from Birmingham. They were formed in 1970 by songwriters/multi-instrumentalists Roy Wood and Jeff Lynne with drummer Bev Bevan. Their music is characterized by a fusion of Beatlesque pop, classical arrangements, and futuristic iconography. After Wood's departure in 1972, Lynne became the group's leader, arranging and producing every album while writing virtually all of their original material. The band was formed to accommodate Wood's and Lynne's desire to create modern rock and pop songs with classical overtones, deriving as an offshoot of Wood's previous band the Move, of which Lynne and Bevan were also members. ELO were most active during the 1970s and 1980s, recording a string of studio albums that include the conceptual works Eldorado (1974) and Time (1981). For their initial tenure, Lynne, Bevan, and keyboardist Richard Tandy were the group's only consistent members. In 1986, Lynne lost interest in the band and ceased its operation. Bevan responded by forming his own band, ELO Part II, which later became the Orchestra. With the exception of a short-lived reformation in 2000\u201301, ELO remained largely inactive for the next three decades. In 2014, Lynne reformed the band once again with Tandy as Jeff Lynne's ELO, where he resumed concert touring and new recordings under the moniker. During ELO's original 13-year period of active recording and touring, they sold over 50 million records, collecting 19 CRIA, 21 RIAA and 38 BPI awards, Despite early singles' success in the United Kingdom, the band was initially more successful in the United States, where they were billed as \"the English guys with the big fiddles\". From 1972 to 1986, ELO accumulated twenty Top 20 songs on the UK Singles Chart, and fifteen Top 20 songs on the US Billboard Hot 100. The band also holds the record for having the most Billboard Hot 100 Top 40 hits, 20, of any group in US chart history without having a number one single."@en ;
+	dbo:associatedMusicalArtist	dbr:Olivia_Newton-John ,
+		dbr:The_Orchestra ,
+		dbr:The_Idle_Race ,
+		dbr:The_Move ,
+		dbr:ELO_Part_II ;
+	dbo:genre	dbr:Progressive_rock ,
+		dbr:Art_rock ,
+		dbr:Symphonic_pop ,
+		dbr:Progressive_pop ,
+		dbr:Symphonic_rock ;
+	dbp:caption	"ELO performing live, during their Time Tour in 1981."^^rdf:langString ;
+	dbp:currentMembers	dbr:Richard_Tandy ,
+		dbr:Jeff_Lynne ;
+	dbp:website	<http://jefflynneselo.com> .
+dbr:Gorillaz	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Damon_Albarn_live29.07.2013_in_Rome_4.JPG?width=300> ;
+	foaf:name	"Gorillaz"@en ;
+	dbo:associateBand	dbr:Del_the_Funky_Homosapien .
+@prefix ns6:	<http://dbpedia.org/resource/Monkey:> .
+dbr:Gorillaz	dbo:associateBand	ns6:_Journey_to_the_West ,
+		dbr:Massive_Attack ,
+		dbr:Snoop_Dogg ,
+		dbr:De_La_Soul ,
+		<http://dbpedia.org/resource/Blur_(band)> ,
+		<http://dbpedia.org/resource/The_Good,_the_Bad_&_the_Queen> ,
+		<http://dbpedia.org/resource/Rocket_Juice_&_the_Moon> ,
+		dbr:Deltron_3030 ;
+	dbo:abstract	"Gorillaz are a British virtual band created in 1998 by Damon Albarn and Jamie Hewlett. The band consists of four animated members: 2D (lead vocals, keyboard), Murdoc Niccals (bass guitar, vocals), Noodle (guitar, keyboard, and backing vocals) and Russel Hobbs (drums and percussion). These members are completely fictional and are not personas of any \"real life\" musicians involved in the project. Their fictional universe is explored through the band's website and music videos, as well as a number of other media, such as short cartoons. In reality, Albarn is the only permanent musical contributor, and the music is often a collaboration between various musicians. Writers and critics have described their music as alternative rock, Britpop, trip hop, hip hop, electronica, indie, dub, reggae and pop. The band's 2001 debut album Gorillaz sold over seven million copies and earned them an entry in the Guinness Book of World Records as the Most Successful Virtual Band. It was nominated for the Mercury Prize in 2001, but the nomination was later withdrawn at the band's request. Their second studio album, Demon Days, released in 2005, went five times platinum in the UK. double platinum in the US, The band has won other awards, including one Grammy Award, two MTV Video Music Awards, an NME Award, three MTV Europe Music Awards, and have been nominated for nine Brit Awards. The combined sales of the Gorillaz and Demon Days albums had exceeded 15 million by 2007. The band's third studio album, Plastic Beach, was released in March 2010. Their latest album, The Fall, was released in December 2010 as a free download for fan club members, then in April 2011 as a physical release. Gorillaz plan to release new material in 2017, but there might be a possibility for a 2016 release."@en ;
+	dbo:associatedMusicalArtist	dbr:Deltron_3030 ,
+		<http://dbpedia.org/resource/Blur_(band)> ,
+		dbr:Snoop_Dogg ,
+		<http://dbpedia.org/resource/Rocket_Juice_&_the_Moon> ,
+		dbr:Massive_Attack ,
+		ns6:_Journey_to_the_West ,
+		dbr:Del_the_Funky_Homosapien ,
+		dbr:De_La_Soul ,
+		<http://dbpedia.org/resource/The_Good,_the_Bad_&_the_Queen> ;
+	dbo:genre	dbr:Alternative_rock ,
+		dbr:Alternative_hip_hop ,
+		dbr:Electronica ;
+	dbp:caption	"Gorillaz members circa Phase 2."^^rdf:langString ;
+	dbp:currentMembers	dbr:Damon_Albarn ,
+		dbr:Jamie_Hewlett ,
+		dbr:Murdoc_Niccals ,
+		<http://dbpedia.org/resource/2D_(character)> ,
+		<http://dbpedia.org/resource/Noodle_(Gorillaz)> ,
+		dbr:Russel_Hobbs ;
+	dbp:website	<http://gorillaz.com> .
+dbr:Hawkwind	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Hawkwind_Donington_1982.jpg?width=300> ;
+	foaf:name	"Hawkwind"@en ;
+	dbo:associateBand	dbr:Pink_Fairies ,
+		dbr:Inner_City_Unit ,
+		<http://dbpedia.org/resource/Space_Ritual_(band)> ,
+		dbr:Motörhead ;
+	dbo:abstract	"Hawkwind are an English rock band and one of the earliest space rock groups. Their lyrics favour urban and science fiction themes. Formed in November 1969, Hawkwind have gone through many incarnations and they have incorporated different styles into their music, including hard rock, progressive rock and psychedelic rock. They are also regarded as an influential proto-punk band. Dozens of musicians, dancers and writers have worked with the band since their inception. Notable musicians to have performed in the band include Lemmy, Ginger Baker and Huw Lloyd-Langton, but the band are most closely associated with their founder, the singer, songwriter and guitarist Dave Brock, who remains the only original member. They are best known for the song \"Silver Machine\", which became a number three UK hit single in 1972, but they scored further hit singles with \"Urban Guerrilla\" (another Top 40 hit) and \"Shot Down in the Night.\" 22 of their albums charted in the UK between 1971 and 1993."@en ;
+	dbo:associatedMusicalArtist	dbr:Pink_Fairies ,
+		dbr:Motörhead ,
+		dbr:Inner_City_Unit ,
+		<http://dbpedia.org/resource/Space_Ritual_(band)> ;
+	dbo:genre	dbr:Space_rock ,
+		dbr:Psychedelic_rock ,
+		dbr:Progressive_rock ,
+		dbr:Hard_rock ,
+		dbr:Proto-punk ;
+	dbp:caption	"Hawkwind playing at the Monsters of Rock festival in Donington Park in 1982"^^rdf:langString ;
+	dbp:currentMembers	dbr:Dave_Brock ,
+		dbr:Niall_Hone ,
+		dbr:Mr_Dibs ;
+	dbp:website	<http://hawkwind.com/> .
+dbr:Kraftwerk	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/KRAFTWERK_im_Kiew_01.jpg?width=300> ;
+	foaf:name	"Kraftwerk"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Organisation_(band)> ,
+		dbr:Ibliss ,
+		<http://dbpedia.org/resource/Neu!> ;
+	dbo:abstract	"Kraftwerk (German pronunciation: [\u02C8k\u0280aftv\u025B\u0250k], \"power station\") is a German electronic and pop music band formed by Ralf H\u00FCtter and Florian Schneider in 1969 in D\u00FCsseldorf. The band was fronted by both H\u00FCtter and Schneider until Schneider's departure in 2008. Kraftwerk emerged from the German \"krautrock\" scene in the early 1970s, releasing three albums in an experimental rock style before embracing electronic instrumentation in the middle of the decade, including synthesizers, drum machines, vocoders, and self-made instruments. They achieved commercial success with albums such as Autobahn (1974), Trans-Europe Express (1977), and The Man-Machine (1978). During this time, they developed a distinctive style which combined electronic music with catchy pop melodies, sparse arrangements, and repetitive rhythms, and adopted a stylized visual image which often employed matching suits. Member Wolfgang Fl\u00FCr left the group in 1987. They released their final album Tour de France Soundtracks in 2003. Schneider departed in 2008. As of 2016, the remaining members of Kraftwerk continue to tour. In the 1970s and early 1980s, Kraftwerk's sound was highly influential; they were among the first groups to popularize electronic music and are considered to be innovators and pioneers of the genre. The band has had a lasting effect across many genres of modern music, including synthpop, hip hop, and dance music. According to The Observer, \"no other band since the Beatles has given so much to pop culture\" and a wide range of artists have been influenced by their music and imagery. In January 2014, the Grammy Academy honored Kraftwerk with a Lifetime Achievement Award."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Organisation_(band)> ,
+		dbr:Ibliss ,
+		<http://dbpedia.org/resource/Neu!> ;
+	dbo:genre	dbr:Electropop ,
+		dbr:Krautrock ,
+		dbr:Electronic_music ,
+		dbr:Avant-garde ;
+	dbp:caption	"Kraftwerk performing in Kiev, Ukraine, in 2008"^^rdf:langString ;
+	dbp:currentMembers	dbr:Fritz_Hilpert ,
+		dbr:Henning_Schmitz ,
+		dbr:Ralf_Hütter ;
+	dbp:website	<http://kraftwerk.com> .
+dbr:Linkin_Park	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/LinkinParkBerlin2010.jpg?width=300> ;
+	foaf:name	"Linkin Park"@en ;
+	dbo:associateBand	dbr:Steve_Aoki ,
+		dbr:Jay_Z ;
+	dbo:abstract	"Linkin Park is an American rock band from Agoura Hills, California. Formed in 1996, the band rose to international fame with their debut album Hybrid Theory (2000), which was certified diamond by the RIAA in 2005 and multi-platinum in several other countries. Their following studio album Meteora continued the band's success, topping the Billboard 200 album chart in 2003, and was followed by extensive touring and charity work around the world. In 2003, MTV2 named Linkin Park the sixth-greatest band of the music video era and the third-best of the new millennium. Billboard ranked Linkin Park No. 19 on the Best Artists of the Decade chart. In 2012, the band was voted as the greatest artist of the 2000s in a Bracket Madness poll on VH1. In 2014, the band was declared as the Biggest Rock Band in the World Right Now by Kerrang!. Having adapted nu metal and rap metal to a radio-friendly yet densely layered style in Hybrid Theory and Meteora, the band explored other genres in their next studio album, Minutes to Midnight (2007). The album topped the Billboard charts and had the third-best debut week of any album that year. The band continued to explore a wider variation of musical types in their fourth album, A Thousand Suns (2010), layering their music with more electronic sounds and beats. Their fifth album, Living Things (2012), combines musical elements from all of their previous records. Their sixth and most recent album, The Hunting Party (2014), returned to a heavier rock sound. The band has collaborated with several other artists, most notably with rapper Jay Z in their mashup EP Collision Course, and many others on the remix albums Reanimation and Recharged. Linkin Park has sold over 68 million albums worldwide and has won two Grammy Awards."@en ;
+	dbo:associatedMusicalArtist	dbr:Steve_Aoki ,
+		dbr:Jay_Z ;
+	dbo:genre	dbr:Alternative_metal ,
+		dbr:Alternative_rock ,
+		dbr:Nu_metal ,
+		dbr:Rap_rock ,
+		dbr:Electronic_rock .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:Linkin_Park	dbp:caption	"--10-20"^^xsd:gMonthDay ;
+	dbp:currentMembers	dbr:Brad_Delson ,
+		dbr:Joe_Hahn ,
+		dbr:Chester_Bennington ,
+		dbr:Mike_Shinoda ;
+	dbp:website	<http://linkinpark.com> .
+dbr:Lynyrd_Skynyrd	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Lynyrd_Skynyrd_(1973).png?width=300> ;
+	foaf:name	"Lynyrd Skynyrd"@en ;
+	dbo:associateBand	dbr:Rossington_Collins_Band ,
+		<http://dbpedia.org/resource/38_Special_(band)> ,
+		dbr:Charlie_Daniels ,
+		<http://dbpedia.org/resource/Blackfoot_(band)> ,
+		dbr:The_Rossington_Band ,
+		dbr:Van_Zant ,
+		dbr:Allen_Collins_Band ,
+		dbr:ZZ_Top ,
+		dbr:Strawberry_Alarm_Clock ,
+		dbr:Skinny_Molly ,
+		<http://dbpedia.org/resource/Outlaws_(band)> ;
+	dbo:abstract	"Lynyrd Skynyrd (pronounced /\u02CCl\u025Bn\u0259rd \u02C8sk\u026An\u0259rd/ LEN-\u0259rd-SKIN-\u0259rd) is an American rock band best known for popularizing the Southern rock genre during the 1970s. Originally formed in 1964 as \"My Backyard\" in Jacksonville, Florida, the band was also known by names such as The Noble Five and One Percent, before finally deciding on Lynyrd Skynyrd in 1969. The band gained worldwide recognition for its live performances and signature songs \"Sweet Home Alabama\" and \"Free Bird\". At the peak of their success, three members died in an airplane crash in 1977, putting an abrupt end to the band's most popular incarnation. The band has sold 28 million albums in the US. The surviving band members reformed in 1987 for a reunion tour with lead vocalist Johnny Van Zant, the younger brother of lead singer and founder Ronnie Van Zant. Lynyrd Skynyrd continues to tour and record with co-founder Gary Rossington, Johnny Van Zant, and guitarist Rickey Medlocke \u2014 who first wrote and recorded with the band from 1971 to 1972 (before his return to Lynyrd Skynyrd in 1996). Fellow founding member Larry Junstrom, along with '70s members Ed King and Artimus Pyle, remain active in music but no longer tour or record with the band. Drummer Michael Cartellone has recorded and toured with Lynyrd Skynyrd as its core drummer since 1999. Lynyrd Skynyrd was inducted into the Rock and Roll Hall of Fame on March 13, 2006."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Outlaws_(band)> ,
+		dbr:Strawberry_Alarm_Clock ,
+		dbr:Charlie_Daniels ,
+		<http://dbpedia.org/resource/Blackfoot_(band)> ,
+		dbr:Allen_Collins_Band ,
+		<http://dbpedia.org/resource/38_Special_(band)> ,
+		dbr:Rossington_Collins_Band ,
+		dbr:Skinny_Molly ,
+		dbr:Van_Zant ,
+		dbr:The_Rossington_Band ,
+		dbr:ZZ_Top ;
+	dbo:genre	dbr:Southern_rock ,
+		dbr:Blues_rock ,
+		dbr:Hard_rock ;
+	dbp:caption	"Lynyrd Skynyrd in 1973"^^rdf:langString ;
+	dbp:currentMembers	dbr:Gary_Rossington ,
+		dbr:Michael_Cartellone ,
+		dbr:Johnny_Van_Zant ,
+		dbr:Peter_Keys ,
+		dbr:Johnny_Colt ,
+		dbr:Rickey_Medlocke ,
+		dbr:Mark_Matejka ;
+	dbp:website	<http://lynyrdskynyrd.com> .
+<http://dbpedia.org/resource/Marilyn_Manson_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Marilyn_Manson_Live_in_Moscow_2012.JPG?width=300> ;
+	foaf:name	"Marilyn Manson"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Danzig_(band)> ,
+		dbr:Alice_Cooper ,
+		dbr:Slayer ,
+		dbr:Nine_Inch_Nails ,
+		<http://dbpedia.org/resource/Slipknot_(band)> ,
+		<http://dbpedia.org/resource/Rasputina_(band)> ,
+		<http://dbpedia.org/resource/Godhead_(band)> ,
+		dbr:Rammstein ,
+		dbr:Korn ,
+		dbr:Jack_Off_Jill ,
+		dbr:Rob_Zombie ,
+		dbr:The_Smashing_Pumpkins ;
+	dbo:abstract	"Marilyn Manson is an American rock band formed by singer Marilyn Manson and guitarist Daisy Berkowitz in Fort Lauderdale, Florida, in 1989. Originally named Marilyn Manson & the Spooky Kids, they gained a local cult following in South Florida in the early 1990s with their theatrical live performances. In 1993, they were the first act signed to Trent Reznor's Nothing Records label. Until 1996, the name of each member was created by combining the first name of an iconic female sex symbol and the last name of an iconic serial killer, for example Marilyn Monroe and Charles Manson. Their lineup has changed between many of their album releases; the current members of Marilyn Manson are the eponymous lead singer (the only remaining original member), bassist Twiggy Ramirez, guitarists Paul Wiley and Tyler Bates, keyboardist/percussionist Daniel Fox, and drummer Gil Sharone. In the past, band members dressed in outlandish makeup and costumes, and engaged in intentionally shocking behavior both onstage and off. Their lyrics often received criticism for their anti-religious sentiment and references to sex, violence and drugs, while their live performances were frequently called offensive and obscene. On several occasions, protests and petitions led to the group being blocked from performing, with at least three US states passing legislation banning the group from performing at state-owned venues. They released a number of platinum-selling albums, including Antichrist Superstar (1996) and Mechanical Animals (1998). These albums, along with their highly-stylized music videos and worldwide touring, brought public recognition to Marilyn Manson. In 1999, news media falsely blamed the band for influencing the perpetrators of the Columbine massacre. As this controversy began to wane throughout the 2000s, so did the band's mainstream popularity. Despite this, Jon Wiederhorn of MTV, in June 2003, referred to Marilyn Manson as \"the only true artist today\". Marilyn Manson is widely regarded as being one of the most iconic and controversial figures in heavy metal music, with the band and its lead singer influencing numerous other groups and musicians, both in metal-associated acts and also in wider popular culture. VH1 ranked Marilyn Manson as the seventy-eighth best rock band on their 100 Great Artists of Hard Rock. They were inducted into the Kerrang! Hall of Fame in 2000, and have been nominated for four Grammy Awards. In the US, the band has seen eight of its releases debut in the top ten, including two number-one albums. Marilyn Manson have sold in excess of 50 million records worldwide."@en ;
+	dbo:associatedMusicalArtist	dbr:Alice_Cooper ,
+		dbr:Korn ,
+		<http://dbpedia.org/resource/Rasputina_(band)> ,
+		dbr:Jack_Off_Jill ,
+		dbr:Rob_Zombie ,
+		<http://dbpedia.org/resource/Slipknot_(band)> ,
+		<http://dbpedia.org/resource/Danzig_(band)> ,
+		<http://dbpedia.org/resource/Godhead_(band)> ,
+		dbr:Nine_Inch_Nails ,
+		dbr:The_Smashing_Pumpkins ,
+		dbr:Slayer ,
+		dbr:Rammstein ;
+	dbo:genre	dbr:Industrial_rock ,
+		dbr:Hard_rock ,
+		dbr:Alternative_metal ,
+		dbr:Industrial_metal ,
+		dbr:Glam_rock ,
+		dbr:Shock_rock ;
+	dbp:caption	"Marilyn Manson performing in 2012"^^rdf:langString ;
+	dbp:currentMembers	dbr:Marilyn_Manson ,
+		dbr:Tyler_Bates ,
+		dbr:Gil_Sharone ,
+		<http://dbpedia.org/resource/Daniel_Fox_(Lil\u0027_Dan)> ,
+		dbr:Twiggy_Ramirez ;
+	dbp:website	<http://www.mansonwiki.com/> ,
+		<http://www.marilynmanson.com> .
+dbr:Meat_Puppets	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Meat_Puppets_2014.jpg?width=300> ;
+	foaf:name	"Meat Puppets"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Volcano_(supergroup)> ,
+		dbr:Eyes_Adrift ,
+		<http://dbpedia.org/resource/Nirvana_(band)> ;
+	dbo:abstract	"Meat Puppets is an American rock band formed in January 1980 in Phoenix, Arizona. The group's original lineup was Curt Kirkwood (guitar/vocals), his brother Cris Kirkwood (bass guitar), and Derrick Bostrom (drums). The Kirkwood brothers met Bostrom while attending Brophy Prep High School in Phoenix. The three then moved to Tempe, Arizona (a Phoenix suburb and home to Arizona State University) where the Kirkwood brothers purchased two adjacent homes, one of which had a shed in the back where they regularly practiced. Meat Puppets started as a punk rock band, but like most of their labelmates on SST Records, they established their own unique style, blending punk with country and psychedelic rock, and featuring Curt's warbling vocals. Meat Puppets later gained significant exposure when the Kirkwood brothers served as guest musicians on Nirvana's MTV Unplugged performance in 1993. The band's 1994 album Too High to Die subsequently became their most successful release. The band broke up twice, in 1996 and 2002, but reunited again in 2006. Meat Puppets has influenced a number of rock bands including Nirvana, Soundgarden, Dinosaur Jr, Sebadoh  and Pavement."@en ;
+	dbo:associatedMusicalArtist	dbr:Eyes_Adrift ,
+		<http://dbpedia.org/resource/Volcano_(supergroup)> ,
+		<http://dbpedia.org/resource/Nirvana_(band)> ;
+	dbo:genre	dbr:Cowpunk ,
+		dbr:Alternative_rock ,
+		dbr:Hardcore_punk ;
+	dbp:caption	"Meat Puppets performing in 2014"^^rdf:langString ;
+	dbp:currentMembers	dbr:Curt_Kirkwood ,
+		dbr:Cris_Kirkwood ,
+		dbr:Shandon_Sahm ;
+	dbp:website	<http://www.themeatpuppets.com> ,
+		<http://www.themeatpuppets.com/> .
+dbr:Megadeth	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Megadeth2010.jpg?width=300> ;
+	foaf:name	"Megadeth"@en ;
+	dbo:associateBand	dbr:Soilwork ,
+		<http://dbpedia.org/resource/Anthrax_(American_band)> ,
+		dbr:Slayer ,
+		<http://dbpedia.org/resource/F5_(band)> ,
+		<http://dbpedia.org/resource/Angra_(band)> ,
+		<http://dbpedia.org/resource/MD.45> ,
+		<http://dbpedia.org/resource/Lamb_of_God_(band)> ,
+		dbr:Metallica ;
+	dbo:abstract	"Megadeth is an American heavy metal band from Los Angeles, California. The group was formed in 1983 by guitarist Dave Mustaine and bassist David Ellefson, shortly after Mustaine's dismissal from Metallica. A pioneer of the American thrash metal scene, the band is credited as one of the genre's \"big four\" with Anthrax, Metallica and Slayer, responsible for thrash metal's development and popularization. Megadeth plays in a technical style, featuring fast rhythm sections and complex arrangements. Themes of death, war, politics and religion are prominent in the group's lyrics. In 1985, the band released its debut album on the independent label Combat Records. The album's moderate commercial success caught the attention of bigger labels, which led to Megadeth signing with Capitol Records. Their first major-label album, Peace Sells... but Who's Buying?, was released in 1986 and influenced the underground metal scene. Despite its prominence in thrash metal, frequent disputes between its members and substance abuse issues brought Megadeth negative publicity during this period. After the lineup stabilized, the band released a number of platinum-selling albums, including Rust in Peace (1990) and Countdown to Extinction (1992). These albums, along with touring worldwide, helped bring public recognition to Megadeth. The band temporarily disbanded in 2002 when Mustaine suffered an arm injury and re-established in 2004 without bassist Ellefson, who had taken legal action against Mustaine. Ellefson settled with Mustaine out of court and rejoined the group in 2010. Megadeth has hosted its own music festival, Gigantour, several times since mid-2005. As of 2014, Megadeth has sold 50 million records worldwide, earned platinum certification in the United States for five of its fifteen studio albums, and received eleven Grammy nominations. The band's mascot, Vic Rattlehead, regularly appears on album artwork and, since 2010, in live shows. The group has experienced controversy over its musical approach and lyrics, including canceled concerts and album bans. MTV has refused to play two of the band's videos that the network considered to condone suicide."@en ;
+	dbo:associatedMusicalArtist	dbr:Soilwork ,
+		<http://dbpedia.org/resource/Lamb_of_God_(band)> ,
+		dbr:Slayer ,
+		<http://dbpedia.org/resource/Anthrax_(American_band)> ,
+		<http://dbpedia.org/resource/MD.45> ,
+		dbr:Metallica ,
+		<http://dbpedia.org/resource/F5_(band)> ,
+		<http://dbpedia.org/resource/Angra_(band)> ;
+	dbo:genre	dbr:Speed_metal ,
+		dbr:Heavy_metal_music ,
+		dbr:Thrash_metal ;
+	dbp:caption	"David Ellefson, Dave Mustaine, Shawn Drover and Chris Broderick. In the background artwork is mascot Vic Rattlehead."^^rdf:langString ,
+		"From left to right:"^^rdf:langString ,
+		"Megadeth in 2010."^^rdf:langString ;
+	dbp:currentMembers	dbr:Dirk_Verbeuren ,
+		dbr:Kiko_Loureiro ,
+		dbr:David_Ellefson ,
+		dbr:Dave_Mustaine ;
+	dbp:website	<http://megadeth.com> .
+dbr:Metallica	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Metallica_(2861233416).jpg?width=300> ;
+	foaf:name	"Metallica"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Guns_N\u0027_Roses> ,
+		<http://dbpedia.org/resource/Voivod_(band)> ,
+		dbr:Suicidal_Tendencies ,
+		dbr:Megadeth ,
+		dbr:Ozzy_Osbourne ,
+		<http://dbpedia.org/resource/Exodus_(band)> ,
+		dbr:Lou_Reed ,
+		<http://dbpedia.org/resource/Flotsam_and_Jetsam_(band)> ;
+	dbo:abstract	"Metallica is an American heavy metal band formed in Los Angeles, California. The band was formed in 1981 when vocalist/guitarist James Hetfield responded to an advertisement posted by drummer Lars Ulrich in a local newspaper. Metallica's current line-up comprises founding members Hetfield and Ulrich, longtime lead guitarist Kirk Hammett and bassist Robert Trujillo. Guitarist Dave Mustaine and bassists Ron McGovney, Cliff Burton and Jason Newsted are former members of the band. The band's fast tempos, instrumentals, and aggressive musicianship placed them as one of the founding \"big four\" bands of thrash metal, alongside Anthrax, Megadeth, and Slayer. Metallica earned a growing fan base in the underground music community and won critical acclaim with its first four albums; their third album Master of Puppets (1986) was described as one of the most influential and heaviest of thrash metal albums. The band expanded its musical direction and achieved substantial commercial success with its eponymous fifth album Metallica (1991), which resulted in an album that appealed to a more mainstream audience. The album was also their first to debut at number one on the Billboard 200, a success that they also achieved on their following four studio albums. In 2000, Metallica joined with other artists who filed a lawsuit against Napster for sharing the band's copyright-protected material without consent from the band. A settlement was reached and Napster became a pay-to-use service. The release of St. Anger (2003) alienated fans with the exclusion of guitar solos and the \"steel-sounding\" snare drum, and a film titled Some Kind of Monster documented the recording of St. Anger and the tensions within the band during that time. The band returned to its original musical style with the release of Death Magnetic (2008), and in 2009, Metallica was inducted into the Rock and Roll Hall of Fame. Metallica has released nine studio albums, four live albums, five extended plays, 26 music videos, and 37 singles. The band has won eight Grammy Awards and five of its albums have consecutively debuted at number one on the Billboard 200. The band's eponymous 1991 album has sold over 16 million copies in the United States, making it the best-selling album of the SoundScan era. Metallica ranks as one of the most commercially successful bands of all time, having sold over 110 million records worldwide. Metallica has been listed as one of the greatest artists of all time by many magazines, including Rolling Stone, which ranked them 61st on its list of The 100 Greatest Artists of All Time. As of December 2012, Metallica is the third-best-selling music artist since Nielsen SoundScan began tracking sales in 1991, selling a total of 54.26 million albums in the U.S. Metallica collaborated over a long period with producer Bob Rock, who produced four of the band's studio albums between 1990 and 2003 and served as a temporary bassist during the production of St. Anger. In 2012, Metallica formed the independent record label Blackened Recordings and took full ownership of its albums and videos. The band is currently promoting its tenth studio album, Hardwired... to Self-Destruct, which is expected to be released on November 18, 2016."@en ;
+	dbo:associatedMusicalArtist	dbr:Ozzy_Osbourne ,
+		<http://dbpedia.org/resource/Guns_N\u0027_Roses> ,
+		dbr:Lou_Reed ,
+		dbr:Megadeth ,
+		<http://dbpedia.org/resource/Exodus_(band)> ,
+		<http://dbpedia.org/resource/Voivod_(band)> ,
+		<http://dbpedia.org/resource/Flotsam_and_Jetsam_(band)> ,
+		dbr:Suicidal_Tendencies ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Thrash_metal ;
+	dbp:caption	"Metallica performing in London in 2008. From left to right: James Hetfield, Kirk Hammett, Lars Ulrich and Robert Trujillo."^^rdf:langString ;
+	dbp:currentMembers	dbr:James_Hetfield ,
+		dbr:Robert_Trujillo ,
+		dbr:Kirk_Hammett ,
+		dbr:Lars_Ulrich ;
+	dbp:website	<http://metallica.com> .
+dbr:Phish	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Phish_2009-12-30.jpg?width=300> ;
+	foaf:name	"Phish"@en ;
+	dbo:associateBand	dbr:Les_Claypool ,
+		dbr:Dave_Matthews ,
+		dbr:Phil_Lesh_and_Friends ,
+		dbr:Pork_Tornado ,
+		dbr:Jazz_Mandolin_Project ,
+		dbr:Trey_Anastasio_Band ,
+		<http://dbpedia.org/resource/70_Volt_Parade> ,
+		dbr:Grateful_Dead ,
+		dbr:Amfibian ,
+		dbr:Rhythm_Devils ,
+		dbr:Mike_Gordon_Band ,
+		dbr:Oysterhead .
+@prefix ns8:	<http://dbpedia.org/resource/Benevento/> .
+dbr:Phish	dbo:associateBand	ns8:Russo_Duo ,
+		dbr:Ramble_Dove ;
+	dbo:abstract	"Phish is a band known for musical improvisation, extended jams, blending of genres, and a dedicated fan base. Originating at the University of Vermont in 1983 (with the current line-up solidifying in 1985), the band's four members\u2014Trey Anastasio (guitars, lead vocals), Mike Gordon (bass, vocals), Jon Fishman (drums, percussion, vacuum, vocals), and Page McConnell (keyboards, vocals)\u2014performed together for nearly 20 years before going on hiatus in August 2004. They reunited in March 2009 for a series of three consecutive concerts played in the Hampton Coliseum in Hampton, Virginia, and have since resumed performing regularly. Phish's music blends elements of a wide variety of genres, including funk, progressive rock, psychedelic rock, folk, country, jazz, blues, bluegrass, and pop. Although the band has received little radio play or mainstream exposure, Phish has developed a large and dedicated following by word of mouth, the exchange of live recordings, and selling over 8 million albums and DVDs in the United States. Rolling Stone stated that the band helped to \"...spawn a new wave of bands oriented around group improvisation and extended instrumental grooves\". They remain a very popular and successful touring act."@en ;
+	dbo:associatedMusicalArtist	dbr:Ramble_Dove ,
+		dbr:Phil_Lesh_and_Friends ,
+		dbr:Grateful_Dead ,
+		ns8:Russo_Duo ,
+		dbr:Mike_Gordon_Band ,
+		<http://dbpedia.org/resource/70_Volt_Parade> ,
+		dbr:Pork_Tornado ,
+		dbr:Trey_Anastasio_Band ,
+		dbr:Rhythm_Devils ,
+		dbr:Les_Claypool ,
+		dbr:Amfibian ,
+		dbr:Dave_Matthews ,
+		dbr:Jazz_Mandolin_Project ,
+		dbr:Oysterhead ;
+	dbo:genre	dbr:Jam_band ,
+		dbr:Rock_music ;
+	dbp:caption	"Phish performing live at American Airlines Arena in Miami in 2009; left to right: Page McConnell, Trey Anastasio, and Mike Gordon"^^rdf:langString ;
+	dbp:currentMembers	dbr:Mike_Gordon ,
+		dbr:Jon_Fishman ,
+		dbr:Trey_Anastasio ,
+		dbr:Page_McConnell ;
+	dbp:website	<http://www.phish.com/> .
+dbr:Pixies	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Pixies_2004.jpg?width=300> ;
+	foaf:name	"Pixies"@en ;
+	dbo:associateBand	dbr:The_Pandoras ,
+		dbr:A_Perfect_Circle ,
+		dbr:The_Breeders ,
+		dbr:Frank_Black_and_the_Catholics ,
+		dbr:The_Martinis ,
+		<http://dbpedia.org/resource/Grand_Duchy_(band)> ,
+		dbr:The_Amps ,
+		dbr:The_Muffs ;
+	dbo:abstract	"The Pixies (or just Pixies) are an American alternative rock band formed in 1986 in Boston, Massachusetts. The original lineup comprised Black Francis (lead vocals, rhythm guitar), Joey Santiago (lead guitar), Kim Deal (bass, backing vocals) and David Lovering (drums). The band disbanded acrimoniously in 1993, but reunited in 2004. Deal left in 2013 and was replaced briefly by Kim Shattuck before Paz Lenchantin joined for the band's 2014 tour, and has remained in the lineup since. The Pixies' music contains elements including psychedelia, noise pop, hard rock, surf pop, and surf rock. Black Francis is the Pixies' primary songwriter and singer; his lyrics cover offbeat subjects such as extraterrestrials, surrealism, incest, and biblical violence. The Pixies achieved modest popularity in their home country, but were more successful in the United Kingdom, mainland Europe and Israel. Their jarring pop sound influenced bands such as Nirvana, Radiohead, The Strokes, Blur and Weezer. Their popularity grew in the years following their break-up, leading to sold-out world tours following their reunion in 2004. In June 2013, they released their first new material in almost 10 years."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Muffs ,
+		dbr:The_Martinis ,
+		<http://dbpedia.org/resource/Grand_Duchy_(band)> ,
+		dbr:Frank_Black_and_the_Catholics ,
+		dbr:The_Amps ,
+		dbr:The_Breeders ,
+		dbr:A_Perfect_Circle ,
+		dbr:The_Pandoras ;
+	dbo:genre	dbr:Surf_rock ,
+		dbr:Punk_rock ;
+	dbp:caption	"The Pixies performing in June 2004. Left to right: Joey Santiago, Black Francis, David Lovering, and Kim Deal."^^rdf:langString ;
+	dbp:currentMembers	dbr:Black_Francis ;
+	dbp:website	<http://pixiesmusic.com/> .

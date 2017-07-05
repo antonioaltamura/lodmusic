@@ -1,22 +1,23 @@
 CONSTRUCT {
-  ?band a dbo:Band ;
-       foaf:name ?name;
-        dbp:website ?website ; 
-      dbo:abstract ?abstract ;
-      dbo:genre ?genre;
-      dbo:image ?image;
-      dbp:currentMembers ?member .
-}
-WHERE 
+	?album a schema:MusicAlbum;
+			foaf:name ?name;
+			dbo:abstract ?abstract;
+			dbo:recordLabel ?recordLabel;
+			dbo:releaseDate ?date;
+			dbo:genre ?genre;
+			dbo:artist ?band.
+
+}WHERE
 {
-  ?band a umbel-rc:Band_MusicGroup;
-      foaf:name ?name;
-      dbo:abstract ?abstract.
-      {?band dbo:bandMember ?member} UNION {?band dbo:formerBandMember ?member}.
-FILTER(lang(?abstract) = "en").
-OPTIONAL{?band dbo:genre ?genre} .
-OPTIONAL{?band foaf:homepage ?website} .
-OPTIONAL {?band dbo:thumbnail ?image}.
+	
+	?album a schema:MusicAlbum;
+	        foaf:name ?name;
+			dbo:abstract ?abstract;
+			dbo:recordLabel ?recordLabel;
+			dbo:releaseDate ?date;
+			dbo:artist ?band.
+			FILTER(lang(?abstract) = "en").
+			OPTIONAL{?album dbo:genre ?genre}.
 }
 LIMIT 10000
 OFFSET 

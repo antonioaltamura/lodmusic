@@ -55,17 +55,18 @@ $nullPoint = "# Empty TURTLE
 
 $toExec = readQuery("query.txt");
 while(!$stop){
-	$chunk++;
 	$value = 10000 * $chunk;
+	$chunk++;
 $query = $toExec.$value;
 echo $query;
 $data=sparqlQuery($query, "http://dbpedia.org/sparql");
+echo $data;
 if((strcmp($data,$nullPoint))==0){ 
 	$stop = true; 
 	break;
 	}
 	//insert name table
-	$file = "band".$chunk.".ttl";
+	$file = "album".$chunk.".ttl";
 	echo "Nr iteration: ".$chunk."\n";
 saveFile($file, $data);
 

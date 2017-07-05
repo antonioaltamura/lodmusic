@@ -1,0 +1,344 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+<http://dbpedia.org/resource/Ministry_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Ministry-at-Freemont-Country-Club-Vegas-05-26-16-27.jpg?width=300> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+<http://dbpedia.org/resource/Ministry_(band)>	foaf:name	"Ministry"@en .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+<http://dbpedia.org/resource/Ministry_(band)>	dbo:associateBand	dbr:Amebix ,
+		dbr:Soulfly ,
+		dbr:KMFDM ,
+		dbr:Pigface ,
+		<http://dbpedia.org/resource/1000_Homo_DJs> ,
+		dbr:Fear_Factory ,
+		dbr:The_Rust_Punk_Tribe ,
+		dbr:Stonesour ,
+		<http://dbpedia.org/resource/Rigor_Mortis_(band)> ,
+		dbr:Skinny_Puppy ,
+		dbr:Revolting_Cocks ,
+		dbr:Al_Jourgensen ,
+		dbr:Pailhead ,
+		<http://dbpedia.org/resource/PTP_(band)> ,
+		dbr:Lead_into_Gold ,
+		dbr:Nine_Inch_Nails ,
+		dbr:Killing_Joke ,
+		<http://dbpedia.org/resource/Lard_(band)> ,
+		dbr:Nausea ,
+		dbr:Acid_Horse ,
+		<http://dbpedia.org/resource/Prong_(band)> ;
+	dbo:abstract	"Ministry is an American industrial metal band founded by lead singer and only original member Al Jourgensen in 1981. Originally a new wave synthpop outfit, Ministry changed its style to become one of the pioneers of industrial metal in the mid-1980s. Ministry found mainstream success in the early 1990s with their fifth studio album Psalm 69: The Way to Succeed and the Way to Suck Eggs (1992) and touring as part of the Lollapalooza festival. After 27 years of performing, Jourgensen decided to end the band in 2008, saying a reunion would never happen. However, in August 2011, a reunion was announced, when Ministry confirmed they would play one of their first shows in four years at the Wacken Open Air festival in August 2012. Ministry released a new album, Relapse, on March 23, 2012, which was followed by a world tour. Following the death of long time guitarist Mike Scaccia, Ministry released their most recent studio album From Beer to Eternity in September 2013, and subsequently began to tour again with new guitarist Cesar Soto."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/PTP_(band)> ,
+		<http://dbpedia.org/resource/Rigor_Mortis_(band)> ,
+		dbr:Al_Jourgensen ,
+		dbr:Acid_Horse ,
+		dbr:Skinny_Puppy ,
+		dbr:Lead_into_Gold ,
+		dbr:KMFDM ,
+		dbr:The_Rust_Punk_Tribe ,
+		dbr:Soulfly ,
+		<http://dbpedia.org/resource/1000_Homo_DJs> ,
+		dbr:Pailhead ,
+		dbr:Amebix ,
+		dbr:Fear_Factory ,
+		dbr:Killing_Joke ,
+		dbr:Stonesour ,
+		dbr:Nine_Inch_Nails ,
+		<http://dbpedia.org/resource/Prong_(band)> ,
+		dbr:Nausea ,
+		<http://dbpedia.org/resource/Lard_(band)> ,
+		dbr:Revolting_Cocks ,
+		dbr:Pigface ;
+	dbo:genre	dbr:Thrash_metal ,
+		dbr:Industrial_metal ,
+		dbr:Electronic_body_music ,
+		dbr:Synthpop ,
+		dbr:Alternative_metal .
+@prefix dbp:	<http://dbpedia.org/property/> .
+<http://dbpedia.org/resource/Ministry_(band)>	dbp:caption	"Ministry performing live at the 2016 Punk Rock Bowling."^^rdf:langString ;
+	dbp:currentMembers	dbr:Louis_Svitek ,
+		dbr:Stephen_George ,
+		dbr:Beefcake_the_Mighty ,
+		dbr:John_Monte ,
+		<http://dbpedia.org/resource/Marz_(rapper)> ;
+	dbp:website	<http://www.alfuckingjourgensen.com/> .
+@prefix ns5:	<https://web.archive.org/web/20110926060122/http:/www.thirteenthplanet.com/> .
+<http://dbpedia.org/resource/Ministry_(band)>	dbp:website	ns5:ministry .
+<http://dbpedia.org/resource/Misfits_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Misfits_2012-11-08_01.JPG?width=300> ;
+	foaf:name	"Misfits"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Murphy\u0027s_Law_(band)> ,
+		<http://dbpedia.org/resource/Danzig_(band)> ,
+		dbr:Ramones ,
+		dbr:Kryst_the_Conqueror ,
+		<http://dbpedia.org/resource/Graves_(band)> ,
+		<http://dbpedia.org/resource/Dr._Chud\u0027s_X-Ward> ,
+		dbr:The_Undead ,
+		dbr:Gorgeous_Frankenstein ,
+		<http://dbpedia.org/resource/Samhain_(band)> ,
+		dbr:Necros ,
+		<http://dbpedia.org/resource/Balzac_(band)> ,
+		dbr:Gotham_Road ,
+		dbr:Osaka_Popstar ,
+		dbr:Slayer ,
+		<http://dbpedia.org/resource/Black_Flag_(band)> ;
+	dbo:abstract	"Misfits are an American horror punk band often recognized as the progenitors of the horror punk subgenre, blending punk rock and other musical influences with horror film themes and imagery. Founded in 1977 in Lodi, New Jersey the original lineup consisted of singer and songwriter Glenn Danzig, bassist Jerry Only, and drummer Manny Mart\u00EDnez. Danzig and Only were the only consistent members throughout the next six years. During this time they released several EPs and singles, and with Only's brother Doyle as guitarist, the albums Walk Among Us (1982) and Earth A.D./Wolfs Blood (1983), both considered touchstones of the early-1980s hardcore punk movement. Misfits disbanded in 1983 and Danzig went on to form Samhain and then the eponymous Danzig. Several albums of reissued and previously unreleased material were issued after the group's dissolution, and their music became influential to punk rock, heavy metal, and alternative rock music of the late 1990s and early 2000s. After a series of legal battles with Danzig, Only and Doyle regained the rights to record and perform as the Misfits. They formed a new version of the band in 1995 with singer Michale Graves and drummer Dr. Chud. This incarnation of Misfits had a sound much more rooted in heavy metal, and released the albums American Psycho (1997) and Famous Monsters (1999) before dissolving in 2000. Jerry Only then took over lead vocals and recruited former Black Flag guitarist Dez Cadena and former Ramones drummer Marky Ramone for a Misfits 25th Anniversary tour. This lineup released an album of cover songs entitled Project 1950 and toured for several years. In 2005 Ramone was replaced by Robo, who had played with Black Flag in the early 1980s and had also previously been Misfits' drummer from 1982 to 1983. This lineup released a single titled \"Land of the Dead\" in 2009. The Misfits' lineup of Only, Cadena, and drummer Eric \"Chupacabra\" Arce released a new album titled The Devil's Rain in October 2011. In 2015 it was announced that Cadena would be taking a break from music after receiving a cancer diagnosis, and was replaced by Only's son Jerry Caiafa II. That same year Soulfly's Marc Rizzo joined the band, also playing guitar, filling in for Cadena before Caiafa would move on to become the sole guitarist for the band. In September 2016, for the first time in 33 years, Danzig, Only and Doyle reunited for two headlining shows at the Riot Fest, along with original Slayer drummer Dave Lombardo and second guitarist Acey Slade."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Murphy\u0027s_Law_(band)> ,
+		dbr:Ramones ,
+		dbr:The_Undead ,
+		dbr:Gorgeous_Frankenstein ,
+		<http://dbpedia.org/resource/Graves_(band)> ,
+		dbr:Osaka_Popstar ,
+		dbr:Kryst_the_Conqueror ,
+		dbr:Slayer ,
+		<http://dbpedia.org/resource/Black_Flag_(band)> ,
+		<http://dbpedia.org/resource/Balzac_(band)> ,
+		<http://dbpedia.org/resource/Danzig_(band)> ,
+		<http://dbpedia.org/resource/Samhain_(band)> ,
+		<http://dbpedia.org/resource/Dr._Chud\u0027s_X-Ward> ,
+		dbr:Necros ,
+		dbr:Gotham_Road ;
+	dbo:genre	dbr:Horror_punk ,
+		dbr:Punk_rock ,
+		dbr:Hardcore_punk ;
+	dbp:caption	"Left to right: Only, Arce, and Cadena in 2012"^^rdf:langString ;
+	dbp:currentMembers	dbr:Marky_Ramone ,
+		dbr:Dez_Cadena ,
+		<http://dbpedia.org/resource/Robo_(musician)> ,
+		dbr:Michale_Graves ,
+		dbr:Franché_Coma ,
+		dbr:Bobby_Steele ,
+		dbr:Arthur_Googy ,
+		<http://dbpedia.org/resource/Dr._Chud> ,
+		<http://dbpedia.org/resource/Mr._Jim> ,
+		dbr:Doyle_Wolfgang_von_Frankenstein ,
+		dbr:Glenn_Danzig ,
+		dbr:Joey_Image ;
+	dbp:website	<http://www.misfits.com/> ,
+		<http://misfits.com> .
+dbr:Motion_City_Soundtrack	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Motion_City_in_DC.jpg?width=300> ;
+	foaf:name	"Motion City Soundtrack"@en ;
+	dbo:associateBand	dbr:Farewell_Continental ;
+	dbo:abstract	"Motion City Soundtrack was an American rock band that formed in Minneapolis, Minnesota in 1997. The band's line-up consisted of vocalist and guitarist Justin Pierre, lead guitarist Joshua Cain, keyboardist Jesse Johnson, bassist Matthew Taylor, and drummer Tony Thaxton. Over the course of their nearly twenty-year career, the group toured heavily and released six studio albums, the majority on independent label Epitaph Records. The band's sound, at times described as pop punk or emo, made notable use of the Moog synthesizer. The group was formed in 1997 by Cain and Pierre, but it was not until 2002 that the group had formed a stable lineup, at which point they began recording music. The band signed to Epitaph in 2003, which released the band's debut album, I Am the Movie. Their breakthrough album, Commit This to Memory, arrived in 2005, and their third record, Even If It Kills Me (2007), also achieved commercial success. The band briefly signed to major label Columbia for their fourth record, My Dinosaur Life (2010), and rejoined Epitaph for Go in 2012, after which Thaxton left the group and was replaced by Claudio Rivera. Their final album Panic Stations was released in 2015. In 2016, the band announced their split and the So Long, Farewell tour, for which Thaxton rejoined the band."@en ;
+	dbo:associatedMusicalArtist	dbr:Farewell_Continental ;
+	dbo:genre	dbr:Alternative_rock ,
+		dbr:Emo ,
+		dbr:Pop_punk ,
+		dbr:Indie_rock ;
+	dbp:caption	"Motion City Soundtrack performing in Washington, D.C. in 2012"^^rdf:langString ;
+	dbp:currentMembers	dbr:Motion_City_Soundtrack ;
+	dbp:website	<http://www.motioncitysoundtrack.com> .
+dbr:Pere_Ubu	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Pere_Ubu_Live_Vienna_2009.jpg?width=300> ;
+	foaf:name	"Pere Ubu"@en ;
+	dbo:associateBand	dbr:Rocket_from_the_Tombs ,
+		dbr:Red_Krayola ;
+	dbo:abstract	"Pere Ubu is a rock group formed in Cleveland, Ohio in 1975. Despite a variety of long-term band members, singer David Thomas is the only constant. Describing their sound as \"avant-garage,\" Pere Ubu's work drew on diverse sources such as rock music, musique concr\u00E8te, performance art, and the derelict industrial environments of the American midwest. The group's name is a reference to Ubu Roi, an avant-garde play by French writer Alfred Jarry. They are usually categorized as \"underground rock\", having rarely achieved commercial success."@en ;
+	dbo:associatedMusicalArtist	dbr:Rocket_from_the_Tombs ,
+		dbr:Red_Krayola ;
+	dbo:genre	dbr:Post-punk ,
+		dbr:Art_punk ;
+	dbp:caption	"Pere Ubu performing in Vienna, 2009."^^rdf:langString ;
+	dbp:currentMembers	dbr:Scott_Krauss ,
+		dbr:Allen_Ravenstine ,
+		dbr:Mayo_Thompson ,
+		<http://dbpedia.org/resource/Jim_Jones_(guitarist)> ,
+		dbr:Peter_Laughner ,
+		dbr:Eric_Drew_Feldman ,
+		dbr:Chris_Cutler ,
+		<http://dbpedia.org/resource/Tim_Wright_(bassist)> ,
+		dbr:Tony_Maimone ;
+	dbp:website	<http://www.ubuprojex.net/> ,
+		<http://ubuprojex.net/> .
+<http://dbpedia.org/resource/Phenomena_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Dreamrunner.jpg?width=300> ;
+	foaf:name	"Phenomena"@en ;
+	dbo:associateBand	dbr:Cozy_Powell ,
+		dbr:Ray_Gillen ,
+		<http://dbpedia.org/resource/Trapeze_(band)> ,
+		dbr:Glenn_Hughes ,
+		dbr:Brian_May ,
+		<http://dbpedia.org/resource/Tony_Martin_(British_singer)> ,
+		dbr:Kyoji_Yamamoto ,
+		dbr:Scott_Gorham ;
+	dbo:abstract	"Phenomena is a rock concept around a supergroup formed by record producer Tom Galley, Metalhammer magazine founder Wilfried Rimensberger and Tom's brother, Whitesnake guitarist Mel Galley. Contributors were leading rock musicians such as Glenn Hughes, Brian May, Tony Martin and John Wetton amongst others."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Trapeze_(band)> ,
+		dbr:Kyoji_Yamamoto ,
+		dbr:Cozy_Powell ,
+		dbr:Ray_Gillen ,
+		dbr:Scott_Gorham ,
+		dbr:Brian_May ,
+		dbr:Glenn_Hughes ,
+		<http://dbpedia.org/resource/Tony_Martin_(British_singer)> ;
+	dbo:genre	dbr:Progressive_rock ,
+		dbr:Album-oriented_rock ,
+		dbr:Hard_rock ;
+	dbp:caption	"Album Cover of Phenomena Classic \"Dream Runner\""^^rdf:langString ;
+	dbp:currentMembers	dbr:Mel_Galley .
+@prefix ns6:	<http://www.myspace.com/> .
+<http://dbpedia.org/resource/Phenomena_(band)>	dbp:website	ns6:tomgalleysphenomena .
+<http://dbpedia.org/resource/...And_You_Will_Know_Us_by_the_Trail_of_Dead>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/And-you-will-know-us-by-the-trail-of-the-dead-in-vancouver-march-2009-joe-rayment.jpg?width=300> ;
+	foaf:name	"\u2026And You Will Know Us by the Trail of Dead"@en ;
+	dbo:associateBand	dbr:Forget_Cassettes ,
+		dbr:Mukilteo_Fairies ,
+		dbr:TheSTART ,
+		<http://dbpedia.org/resource/A_Roman_Scandal_(band)> ,
+		dbr:Midnight_Masses ;
+	dbo:abstract	"\u2026And You Will Know Us by the Trail of Dead (often abbreviated as Trail of Dead) are an American alternative rock band from Austin, Texas. The chief members of the band are Jason Reece and Conrad Keely (formerly Conrad Sobsamai). The two switch between drumming, guitar and lead vocals, both on recordings and live shows. The band is known for their wild, energetic concerts. Their ninth studio album, IX, was released in November 2014."@en ;
+	dbo:associatedMusicalArtist	dbr:TheSTART ,
+		dbr:Forget_Cassettes ,
+		dbr:Mukilteo_Fairies ,
+		dbr:Midnight_Masses ,
+		<http://dbpedia.org/resource/A_Roman_Scandal_(band)> ;
+	dbo:genre	dbr:Math_rock ,
+		dbr:Indie_rock ,
+		dbr:Noise_rock ,
+		dbr:Alternative_rock ,
+		dbr:Progressive_rock ,
+		dbr:Art_rock ,
+		dbr:Post-hardcore ;
+	dbp:caption	"...And You Will Know Us By the Trail of Dead in Vancouver, March 2009."^^rdf:langString ;
+	dbp:currentMembers	dbr:Neil_Busch ,
+		<http://dbpedia.org/resource/David_Longoria_(musician)> ,
+		<http://dbpedia.org/resource/Apollo_Up!> ,
+		<http://dbpedia.org/resource/Danny_Wood_(bass_player)> ,
+		<http://dbpedia.org/resource/Kevin_Allen_(guitarist)> ;
+	dbp:website	<http://trailofdead.com/> .
+<http://dbpedia.org/resource/10cc>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/10CC_-_TopPop_1974_2.png?width=300> ;
+	foaf:name	"10cc"@en ;
+	dbo:associateBand	dbr:Doctor_Father ,
+		dbr:The_Mindbenders ,
+		<http://dbpedia.org/resource/Godley_&_Creme> ,
+		<http://dbpedia.org/resource/Wax_(UK_band)> ,
+		dbr:Hotlegs ,
+		<http://dbpedia.org/resource/Producers_(band)> ;
+	dbo:abstract	"10cc are an English rock band founded in Stockport who achieved their greatest commercial success in the 1970s. The band initially consisted of four musicians \u2013 Graham Gouldman, Eric Stewart, Kevin Godley, and Lol Creme \u2013 who had written and recorded together for some three years, before assuming the name \"10cc\" in 1972. 10cc featured two songwriting teams, one \"commercial\" and one \"artistic\". Stewart and Gouldman were predominantly pop-songwriters, who created most of the band's accessible songs. By way of contrast, Godley and Creme were the predominantly experimental half of 10cc, featuring an Art School sensibility and cinematic inspired writing. Every member of 10cc was a multi-instrumentalist, singer, writer and producer, and the writing teams frequently switched partners, so that Godley/Gouldman or Creme/Stewart compositions were not uncommon. After Godley and Creme left the band in 1976, Gouldman and Stewart were the main creative forces behind 10cc. Stewart left the band in 1996, and Gouldman continues to lead a touring version of 10cc. Most of the band's albums were recorded at their own Strawberry Studios (North) in Stockport and Strawberry Studios (South) in Dorking, with most of those engineered by Stewart. 10cc was co-managed by Ric Dixon and Harvey Lisberg at Kennedy Street, who had represented the individual members of the band since the mid-1960s."@en ;
+	dbo:associatedMusicalArtist	dbr:Doctor_Father ,
+		<http://dbpedia.org/resource/Producers_(band)> ,
+		dbr:Hotlegs ,
+		dbr:The_Mindbenders ,
+		<http://dbpedia.org/resource/Godley_&_Creme> ,
+		<http://dbpedia.org/resource/Wax_(UK_band)> ;
+	dbo:genre	dbr:Soft_rock ,
+		dbr:Art_rock ,
+		dbr:Progressive_pop ,
+		dbr:Art_pop ;
+	dbp:caption	10 ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Duncan_Mackay_(musician)> ,
+		dbr:Lol_Creme ,
+		dbr:Kevin_Godley ,
+		dbr:Stuart_Tosh ,
+		dbr:Gary_Wallis ,
+		<http://dbpedia.org/resource/Tony_O\u0027Malley_(musician)> ,
+		dbr:Eric_Stewart ;
+	dbp:website	<http://www.10ccworld.com/> .
+<http://dbpedia.org/resource/38_Special_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Rock_band_.38_Special_in_2010.jpg?width=300> ;
+	foaf:name	"38 Special"@en ;
+	dbo:associateBand	dbr:Trace_Adkins ,
+		dbr:Van_Zant ,
+		dbr:Lynyrd_Skynyrd ,
+		dbr:Grand_Funk_Railroad ;
+	dbo:abstract	"38 Special (also written .38 Special or Thirty-Eight Special) is an American rock band that was formed by neighborhood friends Don Barnes and Donnie Van Zant in 1974 in Jacksonville, Florida."@en ;
+	dbo:associatedMusicalArtist	dbr:Lynyrd_Skynyrd ,
+		dbr:Van_Zant ,
+		dbr:Grand_Funk_Railroad ,
+		dbr:Trace_Adkins ;
+	dbo:genre	dbr:Southern_rock ,
+		dbr:Country_rock ,
+		dbr:Hard_rock ,
+		dbr:Blues_rock ;
+	dbp:caption	38 ;
+	dbp:currentMembers	dbr:Max_Carl ,
+		dbr:Donnie_Van_Zant ,
+		dbr:Scott_Hoffman ,
+		dbr:Ken_Lyons ,
+		dbr:Larry_Junstrom ;
+	dbp:website	<http://www.38special.com/> .
+<http://dbpedia.org/resource/3_Doors_Down>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/3_Doors_Down_live_@_Laredo_Energy_Arena_in_Laredo,_Texas.JPG?width=300> ;
+	foaf:name	"3 Doors Down"@en ;
+	dbo:associateBand	dbr:Shinedown ,
+		dbr:Nickelback ,
+		dbr:Puddle_of_Mudd ;
+	dbo:abstract	"3 Doors Down is an American rock band from Escatawpa, Mississippi that formed in 1996. The band originally consisted of Brad Arnold (lead vocals/drums), Todd Harrell (bass) and Matt Roberts (lead guitar, backing vocals). They were soon joined by rhythm guitarist Chris Henderson, and later by drummer Richard Liles, who played for the band during their tour supporting their first album. Daniel Adair played drums on tour from 2002\u20132005. This configuration played nearly 1,000 shows across the world following the release of their hugely successful Away from the Sun album. In 2005, when Adair was hired full-time by Nickelback, Greg Upchurch (Puddle of Mudd) joined to play drums full-time. In 2012, original guitarist Matt Roberts departed due to health issues. Chet Roberts, who was formerly Chris Henderson's guitar tech, became Roberts' successor. In 2013, Harrell was fired from the band after being charged with vehicular homicide. Bassist Justin Biltonen replaced him. The band rose to international fame with their first single, \"Kryptonite\", which charted in the top three on the Billboard Hot 100 chart. The band then signed onto Republic Records and released their debut album, The Better Life, in 2000. The album was the 11th-best-selling album of the year and was certified 6x platinum in the United States. Their second album, Away from the Sun, (2002) continued the band's success; it debuted at No. 8 on the Billboard 200 chart, went multi-platinum in the United States like its predecessor, and spawned the hits \"When I'm Gone\" and \"Here Without You\". The band followed it up by extensive touring for two years before releasing their third album, Seventeen Days, in 2005. The album debuted at No. 1 on the Billboard 200 chart and was certified platinum within its first month of release. Their fourth, self-titled album, 3 Doors Down (2008), also debuted at No. 1 on the Billboard 200 chart. The band's fifth studio album, Time of My Life (2011) debuted at No. 3 at the charts. The band has shared the stage with artists such as Daughtry, Pop Evil, Red Sun Rising, Black Stone Cherry, Megadeth, Staind, Nickelback, Three Days Grace, Oleander_(band), Alter Bridge, Breaking Benjamin, Seether, Shinedown, Hinder, Mentors, ZZ Top, and Lynyrd Skynyrd. Since the start of their career, 3 Doors Down have sold over 20 million albums worldwide."@en ;
+	dbo:associatedMusicalArtist	dbr:Shinedown ,
+		dbr:Puddle_of_Mudd ,
+		dbr:Nickelback ;
+	dbo:genre	dbr:Post-grunge ,
+		dbr:Hard_rock ,
+		dbr:Alternative_rock ;
+	dbp:caption	3 ;
+	dbp:currentMembers	dbr:Daniel_Adair ;
+	dbp:website	<http://www.3doorsdown.com> .
+<http://dbpedia.org/resource/45_Grave>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Dinah_Cancer_45_Grave_Blue_Cafe_Long_Beach_4.jpg?width=300> ;
+	foaf:name	"45 Grave"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Bags_(Los_Angeles_band)> ,
+		dbr:The_Consumers ,
+		dbr:Dinah_Cancer ,
+		dbr:The_Gun_Club ,
+		<http://dbpedia.org/resource/Germs_(band)> ,
+		dbr:Nervous_Gender ,
+		dbr:Dream_Syndicate ,
+		dbr:The_Screamers ;
+	dbo:abstract	"45 Grave are an American gothic and punk rock band from Los Angeles, California formed in 1979. The original group broke up in 1985 but vocalist Dinah Cancer subsequently revived the band. 45 Grave are noted as one of the first bands to mix punk rock with horror-themed lyrics, thereby positioning them as progenitors of the horror punk subgenre. Their unique appearance and morbid theatricality also distinguished them as innovators of goth rock as well as \"deathrock\", a term used to identify a subgenre of punk rock incorporating horror elements and spooky atmospherics."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Germs_(band)> ,
+		dbr:Nervous_Gender ,
+		dbr:The_Gun_Club ,
+		dbr:Dream_Syndicate ,
+		<http://dbpedia.org/resource/Bags_(Los_Angeles_band)> ,
+		dbr:The_Screamers ,
+		dbr:Dinah_Cancer ,
+		dbr:The_Consumers ;
+	dbo:genre	dbr:Deathrock ,
+		dbr:Horror_punk ,
+		dbr:Gothic_rock ;
+	dbp:caption	"Dinah Cancer in 2007 with the reformed 45 Grave at Blue Cafe, Long Beach, CA"^^rdf:langString ;
+	dbp:currentMembers	dbr:Paul_Roessler ,
+		<http://dbpedia.org/resource/Paul_B._Cutler> ,
+		dbr:Pat_Smear ,
+		dbr:Lisa_Pifer ,
+		<http://dbpedia.org/resource/Don_Bolles_(musician)> ,
+		dbr:Rikk_Agnew ,
+		<http://dbpedia.org/resource/Rob_Graves_(Rob_Ritter)> ;
+	dbp:website	<http://45grave.net> .
+dbr:A_Tribe_Called_Quest	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Tribe_2009.jpg?width=300> ;
+	foaf:name	"A Tribe Called Quest"@en ;
+	dbo:associateBand	dbr:Busta_Rhymes ,
+		<http://dbpedia.org/resource/D\u0027Angelo> ,
+		dbr:J_Dilla ,
+		dbr:The_Pharcyde ,
+		dbr:Monie_Love ,
+		dbr:Beastie_Boys ,
+		dbr:Jungle_Brothers ,
+		<http://dbpedia.org/resource/Black_Sheep_(hip_hop_group)> ,
+		<http://dbpedia.org/resource/Mint_Condition_(band)> ,
+		dbr:De_La_Soul ,
+		dbr:Queen_Latifah ,
+		dbr:Large_Professor ,
+		dbr:Leaders_of_the_New_School ,
+		dbr:Raphael_Saadiq ;
+	dbo:abstract	"A Tribe Called Quest is an American hip-hop trio that was formed in 1985, and was composed of MC and producer Q-Tip, MC Phife Dawg and DJ and producer Ali Shaheed Muhammad. A fourth member, rapper Jarobi White, left the group after their first album in 1991. He continued to contribute to the band sporadically before rejoining for their 2006 reunion. Along with De La Soul, the group was a central part of the Native Tongues Posse, and enjoyed the most commercial success out of all the groups to emerge from that collective. Many of their songs, such as \"Bonita Applebum\", \"Can I Kick It?\", \"I Left My Wallet in El Segundo\", \"Scenario\", \"Check the Rhime\", \"Jazz (We've Got)\", \"Award Tour\" and \"Electric Relaxation\" are regarded as classics. The group released five albums between 1990 and 1998 and disbanded in 1998. In 2006, the group reunited and toured the United States. The group is regarded as a pioneer of alternative hip-hop music, having helped to pave the way for many innovative artists. John Bush of AllMusic called them \"the most intelligent, artistic rap group during the 1990s,\" while the editors of About.com ranked them number four on their list of the \"25 Best Rap Groups of All Time.\" In 2005, A Tribe Called Quest received a Special Achievement Award at the Billboard R&B Hip-Hop Awards in Atlanta. In 2007, the group was formally honored at the 4th VH1 Hip-Hop Honors."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Pharcyde ,
+		dbr:Leaders_of_the_New_School ,
+		<http://dbpedia.org/resource/Mint_Condition_(band)> ,
+		dbr:Beastie_Boys ,
+		dbr:Jungle_Brothers ,
+		<http://dbpedia.org/resource/D\u0027Angelo> ,
+		<http://dbpedia.org/resource/Black_Sheep_(hip_hop_group)> ,
+		dbr:Busta_Rhymes ,
+		dbr:Monie_Love ,
+		dbr:J_Dilla ,
+		dbr:Large_Professor ,
+		dbr:Queen_Latifah ,
+		dbr:De_La_Soul ,
+		dbr:Raphael_Saadiq ;
+	dbo:genre	dbr:Alternative_hip_hop ,
+		dbr:Jazz_rap ;
+	dbp:caption	"A Tribe Called Quest perform in 2009."^^rdf:langString ;
+	dbp:currentMembers	dbr:Phife_Dawg ;
+	dbp:website	<http://atribecalledquest.com/html/> .

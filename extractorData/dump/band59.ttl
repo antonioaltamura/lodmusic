@@ -1,0 +1,1306 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+<http://dbpedia.org/resource/Bauhaus_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Bauhaus_August_2006_UK.jpg?width=300> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+<http://dbpedia.org/resource/Bauhaus_(band)>	foaf:name	"Bauhaus"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Love_and_Rockets_(band)> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+<http://dbpedia.org/resource/Bauhaus_(band)>	dbo:associateBand	dbr:The_Bubblemen ,
+		dbr:Tones_on_Tail ;
+	dbo:abstract	"Bauhaus were an English post-punk band, formed in Northampton, England in 1978. The group consisted of Peter Murphy (vocals, occasional instruments), Daniel Ash (guitar), Kevin Haskins (drums) and David J (bass). The band was originally named Bauhaus 1919 in reference to the first operating year of the art school Bauhaus, although they shortened the name within a year of formation. Generally considered one of the first gothic rock groups, Bauhaus were known for their gloomy sound and dark image. However, musically the band was quite diverse. Throughout their career, they incorporated a variety of genres, ranging from reggae to funk. Bauhaus broke up in 1983. Peter Murphy began a solo career while Ash and Haskins continued as Tones on Tail and, later, reunited with David J to form Love and Rockets. Both enjoyed greater commercial success in the United States than Bauhaus had, but disappeared from the charts in their homeland. Bauhaus eventually reunited for a 1998 tour and again from 2005 to 2008."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Bubblemen ,
+		dbr:Tones_on_Tail ,
+		<http://dbpedia.org/resource/Love_and_Rockets_(band)> ;
+	dbo:genre	dbr:Post-punk ,
+		dbr:Gothic_rock .
+@prefix dbp:	<http://dbpedia.org/property/> .
+<http://dbpedia.org/resource/Bauhaus_(band)>	dbp:caption	"Bauhaus performing live in August 2006."^^rdf:langString ;
+	dbp:currentMembers	dbr:David_J ,
+		dbr:Kevin_Haskins ,
+		<http://dbpedia.org/resource/Peter_Murphy_(musician)> ,
+		dbr:Daniel_Ash .
+dbr:Bay_City_Rollers	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/BayCityRollers1976RobBogaerts.jpg?width=300> ;
+	foaf:name	"Bay City Rollers"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Pilot_(band)> ;
+	dbo:abstract	"The Bay City Rollers are a Scottish pop band whose popularity was highest in the mid 1970s. The British Hit Singles & Albums noted that they were \"tartan teen sensations from Edinburgh\", and were \"the first of many acts heralded as the 'biggest group since the Beatles' and one of the most screamed-at teeny-bopper acts of the 1970s\". For a relatively brief but fervent period (nicknamed \"Rollermania\"), they were worldwide teen idols. The group's line-up featured numerous changes over the years, but the classic line-up during its heyday included guitarists Eric Faulkner and Stuart John Wood, singer Les McKeown, bassist Alan Longmuir, and drummer Derek Longmuir. On 22 September 2015 The Bay City Rollers, including McKeown, Stuart \u201CWoody\u201D Wood and Alan Longmuir announced that they were reforming and would play a show at the Glasgow Barrowlands on December 20."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Pilot_(band)> ;
+	dbo:genre	dbr:Glam_rock ,
+		dbr:Pop_music ,
+		dbr:Pop_rock ,
+		dbr:Power_pop ;
+	dbp:caption	"Bay City Rollers in the Netherlands"^^rdf:langString ;
+	dbp:currentMembers	dbr:Eric_Faulkner ,
+		dbr:Ray_Weston ,
+		dbr:David_Paton ,
+		dbr:Billy_Lyall ,
+		dbr:Duncan_Faure ,
+		dbr:Pat_McGlynn ,
+		<http://dbpedia.org/resource/Gordon_%22Nobby%22_Clark> ,
+		<http://dbpedia.org/resource/Ian_Mitchell_(musician)> ,
+		dbr:Derek_Longmuir .
+<http://dbpedia.org/resource/Bill_Haley_&_His_Comets>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/BillHaley.JPG?width=300> ;
+	foaf:name	"Bill Haley & His Comets"@en ;
+	dbo:associateBand	dbr:The_Jodimars ;
+	dbo:abstract	"Bill Haley & His Comets were an American rock and roll band, founded in 1952 and continued until Haley's death in 1981. The band, also known as Bill Haley and the Comets and Bill Haley's Comets (and variations thereof), was the earliest group of white musicians to bring rock and roll to the attention of America and the rest of the world. From late 1954 to late 1956, the group placed nine singles in the Top 20, one of those a number one and three more in the Top Ten. Bandleader Bill Haley had previously been a country music performer; after recording a country and western-styled version of \"Rocket 88\", a rhythm and blues song, he changed musical direction to a new sound which came to be called rock and roll. Although several members of the Comets became famous, Bill Haley remained the star. With his spit curl and the band's matching plaid dinner jackets and energetic stage behavior, many fans consider them to be as revolutionary in their time as the Beatles or the Rolling Stones were a decade later. Following Haley's death, no fewer than seven different groups have existed under the Comets name, all claiming (with varying degrees of authority) to be the continuation of Haley's group. As of the end of 2014, four such groups were still performing in the United States and internationally."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Jodimars ;
+	dbo:genre	dbr:Rock_and_roll ,
+		dbr:Country_music ,
+		dbr:Rockabilly ;
+	dbp:caption	"Left to right: Joey D'Ambrosio, Dick Richards, Bill Haley"^^rdf:langString ,
+		"Bill Haley & His Comets, c. 1954"^^rdf:langString ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Billy_Williamson_(guitarist)> ,
+		dbr:Nick_Nastos ,
+		dbr:Franny_Beecher ,
+		dbr:Bill_Haley ,
+		<http://dbpedia.org/resource/Ralph_Jones_(drummer)> ,
+		dbr:Joey_Welz ,
+		dbr:Johnny_Grande ,
+		dbr:Marshall_Lytle ,
+		dbr:Al_Rex ,
+		<http://dbpedia.org/resource/John_%22Bam-Bam%22_Lane> ,
+		dbr:Rudy_Pompilli .
+<http://dbpedia.org/resource/Catatonia_(band)>	rdf:type	dbo:Band ;
+	foaf:name	"Catatonia"@en ;
+	dbo:abstract	"(Not to be confused with Katatonia, a Swedish metal band.) Catatonia were an alternative rock band from Wales who gained popularity in the mid- to late 1990s. The band formed in 1992 after Mark Roberts met Cerys Matthews. The first major lineup featured Dafydd Ieuan on drums, Clancy Pegg on keyboard, Owen Powell on guitar and Paul Jones on bass. They recorded two EPs, For Tinkerbell and Hooked. Pegg was fired prior to work on their first studio album, Way Beyond Blue, while Ieuan was replaced with Aled Richards shortly afterwards. This new line-up remained for the rest of the lifetime of the band. The single \"You've Got a Lot to Answer For\" received radio airplay and became the band's first top 40 single in the UK Singles Chart in September 1996. Their breakout success came at the start of 1998 with the International Velvet album and the release of the single \"Mulder and Scully\" some two weeks apart. The album went to number one in the album chart, and sold more than 900,000 copies being certified triple platinum by British Phonographic Industry, while the single reached number 3 in the singles chart, the highest any Catatonia single would chart. The follow-up release, \"Road Rage\", reached number 5 in May, and was nominated for best song at the Brit Awards and the Ivor Novello Awards, winning at the Q Awards. The title track of the album International Velvet received additional attention, and the band performed it at the opening of the opening ceremony of the 1999 Rugby World Cup on 1 October in the Millennium Stadium in Cardiff. While in Catatonia, Matthews collaborated with Space on \"The Ballad of Tom Jones\" in March 1998 and with Tom Jones on a cover of \"Baby, It's Cold Outside\" in December 1999. Their final top ten single came in April 1999 with \"Dead from the Waist Down\" off the following album, Equally Cursed and Blessed. Rumours began to circulate about a breakup, but a further album, Paper Scissors Stone was released in 2001 following a two-year break from live performances. Matthews' drinking had long been reported in the tabloids and gossip columns, and she entered rehab in mid-2001 for drinking and smoking. The tour to support Paper Scissors Stone was cancelled, and a month later, the band announced that they were breaking up. Matthews has subsequently released solo albums, while Powell has become a radio presenter and joined the supergroup The Stand to release a charity single. Critics have highlighted the use of metaphors in Catatonia's work, and songs have been compared to poetry by critics. Writing duties had been shared across the band, although had been led by Matthews and Roberts. They disagreed with being labelled an indie band, with Powell saying they had only ever sought to write pop music."@en ;
+	dbo:genre	dbr:Indie_rock ,
+		dbr:Alternative_rock ;
+	dbp:currentMembers	dbr:Clancy_Pegg ,
+		dbr:Cerys_Matthews ,
+		dbr:Guto_Pryce ,
+		<http://dbpedia.org/resource/Paul_Jones_(musician)> ,
+		dbr:Owen_Powell ,
+		<http://dbpedia.org/resource/Mark_Roberts_(singer)> ,
+		dbr:Dafydd_Ieuan ,
+		dbr:Aled_Richards .
+dbr:Darkthrone	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Darkthrone_crop.png?width=300> ;
+	foaf:name	"Darkthrone"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Isengard_(Norwegian_band)> ,
+		dbr:Burzum ,
+		<http://dbpedia.org/resource/Valhall_(band)> ,
+		dbr:Dødheimsgard ,
+		dbr:Sarke ,
+		dbr:Neptune_Towers ,
+		<http://dbpedia.org/resource/Satyricon_(band)> ,
+		<http://dbpedia.org/resource/Storm_(Norwegian_band)> ;
+	dbo:abstract	"Darkthrone is a Norwegian heavy metal band. It formed in 1986 as a death metal band under the name Black Death. In 1991, the band embraced a black metal style influenced by Bathory and Celtic Frost and became one of the leading bands in the Norwegian black metal scene. Their first three black metal albums\u2014A Blaze in the Northern Sky, Under a Funeral Moon and Transilvanian Hunger (sometimes dubbed the \"Unholy Trinity\") \u2014 are considered the peak of the band's career and to be among the most influential albums in the genre. For most of this time, Darkthrone has been a duo of Nocturno Culto and Fenriz, who have sought to remain outside the music mainstream. Since 2006, their work has strayed from the traditional black metal style and incorporated more elements of traditional heavy metal, speed metal and punk rock, being likened to Mot\u00F6rhead."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Valhall_(band)> ,
+		dbr:Burzum ,
+		dbr:Neptune_Towers ,
+		dbr:Sarke ,
+		dbr:Dødheimsgard ,
+		<http://dbpedia.org/resource/Satyricon_(band)> ,
+		<http://dbpedia.org/resource/Isengard_(Norwegian_band)> ,
+		<http://dbpedia.org/resource/Storm_(Norwegian_band)> ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Black_metal ,
+		dbr:Death_metal ,
+		dbr:Crust_punk ;
+	dbp:caption	"Nocturno Culto and Fenriz in 2005"^^rdf:langString ;
+	dbp:currentMembers	dbr:Ivar_Enger ,
+		dbr:Dag_Nilsen .
+dbr:Deep_Purple	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Deep_Purple_at_Wacken_Open_Air_2013_27.jpg?width=300> ;
+	foaf:name	"Deep Purple"@en .
+@prefix ns5:	<http://dbpedia.org/resource/Hughes/> .
+dbr:Deep_Purple	dbo:associateBand	ns5:Thrall ,
+		dbr:Hughes_Turner_Project ,
+		dbr:Paice_Ashton_Lord ,
+		<http://dbpedia.org/resource/Trapeze_(band)> ,
+		dbr:Whitesnake ,
+		<http://dbpedia.org/resource/Rainbow_(English_band)> ,
+		dbr:Ozzy_Osbourne ,
+		<http://dbpedia.org/resource/Blackmore\u0027s_Night> ,
+		dbr:Black_Sabbath ,
+		dbr:Living_Loud ,
+		dbr:Episode_Six ,
+		dbr:Rock_Aid_Armenia ,
+		dbr:Black_Country_Communion ,
+		dbr:WhoCares ,
+		<http://dbpedia.org/resource/Gillan_(band)> ;
+	dbo:abstract	"Deep Purple are an English rock band formed in Hertford in 1968. They are considered to be among the pioneers of heavy metal and modern hard rock, although their musical approach changed over the years. Originally formed as a progressive rock band, the band shifted to a heavier sound in 1970. Deep Purple, together with Led Zeppelin and Black Sabbath, have been referred to as the \"unholy trinity of British hard rock and heavy metal in the early to mid-seventies\". They were listed in the 1975 Guinness Book of World Records as \"the globe's loudest band\" for a 1972 concert at London's Rainbow Theatre, and have sold over 100 million albums worldwide. Deep Purple have had several line-up changes and an eight-year hiatus (1976\u20131984). The 1968\u20131976 line-ups are commonly labelled Mark I, II, III and IV. Their second and most commercially successful line-up featured Ian Gillan (vocals), Jon Lord (organ), Roger Glover (bass), Ian Paice (drums), and Ritchie Blackmore (guitar). This line-up was active from 1969 to 1973, and was revived from 1984 to 1989, and again from 1992 to 1993. The band achieved more modest success in the intervening periods between 1968 and 1969 with the line-up including Rod Evans (vocals) and Nick Simper (bass, backing vocals), between 1974 and 1976 (Tommy Bolin replacing Blackmore in 1975) with the line-up including David Coverdale (vocals) and Glenn Hughes (bass, vocals), and between 1989 and 1992 with the line-up including Joe Lynn Turner (vocals). The band's line-up (currently featuring Ian Gillan, and guitarist Steve Morse from 1994) has been much more stable in recent years, although organist Jon Lord's retirement from the band in 2002 (being succeeded by Don Airey) left Ian Paice as the only original Deep Purple member still in the band. Deep Purple were ranked number 22 on VH1's Greatest Artists of Hard Rock programme and a poll on British radio station Planet Rock ranked them 5th among the \"most influential bands ever\". The band received the Legend Award at the 2008 World Music Awards. Having been nominated for the Rock and Roll Hall of Fame in 2012 and 2013 but failing to get enough votes for induction, Deep Purple were finally announced as inductees into the Hall of Fame in December 2015. They were officially inducted on 8 April 2016."@en ;
+	dbo:associatedMusicalArtist	dbr:WhoCares ,
+		dbr:Rock_Aid_Armenia ,
+		dbr:Episode_Six ,
+		<http://dbpedia.org/resource/Rainbow_(English_band)> ,
+		dbr:Black_Sabbath ,
+		<http://dbpedia.org/resource/Trapeze_(band)> ,
+		dbr:Black_Country_Communion ,
+		dbr:Paice_Ashton_Lord ,
+		dbr:Living_Loud ,
+		dbr:Ozzy_Osbourne ,
+		<http://dbpedia.org/resource/Blackmore\u0027s_Night> ,
+		dbr:Whitesnake ,
+		<http://dbpedia.org/resource/Gillan_(band)> ,
+		dbr:Hughes_Turner_Project ,
+		ns5:Thrall ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Blues_rock ,
+		dbr:Progressive_rock ,
+		dbr:Psychedelic_rock ,
+		dbr:Hard_rock ;
+	dbp:caption	"L\u2013R: Ian Paice, Roger Glover, Ian Gillan, Steve Morse and Don Airey performing live in 2013"^^rdf:langString ;
+	dbp:currentMembers	dbr:Nick_Simper ,
+		dbr:Rod_Evans ,
+		dbr:Tommy_Bolin ,
+		dbr:Jon_Lord ,
+		dbr:David_Coverdale ,
+		dbr:Joe_Lynn_Turner ,
+		dbr:Ritchie_Blackmore ;
+	dbp:website	<http://deeppurple.com> ,
+		<http://deep-purple.com> .
+<http://dbpedia.org/resource/Emerson,_Lake_&_Palmer>	rdf:type	dbo:Band ;
+	foaf:name	"Emerson, Lake & Palmer"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/3_(1980s_band)> ,
+		<http://dbpedia.org/resource/Emerson,_Lake_&_Powell> ;
+	dbo:abstract	"(For the band's self-titled debut album, see Emerson, Lake & Palmer (album).) Emerson, Lake & Palmer were an English progressive rock supergroup formed in London in 1970. The band consisted of keyboardist Keith Emerson, singer, bassist, and producer Greg Lake, and drummer and percussionist Carl Palmer. They were one of the most popular and commercially successful progressive rock bands in the 1970s with a musical sound including adaptations of classical music with jazz and symphonic rock elements, dominated by Emerson's flamboyant use of the Hammond organ, Moog synthesizer, and piano (although Lake wrote several acoustic songs for the group). After forming in early 1970, the band came to prominence following their performance at the Isle of Wight Festival in August 1970. In their first year, the group signed with Atlantic Records and released Emerson, Lake & Palmer (1970) and Tarkus (1971), both of which reached the United Kingdom top five. The band's success continued with Pictures at an Exhibition (1971), Trilogy (1972), and Brain Salad Surgery (1973). After a three-year break, Emerson, Lake & Palmer released Works Volume 1 (1977) and Works Volume 2 (1977) which began their decline in popularity. After Love Beach (1978), the group disbanded in 1979. The band reformed partially in the 1980s with Emerson, Lake & Powell featuring Cozy Powell in place of Palmer, and 3, with Robert Berry in place of Lake. In 1991, the original trio reformed and released two more albums, Black Moon (1992) and In the Hot Seat (1994), and toured at various times between 1992 and 1998. Their final performance took place in 2010 at the High Voltage Festival in London to commemorate the band's fortieth anniversary, before Emerson's death in 2016 marked the end of the group."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/3_(1980s_band)> ,
+		<http://dbpedia.org/resource/Emerson,_Lake_&_Powell> ;
+	dbo:genre	dbr:Progressive_rock ,
+		dbr:Symphonic_rock ,
+		dbr:Art_rock ;
+	dbp:caption	"The band in 1972, during the photo session for 'Trilogy'. From left to right: Keith Emerson, Greg Lake, and Carl Palmer."^^rdf:langString ;
+	dbp:currentMembers	dbr:Keith_Emerson ,
+		dbr:Greg_Lake ,
+		dbr:Carl_Palmer ;
+	dbp:website	<http://emersonlakepalmer.com/> .
+<http://dbpedia.org/resource/Genesis_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/2180_-_Pittsburgh_-_Mellon_Arena_-_Genesis_-_The_Carpet_Crawlers.JPG?width=300> ;
+	foaf:name	"Genesis"@en ;
+	dbo:associateBand	dbr:Bankstatement ,
+		dbr:The_Anon ,
+		<http://dbpedia.org/resource/GTR_(band)> ,
+		<http://dbpedia.org/resource/Flaming_Youth_(band)> ,
+		<http://dbpedia.org/resource/Mike_+_The_Mechanics> ,
+		<http://dbpedia.org/resource/Garden_Wall_(band)> ,
+		dbr:Brand_X ,
+		dbr:Stiltskin ;
+	dbo:abstract	"Genesis are an English rock band formed at Charterhouse School, Godalming, Surrey in 1967. The most commercially successful and long-lasting line-up includes keyboardist Tony Banks, bassist/guitarist Mike Rutherford and drummer/singer Phil Collins. Other important members were the original lead singer Peter Gabriel and guitarist Steve Hackett. The band underwent many changes in musical style over its career, from folk music to progressive rock in the 1970s, before moving towards pop at the end of the decade. They have sold 21.5 million RIAA-certified albums in the US and their worldwide sales are estimated to be between 100 million and 150 million. Formed by five Charterhouse pupils including Banks, Rutherford, Gabriel, and Anthony Phillips, Genesis was named by former pupil Jonathan King who arranged them to record several unsuccessful singles and an album. After splitting with King, the group began touring professionally, signing with Charisma Records. Following the departure of Phillips, Genesis recruited Collins and Hackett and recorded several progressive rock style albums, with live shows centred around Gabriel's theatrical costumes and performances. The group were initially commercially successful in Europe, before entering the UK charts with Foxtrot (1972). They followed this with Selling England by the Pound (1973) and The Lamb Lies Down on Broadway (1974) before Gabriel decided to leave the group. After an unsuccessful search for a replacement, Collins took over as lead singer, while the group gained popularity in the UK and the US. Following A Trick of the Tail and Wind & Wuthering (both 1976), Hackett left the band, reducing it to a core of Banks, Rutherford, and Collins. Genesis had their first UK top ten and US top 30 single in 1978 with \"Follow You Follow Me\" and the group continued to gain commercial success with Duke (1980), Abacab (1981), and Genesis (1983), reaching a peak with Invisible Touch (1986), which featured five US top five singles. Its title track reached number one in the US. After the follow up, We Can't Dance (1991) and related tour, Collins left Genesis in 1996 to focus on his solo career. Banks and Rutherford recruited Ray Wilson for Calling All Stations (1997), but a lack of success in the US led to a group hiatus. Banks, Rutherford and Collins reunited for the Turn It On Again Tour in 2007, and together with Gabriel and Hackett were interviewed for the BBC documentary Genesis: Together and Apart in 2014. Their discography includes fifteen studio and six live albums, six of which topped the UK chart. They have won numerous awards and nominations, including a Grammy Award for Best Concept Music Video with \"Land of Confusion\", and inspired a number of tribute bands recreating Genesis shows from various stages of the band's career. In 2010, Genesis were inducted into the Rock and Roll Hall of Fame."@en ;
+	dbo:associatedMusicalArtist	dbr:Stiltskin ,
+		dbr:Brand_X ,
+		dbr:Bankstatement ,
+		<http://dbpedia.org/resource/GTR_(band)> ,
+		<http://dbpedia.org/resource/Flaming_Youth_(band)> ,
+		dbr:The_Anon ,
+		<http://dbpedia.org/resource/Mike_+_The_Mechanics> ,
+		<http://dbpedia.org/resource/Garden_Wall_(band)> ;
+	dbo:genre	dbr:Pop_rock ,
+		dbr:Progressive_pop ,
+		dbr:Progressive_rock ,
+		dbr:Art_rock ;
+	dbp:caption	"Genesis performing in 2007"^^rdf:langString ,
+		"Left to right: Daryl Stuermer, Mike Rutherford, Tony Banks, Phil Collins"^^rdf:langString ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Ray_Wilson_(musician)> ,
+		<http://dbpedia.org/resource/Chris_Stewart_(author)> ,
+		dbr:Mick_Barnard ,
+		<http://dbpedia.org/resource/John_Mayhew_(musician)> ,
+		dbr:Anthony_Phillips ,
+		<http://dbpedia.org/resource/John_Silver_(musician)> ,
+		dbr:Steve_Hackett ,
+		dbr:Peter_Gabriel ;
+	dbp:website	<http://www.genesis-music.com/> .
+dbr:Green_Day	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Green_Day_House_OF_Blues_2015_2.jpg?width=300> ;
+	foaf:name	"Green Day"@en ;
+	dbo:associateBand	dbr:Foxboro_Hot_Tubs ,
+		dbr:Pinhead_Gunpowder ,
+		dbr:The_Network ;
+	dbo:abstract	"Green Day is an American punk rock band formed in 1986 by vocalist/guitarist Billie Joe Armstrong and bassist Mike Dirnt. For much of the group's career, the band has been a trio with drummer Tr\u00E9 Cool, who replaced former drummer John Kiffmeyer in 1990 prior to the recording of the band's second studio album, Kerplunk (1992). In 2012, guitarist Jason White became an official member after having performed with the band as a touring member since 1999. Green Day was originally part of the punk scene at the DIY 924 Gilman Street club in Berkeley, California. The band's early releases were with the independent record label Lookout! Records. In 1994, its major label debut Dookie (released through Reprise Records) became a breakout success and eventually shipped over 10 million copies in the U.S. Green Day was widely credited, alongside fellow California punk bands Sublime, Bad Religion, The Offspring, Blink-182, and Rancid, with popularizing and reviving mainstream interest in punk rock in the United States. Green Day's three follow-up albums, Insomniac (1995), Nimrod (1997), and Warning (2000) did not achieve the massive success of Dookie, though they were still successful, with Insomniac and Nimrod reaching double platinum and Warning achieving platinum status. The band's rock opera, American Idiot (2004), reignited the band's popularity with a younger generation, selling six million copies in the U.S. The band's eighth studio album, 21st Century Breakdown, was released in 2009 and achieved the band's best chart performance to date. 21st Century Breakdown was followed up by a trilogy of albums called \u00A1Uno!, \u00A1Dos!, and \u00A1Tr\u00E9!, which were released in September, November and December 2012 respectively. The band's twelfth studio album, Revolution Radio was released on October 7, 2016. Green Day has sold more than 75 million records worldwide. The group has won five Grammy Awards: Best Alternative Album for Dookie, Best Rock Album for American Idiot, Record of the Year for \"Boulevard of Broken Dreams\", Best Rock Album for the second time for 21st Century Breakdown and Best Musical Show Album for American Idiot: The Original Broadway Cast Recording. In 2010, a stage adaptation of American Idiot debuted on Broadway. The musical was nominated for three Tony Awards: Best Musical, Best Scenic Design and Best Lighting Design, losing only the first. Also in 2010, Green Day was ranked no. 91 in the VH1 list of the \"100 Greatest Artists of All Time\". On April 18, 2015, the band was inducted into the Rock and Roll Hall of Fame as a part of the 2015 class, in the band's first year of eligibility."@en ;
+	dbo:associatedMusicalArtist	dbr:Foxboro_Hot_Tubs ,
+		dbr:The_Network ,
+		dbr:Pinhead_Gunpowder ;
+	dbo:genre	dbr:Pop_punk ,
+		dbr:Punk_rock ,
+		dbr:Alternative_rock ;
+	dbp:caption	"Green Day performing in Cleveland, Ohio in 2015. From left to right: Jason White, Billie Joe Armstrong, Tr\u00E9 Cool and Mike Dirnt."^^rdf:langString ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Jason_White_(musician)> ,
+		dbr:John_Kiffmeyer ,
+		dbr:Aaron_Cometbus ;
+	dbp:website	<http://greenday.com> .
+dbr:Jars_of_Clay	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Jars_of_Clay.jpg?width=300> ;
+	foaf:name	"Jars of Clay"@en ;
+	dbo:abstract	"(This article is about the Contemporary Christian Music band named Jars of Clay. For the first album from this band, of the same name, see Jars of Clay (album).) Jars of Clay is a Christian rock band from Nashville, Tennessee. They met at Greenville College in Greenville, Illinois. Jars of Clay consists of Dan Haseltine on vocals, Charlie Lowell on piano and keyboards, Stephen Mason on lead guitars and Matthew Odmark on rhythm guitars. Although the band has no permanent drummer or bassist, Jeremy Lutito and Gabe Ruschival of Disappointed By Candy fill these roles for live concerts. Past tour band members include Aaron Sands, Scott Savage, and Joe Porter. Jars of Clay's style is a blend of alternative rock, folk, acoustic, and R&B. The band's name is derived from the New International Version's translation of 2 Corinthians 4:7: This verse is paraphrased in their song \"Four Seven\", which appears as a hidden track on the CD release of their self-titled album."@en ;
+	dbo:genre	dbr:Christian_rock ,
+		dbr:Acoustic_rock ,
+		dbr:Pop_rock ,
+		dbr:Alternative_rock ;
+	dbp:currentMembers	dbr:Matt_Bronleewe ;
+	dbp:website	<http://jarsofclay.com> .
+dbr:Korn	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Korn,_2013.jpg?width=300> ;
+	foaf:name	"Korn"@en ;
+	dbo:associateBand	dbr:Sexart ,
+		<http://dbpedia.org/resource/L.A.P.D._(band)> ,
+		<http://dbpedia.org/resource/Fieldy\u0027s_Dreams> ,
+		dbr:Jonathan_Davis_and_the_SFA ,
+		dbr:Fear_and_the_Nervous_System ,
+		dbr:JDevil ;
+	dbo:abstract	"Korn (stylized as Ko\u042Fn) is an American nu metal band from Bakersfield, California, formed in 1993. The band's current lineup includes founding members Jonathan Davis (vocals, bagpipes), James \"Munky\" Shaffer (guitar), Brian \"Head\" Welch (guitar, backing vocals), and Reginald \"Fieldy\" Arvizu (bass), with the addition of Ray Luzier (drums), who replaced the band's original member, David Silveria in 2007. Korn was originally formed by three of the members of the band L.A.P.D. Korn released their first demo album, Neidermayer's Mind, in 1993. The band later went on to release their self-titled debut album in 1994, followed by Life Is Peachy in 1996. The band experienced mainstream success with Follow the Leader (1998) and Issues (1999), both of which debuted at number one on the Billboard 200. The band's mainstream success continued with Untouchables (2002), Take a Look in the Mirror (2003) and See You on the Other Side (2005). A compilation album, Greatest Hits Vol. 1, was released in 2004, spanning a decade of singles and concluding the band's recording contract with Immortal Records and Epic Records. They signed to Virgin Records, releasing See You on the Other Side in 2005, and an untitled album in 2007. Korn's other recent albums, Korn III: Remember Who You Are (2010) and The Path of Totality (2011), were released via Roadrunner Records, with the latest album The Paradigm Shift (2013) being released via Prospect Park and Caroline Records. Their upcoming album The Serenity of Suffering is scheduled to be released on October 21, 2016. As of 2012, Korn had sold around 35 million copies worldwide. Twelve of the band's official releases have peaked in the top ten of the Billboard 200, eight of which have peaked in the top five. Seven official releases are certified platinum by the Recording Industry Association of America (RIAA), two are certified double platinum, one is certified triple platinum, one is certified five times platinum and two are certified Gold. Korn has released seven video albums and thirty-nine music videos. The band has released forty-one singles, twenty-eight of which have charted. Korn has earned two Grammy Awards out of seven nominations and two MTV Video Music Awards out of eleven nominations."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/L.A.P.D._(band)> ,
+		dbr:JDevil ,
+		<http://dbpedia.org/resource/Fieldy\u0027s_Dreams> ,
+		dbr:Jonathan_Davis_and_the_SFA ,
+		dbr:Sexart ,
+		dbr:Fear_and_the_Nervous_System ;
+	dbo:genre	dbr:Alternative_metal ,
+		dbr:Nu_metal ;
+	dbp:caption	"Left to right: Reginald Arvizu, Ray Luzier, Jonathan Davis, James Shaffer and Brian Welch"^^rdf:langString ;
+	dbp:currentMembers	dbr:David_Silveria ;
+	dbp:website	<http://korn.com> .
+dbr:Manowar	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Manowar.jpg?width=300> ;
+	foaf:name	"Manowar"@en ;
+	dbo:associateBand	dbr:The_Rods ,
+		dbr:Rhapsody_of_Fire ,
+		dbr:The_Dictators ,
+		dbr:David_Shankle_Group ,
+		dbr:HolyHell ,
+		dbr:Brain_Surgeons ;
+	dbo:abstract	"Manowar is an American heavy metal band from Auburn, New York. Formed in 1980, the group is known for lyrics based on fantasy (particularly sword and sorcery) and mythology (particularly Norse mythology). The band is also known for a loud and bombastic sound. In an interview for MTV in February 2007, bassist Joey DeMaio lamented that \"these days, there's a real lack of big, epic metal that is drenched with crushing guitars and choirs and orchestras... so it's nice to be one of the few bands that's actually doing that.\" In 1984 the band was included in the Guinness Book of World Records for delivering the loudest performance, a record which they have since broken on 2 occasions. They also hold the world record for the longest heavy metal concert after playing for 5 hours and 1 minute in Bulgaria (at Kavarna Rock Fest) in 2008. They also have been known for their slogan \"Death to false metal\". Although the band has never been a mainstream commercial success in the United States, they maintain a strong cult following there. In contrast, they are extremely popular in the heavy metal scene in Europe and South America. Dedicated fans are known and referred to by the band as \"Metal Warriors\", \"Manowarriors\", \"Immortals\" or \"Brothers of Metal\"."@en ;
+	dbo:associatedMusicalArtist	dbr:David_Shankle_Group ,
+		dbr:Brain_Surgeons ,
+		dbr:The_Dictators ,
+		dbr:Rhapsody_of_Fire ,
+		dbr:HolyHell ,
+		dbr:The_Rods ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Power_metal ,
+		dbr:Speed_metal ,
+		dbr:Symphonic_metal ;
+	dbp:caption	"Manowar in Hamburg during their 2007 tour."^^rdf:langString ;
+	dbp:currentMembers	dbr:Ross_the_Boss ,
+		dbr:Scott_Columbus ,
+		dbr:Kenny_Earl ,
+		dbr:David_Shankle ;
+	dbp:website	<http://www.manowar.com/> .
+dbr:Marillion	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Marillion2.jpg?width=300> ;
+	foaf:name	"Marillion"@en ;
+	dbo:abstract	"Marillion /m\u0259\u02C8r\u026Alj\u0259n/ are a British rock band, formed in Aylesbury, Buckinghamshire, England, in 1979. They emerged from the post-punk music scene in Britain and are credited with creating a bridge between the styles of punk rock and classic progressive rock, becoming the most commercially successful neo-progressive rock band of the 1980s. They have sold more than 15 million albums. Marillion's recorded studio output since 1982 is composed of eighteen albums, generally regarded in two distinct eras, delineated by the departure of original frontman Fish in late 1988, and the subsequent arrival of replacement Steve Hogarth in early 1989. The band achieved eight Top Ten UK albums between 1983 and 1994, including a number one album in 1985 with Misplaced Childhood, and during the period the band were fronted by Fish they scored eleven Top 40 hits on the UK Singles Chart. They are best known for the 1985 singles \"Kayleigh\" and \"Lavender\", which reached number two and number five respectively. The first album released with Hogarth, 1989's Seasons End, was another Top Ten hit, and albums continued to chart well until their departure from EMI following the release of their 1996 live album Made Again and the dissipation of the band's mainstream popularity in the late 1990s; save for a resurgence in the mid- to late-2000s, they have essentially been a cult act since then. Marillion have achieved a further twelve Top 40 hit singles in the UK with Hogarth, including 2004's \"You're Gone\", which charted at No. 7 and is the biggest hit of his tenure. The band continue to tour internationally, and were ranked 38th in Classic Rock's \"50 Best Live Acts of All Time\" in 2008. Marillion are widely considered to have been one of the first mainstream acts to have fully recognised and tapped the potential for commercial musicians to interact with their fans via the internet, starting in around 1996, and are nowadays often characterised as a rock & roll 'Web Cottage Industry'. The history of the band's use of the Internet is described by Michael Lewis in the book Next: The Future Just Happened as an example of how the Internet is shifting power away from established elites, such as multinational record labels and record producers. The band are renowned for having an extremely dedicated following (often self-termed 'Freaks'), with some fans regularly travelling significant distances to attend single gigs, driven in large part by the close fan base involvement which the band cultivate via their website, podcasts, biennial conventions and regular fanclub publications. The release of their 2001 album Anoraknophobia, which was funded by their fans through advance orders instead of by the band signing to a record company, gained significant attention and was called \"a unique funding campaign\" by the BBC. Writing for The Guardian, Alexis Petridis described Marillion as \"the undisputed pioneers\" of fan-funded music."@en ;
+	dbo:genre	dbr:Neo-progressive_rock ,
+		dbr:Symphonic_rock ,
+		dbr:Post-punk ,
+		dbr:Art_rock ,
+		dbr:Pop_music ;
+	dbp:caption	"Marillion, 2009. L-R: Ian Mosley, Pete Trewavas, Steve Hogarth, Mark Kelly, and Steve Rothery."^^rdf:langString ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Andy_Ward_(musician)> ,
+		dbr:Mick_Pointer ,
+		<http://dbpedia.org/resource/Fish_(singer)> ,
+		dbr:Jonathan_Mover ;
+	dbp:website	<http://www.marillion.com/> .
+dbr:NOFX	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/NOFX3.jpg?width=300> ;
+	foaf:name	"NOFX"@en ;
+	dbo:associateBand	dbr:Me_First_and_the_Gimme_Gimmes ;
+	dbo:abstract	"NOFX /\u02CCno\u028A\u025Bf\u02C8\u025Bks/ is an American punk rock band from Los Angeles, California. The band was formed in 1983 by vocalist/bassist Fat Mike and guitarist Eric Melvin. Drummer Erik Sandin joined NOFX shortly after. In 1991, El Hefe joined to play lead guitar and trumpet, rounding out the current line-up. The band rose to popularity with their fifth studio album Punk in Drublic (1994). NOFX's mainstream success was signified by a growing interest in punk rock during the 1990s, but unlike many of their contemporaries (including Bad Religion, Green Day and The Offspring), they have never been signed to a major label. NOFX has released twelve studio albums, fifteen extended plays and a number of seven-inch singles. Their latest studio album, First Ditch Effort, was released on October 7, 2016. The group has sold over 8 million records worldwide, making them one of the most successful independent bands of all time. The band also broadcast their own show on Fuse TV entitled NOFX: Backstage Passport."@en ;
+	dbo:associatedMusicalArtist	dbr:Me_First_and_the_Gimme_Gimmes ;
+	dbo:genre	dbr:Melodic_hardcore ,
+		dbr:Punk_rock ,
+		dbr:Ska_punk ,
+		dbr:Skate_punk ,
+		dbr:Hardcore_punk ;
+	dbp:currentMembers	dbr:Steve_Kidwiller ;
+	dbp:website	<http://www.nofx.org/> .
+dbr:Opeth	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/OpethPostShow.JPG?width=300> ;
+	foaf:name	"Opeth"@en ;
+	dbo:associateBand	dbr:Katatonia ,
+		dbr:Storm_Corrosion ,
+		dbr:Bloodbath ;
+	dbo:abstract	"Opeth is a Swedish heavy metal band from Stockholm, formed in 1989. The group has been through several personnel changes, but singer, guitarist and songwriter Mikael \u00C5kerfeldt has remained Opeth's primary driving force throughout the years. Opeth has consistently incorporated progressive, folk, blues, classical and jazz influences into its usually lengthy compositions, as well as strong influences from death metal, especially in their early works. Many songs include acoustic guitar passages and strong dynamic shifts, as well as both death growls and clean vocals. Opeth is also well known for their incorporation of Mellotrons in their work. Opeth rarely made live appearances supporting their first four albums; but since conducting their first world tour after the 2001 release of Blackwater Park, they have led several major world tours. Opeth has released twelve studio albums, three live DVDs, three live albums (two that are in conjunction with DVDs), and two boxsets. The band released its debut album Orchid in 1995. Although their eighth studio album, Ghost Reveries, was quite popular in the United States, Opeth did not experience major American commercial success until the 2008 release of their ninth studio album, Watershed, which peaked at No. 23 on the Billboard 200, and topped the Finnish albums chart in its first week of release. Opeth has sold over 1.5 million albums and DVDs worldwide, including 300,000 collective SoundScans of their albums Blackwater Park, Damnation and Deliverance in the United States."@en ;
+	dbo:associatedMusicalArtist	dbr:Bloodbath ,
+		dbr:Storm_Corrosion ,
+		dbr:Katatonia ;
+	dbo:genre	dbr:Progressive_death_metal ,
+		dbr:Progressive_rock ,
+		dbr:Progressive_metal ;
+	dbp:caption	"Opeth in 2009 in Knoxville, TN"^^rdf:langString ;
+	dbp:currentMembers	dbr:List_of_Opeth_band_members ;
+	dbp:website	<http://www.opeth.com> ,
+		<http://opeth.com/> .
+dbr:Wu-Tang_Clan	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Wu_Tang_Clan_on_Stage.jpg?width=300> ;
+	foaf:name	"Wu-Tang Clan"@en ;
+	dbo:abstract	"The Wu-Tang Clan /\u02C8wu\u02D0t\u00E6\u014Bkl\u00E6n/ is an American hip hop group from New York City, originally composed of East Coast rappers RZA, GZA, Method Man, Raekwon, Ghostface Killah, Inspectah Deck, U-God, Masta Killa, Ol' Dirty Bastard and Cappadonna. The group was formed in and is associated with the New York City borough of Staten Island. The Wu-Tang Clan has released seven gold and platinum studio albums with worldwide sales of more than 40 million albums, including members' solo projects, since 1992. Its debut album, Enter the Wu-Tang (36 Chambers), is considered to be one of the greatest albums in hip-hop history and it is said to have been groundbreaking for hip-hop and one of the most important albums of the hip-hop golden age. The Wu-Tang Clan has introduced and launched the careers of a number of affiliated artists and groups, often collectively known as the Wu-Tang Killa Bees and it has been mentioned to be one of the most influential hip-hop groups of all-time. In 2008, About.com ranked them \"the No. 1 greatest hip hop group of all time\". Kris Ex of Rolling Stone called Wu-Tang Clan \"the best rap group ever\". In 2004, NME hailed them as one of the most influential groups of the last ten years."@en ;
+	dbo:genre	dbr:Hardcore_hip_hop ;
+	dbp:caption	"Members of the Wu-Tang Clan and their affiliates performing at the Virgin Festival in Baltimore"^^rdf:langString ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Ol\u0027_Dirty_Bastard> ;
+	dbp:website	<http://wutangclan.com/> ,
+		<http://www.wutang-corp.com/> .
+dbr:XTC	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/XTC_bandphoto.jpg?width=300> ;
+	foaf:name	"XTC"@en ;
+	dbo:abstract	"XTC were an English rock band formed in Swindon in 1972. Led by songwriters Andy Partridge and Colin Moulding, their music ranged from tense, jerky riffs to lushly arranged, meticulous pop, emerging from the punk and new wave explosion of the late 1970s. The band failed to maintain popular success in the UK and US, partly because their music was generally out of step with the times. They nevertheless amassed a devoted cult following. Under the name Star Park, the group began as a trio with drummer Terry Chambers, then changing their name to Helium Kidz. As the punk movement took off, they settled on the name XTC, debuting on Virgin Records in 1977. In 1982, the group stopped concert touring and became a studio-based project centred on Partridge, Moulding, and guitarist Dave Gregory with various session musicians. A spin-off group, the Dukes of Stratosphear, was invented as an outlet for the band's excursions into 1960s psychedelic music. For most of the 1990s, XTC were mired by record label difficulties. In 2006, the band ceased activity following the disintegration of Partridge and Moulding's musical partnership. XTC's only records that placed within the UK top 20 were the singles \"Making Plans for Nigel\" (1979), \"Sgt. Rock (Is Going to Help Me)\" (1980) and \"Senses Working Overtime\" (1982), as well as the albums Black Sea (1980) and English Settlement (1982). In the US, they're also known for the songs \"Dear God\" (1986) and \"The Ballad of Peter Pumpkinhead\" (1992), while \"Mayor of Simpleton\" (1989) was their only US single to chart."@en ;
+	dbp:caption	"XTC after a show in Toronto, October 1978. From left to right: Andy Partridge, Colin Moulding, Terry Chambers, and Barry Andrews"^^rdf:langString ;
+	dbp:currentMembers	dbr:Colin_Moulding ,
+		<http://dbpedia.org/resource/Dave_Gregory_(musician)> ,
+		dbr:Terry_Chambers ,
+		<http://dbpedia.org/resource/Barry_Andrews_(musician)> ,
+		dbr:Andy_Partridge .
+<http://dbpedia.org/resource/X_(American_band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/X_2004.jpg?width=300> ;
+	foaf:name	"X"@en ;
+	dbo:associateBand	dbr:Lone_Justice ,
+		<http://dbpedia.org/resource/Devil\u0027s_Brigade_(band)> ,
+		dbr:Auntie_Christ ,
+		dbr:The_Blasters ,
+		dbr:The_Flesh_Eaters ,
+		dbr:The_Knitters ,
+		<http://dbpedia.org/resource/Germs_(band)> ;
+	dbo:abstract	"X is an American punk rock band, formed in Los Angeles in 1977. Established among the first wave of American punk, the original members are vocalist Exene Cervenka, vocalist/bassist John Doe, guitarist Billy Zoom and drummer D. J. Bonebrake. The band released seven studio albums from 1980 to 1993. After a period of inactivity during the mid to late 1990s, X reunited in the early 2000s, and currently tours. X achieved limited mainstream success but influenced various genres of music, including punk rock and folk rock. In 2003, X's first two studio albums, Los Angeles and Wild Gift, were ranked by Rolling Stone as being among the 500 greatest albums of all time. Los Angeles was ranked 91st on Pitchfork's Top 100 Albums of the 1980s. The band received an Official Certificate of Recognition from the City of Los Angeles in acknowledgment of its contribution to Los Angeles music and culture."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Blasters ,
+		dbr:The_Flesh_Eaters ,
+		dbr:The_Knitters ,
+		dbr:Auntie_Christ ,
+		dbr:Lone_Justice ,
+		<http://dbpedia.org/resource/Devil\u0027s_Brigade_(band)> ,
+		<http://dbpedia.org/resource/Germs_(band)> ;
+	dbo:genre	dbr:Alternative_rock ,
+		dbr:Punk_rock ,
+		dbr:Rockabilly ,
+		dbr:Roots_rock ;
+	dbp:caption	"X 2004 concert photo at the Great American Music Hall in San Francisco, from left to right: Cervenka, Zoom and Doe"^^rdf:langString ;
+	dbp:currentMembers	dbr:Tony_Gilkyson ,
+		dbr:Dave_Alvin ;
+	dbp:website	<http://www.xtheband.com/> .
+<http://dbpedia.org/resource/Mud_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Mud_-_TopPop_May_1974_5.png?width=300> ;
+	foaf:name	"Mud"@en ;
+	dbo:abstract	"Mud (now Mud II) are an English glam rock band, formed in February 1966. Their earlier success came in a pop and then glam rock style, while later hits were influenced by 1950s rock and roll, and are best remembered for their hit singles \"Tiger Feet\", which was the UK's best-selling single of 1974, and \"Lonely This Christmas\" which reached Christmas number 1 in December 1974. After signing to Rak Records and teaming up with songwriters/producers Nicky Chinn and Mike Chapman, the band had fourteen UK Top 20 hits between 1973 and 1976, including three number ones."@en ;
+	dbo:genre	dbr:Pop_music ,
+		dbr:Glam_rock ,
+		dbr:Rock_and_roll ;
+	dbp:caption	"Mud in 1974"^^rdf:langString ;
+	dbp:currentMembers	dbr:Les_Gray ,
+		<http://dbpedia.org/resource/Rob_Davis_(musician)> ;
+	dbp:origin	"London, England"^^rdf:langString .
+<http://dbpedia.org/resource/Badlands_(American_band)>	rdf:type	dbo:Band ;
+	foaf:name	"Badlands"@en ;
+	dbo:abstract	"Badlands was a band founded by former Ozzy Osbourne guitarist Jake E. Lee and former Black Sabbath members Ray Gillen and Eric Singer. Badlands also featured bassist Greg Chaisson. After the first Badlands album, Eric Singer was replaced by Jeff Martin. The group lasted from 1988 to 1993 and released two albums, Badlands (1989) and Voodoo Highway (1991) before Gillen left and was replaced by singer John West from New York. Ray's death in 1993 effectively ended any hopes of re-uniting the project. The album Dusk (a demo recorded in 1992 - 1993) was posthumously released in 1998."@en ;
+	dbo:genre	dbr:Glam_metal ;
+	dbp:currentMembers	dbr:Greg_Chaisson ,
+		dbr:Eric_Singer ,
+		<http://dbpedia.org/resource/Jake_E._Lee> ,
+		<http://dbpedia.org/resource/Jeff_Martin_(American_musician)> ,
+		<http://dbpedia.org/resource/John_West_(musician)> ,
+		dbr:Ray_Gillen .
+dbr:Blink-182	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Blink-182,_June_2016.jpg?width=300> ;
+	foaf:name	"Blink-182"@en ;
+	dbo:associateBand	dbr:Alkaline_Trio ,
+		<http://dbpedia.org/resource/+44_(band)> ,
+		dbr:Box_Car_Racer ,
+		<http://dbpedia.org/resource/Angels_&_Airwaves> ;
+	dbo:abstract	"Blink-182 (often stylized as blink-182) is an American rock band formed in Poway, California in 1992. The band currently consists of bassist and vocalist Mark Hoppus, drummer Travis Barker, and guitarist and vocalist Matt Skiba. Founded by Hoppus, guitarist and vocalist Tom DeLonge, and drummer Scott Raynor, the band emerged from the Southern California punk scene of the early 1990s and first gained notoriety for high-energy live shows and irreverent lyrical toilet humor. Blink-182 was initially known as Blink until an Irish band of the same name threatened legal action; the band appended the meaningless number \"-182\". In its early years, Blink-182 toured heavily behind the band's debut, Cheshire Cat (1995). The group signed with major label MCA Records to co-distribute its second album, Dude Ranch (1997). Raynor was fired midway through a 1998 tour and replaced by Barker. The group's next two releases, Enema of the State (1999) and Take Off Your Pants and Jacket (2001), were enormous successes on the strength of radio and MTV airplay. The eponymously titled Blink-182 followed in 2003 and marked a stylistic shift for the group. DeLonge quit in 2005, sending the band into what was termed an \"indefinite hiatus\". They reunited in 2009, producing the trio's sixth album, Neighborhoods (2011). In 2015, DeLonge again exited and was replaced by Alkaline Trio guitarist and vocalist Matt Skiba. The band's seventh studio album, California, was released on July 1, 2016. Blink-182 is considered a key group in the development of pop punk; the band's combination of pop melodies with fast-paced punk rock featured a more radio-friendly accessibility than prior bands. The trio has sold over thirteen million albums in the United States, and over 35 million albums worldwide. In 2011, The New York Times asserted, \"no punk band of the 1990s has been more influential than Blink-182,\" and even as the band receded after its 2005 split, \"its sound and style could be heard in the muscular pop punk of Fall Out Boy or in the current wave of high-gloss Warped Tour punk bands, like All Time Low and The Maine.\""@en ;
+	dbo:associatedMusicalArtist	dbr:Box_Car_Racer ,
+		dbr:Alkaline_Trio ,
+		<http://dbpedia.org/resource/Angels_&_Airwaves> ,
+		<http://dbpedia.org/resource/+44_(band)> ;
+	dbo:genre	dbr:Skate_punk ,
+		dbr:Punk_rock ,
+		dbr:Alternative_rock ,
+		dbr:Pop_punk ;
+	dbp:caption	"Blink-182 performing in 2016. From left to right: Mark Hoppus, Travis Barker, and Matt Skiba."^^rdf:langString ;
+	dbp:currentMembers	dbr:Tom_DeLonge ,
+		dbr:Scott_Raynor ;
+	dbp:website	<http://blink182.com> .
+<http://dbpedia.org/resource/Chic_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/CHIC.jpg?width=300> ;
+	foaf:name	"Chic"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Kool_&_the_Gang> ,
+		<http://dbpedia.org/resource/Distance_(band)> ,
+		dbr:The_Honeydrippers ,
+		dbr:Carly_Simon ,
+		<http://dbpedia.org/resource/The_Power_Station_(band)> ,
+		dbr:Sister_Sledge ,
+		dbr:Diana_Ross ,
+		dbr:Luther_Vandross ,
+		<http://dbpedia.org/resource/Sheila_B._Devotion> ,
+		dbr:Debbie_Harry ;
+	dbo:abstract	"Chic (/\u02C8\u0283i\u02D0k/ SHEEK; currently Chic featuring Nile Rodgers) is an American band that was organized during 1976 by guitarist Nile Rodgers and bassist Bernard Edwards. Its commercially successful disco songs include \"Dance, Dance, Dance (Yowsah, Yowsah, Yowsah)\" (1977), \"Everybody Dance\" (1977), \"Le Freak\" (1978), \"I Want Your Love\" (1978), \"Good Times\" (1979), and \"My Forbidden Lover\" (1979). The group regarded themselves as a rock band for the disco movement \"that made good on hippie peace, love and freedom\". In October 2014, Chic was nominated for induction into the Rock and Roll Hall of Fame for the tenth time."@en ;
+	dbo:associatedMusicalArtist	dbr:Sister_Sledge ,
+		dbr:Debbie_Harry ,
+		<http://dbpedia.org/resource/Sheila_B._Devotion> ,
+		dbr:The_Honeydrippers ,
+		<http://dbpedia.org/resource/Distance_(band)> ,
+		dbr:Carly_Simon ,
+		dbr:Diana_Ross ,
+		<http://dbpedia.org/resource/The_Power_Station_(band)> ,
+		<http://dbpedia.org/resource/Kool_&_the_Gang> ,
+		dbr:Luther_Vandross ;
+	dbo:genre	dbr:Funk ,
+		dbr:Soul_music ,
+		dbr:Disco .
+@prefix ns6:	<http://dbpedia.org/datatype/> .
+<http://dbpedia.org/resource/Chic_(band)>	dbp:caption	"1970.0"^^ns6:second ;
+	dbp:currentMembers	dbr:Norma_Jean_Wright ,
+		dbr:Bernard_Edwards ,
+		dbr:Fonzi_Thornton ,
+		dbr:Dave_Weckl ,
+		dbr:Sylver_Logan_Sharp ,
+		dbr:Sonny_Emory ,
+		dbr:Sterling_Campbell ,
+		dbr:Jessica_Wagner ,
+		dbr:Tom_Coppola ,
+		dbr:Robert_Sabino ,
+		<http://dbpedia.org/resource/Nathaniel_S._Hardy,_Jr.> ,
+		dbr:Omar_Hakim ,
+		dbr:Jocelyn_Brown ,
+		dbr:Lenny_Pickett ,
+		<http://dbpedia.org/resource/Tony_Thompson_(drummer)> ,
+		dbr:Philippe_Saisse ,
+		dbr:Sammy_Figueroa ,
+		dbr:Jill_Jones .
+dbr:Dalek_I_Love_You	rdf:type	dbo:Band ;
+	foaf:name	"Dalek I Love You"@en ;
+	dbo:associateBand	dbr:Orchestral_Manoeuvres_in_the_Dark ,
+		dbr:The_Id ,
+		<http://dbpedia.org/resource/Godot_(band)> ,
+		dbr:Radio_Blank ,
+		dbr:The_Teardrop_Explodes ,
+		<http://dbpedia.org/resource/Big_in_Japan_(band)> ;
+	dbo:abstract	"(For other uses, see Dalek I Love You (disambiguation).) Dalek I Love You were a synthpop group from Liverpool, England. At various points in their existence, the band was also known as Dalek I. Record executives at Phonogram shortened the band's name without telling them for the \"Freedom Fighters\" single."@en ;
+	dbo:associatedMusicalArtist	dbr:Orchestral_Manoeuvres_in_the_Dark ,
+		dbr:The_Id ,
+		dbr:Radio_Blank ,
+		dbr:The_Teardrop_Explodes ,
+		<http://dbpedia.org/resource/Godot_(band)> ,
+		<http://dbpedia.org/resource/Big_in_Japan_(band)> ;
+	dbo:genre	dbr:New_wave_music ,
+		dbr:Post-punk ,
+		dbr:Synthpop ,
+		dbr:Art_rock ;
+	dbp:currentMembers	dbr:Andy_McCluskey ,
+		<http://dbpedia.org/resource/Martin_Cooper_(artist)> ,
+		dbr:Kenny_Peers ,
+		<http://dbpedia.org/resource/Dave_Hughes_(musician)> ,
+		dbr:David_Balfe ,
+		dbr:Alan_Gill ,
+		dbr:Chris_Teepee .
+dbr:Deee-Lite	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Deee-Lite_members.png?width=300> ;
+	foaf:name	"Deee-Lite"@en ;
+	dbo:abstract	"Deee-Lite was an American house and club/dance music group, formed in New York City. The group's best-known single is \"Groove Is in the Heart\", which was released from their 1990 debut album, World Clique, and was a Top 10 hit in multiple countries. That song notably features funk musician Bootsy Collins, a fan of the group. Deee-Lite scored six number-one hits on the U.S. Billboard Hot Dance Club Play chart over their history. Upon their break-up, the individual members have worked independently as DJs, with Lady Miss Kier regarded as a style icon by publications such as Vogue. Deee-Lite's catalog is represented by Downtown Music Publishing."@en ;
+	dbp:caption	"The original members of Deee-Lite, from left to right: Lady Miss Kier, DJ Dmitry and Towa Tei."^^rdf:langString ;
+	dbp:currentMembers	dbr:Lady_Miss_Kier ,
+		dbr:Towa_Tei .
+dbr:Eric_Clapton_and_the_Powerhouse	rdf:type	dbo:Band ;
+	foaf:name	"Eric Clapton and the Powerhouse"@en ;
+	dbo:associateBand	dbr:Blind_Faith ,
+		dbr:The_Spencer_Davis_Group ,
+		<http://dbpedia.org/resource/John_Mayall\u0027s_Bluesbreakers> ,
+		<http://dbpedia.org/resource/Cream_(band)> ,
+		dbr:Manfred_Mann ,
+		dbr:The_Yardbirds ;
+	dbo:abstract	"Eric Clapton and the Powerhouse was a British blues studio supergroup formed in 1966."@en ;
+	dbo:associatedMusicalArtist	dbr:Manfred_Mann ,
+		<http://dbpedia.org/resource/Cream_(band)> ,
+		<http://dbpedia.org/resource/John_Mayall\u0027s_Bluesbreakers> ,
+		dbr:The_Yardbirds ,
+		dbr:The_Spencer_Davis_Group ,
+		dbr:Blind_Faith ;
+	dbo:genre	dbr:Blues ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Paul_Jones_(singer)> ,
+		dbr:Jack_Bruce ,
+		<http://dbpedia.org/resource/Ben_Palmer_(pianist)> ,
+		dbr:Pete_York ,
+		dbr:Steve_Winwood ,
+		dbr:Eric_Clapton .
+<http://dbpedia.org/resource/Gene_(band)>	rdf:type	dbo:Band ;
+	foaf:name	"Gene"@en ;
+	dbo:associateBand	dbr:Palace_Fires ,
+		dbr:Alan_Thatcher ,
+		dbr:Martin_Rossiter ,
+		<http://dbpedia.org/resource/Sp!n> ,
+		dbr:The_Go_Hole ,
+		dbr:Call_Me_Jolene ;
+	dbo:abstract	"Gene were an English alternative rock quartet that rose to prominence in the mid-1990s. Formed in 1993, they were popularly labelled as a Britpop band and often drew comparisons to The Smiths because of their Morrissey-esque lead singer, Martin Rossiter. Gene's music was influenced by The Jam, The Small Faces, The Style Council and The Clash."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Go_Hole ,
+		<http://dbpedia.org/resource/Sp!n> ,
+		dbr:Palace_Fires ,
+		dbr:Martin_Rossiter ,
+		dbr:Call_Me_Jolene ,
+		dbr:Alan_Thatcher ;
+	dbo:genre	dbr:Alternative_rock ,
+		dbr:Britpop ;
+	dbp:currentMembers	dbr:Martin_Rossiter .
+<http://dbpedia.org/resource/Ibex_(band)>	rdf:type	dbo:Band ;
+	foaf:name	"Ibex"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Sour_Milk_Sea_(band)> ,
+		dbr:The_Hectics ,
+		<http://dbpedia.org/resource/Queen_(band)> ,
+		<http://dbpedia.org/resource/Smile_(band)> ,
+		dbr:Larry_Lurex ;
+	dbo:abstract	"Ibex was a short-lived Liverpool-based rock band in 1969. It is primarily known for having Freddie Mercury (then known as Freddie Bulsara), later of Queen fame, as a member. The other members of the band were Mike Bersin on guitar, Mick Smith on drums and John 'Tupp' Taylor (later Jim Capaldi's manager) on bass guitar. In October 1969, the band changed its name to Wreckage but broke up in November 1969. On 9 September 1969, the band performed a concert at The Sink in Liverpool, which included an encore with future Queen members Brian May and Roger Taylor. This was their first ever performance together. After Ibex, Mercury performed in  Sour Milk Sea, before joining new band (later to become Queen) with Taylor and May after bassist and singer Tim Staffell broke up Smile. A Wreckage demo called \"Green\" and Ibex's live cover of The Beatles' \"Rain\" would later appear on Mercury's posthumous solo box set in 2000. Live recordings exist of \"Crossroads\", \"Communication Breakdown\", \"Jailhouse Rock\", and \"We're Going Wrong\", but they have never been officially released. The band reformed in 2005 to play at the Official Queen Fan Club convention with tribute band front man Harry Hamilton of \"Flash Harry\" taking Freddie's place as singer. They also played support to Flash Harry in their 2004 Royal Albert Hall show. The only existing records are live and cover versions."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Smile_(band)> ,
+		dbr:The_Hectics ,
+		dbr:Larry_Lurex ,
+		<http://dbpedia.org/resource/Sour_Milk_Sea_(band)> ,
+		<http://dbpedia.org/resource/Queen_(band)> ;
+	dbo:genre	dbr:Rock_music ;
+	dbp:currentMembers	dbr:Freddie_Mercury .
+dbr:Kid_Creole_and_the_Coconuts	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Kid_Creole51.JPG?width=300> ;
+	foaf:name	"Kid Creole and the Coconuts"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Machine_(band)> ,
+		<http://dbpedia.org/resource/Dr._Buzzard\u0027s_Original_Savannah_Band> ;
+	dbo:abstract	"Kid Creole and the Coconuts is an American musical group created and led by August Darnell. Its music incorporates a variety of styles and influences, in particular a mix of disco and Latin American, South American, Caribbean, Trinidadian, and Calloway styles and conceptually inspired by the big band era. The Coconuts are a glamorous trio of female backing vocalists whose lineup has changed throughout the years."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Dr._Buzzard\u0027s_Original_Savannah_Band> ,
+		<http://dbpedia.org/resource/Machine_(band)> ;
+	dbo:genre	dbr:Disco ,
+		dbr:Latin_pop ;
+	dbp:caption	"Kid Creole in concert in 1987"^^rdf:langString ;
+	dbp:currentMembers	dbr:Winston_Grennan ,
+		<http://dbpedia.org/resource/Coati_Mundi_(musician)> ;
+	dbp:website	<http://www.kidcreole.com> .
+dbr:LiveonRelease	rdf:type	dbo:Band ;
+	foaf:name	"LiveonRelease"@en ;
+	dbo:abstract	"LiveonRelease was a Canadian all-girl pop punk band from Vancouver formed 2000 and broke up in 2003.The name, LiveonRelease originates from basketball jargon. In 2002, they released Seeing Red, which included the singles \"I'm Afraid of Britney Spears\", \"Get With It\", and \"Emotional Griptape\". \"I'm Afraid of Britney Spears\" also appeared on the Dude, Where's My Car? soundtrack. In 2003, they released their second album Goes on a Fieldtrip, which included the single \"Let's Go\". Their second CD is produced by Peter Karroll & Doug Fury Inc, with the executive producer being Bif Naked. This CD was mixed by Shaun Thingvold. LiveonRelease disbanded shortly after the release of Goes on a Fieldtrip."@en ;
+	dbo:genre	dbr:Pop_punk ;
+	dbp:currentMembers	dbr:Britt_Black ,
+		dbr:Colette_Trudeau .
+<http://dbpedia.org/resource/Lock_Up_(American_band)>	rdf:type	dbo:Band ;
+	foaf:name	"Lock Up"@en ;
+	dbo:associateBand	dbr:Rage_Against_The_Machine ,
+		dbr:Street_Sweeper_Social_Club ,
+		dbr:White_Heart ,
+		dbr:Red_Hot_Chili_Peppers ,
+		dbr:Future_User ,
+		dbr:Audioslave ,
+		dbr:Dead_Kennedys ,
+		dbr:The_Nightwatchman ,
+		dbr:Adam_Again ;
+	dbo:abstract	"Lock Up was a rock band that featured Tom Morello on guitar before Rage Against the Machine was formed. The band was founded by the original guitar player Mike Livingston (formerly of The Mau-Mau's) and Kevin Wood on bass. They had previously played together in the band Ella and the Blacks, which also included Brian Grillo and Brendan Mullen (founder of The Masque, the first L.A. punk rock club). Grillo became Lock Up's lead singer. Grillo had worked several years before with Martin Atkins in Atkin's Brian Brain project, and then was known in Los Angeles for fronting Brian Grillo's Wild Coyote Review. The original drummer was Michael Lee, (later drummer with Sylvia Juncosa and with The Homebillies ), who quit and was replaced briefly by D. H. Peligro, formerly of the Dead Kennedys and later in Red Hot Chili Peppers. After Peligro left, he was replaced by Vince Ostertag . In early 1987, Lock Up signed a production deal with Third Story Music, which was the company associated with Herb Cohen, by Evan Cohen, who later ran Manifesto Records. Cohen brought the band to the attention of Anna Statman, who was an A & R person at Slash Records. In 1988, Statman moved to a new job at Geffen Records, and Lock Up was her first signing at Geffen, in mid-1988. Livingston had left Lock Up in late 1987. In early 1988, Livingston was replaced by Morello. Chris Beebe on bass completed the lineup that released Lock Up's sole album on Geffen Records, Something Bitchin' This Way Comes, which came out in 1989. The title of the album was based on Ray Bradbury's 1962 novel Something Wicked This Way Comes. Vince Ostertag was subsequently replaced by Jon Knox who played drums until the group disbanded. Following the Lock Up break up, Jon encouraged bassist Tim Commerford and Zack de la Rocha to jam with Tom Morello and drummer Brad Wilk who unsuccessfully auditioned for Lock Up. This line-up went on to form Rage Against the Machine. Most of Morello's guitar with Lock Up is unlike his work with Rage Against the Machine and Audioslave. His solos, in contrast to Livingston's rootsy blues oriented style mainly consist of arpeggios, tapping and overall fast fretwork. Evidence of his experimenting with the toggle switch can be heard in a few tracks (\"Can't Stop the Bleeding\", \"Nothing New\", \"Punch Drunk\"). The songs \"Punch Drunk\" and \"Half Man Half Beast\" were featured in the 1991 comedy film Ski School. In 1997, Manifesto Records licensed the Lock Up album from Geffen, and released it on compact disc. After the release, Manifesto, Morello, and Morello's label, Sony, got into a legal dispute over whether Manifesto could place a sticker on the compact disc that read \"Featuring Tom Morello from Rage Against the Machine.\""@en ;
+	dbo:associatedMusicalArtist	dbr:Red_Hot_Chili_Peppers ,
+		dbr:The_Nightwatchman ,
+		dbr:White_Heart ,
+		dbr:Dead_Kennedys ,
+		dbr:Future_User ,
+		dbr:Audioslave ,
+		dbr:Street_Sweeper_Social_Club ,
+		dbr:Adam_Again ,
+		dbr:Rage_Against_The_Machine ;
+	dbo:genre	dbr:Glam_metal ,
+		dbr:Funk_metal ,
+		dbr:Heavy_metal_music ;
+	dbp:currentMembers	dbr:Vince_Ostertag ,
+		dbr:Jon_Knox ,
+		dbr:Tom_Morello ,
+		dbr:Kevin_Wood ,
+		dbr:Brendan_Mullen ,
+		<http://dbpedia.org/resource/Michael_Lee_(drummer)> ,
+		<http://dbpedia.org/resource/Mike_R._Livingston_(guitarist)> ,
+		<http://dbpedia.org/resource/D._H._Peligro> ,
+		dbr:Brian_Grillo ,
+		dbr:Chris_Beebe .
+dbr:McGuinness_Flint	rdf:type	dbo:Band ;
+	foaf:name	"McGuinness Flint"@en ;
+	dbo:associateBand	dbr:Gallagher_and_Lyle ,
+		dbr:Manfred_Mann ,
+		dbr:The_Blues_Band ;
+	dbo:abstract	"McGuinness Flint was a rock band formed in 1970 by Tom McGuinness, former bassist and guitarist with Manfred Mann, and Hughie Flint, former drummer with John Mayall; plus vocalist and keyboard player Dennis Coulson, and multi-instrumentalists and singer-songwriters Benny Gallagher and Graham Lyle."@en ;
+	dbo:associatedMusicalArtist	dbr:Gallagher_and_Lyle ,
+		dbr:The_Blues_Band ,
+		dbr:Manfred_Mann ;
+	dbo:genre	dbr:Country_rock ,
+		dbr:Blues_rock ,
+		dbr:Folk_rock ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Tom_McGuinness_(musician)> ,
+		dbr:Benny_Gallagher ,
+		dbr:Hughie_Flint ,
+		dbr:Graham_Lyle ;
+	dbp:origin	"England"^^rdf:langString .
+<http://dbpedia.org/resource/OHM_(band)>	rdf:type	dbo:Band ;
+	foaf:name	"OHM"@en ;
+	dbo:associateBand	dbr:OHMphrey ;
+	dbo:abstract	"OHM (sometimes stylized Ohm: or OHM:) is an American instrumental rock/jazz fusion group fronted by former Megadeth guitarist Chris Poland. The band was formed in 2002 and has released three studio albums and a live album. A similar offshoot band named OHMphrey, also fronted by Poland, was formed in 2008. The band often perform at the Baked Potato jazz club in Studio City, which is a neighborhood of Los Angeles. On May 21, 2016, drummer Nick Menza died from heart failure while performing on stage with OHM at the Baked Potato jazz club."@en ;
+	dbo:associatedMusicalArtist	dbr:OHMphrey ;
+	dbo:genre	dbr:Progressive_metal ,
+		dbr:Instrumental_rock ,
+		dbr:Jazz_fusion ;
+	dbp:currentMembers	dbr:Nick_Menza ,
+		<http://dbpedia.org/resource/Joel_Taylor_(musician)> ;
+	dbp:website	<http://www.threeohms.com/> .
+<http://dbpedia.org/resource/Orson_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Orson.jpg?width=300> ;
+	foaf:name	"Orson"@en ;
+	dbo:abstract	"Orson was a Brit Award-winning American rock band from Hollywood, Los Angeles, California, formed in 2000."@en ;
+	dbo:genre	dbr:Rock_music ,
+		dbr:Power_pop ;
+	dbp:currentMembers	dbr:Kevin_Roentgen ;
+	dbp:website	<http://www.goldsboroband.com> .
+<http://dbpedia.org/resource/Paper_Dolls_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Paper_Dolls_band_1968b.jpg?width=300> ;
+	foaf:name	"Paper Dolls"@en ;
+	dbo:abstract	"The Paper Dolls were a late 1960s British female vocal trio, from Northampton, comprising lead vocalist Susie 'Tiger' Mathis, Pauline 'Spyder' Bennett and Sue 'Copper' Marshall. They appeared some years before similar recording acts such as Bananarama and Atomic Kitten became commonplace. Pre - dating the Spice Girls, each member of the group had a nickname."@en ;
+	dbo:genre	dbr:Pop_music ;
+	dbp:caption	"Paper Dolls in 1968"^^rdf:langString ;
+	dbp:currentMembers	dbr:Susie_Mathis .
+<http://dbpedia.org/resource/Plastics_(band)>	rdf:type	dbo:Band ;
+	foaf:name	"Plastics"@en ;
+	dbo:abstract	"Plastics, or The Plastics, were a short-lived Japanese new wave music group prominent in the late 1970s and early 1980s. Their music was a major influence on Japanese pop music and their songs have been covered by many bands, most notably Polysics, Pizzicato Five, and Stereo Total. Perhaps their greatest exposure came from their appearance on the late night comedy show SCTV on NBC performing \"Top Secret Man\". In September 2007, Rolling Stone Japan rated their debut album Welcome Plastics at No. 19 on their list of the \"100 Greatest Japanese Rock Albums of All Time\". Stereo Total's cover of their song \"I Love You, Oh No\" (Stereo Total changed the title slightly, to \"I Love You Ono\") was used in television commercials for Sony Ericsson in Europe around 2006 and by Dell Computers in the USA in 2009."@en ;
+	dbo:genre	dbr:Synthpop ,
+		dbr:Post-punk ,
+		dbr:New_wave_music ;
+	dbp:currentMembers	dbr:Chica_Sato ,
+		dbr:Hajime_Tachibana ,
+		dbr:Masahide_Sakuma ,
+		dbr:Gota_Yashiki ,
+		dbr:Takemi_Shima ,
+		dbr:Toshio_Nakanishi .
+<http://dbpedia.org/resource/Kind_of_Blue_(band)>	rdf:type	dbo:Band ;
+	foaf:name	"Kind of Blue"@en ;
+	dbo:abstract	"Kind of Blue is a music group formed in Hamburg in 1995. Currently, the band consists of Lidia Kopania (vocals) and Bernd Klimpel (guitars)."@en ;
+	dbo:genre	dbr:Pop_rock ;
+	dbp:currentMembers	dbr:Katrin_Holst ,
+		dbr:Lars_Koester ,
+		dbr:Elisabeth_Muecke ,
+		dbr:Frank_Spinngiess ;
+	dbp:website	<http://www.lidiakopania.pl/> ,
+		<http://www.kindofblue.de/> .
+<http://dbpedia.org/resource/2NE1>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/2NE1_in_Melon_Music_Awards.jpg?width=300> ;
+	foaf:name	"2NE1"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Big_Bang_(South_Korean_band)> ,
+		dbr:Teddy_Park ;
+	dbo:abstract	"(This article is about the musical group. For other uses, see 2NE1 (disambiguation).) 2NE1 (Korean: \uD22C\uC560\uB2C8\uC6D0, IPA: [t\u02B0u.\u025B.ni.w\u028Cn]) is a South Korean girl group formed by YG Entertainment in 2009. The group currently consists of CL, Bom, and Dara. The fourth and the youngest member, Minzy, officially left the group on April 5, 2016. First appearing in \"Lollipop\", a commercial campaign with Big Bang for LG Electronics, 2NE1's debut single \"Fire\" was released on May 6, 2009. Since then, the group has released two eponymous extended plays, 2NE1 (2009) and 2NE1 (2011), and two studio albums, To Anyone and Crush. Their first EP spawned the number-one single \"I Don't Care\", which won them the \"Song of the Year\" award at the 2009 Mnet Asian Music Awards. Their follow-up singles, such as \"Go Away\", \"Lonely\" and \"I Am the Best\", were similarly successful, with \"I Am the Best\" winning 2NE1 their second \"Song of the Year\" award in 2011. 2NE1 officially debuted in Japan in September 2011 with a Japanese version of their second EP, titled Nolza. Since then, the group has released one studio album, Collection, and two physical singles in Japan. In 2012, The New York Times named 2NE1's performance at the Prudential Center in New Jersey as one of the \"Best Concerts of 2012\". In October 2012, Zack Greenburg of Forbes magazine noted that 2NE1 has sold 27 million digital downloads."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Big_Bang_(South_Korean_band)> ,
+		dbr:Teddy_Park ;
+	dbo:genre	<http://dbpedia.org/resource/Contemporary_R&B> ,
+		dbr:Hip_hop_music ,
+		dbr:K-pop ,
+		dbr:Dance-pop ;
+	dbp:caption	"Current lineup of 2NE1 at 2010 MelOn Music Awards in December 2010. Left to right: Bom, Dara and CL"^^rdf:langString ;
+	dbp:currentMembers	dbr:Minzy ;
+	dbp:website	<http://yg-2ne1.com> .
+dbr:A_Penny_for_Jane	rdf:type	dbo:Band ;
+	foaf:name	"A Penny for Jane"@en ;
+	dbo:associateBand	dbr:Dashboard_Confessional ;
+	dbo:abstract	"A Penny for Jane is an American rock band from Las Vegas, led by Anthony Valentino and Denny Mishler. The band started out as a songwriting partnership between Valentino and Mishler, but eventually grew into a full band ensemble."@en ;
+	dbo:associatedMusicalArtist	dbr:Dashboard_Confessional ;
+	dbo:genre	dbr:Alternative_rock ,
+		dbr:Pop_rock ;
+	dbp:currentMembers	dbr:John_Wackerman .
+@prefix ns7:	<http://www.reverbnation.com/> .
+dbr:A_Penny_for_Jane	dbp:website	ns7:apennyforjane .
+dbr:Amazing_Baby	rdf:type	dbo:Band ;
+	foaf:name	"Amazing Baby"@en ;
+	dbo:associateBand	dbr:Stylofone ,
+		dbr:Heavy_Hands ,
+		dbr:The_Icarus_Line ,
+		dbr:Lilys ,
+		dbr:Swirlies ,
+		dbr:Diamond_Nights ,
+		dbr:Mice_Parade ,
+		<http://dbpedia.org/resource/Ink_&_Dagger> ;
+	dbo:abstract	"Amazing Baby was an American indie rock band based in Brooklyn, New York in 2008. The band began as an after-work collaboration between Will Roan, Will Berman and Simon O'Connor, who had known one another from the Brooklyn music scene, and who were working at the same ringtone company. The band's debut album Rewild was released in June, 2009. O'Connor, Berman, and Roan wrote new material for their forthcoming album in 2010, tentatively titled \"Ice Water\", and are currently recording with the band and producer/engineer Emery Dobyns."@en ;
+	dbo:associatedMusicalArtist	dbr:Diamond_Nights ,
+		<http://dbpedia.org/resource/Ink_&_Dagger> ,
+		dbr:Heavy_Hands ,
+		dbr:Mice_Parade ,
+		dbr:Stylofone ,
+		dbr:The_Icarus_Line ,
+		dbr:Lilys ,
+		dbr:Swirlies ;
+	dbo:genre	dbr:Indie_rock ,
+		dbr:Psychedelic_rock ;
+	dbp:currentMembers	dbr:Jane_Herships ,
+		dbr:Ryan_Rapsys ,
+		dbr:Rob_Laakso ;
+	dbp:website	<http://theamazingbaby.com/> ,
+		<http://theamazingbaby.com/wp/> .
+<http://dbpedia.org/resource/Blue_Merle_(band)>	rdf:type	dbo:Band ;
+	foaf:name	"Blue Merle"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Tim_O\u0027Brien_(musician)> ,
+		dbr:Brett_Dennen ,
+		dbr:Moonshine_Sessions ,
+		<http://dbpedia.org/resource/Computer_Vs._Banjo> ;
+	dbo:abstract	"Blue Merle was an American band centered in Nashville, Tennessee. Their name comes from the lyrics of a Led Zeppelin song, Bron-Y-Aur Stomp from Led Zeppelin III, referring to a \"blue-eyed merle\" border collie dog. Their lead singer Luke Reynolds, has a voice that has been compared to those of Chris Martin and Dave Matthews. The band is also known for live renditions of the Talking Heads song Psycho Killer. The band was first formed when Luke Reynolds and Jason Oettel met and began to work together. A friend in a studio offered them some recording time, and they began recording several demo tracks. While they were doing so, the President of Sony Publishing happened to be there, and offered them a contract. While they passed on it, it was a start. Reynolds then met Beau Stapleton, a Mandolin player, on his way back to his home in Vermont and invited him to join. Oettel brought one of his own friends, William Ellis, a drummer into the band as well. It was William who came up with the band's name. The last member to join was Luke Bulla, a fiddle player, who had been asked to fill in for a couple weeks, and soon was a full-time member. In February 2005, Blue Merle released Burning In The Sun, which features the singles \"Burning In The Sun\", \"Every Ship Must Sail Away\", and \"Lucky To Know You\". The album hit #8 on the Billboard Heatseekers chart and peaked at #199 on the Billboard 200. Blue Merle played Lollapalooza in 2005, and toured with Guster, Jem, J.J. Cale, and Badly Drawn Boy. In April 2006, the band broke up. They played their last show, 45 minute set, on Friday, April 21 at Vanderbilt University's Rites of Spring music festival along with Clap Your Hands Say Yeah and My Morning Jacket. Since the band's breakup, Luke Reynolds released two solo EPs entitled The Space Between the Lines and Maps. Beau Stapleton also released a solo EP, Will I Shine For You Still. Luke Reynolds's latest project, Pictures and Sound, released their self-titled debut album August 19, 2008 on Vanguard Records. In August 2008, NBC used Blue Merle's song \"Burning in the Sun\" during a feature on the Women's Pole Vault during the Beijing Olympics. The song \"If I Could\" was also prominently featured in the Friday Night Lights episode \"Let's Get It On\" (first aired Nov 2 2007). \"Every Ship Must Sail Away\" was the final song in Season 1, Episode 2 of the TV series \"Bones\"."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Tim_O\u0027Brien_(musician)> ,
+		dbr:Brett_Dennen ,
+		<http://dbpedia.org/resource/Computer_Vs._Banjo> ,
+		dbr:Moonshine_Sessions ;
+	dbo:genre	dbr:Folk_music ,
+		dbr:Bluegrass_music ,
+		dbr:Acoustic_music ;
+	dbp:currentMembers	dbr:Kevin_Arrowsmith ,
+		dbr:Patrick_Ross ;
+	dbp:website	<http://www.bluemerle.com/main.html> .
+dbr:Boneless_Children_Foundation	rdf:type	dbo:Band ;
+	foaf:name	"Boneless Children Foundation"@en ;
+	dbo:abstract	"The Boneless Children Foundation is a San Francisco (United States) indie rock band. Their debut full length self-released CD, \"Stars For Anyone,\" was released on October 2, 2007 to generally positive reviews, eventually reaching No. 200 on the College Music Journal charts in November 2007."@en ;
+	dbo:genre	dbr:Indie_rock ;
+	dbp:currentMembers	dbr:Paco_Romane ,
+		dbr:Michael_Musika ;
+	dbp:website	<http://www.bonelesschildren.com/> .
+dbr:Box_Car_Racer	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Tom_DeLonge_2004.jpg?width=300> ;
+	foaf:name	"Box Car Racer"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/+44_(band)> ,
+		<http://dbpedia.org/resource/Transplants_(band)> ,
+		<http://dbpedia.org/resource/Angels_&_Airwaves> ,
+		dbr:Hazen_Street ,
+		dbr:Blink-182 ,
+		<http://dbpedia.org/resource/Over_My_Dead_Body_(band)> ;
+	dbo:abstract	"Box Car Racer was an American rock band formed in San Diego, California in 2001. The group consisted of guitarist and vocalist Tom DeLonge and drummer Travis Barker of Blink-182, alongside guitarist David Kennedy of Hazen Street. Anthony Celestino later joined the ensemble as a bassist. DeLonge created the project to pursue darker ideas he felt unsuited to his work with Blink-182. He invited Barker in order to refrain from paying a studio drummer, and fellow guitarist David Kennedy, whom DeLonge had met in the San Diego music circuit years prior. Jeff Russell from Signals Midwest was also invited to join the band but declined. Box Car Racer was partly inspired and viewed as a tribute to Jawbox, Quicksand, Fugazi and Refused. The group recorded the band's eponymous debut, Box Car Racer, in quick fashion with a more DIY spirit. MCA Records issued the band's lone release in May 2002, which peaked on the Billboard 200 at number 12. Singles \"I Feel So\" and \"There Is\" also charted on the Modern Rock Tracks chart, with the former shooting to number eight. The band embarked on their sole headlining tour across North America in the fall of 2002 with supporting act The Used. Box Car Racer created unresolved tension within Blink-182 and inevitably influenced the band's following studio album, the more experimental Blink-182 (2003). DeLonge ended the project in mid-2003, considering it to have served its purpose; however, DeLonge's later band, Angels & Airwaves (which also featured Kennedy) has been described by DeLonge as a continuation of Box Car Racer."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Over_My_Dead_Body_(band)> ,
+		<http://dbpedia.org/resource/Transplants_(band)> ,
+		<http://dbpedia.org/resource/Angels_&_Airwaves> ,
+		dbr:Hazen_Street ,
+		dbr:Blink-182 ,
+		<http://dbpedia.org/resource/+44_(band)> ;
+	dbo:genre	dbr:Post-hardcore ,
+		dbr:Alternative_rock ,
+		dbr:Emo ,
+		dbr:Pop_punk ;
+	dbp:caption	"The group during the music video for \"I Feel So\""^^rdf:langString ;
+	dbp:currentMembers	dbr:Anthony_Celestino ,
+		<http://dbpedia.org/resource/David_Kennedy_(musician)> ,
+		dbr:Travis_Barker ,
+		dbr:Tom_DeLonge .
+@prefix ns8:	<http://www.interscope.com/> .
+dbr:Box_Car_Racer	dbp:website	ns8:boxcarracer .
+dbr:Built_by_Snow	rdf:type	dbo:Band ;
+	dbo:image	<http://en.wikipedia.org/wiki/Special:FilePath/Built_by_snow.jpg?width=300> ;
+	foaf:name	"Built By Snow"@en ;
+	dbo:abstract	"The band met while working together in the production department at a television station in Austin. After winning a Battle of the Bands competition, they used the prize money to record their first EP, \"NOISE.\" Recorded during the summer months of 2007 at Music Lab Recording Studio in Austin Texas, \"NOISE\" is 7 powerpop songs about girls, teenage hope, dorks, NASA engineers, and robots. During the summer months of 2008, Built By Snow began working on their second album, \"MEGA.\" Recorded at The Bubble in Austin Texas, \"MEGA\" is described as 9 songs of catchy keyboard rock with velcro melodies that will stick to your brain and won't let go. Following the release of \"MEGA,\" Built By Snow performed a showcase in the 2009 (SXSW) South By Southwest Music Festival in Austin, Texas, and at the 2009 (NXNE) North By North East Music Festival in Toronto."@en ;
+	dbo:genre	dbr:Independent_music ,
+		dbr:Power_pop ,
+		dbr:Rock_music ,
+		dbr:Pop_music ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Black_Scorpion_(performer)> ;
+	dbp:website	<http://www.builtbysnow.com> .
+dbr:Corpus_Mortale	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Corpusmortale.jpg?width=300> ;
+	foaf:name	"Corpus Mortale"@en ;
+	dbo:associateBand	dbr:Human_Machine ,
+		dbr:Usipian ,
+		dbr:Atobic ,
+		dbr:Slow_Death_Factory ,
+		<http://dbpedia.org/resource/Crapulence_(band)> ,
+		dbr:Iron_Fire ,
+		dbr:DownLord ,
+		<http://dbpedia.org/resource/Iniquity_(band)> ,
+		dbr:Revolting_Phimosis ,
+		dbr:Strangler ,
+		dbr:Granhammer ,
+		<http://dbpedia.org/resource/Swollen_(band)> ,
+		<http://dbpedia.org/resource/Saturnus_(band)> ;
+	dbo:abstract	"Corpus Mortale is a Danish death metal group. Established in 1993, the band has released two full-length albums."@en ;
+	dbo:associatedMusicalArtist	dbr:Human_Machine ,
+		dbr:Strangler ,
+		<http://dbpedia.org/resource/Saturnus_(band)> ,
+		dbr:Usipian ,
+		<http://dbpedia.org/resource/Crapulence_(band)> ,
+		dbr:Revolting_Phimosis ,
+		dbr:DownLord ,
+		dbr:Atobic ,
+		<http://dbpedia.org/resource/Iniquity_(band)> ,
+		dbr:Slow_Death_Factory ,
+		dbr:Iron_Fire ,
+		<http://dbpedia.org/resource/Swollen_(band)> ,
+		dbr:Granhammer ;
+	dbo:genre	dbr:Death_metal ;
+	dbp:caption	"Band Picture"^^rdf:langString ;
+	dbp:currentMembers	dbr:Ulrik_Pendersen ,
+		dbr:Jakob_Schleis ,
+		dbr:Jens_Lee ,
+		<http://dbpedia.org/resource/S\u00F8ren_Jensen_(musician)> ,
+		dbr:Roar_Christoffersen ,
+		dbr:Rasmus_Schmidt ,
+		dbr:Mads_Haarløv ,
+		dbr:Nicholas_Maschøln ,
+		dbr:Andreas_Lynge ;
+	dbp:website	<http://www.corpusmortale.com> .
+dbr:Curtis_Whitefinger	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Curtistone.jpg?width=300> ;
+	foaf:name	"Curtis Whitefinger"@en ;
+	dbo:abstract	"Curtis Whitefinger (born Alexander Curtis, 1979) is a British singer, songwriter and guitarist from Nottingham, England, who has released six albums and two EPs of his songs through his own record label, Black Thumb Records. Whitefinger's albums have been favourably reviewed by some magazines and websites, and in reviews Whitefinger has been compared to Bob Dylan, Paul Heaton, Raymond Chandler, and The Zutons. Some of Whitefinger's recordings (Drunk For A Penny Dead For A Pound, Rockets Of Persistence) were engineered by Spiritualized / Julian Cope guitarist Tony 'Doggen' Foster. Curtis often plays live with The Curtis Whitefinger Ordeal - a four-piece band currently featuring bass player John Russell, guitarist Dave Pearce and drummer Nick Brown. Past members of the band included drummer Antony Hodgkinson, formerly of Bivouac, Punish The Atom, and Dogntank, who also danced on stage for Nirvana; he now plays with Julian Cope. The Curtis Whitefinger Ordeal also perform around the UK as a Neil Young tribute band under the name Rust For Glory. They performed at Liverpool's Mathew Street Festival in 2011."@en ;
+	dbp:caption	"Curtis Whitefinger performing at the Glo Bar, Nottingham, February 2009"^^rdf:langString ;
+	dbp:currentMembers	dbr:Antony_Hodgkinson ;
+	dbp:website	<http://www.curtiswhitefinger.co.uk> .
+dbr:Dain_Bramage	rdf:type	dbo:Band ;
+	foaf:name	"Dain Bramage"@en ;
+	dbo:associateBand	dbr:Foo_Fighters ,
+		dbr:Queens_of_the_Stone_Age ,
+		<http://dbpedia.org/resource/Nirvana_(band)> ,
+		<http://dbpedia.org/resource/Scream_(band)> ,
+		dbr:Them_Crooked_Vultures ;
+	dbo:abstract	"Dain Bramage was a short-lived punk rock band from Washington, D.C. The group was one of former Nirvana drummer and current Foo Fighters frontman Dave Grohl's pre-Nirvana bands - before he made himself known in the band Scream."@en ;
+	dbo:associatedMusicalArtist	dbr:Queens_of_the_Stone_Age ,
+		dbr:Foo_Fighters ,
+		<http://dbpedia.org/resource/Nirvana_(band)> ,
+		dbr:Them_Crooked_Vultures ,
+		<http://dbpedia.org/resource/Scream_(band)> ;
+	dbo:genre	dbr:Punk_rock ,
+		dbr:Alternative_rock ;
+	dbp:currentMembers	dbr:Dave_Grohl ;
+	dbp:website	<http://home.comcast.net/~gravityboy/bramage/index.html> .
+dbr:Death_in_June	rdf:type	dbo:Band ;
+	foaf:name	"Death in June"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Crisis_(band)> ;
+	dbo:abstract	"Death in June are a neofolk group led by English folk musician Douglas Pearce, better known as Douglas P. The band was originally formed in Britain in 1981 as a trio, but after the other members left in 1984 and 1985 to work on other projects, the group became the work of Douglas P. and various collaborators. Douglas P. now lives in Australia. Over the band's three decades of existence, they have made numerous shifts in style and presentation, resulting in an overall shift from initial post-punk and Industrial Records influence to a more acoustic and folk music-oriented approach. They are sometimes considered controversial (largely due to usage of themes and imagery relating to Nazi Germany). Douglas P.'s influence was instrumental in sparking neofolk, of which his music has subsequently become a part."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Crisis_(band)> ;
+	dbo:genre	dbr:Experimental_music ,
+		dbr:Post-punk ,
+		dbr:Post-industrial_music ,
+		dbr:Neofolk ,
+		dbr:Martial_industrial ;
+	dbp:currentMembers	dbr:Boyd_Rice ,
+		dbr:Patrick_Leagas ,
+		dbr:Tony_Wakeford ,
+		<http://dbpedia.org/resource/John_Murphy_(musician)> ,
+		dbr:David_Tibet ;
+	dbp:website	<http://www.deathinjune.net/> .
+dbr:Death_to_Anders	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Death_to_anders_@_3_clubs_med.jpg?width=300> ;
+	foaf:name	"Death to Anders"@en ;
+	dbo:abstract	"Death to Anders (pronounced \"onders\") are an American indie rock band formed in Los Angeles, California in 2006. Their lineup consists of Rob Danson (vocals and guitar), Rob Hume (bass and background vocals), and Robert Smith (drums). Death to Anders are active in the influential Echo Park and Silver Lake music scenes in Los Angeles and were founding members of the Central Second Collective, a group of up-and-coming rock musicians dedicated to promoting innovative, new music in Los Angeles. Often compared to Pavement, early Modest Mouse and Sonic Youth but defying hard classification, Death to Anders shift dramatically between hypnotic melodies and raging dissonance as they mix intelligent, story-driven rock with quirky Gothic Americana."@en ;
+	dbo:genre	dbr:Indie_rock ,
+		dbr:Alternative_country ,
+		dbr:Alternative_rock ,
+		dbr:Experimental_rock ,
+		dbr:College_rock .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:Death_to_Anders	dbp:caption	"--01-14"^^xsd:gMonthDay .
+@prefix ns10:	<http://www.myspace.com/> .
+dbr:Death_to_Anders	dbp:currentMembers	ns10:andersgriffen ;
+	dbp:website	<http://www.deathtoanders.bandcamp.com> .
+dbr:Downchild_Blues_Band	rdf:type	dbo:Band ;
+	foaf:name	"The Downchild Blues Band"@en ;
+	dbo:associateBand	dbr:Whiskey_Howl ,
+		dbr:Gary_Kendall ,
+		dbr:BB_Odom_and_the_Gold_Tops ,
+		dbr:Tony_Flaim ,
+		dbr:Lou_Reed ,
+		dbr:Canned_Heat ,
+		dbr:Blues_Brothers ,
+		dbr:The_Blasters ,
+		dbr:McKenna_Mendelson_Mainline ,
+		<http://dbpedia.org/resource/Richard_%22Hock%22_Walsh> ,
+		dbr:Electric_Flag ,
+		<http://dbpedia.org/resource/Rhinoceros_(band)> ,
+		dbr:The_Fabulous_Thunderbirds ,
+		dbr:Powder_Blues_Band ,
+		<http://dbpedia.org/resource/Chuck_Jackson_(musician)> ;
+	dbo:abstract	"The Downchild Blues Band is a Canadian blues band, described by one reviewer as \"the premier blues band in Canada\". The band is still commonly known as the Downchild Blues Band, though the actual band name was shortened to \"Downchild\" as of the early 1980s. The Blues Brothers band was heavily influenced by Downchild Blues Band."@en ;
+	dbo:associatedMusicalArtist	dbr:BB_Odom_and_the_Gold_Tops ,
+		dbr:The_Fabulous_Thunderbirds ,
+		dbr:Lou_Reed ,
+		<http://dbpedia.org/resource/Chuck_Jackson_(musician)> ,
+		dbr:Tony_Flaim ,
+		dbr:Whiskey_Howl ,
+		dbr:Electric_Flag ,
+		dbr:Powder_Blues_Band ,
+		dbr:Canned_Heat ,
+		dbr:The_Blasters ,
+		dbr:Blues_Brothers ,
+		<http://dbpedia.org/resource/Rhinoceros_(band)> ,
+		dbr:Gary_Kendall ,
+		<http://dbpedia.org/resource/Richard_%22Hock%22_Walsh> ,
+		dbr:McKenna_Mendelson_Mainline ;
+	dbo:genre	dbr:Blues ;
+	dbp:currentMembers	dbr:John_Witmer ,
+		<http://dbpedia.org/resource/Richard_%22Hock%22_Walsh> ,
+		dbr:Jane_Vasey ,
+		dbr:Tony_Flaim ,
+		dbr:Billy_Bryans ,
+		<http://dbpedia.org/resource/Gene_Taylor_(pianist)> ,
+		<http://dbpedia.org/resource/Mike_McKenna_(musician)> ,
+		dbr:Kenny_Neal ,
+		dbr:Powder_Blues_Band ;
+	dbp:website	<http://www.downchild.com> .
+dbr:Einstürzende_Neubauten	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Neubauten.jpg?width=300> ;
+	foaf:name	"Einst\u00FCrzende Neubauten"@en ;
+	dbo:abstract	"Einst\u00FCrzende Neubauten (German pronunciation: [\u02C8a\u026An\u02CC\u0283t\u028F\u0250ts\u0259nd\u0259 \u02C8n\u0254\u028F\u02CCba\u028At\u0259n], \"Collapsing New Buildings\") is a German industrial band, originally from West Berlin, formed in 1980. The group currently comprises Blixa Bargeld (lead vocals, guitar, keyboard), Alexander Hacke (bass, guitar, vocals), N.U. Unruh (custom-made instruments, percussion, vocals), Jochen Arbeit (guitar and vocals), and Rudolf Moser (custom-built instruments, percussion, and vocals). One of their trademarks is the use of custom-built instruments, predominantly made out of scrap metal and building tools, and noises, in addition to standard musical instruments. Their early albums were unremittingly harsh, with Bargeld's vocals shouted and screamed above a din of banging and scraping metal percussion. Subsequent recordings found the group's sound growing somewhat more conventional, yet still containing many unorthodox elements."@en ;
+	dbo:genre	dbr:Industrial_music ,
+		dbr:Noise_music ,
+		dbr:Avant-garde_music ,
+		dbr:Experimental_rock ,
+		dbr:Post-industrial_music ;
+	dbp:caption	"Einst\u00FCrzende Neubauten live at \"Casa da M\u00FAsica\" in Porto, May 2008"^^rdf:langString ;
+	dbp:currentMembers	dbr:Beate_Bartel ,
+		<http://dbpedia.org/resource/Roland_Wolf_(musician)> ,
+		<http://dbpedia.org/resource/F.M._Einheit> ,
+		dbr:Gudrun_Gut ,
+		dbr:Shopping_cart ,
+		<http://dbpedia.org/resource/Mark_Chung_(musician)> ;
+	dbp:website	<http://neubauten.org/> .
+dbr:Fake_Problems	rdf:type	dbo:Band ;
+	foaf:name	"Fake Problems"@en ;
+	dbo:associateBand	dbr:Antarctigo_Vespucci ;
+	dbo:abstract	"Fake Problems is a four-piece indie emo pop band from Naples, Florida. They released their first full-length album, How Far Our Bodies Go, on Sabot Productions on April 27, 2007. Their second record, It's Great to Be Alive, was released through Side One Dummy Records on February 17, 2009. Their third record \"Real Ghosts Caught On Tape\" was released September 21, 2010, also on Sideonedummy. They are currently at work on new music for a 2014 release."@en ;
+	dbo:associatedMusicalArtist	dbr:Antarctigo_Vespucci ;
+	dbo:genre	dbr:Indie_rock ;
+	dbp:currentMembers	dbr:Casey_Lee ;
+	dbp:website	<http://www.fakeproblems.com> .
+dbr:Fat_City_Reprise	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Fat_City_Reprise.jpg?width=300> ;
+	foaf:name	"Fat City Reprise"@en ;
+	dbo:abstract	"Fat City Reprise was a five-piece rock band from South Philadelphia, Pennsylvania. The name Fat City Reprise is derived from Hunter S. Thompson's failed bid for sheriff of Pitkin County, Colorado in 1970."@en ;
+	dbo:genre	dbr:Indie_rock ;
+	dbp:currentMembers	dbr:Tony_Trov .
+@prefix ns11:	<https://myspace.com/> .
+dbr:Fat_City_Reprise	dbp:website	ns11:fatcityreprise .
+dbr:Fusion_Orchestra	rdf:type	dbo:Band ;
+	foaf:name	"Fusion Orchestra"@en ;
+	dbo:abstract	"Fusion Orchestra was a British progressive rock band active between 1969 and 1975."@en ;
+	dbo:genre	dbr:Progressive_rock ;
+	dbp:currentMembers	dbr:Fusion_Orchestra ,
+		<http://dbpedia.org/resource/Jill_Saward_(singer)> ;
+	dbp:website	<http://www.fusionorchestra.com/> .
+dbr:Hungry_Kids_of_Hungary	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Hungry_Kids_of_Hungary_at_Albert\u0027s.jpg?width=300> ;
+	foaf:name	"Hungry Kids of Hungary"@en ;
+	dbo:abstract	"Hungry Kids of Hungary were an Australian four-piece indie pop band from Brisbane, Queensland. The band consisted of Dean McGrath (lead vocals, guitar), Kane Mazlin (lead vocals, keys), Ben Dalton (bass guitar, vocals) and Ryan Strathie (drums, vocals). They are no longer active, and announced that they would be parting ways as a band on 28 November 2013."@en ;
+	dbo:genre	dbr:Indie_pop ;
+	dbp:caption	"Hungry Kids of Hungary at Albert's Studios in Sydney. L-R: Kane Mazlin, Ryan Strathie, Dean McGrath, Ben Dalton"^^rdf:langString ;
+	dbp:currentMembers	dbr:Remy_Boccalatte ;
+	dbp:website	<http://www.hungrykidsofhungary.com/> .
+dbr:I_Set_My_Friends_on_Fire	rdf:type	dbo:Band ;
+	dbo:image	<http://en.wikipedia.org/wiki/Special:FilePath/ISMFOF_Warped_2011.jpg?width=300> ;
+	foaf:name	"I Set My Friends on Fire"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/The_Human_Abstract_(band)> ,
+		dbr:Lights_Out_Paris ,
+		dbr:Smosh ,
+		dbr:From_First_To_Last ,
+		dbr:The_Bunny_The_Bear ;
+	dbo:abstract	"I Set My Friends on Fire (ISMFOF) is an experimental music group from Miami, Florida. The band was formed in 2007 by Matt Mehana and former member Nabil Moo. The group signed with Epitaph Records before releasing their debut album, You Can't Spell Slaughter Without Laughter, in 2008. The band's second album, Astral Rejection, was released on June 21, 2011.Their third album, Caterpillar Sex, is scheduled to be released in sometime in 2016."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Bunny_The_Bear ,
+		dbr:Lights_Out_Paris ,
+		dbr:Smosh ,
+		<http://dbpedia.org/resource/The_Human_Abstract_(band)> ,
+		dbr:From_First_To_Last ;
+	dbo:genre	dbr:Electronicore ,
+		dbr:Crunkcore ,
+		dbr:Post-hardcore ,
+		dbr:Metalcore ,
+		dbr:Experimental_music ,
+		dbr:Electronica ;
+	dbp:caption	"Matt Mehana with Joe Nelson, at Vans Warped Tour 2011"^^rdf:langString ;
+	dbp:currentMembers	dbr:Chris_Lent ,
+		dbr:Nabil_Moo .
+@prefix ns12:	<https://www.facebook.com/> .
+dbr:I_Set_My_Friends_on_Fire	dbp:website	ns12:muzikanglisht .
+dbr:Immaculate_Fools	rdf:type	dbo:Band ;
+	foaf:name	"Immaculate Fools"@en ;
+	dbo:associateBand	dbr:Dirty_Ray ,
+		dbr:Weatherill_and_Lamb ;
+	dbo:abstract	"Immaculate Fools were a pop group formed in 1984, who had their biggest success in 1985 with the single \"Immaculate Fools\", and continued until 1997, releasing six studio albums before splitting up. In 2015 Kevin Weatherill reformed the group with new members."@en ;
+	dbo:associatedMusicalArtist	dbr:Dirty_Ray ,
+		dbr:Weatherill_and_Lamb ;
+	dbp:currentMembers	dbr:Barry_Wickens ;
+	dbp:website	<http://www.immaculatefools.com> .
+dbr:In_Fear_and_Faith	rdf:type	dbo:Band ;
+	foaf:name	"In Fear and Faith"@en ;
+	dbo:abstract	"In Fear and Faith is an American post-hardcore band from San Diego, California. Formed in 2006, the group was signed to Rise Records and released three studio albums and two EPs. Their debut full-length, Your World on Fire, being released nearly a year after the band's signing to Rise in 2008, peaked at No. 193 on the Billboard 200. Their second full-length album, Imperial was released the following year and sold even better, charting at No. 4 on the Top Heatseekers chart in the US alone. Currently, the band does not feature any original members since the departure of guitarist Ramin Niroomand and drummer Mehdi Niroomand in 2014; vocalist Scott Barnes is the only current member of the band to have performed on all of the group's studio albums, though he is not an original member."@en ;
+	dbo:genre	dbr:Post-hardcore ,
+		dbr:Alternative_metal ,
+		dbr:Metalcore ;
+	dbp:caption	"Sean Bell and Scott Barnes from In Fear and Faith performing in Jakarta in 2012"^^rdf:langString ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Tyler_%22Telle%22_Smith> ;
+	dbp:website	ns12:infaf .
+<http://dbpedia.org/resource/Isles_&_Glaciers>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/IslesAndGlaciers.jpg?width=300> ;
+	foaf:name	"Isles & Glaciers"@en ;
+	dbo:associateBand	dbr:Chiodos ,
+		dbr:Destroy_Rebuild_Until_God_Shows ,
+		dbr:Cinematic_Sunrise ,
+		dbr:Pierce_the_Veil ;
+	dbo:abstract	"Isles & Glaciers was an American supergroup formed in 2008. They recorded material for their debut EP, The Hearts of Lonely People December 3\u201313, 2008 in Seattle, Washington and again in April 2009. It was produced by Casey Bates, and was released on March 9, 2010. Vocalist Craig Owens stated that the group will not be collaborating or releasing new material again. However Vic Fuentes stated that the band may release more material in the future."@en ;
+	dbo:associatedMusicalArtist	dbr:Chiodos ,
+		dbr:Cinematic_Sunrise ,
+		dbr:Destroy_Rebuild_Until_God_Shows ,
+		dbr:Pierce_the_Veil ;
+	dbo:genre	dbr:Post-hardcore ;
+	dbp:caption	"Jonny Craig and Craig Owens of Isles & Glaciers performing their only show at SXSW."^^rdf:langString ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Craig_Owens_(vocalist)> ,
+		dbr:Vic_Fuentes ,
+		dbr:Brian_Southall ,
+		<http://dbpedia.org/resource/Nick_Martin_(musician)> ,
+		<http://dbpedia.org/resource/Mike_Fuentes_(musician)> ,
+		dbr:Jonny_Craig ;
+	dbp:website	<http://www.islesandglaciers.com/> .
+<http://dbpedia.org/resource/Kid_Icarus_(band)>	rdf:type	dbo:Band ;
+	foaf:name	"Kid Icarus"@en ;
+	dbo:abstract	"Kid Icarus is an American indie rock group based in Dunmore, Pennsylvania, born of a solo recording project by Eric Schlittler. The band has released five full-length albums: Maps of the Saints, Be My Echo, The Metal West, Imaginary Songs & Aluminum Hits and American Ghosts."@en ;
+	dbo:genre	dbr:Indie_rock ;
+	dbp:currentMembers	dbr:Psychatrone_Rhonedakk ;
+	dbp:website	<https://kidicarus1.bandcamp.com/> .
+dbr:Kispál_és_a_Borz	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Kispalesaborz.jpg?width=300> ;
+	foaf:name	"Kisp\u00E1l \u00E9s a Borz"@en ;
+	dbo:abstract	"Kisp\u00E1l \u00E9s a Borz is a Hungarian alternative rock band. Founded in 1987 in P\u00E9cs, starting members were Andr\u00E1s Lovasi, Andr\u00E1s Kisp\u00E1l, Rezs\u0151 \u00D3zdi and G\u00E1bor Br\u00E4utigam. Although the band ceased to function after a large-scale parting concert 9 August 2010 at Sziget Festival, the band toured in 2014-2016, also promising events in the future. The group is still regarded as one of the most influential alternative bands in the country."@en ;
+	dbo:genre	dbr:Alternative_rock ;
+	dbp:caption	"Kisp\u00E1l \u00E9s a Borz performing in Zam\u00E1rdi in 2007"^^rdf:langString ;
+	dbp:currentMembers	dbr:Michael_Zwecker ,
+		<http://dbpedia.org/resource/Zolt\u00E1n_T\u00F3th_(drummer)> ,
+		dbr:Áron_Bóra ,
+		dbr:Rezső_Ózdi ,
+		dbr:Ferenc_Vittai ;
+	dbp:website	<http://www.kispalesaborz.hu/> .
+dbr:LMFAO	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Redfoo_&_Sky_Blu.jpg?width=300> ;
+	foaf:name	"LMFAO"@en ;
+	dbo:abstract	"LMFAO was an American electronic dance music duo which consisted of uncle and nephew Redfoo and SkyBlu. Their name was an initialism of \"laughing my fucking ass off\". LMFAO's members are descendants of Motown Records founder Berry Gordy, Jr.. RedFoo and SkyBlu grew up in Pacific Palisades, Los Angeles, where they formed the group LMFAO in 2006 and later became part of the electro house scene. LMFAO started building a local buzz through its shows and radio play. In 2010, it was featured on David Guetta's smash hit \"Gettin' Over You\", which charted all over Europe and the U.S., including reaching number one in the UK Singles Chart. LMFAO was best remembered for its song \"Party Rock Anthem\", which reached #1 in the United Kingdom, Australia, Belgium, Brazil, Canada, Denmark, France, Germany, Ireland, New Zealand, Switzerland, and the United States. \"Party Rock Anthem\" also reached the top five in Italy and Norway, and was the third best-selling digital single of 2011 with sales of 9.7 million copies worldwide; it is also LMFAO's biggest throughout their career. Following the song's release, LMFAO officially announced that they had gone on hiatus."@en ;
+	dbo:genre	dbr:Electronic_dance_music ,
+		dbr:Hip_house ;
+	dbp:caption	"LMFAO performing in Fort Wayne, Indiana"^^rdf:langString ;
+	dbp:currentMembers	dbr:SkyBlu ,
+		dbr:Redfoo ;
+	dbp:website	<http://www.lmfaomusic.com> .
+<http://dbpedia.org/resource/La_Diva_(group)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Ladiva+singing.jpg?width=300> ;
+	foaf:name	"La Diva"@en ;
+	dbo:associateBand	dbr:Janno_Gibbs ,
+		<http://dbpedia.org/resource/Destiny\u0027s_Child> ,
+		dbr:Jay_R ,
+		dbr:Kris_Lawrence ,
+		dbr:Frencheska_Farr ,
+		dbr:Kyla ,
+		dbr:Ogie_Alcasid ,
+		dbr:Rachelle_Ann_Go ,
+		dbr:Regine_Velasquez ,
+		<http://dbpedia.org/resource/Jaya_(singer)> ;
+	dbo:abstract	"La Diva was a Filipino pop girl group, first established for the now-defunct musical variety-show SOP. The group is composed of two winners and a runner-up of Pinoy Pop Superstar, namely Jona, Aicelle Santos and Maricris Garcia. La Diva has sold more than 10,000 albums in the Philippines which has earned them several achievements, including an Awit Award, two PMPC Star Awards for Music and an Aliw Award, becoming the fourth best-selling female group in the Philippines behind the Sexbomb Girls, Aegis and Mocha Girls."@en ;
+	dbo:associatedMusicalArtist	dbr:Ogie_Alcasid ,
+		<http://dbpedia.org/resource/Jaya_(singer)> ,
+		dbr:Kris_Lawrence ,
+		dbr:Janno_Gibbs ,
+		dbr:Frencheska_Farr ,
+		dbr:Rachelle_Ann_Go ,
+		dbr:Jay_R ,
+		dbr:Kyla ,
+		<http://dbpedia.org/resource/Destiny\u0027s_Child> ,
+		dbr:Regine_Velasquez ;
+	dbo:genre	<http://dbpedia.org/resource/Contemporary_R&B> ,
+		dbr:Soul_music ,
+		dbr:Pop_music ,
+		dbr:Pinoy_pop ;
+	dbp:currentMembers	dbr:Maricris_Garcia ,
+		dbr:Jonalyn_Viray ,
+		dbr:Aicelle_Santos ;
+	dbp:website	<http://www.facebook.com/pages/La-Diva/182257190511?v=app_2373072738#!/pages/La-Diva/182257190511> .
+dbr:Leathermouth	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Leathermouth_2013.png?width=300> ;
+	foaf:name	"Leathermouth"@en ;
+	dbo:associateBand	dbr:My_Chemical_Romance ,
+		dbr:Death_Spells ,
+		dbr:Pencey_Prep ,
+		dbr:Reggie_and_the_Full_Effect ;
+	dbo:abstract	"Leathermouth (often typeset as LeATHERM\u00D8UTH) was a hardcore punk band led by former My Chemical Romance rhythm guitarist Frank Iero. The band formed in 2007, and in January 2009 released their first album XO."@en ;
+	dbo:associatedMusicalArtist	dbr:Death_Spells ,
+		dbr:Pencey_Prep ,
+		dbr:My_Chemical_Romance ,
+		dbr:Reggie_and_the_Full_Effect ;
+	dbo:genre	dbr:Hardcore_punk ,
+		dbr:Post-hardcore ;
+	dbp:caption	"LeATHERM\u00D8UTH at The Skate and Surf Festival 2013"^^rdf:langString ;
+	dbp:currentMembers	dbr:Frank_Iero ,
+		dbr:James_Dewees ;
+	dbp:website	<http://www.leathermouth.com/> .
+dbr:Little_Comets	rdf:type	dbo:Band ;
+	foaf:name	"Little Comets"@en ;
+	dbo:abstract	"Little Comets are an English indie rock trio from Jarrow and Washington, Tyne and Wear. They are described as playing \u2018kitchen sink indie\u2019 music. In early 2009 the band were signed to Columbia Records following numerous gigs in strange locations such as lecture theatres and various modes of public transport and support from DJ Huw Stephens. After departing their major record label they released their d\u00E9but album, In Search of Elusive Little Comets, on 31 January 2011. The band released their second album, Life is Elsewhere, on 15 October 2012 under Dirty Hit records. Third album \"Hope is Just a State of Mind\" was released in February 2015 on the band's own label and became the first of the band's albums to enter the UK Top 40 Album Chart, peaking at #31."@en ;
+	dbo:genre	dbr:Independent_music ;
+	dbp:currentMembers	dbr:Mark_Harle ;
+	dbp:website	<http://www.littlecomets.com> .
+dbr:Midnight_Youth	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Midnight_Youth.jpg?width=300> ;
+	foaf:name	"Midnight Youth"@en ;
+	dbo:abstract	"Midnight Youth were a New Zealand rock band formed in 2006. Their debut album, The Brave Don't Run, was released in 2009 in New Zealand and Australia. The band subsequently toured and played festivals across Australasia, the United States and Asia. Their second and last studio album, World Comes Calling, was released in October 2011."@en ;
+	dbo:genre	dbr:Rock_music ;
+	dbp:currentMembers	dbr:Jeremy_Redmore ;
+	dbp:website	<http://www.midnightyouth.com> .
+dbr:Moonalice	rdf:type	dbo:Band ;
+	foaf:name	"Moonalice"@en ;
+	dbo:associateBand	dbr:Rod_Stewart ,
+		dbr:Flying_Other_Brothers ,
+		dbr:Hot_Tuna ,
+		<http://dbpedia.org/resource/Phil_Lesh_&_Friends> ,
+		dbr:The_Saturday_Night_Live_Band ,
+		dbr:Jefferson_Starship ;
+	dbo:abstract	"Moonalice is the band formed from previous members of the Flying Other Brothers. The band has been touring since May, 2007, and has come to the attention of music critics. The band is currently made up of four musicians, and led by businessman Roger McNamee. Their eponymous debut album was recorded and released in 2009. They recently released the first of a series of E.P.s named \"Daves Way,\" featuring mostly new material. The band has been consistently touring the United States and Canada since 2007 with several tour dates in 2009 featuring Jack Casady. John Molo joined the band in early 2009 and guitarist G. E. Smith left the band after playing his last show with them on December 31, 2009. The band has no plans to replace him. On August 28, 2012, the Rock and Roll Hall of Fame announced that the digital logs for the Moonalice song \u201CIt\u2019s 4:20 Somewhere\u201D had been acquired for the Library and Archives, \"Libraries and archives collect, preserve and provide access to the materials that best capture important moments and movements in history, regardless of format, and the Moonalice logs help tell the story of music\u2019s digital revolution; specifically the rise of direct-from-artist (DFA) distribution. Moonalice is the first band without a label to achieve one million downloads of a song from its own servers, direct-from-artist. \u201CIt\u2019s 4:20 Somewhere\u201D has been downloaded over two million times.\""@en ;
+	dbo:associatedMusicalArtist	dbr:The_Saturday_Night_Live_Band ,
+		dbr:Flying_Other_Brothers ,
+		<http://dbpedia.org/resource/Phil_Lesh_&_Friends> ,
+		dbr:Jefferson_Starship ,
+		dbr:Hot_Tuna ,
+		dbr:Rod_Stewart ;
+	dbo:genre	dbr:Rock_music ;
+	dbp:currentMembers	<http://dbpedia.org/resource/G._E._Smith> ,
+		dbr:Ann_McNamee ;
+	dbp:website	<http://www.moonalice.com> .
+dbr:My_Jerusalem	rdf:type	dbo:Band ;
+	foaf:name	"My Jerusalem"@en ;
+	dbo:associateBand	dbr:Okkervil_River ,
+		dbr:The_Gutter_Twins ,
+		dbr:Jeff_Klein ,
+		dbr:The_Twilight_Singers ,
+		dbr:Polyphonic_Spree ;
+	dbo:abstract	"My Jerusalem is an American Indie Rock band based in Austin, Texas. The band consists of Jeff Klein (vocals), Jon Merz (guitar), Grant Van Amburgh (drums), and Kyle Robarge (bass guitar). The band rose to acclaim after releasing their debut album Gone For Good."@en ;
+	dbo:associatedMusicalArtist	dbr:Jeff_Klein ,
+		dbr:The_Gutter_Twins ,
+		dbr:The_Twilight_Singers ,
+		dbr:Polyphonic_Spree ,
+		dbr:Okkervil_River ;
+	dbo:genre	dbr:Indie_Rock ,
+		dbr:Alternative_Rock ,
+		dbr:Dark_Wave ,
+		dbr:Post-punk ;
+	dbp:currentMembers	dbr:Geena_Spigarelli ,
+		dbr:Ashley_Dzerigian ;
+	dbp:website	<http://www.thisismyjerusalem.com> .
+dbr:NSYNC	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Logo_of_\u0027N_Sync_(1998).png?width=300> ;
+	foaf:name	"NSYNC"@en ;
+	dbo:associateBand	dbr:Britney_Spears ;
+	dbo:abstract	"NSYNC (sometimes stylized as \u2605NSYNC) was an American boy band formed in Orlando, Florida in 1995 and launched in Germany by BMG Ariola Munich. NSYNC consisted of Justin Timberlake, JC Chasez, Chris Kirkpatrick, Joey Fatone, and Lance Bass. After heavily publicized legal battles with their former manager Lou Pearlman and former record label Bertelsmann Music Group, the group's second album, No Strings Attached, sold over one million copies in one day and 2.42 million copies in one week, which was a record for over fifteen years. In addition to a host of Grammy Award nominations, NSYNC has performed at the World Series, the Super Bowl and the Olympic Games, and sang or recorded with Elton John, Stevie Wonder, Michael Jackson, Phil Collins, Celine Dion, Aerosmith, Britney Spears, Nelly, Left Eye, Mary J. Blige, country music supergroup Alabama, and Gloria Estefan. Although NSYNC announced the start of a \"temporary hiatus\" in spring 2002, the band has not recorded new material since then. In 2007, Lance Bass confirmed that the group had \"definitely broken up.\" They have sold over 50 million albums during their career, becoming the eighth-best-selling boy band in history. Rolling Stone recognized their instant success as one of the Top 25 Teen Idol Breakout Moments of all time."@en ;
+	dbo:associatedMusicalArtist	dbr:Britney_Spears ;
+	dbo:genre	dbr:Dance-pop ,
+		dbr:Teen_pop ,
+		dbr:Pop_music ;
+	dbp:currentMembers	dbr:JC_Chasez ,
+		dbr:Justin_Timberlake ,
+		dbr:Joey_Fatone ,
+		dbr:Lance_Bass ,
+		dbr:Chris_Kirkpatrick ;
+	dbp:website	<http://www.nsync.com/> .
+dbr:Nico_Vega	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Nico_Vega.jpg?width=300> ;
+	foaf:name	"Nico Vega"@en ;
+	dbo:abstract	"Nico Vega is an American alternative rock band from Los Angeles, California, United States, formed in 2005 and consists of lead singer Aja Volkman, guitarist Rich Koehler, and drummer Dan Epand. The group has released two albums Nico Vega (2009) and Lead To Light (2014). Billboard described Lead To Light as possessing \"some of the most unstoppable pop-rock hooks heard all year.\""@en ;
+	dbo:genre	dbr:Alternative_rock ;
+	dbp:caption	"Nico Vega"^^rdf:langString ;
+	dbp:currentMembers	dbr:Michael_Peña ;
+	dbp:website	<http://nicovega.com> .
+dbr:Operator_Generator	rdf:type	dbo:Band ;
+	foaf:name	"Operator Generator"@en ;
+	dbo:associateBand	dbr:Asbestosdeath ,
+		dbr:Sleep ;
+	dbo:abstract	"Operator Generator was an American stoner rock band from San Jose, California. They were formed in the late 1990s and released their first self-titled EP in the winter of 1999 under 12th Records. Over a year later they released their debut album titled Polar Fleet under Man's Ruin Records."@en ;
+	dbo:associatedMusicalArtist	dbr:Asbestosdeath ,
+		dbr:Sleep ;
+	dbo:genre	dbr:Heavy_metal_music ,
+		dbr:Stoner_rock ,
+		dbr:Hard_rock ,
+		dbr:Rock_music ;
+	dbp:currentMembers	dbr:Anthony_Lopus ;
+	dbp:website	<http://www.operator-generator.com/> .
+<http://dbpedia.org/resource/Ayna_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Ayna1996.jpg?width=300> ;
+	foaf:name	"Ayna"@en ;
+	dbo:associateBand	dbr:Erhan_Güleryüz ;
+	dbo:abstract	"Group Ayna is a Turkish rock band from Ruzgar Production, formed in 1996 by Erhan G\u00FClery\u00FCz and Cemil \u00D6zeren. AYNA consists of Erhan G\u00FClery\u00FCz (lead vocals), Can G\u00FCney (vocals and guitar), Can Ergenler (bass), B\u00FClent Akbay (drums) and Or\u00E7un \u00C7olak (keyboard). The group broadcasts a music program named Aynadan Yans\u0131yanlar on TRT every Tuesday. With their latest concert, they've reached a record number of 2500 visitors. Despite their huge success, many people are not familiar with them only because they haven't surrendered themselves to popular music culture. Besides being an album band, AYNA promotes themselves as a concert band. Meanwhile, AYNA have worked with more than twenty musicians, for which they have had only one condition, which is to maintain their great friendships in their private lives."@en ;
+	dbo:associatedMusicalArtist	dbr:Erhan_Güleryüz ;
+	dbo:genre	dbr:Pop_Rock ,
+		dbr:Alternative_Rock ;
+	dbp:caption	"Ayna, 1997"^^rdf:langString ;
+	dbp:currentMembers	dbr:Türker_Otçu ,
+		dbr:Soner_Doğanca ,
+		dbr:Alper_Çakır ,
+		dbr:Ayhan_Öztoplu ,
+		dbr:Seha_Akbaş ,
+		dbr:Ferda_Orçun_Aca ,
+		dbr:Cemil_Özeren ,
+		dbr:Murathan_Araz .
+dbr:De_Lyckliga_Kompisarna	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/De_Lyckliga_Kompisarna_at_Huset_i_Parken_2008-06-07.jpg?width=300> ;
+	foaf:name	"De Lyckliga Kompisarna"@en ;
+	dbo:associateBand	dbr:Räserbajs ,
+		dbr:Krymplings ;
+	dbo:abstract	"De Lyckliga Kompisarna (Swedish for \u2019The Happy Buddies\u2019), DLK, is a Swedish punk band. The band was formed in 1989, split up in 1997, and re-united in 2008. They are probably best known for their song \"Ishockeyfrisyr\", which is also known as \"Hockeyfrilla\" (Swedish for \"mullet\"). They also made a music video for it. The band is headed by Mart H\u00E4llgren who both wrote songs, sang and played several instruments. DLK split up after two farewell gigs at Kaf\u00E9 44 in Stockholm, Sweden. These gigs were recorded and compiled into a live album. After DLK, Mart H\u00E4llgren began a solo career as \"Mart\" (he had previously played solo in the band Total Egon), but later started the band UBBA. De Lyckliga Kompisarna stated in January 2008 that they would begin playing again, and the band has since gone on tour and released a new EP."@en ;
+	dbo:associatedMusicalArtist	dbr:Räserbajs ,
+		dbr:Krymplings ;
+	dbo:genre	dbr:Punk_rock ;
+	dbp:caption	"--06-07"^^xsd:gMonthDay ;
+	dbp:currentMembers	dbr:Björn_Gunér ,
+		dbr:Sussie_Persson ,
+		dbr:Egil_Jansson ,
+		dbr:Joakim_Levin ,
+		dbr:Christoffer_Roth ;
+	dbp:website	<http://www.delyckligakompisarna.se/> .
+<http://dbpedia.org/resource/J.M.K.E.>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/J.M.K.E._in_Tikkurila_2006-02-11.jpg?width=300> ;
+	foaf:name	"J.M.K.E."@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/V\u00FCrst_Trubetsky_&_J.M.K.E.> ;
+	dbo:abstract	"J.M.K.E. is an Estonian punk rock band, which formed in Tallinn on January 18, 1986."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/V\u00FCrst_Trubetsky_&_J.M.K.E.> ;
+	dbo:genre	dbr:Punk_rock ;
+	dbp:caption	"J.M.K.E. in Tikkurila ."^^rdf:langString ;
+	dbp:currentMembers	dbr:Tõnu_Trubetsky ;
+	dbp:website	<http://punk.bumpclub.ee/jmke/jmke.html> .
+dbr:Karma_to_Burn	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Karmatoburn.jpg?width=300> ;
+	foaf:name	"Karma to Burn"@en ;
+	dbo:associateBand	dbr:Dragon_Ass ,
+		dbr:Kyuss ,
+		<http://dbpedia.org/resource/Nebula_(band)> ,
+		dbr:Year_Long_Disaster ,
+		dbr:Treasure_Cat ,
+		dbr:Sons_of_Alpha_Centauri ,
+		dbr:Speedealer ;
+	dbo:abstract	"Karma to Burn, sometimes known as K2B, is a desert rock/stoner rock band from Morgantown, West Virginia comprising guitarist William Mecum, bassist Eric Clutter, and drummer Evan Devine. The band are noted for their uncompromising, mostly instrumental sound. Their name comes from a sleevenote on Bob Dylan's 1976 album Desire which reads \"I have a brother or two and a whole lot of karma to burn...\""@en ;
+	dbo:associatedMusicalArtist	dbr:Year_Long_Disaster ,
+		dbr:Dragon_Ass ,
+		dbr:Treasure_Cat ,
+		dbr:Kyuss ,
+		<http://dbpedia.org/resource/Nebula_(band)> ,
+		dbr:Sons_of_Alpha_Centauri ,
+		dbr:Speedealer ;
+	dbo:genre	dbr:Palm_Desert_Scene ,
+		dbr:Instrumental_rock ,
+		dbr:Stoner_rock ,
+		dbr:Acid_rock ;
+	dbp:caption	"Karma to Burn performing in Pittsburgh on 4-24-2009"^^rdf:langString ;
+	dbp:currentMembers	dbr:Rob_Halkett ,
+		<http://dbpedia.org/resource/Rich_Mullins_(bassist)> ,
+		dbr:Rob_Oswald ,
+		<http://dbpedia.org/resource/Daniel_Davies_(musician)> ,
+		<http://dbpedia.org/resource/John_Garcia_(singer)> ,
+		dbr:Nathan_Limbaugh ,
+		dbr:Chuck_Nicholas ,
+		dbr:Jay_Jarosz ,
+		dbr:Jim_Davison ;
+	dbp:website	<http://www.k2burn.net/> .
+dbr:Pearl_Jam	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/PJ_2012.jpg?width=300> ;
+	foaf:name	"Pearl Jam"@en ;
+	dbo:associateBand	dbr:Skin_Yard ,
+		dbr:Red_Hot_Chili_Peppers ,
+		dbr:Three_Fish ,
+		dbr:Mother_Love_Bone ,
+		<http://dbpedia.org/resource/Mad_Season_(band)> ,
+		dbr:Wellwater_Conspiracy ,
+		<http://dbpedia.org/resource/Hovercraft_(band)> ,
+		dbr:Temple_of_the_Dog ,
+		dbr:RNDM ,
+		dbr:Soundgarden ,
+		<http://dbpedia.org/resource/Brad_(band)> ,
+		dbr:Neil_Young ,
+		<http://dbpedia.org/resource/Green_River_(band)> ;
+	dbo:abstract	"Pearl Jam is an American rock band formed in Seattle, Washington, in 1990. Since its inception, the band's line-up has comprised Eddie Vedder (lead vocals), Mike McCready (lead guitar), Stone Gossard (rhythm guitar) and Jeff Ament (bass). The band's fifth member is drummer Matt Cameron (also of Soundgarden), who has been with the band since 1998. Boom Gaspar (piano) has also been a session/touring member with the band since 2002. Drummers Dave Krusen, Matt Chamberlain, Dave Abbruzzese and Jack Irons are former members of the band. Formed after the demise of Gossard and Ament's previous band, Mother Love Bone, Gossard wrote some tunes, and then recruited the other members, eventually contacting Vedder, who wrote the lyrics. Pearl Jam broke into the mainstream with its debut album, Ten, in 1991. One of the key bands in the grunge movement of the early 1990s, over the course of the band's career, its members became noted for their refusal to adhere to traditional music industry practices, including refusing to make proper music videos or give interviews, and engaging in a much-publicized boycott of Ticketmaster. In 2006, Rolling Stone described the band as having \"spent much of the past decade deliberately tearing apart their own fame.\" To date, the band has sold nearly 32 million records in the United States and an estimated 60 million worldwide. Pearl Jam has outlasted and outsold many of its contemporaries from the alternative rock breakthrough of the early 1990s, and is considered one of the most influential bands of that decade. Stephen Thomas Erlewine of AllMusic referred to Pearl Jam as \"the most popular American rock & roll band of the '90s\". In 2016, Pearl Jam were nominated for induction into the Rock & Roll Hall of Fame, in their first year of eligibility."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Brad_(band)> ,
+		dbr:RNDM ,
+		dbr:Neil_Young ,
+		dbr:Three_Fish ,
+		<http://dbpedia.org/resource/Green_River_(band)> ,
+		dbr:Skin_Yard ,
+		dbr:Soundgarden ,
+		dbr:Red_Hot_Chili_Peppers ,
+		dbr:Wellwater_Conspiracy ,
+		<http://dbpedia.org/resource/Hovercraft_(band)> ,
+		<http://dbpedia.org/resource/Mad_Season_(band)> ,
+		dbr:Mother_Love_Bone ,
+		dbr:Temple_of_the_Dog ;
+	dbo:genre	dbr:Hard_rock ,
+		dbr:Grunge ,
+		dbr:Alternative_rock ;
+	dbp:caption	"Pearl Jam performing in 2012. From left to right: McCready, Ament, Cameron, Vedder and Gossard."^^rdf:langString ;
+	dbp:currentMembers	dbr:Dave_Abbruzzese ;
+	dbp:website	<http://www.pearljam.com> .

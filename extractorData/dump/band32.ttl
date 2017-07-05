@@ -1,0 +1,574 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+<http://dbpedia.org/resource/Against_Me!>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/AgainstMeFBJX.jpg?width=300> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+<http://dbpedia.org/resource/Against_Me!>	foaf:name	"Against Me!"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Angels_&_Airwaves> ,
+		<http://dbpedia.org/resource/The_Draft_(band)> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+<http://dbpedia.org/resource/Against_Me!>	dbo:associateBand	dbr:Forgetters ,
+		<http://dbpedia.org/resource/The_(International)_Noise_Conspiracy> ,
+		dbr:Hot_Water_Music ,
+		dbr:Madball ,
+		dbr:Rocket_from_the_Crypt ,
+		<http://dbpedia.org/resource/Slipknot_(band)> ;
+	dbo:abstract	"Against Me! is an American punk rock band formed in Gainesville, Florida, United States, in 1997 by singer and guitarist Laura Jane Grace. Since 2001, the band's lineup has also included guitarist James Bowman. After releasing three studio albums through independent record labels, Against Me! moved to Sire Records for 2007's New Wave, which reached no. 57 on the Billboard 200. In 2011, the band launched their own record label, Total Treble Music, through which to release future albums. In 2012, Grace publicly came out as transgender, beginning a transition to living as a woman and dropping her birth name. After a long period of line-up changes and uncertainty surrounding the band's future, their sixth studio album, Transgender Dysphoria Blues, was released independently in January 2014 to critical and commercial acclaim. The band's seventh full-length, Shape Shift with Me, was released September 16 2016."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/The_Draft_(band)> ,
+		<http://dbpedia.org/resource/Slipknot_(band)> ,
+		dbr:Madball ,
+		<http://dbpedia.org/resource/Angels_&_Airwaves> ,
+		<http://dbpedia.org/resource/The_(International)_Noise_Conspiracy> ,
+		dbr:Forgetters ,
+		dbr:Rocket_from_the_Crypt ,
+		dbr:Hot_Water_Music ;
+	dbo:genre	dbr:Punk_rock ,
+		dbr:Folk_punk ,
+		dbr:Alternative_rock .
+@prefix dbp:	<http://dbpedia.org/property/> .
+<http://dbpedia.org/resource/Against_Me!>	dbp:caption	"Against Me! lineup in 2014: Willard, Johansson, Grace, Bowman"^^rdf:langString ;
+	dbp:currentMembers	dbr:Laura_Jane_Grace ,
+		dbr:Inge_Johansson ,
+		dbr:Atom_Willard ,
+		<http://dbpedia.org/resource/James_Bowman_(musician)> ;
+	dbp:website	<http://againstme.net> .
+dbr:Alkaline_Trio	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Alkaline_Trio_2011-07-20_01.jpg?width=300> ;
+	foaf:name	"Alkaline Trio"@en ;
+	dbo:associateBand	dbr:Blink-182 ,
+		dbr:The_Suicide_Machines ,
+		<http://dbpedia.org/resource/Slapstick_(band)> ,
+		<http://dbpedia.org/resource/The_Falcon_(band)> ,
+		<http://dbpedia.org/resource/Heavens_(band)> ;
+	dbo:abstract	"Alkaline Trio is an American punk rock band from McHenry, Illinois. The band consists of guitarist and vocalist Matt Skiba, bassist and vocalist Dan Andriano, and drummer Derek Grant. Founded in late 1996 by Skiba, bassist Rob Doran, and drummer Glenn Porter, Alkaline Trio released its debut single, \"Sundials\", in 1997. Following its release, Doran departed from the band and was replaced by Dan Andriano. The band subsequently recorded an EP, For Your Lungs Only (1998), and its debut studio album, Goddamnit (1998). Following the release of the band's second album, Maybe I'll Catch Fire (2000), Porter left the band and was replaced by Mike Felumlee for its subsequent album, From Here to Infirmary (2001). Backed by the singles \"Stupid Kid\" and \"Private Eye\", From Here to Infirmary significantly increased the band's exposure, and its follow-up, Good Mourning (2003), charted highly on the Billboard 200. Good Mourning marked the recording debut of current drummer Derek Grant. In 2005, the band released Crimson which expanded upon the band's punk rock influences, with prominent overdubs and additional instrumentation, and continued with this direction on Agony & Irony (2008), which was released on V2 Records. In 2010, the band released This Addiction on its own label Heart & Skull and Epitaph. Recorded in the band's home town of Chicago, with early producer Matt Allison, the album was a conscious effort by the band to return to their punk rock roots; it became the highest charting album of their career, debuting on the Billboard 200 at No. 11. In 2011, the band celebrated its 15-year anniversary with the release of Damnesia, which featured new, acoustic-based recordings of songs from across the band's career. The band's eighth studio album, My Shame Is True, was released on April 2, 2013."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Heavens_(band)> ,
+		dbr:Blink-182 ,
+		<http://dbpedia.org/resource/Slapstick_(band)> ,
+		dbr:The_Suicide_Machines ,
+		<http://dbpedia.org/resource/The_Falcon_(band)> ;
+	dbo:genre	dbr:Punk_rock ,
+		dbr:Emo ,
+		dbr:Alternative_rock ,
+		dbr:Pop_punk ;
+	dbp:caption	"Alkaline Trio in 2011. Left to right: Skiba, Grant, and Andriano."^^rdf:langString ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Derek_Grant_(drummer)> ,
+		dbr:Dan_Andriano ,
+		dbr:Matt_Skiba ;
+	dbp:website	<http://www.alkalinetrio.com/> ,
+		<http://www.alkalinetrio.com> .
+<http://dbpedia.org/resource/Anathema_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Anathema_(Festimad_2007).jpg?width=300> ;
+	foaf:name	"Anathema"@en ;
+	dbo:associateBand	dbr:Porcupine_Tree ,
+		dbr:Cradle_of_Filth ;
+	dbo:abstract	"Anathema are a British rock band from Liverpool. The line-up consists of singers and guitarists Vincent and Daniel Cavanagh, their brother Jamie Cavanagh at bass, siblings John and Lee Douglas, respectively drummer and singer, and keyboardist Daniel Cardoso since November 2012. The band was founded as Pagan Angel in 1990 by the three Cavanagh siblings, John, and singer Darren White, as a death/doom band. At the time White was the only singer of the band. The following year, Jamie left and was replaced by Duncan Patterson. Under this line-up, Anathema released their first EP, The Crestfallen (1992), and their first album, Serenades (1993). However, White left in 1995; Vincent decided to act as Anathema's vocalist in addition to his guitarist function in the albums The Silent Enigma (1995) and Eternity (1996), which were going into a more gothic metal direction. In 1997, John left the band, and was replaced by Shaun Steels for the album Alternative 4 (1998). Both Patterson and Steels left the same year, replaced by Dave Pybus and a returning John Douglas, while former My Dying Bride keyboardist and violinist Martin Powell also joined the band (Daniel Cavanagh was also acting as the band's only keyboardist, and shared this position since). The only album released with this line-up was Judgement (1999): the same year Powell switched positions with Cradle of Filth's keyboardist Les Smith who joined Anathema, and Lee Douglas, John's sister, was added to the line-up as a backing and occasional lead vocalist. The band released their sixth album A Fine Day to Exit in 2001, turning to an alternative sound. Shortly after the release, Pybus announced his departure and was replaced by the band's original bassist, Jamie Cavanagh, reuniting the three brothers in the band for the first time since 1991. There were no new members for the next ten years, with the albums A Natural Disaster (2003) and We're Here Because We're Here (2010) all being recorded and released by the same line-up, with the sound turning even more towards progressive rock; however, Daniel Cavanagh left Anathema in 2002 to join Antimatter, returning in 2003. Smith left Anathema in 2011, and Vincent and Daniel both assumed the function of keyboardist for the band's ninth album, Weather Systems, in 2012. The same year, Cardoso, the band's live keyboardist since 2011, joined as a full-time member. The band's tenth studio album called Distant Satellites was released on 9 June 2014 via Kscope."@en ;
+	dbo:associatedMusicalArtist	dbr:Cradle_of_Filth ,
+		dbr:Porcupine_Tree ;
+	dbo:genre	dbr:Progressive_rock ,
+		dbr:Alternative_rock ,
+		dbr:Gothic_metal .
+@prefix ns5:	<http://dbpedia.org/resource/Death/> .
+<http://dbpedia.org/resource/Anathema_(band)>	dbo:genre	ns5:doom .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+<http://dbpedia.org/resource/Anathema_(band)>	dbp:caption	"--06-08"^^xsd:gMonthDay ;
+	dbp:currentMembers	dbr:Daniel_Cardoso ,
+		dbr:Vincent_Cavanagh ,
+		dbr:Daniel_Cavanagh ;
+	dbp:website	<http://www.anathema.ws/> .
+dbr:Anti-Flag	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Antiflag1.jpg?width=300> ;
+	foaf:name	"Anti-Flag"@en ;
+	dbo:associateBand	dbr:Rise_Against ,
+		dbr:White_Wives ,
+		dbr:Billy_Talent ;
+	dbo:abstract	"Anti-Flag  are an American punk band from Pittsburgh, Pennsylvania, United States. The band is well known for political activism, focusing on anti-war activism, anti-imperialism, class struggle, human rights, and various sociopolitical sentiments. The line-up includes singer/guitarist Justin Sane and drummer Pat Thetic, who founded the band; later members are guitarist Chris Head, and singer/bassist Chris Barker (#2) who replaced Jamie \"Cock\" Towns, who had replaced original bassist Andy Flag in 1997 following his departure one year prior. Anti-Flag is known also for their advocacy of progressive political action groups such as Greenpeace and Amnesty International. Most recently, the band has declared solidarity with the global Occupy Together movement."@en ;
+	dbo:associatedMusicalArtist	dbr:Billy_Talent ,
+		dbr:Rise_Against ,
+		dbr:White_Wives ;
+	dbo:genre	dbr:Skate_punk ,
+		dbr:Hardcore_punk ,
+		dbr:Punk_rock ,
+		dbr:Melodic_hardcore ;
+	dbp:caption	"Anti-Flag in 2009"^^rdf:langString ;
+	dbp:currentMembers	dbr:Justin_Sane ;
+	dbp:website	<http://www.anti-flag.com/> .
+dbr:Arch_Enemy	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Arch_Enemy_2015.JPG?width=300> ;
+	foaf:name	"Arch Enemy"@en ;
+	dbo:associateBand	dbr:Opeth ,
+		<http://dbpedia.org/resource/Sanctuary_(band)> ,
+		dbr:The_Agonist ,
+		dbr:Spiritual_Beggars ,
+		<http://dbpedia.org/resource/Carnage_(band)> ,
+		<http://dbpedia.org/resource/Carcass_(band)> ,
+		dbr:Nevermore ,
+		<http://dbpedia.org/resource/Armageddon_(Swedish_band)> ;
+	dbo:abstract	"Arch Enemy is a Swedish melodic death metal band, originally a supergroup, from Halmstad, formed in 1996. Its members were in bands such as Carcass, Armageddon, Carnage, Mercyful Fate, Spiritual Beggars, Nevermore, and Eucharist. It was founded by Carcass guitarist Michael Amott along with Johan Liiva, who were both originally from the influential death metal band Carnage. The band has released nine studio albums, two live albums, three video albums and three EPs. The band was originally fronted by Johan Liiva, who was replaced by German Angela Gossow as lead vocalist in 2000. Gossow left the band in March 2014 and was replaced by Canadian Alissa White-Gluz, while remaining as the group's manager."@en ;
+	dbo:associatedMusicalArtist	dbr:Spiritual_Beggars ,
+		<http://dbpedia.org/resource/Carcass_(band)> ,
+		<http://dbpedia.org/resource/Armageddon_(Swedish_band)> ,
+		dbr:Nevermore ,
+		dbr:The_Agonist ,
+		dbr:Opeth ,
+		<http://dbpedia.org/resource/Sanctuary_(band)> ,
+		<http://dbpedia.org/resource/Carnage_(band)> ;
+	dbo:genre	dbr:Melodic_death_metal ;
+	dbp:caption	"Arch Enemy performing live in 2015"^^rdf:langString ,
+		"."^^rdf:langString ;
+	dbp:currentMembers	dbr:Jeff_Loomis ,
+		dbr:Michael_Amott ,
+		dbr:Daniel_Erlandsson ,
+		<http://dbpedia.org/resource/Sharlee_D\u0027Angelo> ,
+		dbr:Alissa_White-Gluz ;
+	dbp:website	<http://www.archenemy.net/> .
+dbr:At_the_Drive-In	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/At_the_Drive-In_Lollapalooza.jpg?width=300> ;
+	foaf:name	"At the Drive-In"@en ;
+	dbo:associateBand	dbr:Sleepercar ,
+		dbr:El_Grupo_Nuevo_de_Omar_Rodriguez_Lopez ,
+		dbr:The_Fall_on_Deaf_Ears ,
+		dbr:Omar_Rodriguez_Lopez_Group ,
+		<http://dbpedia.org/resource/Sparta_(band)> ,
+		<http://dbpedia.org/resource/De_Facto_(band)> ,
+		dbr:Crime_in_Choir ,
+		dbr:The_Mars_Volta ,
+		<http://dbpedia.org/resource/Antemasque_(band)> ;
+	dbo:abstract	"At the Drive-In is an American post-hardcore band from El Paso, Texas, formed in 1993. The band currently consists of Cedric Bixler (vocals), Omar Rodr\u00EDguez (guitar, vocals), Paul Hinojos (bass), Tony Hajjar (drums) and Keeley Davis (guitar, vocals). After several early line-up changes, the band solidified into a five-piece, consisting of Bixler, Rodr\u00EDguez, Jim Ward, Hinojos and Hajjar. At the Drive-In released three studio albums and five EPs before breaking up in 2001. Their final album, 2000's Relationship of Command, received a number of accolades and is cited as a landmark of the post-hardcore genre. Following the breakup, Bixler-Zavala and Rodr\u00EDguez-L\u00F3pez formed The Mars Volta while Ward, Hinojos, and Hajjar formed Sparta. At the Drive-In reunited in January 2012 and played the 2012 Coachella Valley Music and Arts Festival, as well as the 2012 Lollapalooza Festival. In 2016, the band reunited for a second time, with guitarist and occasional lead vocalist Jim Ward no longer participating. He was replaced by Sparta's Keeley Davis. The band were forced to cancel part of their North American tour after Bixler began to have issues with his voice."@en ;
+	dbo:associatedMusicalArtist	dbr:El_Grupo_Nuevo_de_Omar_Rodriguez_Lopez ,
+		dbr:Omar_Rodriguez_Lopez_Group ,
+		<http://dbpedia.org/resource/De_Facto_(band)> ,
+		dbr:Crime_in_Choir ,
+		<http://dbpedia.org/resource/Antemasque_(band)> ,
+		<http://dbpedia.org/resource/Sparta_(band)> ,
+		dbr:The_Mars_Volta ,
+		dbr:The_Fall_on_Deaf_Ears ,
+		dbr:Sleepercar ;
+	dbo:genre	dbr:Post-hardcore ,
+		dbr:Noise_rock ,
+		dbr:Experimental_rock ;
+	dbp:caption	"At the Drive-In live in 2012. From left to right: Rodr\u00EDguez, Bixler, Ward, Hajjar, and Hinojos."^^rdf:langString ;
+	dbp:currentMembers	dbr:Omar_Rodríguez-López ,
+		dbr:Paul_Hinojos ,
+		dbr:Tony_Hajjar ,
+		dbr:Cedric_Bixler-Zavala ,
+		dbr:Keeley_Davis ;
+	dbp:website	<http://atdimusic.com/> .
+<http://dbpedia.org/resource/Atheist_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Atheist_by_Christian_Misje.jpg?width=300> ;
+	foaf:name	"Atheist"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Cynic_(band)> ,
+		<http://dbpedia.org/resource/Neurotica_(band)> ,
+		<http://dbpedia.org/resource/Pestilence_(band)> ;
+	dbo:abstract	"Atheist is a death metal band from Florida, founded in 1984 by drummer Steve Flynn and singer/guitarist Kelly Shaefer. The band are known for their highly technical playing style, while their album Unquestionable Presence (1991) is regarded as an important landmark of the genre. After disbanding in 1994, the band reformed in 2008 and have released four albums and a live DVD."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Pestilence_(band)> ,
+		<http://dbpedia.org/resource/Cynic_(band)> ,
+		<http://dbpedia.org/resource/Neurotica_(band)> ;
+	dbo:genre	dbr:Progressive_metal ,
+		dbr:Technical_death_metal ,
+		dbr:Thrash_metal ;
+	dbp:caption	"Live at Hole In The Sky, Bergen Metal Fest 2006"^^rdf:langString ;
+	dbp:currentMembers	dbr:Tony_Choy ;
+	dbp:website	<http://www.atheistmusic.com/> ,
+		<https://www.facebook.com/AtheistOfficial/> .
+dbr:Avantasia	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Avantasia_-_Fulda_-_2010-12-18.jpg?width=300> ;
+	foaf:name	"Avantasia"@en ;
+	dbo:associateBand	dbr:Jorn_Lande ,
+		dbr:Queensryche ,
+		<http://dbpedia.org/resource/Avalon_(Finnish_band)> ,
+		<http://dbpedia.org/resource/Heavens_Gate_(band)> ,
+		dbr:Nightwish ,
+		dbr:Twisted_Sister ,
+		dbr:Symphony_X ,
+		dbr:Sinbreed ,
+		<http://dbpedia.org/resource/Gamma_Ray_(band)> ,
+		dbr:Michael_Kiske ,
+		dbr:Within_Temptation ,
+		dbr:Savatage ,
+		<http://dbpedia.org/resource/Saxon_(band)> ,
+		<http://dbpedia.org/resource/Uriah_Heep_(band)> ,
+		<http://dbpedia.org/resource/Warrant_(American_band)> ,
+		dbr:Yngwie_Malmsteen ,
+		<http://dbpedia.org/resource/Scorpions_(band)> ,
+		dbr:Rhapsody_Of_Fire ,
+		dbr:Edguy ,
+		<http://dbpedia.org/resource/Magnum_(band)> ,
+		dbr:Judas_Priest ,
+		<http://dbpedia.org/resource/Place_Vendome_(band)> ,
+		dbr:Pretty_Maids ,
+		<http://dbpedia.org/resource/Rainbow_(English_band)> ,
+		dbr:Stratovarius ,
+		dbr:Alice_Cooper ,
+		<http://dbpedia.org/resource/Mr._Big_(band)> ,
+		dbr:Deep_Purple ,
+		dbr:Andre_Matos ,
+		<http://dbpedia.org/resource/Aina_(band)> ,
+		dbr:Revolution_Renaissance ,
+		<http://dbpedia.org/resource/Epica_(band)> ,
+		dbr:Kamelot ,
+		<http://dbpedia.org/resource/Kiss_(band)> ,
+		dbr:Impellitteri ,
+		dbr:Helloween ,
+		<http://dbpedia.org/resource/Masterplan_(band)> ,
+		dbr:Virgin_Steele ,
+		<http://dbpedia.org/resource/Unisonic_(band)> ,
+		dbr:At_Vance ,
+		<http://dbpedia.org/resource/Jon_Oliva\u0027s_Pain> ;
+	dbo:abstract	"Avantasia is a German supergroup rock opera project created by Tobias Sammet, vocalist of the band Edguy. It has been characterized as a rock opera, as it features the contributions of various vocalists and musicians and it consists of concept albums. The name is a portmanteau of the words \"avalon\" and \"fantasia\" (\"fantasy\") and describes \"a world beyond human imagination\" (a quotation from the booklet). The project can be divided into three periods of activity. The first, 1999\u20132002, saw the release of a self-titled single and the full-length albums The Metal Opera and The Metal Opera Part II. The second, 2006\u20132011, consists of the EPs Lost in Space Part I & II and The Wicked Trilogy, composed of the albums The Scarecrow, The Wicked Symphony and Angel of Babylon. The third period, 2013\u20132016, begins with the album The Mystery of Time and ends with the Ghostlights release. Some of the guest vocalists and musicians that have been featured on Avantasia are: Michael Kiske, J\u00F8rn Lande, Alice Cooper, Klaus Meine, Dee Snider, Jon Oliva, Biff Byford, Joe Lynn Turner, Tim \"Ripper\" Owens, Geoff Tate, Kai Hansen, Rudolf Schenker, Bruce Kulick, Sascha Paeth, Eric Singer, Eric Martin, Bob Catley, Roy Khan, Russell Allen, Marco Hietala, Henjo Richter, Markus Grosskopf, Timo Tolkki, Jens Johansson, Rob Rock, David Defeis, Andre Matos, Sharon den Adel, Arjen Anthony Lucassen, Ronnie Atkins, Oliver Hartmann and Amanda Somerville."@en ;
+	dbo:associatedMusicalArtist	dbr:Virgin_Steele ,
+		<http://dbpedia.org/resource/Mr._Big_(band)> ,
+		<http://dbpedia.org/resource/Place_Vendome_(band)> ,
+		<http://dbpedia.org/resource/Rainbow_(English_band)> ,
+		<http://dbpedia.org/resource/Masterplan_(band)> ,
+		dbr:Helloween ,
+		<http://dbpedia.org/resource/Uriah_Heep_(band)> ,
+		dbr:Pretty_Maids ,
+		<http://dbpedia.org/resource/Aina_(band)> ,
+		dbr:Kamelot ,
+		dbr:Deep_Purple ,
+		<http://dbpedia.org/resource/Avalon_(Finnish_band)> ,
+		<http://dbpedia.org/resource/Unisonic_(band)> ,
+		<http://dbpedia.org/resource/Epica_(band)> ,
+		dbr:Michael_Kiske ,
+		dbr:Revolution_Renaissance ,
+		<http://dbpedia.org/resource/Scorpions_(band)> ,
+		dbr:Stratovarius ,
+		dbr:At_Vance ,
+		dbr:Impellitteri ,
+		dbr:Within_Temptation ,
+		<http://dbpedia.org/resource/Saxon_(band)> ,
+		dbr:Savatage ,
+		dbr:Nightwish ,
+		dbr:Judas_Priest ,
+		dbr:Jorn_Lande ,
+		dbr:Twisted_Sister ,
+		<http://dbpedia.org/resource/Heavens_Gate_(band)> ,
+		dbr:Yngwie_Malmsteen ,
+		<http://dbpedia.org/resource/Gamma_Ray_(band)> ,
+		<http://dbpedia.org/resource/Magnum_(band)> ,
+		dbr:Sinbreed ,
+		<http://dbpedia.org/resource/Warrant_(American_band)> ,
+		dbr:Rhapsody_Of_Fire ,
+		dbr:Edguy ,
+		dbr:Alice_Cooper ,
+		dbr:Queensryche ,
+		dbr:Andre_Matos ,
+		<http://dbpedia.org/resource/Jon_Oliva\u0027s_Pain> ,
+		<http://dbpedia.org/resource/Kiss_(band)> ,
+		dbr:Symphony_X ;
+	dbo:genre	dbr:Progressive_metal ,
+		dbr:Power_metal ,
+		dbr:Hard_rock ;
+	dbp:caption	"Avantasia in Fulda, Germany . From left to right: Tobias Sammet, Kai Hansen, Oliver Hartmann, Michael Kiske"^^rdf:langString ;
+	dbp:currentMembers	dbr:Sascha_Paeth ,
+		dbr:Tobias_Sammet ,
+		dbr:Felix_Bohnke ,
+		dbr:Michael_Rodenberg ;
+	dbp:origin	"Germany"^^rdf:langString ;
+	dbp:website	<http://www.tobiassammet.com> ,
+		<http://www.tobiassammet.com/> .
+<http://dbpedia.org/resource/B.U.G._Mafia>	rdf:type	dbo:Band ;
+	dbo:image	<http://en.wikipedia.org/wiki/Special:FilePath/Picmafia.jpg?width=300> ;
+	foaf:name	"B.U.G. Mafia"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/La_Familia_(rap_group)> ,
+		dbr:Paraziții ;
+	dbo:abstract	"B.U.G. Mafia (an abbreviation for \"Bucharest Underground Mafia\"), is a Romanian hip hop group from Pantelimon, Bucharest, widely regarded as one of the seminal acts of gangsta rap in Romania. Founded in 1993 as Black Underground, its original lineup consisted of Vlad \"Tataee\" Irimia, Drago\u0219 \"Caddillac\" Vlad-Neagu and two other members, D.D. and Mr.Nobody, who, by the end of the year, had already departed from the group. Irimia and Vlad-Neagu, who were still teenage high school students at the time, had been working on amateur solo recordings and had little professional prospects on their own prior to their encounter. The group initially performed as a duo throughout Bucharest at local highschool proms and parties while considering their options for professional careers in music and, following a string of failed attempts at recording their music in English, they recruited Alin \"Uzzi\" Demeter in 1995 and eventually transitioned to writing in Romanian. Throughout the years, the group endured a long-standing controversy due to the explicit and confrontational nature of their lyrics. Focusing on subjects such as post-communist Romanian political class, poverty and crime in Romania's communist-built housing projects or their recurring hostility towards Romanian Police, they were subsequently banned from many mainstream T.V. and radio stations in Romania and even at times prevented from touring, spending a night in jail after their first concert in Drobeta-Turnu Severin in 1997. Although controversial in their incipient years, their lyricism has been praised by a number of literary figures, such as Emil Brumaru and Mircea C\u0103rt\u0103rescu.Despite being independently produced on a modest budget over just a few months in 1995, their debut album Mafia signified the birth of gangsta rap and established them on the fledgling hip hop scene in Romania. They have been estimated to have sold over 1,100,000 records in their native Romania."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/La_Familia_(rap_group)> ,
+		dbr:Paraziții ;
+	dbo:genre	dbr:Hardcore_hip_hop ,
+		dbr:Gangsta_rap ,
+		dbr:Hip_Hop ;
+	dbp:caption	"From left to right,"^^rdf:langString ,
+		"Uzzi, Tataee, Caddillac"^^rdf:langString ;
+	dbp:currentMembers	dbr:Tataee ;
+	dbp:website	<http://www.bugmafiaoficial.ro> .
+dbr:Bad_Brains	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/BadBrains.png?width=300> ;
+	foaf:name	"Bad Brains"@en ;
+	dbo:associateBand	dbr:Beastie_Boys ;
+	dbo:abstract	"Bad Brains are an American hardcore punk band formed in Washington, D.C., in 1977. They are widely regarded as among the pioneers of hardcore punk, though the band's members have objected to this term to describe their music. They are also an adept reggae band, while later recordings featured elements of other genres like funk, heavy metal, hip hop and soul. Bad Brains are followers of the Rastafari movement. Originally formed as a jazz fusion ensemble under the name Mind Power, Bad Brains developed a very fast and intense punk rock sound which came to be labeled \"hardcore\", and was often played faster and more emphatically than the music of many of their peers. The unique factor of the band's music was the fact that they played more complex rhythms than other hardcore punk bands, also adapting non-punk style guitar riffs and solos into their songs. Bad Brains have released nine studio albums (one of which is entirely composed of instrumental versions of their past material). The band broke up and reformed several times over the years, sometimes with different singers or drummers. Since 1998, the \"classic\" lineup of singer H.R. (Human Rights), guitarist Dr. Know, bassist Darryl Jenifer, and drummer Earl Hudson (H.R.'s younger brother) has reunited, albeit performing sporadically."@en ;
+	dbo:associatedMusicalArtist	dbr:Beastie_Boys ;
+	dbo:genre	dbr:Reggae ,
+		dbr:Alternative_metal ,
+		dbr:Hardcore_punk ;
+	dbp:caption	"Bad Brains performing in Baltimore in 2007"^^rdf:langString ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Dr._Know_(guitarist)> ,
+		<http://dbpedia.org/resource/H.R.> ,
+		dbr:Earl_Hudson ,
+		dbr:Darryl_Jenifer ;
+	dbp:website	<http://www.badbrains.com/> .
+dbr:Bad_Company	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Bad_Company_-_1976.jpg?width=300> ;
+	foaf:name	"Bad Company"@en ;
+	dbo:associateBand	dbr:Mott_the_Hoople ,
+		dbr:Joe_Walsh ,
+		<http://dbpedia.org/resource/Free_(band)> ,
+		dbr:King_Crimson ,
+		<http://dbpedia.org/resource/Queen_+_Paul_Rodgers> ,
+		<http://dbpedia.org/resource/The_Firm_(rock_band)> ;
+	dbo:abstract	"Bad Company are an English hard rock supergroup formed in Westminster, London, in 1973 by two former Free band members\u2014singer Paul Rodgers and drummer Simon Kirke\u2014as well as Mott the Hoople guitarist Mick Ralphs and King Crimson bassist Boz Burrell. Peter Grant, who managed the rock band Led Zeppelin, also managed Bad Company until 1982. Bad Company enjoyed great success throughout the 1970s. Their first three albums, Bad Company (1974), Straight Shooter (1975), and Run With the Pack (1976), reached the top five in the album charts in both the UK and US. Many of their singles, such as \"Bad Company\", \"Can't Get Enough\", \"Good Lovin' Gone Bad\", and \"Feel Like Makin' Love\", remain staples of classic rock radio."@en ;
+	dbo:associatedMusicalArtist	dbr:King_Crimson ,
+		<http://dbpedia.org/resource/The_Firm_(rock_band)> ,
+		dbr:Mott_the_Hoople ,
+		dbr:Joe_Walsh ,
+		<http://dbpedia.org/resource/Free_(band)> ,
+		<http://dbpedia.org/resource/Queen_+_Paul_Rodgers> ;
+	dbo:genre	dbr:Blues_rock ,
+		dbr:Rock_music ,
+		dbr:Hard_rock ;
+	dbp:caption	"The original Bad Company in 1976.  Boz Burrell, Paul Rodgers, Simon Kirke, Mick Ralphs."^^rdf:langString ;
+	dbp:currentMembers	dbr:Howard_Leese ,
+		dbr:Paul_Rodgers ,
+		dbr:Simon_Kirke ,
+		dbr:Mick_Ralphs ,
+		dbr:Rich_Robinson ;
+	dbp:website	<http://www.badcompany.com> ,
+		<http://www.badcompany.com/> .
+dbr:Ben_Folds_Five	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Benfoldsfivereunionlive.jpg?width=300> ;
+	foaf:name	"Ben Folds Five"@en ;
+	dbo:associateBand	dbr:Fleming_and_John ,
+		dbr:Caleb_Southern ,
+		dbr:Hotel_Lights ,
+		dbr:Fear_of_Pop ;
+	dbo:abstract	"Ben Folds Five are an American alternative rock trio formed in 1993 in Chapel Hill, North Carolina. The group's members are Ben Folds (lead vocals, piano, keyboards, melodica, principal songwriting), Robert Sledge (bass, contrabass, synthesizer, backing vocals), and Darren Jessee (drums, percussion, backing vocals, songwriter). The group achieved mainstream success in the alternative, indie and pop music scenes. Their single \"Brick\" from the 1997 album Whatever and Ever Amen gained airplay on many mainstream radio stations. During their first seven years together, the band released three proper studio records, one retrospective album of B-sides and outtakes, and eight singles. They also contributed to a number of soundtracks and compilations. Ben Folds Five disbanded in October 2000. They reunited in 2011 and released their fourth album The Sound of the Life of the Mind in 2012."@en ;
+	dbo:associatedMusicalArtist	dbr:Fear_of_Pop ,
+		dbr:Caleb_Southern ,
+		dbr:Hotel_Lights ,
+		dbr:Fleming_and_John ;
+	dbo:genre	dbr:Alternative_rock ,
+		dbr:Piano_rock ,
+		dbr:Power_pop ;
+	dbp:caption	"--09-18"^^xsd:gMonthDay ;
+	dbp:currentMembers	dbr:Ben_Folds ,
+		dbr:Robert_Sledge ,
+		dbr:Darren_Jessee ;
+	dbp:website	<http://www.benfolds.com> ,
+		<http://www.benfoldsfive.com/> .
+dbr:Bettie_Serveert	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Carol_van_Dijk_singing_in_the_Vondelpark_theatre.jpg?width=300> ;
+	foaf:name	"Bettie Serveert"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Bauer_(Dutch_band)> ;
+	dbo:abstract	"Bettie Serveert are a Dutch indie rock band. Their name translates to \"Bettie Serves\", or \"Service to Bettie\", which is the title of a book written by Dutch tennis player Betty St\u00F6ve, who made it to the Wimbledon ladies singles final in 1977."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Bauer_(Dutch_band)> ;
+	dbo:genre	dbr:Indie_rock ,
+		dbr:Alternative_rock ;
+	dbp:caption	"Carol van Dijk, lead singer of Bettie Serveert, performing in Vondelpark in 2006"^^rdf:langString ;
+	dbp:currentMembers	dbr:Gino_Geudens ;
+	dbp:website	<http://www.bettieserveert.com/> .
+dbr:Big_Brother_and_the_Holding_Company	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Janis_Joplin_Big_Brother_and_the_Holding_Company.jpg?width=300> ;
+	foaf:name	"Big Brother and the Holding Company"@en ;
+	dbo:associateBand	dbr:Kozmic_Blues_Band ,
+		dbr:Country_Joe_and_the_Fish ,
+		dbr:Full_Tilt_Boogie_Band ;
+	dbo:abstract	"Big Brother and the Holding Company is an American rock band that formed in San Francisco in 1965 as part of the same psychedelic music scene that produced the Grateful Dead, Quicksilver Messenger Service, and Jefferson Airplane. They are best known as the band that featured Janis Joplin as their lead singer. Their 1968 album Cheap Thrills is considered one of the masterpieces of the psychedelic sound of San Francisco; it reached number one on the Billboard charts, and was ranked number 338 in Rolling Stone's the 500 greatest albums of all time. The album is also included in the book 1001 Albums You Must Hear Before You Die."@en ;
+	dbo:associatedMusicalArtist	dbr:Full_Tilt_Boogie_Band ,
+		dbr:Country_Joe_and_the_Fish ,
+		dbr:Kozmic_Blues_Band ;
+	dbo:genre	dbr:Acid_rock ,
+		dbr:Blues_rock ,
+		dbr:Psychedelic_rock ;
+	dbp:caption	"Left to right: Getz, Joplin, Andrew, Gurley, Albin. c. 1967"^^rdf:langString ;
+	dbp:currentMembers	dbr:Darby_Gould ,
+		dbr:Tom_Finch ;
+	dbp:website	<http://www.bbhc.com> .
+dbr:Blind_Guardian	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Blindguardian2015j.JPG?width=300> ;
+	foaf:name	"Blind Guardian"@en ;
+	dbo:associateBand	dbr:Schattentantz ,
+		<http://dbpedia.org/resource/Demons_and_Wizards_(band)> ,
+		dbr:Power_Quest ,
+		dbr:Iced_Earth ,
+		dbr:Savage_Circus ,
+		dbr:Helloween ,
+		<http://dbpedia.org/resource/Gamma_Ray_(band)> ,
+		dbr:Iron_Savior ,
+		dbr:Sinbreed ;
+	dbo:abstract	"Blind Guardian is a German power metal band formed in the mid-1980s in Krefeld, West Germany. They are often credited as one of the seminal and most influential bands in the power metal and speed metal subgenres. Ten musicians have been a part of the band's line-up in its history, which has consisted of singer Hansi K\u00FCrsch, guitarists Andr\u00E9 Olbrich and Marcus Siepen, and drummer Frederik Ehmke since 2005. Blind Guardian is a part of the German heavy metal scene that emerged in the mid-1980s. The band was formed in 1984 as Lucifer's Heritage by K\u00FCrsch (then also bass guitarist), Olbrich, other guitarist Markus D\u00F6rk and drummer Thomas Stauch. D\u00F6rk and Stauch both left the following year, and were replaced by Christof Thei\u00DFen and Hans-Peter Frey respectively, who left as well before the end of the year. In 1987, Siepen joined and Stauch returned; under this line-up, which lasted 18 years (the longest in the band's history), the band changed their name to Blind Guardian and released their first album, Battalions of Fear, in 1988. Over the releases, Blind Guardian established themselves as a notable successful band and as pioneers of the power metal movement. In 1996, K\u00FCrsch stopped acting as the band's bass guitarist to focus on vocals. Various session members replaced him, mainly Oliver Holzwarth. However, in 2005, Stauch left the band, disapproving of Blind Guardian's transition into a more complex progressive sound with a heavy use of backing vocals, and was replaced by Ehmke. Most of Blind Guardian's albums were well received by fans and critics alike: Somewhere Far Beyond (1992), Imaginations from the Other Side (1995), and Nightfall in Middle-Earth (1998), are especially seen as influential works. The music is mostly composed by K\u00FCrsch and Olbrich together, and the lyrics, written by K\u00FCrsch, are mostly inspired by the fiction of fantasy authors such as J. R. R. Tolkien, Michael Moorcock, Robert Jordan, Stephen King and George R. R. Martin as well as traditional legends and epics. Over the years a theme has developed which personifies the band members as travelling storytellers, leading fans to refer to the band affectionately as \"The Bards\"."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/Gamma_Ray_(band)> ,
+		dbr:Iron_Savior ,
+		dbr:Power_Quest ,
+		dbr:Savage_Circus ,
+		dbr:Schattentantz ,
+		dbr:Helloween ,
+		dbr:Sinbreed ,
+		dbr:Iced_Earth ,
+		<http://dbpedia.org/resource/Demons_and_Wizards_(band)> ;
+	dbo:genre	dbr:Speed_metal ,
+		dbr:Power_metal ,
+		dbr:Thrash_metal ,
+		dbr:Symphonic_metal ,
+		dbr:Progressive_metal ;
+	dbp:caption	"--05-10"^^xsd:gMonthDay ;
+	dbp:currentMembers	dbr:André_Olbrich ,
+		dbr:Marcus_Siepen ,
+		dbr:Hansi_Kürsch ;
+	dbp:website	<http://www.blind-guardian.com/> .
+<http://dbpedia.org/resource/Blondie_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Blondie1977.jpg?width=300> ;
+	foaf:name	"Blondie"@en ;
+	dbo:associateBand	dbr:The_Jazz_Passengers ,
+		<http://dbpedia.org/resource/The_Wind_in_the_Willows_(band)> ;
+	dbo:abstract	"Blondie is an American rock band founded by singer Debbie Harry and guitarist Chris Stein. The band was a pioneer in the early American new wave and punk scenes of the mid-late 1970s. Its first two albums contained strong elements of these genres, and although successful in the United Kingdom and Australia, Blondie was regarded as an underground band in the United States until the release of Parallel Lines in 1978. Over the next three years, the band achieved several hit singles including \"Call Me\", \"Atomic\" and \"Heart of Glass\" and became noted for its eclectic mix of musical styles incorporating elements of disco, pop, reggae, and early rap music. Blondie broke up after the release of its sixth studio album The Hunter in 1982. Debbie Harry continued to pursue a solo career with varied results after taking a few years off to care for partner Chris Stein, who was diagnosed with pemphigus, a rare autoimmune disease of the skin. The band re-formed in 1997, achieving renewed success and a number one single in the United Kingdom with \"Maria\" in 1999, exactly 20 years after their first UK No.1 single (\"Heart of Glass\"). The group toured and performed throughout the world during the following years, and was inducted into the Rock and Roll Hall of Fame in 2006. Blondie has sold 40 million records worldwide and is still active today. The band's ninth studio album, Panic of Girls, was released in 2011, and their tenth, Ghosts of Download, was released in 2014."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Jazz_Passengers ,
+		<http://dbpedia.org/resource/The_Wind_in_the_Willows_(band)> ;
+	dbo:genre	dbr:New_wave_music ,
+		dbr:Punk_rock ,
+		dbr:Pop_music ;
+	dbp:caption	"Blondie in 1977. L-R: Gary Valentine, Clem Burke, Debbie Harry, Chris Stein, and Jimmy Destri."^^rdf:langString ;
+	dbp:currentMembers	dbr:Matt_Katz-Bohen ,
+		dbr:Chris_Stein ,
+		dbr:Tommy_Kessler ,
+		dbr:Debbie_Harry ,
+		dbr:Clem_Burke ;
+	dbp:website	<http://blondie.net> .
+dbr:Bloodbath	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Bloodbath-Hellfest2010.jpg?width=300> ;
+	foaf:name	"Bloodbath"@en ;
+	dbo:associateBand	dbr:Katatonia ,
+		<http://dbpedia.org/resource/Paradise_Lost_(band)> ,
+		dbr:Opeth ;
+	dbo:abstract	"Bloodbath is a Swedish death metal supergroup from Stockholm, formed in 1998. The band has released four full-length albums, two EPs and two DVDs depicting their performances at Wacken Open Air (in 2005) and Bloodstock Open Air (in 2010). The group comprises Martin Axenrot (Opeth), Anders Nystr\u00F6m (Katatonia), Jonas Renkse (Katatonia), Nick Holmes (Paradise Lost), and Per Eriksson, who was previously the guitar technician for both Bloodbath and Katatonia."@en ;
+	dbo:associatedMusicalArtist	dbr:Opeth ,
+		<http://dbpedia.org/resource/Paradise_Lost_(band)> ,
+		dbr:Katatonia ;
+	dbo:genre	dbr:Death_metal ;
+	dbp:caption	"Bloodbath at the Hellfest festival 2010."^^rdf:langString ;
+	dbp:currentMembers	dbr:Jonas_Renkse ,
+		dbr:Anders_Nyström ,
+		<http://dbpedia.org/resource/Per_Eriksson_(musician)> ,
+		dbr:Martin_Axenrot ,
+		<http://dbpedia.org/resource/Nick_Holmes_(singer)> ;
+	dbp:website	<http://www.bloodbath.biz/> .
+dbr:Body_Count	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Bodycount.jpg?width=300> ;
+	foaf:name	"Body Count"@en ;
+	dbo:associateBand	dbr:Ice_T ,
+		dbr:Megadeth ,
+		dbr:Madball ,
+		dbr:The_Trolls ,
+		dbr:Evildead ;
+	dbo:abstract	"Body Count is an American heavy metal band formed in Los Angeles, California, in 1990. The group is fronted by Ice-T, who co-founded the group with lead guitarist Ernie C out of their interest in heavy metal music. Ice-T took on the role of vocalist and writing the lyrics for most of the group's songs. Lead guitarist Ernie C has been responsible for writing the group's music. Their controversial self-titled debut album was released on Sire Records in 1992. The song \"Cop Killer\" was the subject of much controversy. Although Sire Records' parent company, Warner Bros. Records, defended the single, Ice-T chose to remove the track from the album because he felt that the controversy had eclipsed the music itself. The group left Sire the following year. Since then, they have released three further albums on different labels, none of which have been received as commercially or critically well as their debut album. Three out of the band's original six members are deceased: D-Roc died from lymphoma, Beatmaster V from leukemia and Mooseman in a drive-by shooting."@en ;
+	dbo:associatedMusicalArtist	dbr:Ice_T ,
+		dbr:Megadeth ,
+		dbr:Madball ,
+		dbr:The_Trolls ,
+		dbr:Evildead ;
+	dbo:genre	dbr:Hardcore_punk ,
+		dbr:Thrash_metal ,
+		dbr:Rap_metal ,
+		dbr:Crossover_thrash ;
+	dbp:caption	"Body Count performs at a concert in Prague, 2006"^^rdf:langString ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Juan_Garcia_(guitarist)> ,
+		dbr:Laughing_Colors ,
+		dbr:Ernie_C ,
+		dbr:Steel_Prophet ,
+		dbr:Ice-T ;
+	dbp:website	<http://www.icet.com/> ,
+		<http://bodycountband.com/> .
+<http://dbpedia.org/resource/Booker_T._&_the_M.G.\u0027s>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Booker_T._&_the_M.G\u0027s.png?width=300> ;
+	foaf:name	"Booker T. & the M.G.'s"@en ;
+	dbo:associateBand	dbr:Mar-Keys ,
+		dbr:Blues_Brothers ;
+	dbo:abstract	"Booker T. & the M.G.'s is an instrumental R&B/funk band that was influential in shaping the sound of Southern soul and Memphis soul. The original members of the group were Booker T. Jones (organ, piano), Steve Cropper (guitar), Lewie Steinberg (bass), and Al Jackson, Jr. (drums). In the 1960s, as members of the house band of Stax Records, they played on hundreds of recordings by artists such as Wilson Pickett, Otis Redding, Bill Withers, Sam & Dave, Carla Thomas, Rufus Thomas, Johnnie Taylor and Albert King. They also released instrumental records under their own name, of which the best known is the 1962 hit single \"Green Onions\". As originators of the unique Stax sound, the group was one of the most prolific, respected, and imitated of its era. By the mid-1960s, bands on both sides of the Atlantic were trying to sound like Booker T. & the M.G.'s. In 1965, Steinberg was replaced by Donald \"Duck\" Dunn, who played with the group until his death in 2012. Al Jackson, Jr. was murdered in 1975, after which Dunn, Cropper and Jones reunited on numerous occasions using various drummers, including Willie Hall, Anton Fig, Steve Jordan and Steve Potts. The band was inducted into the Rock and Roll Hall of Fame in 1992, the Musicians Hall of Fame and Museum in Nashville, Tennessee, in 2008, and the Memphis Music Hall of Fame in 2012. Having two white members (Cropper and Dunn), Booker T. & the M.G.'s was one of the first racially integrated rock groups, at a time when soul music and the Memphis music scene in particular were generally considered the preserve of black culture."@en ;
+	dbo:associatedMusicalArtist	dbr:Blues_Brothers ,
+		dbr:Mar-Keys ;
+	dbo:genre	dbr:Memphis_soul ,
+		dbr:Funk ,
+		dbr:Instrumental_rock ,
+		dbr:Southern_soul ,
+		<http://dbpedia.org/resource/R&B> ,
+		dbr:Soul_jazz ;
+	dbp:caption	"Booker T. & the M.G's  1967:  Donald \"Duck\" Dunn, Booker T. Jones , Steve Cropper and Al Jackson, Jr."^^rdf:langString ;
+	dbp:currentMembers	<http://dbpedia.org/resource/Steve_Potts_(drummer)> ,
+		dbr:Steve_Cropper ,
+		<http://dbpedia.org/resource/Booker_T._Jones> ;
+	dbp:website	<http://www.bookert.com> ,
+		<http://www.bookert.com/> .
+dbr:Boredoms	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Boredoms1.jpg?width=300> ;
+	foaf:name	"Boredoms"@en ;
+	dbo:associateBand	dbr:Hanatarash ,
+		dbr:OOIOO ,
+		dbr:Yoshimi_and_Yuka ,
+		dbr:Free_Kitten ,
+		<http://dbpedia.org/resource/MC_Hellshit_&_DJ_Carhouse> ,
+		dbr:Rovo ,
+		dbr:Destroy_2 ,
+		dbr:Z-Rock_Hawaii ;
+	dbo:abstract	"Boredoms (\u30DC\u30A2\u30C0\u30E0\u30B9 (Boadamusu)) (later known as V\u221Eredoms) is a rock band from Osaka, Japan. The band was officially formed in 1986. The band's output is usually referred to as noise rock or sometimes Japanoise, though their more recent records have mostly featured repetitive minimalism, ambient music, and tribal drumming. The band has a vast and sometimes confusing discography. Many band members have rotated through the group over the years, often using a number of various stage names. Singer Yamantaka Eye is the closest the band has to a frontman; his style includes a range of baffling screams, babbling, electronic effects, and very heavy post-production. Drummer/keyboard player/vocalist Yoshimi P-We is featured on most Boredoms recordings."@en ;
+	dbo:associatedMusicalArtist	dbr:Destroy_2 ,
+		dbr:Z-Rock_Hawaii ,
+		<http://dbpedia.org/resource/MC_Hellshit_&_DJ_Carhouse> ,
+		dbr:Yoshimi_and_Yuka ,
+		dbr:Hanatarash ,
+		dbr:Rovo ,
+		dbr:Free_Kitten ,
+		dbr:OOIOO ;
+	dbo:genre	dbr:Noise_rock ,
+		dbr:Space_rock ,
+		dbr:Experimental_rock ,
+		dbr:Dub_music ,
+		dbr:Psychedelic_rock ,
+		dbr:Krautrock ,
+		dbr:Electronic_rock ;
+	dbp:caption	"Boredoms at the 2006 Intonation Music Festival in Chicago"^^rdf:langString ;
+	dbp:currentMembers	dbr:Yamantaka_Eye ,
+		dbr:Yoshimi_P-We ;
+	dbp:website	<http://www.boredoms.jp/> .
+<http://dbpedia.org/resource/Boston_(band)>	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Boston_Strong_Concert-May_30,_2013.jpg?width=300> ;
+	foaf:name	"Boston"@en ;
+	dbo:associateBand	<http://dbpedia.org/resource/Orion_the_Hunter_(band)> ,
+		dbr:Stryper ,
+		<http://dbpedia.org/resource/RTZ_(band)> ;
+	dbo:abstract	"Boston is an American rock band from Boston, Massachusetts, that achieved their most notable successes during the 1970s and 1980s. Centered on guitarist, keyboardist, songwriter, and producer Tom Scholz, the band is a staple of classic rock radio playlists. Boston's best-known works include the songs \"More Than a Feeling\", \"Peace of Mind\", \"Foreplay/Long Time\", \"Rock and Roll Band\", \"Smokin'\", \"Don't Look Back\", and \"Amanda\". They have sold more than 75 million records worldwide, including 31 million albums in the United States, of which 17 million were from their self-titled debut album and seven million were for their second album, Don't Look Back. Altogether, the band has released six studio albums."@en ;
+	dbo:associatedMusicalArtist	<http://dbpedia.org/resource/RTZ_(band)> ,
+		dbr:Stryper ,
+		<http://dbpedia.org/resource/Orion_the_Hunter_(band)> ;
+	dbo:genre	dbr:Soft_rock ,
+		dbr:Hard_rock ,
+		dbr:Progressive_rock ;
+	dbp:caption	"Boston live at the TD Garden in 2013"^^rdf:langString ;
+	dbp:currentMembers	dbr:Gary_Pihl ,
+		dbr:Tom_Scholz ,
+		dbr:Jeff_Neal ,
+		dbr:Tracy_Ferrie ,
+		dbr:Tommy_DeCarlo ;
+	dbp:website	<http://bandboston.com/> ,
+		<http://www.bandboston.com> .
+dbr:Bow_Wow_Wow	rdf:type	dbo:Band ;
+	dbo:image	<http://commons.wikimedia.org/wiki/Special:FilePath/Bow_Wow_Wow_1982_Berlin.jpg?width=300> ;
+	foaf:name	"Bow Wow Wow"@en ;
+	dbo:associateBand	dbr:Sin_City_Sinners ,
+		<http://dbpedia.org/resource/Chicane_(recording_artist)> ,
+		<http://dbpedia.org/resource/Agent_Provocateur_(band)> ,
+		dbr:The_Vapors ,
+		dbr:Republica ,
+		dbr:Chiefs_of_Relief ,
+		dbr:Culture_Club ,
+		dbr:Adam_and_the_Ants ,
+		dbr:Beats_International ,
+		dbr:No_Doubt ,
+		<http://dbpedia.org/resource/Novacaine_(band)> ;
+	dbo:abstract	"Bow Wow Wow are an English 1980s new wave band, created by Malcolm McLaren. The group's music has been described as new wave, pop and worldbeat, characterized by an \"African-derived drum sound\"."@en ;
+	dbo:associatedMusicalArtist	dbr:The_Vapors ,
+		dbr:Culture_Club ,
+		dbr:No_Doubt ,
+		<http://dbpedia.org/resource/Chicane_(recording_artist)> ,
+		dbr:Republica ,
+		dbr:Chiefs_of_Relief ,
+		<http://dbpedia.org/resource/Novacaine_(band)> ,
+		dbr:Beats_International ,
+		dbr:Adam_and_the_Ants ,
+		dbr:Sin_City_Sinners ,
+		<http://dbpedia.org/resource/Agent_Provocateur_(band)> ;
+	dbo:genre	dbr:Pop_music ,
+		dbr:New_wave_music ,
+		dbr:Worldbeat ;
+	dbp:caption	"Bow Wow Wow, 1982, West Berlin"^^rdf:langString ;
+	dbp:currentMembers	dbr:Zachary_Throne ,
+		dbr:Leigh_Gorman ;
+	dbp:website	<http://www.bowwowwow.org/> .
