@@ -64,18 +64,18 @@ PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dbp: <http://dbpedia.org/property/>
 
-SELECT ?name ?website ?abstract ?genre ?image ?member ?relatedArtist ?relatedBand ?origin ?caption
+SELECT  ?website ?abstract ?genre ?image ?member ?artistRelated ?bandRelated ?origin ?caption
 WHERE{
- $param a dbo:Band ;
+$param a dbo:Band ;
        foaf:name ?name;
       dbo:abstract ?abstract ;
       dbp:currentMembers ?member .
   OPTIONAL{$param dbo:genre ?genre } .
   OPTIONAL{$param dbp:website ?website} .
-  OPTIONAL{?artist dbo:associatedBand ?bandRelated} .
-  OPTIONAL{?artist dbo:associatedMusicalArtist ?artistRelated} .
-  OPTIONAL{ ?artist dbp:caption ?caption} .
-  OPTIONAL{?artist dbp:origin ?origin} .
+  OPTIONAL{$param dbo:associatedBand ?bandRelated} .
+  OPTIONAL{$param dbo:associatedMusicalArtist ?artistRelated} .
+  OPTIONAL{ $param dbp:caption ?caption} .
+  OPTIONAL{$param dbp:origin ?origin} .
   OPTIONAL{$param dbo:image ?image} .
 
 }
