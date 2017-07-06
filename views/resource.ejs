@@ -52,7 +52,7 @@
         <div class="container relative"><h2 class="mt-0 font-alt">About</h2>
             <div class="alt-features-item abstract">
                 <div class="alt-features-descr">
-                    <div class="work-item mix photography">
+                    <div class="work-item mix photography" style="display: none">
                         <a href="#" class="work-lightbox-link mfp-image">
                             <div class="work-img">
                                 <img data-resource="image"/>
@@ -65,7 +65,7 @@
                         </a>
                     </div>
                     <span data-resource="abstract"></span>
-                    <div id="tmpl">tmpl</div>
+                    <div id="tmpl"></div>
                 </div>
 
             </div>
@@ -88,7 +88,7 @@
         </div>
     </section>
     <!-- End Section -->
-    <section class="small-section" id="news">
+    <section class="small-section" id="related_wrapper" style="display: none;">
         <div class="container relative">
             <h2 class="font-alt mt-0 mb-20">Related artists</h2>
             <div id="related">
@@ -105,85 +105,81 @@
 
 <script type="text/javascript">
 
-    $.ajax({
-        url: "/api/<%= resourceType || null %>/",
-        dataType: "json",
-        data: {
-            uri: '<%= uri || null %>'
-        },
-        success: function (data) {
-            $(".page-loader div").fadeOut();
-            $(".page-loader").delay(200).fadeOut("slow");
-            if (data.results.bindings.length > 0) {
-                var props = data.results.bindings[0];
-                $.each(props, function (k, v) {
-                    var value = v.value;
-                    if (value.match(/^http([s]?):\/\/.*/)) {
-                        var splitted = value.split("(.)(.)");
-                        value = "";
-                        splitted.forEach(function (entry) {
-                            value = value + '<a href="' + entry + '">' + entry + '</a><br />';
-                        });
-                    }
-                    $('[data-resource=' + k + ']').html(value);
-                    $("#details").append(
-                        `<div class="row">
+	$.ajax({
+		url: "/api/<%= resourceType || null %>/",
+		dataType: "json",
+		data: {
+			uri: '<%= uri || null %>'
+		},
+		success: function (data) {
+			$(".page-loader div").fadeOut();
+			$(".page-loader").delay(200).fadeOut("slow");
+			if (data.results.bindings.length > 0) {
+				var props = data.results.bindings[0];
+				$.each(props, function (k, v) {
+					var value = v.value;
+					if (value.match(/^http([s]?):\/\/.*/)) {
+						var splitted = value.split("(.)(.)");
+						value = "";
+						splitted.forEach(function (entry) {
+							value = value + '<a href="' + entry + '">' + entry + '</a><br />';
+						});
+					}
+					$('[data-resource=' + k + ']').html(value);
+					$("#details").append(
+						`<div class="row">
                              <div class="col-md-4"><strong>${k}</strong></div>
                              <div id="${k}_tab" class="col-md-8"> ${value}</div>
 				         </div>`);
-                });
-                if (data.results.bindings[0].image) {
-                    var fullimage = data.results.bindings[0].image.value.split("?")[0];
-                    //urlExists(data.results.bindings[0].image.value, function(ok) {
-                    //	if (ok !==404) {
-                    $('[data-resource=image]').attr('src', data.results.bindings[0].image.value);
-                    $('[data-resource=background_image]').css({'background-image': `url(${fullimage})`})
-                    $('.work-lightbox-link').attr("href", fullimage);
-                    //	}
-                    //});
-                }
-                if (data.results.bindings[0].artistRelateds) {
-                    var tmpl = $.templates("#relatedItem");
-                    var relateds = data.results.bindings[0].artistRelateds.value.split("(.)(.)");
-                    relateds.forEach(function (related) {
-                        $.ajax({
-                            url: "/api/band",
-                            dataType: "json",
-                            data: {
-                                uri: related
-                            },
-                            success: function (data) {
-                                var res = data.results.bindings[0];
-                                // Qui sono sicuro che si tratti di band.
-                                res.uri = "resource?resourceType=band&uri=" + related;
-                                if (res.name) {
-                                    $('#related').append(tmpl.render(res));
-                                }
+				});
+				if (props.image) {
+					$('.photography').show();
+					var fullimage = props.image.value.split("?")[0];
+					$('[data-resource=image]').attr('src', props.image.value);
+					$('[data-resource=background_image]').css({'background-image': `url(${fullimage})`})
+					$('.work-lightbox-link').attr("href", fullimage);
+				}
+				if (props.artistRelateds || props.bandRelateds) {
+					$('#related_wrapper').show();
+					var tmpl = $.templates("#relatedItem");
+					var artistRelateds = props.artistRelateds ? props.artistRelateds.value.split("(.)(.)") : [];
+					var bandRelateds = props.bandRelateds ? props.bandRelateds.value.split("(.)(.)") : [];
+					artistRelateds.concat(bandRelateds).forEach(function (uri) {
+						$.ajax({
+							url: "/api/related",
+							dataType: "json",
+							data: {
+								uri: uri
+							},
+							success: function (r) {
+								if (r.name) {
+									r.url = `resource?resourceType=${r.type}&uri=${encodeURIComponent(uri)}`
+									$('#related').append(tmpl.render(r));
+								}
+							}
+						});
+					});
+				}
+			}
+			else $('[data-resource=name]').html("No resource found")
+		}
+	}).fail(function (e) {
+		console.log(e);
+	})
 
-                            }
-                        });
-                    })
-                }
-            }
-            else $('[data-resource=name]').html("No resource found")
-        }
-    }).fail(function (e) {
-        console.log("error " + e);
-    })
+	function urlExists(url, cb) {
+		$.ajax({
+			url: url,
+			type: 'GET',
+			crossDomain: true,
+			dataType: 'jsonp',
 
-    function urlExists(url, cb) {
-        $.ajax({
-            url: url,
-            type: 'GET',
-            crossDomain: true,
-            dataType: 'jsonp',
-
-            complete: function (xhr) {
-                if (typeof cb === 'function')
-                    cb.apply(this, [xhr.status]);
-            }
-        });
-    }
+			complete: function (xhr) {
+				if (typeof cb === 'function')
+					cb.apply(this, [xhr.status]);
+			}
+		});
+	}
 </script>
 
 <%- include blocks/related.ejs %>

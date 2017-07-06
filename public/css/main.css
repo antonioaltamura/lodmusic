@@ -50,3 +50,6 @@ a.ui-button:active,
 #related .item:last-child {
     padding-right: 0px;
 }
+.count-title {
+    font-size: 30px;
+}

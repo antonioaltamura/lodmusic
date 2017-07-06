@@ -3,7 +3,6 @@ let router = require('express').Router();
 let sparql = require('../sparql');
 
 
-
 router.get('/band', function (req, res) {
 	if (!req.query.uri)
 		res.status(400).json({message: 'No query param'});
@@ -43,17 +42,24 @@ FILTER LANGMATCHES(LANG(?abstract ), "en")
 router.get('/album', function (req, res) {
 	if (!req.query.uri)
 		res.status(400).json({message: 'No query param'});
-	sparql.query(`
-SELECT DISTINCT ?name ?abstract ?recordLabel ?releaseDate ?genre ?artist
-	WHERE{
-	 <${req.query.uri}> a schema:MusicAlbum;
-foaf:name ?name;
-dbo:abstract ?abstract;
-dbo:recordLabel ?recordLabel;
-dbo:releaseDate ?date;
-dbo:artist ?band.
-	OPTIONAL{?album dbo:genre ?genre}.
-}`, function (r) {
+	sparql.query(`	
+	SELECT
+	?name
+	?abstract
+	?releaseDate
+(GROUP_CONCAT(DISTINCT ?genre; separator="(.)(.)") AS ?genres)
+(GROUP_CONCAT(DISTINCT ?recordLabel; separator="(.)(.)") AS ?recordLabels)
+(GROUP_CONCAT(DISTINCT ?artist; separator="(.)(.)") AS ?artists)
+WHERE{
+<${req.query.uri}> a schema:MusicAlbum;
+			foaf:name ?name;
+			dbo:abstract ?abstract;
+			dbo:recordLabel ?recordLabel;
+			dbo:releaseDate ?date;
+  			dbo:artist ?band.
+  OPTIONAL{<${req.query.uri}> dbo:genre ?genre}.	
+} group by ?name  ?abstract ?releaseDate
+`, function (r) {
 		if (r.error) {
 			res.json(r);
 		}
@@ -66,18 +72,29 @@ router.get('/artist', function (req, res) {
 	if (!req.query.uri)
 		res.status(400).json({message: 'No query param'});
 	sparql.query(`
-
-
-SELECT DISTINCT ?name ?bDate ?abstract ?image ?band
+SELECT 
+?name
+?bDate
+?abstract
+?image
+?origin
+?caption
+(GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
+(GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
 WHERE
 {
-	<${req.query.uri}>  a umbelrc:MusicalPerformer;
-  foaf:name ?name;
-	dbo:abstract ?abstract;
-	dbo:birthDate ?bDate.
-  ?band dbp:currentMembers ?artist.
- OPTIONAL{<${req.query.uri}>  dbo:thumbnail ?image}.
-}`, function (r) {
+VALUES ?s { <${req.query.uri}> }
+	?s a umbelrc:MusicalPerformer;
+    	foaf:name ?name;
+		dbo:abstract ?abstract;
+		dbo:birthDate ?bDate.
+ OPTIONAL{?s dbo:thumbnail ?image}.
+ OPTIONAL{?s dbo:associatedBand ?bandRelated} .
+ OPTIONAL{?s dbo:associatedMusicalArtist ?artistRelated} .
+ OPTIONAL{?s dbp:caption ?caption} .
+ OPTIONAL{?s dbp:origin ?origin} .
+}  group by ?name ?bDate ?abstract ?image ?origin ?caption
+`, function (r) {
 		if (r.error) {
 			res.json(r);
 		}
@@ -89,24 +106,26 @@ router.get('/track', function (req, res) {
 	if (!req.query.uri)
 		res.status(400).json({message: 'No query param'});
 	sparql.query(`
-
-SELECT DISTINCT ?name ?abstract ?releaseDate ?artist ?album ?recordLabel
+	SELECT DISTINCT ?name ?abstract ?releaseDate ?artist ?album ?recordLabel
      WHERE
 {
-  
-  { <${req.query.uri}>  a umbelrc:MusicSingle} UNION {<${req.query.uri}> a dbo:MusicalWork}.
-
-   <${req.query.uri}>   foaf:name ?name;
+VALUES ?s { <${req.query.uri}> }
+  {?s a umbelrc:MusicSingle} UNION {?s a dbo:MusicalWork}.
+  ?s  foaf:name ?name;
       dbo:abstract ?abstract;
       dbo:releaseDate ?date;
-  {  <${req.query.uri}>  dbo:musicalArtist [ a umbelrc:MusicalPerformer;
+  { ?s dbo:musicalArtist [ a umbelrc:MusicalPerformer;
                                 foaf:name ?artist;]}
-  UNION  {<${req.query.uri}> dbo:musicalArtist [ a dbo:Band;
+  UNION  {?s dbo:musicalArtist [ a dbo:Band;
   foaf:name ?artist;]}      
   FILTER(lang(?abstract) = "en").
-      OPTIONAL{?track dbo:album ?album}.
-      OPTIONAL{?track dbo:recordLabel ?recordLabel}.
-}`, function (r) {
+      OPTIONAL{?s dbo:album ?album}.
+      OPTIONAL{?s dbo:recordLabel ?recordLabel}.
+
+}  
+
+
+`, function (r) {
 		if (r.error) {
 			res.json(r);
 		}
@@ -114,24 +133,68 @@ SELECT DISTINCT ?name ?abstract ?releaseDate ?artist ?album ?recordLabel
 	})
 });
 
-//TODO <http://dbpedia.org/resource/Arch_Enemy> handle multiple images
 router.get('/related', function (req, res) {
 	if (!req.query.uri)
 		res.status(400).json({message: 'No query param'});
-	sparql.query(`SELECT DISTINCT ?name ?image ?abstract
+	sparql.query(`SELECT DISTINCT ?name ?image ?abstract ?type
 WHERE {
   VALUES ?q {<${req.query.uri}>}
-    { ?q a umbelrc:MusicalPerformer } UNION { ?q a dbo:Band }.
-   ?q foaf:name ?name;
-      dbo:abstract ?abstract .
+  { ?q a umbelrc:MusicalPerformer } UNION { ?q a dbo:Band }.
+  ?q a ?type;
+   		foaf:name ?name;
+      	dbo:abstract ?abstract .
    OPTIONAL{?q dbo:image ?image} .
 }`, function (r) {
 		if (r.error) {
 			res.json(r);
 		}
-		res.json(JSON.parse(r));
+		let o = JSON.parse(r).results.bindings[0];
+		//check if the resource exists
+		if (o) {
+			var type = o.type==="http://dbpedia.org/ontology/Band" ? 'band' : 'artist';
+			res.json({name: o.name, image: o.image, abstract: o.abstract, type:type});
+		}
+		else
+			res.status(404).json({error: 'Not found'});
 	})
 });
 
+
+/* -------- specific related ------
+router.get('/related/:type', function (req, res) {
+	let type = req.params.type && req.params.type=== "artist" ? "umbelrc:MusicalPerformer" : "dbo:Band";
+
+	if (!req.query.uri)
+		res.status(400).json({message: 'No query param'});
+	sparql.query(`SELECT DISTINCT ?name ?image ?abstract
+WHERE {
+  VALUES ?q {<${req.query.uri}>}
+   ?q a ${type}.
+   ?q foaf:name ?name;
+      	dbo:abstract ?abstract .
+   OPTIONAL{?q dbo:image ?image} .
+}`, function (r) {
+		if (r.error) {
+			res.json(r);
+		}
+		let o = JSON.parse(r).results.bindings[0];
+		//check if the resource exists
+		if (o)
+			res.json({name: o.name, image: o.image, abstract: o.abstract});
+		else
+			res.status(404).json({error: 'Not found'});
+
+	})
+});
+
+let mapResults = (results) => {
+	let o = JSON.parse(results).results.bindings[0];
+	//check if the resource exists
+	if (o)
+		return {name: o.name, image: o.image, abstract: o.abstract};
+	else
+		return {error: 'Not found'};
+};
+*/
 
 module.exports = router;

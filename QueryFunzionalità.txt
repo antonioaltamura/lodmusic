@@ -120,9 +120,27 @@ $param a schema:MusicAlbum;
 			dbo:recordLabel ?recordLabel;
 			dbo:releaseDate ?date;
   			dbo:artist ?band.
-  OPTIONAL{?album dbo:genre ?genre}.
+  OPTIONAL{$param dbo:genre ?genre}.
 }
 
+------------CON AGGREGATION-----------
+
+	SELECT
+	?name
+	?abstract
+	?releaseDate
+(GROUP_CONCAT(DISTINCT ?genre; separator="(.)(.)") AS ?genres)
+(GROUP_CONCAT(DISTINCT ?recordLabel; separator="(.)(.)") AS ?recordLabels)
+(GROUP_CONCAT(DISTINCT ?artist; separator="(.)(.)") AS ?artists)
+WHERE{
+<${req.query.uri}> a schema:MusicAlbum;
+			foaf:name ?name;
+			dbo:abstract ?abstract;
+			dbo:recordLabel ?recordLabel;
+			dbo:releaseDate ?date;
+  			dbo:artist ?band.
+  OPTIONAL{<${req.query.uri}> dbo:genre ?genre}.
+} group by ?name  ?abstract ?releaseDate
 
 
 ############## Autocompletamento ricerca globale ($param) ##############

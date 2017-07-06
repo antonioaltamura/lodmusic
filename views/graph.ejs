@@ -90,10 +90,17 @@
 
 	// create a network
 	var container = document.getElementById('graph');
-	var data = {
-		nodes: nodes,
-		edges: edges
+	var graph = {
+		nodes: new vis.DataSet(),
+		edges: new vis.DataSet()
 	};
+	graph.nodes.on('add', function () {
+		alert("okokko")
+	});
+	setTimeout(function () {
+		graph.nodes.add({id: "a", label: 'Node 8'})
+		graph.nodes.add({id: "b", label: 'Node 2'})
+	}, 1000);
 	var options = {
 		nodes: {
 			shape: "circle",
@@ -113,9 +120,79 @@
 					background: '#d2cacd'
 				}
 			}
+		},
+		manipulation: {
+			enabled: false,
+			addNode: function (data, callback) {
+				// filling in the popup DOM elements
+				console.log('add', data);
+				callback(data);
+			},
+			editNode: function (data, callback) {
+				// filling in the popup DOM elements
+				console.log('edit', data);
+				callback(data);
+			},
+			addEdge: function (data, callback) {
+				console.log('add edge', data);
+				if (data.from == data.to) {
+					var r = confirm("Do you want to connect the node to itself?");
+					if (r === true) {
+						callback(data);
+					}
+				}
+				else {
+					callback(data);
+				}
+			}
 		}
 	};
-	var network = new vis.Network(container, data, options);
+	var network = new vis.Network(container, graph, options);
+
+
+	$.ajax({
+		url: "/api/<%= resourceType || null %>/",
+		dataType: "json",
+		data: {
+			uri: '<%= uri || null %>'
+		},
+		success: function (data) {
+			if (data.results.bindings.length > 0) {
+				var props = data.results.bindings[0];
+				var id = "<%= uri %>";
+				var name = props.name.value;
+				var img = props.image.value || "null";
+
+				graph.nodes.add({id:id, label:props.name.value})
+
+				if (data.results.bindings[0].artistRelateds) {
+					var relateds = data.results.bindings[0].artistRelateds.value.split("(.)(.)");
+					relateds.forEach(function (related) {
+						$.ajax({
+							url: "/api/band",
+							dataType: "json",
+							data: {
+								uri: related
+							},
+							success: function (rels) {
+								var res = rels.results.bindings[0];
+								if (res.name) {
+									console.log(res.name);
+
+
+									//graph.nodes.add({id:id, label:res.name.value})
+								}
+
+							}
+						});
+					})
+				}
+			}
+		}
+	}).fail(function (e) {
+		console.log("error " + e);
+	})
+
 </script>
 </body>
 </html>
