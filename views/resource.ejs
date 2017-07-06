@@ -55,10 +55,10 @@
                     <div class="work-item mix photography">
                         <a href="#" class="work-lightbox-link mfp-image">
                             <div class="work-img">
-                                <img data-resource="image" />
+                                <img data-resource="image"/>
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title"data-resource="name"></h3>
+                                <h3 class="work-title" data-resource="name"></h3>
                                 <div class="work-descr" data-resource="caption">
                                 </div>
                             </div>
@@ -134,32 +134,34 @@
                 });
                 if (data.results.bindings[0].image) {
                     var fullimage = data.results.bindings[0].image.value.split("?")[0];
-					//urlExists(data.results.bindings[0].image.value, function(ok) {
-					//	if (ok !==404) {
-							$('[data-resource=image]').attr('src', data.results.bindings[0].image.value);
-							$('[data-resource=background_image]').css({'background-image': `url(${fullimage})`})
-							$('.work-lightbox-link').attr("href", fullimage);
-					//	}
-					//});
+                    //urlExists(data.results.bindings[0].image.value, function(ok) {
+                    //	if (ok !==404) {
+                    $('[data-resource=image]').attr('src', data.results.bindings[0].image.value);
+                    $('[data-resource=background_image]').css({'background-image': `url(${fullimage})`})
+                    $('.work-lightbox-link').attr("href", fullimage);
+                    //	}
+                    //});
                 }
-                if(data.results.bindings[0].artistRelateds) {
-					var tmpl = $.templates("#relatedItem");
-                	var relateds = data.results.bindings[0].artistRelateds.value.split("(.)(.)");
-					relateds.forEach(function(related){
-						$.ajax({
-							url: "/api/band",
-							dataType: "json",
-							data: {
-								uri: related
-							},
-							success: function (data) {
-								var res = data.results.bindings[0];
-								if(res.name){
-									$('#related').append(tmpl.render(res));
+                if (data.results.bindings[0].artistRelateds) {
+                    var tmpl = $.templates("#relatedItem");
+                    var relateds = data.results.bindings[0].artistRelateds.value.split("(.)(.)");
+                    relateds.forEach(function (related) {
+                        $.ajax({
+                            url: "/api/band",
+                            dataType: "json",
+                            data: {
+                                uri: related
+                            },
+                            success: function (data) {
+                                var res = data.results.bindings[0];
+                                // Qui sono sicuro che si tratti di band.
+                                res.uri = "resource?resourceType=band&uri=" + related;
+                                if (res.name) {
+                                    $('#related').append(tmpl.render(res));
                                 }
 
-							}
-						});
+                            }
+                        });
                     })
                 }
             }
@@ -169,19 +171,19 @@
         console.log("error " + e);
     })
 
-    function urlExists(url, cb){
-		$.ajax({
-			url:      url,
-			type:     'GET',
-			crossDomain: true,
-			dataType: 'jsonp',
+    function urlExists(url, cb) {
+        $.ajax({
+            url: url,
+            type: 'GET',
+            crossDomain: true,
+            dataType: 'jsonp',
 
-			complete:  function(xhr){
-				if(typeof cb === 'function')
-					cb.apply(this, [xhr.status]);
-			}
-		});
-	}
+            complete: function (xhr) {
+                if (typeof cb === 'function')
+                    cb.apply(this, [xhr.status]);
+            }
+        });
+    }
 </script>
 
 <%- include blocks/related.ejs %>
