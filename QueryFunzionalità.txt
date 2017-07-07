@@ -217,4 +217,4 @@ SELECT DISTINCT ?name ?abstract ?releaseDate
       OPTIONAL{<${req.query.uri}>  dbo:album ?album}.
       OPTIONAL{<${req.query.uri}>  dbo:recordLabel ?recordLabel}.
 
-}    
+}     group by ?name  ?abstract ?releaseDate
