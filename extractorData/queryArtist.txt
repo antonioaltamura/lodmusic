@@ -1,10 +1,14 @@
 CONSTRUCT
 {
 ?artist a umbel-rc:MusicalPerformer;
-      foaf:name ?name;
-      dbo:abstract ?abstract;
-            dbo:thumbnail ?image;
-      dbo:birthDate ?bDate.
+     foaf:name ?name;
+     dbo:abstract ?abstract;
+     dbo:thumbnail ?image;
+     dbo:associateBand ?bandRelated;
+     dbo:associatedMusicalArtist ?artistRelated;
+     dbp:caption ?caption;
+     dbp:origin ?origin;
+     dbo:birthDate ?bDate.
 
 }
 WHERE{
@@ -12,9 +16,13 @@ WHERE{
       foaf:name ?name;
       dbo:abstract ?abstract;
       dbo:birthDate ?bDate.
-
+OPTIONAL{?artist dbo:associatedBand ?bandRelated} .
+OPTIONAL{?artist dbo:associatedMusicalArtist ?artistRelated} .
+OPTIONAL{?artist dbp:caption ?caption} .
+OPTIONAL{?artist dbp:origin ?origin} .
 OPTIONAL{?artist dbo:thumbnail ?image} .
 FILTER(lang(?abstract) = "en").
 }
 LIMIT 10000
 OFFSET 
+
