@@ -39,7 +39,7 @@
 <div class="page" id="top">
 
     <section class="home-section bg-dark parallax-1">
-        <div id="graph_resource_info"class="alert">
+        <div id="graph_resource_info" class="alert">
             <i class="fa fa-lg fa-comments-o"></i> <span></span>
         </div>
         <div class="js-height-full" id="graph">
@@ -57,136 +57,142 @@
 
 
 <script type="text/javascript">
-	js_height_init()
-	var container = document.getElementById('graph');
+    js_height_init()
+    var container = document.getElementById('graph');
 
-	var graph = {
-		nodes: new vis.DataSet(),
-		edges: new vis.DataSet()
-	};
-	var options = {
-		nodes: {
-			shape: "dot",
-			font: {color:"#fff"},
-			borderWidth: 2,
-			brokenImage: undefined,
-			chosen: true,
-			color: {
-				border: '#d7d7d7',
-				background: '#1a1a1a',
-				highlight: {
-					border: '#b4b4b4',
-					background: '#e9e9e9'
-				},
-				hover: {
-					border: '#bebebe',
-					background: '#404040'
-				}
-			},
-			shapeProperties: {
-				useBorderWithImage:true,
-				borderRadius:50
-			}
+    var graph = {
+        nodes: new vis.DataSet(),
+        edges: new vis.DataSet()
+    };
+    var options = {
+        nodes: {
+            shape: "dot",
+            font: {color: "#fff"},
+            borderWidth: 2,
+            brokenImage: undefined,
+            chosen: true,
+            color: {
+                border: '#d7d7d7',
+                background: '#1a1a1a',
+                highlight: {
+                    border: '#b4b4b4',
+                    background: '#e9e9e9'
+                },
+                hover: {
+                    border: '#bebebe',
+                    background: '#404040'
+                }
+            },
+            shapeProperties: {
+                useBorderWithImage: true,
+                borderRadius: 50
+            }
 
-		}
-	};
-	var network = new vis.Network(container, graph, options);
+        }
+    };
+    var network = new vis.Network(container, graph, options);
 
 
-	if(<%= uri != null %>)
-		getInfo('<%= uri %>')
-	else
-		graph.nodes.add({id: 0, label: 'No resource found'})
+    if (<%= uri != null %>)
+        getInfo('<%= uri %>')
+    else
+        graph.nodes.add({id: 0, label: 'No resource found'})
 
-	network.on( 'doubleClick', function(prop) {
-		var node = graph.nodes.get(prop.nodes[0]);
-		console.log('doubleClick node:', node);
-		getInfo(node.id)
-	});
+    network.on('doubleClick', function (prop) {
+        var node = graph.nodes.get(prop.nodes[0]);
+        if (node.id) {
+            console.log("Clicked node: ",node);
+            getInfo(node.id)
+        }
+        else {
+            console.log("Clicked empty area");
+        }
 
-	function getInfo(uri){
-		$.ajax({
-			url: "/api/related",
-			dataType: "json",
-			data: {
-				uri: uri
-			},
-            beforeSend: function() {
+    });
+
+    function getInfo(uri) {
+        $.ajax({
+            url: "/api/related",
+            dataType: "json",
+            data: {
+                uri: uri
+            },
+            beforeSend: function () {
                 $("#graph_resource_info span").html("Loading related resources...");
                 $("#graph_resource_info").show().delay(1000).fadeOut(500);
             },
-			success: function (data) {
-				if (data) {
-					var id = uri;
-					var name = data.name.value;
-					var node = {id:id, label:data.name.value};
+            success: function (data) {
+                if (data) {
+                    var id = uri;
+                    var name = data.name.value;
+                    var node = {id: id, label: data.name.value};
 
-					if(data.image && data.image.value) {
-						var img = data.image.value;
-						Object.assign(node, {shape:"circularImage", image: img});
-					}
-					if(!has.Node(node))
-					    graph.nodes.add(node)
+                    if (data.image && data.image.value) {
+                        var img = data.image.value;
+                        Object.assign(node, {shape: "circularImage", image: img});
+                    }
+                    if (!has.Node(node))
+                        graph.nodes.add(node)
 
-					if (data.artistRelateds || data.bandRelateds) {
-						var artistRelateds = data.artistRelateds ? data.artistRelateds.value.split("(.)(.)") : [];
-						var bandRelateds = data.bandRelateds ? data.bandRelateds.value.split("(.)(.)") : [];
-						artistRelateds.concat(bandRelateds).forEach(function (rel_uri) {
-							$.ajax({
-								url: "/api/related",
-								dataType: "json",
-								data: {
-									uri: rel_uri
-								},
-								success: function (r) {
-									if (r.name) {
-										var node = {id:rel_uri, label:r.name.value};
-										if(r.image && r.image.value) {
-											var img = r.image.value;
-											Object.assign(node, {shape:"circularImage", image: img});
-										}
-										var edge = {from: uri, to: rel_uri};
-										if(!has.Node(node))
-											graph.nodes.add(node)
-
-										if(!has.Edge(edge))
-											graph.edges.add(edge)
-
-									}
-								}
-							});
-						});
-					} else {
-						$("#graph_resource_info span").html("No related resource")
-						$("#graph_resource_info").show().delay(1000).fadeOut(500);
-					}
-				}
-				else {
-                    $("#graph_resource_info span").html("No resource found")
-					$("#graph_resource_info").show().delay(1000).fadeOut(500);
+                    if (data.artistRelateds || data.bandRelateds) {
+                        var artistRelateds = data.artistRelateds ? data.artistRelateds.value.split("(.)(.)") : [];
+                        var bandRelateds = data.bandRelateds ? data.bandRelateds.value.split("(.)(.)") : [];
+                        artistRelateds.concat(bandRelateds).forEach(function (rel_uri) {
+                            $.ajax({
+                                url: "/api/related",
+                                dataType: "json",
+                                data: {
+                                    uri: rel_uri
+                                },
+                                success: function (r) {
+                                    if (r.name) {
+                                        var node = {id: rel_uri, label: r.name.value};
+                                        if (r.image && r.image.value) {
+                                            var img = r.image.value;
+                                            Object.assign(node, {shape: "circularImage", image: img});
+                                        }
+                                        var edge = {from: uri, to: rel_uri};
+                                        if (!has.Node(node)) {
+                                            graph.nodes.add(node)
+                                            if (!has.Edge(edge))
+                                                graph.edges.add(edge)
+                                        }
+                                    }
+                                }
+                            });
+                        });
+                    } else {
+                        $("#graph_resource_info span").html("No related resource")
+                        $("#graph_resource_info").show().delay(1000).fadeOut(500);
+                    }
                 }
-			}
-		}).fail(function (e) {
-			console.log(e);
-		})
-	}
+                else {
+                    $("#graph_resource_info span").html("No resource found")
+                    $("#graph_resource_info").show().delay(1000).fadeOut(500);
+                }
+            }
+        }).fail(function (e) {
+            console.log(e);
+        })
+    }
 
 
-	var has = {
-		Node : function(node){
-			return Object.keys(graph.nodes._data).indexOf(node.id) >=0;
-		},
-		Edge : function(edge){
-			console.log(edge)
-			$.each( graph.edges._data, function( id, e ) {
-				//console.log(e)
-				if(edge.from === e.from && edge.to === e.to || edge.from === e.to && edge.from === e.to) {
-					console.log("edge exist")
-					return true;
-				}
-			}); return false;
-		}
-	}
+    var has = {
+        Node: function (node) {
+            return Object.keys(graph.nodes._data).indexOf(node.id) >= 0;
+        },
+        Edge: function (edge) {
+            console.log(edge)
+            $.each(graph.edges._data, function (id, e) {
+                //console.log(e)
+                if (edge.from === e.from && edge.to === e.to || edge.from === e.to && edge.from === e.to) {
+                    console.log("edge exist");
+                    return true;
+                }
+            });
+            return false;
+        }
+    }
 
 
 </script>
