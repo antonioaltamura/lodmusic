@@ -75,4 +75,31 @@ WHERE
     })
 });
 
+
+/***
+ *  -----------------------insert endpoints----------------
+ * ***/
+
+router.get('/genres',function(req,res){
+	sparql.query(`
+	SELECT DISTINCT (?genre AS ?uri)
+(strafter(str(?genre),'http://dbpedia.org/resource/') as ?text)
+WHERE{
+  [] dbo:genre ?genre .
+ #  FILTER regex(?genre, "^",'i'). 
+}ORDER BY ASC(?text)
+LIMIT 10
+`, function (r) {
+		if (r.error) {
+			res.json(r);
+		}
+		let json = JSON.parse(r);
+		let result = json.results.bindings.map(function (item) {
+			return {name: item.text.value, uri: item.uri.value};
+		});
+		res.json(result);
+	})
+
+
+});
 module.exports = router;

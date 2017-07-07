@@ -1,12 +1,15 @@
 "use strict";
 let rp = require('request-promise'),
 	endpoint = 'http://lodmusic.cloudapp.net:26109/lodmusic/sparql',
-	prefixes = `PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+	prefixes = `
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>
-PREFIX schema: <http://schema.org/>`;
-
+PREFIX schema: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+`;
+//endpoint = "http://localhost:3030/lodmusic/sparql"
 module.exports.query = function (q, next) {
 	rp({
 		method: 'POST',

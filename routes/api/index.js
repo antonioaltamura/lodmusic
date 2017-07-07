@@ -38,7 +38,6 @@ FILTER LANGMATCHES(LANG(?abstract ), "en")
 		res.json(JSON.parse(r));
 	})
 });
-
 router.get('/album', function (req, res) {
 	if (!req.query.uri)
 		res.status(400).json({message: 'No query param'});
@@ -113,19 +112,14 @@ SELECT DISTINCT ?name ?abstract ?releaseDate
      WHERE
 {
   VALUES ?s { <${req.query.uri}> }
-
   {?s a umbelrc:MusicSingle} UNION {?s a dbo:MusicalWork}.
-
   ?s   foaf:name ?name;
       dbo:abstract ?abstract;
       dbo:releaseDate ?date;
-  
   { ?s  dbo:musicalArtist [ a umbelrc:MusicalPerformer;
                                 foaf:name ?artist;]}
   UNION  {?s dbo:musicalArtist [ a dbo:Band; 
   foaf:name ?artist;]} 
-
-
   FILTER(lang(?abstract) = "en").
       OPTIONAL{?s  dbo:album ?album}.
       OPTIONAL{?s  dbo:recordLabel ?recordLabel}.
@@ -162,14 +156,34 @@ WHERE {
 		let o = JSON.parse(r).results.bindings[0];
 		//check if the resource exists
 		if (Object.keys(o).length !== 0) {
-
-			o.type = o.type==="http://dbpedia.org/ontology/Band" ? 'band' : "http://umbel.org/umbel/rc/MusicalPerformer" ? 'artist': null;
+			o.type = o.type.value==="http://dbpedia.org/ontology/Band" ? 'band' : "http://umbel.org/umbel/rc/MusicalPerformer" ? 'artist': null;
 			res.json(o);
 			// maybe TODO artistRelateds & bandRelateds split serverside
 		}
 		else
 			res.status(404).json({error: 'Not found'});
 	})
+});
+
+
+router.post('/band', function (req, res) {
+	res.status(400).json({message: 'Not done yet'});
+
+	sparql.query(`INSERT DATA{
+
+		$uriBAND a dbo:Band;
+		foaf:name $name;
+		dbp:website $website;
+		dbo:abstract $abstract;
+		dbo:genre $genre;
+		dbo:associatedBand $uriBandRelated;
+		dbo:associatedMusicalArtist $uriArtistRelated;
+		dbp:caption $caption;
+		dbp:origin $city.
+			dbp:currentMembers $uriMember.
+	}`, function(r){
+
+	});
 });
 
 module.exports = router;

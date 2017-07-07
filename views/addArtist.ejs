@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LODMusic</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/vertical-rhythm.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="appear-animate">
+<!-- Page Loader -->
+<div class="page-loader">
+    <div class="loader">Loading...</div>
+</div>
+<!-- End Page Loader -->
+<!-- Page Wrap -->
+<div class="page" id="top">
+    <!-- Navigation panel -->
+    <nav class="main-nav js-stick">
+        <%- include( 'blocks/menu.ejs', {theme: "dark"}) %>
+    </nav>
+    <!-- End Navigation panel -->
+    <!-- Head Section -->
+    <section class="small-section bg-dark">
+        <div class="relative container align-left">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Add an Artist</h1>
+                    <div class="hs-line-4 font-alt black"> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Head Section -->
+    <!-- Section -->
+    <section class="page-section">
+        <div class="container relative">
+            <form method="post" action="#" id="form" role="form" class="form">
+                <div class="row">
+                    <div class="col-sm-12 mb-20">
+                        <input type="text"  class="input-md form-control" placeholder="foaf:name" name="name" maxlength="100" required/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 mb-20">
+                        <input type="text" class="input-md form-control" placeholder="dbp:origin" name="origin"
+                               maxlength="100"/>
+                    </div>
+                    <div class="col-sm-4 mb-20">
+                        <input type="date" class="input-md form-control" placeholder="dbo:birthDate" name="origin"
+                               maxlength="100"/>
+                    </div>
+                    <div class="col-sm-4 mb-20">
+                        <input type="url" class="input-md form-control" placeholder="dbp:website" name="website"
+                               maxlength="100"/>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 mb-20">
+                            <textarea name="abstract" id="text" class="input-md form-control" rows="8"
+                                      placeholder="dbo:abstract"
+                                      maxlength="400"></textarea>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 mb-20">
+                        <input type="text" class="input-md form-control" id="associatedBand" placeholder="dbo:associatedBand"
+                               name="associatedBand"
+                               maxlength="100"/>
+                    </div>
+                    <div class="col-sm-6 mb-20">
+                        <input type="text" class="input-md form-control" id="associatedMusicalArtist" placeholder="dbo:associatedMusicalArtist"
+                               name="associatedMusicalArtist"
+                               maxlength="100"/>
+                    </div>
+
+                </div>
+                    <div class="row">
+                        <div class="col-sm-6 mb-20">
+                            <input type="text" class="input-md form-control" placeholder="dbp:caption" name="caption"
+                                   maxlength="100"/>
+                        </div>
+                        <div class="col-sm-6 mb-20">
+                            <input type="url" class="input-md form-control" placeholder="dbo:image" name="image"
+                                   maxlength="100"/>
+                        </div>
+                    </div>
+                <button type="text" id="submit" class="submit btn btn-mod btn-w btn-large">Save</button>
+            </form>
+            <!-- End Row -->
+        </div>
+    </section>
+    <!-- End Section -->
+    <!-- Divider -->
+    <hr class="mt-0 mb-0 "/>
+    <!-- End Divider -->
+    <%- include blocks/footer %>
+</div>
+<!-- End Page Wrap -->
+<%- include blocks/scripts %>
+<script>
+
+
+
+$('#genres').LodTags('genres');
+$('#associatedMusicalArtist').LodTags('artist');
+$('#currentMembers').LodTags('artist');
+$('#associatedBand').LodTags('band');
+$('#band').LodTags('band');
+
+
+
+		$("#submit").click(function(e){
+
+			var obj = $('#form').serializeObject();
+			obj.associatedMusicalArtist = $("#associatedMusicalArtist").tagsinput('items');
+			obj.associatedBand = $("#associatedBand").tagsinput('items');
+			obj.genres = $("#genres").tagsinput('items');
+			obj.currentMembers = $("#currentMembers").tagsinput('items');
+			console.log(obj)
+			e.preventDefault()
+
+
+
+
+		});
+
+
+
+</script>
+</body>
+
+</html>

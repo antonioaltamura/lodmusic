@@ -2,10 +2,10 @@
 <div class="item mb-md-50 wow fadeIn" data-wow-delay="0.1s"
      data-wow-duration="2s">
     <div class="post-prev-img">
-        <a href="{{:url}}">{{:uri}}<img src="{{: image && image.value ? image.value : 'images/resource_img.png' }}" alt=""/>
+        <a href="{{:url}}"><img src="{{: image && image.value ? image.value : 'images/resource_img.png' }}" alt=""/>
         </a>
     </div>
-    <div class="post-prev-title font-alt"><a href="">{{:name.value}}</a></div>
+    <div class="post-prev-title font-alt"><a href="{{:url}}">{{:name.value}}</a></div>
     <div class="post-prev-text"> {{:abstract.value ? abstract.value.length>250 ? abstract.value.substr(0,250)+"..." : abstract.value : "no abstract" }}
     </div>
 </div>

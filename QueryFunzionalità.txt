@@ -231,7 +231,7 @@ SELECT DISTINCT ?name ?abstract ?releaseDate
 
 
 
- ############## Ricerca di tutti i generi musicali memorizzati ############## -> (1)
+ ############## Ricerca di tutti i generi musicali memorizzati ############## -> (1) --------NOTA:aggiungere "starts with" e eliminare i generi che cominciano con "%3.."
 
  #COMMENTI 
 ?genre è la URI da passare come $param2

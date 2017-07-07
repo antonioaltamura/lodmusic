@@ -3,8 +3,11 @@ let router = require('express').Router();
 router.get('/', function (req, res, next) {
 	res.render('index');
 })
-	.get('/form', function (req, res, next) {
-		res.render('form');
+	.get('/addBand', function (req, res, next) {
+		res.render('addBand');
+	})
+	.get('/addArtist', function (req, res, next) {
+		res.render('addArtist');
 	})
 	.get('/resource', function (req, res, next) {
 		//EJS can't read its own GET params directly
