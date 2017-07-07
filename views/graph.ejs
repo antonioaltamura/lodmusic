@@ -111,6 +111,10 @@
 			data: {
 				uri: uri
 			},
+            beforeSend: function() {
+                $("#graph_resource_info span").html("Loading related resources...");
+                $("#graph_resource_info").show().delay(1000).fadeOut(500);
+            },
 			success: function (data) {
 				if (data) {
 					var id = uri;
