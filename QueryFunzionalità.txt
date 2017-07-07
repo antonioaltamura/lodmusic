@@ -226,14 +226,17 @@ SELECT DISTINCT ?name ?abstract ?releaseDate
   FILTER(lang(?abstract) = "en").
       OPTIONAL{<${req.query.uri}>  dbo:album ?album}.
       OPTIONAL{<${req.query.uri}>  dbo:recordLabel ?recordLabel}.
-} group by ?name ?abstract ?releaseDate
+}   
 
 
 
 
  ############## Ricerca di tutti i generi musicali memorizzati ############## -> (1)
+
+ #COMMENTI 
 ?genre è la URI da passare come $param2
 ?genresLiteral è la stringa da mostrare all'utente
+#FINE COMMENTI
 
 PREFIX dbo: <http://dbpedia.org/ontology/>
 SELECT DISTINCT ?genre
@@ -246,8 +249,12 @@ WHERE{
 
 
  ############## Ricerca di tutte le etichette discografiche memorizzate ############## -> (2)
+
+ #COMMENTI
 ?recordLabel è la URI da passare come $param2
 ?recordLabelLiteral è la stringa da mostrare all'utente
+#FINE COMMENTI
+
 PREFIX dbo: <http://dbpedia.org/ontology/>
 SELECT DISTINCT ?recordLabel
 (strafter(str(?recordLabel),'http://dbpedia.org/resource/') as ?recordLabelLiteral)
@@ -255,12 +262,74 @@ WHERE{
   [] dbo:recordLabel ?recordLabel.
 }
 
+
+
+ ############## Ricerca di tutte le band (con autocompletamento) ############## -> (3)
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+SELECT DISTINCT ?band ?name 
+WHERE
+{  
+  ?band a dbo:Band;
+  foaf:name ?name.
+  FILTER regex(?name, "^$"). 
+}
+
+ ############## Ricerca di tutti gli artisti (con autocompletamento) ############## -> (4)
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+SELECT DISTINCT ?artist ?name 
+WHERE
+{  
+  ?artist a umbelrc:MusicalPerformer;
+  foaf:name ?name.
+  FILTER regex(?name, "^"). 
+}
+
+ ############## Ricerca di tutti gli album (con autocompletamento) ############## -> (5)
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+SELECT ?name ?album 
+WHERE{  
+  ?album foaf:name ?name.
+  ?album a schema:MusicAlbum.
+       FILTER regex(?name, "^"). 
+
+}
+
+
+ ############## Ricerca di tutte le band e di tutti gli artisti (con autocompletamento) ############## -> (6)
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+SELECT DISTINCT ?entity ?name 
+WHERE
+{  
+  {?entity a umbelrc:MusicalPerformer} UNION   {?entity a dbo:Band}
+   ?entity foaf:name ?name.
+  FILTER regex(?name, "^"). 
+}
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                                            QUERY DI INSERIMENTO DATI 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
  ############## Inserimento Genere per una Band o un Artista o un Album ##############
+
+ #COMMENTI
 $param1 = URI_band/artist/album
-$param2 = URI_genre -> vedi   ############## Ricerca di tutti i generi musicali memorizzati ############## -> (1)
+$param2 = URI_genre  vedi -> (1)
+#FINE COMMENTI
 
  INSERT DATA
 {
@@ -269,11 +338,159 @@ $param1  dbo:genre $param2.
 
 
  ############## Inserimento Etichetta Discografica per una Track o per un Album ##############
+
+ #COMMENTI
 $param1 = URI_album/track
-$param2 = URI_recordLabel->  ############## Ricerca di tutte le etichette discografiche memorizzate ############## -> (2)
+$param2 = URI_recordLabel vedi -> (2)
+#FINE COMMENTI
 
  INSERT DATA
 {
 $param1  dbo:recordLabel $param2.
 } 
 
+
+
+ ############## Inserimento Artista ##############
+
+ #COMMENTI
+ Può essere tutto null tranne $name
+$uriArtist : Lo dovete costruire come una stringa fatta così: "<http://dbpedia.org/resource/" + trim($name). 
+$name : nome inserito dall'utente.
+$abstract: inserito dall'utente
+$date: data in formato aaaa-mm-dd
+$uriBandRelated: uri della band selezionata tra quelle presenti vedi -> (3)
+$uriArtistRelated: uri dell'artista selezionato tra quelli presenti vedi -> (4)
+$caption: caption inserito dall'utente
+$city: inserità dall'utente
+$uriBand: uri della band selezionata tra quelle presenti  vedi -> (3) 
+#FINE COMMENTI
+
+
+PREFIX schema: <http://schema.org/>
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+INSERT DATA{
+  
+$uriArtist a umbelrc:MusicalPerformer;
+          foaf:name $name;
+          dbo:abstract $abstract;
+          dbo:birthDate $date^^xsd:date;
+            dbo:associatedBand $uriBandRelated;
+            dbo:associatedMusicalArtist $uriArtistRelated;
+            dbp:caption $caption;
+            dbp:origin $city.
+  $uriBand dbp:currentMember $uriArtist.          
+}
+
+
+
+ ############## Inserimento Band ##############
+
+ #COMMENTI
+ Può essere tutto null tranne $name, $uriMember
+
+$uriBand : La dovete costruire come una stringa fatta così: "<http://dbpedia.org/resource/" + trim($name). 
+$name : nome inserito dall'utente.
+$abstract: inserito dall'utente
+$genre : genere scelto dall'utente dalla lista dei generi già presenti vedi -> (1)
+$uriBandRelated: uri della band selezionata tra quelle presenti vedi -> (3)
+$uriArtistRelated: uri dell'artista selezionato tra quelli presenti vedi -> (4)
+$caption: caption inserito dall'utente
+$city: inserità dall'utente
+$uriBand: uri della band selezionata tra quelle presenti  vedi -> (3) 
+$uriMember: uri dell'artista selezionato tra quelli presenti vedi -> (4)
+#FINE COMMENTI
+
+PREFIX schema: <http://schema.org/>
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+INSERT DATA{
+  
+$uriBAND a dbo:Band;
+          foaf:name $name;
+          dbp:website $website;
+          dbo:abstract $abstract;
+          dbo:genre $genre;
+          dbo:associatedBand $uriBandRelated;
+          dbo:associatedMusicalArtist $uriArtistRelated;
+          dbp:caption $caption;
+          dbp:origin $city.
+      dbp:currentMembers $uriMember.        
+}
+
+
+
+ ############## Inserimento Track ##############
+
+ #COMMENTI
+Può essere tutto null tranne $name, $date
+$uriTrack : Lo dovete costruire come una stringa fatta così: "<http://dbpedia.org/resource/" + trim($name). 
+$name : nome della canzone inserita dall'utente
+$abstract : abstract inserito dall'utente
+$uriAlbum : uri scelta dall'utente dalla lista mostrata tramite la query vedi -> (5)
+$recordLabel : uri dell'etichetta discografica vedi -> (2)
+$date: data in formato aaaa-mm-dd
+$uriArtist : artista  o band della canzone vedi query -> (6)
+#FINE COMMENTI
+
+PREFIX schema: <http://schema.org/>
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+INSERT DATA{
+  
+$uriTrack a dbo:MusicalWork;
+      foaf:name $name;
+      dbo:abstract $abstract;
+      dbo:album $uriAlbum;
+      dbo:recordLabel $recordLabel;
+      dbo:releaseDate $date^^xsd:date;
+      dbo:musicalArtist $uriArtist.
+              
+}
+
+
+
+ ############## Inserimento Album ##############
+
+ #COMMENTI
+Può essere tutto null tranne $name e $date
+$uriAlbum : Lo dovete costruire come una stringa fatta così: "<http://dbpedia.org/resource/" + trim($name). 
+$name : nome inserito dall'utente
+$abstract : stringa inserita dall'utente
+$recordLabel: uri ottenuta mediante la query di ricerca delle label vedi -> (2)
+$date: data in formato aaaa-mm-dd
+$genre : genere scelto dall'utente dalla lista dei generi già presenti vedi -> (1)
+$uriArtist: artista o band dell'album  con query vedi -> (6)
+
+#FINE COMMENTI
+
+PREFIX schema: <http://schema.org/>
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+INSERT DATA{
+  
+$uriAlbum a schema:MusicAlbum;
+          foaf:name $name;
+          dbo:abstract $abstract;
+          dbo:recordLabel $recordLabel;
+      dbo:releaseDate $date^^xsd:date;
+      dbo:genre $genre;
+      dbo:artist $uriArtist.
+}
