@@ -184,3 +184,37 @@ SELECT DISTINCT ?name ?abstract ?releaseDate ?artist ?album ?recordLabel
       OPTIONAL{?track dbo:recordLabel ?recordLabel}.
 
 }    
+
+
+
+############## Info track CON AGGREGATION ###############
+
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+SELECT DISTINCT ?name ?abstract ?releaseDate 
+(GROUP_CONCAT(DISTINCT ?recordLabel; separator="(.)(.)") AS ?recordLabels)
+(GROUP_CONCAT(DISTINCT ?artist; separator="(.)(.)") AS ?artists)
+(GROUP_CONCAT(DISTINCT ?album; separator="(.)(.)") AS ?albums)
+     WHERE
+{
+  
+  {<${req.query.uri}>  a umbelrc:MusicSingle} UNION {<${req.query.uri}>  a dbo:MusicalWork}.
+
+  <${req.query.uri}>   foaf:name ?name;
+      dbo:abstract ?abstract;
+      dbo:releaseDate ?date;
+  
+  { <${req.query.uri}>  dbo:musicalArtist [ a umbelrc:MusicalPerformer;
+                                foaf:name ?artist;]}
+  UNION  {<${req.query.uri}> dbo:musicalArtist [ a dbo:Band; 
+  foaf:name ?artist;]} 
+
+
+  FILTER(lang(?abstract) = "en").
+      OPTIONAL{<${req.query.uri}>  dbo:album ?album}.
+      OPTIONAL{<${req.query.uri}>  dbo:recordLabel ?recordLabel}.
+
+}    
