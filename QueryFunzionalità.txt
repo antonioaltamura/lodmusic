@@ -463,7 +463,7 @@ $uriTrack a dbo:MusicalWork;
 
 
 
- ############## Inserimento Band ##############
+ ############## Inserimento Album ##############
 
  #COMMENTI
 Può essere tutto null tranne $name e $date
