@@ -1,47 +1,57 @@
-############## Info artist ##############
-
-PREFIX umbelrc: <http://umbel.org/umbel/rc/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX dbo: <http://dbpedia.org/ontology/>
-
-SELECT DISTINCT ?name ?bDate ?abstract ?image ?relatedArtist ?relatedBand ?origin ?caption
-WHERE
-{
-	$param a umbelrc:MusicalPerformer;
-    foaf:name ?name;
-	dbo:abstract ?abstract;
-	dbo:birthDate ?bDate.
- OPTIONAL{$param dbo:thumbnail ?image}.
- OPTIONAL{?artist dbo:associatedBand ?relatedBand} .
- OPTIONAL{?artist dbo:associatedMusicalArtist ?relatedArtist} .
- OPTIONAL{ ?artist dbp:caption ?caption} .
- OPTIONAL{?artist dbp:origin ?origin} .
-
-}
-
-
-############## Info Artist +  Band (JOIN)##############
+############## Info artist CON AGGREGATION ##############
 
 PREFIX umbelrc: <http://umbel.org/umbel/rc/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>
 
-SELECT DISTINCT ?name ?bDate ?abstract ?image ?band ?relatedArtist ?relatedBand ?origin ?caption
+SELECT DISTINCT  ?name ?bDate ?abstract ?image  ?origin ?caption
+(GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
+(GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
+
 WHERE
 {
-	$param a umbelrc:MusicalPerformer;
-  foaf:name ?name;
-	dbo:abstract ?abstract;
-	dbo:birthDate ?bDate.
-  ?band dbp:currentMembers ?artist.
-  OPTIONAL{?artist dbo:associatedBand ?relatedBand} .
-  OPTIONAL{?artist dbo:associatedMusicalArtist ?relatedArtist} .
-  OPTIONAL{ ?artist dbp:caption ?caption} .
-  OPTIONAL{?artist dbp:origin ?origin} .
-  OPTIONAL{$param dbo:thumbnail ?image}.
+  <${req.query.uri}> a umbelrc:MusicalPerformer;
+    foaf:name ?name;
+  dbo:abstract ?abstract;
+  dbo:birthDate ?bDate.
+ OPTIONAL{<${req.query.uri}> dbo:thumbnail ?image} .
+ OPTIONAL{<${req.query.uri}> dbo:associatedBand ?bandRelated} .
+OPTIONAL{<${req.query.uri}> dbo:associatedMusicalArtist ?artistRelated} .
+ OPTIONAL{<${req.query.uri}> dbp:caption ?caption} .
+ OPTIONAL{<${req.query.uri}> dbp:origin ?origin} .
+}group by ?name  ?bDate ?abstract ?image ?origin ?caption
 
-}
+
+
+############## Info Artist +  Band (JOIN) CON AGGREGATION ##############
+
+PREFIX umbelrc: <http://umbel.org/umbel/rc/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+SELECT DISTINCT  ?name ?bDate ?abstract ?image  ?origin ?caption
+(GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
+(GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
+(GROUP_CONCAT(DISTINCT ?band; separator="(.)(.)") AS ?bands)
+
+WHERE
+{
+  <${req.query.uri}> a umbelrc:MusicalPerformer;
+    foaf:name ?name;
+  dbo:abstract ?abstract;
+  dbo:birthDate ?bDate.
+ OPTIONAL{?band dbp:currentMembers <${req.query.uri}>} .
+ OPTIONAL{<${req.query.uri}> dbo:thumbnail ?image} .
+ OPTIONAL{<${req.query.uri}> dbo:associatedBand ?bandRelated} .
+OPTIONAL{<${req.query.uri}> dbo:associatedMusicalArtist ?artistRelated} .
+ OPTIONAL{<${req.query.uri}> dbp:caption ?caption} .
+ OPTIONAL{<${req.query.uri}> dbp:origin ?origin} .
+}group by ?name  ?bDate ?abstract ?image ?origin ?caption
+
+
+}group by ?name  ?bDate ?abstract ?image ?origin ?caption
 
 
 ############## Band di un artista ##############
@@ -217,4 +227,53 @@ SELECT DISTINCT ?name ?abstract ?releaseDate
       OPTIONAL{<${req.query.uri}>  dbo:album ?album}.
       OPTIONAL{<${req.query.uri}>  dbo:recordLabel ?recordLabel}.
 
-}    
+}   
+
+
+
+
+ ############## Ricerca di tutti i generi musicali memorizzati ############## -> (1)
+?genre è la URI da passare come $param2
+?genresLiteral è la stringa da mostrare all'utente
+
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?genre
+(strafter(str(?genre),'http://dbpedia.org/resource/') as ?genreLiteral)
+WHERE{
+  [] dbo:genre ?genre.
+}
+
+
+
+
+ ############## Ricerca di tutte le etichette discografiche memorizzate ############## -> (2)
+?recordLabel è la URI da passare come $param2
+?recordLabelLiteral è la stringa da mostrare all'utente
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?recordLabel
+(strafter(str(?recordLabel),'http://dbpedia.org/resource/') as ?recordLabelLiteral)
+WHERE{
+  [] dbo:recordLabel ?recordLabel.
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                           QUERY DI INSERIMENTO DATI 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ############## Inserimento Genere per una Band o un Artista o un Album ##############
+$param1 = URI_band/artist/album
+$param2 = URI_genre -> vedi   ############## Ricerca di tutti i generi musicali memorizzati ############## -> (1)
+
+ INSERT DATA
+{
+$param1  dbo:genre $param2.
+}                                            
+
+
+ ############## Inserimento Etichetta Discografica per una Track o per un Album ##############
+$param1 = URI_album/track
+$param2 = URI_recordLabel->  ############## Ricerca di tutte le etichette discografiche memorizzate ############## -> (2)
+
+ INSERT DATA
+{
+$param1  dbo:recordLabel $param2.
+} 
