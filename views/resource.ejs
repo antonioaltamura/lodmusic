@@ -114,8 +114,9 @@
 		success: function (data) {
 			$(".page-loader div").fadeOut();
 			$(".page-loader").delay(200).fadeOut("slow");
+			var props = data.results.bindings[0];
+
 			if (data.results.bindings.length > 0) {
-				var props = data.results.bindings[0];
 				$.each(props, function (k, v) {
 					var value = v.value;
 					if (value.match(/^http([s]?):\/\/.*/)) {

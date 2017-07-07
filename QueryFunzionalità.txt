@@ -226,9 +226,7 @@ SELECT DISTINCT ?name ?abstract ?releaseDate
   FILTER(lang(?abstract) = "en").
       OPTIONAL{<${req.query.uri}>  dbo:album ?album}.
       OPTIONAL{<${req.query.uri}>  dbo:recordLabel ?recordLabel}.
-
-<<<<<<< HEAD
-}   
+} group by ?name ?abstract ?releaseDate
 
 
 

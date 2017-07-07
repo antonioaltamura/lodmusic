@@ -53,3 +53,13 @@ a.ui-button:active,
 .count-title {
     font-size: 30px;
 }
+
+#graph_resource_info{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: #313131;
+    color: white;
+}

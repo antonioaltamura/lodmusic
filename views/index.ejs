@@ -97,7 +97,7 @@
                         <div class="banner-content">
                             <h3 class="banner-heading font-alt">Search</h3>
                             <div class="banner-decription">
-                                <form method="get" action="resource" id="form" role="form" class="form">
+                                <form method="get" id="form" role="form" class="form">
                                     <div class="mb-20 mb-md-10">
                                         <div class="row">
                                             <div class="col-sm-12 col-md-3">
@@ -118,10 +118,9 @@
                                     </div>
                                     <div class="local-scroll">
                                         <input type="hidden" id="uri" name="uri"/>
-                                        <button type="submit" id="submit_button" disabled
-                                                class="btn btn-mod btn-w btn-medium btn-round">Link it!
-                                        </button>
-                                        <a href="graph" class="btn btn-mod btn-w btn-medium btn-round">View Graph</a>
+                                        <button type="submit" formaction="resource" disabled class="submit btn btn-mod btn-w btn-medium btn-round">Link it!</button>
+                                        <button type="submit" formaction="graph" disabled class="submit btn btn-mod btn-w btn-medium btn-round">View Graph!</button>
+
                                     </div>
                                 </form>
                             </div>
@@ -218,7 +217,7 @@
                             <div class="contact-item">
                                 <div class="ci-icon"><i class="fa fa-envelope"></i></div>
                                 <div class="ci-title font-alt"> Antonio Altamura</div>
-                                <div class="ci-text"><a href="mailto:support@gmail.pro">support@gmail.pro</a></div>
+                                <div class="ci-text"><a href="mailto:antonioaltamura7@gmail.com">antonioaltamura7@gmail.com</a></div>
                             </div>
                         </div>
                         <!-- End Email -->
@@ -227,7 +226,7 @@
                             <div class="contact-item">
                                 <div class="ci-icon"><i class="fa fa-envelope"></i></div>
                                 <div class="ci-title font-alt"> Mario Villani</div>
-                                <div class="ci-text"><a href="mailto:support@gmail.pro">support@gmail.pro</a></div>
+                                <div class="ci-text"><a href="mailto:metalmario90@gmail.com">metalmario90@gmail.com</a></div>
                             </div>
                         </div>
                         <!-- End Email -->
@@ -236,7 +235,7 @@
                             <div class="contact-item">
                                 <div class="ci-icon"><i class="fa fa-envelope"></i></div>
                                 <div class="ci-title font-alt"> Alessandra Zullo</div>
-                                <div class="ci-text"><a href="mailto:support@gmail.pro">support@gmail.pro</a></div>
+                                <div class="ci-text"><a href="mailto:alessandra.zullo1@gmail.com">alessandra.zullo1@gmail.com</a></div>
                             </div>
                         </div>
                         <!-- End Email -->
@@ -273,7 +272,8 @@
 			},
 			select: function (event, ui) {
 				$('#uri').val(ui.item.uri);
-				$('#submit_button').removeAttr('disabled');
+				$('.submit').removeAttr('disabled');
+				$('.submit').removeAttr('disabled');
 				return false;
 			}
 		}).autocomplete("instance")._renderItem = function (ul, item) {

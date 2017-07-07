@@ -93,7 +93,7 @@ VALUES ?s { <${req.query.uri}> }
  OPTIONAL{?s dbo:associatedMusicalArtist ?artistRelated} .
  OPTIONAL{?s dbp:caption ?caption} .
  OPTIONAL{?s dbp:origin ?origin} .
-}  group by ?name ?bDate ?abstract ?image ?origin ?caption
+}  group by ?name ?bDate ?abastract ?image ?origin ?caption
 `, function (r) {
 		if (r.error) {
 			res.json(r);
@@ -106,25 +106,30 @@ router.get('/track', function (req, res) {
 	if (!req.query.uri)
 		res.status(400).json({message: 'No query param'});
 	sparql.query(`
-	SELECT DISTINCT ?name ?abstract ?releaseDate ?artist ?album ?recordLabel
+SELECT DISTINCT ?name ?abstract ?releaseDate 
+(GROUP_CONCAT(DISTINCT ?recordLabel; separator="(.)(.)") AS ?recordLabels)
+(GROUP_CONCAT(DISTINCT ?artist; separator="(.)(.)") AS ?artists)
+(GROUP_CONCAT(DISTINCT ?album; separator="(.)(.)") AS ?albums)
      WHERE
 {
-VALUES ?s { <${req.query.uri}> }
+  VALUES ?s { <${req.query.uri}> }
+
   {?s a umbelrc:MusicSingle} UNION {?s a dbo:MusicalWork}.
-  ?s  foaf:name ?name;
+
+  ?s   foaf:name ?name;
       dbo:abstract ?abstract;
       dbo:releaseDate ?date;
-  { ?s dbo:musicalArtist [ a umbelrc:MusicalPerformer;
+  
+  { ?s  dbo:musicalArtist [ a umbelrc:MusicalPerformer;
                                 foaf:name ?artist;]}
-  UNION  {?s dbo:musicalArtist [ a dbo:Band;
-  foaf:name ?artist;]}      
+  UNION  {?s dbo:musicalArtist [ a dbo:Band; 
+  foaf:name ?artist;]} 
+
+
   FILTER(lang(?abstract) = "en").
-      OPTIONAL{?s dbo:album ?album}.
-      OPTIONAL{?s dbo:recordLabel ?recordLabel}.
-
-}  
-
-
+      OPTIONAL{?s  dbo:album ?album}.
+      OPTIONAL{?s  dbo:recordLabel ?recordLabel}.
+} group by ?name ?abstract ?releaseDate 
 `, function (r) {
 		if (r.error) {
 			res.json(r);
@@ -136,65 +141,35 @@ VALUES ?s { <${req.query.uri}> }
 router.get('/related', function (req, res) {
 	if (!req.query.uri)
 		res.status(400).json({message: 'No query param'});
-	sparql.query(`SELECT DISTINCT ?name ?image ?abstract ?type
+	sparql.query(`
+SELECT DISTINCT ?name ?image ?abstract ?type
+(GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
+(GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
 WHERE {
   VALUES ?q {<${req.query.uri}>}
   { ?q a umbelrc:MusicalPerformer } UNION { ?q a dbo:Band }.
   ?q a ?type;
    		foaf:name ?name;
       	dbo:abstract ?abstract .
-   OPTIONAL{?q dbo:image ?image} .
-}`, function (r) {
+	OPTIONAL{?q dbo:associatedBand ?bandRelated} .
+ 	OPTIONAL{?q dbo:associatedMusicalArtist ?artistRelated} .
+ 	OPTIONAL{?q dbo:image ?image} .
+} group by  ?name ?image ?abstract ?type
+`, function (r) {
 		if (r.error) {
 			res.json(r);
 		}
 		let o = JSON.parse(r).results.bindings[0];
 		//check if the resource exists
-		if (o) {
-			var type = o.type==="http://dbpedia.org/ontology/Band" ? 'band' : 'artist';
-			res.json({name: o.name, image: o.image, abstract: o.abstract, type:type});
+		if (Object.keys(o).length !== 0) {
+
+			o.type = o.type==="http://dbpedia.org/ontology/Band" ? 'band' : "http://umbel.org/umbel/rc/MusicalPerformer" ? 'artist': null;
+			res.json(o);
+			// maybe TODO artistRelateds & bandRelateds split serverside
 		}
 		else
 			res.status(404).json({error: 'Not found'});
 	})
 });
-
-
-/* -------- specific related ------
-router.get('/related/:type', function (req, res) {
-	let type = req.params.type && req.params.type=== "artist" ? "umbelrc:MusicalPerformer" : "dbo:Band";
-
-	if (!req.query.uri)
-		res.status(400).json({message: 'No query param'});
-	sparql.query(`SELECT DISTINCT ?name ?image ?abstract
-WHERE {
-  VALUES ?q {<${req.query.uri}>}
-   ?q a ${type}.
-   ?q foaf:name ?name;
-      	dbo:abstract ?abstract .
-   OPTIONAL{?q dbo:image ?image} .
-}`, function (r) {
-		if (r.error) {
-			res.json(r);
-		}
-		let o = JSON.parse(r).results.bindings[0];
-		//check if the resource exists
-		if (o)
-			res.json({name: o.name, image: o.image, abstract: o.abstract});
-		else
-			res.status(404).json({error: 'Not found'});
-
-	})
-});
-
-let mapResults = (results) => {
-	let o = JSON.parse(results).results.bindings[0];
-	//check if the resource exists
-	if (o)
-		return {name: o.name, image: o.image, abstract: o.abstract};
-	else
-		return {error: 'Not found'};
-};
-*/
 
 module.exports = router;
