@@ -278,6 +278,4 @@ $param2 = URI_recordLabel->  ############## Ricerca di tutte le etichette discog
 {
 $param1  dbo:recordLabel $param2.
 } 
-=======
-}     group by ?name  ?abstract ?releaseDate
->>>>>>> c235d07e595be34c88ad48f250c13ea4e56e3651
+
