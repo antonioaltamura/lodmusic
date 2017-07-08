@@ -54,16 +54,20 @@ a.ui-button:active,
     font-size: 30px;
 }
 
-#graph_resource_info{
-    display: none;
+.message_wrapper {
     position: absolute;
     bottom: 0;
     right: 0;
+    z-index: 1;
+
+}
+.message,
+.message-sticky{
+    display: none;
     text-align: center;
     background: #313131;
     color: white;
-    z-index: 1;
-    margin: 15px;
+    margin: 5px;
 }
 
 /* --------------------- bootstrap tags input & typeahead ---------------------*/

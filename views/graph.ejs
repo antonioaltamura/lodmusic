@@ -39,8 +39,13 @@
 <div class="page" id="top">
 
     <section class="home-section bg-dark parallax-1">
-        <div id="graph_resource_info" class="alert">
+        <div class="message_wrapper">
+        <div  class="message alert">
             <i class="fa fa-lg fa-comments-o"></i> <span></span>
+        </div>
+        <div  class="message-sticky alert">
+            <i class="fa fa-lg fa-comments-o"></i> <span></span>
+        </div>
         </div>
         <div class="js-height-full" id="graph">
 
@@ -98,17 +103,44 @@
 	else
 		graph.nodes.add({id: 0, label: 'No resource found'})
 
+	network.on('click', function (prop) {
+		var node = graph.nodes.get(prop.nodes[0]);
+		if (node.id) {
+			console.log(node)
+			stickyMessage.show(`<a target="_blank" href="resource?resourceType=${node.type}&uri=${encodeURIComponent(node.id)}">${node.label}</a>`)
+		}
+		else {
+			stickyMessage.hide()
+		}
+
+    });
 	network.on('doubleClick', function (prop) {
 		var node = graph.nodes.get(prop.nodes[0]);
 		if (node.id) {
 			console.log("Clicked node: ", node);
 			getInfo(node.id)
+
 		}
 		else {
 			console.log("Clicked empty area");
 		}
 
 	});
+
+
+	function message (text) {
+		$(".message span").html(text)
+		$(".message").fadeIn(100).delay(1000).fadeOut(500);
+	}
+	var stickyMessage = {
+		show: function (text) {
+			$(".message-sticky span").html(text)
+			$(".message-sticky").fadeIn(100);
+		},
+		hide: function(){
+			$(".message-sticky").fadeOut(500);
+		}
+	}
 
 	function getInfo(uri) {
 		$.ajax({
@@ -118,14 +150,13 @@
 				uri: uri
 			},
 			beforeSend: function () {
-				$("#graph_resource_info span").html("Loading related resources...");
-				$("#graph_resource_info").show().delay(1000).fadeOut(500);
+				message("Loading related resources...");
 			},
 			success: function (data) {
 				if (data) {
 					var id = uri;
 					var name = data.name.value;
-					var node = {id: id, label: data.name.value};
+					var node = {id: id, label: data.name.value, type:data.type};
 
 					if (data.image && data.image.value) {
 						var img = data.image.value;
@@ -146,7 +177,7 @@
 								},
 								success: function (r) {
 									if (r.name) {
-										var node = {id: rel_uri, label: r.name.value};
+										var node = {id: rel_uri, label: r.name.value, type:r.type};
 										if (r.image && r.image.value) {
 											var img = r.image.value;
 											Object.assign(node, {shape: "circularImage", image: img});
@@ -166,17 +197,16 @@
 							});
 						});
 					} else {
-						$("#graph_resource_info span").html("No related resource")
-						$("#graph_resource_info").show().delay(2000).fadeOut(500);
+						message("No related resource")
+
 					}
 				}
 				else {
-					$("#graph_resource_info span").html("No resource found")
-					$("#graph_resource_info").show().delay(1000).fadeOut(500);
+					message("No resource found")
 				}
 			}
 		}).fail(function (e) {
-			console.log(e);
+			message(e);
 		})
 	}
 
@@ -194,6 +224,7 @@
 			return false;
 		}
 	}
+
 
 
 </script>

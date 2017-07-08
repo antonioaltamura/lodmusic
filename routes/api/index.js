@@ -93,7 +93,12 @@ VALUES ?s { <${req.query.uri}> }
  OPTIONAL{?s dbo:associatedMusicalArtist ?artistRelated} .
  OPTIONAL{?s dbp:caption ?caption} .
  OPTIONAL{?s dbp:origin ?origin} .
-}  group by ?name ?bDate ?abastract ?image ?origin ?caption
+}  group by ?name
+?bDate
+?abstract
+?image
+?origin
+?caption
 `, function (r) {
 		if (r.error) {
 			res.json(r);
