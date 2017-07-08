@@ -102,7 +102,7 @@ VALUES ?s { <${req.query.uri}> }
 	})
 });
 
-router.get('/track', function (req, res) {
+router.get('/albumTrack', function (req, res) {
 	if (!req.query.uri)
 		res.status(400).json({message: 'No query param'});
 	sparql.query(`
