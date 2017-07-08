@@ -44,7 +44,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Add an Artist</h1>
-                    <div class="hs-line-4 font-alt black"> </div>
+                    <div class="hs-line-4 font-alt black"></div>
                 </div>
             </div>
         </div>
@@ -56,7 +56,8 @@
             <form method="post" action="#" id="form" role="form" class="form">
                 <div class="row">
                     <div class="col-sm-12 mb-20">
-                        <input type="text"  class="input-md form-control" placeholder="foaf:name" name="name" maxlength="100" required/>
+                        <input type="text" class="input-md form-control" placeholder="foaf:name" name="name"
+                               maxlength="100" required/>
                     </div>
                 </div>
                 <div class="row">
@@ -85,27 +86,29 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 mb-20">
-                        <input type="text" class="input-md form-control" id="associatedBand" placeholder="dbo:associatedBand"
+                        <input type="text" class="input-md form-control" id="associatedBand"
+                               placeholder="dbo:associatedBand"
                                name="associatedBand"
                                maxlength="100"/>
                     </div>
                     <div class="col-sm-6 mb-20">
-                        <input type="text" class="input-md form-control" id="associatedMusicalArtist" placeholder="dbo:associatedMusicalArtist"
+                        <input type="text" class="input-md form-control" id="associatedMusicalArtist"
+                               placeholder="dbo:associatedMusicalArtist"
                                name="associatedMusicalArtist"
                                maxlength="100"/>
                     </div>
 
                 </div>
-                    <div class="row">
-                        <div class="col-sm-6 mb-20">
-                            <input type="text" class="input-md form-control" placeholder="dbp:caption" name="caption"
-                                   maxlength="100"/>
-                        </div>
-                        <div class="col-sm-6 mb-20">
-                            <input type="url" class="input-md form-control" placeholder="dbo:image" name="image"
-                                   maxlength="100"/>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-6 mb-20">
+                        <input type="text" class="input-md form-control" placeholder="dbp:caption" name="caption"
+                               maxlength="100"/>
                     </div>
+                    <div class="col-sm-6 mb-20">
+                        <input type="url" class="input-md form-control" placeholder="dbo:image" name="image"
+                               maxlength="100"/>
+                    </div>
+                </div>
                 <button id="submit" class="btn btn-mod btn-large btn-round">Save</button>
             </form>
             <!-- End Row -->
@@ -121,32 +124,26 @@
 <%- include blocks/scripts %>
 <script>
 
+    $('#associatedMusicalArtist').LodTags('artist');
+    $('#associatedBand').LodTags('band');
 
+    $("#submit").click(function (e) {
+        var obj = $('#form').serializeObject();
+        obj.associatedMusicalArtist = $("#associatedMusicalArtist").tagsinput('items');
+        obj.associatedBand = $("#associatedBand").tagsinput('items');
+        console.log(obj);
+        $.ajax({
+            url: "/api/artist",
+            //dataType: "json",
+            type: "POST",
+            data: obj,
+            success: function (data) {
+                console.log(data)
+            }
+        });
+        e.preventDefault()
 
-$('#genres').LodTags('genres');
-$('#associatedMusicalArtist').LodTags('artist');
-$('#currentMembers').LodTags('artist');
-$('#associatedBand').LodTags('band');
-$('#band').LodTags('band');
-
-
-
-		$("#submit").click(function(e){
-
-			var obj = $('#form').serializeObject();
-			obj.associatedMusicalArtist = $("#associatedMusicalArtist").tagsinput('items');
-			obj.associatedBand = $("#associatedBand").tagsinput('items');
-			obj.genres = $("#genres").tagsinput('items');
-			obj.currentMembers = $("#currentMembers").tagsinput('items');
-			console.log(obj)
-			e.preventDefault()
-
-
-
-
-		});
-
-
+    });
 
 </script>
 </body>
