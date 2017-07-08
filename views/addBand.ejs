@@ -52,7 +52,7 @@
     <!-- Section -->
     <section class="page-section">
         <div class="message_wrapper">
-            <div  class="message alert">
+            <div class="message alert">
                 <i class="fa fa-lg fa-comments-o"></i> <span></span>
             </div>
         </div>
@@ -61,7 +61,8 @@
             <form method="post" action="#" id="form" role="form" class="form">
                 <div class="row">
                     <div class="col-sm-12 mb-20">
-                        <input type="text"  class="input-md form-control" placeholder="foaf:name" name="name" maxlength="100" required/>
+                        <input type="text" class="input-md form-control" placeholder="foaf:name" name="name"
+                               maxlength="100" required/>
                     </div>
                 </div>
                 <div class="row">
@@ -89,12 +90,14 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 mb-20">
-                        <input type="text" class="input-md form-control" id="associatedBand" placeholder="dbo:associatedBand"
+                        <input type="text" class="input-md form-control" id="associatedBand"
+                               placeholder="dbo:associatedBand"
                                name="associatedBand"
                                maxlength="100"/>
                     </div>
                     <div class="col-sm-6 mb-20">
-                        <input type="text" class="input-md form-control" id="associatedMusicalArtist" placeholder="dbo:associatedMusicalArtist"
+                        <input type="text" class="input-md form-control" id="associatedMusicalArtist"
+                               placeholder="dbo:associatedMusicalArtist"
                                name="associatedMusicalArtist"
                                maxlength="100"/>
                     </div>
@@ -103,21 +106,22 @@
                 <div class="row">
 
                     <div class="col-sm-12 mb-20">
-                        <input type="text" class="input-md form-control" id="currentMembers" placeholder="dbp:currentMembers"
+                        <input type="text" class="input-md form-control" id="currentMembers"
+                               placeholder="dbp:currentMembers"
                                name="currentMembers"
                                maxlength="100"/>
                     </div>
                 </div>
-                    <div class="row">
-                        <div class="col-sm-6 mb-20">
-                            <input type="text" class="input-md form-control" placeholder="dbp:caption" name="caption"
-                                   maxlength="100"/>
-                        </div>
-                        <div class="col-sm-6 mb-20">
-                            <input type="url" class="input-md form-control" placeholder="dbo:image" name="image"
-                                   maxlength="100"/>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-6 mb-20">
+                        <input type="text" class="input-md form-control" placeholder="dbp:caption" name="caption"
+                               maxlength="100"/>
                     </div>
+                    <div class="col-sm-6 mb-20">
+                        <input type="url" class="input-md form-control" placeholder="dbo:image" name="image"
+                               maxlength="100"/>
+                    </div>
+                </div>
                 <button id="submit" class="btn btn-mod btn-large btn-round">Save</button>
             </form>
         </div>
@@ -128,40 +132,40 @@
 <%- include blocks/scripts %>
 <script>
 
-$('#genres').LodTags('genres');
-$('#associatedMusicalArtist').LodTags('artist');
-$('#currentMembers').LodTags('artist');
-$('#associatedBand').LodTags('band');
-$('#band').LodTags('band');
+    $('#genres').LodTags('genres');
+    $('#associatedMusicalArtist').LodTags('artist');
+    $('#currentMembers').LodTags('artist');
+    $('#associatedBand').LodTags('band');
+    $('#band').LodTags('band');
 
-		$("#submit").click(function(e){
-			e.preventDefault()
-			var obj = $('#form').serializeObject();
-			obj.associatedMusicalArtist = $("#associatedMusicalArtist").tagsinput('items');
-			obj.associatedBand = $("#associatedBand").tagsinput('items');
-			obj.genres = $("#genres").tagsinput('items');
-			obj.currentMembers = $("#currentMembers").tagsinput('items');
+    $("#submit").click(function (e) {
+        e.preventDefault()
+        var obj = $('#form').serializeObject();
+        obj.associatedMusicalArtist = $("#associatedMusicalArtist").tagsinput('items');
+        obj.associatedBand = $("#associatedBand").tagsinput('items');
+        obj.genres = $("#genres").tagsinput('items');
+        obj.currentMembers = $("#currentMembers").tagsinput('items');
 
-			$.ajax({
-				url: "/api/band",
-				//dataType: "json",
-				type: "POST",
-				data: obj,
-				success: function (data) {
-					if(data) {
-						window.location.replace(`resource?resourceType=${data.type}&uri=${encodeURIComponent(data.uri)}`)
-                    } else {
-						message("Error saving resorce")
-                    }
-				}
-			});
+        $.ajax({
+            url: "/api/band",
+            //dataType: "json",
+            type: "POST",
+            data: obj,
+            success: function (data) {
+                if (data) {
+                    window.location.replace(`resource?resourceType=${data.type}&uri=${encodeURIComponent(data.uri)}`)
+                } else {
+                    message("Error saving band resource")
+                }
+            }
+        });
 
-		});
+    });
 
-function message (text) {
-	$(".message span").html(text)
-	$(".message").fadeIn(100).delay(1000).fadeOut(500);
-}
+    function message(text) {
+        $(".message span").html(text)
+        $(".message").fadeIn(100).delay(1000).fadeOut(500);
+    }
 
 </script>
 </body>

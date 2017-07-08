@@ -138,7 +138,11 @@
             type: "POST",
             data: obj,
             success: function (data) {
-                console.log(data)
+                if (data) {
+                    window.location.replace(`resource?resourceType=${data.type}&uri=${encodeURIComponent(data.uri)}`)
+                } else {
+                    message("Error saving artist resource")
+                }
             }
         });
         e.preventDefault()
