@@ -171,19 +171,11 @@ router.post('/band', function (req, res) {
 
 	sparql.query(`INSERT DATA{
 
-		$uriBAND a dbo:Band;
-		foaf:name $name;
-		dbp:website $website;
-		dbo:abstract $abstract;
-		dbo:genre $genre;
-		dbo:associatedBand $uriBandRelated;
-		dbo:associatedMusicalArtist $uriArtistRelated;
-		dbp:caption $caption;
-		dbp:origin $city.
-			dbp:currentMembers $uriMember.
+<http://dbpedia.org/resource/American_Head_Charge> dbo:genre <http://dbpedia.org/resource/Spop>.
+		
 	}`, function(r){
 
-	});
+	},{insert:true});
 });
 
 module.exports = router;

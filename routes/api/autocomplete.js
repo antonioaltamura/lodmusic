@@ -66,7 +66,6 @@ WHERE
 	?album a schema:MusicAlbum.
     FILTER regex(?name, "^${req.query.name}","i").
 }`, function (r) {
-        console.log(r);
         let json = JSON.parse(r);
         let result = json.results.bindings.map(function (item) {
             return {name: item.name.value, uri: item.album.value};
@@ -86,7 +85,7 @@ router.get('/genres',function(req,res){
 (strafter(str(?genre),'http://dbpedia.org/resource/') as ?text)
 WHERE{
   [] dbo:genre ?genre .
- #  FILTER regex(?genre, "^",'i'). 
+   # FILTER regex(?genre, "(${req.query.name})","i").
 }ORDER BY ASC(?text)
 LIMIT 10
 `, function (r) {
