@@ -72,7 +72,7 @@ a.ui-button:active,
     border-radius: 0;
     border: 1px solid rgba(0,0,0, .1);
     padding: 3px;
-    height:37px
+    min-height:38px
 }
 .bootstrap-tagsinput:hover {
     border-color: rgba(0,0,0, .2);

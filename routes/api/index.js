@@ -1,6 +1,7 @@
 "use strict";
 let router = require('express').Router();
 let sparql = require('../sparql');
+let queryBuilder = require('../queryBuilder');
 
 
 router.get('/band', function (req, res) {
@@ -156,7 +157,7 @@ WHERE {
 		let o = JSON.parse(r).results.bindings[0];
 		//check if the resource exists
 		if (Object.keys(o).length !== 0) {
-			o.type = o.type.value==="http://dbpedia.org/ontology/Band" ? 'band' : "http://umbel.org/umbel/rc/MusicalPerformer" ? 'artist': null;
+			o.type = o.type.value === "http://dbpedia.org/ontology/Band" ? 'band' : "http://umbel.org/umbel/rc/MusicalPerformer" ? 'artist' : null;
 			res.json(o);
 			// maybe TODO artistRelateds & bandRelateds split serverside
 		}
@@ -165,17 +166,15 @@ WHERE {
 	})
 });
 
-
 router.post('/band', function (req, res) {
-	res.status(400).json({message: 'Not done yet'});
 
-	sparql.query(`INSERT DATA{
+	var object = res.body;
 
-<http://dbpedia.org/resource/American_Head_Charge> dbo:genre <http://dbpedia.org/resource/Spop>.
-		
-	}`, function(r){
+	sparql.query(queryBuilder.build(object),
+		function (r) {
+			res.json(r)
+		}, {insert: true});
 
-	},{insert:true});
 });
 
 module.exports = router;

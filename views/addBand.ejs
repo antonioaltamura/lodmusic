@@ -158,9 +158,19 @@ $('#band').LodTags('band');
 			obj.genres = $("#genres").tagsinput('items');
 			obj.currentMembers = $("#currentMembers").tagsinput('items');
 			console.log(obj)
+
+
+
+			$.ajax({
+				url: "/api/band",
+				dataType: "json",
+				type: "POST",
+				data: obj,
+				success: function (data) {
+					console.log(data)
+				}
+			});
 			e.preventDefault()
-
-
 
 
 		});
