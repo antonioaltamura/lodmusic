@@ -174,7 +174,7 @@ WHERE {
 router.post('/band', function (req, res) {
 
 	let o = req.body;
-	console.log(o)
+	console.log(o);
 	let r = `<http://dbpedia.org/resource/${o.name}>`;
 	let query = `	
 	INSERT DATA{
@@ -193,6 +193,31 @@ router.post('/band', function (req, res) {
 		function (r) {
 			res.json(r)
 		}, {insert: true});
+
+});
+
+router.post('/artist', function (req, res) {
+
+    let o = req.body;
+    console.log(o);
+    let r = `<http://dbpedia.org/resource/${o.name}>`;
+    let query = `	
+	INSERT DATA{
+	${r} a umbelrc:MusicalPerformer.
+	${r} foaf:name "${o.name}" .
+	${r} dbo:birthdate"${o.birthDate}" .
+	${o.abstract ? (r + ' dbo:abstract "' + o.abstract) + '" .' : ''}
+	${o.image ? (r + ' dbo:thumbnail "' + o.image) + '" .' : ''}
+	${o.origin ? (r + ' dbo:origin "' + o.origin) + '" .' : ''}
+	${o.caption ? (r + ' dbp:caption "' + o.caption) + '" .' : ''}
+	${o.image ? (r + ' dbo:image "' + o.image) + '" .' : ''}
+	${o.associatedBand ? o.associatedBand.map(i => `${r} dbo:associatedBand  <${i.uri}> .`).join('\n      ') : ''}
+	${o.associatedMusicalArtist ? o.associatedMusicalArtist.map(i => `${r} dbo:associatedMusicalArtist  <${i.uri}> . `).join('\n      ') : ''}
+	}`;
+    sparql.query(query,
+        function (r) {
+            res.json(r)
+        }, {insert: true});
 
 });
 
