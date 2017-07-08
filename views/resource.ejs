@@ -105,82 +105,83 @@
 
 <script type="text/javascript">
 
-	$.ajax({
-		url: "/api/<%= resourceType || null %>/",
-		dataType: "json",
-		data: {
-			uri: '<%= uri || null %>'
-		},
-		success: function (data) {
-			$(".page-loader div").fadeOut();
-			$(".page-loader").delay(200).fadeOut("slow");
-			var props = data.results.bindings[0];
+    $.ajax({
+        url: "/api/<%= resourceType || null %>/",
+        dataType: "json",
+        data: {
+            uri: '<%= uri || null %>'
+        },
+        success: function (data) {
+            $(".page-loader div").fadeOut();
+            $(".page-loader").delay(200).fadeOut("slow");
+            var props = data.results.bindings[0];
 
-			if (data.results.bindings.length > 0) {
-				$.each(props, function (k, v) {
-					var value = v.value;
-					if (value.match(/^http([s]?):\/\/.*/)) {
-						var splitted = value.split("(.)(.)");
-						value = "";
-						splitted.forEach(function (entry) {
-							value = value + '<a href="' + entry + '">' + entry + '</a><br />';
-						});
-					}
-					$('[data-resource=' + k + ']').html(value);
-					$("#details").append(
-						`<div class="row">
+            if (data.results.bindings.length > 0) {
+                $.each(props, function (k, v) {
+                    var value = v.value;
+                    var splitted = value.split("(.)(.)");
+                    value = "";
+                    splitted.forEach(function (entry) {
+                        if (entry.match(/^http([s]?):\/\/.*/))
+                            value = value + '<a href="' + entry + '">' + entry + '</a><br />';
+                        else
+                            value = value + entry + "<br />";
+                    });
+                    $('[data-resource=' + k + ']').html(value);
+                    $("#details").append(
+                        `<div class="row">
                              <div class="col-md-4"><strong>${k}</strong></div>
                              <div id="${k}_tab" class="col-md-8"> ${value}</div>
 				         </div>`);
-				});
-				if (props.image) {
-					$('.photography').show();
-					var fullimage = props.image.value.split("?")[0];
-					$('[data-resource=image]').attr('src', props.image.value);
-					$('[data-resource=background_image]').css({'background-image': `url(${fullimage})`})
-					$('.work-lightbox-link').attr("href", fullimage);
-				}
-				if (props.artistRelateds || props.bandRelateds) {
-					$('#related_wrapper').show();
-					var tmpl = $.templates("#relatedItem");
-					var artistRelateds = props.artistRelateds ? props.artistRelateds.value.split("(.)(.)") : [];
-					var bandRelateds = props.bandRelateds ? props.bandRelateds.value.split("(.)(.)") : [];
-					artistRelateds.concat(bandRelateds).forEach(function (uri) {
-						$.ajax({
-							url: "/api/related",
-							dataType: "json",
-							data: {
-								uri: uri
-							},
-							success: function (r) {
-								if (r.name) {
-									r.url = `resource?resourceType=${r.type}&uri=${encodeURIComponent(uri)}`
-									$('#related').append(tmpl.render(r));
-								}
-							}
-						});
-					});
-				}
-			}
-			else $('[data-resource=name]').html("No resource found")
-		}
-	}).fail(function (e) {
-		console.log(e);
-	})
+                });
+                if (props.image) {
+                    $('.photography').show();
+                    var fullimage = props.image.value.split("?")[0];
+                    $('[data-resource=image]').attr('src', props.image.value);
+                    $('[data-resource=background_image]').css({'background-image': `url(${fullimage})`})
+                    $('.work-lightbox-link').attr("href", fullimage);
+                }
+                if (props.artistRelateds || props.bandRelateds) {
+                    $('#related_wrapper').show();
+                    var tmpl = $.templates("#relatedItem");
+                    var artistRelateds = props.artistRelateds ? props.artistRelateds.value.split("(.)(.)") : [];
+                    var bandRelateds = props.bandRelateds ? props.bandRelateds.value.split("(.)(.)") : [];
+                    artistRelateds.concat(bandRelateds).forEach(function (uri) {
+                        $.ajax({
+                            url: "/api/related",
+                            dataType: "json",
+                            data: {
+                                uri: uri
+                            },
+                            success: function (r) {
+                                if (r.name) {
+                                    r.url = `resource?resourceType=${r.type}&uri=${encodeURIComponent(uri)}`
+                                    $('#related').append(tmpl.render(r));
+                                }
+                            }
+                        });
+                    });
+                }
+            }
+            else $('[data-resource=name]').html("No resource found")
+        }
+    }).fail(function (e) {
+        console.log(e);
+    })
 
-	function urlExists(url, cb) {
-		$.ajax({
-			url: url,
-			type: 'GET',
-			crossDomain: true,
-			dataType: 'jsonp',
+    function urlExists(url, cb) {
+        $.ajax({
+            url: url,
+            type: 'GET',
+            crossDomain: true,
+            dataType: 'jsonp',
 
-			complete: function (xhr) {
-				if (typeof cb === 'function')
-					cb.apply(this, [xhr.status]);
-			}
-		});
-	}
+            complete: function (xhr) {
+                if (typeof cb === 'function')
+                    cb.apply(this, [xhr.status]);
+            }
+        });
+    }
 </script>
 
 <%- include blocks/related.ejs %>
