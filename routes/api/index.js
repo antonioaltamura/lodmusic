@@ -5,9 +5,9 @@ let queryBuilder = require('../queryBuilder');
 
 
 router.get('/band', function (req, res) {
-	if (!req.query.uri)
-		res.status(400).json({message: 'No query param'});
-	sparql.query(`
+    if (!req.query.uri)
+        res.status(400).json({message: 'No query param'});
+    sparql.query(`
 SELECT ?name
 ?image
 ?abstract
@@ -33,16 +33,16 @@ VALUES ?s { <${req.query.uri}> }
 #                                    FILTER LANGMATCHES(LANG(?abstract ), "en")
 } group by ?name  ?abstract ?image ?origin ?caption
 `, function (r) {
-		if (r.error) {
-			res.json(r);
-		}
-		res.json(JSON.parse(r));
-	})
+        if (r.error) {
+            res.json(r);
+        }
+        res.json(JSON.parse(r));
+    })
 });
 router.get('/album', function (req, res) {
-	if (!req.query.uri)
-		res.status(400).json({message: 'No query param'});
-	sparql.query(`	
+    if (!req.query.uri)
+        res.status(400).json({message: 'No query param'});
+    sparql.query(`	
 	SELECT
 	?name
 	?abstract
@@ -60,18 +60,18 @@ WHERE{
   OPTIONAL{<${req.query.uri}> dbo:genre ?genre}.	
 } group by ?name  ?abstract ?releaseDate
 `, function (r) {
-		if (r.error) {
-			res.json(r);
-		}
-		res.json(JSON.parse(r));
-	})
+        if (r.error) {
+            res.json(r);
+        }
+        res.json(JSON.parse(r));
+    })
 });
 
 
 router.get('/artist', function (req, res) {
-	if (!req.query.uri)
-		res.status(400).json({message: 'No query param'});
-	sparql.query(`
+    if (!req.query.uri)
+        res.status(400).json({message: 'No query param'});
+    sparql.query(`
 SELECT 
 ?name
 ?bDate
@@ -100,17 +100,17 @@ VALUES ?s { <${req.query.uri}> }
 ?origin
 ?caption
 `, function (r) {
-		if (r.error) {
-			res.json(r);
-		}
-		res.json(JSON.parse(r));
-	})
+        if (r.error) {
+            res.json(r);
+        }
+        res.json(JSON.parse(r));
+    })
 });
 
 router.get('/albumTrack', function (req, res) {
-	if (!req.query.uri)
-		res.status(400).json({message: 'No query param'});
-	sparql.query(`
+    if (!req.query.uri)
+        res.status(400).json({message: 'No query param'});
+    sparql.query(`
 SELECT DISTINCT ?name ?abstract ?releaseDate 
 (GROUP_CONCAT(DISTINCT ?recordLabel; separator="(.)(.)") AS ?recordLabels)
 (GROUP_CONCAT(DISTINCT ?artist; separator="(.)(.)") AS ?artists)
@@ -131,17 +131,17 @@ SELECT DISTINCT ?name ?abstract ?releaseDate
       OPTIONAL{?s  dbo:recordLabel ?recordLabel}.
 } group by ?name ?abstract ?releaseDate 
 `, function (r) {
-		if (r.error) {
-			res.json(r);
-		}
-		res.json(JSON.parse(r));
-	})
+        if (r.error) {
+            res.json(r);
+        }
+        res.json(JSON.parse(r));
+    })
 });
 
 router.get('/related', function (req, res) {
-	if (!req.query.uri)
-		res.status(400).json({message: 'No query param'});
-	sparql.query(`
+    if (!req.query.uri)
+        res.status(400).json({message: 'No query param'});
+    sparql.query(`
 SELECT DISTINCT ?name ?image ?abstract ?type
 (GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
 (GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
@@ -156,28 +156,28 @@ WHERE {
  	OPTIONAL{?q dbo:image ?image} .
 } group by  ?name ?image ?abstract ?type
 `, function (r) {
-		if (r.error) {
-			res.json(r);
-		}
-		let o = JSON.parse(r).results.bindings[0];
-		//check if the resource exists
-		if (Object.keys(o).length !== 0) {
-			o.type = o.type.value === "http://dbpedia.org/ontology/Band" ? 'band' : "http://umbel.org/umbel/rc/MusicalPerformer" ? 'artist' : null;
-			res.json(o);
-			// maybe TODO artistRelateds & bandRelateds split serverside
-		}
-		else
-			res.status(404).json({error: 'Not found'});
-	})
+        if (r.error) {
+            res.json(r);
+        }
+        let o = JSON.parse(r).results.bindings[0];
+        //check if the resource exists
+        if (Object.keys(o).length !== 0) {
+            o.type = o.type.value === "http://dbpedia.org/ontology/Band" ? 'band' : "http://umbel.org/umbel/rc/MusicalPerformer" ? 'artist' : null;
+            res.json(o);
+            // maybe TODO artistRelateds & bandRelateds split serverside
+        }
+        else
+            res.status(404).json({error: 'Not found'});
+    })
 });
 
 router.post('/band', function (req, res) {
 
-	let o = req.body;
-	console.log(o);
-	let name = o.name.trim().replace(" ","_");
-	let r = `<http://dbpedia.org/resource/${name}>`;
-	let query = `	
+    let o = req.body;
+    console.log(o);
+    let name = o.name.trim().replace(" ", "_");
+    let r = `<http://dbpedia.org/resource/${name}>`;
+    let query = `	
 	INSERT DATA{
 	${r} a dbo:Band .
 	${r} foaf:name "${name}" .
@@ -185,20 +185,20 @@ router.post('/band', function (req, res) {
 	${o.website ? (r + ' dbp:website "' + o.website) + '" .' : ''}
 	${o.caption ? (r + ' dbp:caption "' + o.caption) + '" .' : ''}
 	${o.image ? (r + ' dbo:image "' + o.image) + '" .' : ''}
-	${o.genre ? o.genre.map(i => `${r} dbo:genre  <${i.uri}> . `).join('\n      ') : ''}
-	${o.associatedBand ? o.associatedBand.map(i => `${r} dbo:associatedBand  <${i.uri}> .`).join('\n      ') : ''}
-	${o.associatedMusicalArtist ? o.associatedMusicalArtist.map(i => `${r} dbo:associatedMusicalArtist  <${i.uri}> . `).join('\n      ') : ''}
-	${o.currentMembers ? o.currentMembers.map(i => `${r} dbp:currentMembers  <${i.uri}> . `).join('\n      ') : ''}
+	${o.genre ? o.genre.map(i = > `${r} dbo:genre  <${i.uri}> . `).join('\n      ') : ''}
+	${o.associatedBand ? o.associatedBand.map(i = > `${r} dbo:associatedBand  <${i.uri}> .`).join('\n      ') : ''}
+	${o.associatedMusicalArtist ? o.associatedMusicalArtist.map(i = > `${r} dbo:associatedMusicalArtist  <${i.uri}> . `).join('\n      ') : ''}
+	${o.currentMembers ? o.currentMembers.map(i = > `${r} dbp:currentMembers  <${i.uri}> . `).join('\n      ') : ''}
 	}`;
-	sparql.query(query,
-		function (htmlres) {
+    sparql.query(query,
+        function (htmlres) {
 
-			if(htmlres && htmlres.search("Update succeeded")>=0) {
-				res.json({uri:`http://dbpedia.org/resource/${name}`,type:"band"});
-			} else {
-				res.send(false);
-			}
-		}, {insert: true});
+            if (htmlres && htmlres.search("Update succeeded") >= 0) {
+                res.json({uri: `http://dbpedia.org/resource/${name}`, type: "band"});
+            } else {
+                res.send(false);
+            }
+        }, {insert: true});
 
 });
 
@@ -206,23 +206,29 @@ router.post('/artist', function (req, res) {
 
     let o = req.body;
     console.log(o);
+    let name = o.name.trim().replace(" ", "_");
     let r = `<http://dbpedia.org/resource/${o.name}>`;
     let query = `	
 	INSERT DATA{
 	${r} a umbelrc:MusicalPerformer.
-	${r} foaf:name "${o.name}" .
+	${r} foaf:name "${name}" .
 	${r} dbo:birthdate"${o.birthDate}" .
 	${o.abstract ? (r + ' dbo:abstract "' + o.abstract) + '" .' : ''}
 	${o.image ? (r + ' dbo:thumbnail "' + o.image) + '" .' : ''}
 	${o.origin ? (r + ' dbo:origin "' + o.origin) + '" .' : ''}
 	${o.caption ? (r + ' dbp:caption "' + o.caption) + '" .' : ''}
 	${o.image ? (r + ' dbo:image "' + o.image) + '" .' : ''}
-	${o.associatedBand ? o.associatedBand.map(i => `${r} dbo:associatedBand  <${i.uri}> .`).join('\n      ') : ''}
-	${o.associatedMusicalArtist ? o.associatedMusicalArtist.map(i => `${r} dbo:associatedMusicalArtist  <${i.uri}> . `).join('\n      ') : ''}
+	${o.associatedBand ? o.associatedBand.map(i = > `${r} dbo:associatedBand  <${i.uri}> .`).join('\n      ') : ''}
+	${o.associatedMusicalArtist ? o.associatedMusicalArtist.map(i = > `${r} dbo:associatedMusicalArtist  <${i.uri}> . `).join('\n      ') : ''}
 	}`;
     sparql.query(query,
-        function (r) {
-            res.json(r)
+        function (htmlres) {
+
+            if (htmlres && htmlres.search("Update succeeded") >= 0) {
+                res.json({uri: `http://dbpedia.org/resource/${name}`, type: "artist"});
+            } else {
+                res.send(false);
+            }
         }, {insert: true});
 
 });
