@@ -20,7 +20,7 @@ WHERE
 	})
 });
 
-router.get('/track', function (req, res) {
+router.get('/albumTrack', function (req, res) {
     if (!req.query.name)
         res.status(400).json({message: 'No query param'});
 
