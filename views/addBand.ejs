@@ -51,6 +51,12 @@
     <!-- End Head Section -->
     <!-- Section -->
     <section class="page-section">
+        <div class="message_wrapper">
+            <div  class="message alert">
+                <i class="fa fa-lg fa-comments-o"></i> <span></span>
+            </div>
+        </div>
+
         <div class="container relative">
             <form method="post" action="#" id="form" role="form" class="form">
                 <div class="row">
@@ -129,15 +135,12 @@ $('#associatedBand').LodTags('band');
 $('#band').LodTags('band');
 
 		$("#submit").click(function(e){
-
+			e.preventDefault()
 			var obj = $('#form').serializeObject();
 			obj.associatedMusicalArtist = $("#associatedMusicalArtist").tagsinput('items');
 			obj.associatedBand = $("#associatedBand").tagsinput('items');
 			obj.genres = $("#genres").tagsinput('items');
 			obj.currentMembers = $("#currentMembers").tagsinput('items');
-			console.log(obj)
-
-
 
 			$.ajax({
 				url: "/api/band",
@@ -145,15 +148,20 @@ $('#band').LodTags('band');
 				type: "POST",
 				data: obj,
 				success: function (data) {
-					console.log(data)
+					if(data) {
+						window.location.replace(`resource?resourceType=${data.type}&uri=${encodeURIComponent(data.uri)}`)
+                    } else {
+						message("Error saving resorce")
+                    }
 				}
 			});
-			e.preventDefault()
-
 
 		});
 
-
+function message (text) {
+	$(".message span").html(text)
+	$(".message").fadeIn(100).delay(1000).fadeOut(500);
+}
 
 </script>
 </body>

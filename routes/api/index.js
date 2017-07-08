@@ -190,8 +190,13 @@ router.post('/band', function (req, res) {
 	${o.currentMembers ? o.currentMembers.map(i => `${r} dbp:currentMembers  <${i.uri}> . `).join('\n      ') : ''}
 	}`;
 	sparql.query(query,
-		function (r) {
-			res.json(r)
+		function (htmlres) {
+
+			if(htmlres.search("Update succeeded")>=0) {
+				res.json({uri:`http://dbpedia.org/resource/${o.name}`,type:"band"});
+			} else {
+				res.send(false);
+			}
 		}, {insert: true});
 
 });
