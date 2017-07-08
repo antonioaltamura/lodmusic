@@ -39,7 +39,7 @@ module.exports.build = function (o) {
 	INSERT DATA{
 	${r} a dbo:Band .
 	${r} foaf:name ${o.name} .
-	${r} dbp:website ${o.website} .
+	${o.website ? (r + "dbp:website" + o.website) + ' .':''}
 	}`;
 	return data;
 	};

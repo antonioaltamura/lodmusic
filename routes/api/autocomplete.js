@@ -75,19 +75,16 @@ WHERE
 });
 
 
-/***
- *  -----------------------insert endpoints----------------
- * ***/
-
 router.get('/genres',function(req,res){
 	sparql.query(`
-	SELECT DISTINCT (?genre AS ?uri)
+SELECT DISTINCT (?genre AS ?uri)
 (strafter(str(?genre),'http://dbpedia.org/resource/') as ?text)
 WHERE{
   [] dbo:genre ?genre .
-   # FILTER regex(?genre, "(${req.query.name})","i").
-}ORDER BY ASC(?text)
+  FILTER regex((strafter(str(?genre),'http://dbpedia.org/resource/')) , "^${req.query.name}","i").
+} ORDER BY ASC(?text)
 LIMIT 10
+
 `, function (r) {
 		if (r.error) {
 			res.json(r);

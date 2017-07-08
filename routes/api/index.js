@@ -21,8 +21,8 @@ SELECT ?name
 WHERE{
 VALUES ?s { <${req.query.uri}> }
   ?s a dbo:Band ;
-       foaf:name ?name;
-      dbo:abstract ?abstract .
+       foaf:name ?name .
+  OPTIONAL{?s dbo:abstract ?abstract } .
   OPTIONAL{?s dbo:genre ?genre } .
   OPTIONAL{?s dbp:website ?website} .
   OPTIONAL{?s dbo:associatedBand ?bandRelated} .
@@ -30,7 +30,7 @@ VALUES ?s { <${req.query.uri}> }
   OPTIONAL{?s dbp:caption ?caption} .
   OPTIONAL{?s dbp:origin ?origin} .
   OPTIONAL{?s dbo:image ?image} .
-FILTER LANGMATCHES(LANG(?abstract ), "en")
+#                                    FILTER LANGMATCHES(LANG(?abstract ), "en")
 } group by ?name  ?abstract ?image ?origin ?caption
 `, function (r) {
 		if (r.error) {
@@ -168,9 +168,23 @@ WHERE {
 
 router.post('/band', function (req, res) {
 
-	var object = res.body;
-
-	sparql.query(queryBuilder.build(object),
+	let o = req.body;
+	console.log(o)
+	let r = `<http://dbpedia.org/resource/${o.name}>`;
+	let query = `	
+	INSERT DATA{
+	${r} a dbo:Band .
+	${r} foaf:name "${o.name}" .
+	${o.abstract ? (r + ' dbo:abstract "' + o.abstract) + '" .' : ''}
+	${o.website ? (r + ' dbp:website "' + o.website) + '" .' : ''}
+	${o.caption ? (r + ' dbp:caption "' + o.caption) + '" .' : ''}
+	${o.image ? (r + ' dbo:image "' + o.image) + '" .' : ''}
+	${o.genre ? o.genre.map(i => `${r} dbo:genre  <${i.uri}> . `).join('\n      ') : ''}
+	${o.associatedBand ? o.associatedBand.map(i => `${r} dbo:associatedBand  <${i.uri}> .`).join('\n      ') : ''}
+	${o.associatedMusicalArtist ? o.associatedMusicalArtist.map(i => `${r} dbo:associatedMusicalArtist  <${i.uri}> . `).join('\n      ') : ''}
+	${o.currentMembers ? o.currentMembers.map(i => `${r} dbp:currentMembers  <${i.uri}> . `).join('\n      ') : ''}
+	}`;
+	sparql.query(query,
 		function (r) {
 			res.json(r)
 		}, {insert: true});

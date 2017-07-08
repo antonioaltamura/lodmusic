@@ -12,12 +12,15 @@ let read = {endpoint: 'http://lodmusic.cloudapp.net:26109/lodmusic/sparql', para
 	write = {endpoint: 'http://lodmusic.cloudapp.net:26109/lodmusic/update', param: "update"};
 
 
-//read.endpoint = 'http://localhost:3030/lodmusic/sparql';
-//write.endpoint = 'http://localhost:3030/lodmusic/update';
+read.endpoint = 'http://localhost:3030/lodmusic/sparql';
+write.endpoint = 'http://localhost:3030/lodmusic/update';
 
 //some ES6 powered forging
 module.exports.query = function (q, next, opts) {
 	let {endpoint, param} = (opts && opts.insert) ? write : read;
+
+	console.error("------SPARQL DEBUG-------")
+	console.error((prefixes + q))
 	rp({
 		method: 'POST',
 		uri: endpoint,
