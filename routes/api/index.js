@@ -175,11 +175,12 @@ router.post('/band', function (req, res) {
 
 	let o = req.body;
 	console.log(o);
-	let r = `<http://dbpedia.org/resource/${o.name}>`;
+	let name = o.name.trim().replace(" ","_");
+	let r = `<http://dbpedia.org/resource/${name}>`;
 	let query = `	
 	INSERT DATA{
 	${r} a dbo:Band .
-	${r} foaf:name "${o.name}" .
+	${r} foaf:name "${name}" .
 	${o.abstract ? (r + ' dbo:abstract "' + o.abstract) + '" .' : ''}
 	${o.website ? (r + ' dbp:website "' + o.website) + '" .' : ''}
 	${o.caption ? (r + ' dbp:caption "' + o.caption) + '" .' : ''}
@@ -192,8 +193,8 @@ router.post('/band', function (req, res) {
 	sparql.query(query,
 		function (htmlres) {
 
-			if(htmlres.search("Update succeeded")>=0) {
-				res.json({uri:`http://dbpedia.org/resource/${o.name}`,type:"band"});
+			if(htmlres && htmlres.search("Update succeeded")>=0) {
+				res.json({uri:`http://dbpedia.org/resource/${name}`,type:"band"});
 			} else {
 				res.send(false);
 			}
