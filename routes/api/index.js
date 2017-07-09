@@ -14,7 +14,7 @@ SELECT ?name
 (GROUP_CONCAT(DISTINCT ?member; separator="(.)(.)") AS ?members)
 (GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
 (GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
-?origin
+ ?origin
 ?caption
 WHERE{
 VALUES ?s { <${req.query.uri}> }
@@ -72,7 +72,7 @@ router.get('/artist', function (req, res) {
     sparql.query(`
 SELECT 
 ?name
-#?bDate
+?bDate
 ?abstract
 ?image
 ?origin
@@ -84,7 +84,7 @@ WHERE
 VALUES ?s { <${req.query.uri}> }
 	?s a umbelrc:MusicalPerformer;
     	foaf:name ?name.
-		#dbo:birthDate ?bDate.
+ OPTIONAL{?s dbo:birthDate ?bDate}.
  OPTIONAL{?s dbo:abstract ?abstract}.
  OPTIONAL{?s dbo:thumbnail ?image}.
  OPTIONAL{?s dbo:associatedBand ?bandRelated} .
@@ -92,7 +92,7 @@ VALUES ?s { <${req.query.uri}> }
  OPTIONAL{?s dbp:caption ?caption} .
  OPTIONAL{?s dbp:origin ?origin} .
 }  group by ?name
-#?bDate
+?bDate
 ?abstract
 ?image
 ?origin
@@ -209,7 +209,7 @@ router.post('/artist', function (req, res) {
 	INSERT DATA{
 	${r} a umbelrc:MusicalPerformer.
 	${r} foaf:name "${name}" .
-	${o.birthDate ? (r + ' dbo:birthdate "' + o.birthDate) + '"^^xs:date .' : ''}
+	${o.birthDate ? (r + ' dbo:birthDate "' + o.birthDate) + '"^^xsd:date .' : ''}
 	${o.abstract ? (r + ' dbo:abstract "' + o.abstract) + '" .' : ''}
 	${o.image ? (r + ' dbo:thumbnail "' + o.image) + '" .' : ''}
 	${o.origin ? (r + ' dbo:origin "' + o.origin) + '" .' : ''}
@@ -221,10 +221,10 @@ router.post('/artist', function (req, res) {
     sparql.query(query,
         function (htmlres) {
 
-            if (htmlres && htmlres.search("Update succeeded") >= 0) {
+            if ((typeof htmlres == "string") && htmlres.search("Update succeeded") >= 0) {
                 res.json({uri: `http://dbpedia.org/resource/${name}`, type: "artist"});
             } else {
-                res.send(false);
+                res.send(htmlres);
             }
         }, {insert: true});
 

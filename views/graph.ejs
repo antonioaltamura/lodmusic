@@ -137,25 +137,19 @@ ${node.image ? `<img src=" ${node.image}"/>` : ''}
 		$.ajax({
 			url: "/api/related",
 			dataType: "json",
-			data: {
-				uri: uri
-			},
-			beforeSend: function () {
-				message("Loading related resources...");
-			},
+			data: {uri: uri},
+			beforeSend: function () {message("Loading related resources...");},
 			success: function (data) {
 				if (data) {
 					var id = uri;
 					var name = data.name.value;
 					var node = {id: id, label: data.name.value, type: data.type};
-
 					if (data.image && data.image.value) {
 						var img = data.image.value;
 						Object.assign(node, {shape: "circularImage", image: img});
 					}
 					if (!has.Node(node))
 						graph.nodes.add(node)
-
 					if (data.artistRelateds || data.bandRelateds) {
 						var artistRelateds = data.artistRelateds ? data.artistRelateds.value.split("(.)(.)") : [];
 						var bandRelateds = data.bandRelateds ? data.bandRelateds.value.split("(.)(.)") : [];
@@ -179,14 +173,12 @@ ${node.image ? `<img src=" ${node.image}"/>` : ''}
 										}
 										if (!has.Edge(edge))
 											graph.edges.add(edge)
-
 									}
 								}
 							});
 						});
 					} else {
 						message("No related resource")
-
 					}
 				}
 				else {

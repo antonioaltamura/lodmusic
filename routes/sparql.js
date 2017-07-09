@@ -31,10 +31,6 @@ module.exports.query = function (q, next, opts={}) {
 			Accept: 'application/sparql-results+json,*/*;q=0.9'
 		}
 	})
-		.then(function (parsedBody) {
-			next(parsedBody);
-		})
-		.catch(function (err) {
-			next(err);
-		});
+		.then((parsedBody)=>next(parsedBody))
+		.catch((err)=>next(err));
 };

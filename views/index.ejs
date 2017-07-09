@@ -93,8 +93,8 @@
                                     </div>
                                     <div class="local-scroll">
                                         <input type="hidden" id="uri" name="uri"/>
-                                        <button type="submit" formaction="resource" disabled class="submit btn btn-mod btn-w btn-large">Link it!</button>
-                                        <button type="submit" formaction="graph" disabled class="submit btn btn-mod btn-w btn-large ">Graph it!</button>
+                                        <button type="submit" formaction="resource" disabled class="submit-res btn btn-mod btn-w btn-large">Link it!</button>
+                                        <button type="submit" formaction="graph" disabled class="submit-graph btn btn-mod btn-w btn-large ">Graph it!</button>
 
                                     </div>
                                 </form>
@@ -218,8 +218,12 @@
 			},
 			select: function (event, ui) {
 				$('#uri').val(ui.item.uri);
-				$('.submit').removeAttr('disabled');
-				$('.submit').removeAttr('disabled');
+
+				$('.submit-res').removeAttr('disabled');
+
+				var type = $('#resourceType').val()
+				if(type === "band" || type === "artist")
+				    $('.submit-graph').removeAttr('disabled');
 				return false;
 			}
 		}).autocomplete("instance")._renderItem = function (ul, item) {
