@@ -12,33 +12,18 @@
     <!-- Favicons -->
     <link rel="shortcut icon" href="favicon.ico">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-responsive.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/vertical-rhythm.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <%- include blocks/styles %>
 
-    <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
-    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body class="appear-animate">
-<!-- Page Loader -->
 <div class="page-loader">
     <div class="loader">Loading...</div>
 </div>
-<!-- End Page Loader -->
-<!-- Page Wrap -->
 <div class="page" id="top">
-    <!-- Navigation panel -->
     <nav class="main-nav js-stick">
         <%- include( 'blocks/menu.ejs', {theme: "dark"}) %>
     </nav>
-    <!-- End Navigation panel -->
-    <!-- Head Section -->
     <section class="small-section bg-dark">
         <div class="relative container align-left">
             <div class="row">
@@ -48,8 +33,6 @@
             </div>
         </div>
     </section>
-    <!-- End Head Section -->
-    <!-- Section -->
     <section class="page-section">
         <div class="message_wrapper">
             <div class="message alert">

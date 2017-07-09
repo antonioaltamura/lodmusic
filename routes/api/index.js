@@ -74,7 +74,7 @@ router.get('/artist', function (req, res) {
     sparql.query(`
 SELECT 
 ?name
-?bDate
+#?bDate
 ?abstract
 ?image
 ?origin
@@ -87,14 +87,14 @@ VALUES ?s { <${req.query.uri}> }
 	?s a umbelrc:MusicalPerformer;
     	foaf:name ?name;
 		dbo:abstract ?abstract;
-		dbo:birthDate ?bDate.
+		#dbo:birthDate ?bDate.
  OPTIONAL{?s dbo:thumbnail ?image}.
  OPTIONAL{?s dbo:associatedBand ?bandRelated} .
  OPTIONAL{?s dbo:associatedMusicalArtist ?artistRelated} .
  OPTIONAL{?s dbp:caption ?caption} .
  OPTIONAL{?s dbp:origin ?origin} .
 }  group by ?name
-?bDate
+#?bDate
 ?abstract
 ?image
 ?origin
@@ -185,10 +185,10 @@ router.post('/band', function (req, res) {
 	${o.website ? (r + ' dbp:website "' + o.website) + '" .' : ''}
 	${o.caption ? (r + ' dbp:caption "' + o.caption) + '" .' : ''}
 	${o.image ? (r + ' dbo:image "' + o.image) + '" .' : ''}
-	${o.genre ? o.genre.map(i = > `${r} dbo:genre  <${i.uri}> . `).join('\n      ') : ''}
-	${o.associatedBand ? o.associatedBand.map(i = > `${r} dbo:associatedBand  <${i.uri}> .`).join('\n      ') : ''}
-	${o.associatedMusicalArtist ? o.associatedMusicalArtist.map(i = > `${r} dbo:associatedMusicalArtist  <${i.uri}> . `).join('\n      ') : ''}
-	${o.currentMembers ? o.currentMembers.map(i = > `${r} dbp:currentMembers  <${i.uri}> . `).join('\n      ') : ''}
+	${o.genre ? o.genre.map(i => `${r} dbo:genre  <${i.uri}> . `).join('\n      ') : ''}
+	${o.associatedBand ? o.associatedBand.map(i => `${r} dbo:associatedBand  <${i.uri}> .`).join('\n      ') : ''}
+	${o.associatedMusicalArtist ? o.associatedMusicalArtist.map(i => `${r} dbo:associatedMusicalArtist  <${i.uri}> . `).join('\n      ') : ''}
+	${o.currentMembers ? o.currentMembers.map(i => `${r} dbp:currentMembers  <${i.uri}> . `).join('\n      ') : ''}
 	}`;
     sparql.query(query,
         function (htmlres) {
@@ -212,14 +212,14 @@ router.post('/artist', function (req, res) {
 	INSERT DATA{
 	${r} a umbelrc:MusicalPerformer.
 	${r} foaf:name "${name}" .
-	${r} dbo:birthdate"${o.birthDate}" .
+	${r} dbo:birthdate "${o.birthDate}" .
 	${o.abstract ? (r + ' dbo:abstract "' + o.abstract) + '" .' : ''}
 	${o.image ? (r + ' dbo:thumbnail "' + o.image) + '" .' : ''}
 	${o.origin ? (r + ' dbo:origin "' + o.origin) + '" .' : ''}
 	${o.caption ? (r + ' dbp:caption "' + o.caption) + '" .' : ''}
 	${o.image ? (r + ' dbo:image "' + o.image) + '" .' : ''}
-	${o.associatedBand ? o.associatedBand.map(i = > `${r} dbo:associatedBand  <${i.uri}> .`).join('\n      ') : ''}
-	${o.associatedMusicalArtist ? o.associatedMusicalArtist.map(i = > `${r} dbo:associatedMusicalArtist  <${i.uri}> . `).join('\n      ') : ''}
+	${o.associatedBand ? o.associatedBand.map(i => `${r} dbo:associatedBand  <${i.uri}> .`).join('\n      ') : ''}
+	${o.associatedMusicalArtist ? o.associatedMusicalArtist.map(i => `${r} dbo:associatedMusicalArtist  <${i.uri}> . `).join('\n      ') : ''}
 	}`;
     sparql.query(query,
         function (htmlres) {

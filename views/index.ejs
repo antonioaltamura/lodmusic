@@ -13,52 +13,31 @@
     <!-- Favicons -->
     <link rel="shortcut icon" href="favicon.ico">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-responsive.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/vertical-rhythm.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="css/main.css">
+    <%- include blocks/styles %>
 </head>
-
 <body class="appear-animate">
-<!-- Page Loader -->
 <div class="page-loader">
     <div class="loader">Loading...</div>
 </div>
-<!-- End Page Loader -->
-<!-- Page Wrap -->
 <div class="page" id="top">
-    <!-- Home Section -->
     <section class="home-section bg-dark-alfa-30 parallax-1" data-background="images/full-width-images/section-bg-1.jpg"
              id="home">
         <div class="js-height-full container">
-            <!-- Hero Content -->
             <div class="home-content">
                 <div class="home-text">
                     <h1 class="hs-line-1 font-alt mb-80 mb-xs-30 mt-70 mt-sm-0">
-                        <!--<b>LOD</b>Music-->
                         <img src="images/logo-white-big.png"/>
                     </h1>
                     <div class="hs-line-6"> Linked Open Data Music Knowledge Base</div>
                 </div>
             </div>
-            <!-- Scroll Down -->
             <div class="local-scroll"><a href="#about" class="scroll-down"><i
                             class="fa fa-angle-down scroll-down-icon"></i></a></div>
-            <!-- End Scroll Down -->
         </div>
     </section>
-    <!-- End Home Section -->
-    <!-- Navigation panel -->
     <nav class="main-nav dark transparent stick-fixed">
         <%- include( 'blocks/menu.ejs', {theme: "white"}) %>
     </nav>
-    <!-- End Navigation panel -->
-    <!-- About Section -->
     <section class="page-section" id="about">
         <div class="container relative">
             <h2 class="section-title font-alt align-left mb-70 mb-sm-40">
@@ -83,11 +62,7 @@
             </div>
         </div>
     </section>
-    <!-- End About Section -->
-    <!-- Divider -->
     <hr class="mt-0 mb-0 "/>
-    <!-- End Divider -->
-    <!-- Call Action Section -->
     <section id="search" class="page-section pt-0 pb-0 banner-section bg-dark parallax-5"
              data-background="images/full-width-images/section-bg-2.jpg">
         <div class="container relative">
@@ -130,17 +105,11 @@
             </div>
         </div>
     </section>
-    <!-- End Call Action Section -->
-    <!-- Process Section -->
-
     <section class="page-section">
         <div class="container relative">
-
-            <!-- Counters -->
             <div class="count-wrapper font-alt">
                 <div class="row">
                     <h3 class=" font-alt text-center">Our numbers</h3>
-                    <!-- Counter Item -->
                     <div class="col-xs-6 col-sm-3">
                         <div class="count-number">
                             5306
@@ -181,29 +150,14 @@
 
                 </div>
             </div>
-            <!-- End Counters -->
-
         </div>
     </section>
-
-    <!-- Divider -->
     <hr class="mt-0 mb-0"/>
-    <!-- End Divider -->
-    <!-- Call Action Section -->
     <section class="small-section bg-dark" data-background="images/full-width-images/baker.jpg">
-        <div class="container relative">
-            <div class="align-center">
-                <h3 class="banner-heading font-alt">Browse the Knowledge Base</h3>
-                <div class="local-scroll"><a href="portfolio-wide-gutter-3col.html"
-                                             class="btn btn-mod btn-w btn-medium btn-round">Browse</a></div>
-            </div>
+        <div class="container relative mb-140">
         </div>
     </section>
-    <!-- End Call Action Section -->
-    <!-- Divider -->
     <hr class="mt-0 mb-0 "/>
-    <!-- End Divider -->
-    <!-- Contact Section -->
     <section class="page-section" id="contact">
         <div class="container relative">
             <h2 class="section-title font-alt mb-70 mb-sm-40">
@@ -212,7 +166,6 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="row">
-                        <!-- Email -->
                         <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
                             <div class="contact-item">
                                 <div class="ci-icon"><i class="fa fa-envelope"></i></div>
@@ -220,8 +173,6 @@
                                 <div class="ci-text"><a href="mailto:antonioaltamura7@gmail.com">antonioaltamura7@gmail.com</a></div>
                             </div>
                         </div>
-                        <!-- End Email -->
-                        <!-- Email -->
                         <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
                             <div class="contact-item">
                                 <div class="ci-icon"><i class="fa fa-envelope"></i></div>
@@ -229,8 +180,6 @@
                                 <div class="ci-text"><a href="mailto:villani.mario90@gmail.com">villani.mario90@gmail.com</a></div>
                             </div>
                         </div>
-                        <!-- End Email -->
-                        <!-- Email -->
                         <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
                             <div class="contact-item">
                                 <div class="ci-icon"><i class="fa fa-envelope"></i></div>
@@ -238,16 +187,13 @@
                                 <div class="ci-text"><a href="mailto:alessandra.zullo1@gmail.com">alessandra.zullo1@gmail.com</a></div>
                             </div>
                         </div>
-                        <!-- End Email -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Contact Section -->
     <%- include blocks/footer %>
 </div>
-<!-- End Page Wrap -->
 <%- include blocks/scripts %>
 <script>
 	$(function () {

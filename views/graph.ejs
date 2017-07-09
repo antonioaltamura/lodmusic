@@ -13,15 +13,7 @@
     <!-- Favicons -->
     <link rel="shortcut icon" href="favicon.ico">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-responsive.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/vertical-rhythm.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="css/main.css">
+    <%- include blocks/styles %>
     <link rel="stylesheet" href="css/vis-network.min.css">
     <style>
         html {
@@ -185,10 +177,7 @@
 										var edge = {from: uri, to: rel_uri};
 										if (!has.Node(node)) {
 											graph.nodes.add(node)
-
 										}
-										//non va bene creare l'arco dentro al check del nodo, se il nodo già esiste ma non è collegato a al nodo "uri" non viene creato
-                                        // ad esempio vedi: "Morning Musume" è una band con alto clustering
 										if (!has.Edge(edge))
 											graph.edges.add(edge)
 
@@ -215,15 +204,20 @@
 		Node: function (node) {
 			return Object.keys(graph.nodes._data).indexOf(node.id) >= 0;
 		},
-		Edge: function (edge) {
-			$.each(graph.edges._data, function (id, e) {
-				if ((edge.from === e.from && edge.to === e.to) || (edge.from === e.to && edge.from === e.to)) {
-					return true;
-				}
-			});
-			return false;
-		}
-	}
+		Edge : function(edge){
+				var [s,t] = [edge.from, edge.to]
+				for (var k in graph.edges._data) {
+					var from = graph.edges._data[k].from;
+					var to = graph.edges._data[k].to;
+					if ((s === from && t === to) || (s === to && t === from)) {
+						//console.log("edge " + s, t + "exists")
+						return true;
+					}
+				} //console.log("edge " + s, t + " do not exists")
+				return false;
+			}
+        }
+
 
 
 
