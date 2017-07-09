@@ -1,8 +1,6 @@
 "use strict";
 let router = require('express').Router();
 let sparql = require('../sparql');
-let queryBuilder = require('../queryBuilder');
-
 
 router.get('/band', function (req, res) {
     if (!req.query.uri)
@@ -85,9 +83,9 @@ WHERE
 {
 VALUES ?s { <${req.query.uri}> }
 	?s a umbelrc:MusicalPerformer;
-    	foaf:name ?name;
-		dbo:abstract ?abstract;
+    	foaf:name ?name.
 		#dbo:birthDate ?bDate.
+ OPTIONAL{?s dbo:abstract ?abstract}.
  OPTIONAL{?s dbo:thumbnail ?image}.
  OPTIONAL{?s dbo:associatedBand ?bandRelated} .
  OPTIONAL{?s dbo:associatedMusicalArtist ?artistRelated} .
@@ -164,7 +162,6 @@ WHERE {
         if (Object.keys(o).length !== 0) {
             o.type = o.type.value === "http://dbpedia.org/ontology/Band" ? 'band' : "http://umbel.org/umbel/rc/MusicalPerformer" ? 'artist' : null;
             res.json(o);
-            // maybe TODO artistRelateds & bandRelateds split serverside
         }
         else
             res.status(404).json({error: 'Not found'});
@@ -207,12 +204,12 @@ router.post('/artist', function (req, res) {
     let o = req.body;
     console.log(o);
     let name = o.name.trim().replace(" ", "_");
-    let r = `<http://dbpedia.org/resource/${o.name}>`;
+    let r = `<http://dbpedia.org/resource/${name}>`;
     let query = `	
 	INSERT DATA{
 	${r} a umbelrc:MusicalPerformer.
 	${r} foaf:name "${name}" .
-	${r} dbo:birthdate "${o.birthDate}" .
+	${o.birthDate ? (r + ' dbo:birthdate "' + o.birthDate) + '"^^xs:date .' : ''}
 	${o.abstract ? (r + ' dbo:abstract "' + o.abstract) + '" .' : ''}
 	${o.image ? (r + ' dbo:thumbnail "' + o.image) + '" .' : ''}
 	${o.origin ? (r + ' dbo:origin "' + o.origin) + '" .' : ''}

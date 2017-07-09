@@ -70,6 +70,11 @@ a.ui-button:active,
     margin: 5px;
 }
 
+.message-sticky img{
+    display: block;
+    width: 100px;
+}
+
 /* --------------------- bootstrap tags input & typeahead ---------------------*/
 .bootstrap-tagsinput {
     width: 100%;

@@ -32,12 +32,12 @@
 
     <section class="home-section bg-dark parallax-1">
         <div class="message_wrapper">
-        <div  class="message alert">
-            <i class="fa fa-lg fa-comments-o"></i> <span></span>
-        </div>
-        <div  class="message-sticky alert">
-            <i class="fa fa-lg fa-comments-o"></i> <span></span>
-        </div>
+            <div class="message alert">
+                <i class="fa fa-lg fa-comments-o"></i> <span></span>
+            </div>
+            <div class="message-sticky alert">
+                <span></span>
+            </div>
         </div>
         <div class="js-height-full" id="graph">
 
@@ -64,7 +64,7 @@
 	var options = {
 		nodes: {
 			shape: "dot",
-			font: {face: "Dosis, arial, sans-serif",color: "#fff"},
+			font: {face: "Dosis, arial, sans-serif", color: "#fff"},
 			borderWidth: 2,
 			brokenImage: undefined,
 			chosen: true,
@@ -99,37 +99,36 @@
 		var node = graph.nodes.get(prop.nodes[0]);
 		if (node.id) {
 			console.log(node)
-			stickyMessage.show(`<a target="_blank" href="resource?resourceType=${node.type}&uri=${encodeURIComponent(node.id)}">${node.label}</a>`)
+			stickyMessage.show(`<a target="_blank" href="resource?resourceType=${node.type}&uri=${encodeURIComponent(node.id)}">
+${node.image ? `<img src=" ${node.image}"/>` : ''}
+<i class="fa fa-lg fa-comments-o"></i> ${node.label} </a>`)
 		}
 		else {
 			stickyMessage.hide()
 		}
 
-    });
+	});
 	network.on('doubleClick', function (prop) {
 		var node = graph.nodes.get(prop.nodes[0]);
 		if (node.id) {
 			console.log("Clicked node: ", node);
 			getInfo(node.id)
-
 		}
 		else {
 			console.log("Clicked empty area");
 		}
-
 	});
 
-
-	function message (text) {
+	function message(text) {
 		$(".message span").html(text)
-		$(".message").fadeIn(100).delay(1000).fadeOut(500);
+		$(".message").fadeIn(300).delay(1000).fadeOut(500);
 	}
 	var stickyMessage = {
 		show: function (text) {
 			$(".message-sticky span").html(text)
-			$(".message-sticky").fadeIn(100);
+			$(".message-sticky").fadeIn(300);
 		},
-		hide: function(){
+		hide: function () {
 			$(".message-sticky").fadeOut(500);
 		}
 	}
@@ -148,7 +147,7 @@
 				if (data) {
 					var id = uri;
 					var name = data.name.value;
-					var node = {id: id, label: data.name.value, type:data.type};
+					var node = {id: id, label: data.name.value, type: data.type};
 
 					if (data.image && data.image.value) {
 						var img = data.image.value;
@@ -169,7 +168,7 @@
 								},
 								success: function (r) {
 									if (r.name) {
-										var node = {id: rel_uri, label: r.name.value, type:r.type};
+										var node = {id: rel_uri, label: r.name.value, type: r.type};
 										if (r.image && r.image.value) {
 											var img = r.image.value;
 											Object.assign(node, {shape: "circularImage", image: img});
@@ -204,21 +203,19 @@
 		Node: function (node) {
 			return Object.keys(graph.nodes._data).indexOf(node.id) >= 0;
 		},
-		Edge : function(edge){
-				var [s,t] = [edge.from, edge.to]
-				for (var k in graph.edges._data) {
-					var from = graph.edges._data[k].from;
-					var to = graph.edges._data[k].to;
-					if ((s === from && t === to) || (s === to && t === from)) {
-						//console.log("edge " + s, t + "exists")
-						return true;
-					}
-				} //console.log("edge " + s, t + " do not exists")
-				return false;
-			}
-        }
-
-
+		Edge: function (edge) {
+			var [s, t] = [edge.from, edge.to]
+			for (var k in graph.edges._data) {
+				var from = graph.edges._data[k].from;
+				var to = graph.edges._data[k].to;
+				if ((s === from && t === to) || (s === to && t === from)) {
+					//console.log("edge " + s, t + "exists")
+					return true;
+				}
+			} //console.log("edge " + s, t + " do not exists")
+			return false;
+		}
+	}
 
 
 </script>
