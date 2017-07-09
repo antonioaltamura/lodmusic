@@ -14,6 +14,7 @@ SELECT ?name
 (GROUP_CONCAT(DISTINCT ?member; separator="(.)(.)") AS ?members)
 (GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
 (GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
+(GROUP_CONCAT(DISTINCT ?album; separator="(.)(.)") AS ?albums)
  ?origin
 ?caption
 WHERE{
@@ -21,6 +22,7 @@ VALUES ?s { <${req.query.uri}> }
   ?s a dbo:Band ;
        foaf:name ?name .
   OPTIONAL{?s dbo:abstract ?abstract } .
+  OPTIONAL{?album dbo:artist ?s } .
   OPTIONAL{?s dbo:genre ?genre } .
   OPTIONAL{?s dbp:website ?website} .
   OPTIONAL{?s dbo:associatedBand ?bandRelated} .
@@ -79,12 +81,14 @@ SELECT
 ?caption
 (GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
 (GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
+(GROUP_CONCAT(DISTINCT ?album; separator="(.)(.)") AS ?albums)
 WHERE
 {
 VALUES ?s { <${req.query.uri}> }
 	?s a umbelrc:MusicalPerformer;
     	foaf:name ?name.
  OPTIONAL{?s dbo:birthDate ?bDate}.
+ OPTIONAL{?album dbo:artist ?s } .
  OPTIONAL{?s dbo:abstract ?abstract}.
  OPTIONAL{?s dbo:thumbnail ?image}.
  OPTIONAL{?s dbo:associatedBand ?bandRelated} .
