@@ -24,6 +24,7 @@ VALUES ?s { <${req.query.uri}> }
   OPTIONAL{?s dbo:abstract ?abstract } .
   OPTIONAL{?album dbo:artist ?s } .
   OPTIONAL{?s dbo:genre ?genre } .
+  OPTIONAL{?s dbp:currentMembers ?member} .
   OPTIONAL{?s dbp:website ?website} .
   OPTIONAL{?s dbo:associatedBand ?bandRelated} .
   OPTIONAL{?s dbo:associatedMusicalArtist ?artistRelated} .

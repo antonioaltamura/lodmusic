@@ -45,12 +45,15 @@
             </h2>
             <div class="section-text">
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 mb-sm-50 mb-xs-30"> LODMusic is a project born for the Semantic Web course held at the University of Salerno.
-                        The purpose of this project is to create a web application to manage a music-based knowledge base.
+                    <div class="col-md-6 col-sm-6 mb-sm-50 mb-xs-30"> LODMusic is a project born for the Semantic Web
+                        course held at the University of Salerno.
+                        The purpose of this project is to create a web application to manage a music-based knowledge
+                        base.
                         The main feature of the project is the use of linked resources.
                     </div>
                     <div class="col-md-6 col-sm-6 mb-sm-50 mb-xs-30">
-                        Thanks to LODMusic, you can get information about your favorite artists or bands, music albums of all ages and songs, regardless of your favorite music genre.
+                        Thanks to LODMusic, you can get information about your favorite artists or bands, music albums
+                        of all ages and songs, regardless of your favorite music genre.
                         You can also extend the knowledge base by entering new resources.
                     </div>
                 </div>
@@ -88,8 +91,12 @@
                                     </div>
                                     <div class="local-scroll">
                                         <input type="hidden" id="uri" name="uri"/>
-                                        <button type="submit" formaction="resource" disabled class="submit-res btn btn-mod btn-w btn-large">Link it!</button>
-                                        <button type="submit" formaction="graph" disabled class="submit-graph btn btn-mod btn-w btn-large ">Graph it!</button>
+                                        <button type="submit" formaction="resource" disabled
+                                                class="submit-res btn btn-mod btn-w btn-large">Link it!
+                                        </button>
+                                        <button type="submit" formaction="graph" disabled
+                                                class="submit-graph btn btn-mod btn-w btn-large ">Graph it!
+                                        </button>
 
                                     </div>
                                 </form>
@@ -106,8 +113,8 @@
                 <div class="row">
                     <h3 class=" font-alt text-center">Our numbers</h3>
                     <div class="col-xs-6 col-sm-3">
-                        <div class="count-number">
-                            5306
+                        <div class="count-number band">
+                            loading..
                         </div>
                         <div class="text-center font-alt">
                             <div class="alt-features-icon"><i class="fa fa-users" aria-hidden="true"></i></div>
@@ -115,8 +122,8 @@
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-3">
-                        <div class="count-number">
-                            6973
+                        <div class="count-number artist">
+                            loading...
                         </div>
                         <div class="text-center font-alt">
                             <div class="alt-features-icon"><i class="fa fa-microphone" aria-hidden="true"></i></div>
@@ -124,8 +131,8 @@
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-3">
-                        <div class="count-number">
-                            29851
+                        <div class="count-number album">
+                            loading...
                         </div>
                         <div class="text-center font-alt">
                             <div class="alt-features-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
@@ -133,8 +140,8 @@
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-3">
-                        <div class="count-number">
-                            200800
+                        <div class="count-number albumTrack">
+                            loading...
                         </div>
                         <div class="text-center font-alt">
                             <div class="alt-features-icon"><i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
@@ -165,21 +172,24 @@
                             <div class="contact-item">
                                 <div class="ci-icon"><i class="fa fa-envelope"></i></div>
                                 <div class="ci-title font-alt"> Antonio Altamura</div>
-                                <div class="ci-text"><a href="mailto:antonioaltamura7@gmail.com">antonioaltamura7@gmail.com</a></div>
+                                <div class="ci-text"><a href="mailto:antonioaltamura7@gmail.com">antonioaltamura7@gmail.com</a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
                             <div class="contact-item">
                                 <div class="ci-icon"><i class="fa fa-envelope"></i></div>
                                 <div class="ci-title font-alt"> Mario Villani</div>
-                                <div class="ci-text"><a href="mailto:villani.mario90@gmail.com">villani.mario90@gmail.com</a></div>
+                                <div class="ci-text"><a href="mailto:villani.mario90@gmail.com">villani.mario90@gmail.com</a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
                             <div class="contact-item">
                                 <div class="ci-icon"><i class="fa fa-envelope"></i></div>
                                 <div class="ci-title font-alt"> Alessandra Zullo</div>
-                                <div class="ci-text"><a href="mailto:alessandra.zullo1@gmail.com">alessandra.zullo1@gmail.com</a></div>
+                                <div class="ci-text"><a href="mailto:alessandra.zullo1@gmail.com">alessandra.zullo1@gmail.com</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -192,7 +202,24 @@
 <%- include blocks/scripts %>
 <script>
 	$(function () {
+		var resources = ['band', 'artist', 'albumTrack', 'album'];
+		$.when(...resources.map(i => $.getJSON(`api/count/${i}`)))
+			.then(function (...arr) {
+				arr.forEach(function (r, i) {
+					$(".count-number." + resources[i]).html(r[0].count.value)
+				})
+			}).then(function () {
+			$(".couunt-number").appear(function () {
+				var count = $(this);
+				count.countTo({
+					from: 0,
+					to: count.html(),
+					speed: 1300,
+					refreshInterval: 60,
+				});
 
+			});
+		});
 		$("#autocomplete").autocomplete({
 			focus: function (event, ui) {
 				$("#autocomplete").val(ui.item.name);
@@ -217,8 +244,8 @@
 				$('.submit-res').removeAttr('disabled');
 
 				var type = $('#resourceType').val()
-				if(type === "band" || type === "artist")
-				    $('.submit-graph').removeAttr('disabled');
+				if (type === "band" || type === "artist")
+					$('.submit-graph').removeAttr('disabled');
 				return false;
 			}
 		}).autocomplete("instance")._renderItem = function (ul, item) {

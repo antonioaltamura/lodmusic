@@ -8,6 +8,7 @@ let express = require('express'),
 
 let index = require('./routes/index'),
 	autocomplete = require('./routes/api/autocomplete'),
+	count = require('./routes/api/count'),
 	api = require('./routes/api');
 
 let app = express();
@@ -24,6 +25,7 @@ app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 	.use('/', index)
 	.use('/api/autocomplete', autocomplete)
+	.use('/api/count', count)
 	.use('/api', api)
 
 	.use(function (req, res, next) {

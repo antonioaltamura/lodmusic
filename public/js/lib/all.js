@@ -32,15 +32,12 @@
     
     $(document).ready(function(){
         
-        $(window).trigger("resize");            
+        $(window).trigger("resize");
         init_classic_menu();
-        init_fullscreen_menu();
         init_side_panel();
         init_lightbox();
         init_parallax();
         init_shortcodes();
-        init_tooltips();
-        init_counters();
         init_wow();
     });
     
@@ -388,26 +385,7 @@
             }
             
         });
-        
-        // Accordion        
-        $(".accordion").each(function(){
-            var allPanels = $(this).children("dd").hide();
-            $(this).children("dd").first().slideDown("easeOutExpo");
-            $(this).children("dt").children("a").first().addClass("active");
-                        
-            $(this).children("dt").children("a").click(function(){        
-                var current = $(this).parent().next("dd");
-                $(".accordion > dt > a").removeClass("active");
-                $(this).addClass("active");
-                allPanels.not(current).slideUp("easeInExpo");
-                $(this).parent().next().slideDown("easeOutExpo");                
-                return false;                
-            });
-            
-         });
-        
-        
-        
+
         // Toggle
         var allToggles = $(".toggle > dd").hide();
         
@@ -429,142 +407,7 @@
         });
 
     }
-    
-    
-    
-    /* ---------------------------------------------
-     Tooltips (bootstrap plugin activated)
-     --------------------------------------------- */
-    
-    function init_tooltips(){
-    
-        $(".tooltip-bot, .tooltip-bot a, .nav-social-links a").tooltip({
-            placement: "bottom"
-        });
-        
-        $(".tooltip-top, .tooltip-top a").tooltip({
-            placement: "top"
-        });
-        
-    }
-    
-    
-    
-    /* ---------------------------------------------
-     Some facts section
-     --------------------------------------------- */
-    
-     function init_counters(){
-        $(".count-number").appear(function(){
-            var count = $(this);
-            count.countTo({
-                from: 0,
-                to: count.html(),
-                speed: 1300,
-                refreshInterval: 60,
-            });
-            
-        });
-    }
-    
 })(jQuery); // End of use strict
-
-/* ---------------------------------------------
-     Fullscreen menu
-   --------------------------------------------- */
-    
-    var fm_menu_wrap = $("#fullscreen-menu");
-    var fm_menu_button = $(".fm-button");
-    
-    function init_fullscreen_menu(){
-        
-        fm_menu_button.click(function(){
-            
-            if ($(this).hasClass("animation-process")){
-                return false;
-            }
-            else{
-                if ($(this).hasClass("active")) {
-                    $(this).removeClass("active").css("z-index", "2001").addClass("animation-process");;
-                    
-                    fm_menu_wrap.find(".fm-wrapper-sub").fadeOut("fast", function(){
-                        fm_menu_wrap.fadeOut(function(){
-                            fm_menu_wrap.find(".fm-wrapper-sub").removeClass("js-active").show();
-                            fm_menu_button.css("z-index", "1030").removeClass("animation-process");
-                            
-                        });
-                    });
-                    
-                    if ($(".owl-carousel").lenth) {
-                        $(".owl-carousel").data("owlCarousel").play();
-                    }
-                    
-                }
-                else {
-                    if ($(".owl-carousel").lenth) {
-                        $(".owl-carousel").data("owlCarousel").stop();
-                    }
-                    $(this).addClass("active").css("z-index", "2001").addClass("animation-process");
-                    
-                    fm_menu_wrap.fadeIn(function(){
-                        fm_menu_wrap.find(".fm-wrapper-sub").addClass("js-active");
-                        fm_menu_button.removeClass("animation-process");
-                    });
-                }
-                
-                return false;
-            }
-            
-        });
-        
-        $("#fullscreen-menu").find("a:not(.fm-has-sub)").click(function(){
-            
-            if (fm_menu_button.hasClass("animation-process")){
-                return false;
-            } 
-            else {
-                fm_menu_button.removeClass("active").css("z-index", "2001").addClass("animation-process");
-                    
-                fm_menu_wrap.find(".fm-wrapper-sub").fadeOut("fast", function(){
-                    fm_menu_wrap.fadeOut(function(){
-                        fm_menu_wrap.find(".fm-wrapper-sub").removeClass("js-active").show();
-                        fm_menu_button.css("z-index", "1030").removeClass("animation-process");
-                        
-                    });
-                });
-                
-                if ($(".owl-carousel").lenth) {
-                    $(".owl-carousel").data("owlCarousel").play();
-                }
-            }
-        });
-        
-        // Sub menu
-        
-        var fmHasSub = $(".fm-has-sub");
-        var fmThisLi;
-        
-        fmHasSub.click(function(){
-        
-            fmThisLi = $(this).parent("li:first");
-            if (fmThisLi.hasClass("js-opened")) {
-                fmThisLi.find(".fm-sub:first").slideUp(function(){
-                    fmThisLi.removeClass("js-opened");
-                    fmThisLi.find(".fm-has-sub").find(".fa:first").removeClass("fa-angle-up").addClass("fa-angle-down");
-                });
-            }
-            else {
-                $(this).find(".fa:first").removeClass("fa-angle-down").addClass("fa-angle-up");
-                fmThisLi.addClass("js-opened");
-                fmThisLi.find(".fm-sub:first").slideDown();
-            }
-            
-            return false;
-            
-        });
-      
-    }    
-    
 
 /* ---------------------------------------------
      Side panel
