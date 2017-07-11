@@ -151,8 +151,8 @@ ${node.image ? `<img src=" ${node.image}"/>` : ''}
 					if (!has.Node(node))
 						graph.nodes.add(node)
 					if (data.artistRelateds || data.bandRelateds) {
-						var artistRelateds = data.artistRelateds ? data.artistRelateds.value.split("(.)(.)") : [];
-						var bandRelateds = data.bandRelateds ? data.bandRelateds.value.split("(.)(.)") : [];
+						var artistRelateds = data.artistRelateds ? data.artistRelateds.value.split("|||") : [];
+						var bandRelateds = data.bandRelateds ? data.bandRelateds.value.split("|||") : [];
 						artistRelateds.concat(bandRelateds).forEach(function (rel_uri) {
 							$.ajax({
 								url: "/api/related",

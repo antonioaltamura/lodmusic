@@ -9,12 +9,12 @@ router.get('/band', function (req, res) {
 SELECT ?name
 ?image
 ?abstract
-(GROUP_CONCAT(DISTINCT ?website; separator="(.)(.)") AS ?websites)
-(GROUP_CONCAT(DISTINCT ?genre; separator="(.)(.)") AS ?genres)
-(GROUP_CONCAT(DISTINCT ?member; separator="(.)(.)") AS ?members)
-(GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
-(GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
-(GROUP_CONCAT(DISTINCT ?album; separator="(.)(.)") AS ?albums)
+(GROUP_CONCAT(DISTINCT ?website; separator="|||") AS ?websites)
+(GROUP_CONCAT(DISTINCT ?genre; separator="|||") AS ?genres)
+(GROUP_CONCAT(DISTINCT ?member; separator="|||") AS ?members)
+(GROUP_CONCAT(DISTINCT ?artistRelated; separator="|||") AS ?artistRelateds)
+(GROUP_CONCAT(DISTINCT ?bandRelated; separator="|||") AS ?bandRelateds)
+(GROUP_CONCAT(DISTINCT ?album; separator="|||") AS ?albums)
  ?origin
 ?caption
 WHERE{
@@ -48,9 +48,9 @@ router.get('/album', function (req, res) {
 	?name
 	?abstract
 	?releaseDate
-(GROUP_CONCAT(DISTINCT ?genre; separator="(.)(.)") AS ?genres)
-(GROUP_CONCAT(DISTINCT ?recordLabel; separator="(.)(.)") AS ?recordLabels)
-(GROUP_CONCAT(DISTINCT ?artist; separator="(.)(.)") AS ?artists)
+(GROUP_CONCAT(DISTINCT ?genre; separator="|||") AS ?genres)
+(GROUP_CONCAT(DISTINCT ?recordLabel; separator="|||") AS ?recordLabels)
+(GROUP_CONCAT(DISTINCT ?artist; separator="|||") AS ?artists)
 WHERE{
 <${req.query.uri}> a schema:MusicAlbum;
 			foaf:name ?name;
@@ -80,9 +80,9 @@ SELECT
 ?image
 ?origin
 ?caption
-(GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
-(GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
-(GROUP_CONCAT(DISTINCT ?album; separator="(.)(.)") AS ?albums)
+(GROUP_CONCAT(DISTINCT ?artistRelated; separator="|||") AS ?artistRelateds)
+(GROUP_CONCAT(DISTINCT ?bandRelated; separator="|||") AS ?bandRelateds)
+(GROUP_CONCAT(DISTINCT ?album; separator="|||") AS ?albums)
 WHERE
 {
 VALUES ?s { <${req.query.uri}> }
@@ -115,9 +115,9 @@ router.get('/albumTrack', function (req, res) {
         res.status(400).json({message: 'No query param'});
     sparql.query(`
 SELECT DISTINCT ?name ?abstract ?releaseDate 
-(GROUP_CONCAT(DISTINCT ?recordLabel; separator="(.)(.)") AS ?recordLabels)
-(GROUP_CONCAT(DISTINCT ?artist; separator="(.)(.)") AS ?artists)
-(GROUP_CONCAT(DISTINCT ?album; separator="(.)(.)") AS ?albums)
+(GROUP_CONCAT(DISTINCT ?recordLabel; separator="|||") AS ?recordLabels)
+(GROUP_CONCAT(DISTINCT ?artist; separator="|||") AS ?artists)
+(GROUP_CONCAT(DISTINCT ?album; separator="|||") AS ?albums)
      WHERE
 {
   VALUES ?s { <${req.query.uri}> }
@@ -146,8 +146,8 @@ router.get('/related', function (req, res) {
         res.status(400).json({message: 'No query param'});
     sparql.query(`
 SELECT DISTINCT ?name ?image ?abstract ?type
-(GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
-(GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
+(GROUP_CONCAT(DISTINCT ?artistRelated; separator="|||") AS ?artistRelateds)
+(GROUP_CONCAT(DISTINCT ?bandRelated; separator="|||") AS ?bandRelateds)
 WHERE {
   VALUES ?q {<${req.query.uri}>}
   { ?q a umbelrc:MusicalPerformer } UNION { ?q a dbo:Band }.

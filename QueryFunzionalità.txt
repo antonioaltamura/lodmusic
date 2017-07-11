@@ -6,8 +6,8 @@ PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>
 
 SELECT DISTINCT  ?name ?bDate ?abstract ?image  ?origin ?caption
-(GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
-(GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
+(GROUP_CONCAT(DISTINCT ?artistRelated; separator="|||") AS ?artistRelateds)
+(GROUP_CONCAT(DISTINCT ?bandRelated; separator="|||") AS ?bandRelateds)
 
 WHERE
 {
@@ -32,9 +32,9 @@ PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>
 
 SELECT DISTINCT  ?name ?bDate ?abstract ?image  ?origin ?caption
-(GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
-(GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
-(GROUP_CONCAT(DISTINCT ?band; separator="(.)(.)") AS ?bands)
+(GROUP_CONCAT(DISTINCT ?artistRelated; separator="|||") AS ?artistRelateds)
+(GROUP_CONCAT(DISTINCT ?bandRelated; separator="|||") AS ?bandRelateds)
+(GROUP_CONCAT(DISTINCT ?band; separator="|||") AS ?bands)
 
 WHERE
 {
@@ -94,11 +94,11 @@ $param a dbo:Band ;
 SELECT ?name
 ?image
 ?abstract
-(GROUP_CONCAT(DISTINCT ?website; separator="(.)(.)") AS ?websites)
-(GROUP_CONCAT(DISTINCT ?genre; separator="(.)(.)") AS ?genres)
-(GROUP_CONCAT(DISTINCT ?member; separator="(.)(.)") AS ?members)
-(GROUP_CONCAT(DISTINCT ?artistRelated; separator="(.)(.)") AS ?artistRelateds)
-(GROUP_CONCAT(DISTINCT ?bandRelated; separator="(.)(.)") AS ?bandRelateds)
+(GROUP_CONCAT(DISTINCT ?website; separator="|||") AS ?websites)
+(GROUP_CONCAT(DISTINCT ?genre; separator="|||") AS ?genres)
+(GROUP_CONCAT(DISTINCT ?member; separator="|||") AS ?members)
+(GROUP_CONCAT(DISTINCT ?artistRelated; separator="|||") AS ?artistRelateds)
+(GROUP_CONCAT(DISTINCT ?bandRelated; separator="|||") AS ?bandRelateds)
 ?origin
 ?caption
 WHERE{
@@ -139,9 +139,9 @@ $param a schema:MusicAlbum;
   ?name
   ?abstract
   ?releaseDate
-(GROUP_CONCAT(DISTINCT ?genre; separator="(.)(.)") AS ?genres)
-(GROUP_CONCAT(DISTINCT ?recordLabel; separator="(.)(.)") AS ?recordLabels)
-(GROUP_CONCAT(DISTINCT ?artist; separator="(.)(.)") AS ?artists)
+(GROUP_CONCAT(DISTINCT ?genre; separator="|||") AS ?genres)
+(GROUP_CONCAT(DISTINCT ?recordLabel; separator="|||") AS ?recordLabels)
+(GROUP_CONCAT(DISTINCT ?artist; separator="|||") AS ?artists)
 WHERE{
 <${req.query.uri}> a schema:MusicAlbum;
       foaf:name ?name;
@@ -205,9 +205,9 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dbp: <http://dbpedia.org/property/>
 
 SELECT DISTINCT ?name ?abstract ?releaseDate 
-(GROUP_CONCAT(DISTINCT ?recordLabel; separator="(.)(.)") AS ?recordLabels)
-(GROUP_CONCAT(DISTINCT ?artist; separator="(.)(.)") AS ?artists)
-(GROUP_CONCAT(DISTINCT ?album; separator="(.)(.)") AS ?albums)
+(GROUP_CONCAT(DISTINCT ?recordLabel; separator="|||") AS ?recordLabels)
+(GROUP_CONCAT(DISTINCT ?artist; separator="|||") AS ?artists)
+(GROUP_CONCAT(DISTINCT ?album; separator="|||") AS ?albums)
      WHERE
 {
   

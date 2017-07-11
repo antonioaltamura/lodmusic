@@ -99,7 +99,7 @@
             if (data.results.bindings.length > 0) {
                 $.each(props, function (k, v) {
                     var value = v.value;
-                    var splitted = value.split("(.)(.)");
+                    var splitted = value.split("|||");
                     value = "";
                     splitted.forEach(function (entry) {
                         if (entry.match(/^http([s]?):\/\/.*/))
@@ -124,8 +124,8 @@
                 if (props.artistRelateds || props.bandRelateds) {
                     $('#related_wrapper').show();
                     var tmpl = $.templates("#relatedItem");
-                    var artistRelateds = props.artistRelateds ? props.artistRelateds.value.split("(.)(.)") : [];
-                    var bandRelateds = props.bandRelateds ? props.bandRelateds.value.split("(.)(.)") : [];
+                    var artistRelateds = props.artistRelateds ? props.artistRelateds.value.split("|||") : [];
+                    var bandRelateds = props.bandRelateds ? props.bandRelateds.value.split("|||") : [];
                     artistRelateds.concat(bandRelateds).forEach(function (uri) {
                         $.ajax({
                             url: "/api/related",
