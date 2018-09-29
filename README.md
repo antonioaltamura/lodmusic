@@ -1,6 +1,6 @@
 # LodMusic
 
-Progetto Web Semantico 2017.
+<img style="width:50%" src="public/images/LODMusic1.png" alt="LODMusic1"/>
 
 ----
 ## Installazione
@@ -36,3 +36,9 @@ Per debug sono stati stampati a schermo:
 * Antonio Altamura
 * Mario Villani
 * Alessandra Zullo
+
+<img style="width:50%" src="public/images/LODMusic2.png" alt="LODMusic2"/>
+<img style="width:50%" src="public/images/LODMusic3.png" alt="LODMusic3"/>
+<img style="width:50%" src="public/images/LODMusic4.png" alt="LODMusic4"/>
+<img style="width:50%" src="public/images/LODMusic5.png" alt="LODMusic5"/>
+
